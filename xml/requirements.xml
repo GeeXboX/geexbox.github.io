@@ -75,13 +75,7 @@ Voici donc ce qui peut être considéré comme une configuration typique / minimale
 * <use name="req-mkzftree"/> : this program is available from the zisofs-tools package and let you create compressed iso images.<br/>
 * <use name="req-cdrecord"/> : A command line CD writing tool cdrecord allows you to create CDs.<br/><br/>
 
-          Also, some modules need to be compiled in your kernel. To create DOS filesystems (standard boot CDROM filesystem), you need to add these modules into the Kernel <i>FileSystems</i> and <i>Block Device</i> menus :<br/><br/>
-* CONFIG_FAT_FS<br/>
-* CONFIG_MSDOS_FS<br/>
-* CONFIG_UMSDOS_FS<br/>
-* CONFIG_VFAT_FS<br/><br/>
-
-          You also need to have at least 500 MB of free disk space in order to build the GeeXboX properly.<br/><br/>
+          You also need to have at least 1.2 GB of free disk space in order to build the GeeXboX properly.<br/><br/>
       </content>
       <content lang="fr" title="Besoins Logiciel">
         Ceci n'est nécessaire que dans le cas où vous souhaiteriez construire ou personnaliser votre propre version de la GeeXboX. Avant toute chose, il vous faut savoir que la construction nécessite d'être faite sous un système GNU/Linux. De plus, certains paquetages sont requis, tels que : <br/><br/>
@@ -95,13 +89,7 @@ Voici donc ce qui peut être considéré comme une configuration typique / minimale
 * <use name="req-mkzftree"/> : ce programme est disponible dans le paquetage zisofs-tools et permet des créer des images iso compressées.<br/>
 * <use name="req-cdrecord"/> : Un logiciel de gravure de CD en ligne de commande.<br/><br/>
 
-          De plus, certains modules se doivent d'être compilés dans le noyau de l'hôte désirant créer une GeeXboX. En effet, afin de générer un système de fichier de type DOS (système standard d'amorçage des CDROM), vous devrez ajouter les modules suivants à votre noyau dans les sections <i>FileSystems</i> et <i>Block Device</i> :<br/><br/>
-* CONFIG_FAT_FS<br/>
-* CONFIG_MSDOS_FS<br/>
-* CONFIG_UMSDOS_FS<br/>
-* CONFIG_VFAT_FS<br/><br/>
-
-          Vous devez en outre disposer d'un minimum de 500 Mo d'espace disque disponible afin de construire la GeeXboX correctement.<br/><br/>
+          Vous devez en outre disposer d'un minimum de 1.2 Go d'espace disque disponible afin de construire la GeeXboX correctement.<br/><br/>
       </content>
     </subsection>
   </section>
