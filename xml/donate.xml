@@ -13,7 +13,7 @@
             <p><input type="hidden" name="item_name" value="Contribution to a free software"/></p>
             <p><input type="hidden" name="return" value="http://www.geexbox.org/"/></p>
             <p><input type="hidden" name="currency_code" value="EUR"/></p>
-            <p><input type="hidden" name="lc" value="US"></p>
+            <p><input type="hidden" name="lc" value="US"/></p>
             <p><input type="image" src="http://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"/></p>
 </form>
 
