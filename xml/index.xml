@@ -7,6 +7,17 @@
     <content lang="fr" title="Dernières Nouvelles ..."/>
 
     <subsection>
+      <content lang="en" title="GeeXboX's Forum Crashdown (12/10/03)">
+      As you might have noticed, GeeXboX's forum has been unreachable for last 10 days for an unknown problem with our PostgreSQL database. A severe error cause our host to completely purge this latter with unfortunately no existing backup :-( This means that the forum has been completely purged. All apologies for such a situation.<br/><br/>
+      All existing threads and registers have been lost, so that you just have to register once again to the forum (a weekly backup is now automatically done). To make you feel better, we just can say that the 0.96 release of GeeXboX is really bound to come, so just stay tuned :p<br/>
+      </content>
+      <content lang="fr" title="Crash dur Forum GeeXboX (10/12/03)">
+      Comme vous avez pu le constater, le forum GeeXboX est resté inaccesible depuis environ 10 jours pour un problème inconnu sur notre base de données PostgreSQL. Une erreur sérieuse a contraint notre hébergeur à procéder à un nettoyage complet de cette dernière, sans malheureusement que nous ayons la moindre sauvegarde :-( Ceci signifie que le forum a été complètement effacé. Toutes nos excuses pour une telle situaion.<br/><br/>
+      Tous les messages existants et autres enregistrements ont été perdus, de ce fait vous devrez à nouveau vous inscrire au forum (un processus de sauvegarde automatique hebdomadaire a été mis en place). Pour faire passer le pilule, nous vous annonçons simplement que la sortie de la version 0.96 de la GeeXboX est toute proche, restez à l'écoute :p<br/>
+      </content>
+    </subsection>
+
+    <subsection>
       <content lang="en" title="GeeXboX Halloween Edition : 0.95 (10/20/03)">
       Here it comes again ! GeeXboX releases take much and much time but add a full list of new features and bug fixes, as usual. This time, many compatibility problems have been solved and there's the so awaited support for soundcards digital output. Look at this quick changelog :<br/><br/>
 * Fix display problems with nVidia, SiS and Kyro graphic adapters.<br/>
