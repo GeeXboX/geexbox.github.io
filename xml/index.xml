@@ -7,7 +7,7 @@
     <content lang="fr" title="Dernières Nouvelles ..."/>
 
     <subsection>
-      <content lang="en" title="GeeXboX ReBirth : 0.95-1 (10/16/03)">
+      <content lang="en" title="GeeXboX Halloween Edition : 0.95 (10/16/03)">
       Here it comes again ! GeeXboX releases take much and much time but add a full list of new features and bug fixes, as usual. This time, many compatibility problems have been solved and there's the so awaited support for soundcards digital output. Look at this quick changelog :<br/><br/>
 * Fix display problems with nVidia, SiS and Kyro graphic adapters.<br/>
 * Support for multi-subbed OGM files.<br/>
@@ -26,7 +26,7 @@
 * Native support for QuickTime SVQ3, H264, ASV 1/2, Indeo, ATI VCR 1/2, and 3ivX codecs.<br/> 
 * GeeXboX can be booted under Debug mode.<br/>
       </content>
-      <content lang="fr" title="GeeXboX ReBirth : 0.95-1 (16/10/03)">
+      <content lang="fr" title="GeeXboX Halloween Edition : 0.95 (16/10/03)">
       La GeeXboX est à nouveau de retour ! La durée entre chaque nouvelle version de la GeeXboX s'allonge à chaque fois mais, il en va de même pour la liste des nouvelles fonctionnalités et des bugs corrigés, comme àl'accoutumée. Cette fois, de nombreux problèmes de compatibilité ont été résolus et l'on peut découvrir le support tant attendu pour les sorties numériques de cartes son. Voici donc un rapide descriptif des nouveautés :<br/><br/>
 * Correction des problèmes d'affichage avec les cartes graphiques nVidia, SiS et Kyro.<br/>
 * Support des fichiers OGM multi sous-titres.<br/>
