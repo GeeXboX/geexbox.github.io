@@ -38,12 +38,6 @@
   <define name="lnk-uclibc">
     <a href="http://www.uclibc.org"><b>uClibc</b></a>
   </define>
-  <define name="lnk-geexdb">
-    <a href="http://www.geexdb.net"><b>GeexDB</b></a>
-  </define>
-  <define name="lnk-beb59">
-    <a href="http://beb59.net/"><b>Hardware Compatibility List</b></a>
-  </define>
   <define name="lnk-intouch">
     <center>
       <a href="http://www.intouch.net/">
@@ -68,17 +62,6 @@
         <use name="lnk-intouch"/>
         InTouch N.V. est un fournisseur de services de communication indépendant, basé à Amsterdam, aux Pays-Bas. Fondé en 1994, InTouch se focalise sur l'approvisionnement de solutions aux besoins de communication spécifiques de ses clients, les guidant de la phase d'évaluation des besoins, au design, en passant par la phase d'implémentation et de gestion des infrastructures réseau et des systèmes. En étroite relation avec ses partenaires, la companie fournit des services de communication à ses clients.
       </content>               
-    </subsection>
-
-    <subsection label="geexbox_projects">
-      <content lang="en" title="GeeXboX Related Links ...">
-        * <use name="lnk-geexdb"/> : this website provides help for GeeXboX users. It contains many new unofficial themes and tutorials to help you customize your GeeXboX.<br/><br/>
-        * <use name="lnk-beb59"/> : this website provides you an unofficial compatibility list of supported hardware (video cards, sound, network ...).<br/><br/>
-      </content>
-      <content lang="fr" title="Liens relatifs à la GeeXboX ...">
-        * <use name="lnk-geexdb"/> : ce site web vous fournit une aide supplémentire pour les utilisateurs de la GeeXboX. Il contient de nouveaux thèmes non-officiels ainsi que des tutoriaux pour vous aider à personnaliser votre GeeXboX.<br/><br/>
-        * <use name="lnk-beb59"/> : ce site web vous fournit une liste non officielle de matériel testé compatible avec la GeeXboX (cartes vidéos, sons, réseau  ...).<br/><br/>
-      </content>
     </subsection>
 
     <subsection label="projects">
