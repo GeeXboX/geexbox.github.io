@@ -5,7 +5,7 @@
 /* this comment here. */
 
 body {
-        font-family : Verdana,Arial,Helvetica;
+        font-family : Verdana,Arial,Helvetica,sans-serif;
         margin-top: 6px;
         font-size: 11px;
         color: black;
@@ -46,12 +46,8 @@ body {
         text-align: justify;
 }
 
-#text h2, #text .resultat dt {
-	font-family: Georgia, "Times New Roman", Times, serif;
-        margin-left: 2%;
-}
-
 #text h2 {
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
 	border-color: #006;
         border-bottom-style: dotted;
 	border-width: 0px 0px 2px 0px;
@@ -61,7 +57,6 @@ body {
         text-align: left;
         color: #006;
 	font-size:130%;
-        float: rigth;
 }
 
 #text h4 {
@@ -97,6 +92,7 @@ body {
 }
 
 #menu {
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
         width: 16%;
         border: 2px solid black;
         border-right: 0;

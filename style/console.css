@@ -6,7 +6,7 @@
 
 body {
 	background-color: black;
-	color: lightgrey;
+	color: #d6d3d6;
 	font-family: monospace;
 }
 
@@ -96,7 +96,6 @@ a:visited {
 }
 
 #geexbox li, #ressources li, #feedback li {
-	display: table-cel;
 	display: inline;
 	list-style: none;
 	margin-right: 1em;
