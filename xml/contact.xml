@@ -14,6 +14,14 @@
       Dennis Roos<br/>
       Alexis Saettler<br/>
       Ville Skytta<br/>
+      Amir Shalem<br/>
+    </i>
+  </define>
+
+  <define name="author-design">
+    <i>
+      Mickaël Beugnier (GeeXboX logo)<br/>
+      Nicolas Staszak (<a href="http://perso.wanadoo.fr/nico.s/">PortFolio</a>)<br/>
     </i>
   </define>
 
@@ -46,12 +54,16 @@
       <content lang="en" title="Authors">
         <b>Core maintainers :</b><br/><br/>
         <use name="author-core"/><br/>
+        <b>Designers :</b><br/><br/>
+        <use name="author-design"/><br/>
         <b>Occasional contributors :</b><br/><br/>
         <use name="author-contrib"/>
       </content>
       <content lang="fr" title="Auteurs">
         <b>Développeurs principaux :</b><br/><br/>
         <use name="author-core"/><br/>
+        <b>Designers :</b><br/><br/>
+        <use name="author-design"/>
         <b>Contributeurs occasionnels :</b><br/><br/>
         <use name="author-contrib"/>
       </content>
