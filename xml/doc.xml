@@ -3,7 +3,7 @@
 
 <article>
   <define name="dl-codecs">
-    <a href = "http://www1.mplayerhq.hu/MPlayer/releases/codecs/essential-20040809.tar.bz2">archive</a>
+    <a href = "http://www.mplayerhq.hu/MPlayer/releases/codecs/essential-20041107.tar.bz2">archive</a>
   </define>
 
   <define name="ati-remote">
