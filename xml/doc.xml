@@ -2,6 +2,10 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
+  <define name="dl-codecs">
+    <a href = "http://www1.mplayerhq.hu/MPlayer/releases/codecs/essential-20040809.tar.bz2">archive</a>
+  </define>
+
   <section label="doc">
     <content lang="en" title="Documentation ..."/>
     <content lang="fr" title="Documentation ..."/>
@@ -311,7 +315,7 @@ et enfin, pour générer l'installator ; <br/>
 
 * <b>Add extra codecs</b> : Even if GeeXboX has now support for RealMedia and Windows Media 9 codecs, these laters are not rights free and we do not get authorization to provide them in the released ISO :-( So, you'll have to add them and regenerate the ISO if you want them to be included. Don't worry, we could hardly make easier !! Just add the following files to the <b>iso/GEEXBOX/codecs</b> generator's directory :<br/><br/>
 
-Please download this <a href = "http://www1.mplayerhq.hu/MPlayer/releases/codecs/extralite.tar.bz2">archive</a> which contains the RealMedia 8/9 (used to read the RV9-encoded movies for example) and Windows Media 9 (WMV9/WMA9) codecs. Only the files <i>atrc.so.6.0, cook.so.6.0, sipr.so.6.0, drv2.so.6.0, drv3.so.6.0, drv4.so.6.0</i> for RealMedia and <i>wma9dmod.dll and wmv9dmod.dll</i> for Windows Media are really usefull. The other ones can be dropped.<br/><br/>
+Please download this <use name="dl-codecs"/> which contains the RealMedia 8/9 (used to read the RV9-encoded movies for example) and Windows Media 9 (WMV9/WMA9) codecs. Only the files <i>atrc.so.6.0, cook.so.6.0, sipr.so.6.0, drv2.so.6.0, drv3.so.6.0, drv4.so.6.0</i> for RealMedia and <i>wma9dmod.dll and wmv9dmod.dll</i> for Windows Media are really usefull. The other ones can be dropped.<br/><br/>
 
 * <b>Modify MPlayer's launch options</b> :<br/>
  You just have to edit the contents fo the file <b>iso/GEEXBOX/etc/mplayer/mplayer.conf</b> and to generate the new ISO.<br/><br/>
@@ -327,7 +331,7 @@ Of course, many other changes are availables, such as changing the supported rem
 
 * <b>Rajouter des codecs supplémentaires</b> : Si la GeeXboX supporte désormais les codecs RealMedia et Windows Media 9, ces derniers ne sont pas libres de droit pour autant et nous ne disposons pas de l'autorisation permettant leur diffusion au sein de nos ISO pré compilées. Aussi, vous devrez les ajouter et régénérer l'ISO si votre souhait est de les voir inclus. Ne vous inquiétez pas, il n'y a rien de plus simple !! Ajoutez simplement les fichiers suivants au répertoire <b>iso/GEEXBOX/codecs</b> du générateur :<br/><br/>
 
-Veuillez télécharger cette <a href = "http://www1.mplayerhq.hu/MPlayer/releases/codecs/extralite.tar.bz2">archive</a>, qui contient les codecs RealMedia 8/9 (utilisés pour lire le format RV9 par exemple) et Windows Media 9 (WMV9/WMA9). Seuls les fichiers <i>atrc.so.6.0, cook.so.6.0, sipr.so.6.0, drv2.so.6.0, drv3.so.6.0, drv4.so.6.0</i> pour RealMedia et <i>wma9dmod.dll et wmv9dmod.dll</i> pour Windows Media sont réellement utiles.<br/><br/>
+Veuillez télécharger cette <use name="dl-codecs"/>, qui contient les codecs RealMedia 8/9 (utilisés pour lire le format RV9 par exemple) et Windows Media 9 (WMV9/WMA9). Seuls les fichiers <i>atrc.so.6.0, cook.so.6.0, sipr.so.6.0, drv2.so.6.0, drv3.so.6.0, drv4.so.6.0</i> pour RealMedia et <i>wma9dmod.dll et wmv9dmod.dll</i> pour Windows Media sont réellement utiles.<br/><br/>
 
 * <b>Modifier les options de lancement de MPlayer</b> : Il vous suffira pour cela de simplement modifier le contenu du fichier <b>iso/GEEXBOX/etc/mplayer/mplayer.conf</b> et à nouveau de regénérer l'ISO.<br/><br/>
 
