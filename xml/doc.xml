@@ -196,13 +196,15 @@ et enfin, pour générer l'installator ; <br/>
     <subsection label="mplayer">
       <content lang="en" title="MPlayer Documentation ...">
         The GeeXboX uses MPlayer. As this player is one of the most powerful media players, it can be started in several different ways. In the GeeXboX, two files are used to control MPlayer's options :<br/><br/>
-          * <i>./packages/MPlayer/menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</i><br/>
+          * <i>./packages/MPlayer/menu_lang.conf</i><br/>
           * <i>./packages/MPlayer/mplayer.conf</i><br/><br/>
 
-          The <b>menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> is used to generate the OSD Menu. You may have to modify it if you wish to add or remove items from the menu, or to change the items captions to fit your needs.<br/>
+          The <b>menu_<i>lang</i>.conf</b> is used to generate the OSD Menu. You may have to modify it if you wish to add or remove items from the menu, or to change the items captions to fit your needs.<br/>
           The <b>mplayer.conf</b> is related to MPlayer's lauching options. The default config file contains some of the following lines :<br/><br/>
           <b>vo=vesa:vidix,vesa</b><i> # Video Output driver (Use VidiX if available, VESA otherwise)</i><br/>
           <b>ao=alsa</b><i> # Audio Output driver</i><br/>
+          <b>alang=en,fr</b><i> # DVD Audio language : try first one then go to second if first does not exists and so on ...</i><br/>
+          <b>mixer-channel=Master</b><i> # Device to be controlled by volume keys</i><br/>
           <b>framedrop=yes</b><i> # When set to 'yes', MPlayer may skip decoding some frames if the video plays too slowly</i><br/>
           <b>vsync=yes</b><i> # Activate Vertical Synchronization</i><br/>
           <b>fs=yes</b><i> # Enable Fullscreen (need more CPU)</i><br/>
@@ -224,13 +226,15 @@ et enfin, pour générer l'installator ; <br/>
       </content>
       <content lang="fr" title="Documentation de MPlayer ...">
         La GeeXboX est principalement basée sur l'utilisation de MPlayer. Comme ce lecteur est l'un des lecteurs multimédia les plus performant, il accepte de nombreuses options de configuration et de lancement. Dans la GeeXboX, 2 fichiers sont utilisés pour gérer les options de MPlayer :<br/><br/>
-          * <i>./packages/MPlayer/menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</i><br/>
+          * <i>./packages/MPlayer/menu_lang.conf</i><br/>
           * <i>./packages/MPlayer/mplayer.conf</i><br/><br/>
 
-          Le fichier <b>menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> est utilisé pour générer le menu OSD. Vous pouvez le modifier si vous décider d'ajouter ou supprimer des options au menu actuel, ou encore pour le traduire dans votre langue favorite.<br/>
+          Le fichier <b>menu_<i>lang</i>.conf</b> est utilisé pour générer le menu OSD. Vous pouvez le modifier si vous décider d'ajouter ou supprimer des options au menu actuel, ou encore pour le traduire dans votre langue favorite.<br/>
           Le fichier <b>mplayer.conf</b> est directement lié au mode de lancement de MPlayer. La configuration proposée par défaut contient les lignes suivantes :<br/><br/>
           <b>vo=vesa:vidix,vesa</b><i> # Pilote de sortie Vidéo (Utilise le mode VidiX si disponible, le mode VESA sinon)</i><br/>
           <b>ao=alsa</b><i> # Pilote de sortie Audio</i><br/>
+          <b>alang=en,fr</b><i> # Piste audio par défaut pour les DVD : passe à la suivante, si la précédente n'est pas disponible et ainsid e suite ...</i><br/>
+          <b>mixer-channel=Master</b><i> # Périphérique contrôlé par les contrôles internes de volume</i><br/>
           <b>framedrop=yes</b><i> # Lorsqu'il est activé, MPlayer peut 'sauter' le décodage de certaines images si la vidéo apparaît trop lentement</i><br/>
           <b>vsync=yes</b><i> # Active ou non la synchronisation verticale de l'image</i><br/>
           <b>fs=yes</b><i> # Active le mode Plein-Ecran (nécessite davantage de puissance CPU)</i><br/>
