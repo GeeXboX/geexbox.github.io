@@ -28,7 +28,9 @@
       <meta http-equiv="Content-language" content="en"/>
       <xsl:call-template name="stylesheet"/>
       <link rel="icon" type="images/png" href="../img/geexbox-icon.png"/>
-      <script type="text/javascript" src="../style/styleswitcher.js"></script>
+      <script type="text/javascript" src="../style/styleswitcher.js">
+        <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
+      </script>
     </head>
 
     <body>

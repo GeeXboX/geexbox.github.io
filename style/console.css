@@ -25,11 +25,12 @@ body {
 }
 
 #language li + li:before {
-	content: " :: ";
+	content: "::";
 }
 
 #language a {
 	text-decoration: none;
+	margin: 0 0.5em 0 0.5em;
 }
 
 #logo img {
@@ -82,7 +83,12 @@ a:visited {
 #geexbox h2, #ressources h2, #feedback h2 {
 	font-size:110%;
 	display: table-cell;
+	display: inline;
 	padding-bottom: 5px;
+}
+
+#geexbox ul, #ressources ul, #feedback ul {
+	display: inline;
 }
 
 #geexbox ul, #ressources ul, #feedback ul {
@@ -90,8 +96,8 @@ a:visited {
 }
 
 #geexbox li, #ressources li, #feedback li {
-	display: inline;
 	display: table-cel;
+	display: inline;
 	list-style: none;
 	margin-right: 1em;
 }
@@ -117,7 +123,11 @@ a:visited {
 }
 
 #styles li + li:before {
-	content: " :: ";
+	content: "::";
+}
+
+#styles a {
+	margin: 0 0.5em 0 0.5em;
 }
 
 #ours {
