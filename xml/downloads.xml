@@ -5,17 +5,50 @@
   <define name="dl-iso-en">
     <a href="../releases/0.98/geexbox-0.98-en.iso">GeeXboX 0.98 - English Version</a>
   </define>
+  <define name="dl2-iso-en">
+    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98-en.iso">Mirror 2</a>
+  </define>
+
   <define name="dl-iso-fr">
     <a href="../releases/0.98/geexbox-0.98-fr.iso">GeeXboX 0.98 - French Version</a>
   </define>
+  <define name="dl2-iso-fr">
+    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98-fr.iso">Mirror 2</a>
+  </define>
+
+  <define name="dl-old-en">
+    <a href="../releases/"><b>GeeXboX old Releases</b></a>
+  </define>
+  <define name="dl2-old-en">
+    <a href="http://www2.geexbox.org/releases/"><b>Mirror 2</b></a>
+  </define>
+
+ <define name="dl-old-fr">
+    <a href="../releases/"><b>Anciennes versions de la GeeXboX</b></a>
+  </define>
+  <define name="dl2-old-fr">
+    <a href="http://www2.geexbox.org/releases/"><b>Mirror 2</b></a>
+  </define>
+
   <define name="dl-gen">
     <a href="../releases/0.98/geexbox-generator-0.98.tar.gz">GeeXboX 0.98 ISO generator</a>
   </define>
+  <define name="dl2-gen">
+    <a href="http://www2.geexbox.org/releases/0.98/geexbox-generator-0.98.tar.gz">Mirror 2</a>
+  </define>
+
   <define name="dl-src-lite">
     <a href="../releases/0.98/geexbox-0.98.tar.bz2">GeeXboX 0.98 Sources</a>
   </define>
+  <define name="dl2-src-lite">
+    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98.tar.bz2">Mirror 2</a>
+  </define>
+
   <define name="dl-src-full">
     <a href="../releases/0.98/geexbox-0.98-full.tar">GeeXboX 0.98 Sources</a>
+  </define>
+  <define name="dl2-src-full">
+    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98-full.tar">Mirror 2</a>
   </define>
 
   <define name="dl-md5">
@@ -28,43 +61,43 @@
     <subsection label="iso">
       <content lang="en" title="GeeXboX ISO">
         We're currently releasing 2 versions of the GeeXboX : French and English. The installator software has been included to the provided ISO, increasing them slightly. It's now you to choose the menu's langage that fits you best :<br/><br/>
-          * <b><use name="dl-iso-en"/> - 6.1 MB</b><br/>
-          * <b><use name="dl-iso-fr"/> - 6.1 MB</b><br/>
+          * <b><use name="dl-iso-en"/> - <use name="dl2-iso-en"/> - 6.1 MB</b><br/>
+          * <b><use name="dl-iso-fr"/> - <use name="dl2-iso-fr"/> - 6.1 MB</b><br/>
           <br/>
 
-          * <a href="../releases/"><b>GeeXboX old Releases</b></a><br/>
+          * <use name="dl-old-en"/> - <use name="dl2-old-en"/><br/>
           * <b><use name="dl-md5"/></b><br/>
       </content>
       <content lang="fr" title="Images ISO de la GeeXboX">
         Nous fournissons actuellement 2 versions de la GeeXboX : Française et Anglaise. Le logiciel d'installation a été inclus dans les ISO proposées, augmentant légèrement leur taille. Il ne vous reste plus qu'à choisir la langue de menu qui vous convient le mieux.<br/><br/>
-          * <b><use name="dl-iso-en"/> - 6,1 Mo</b><br/>
-          * <b><use name="dl-iso-fr"/> - 6,1 Mo</b><br/>
+          * <b><use name="dl-iso-en"/> - <use name="dl2-iso-en"/> - 6,1 Mo</b><br/>
+          * <b><use name="dl-iso-fr"/> - <use name="dl2-iso-fr"/> - 6,1 Mo</b><br/>
           <br/>
 
-          * <a href="../releases/"><b>Anciennes versions de la GeeXboX</b></a><br/>
+          * <use name="dl-old-fr"/> - <use name="dl2-old-fr"/><br/>
           * <b><use name="dl-md5"/></b><br/>
       </content>
     </subsection>
     <subsection label="generator">
       <content lang="en" title="GeeXboX ISO Generator">
         With this package, it will be easy to modify the GeeXboX in a few seconds without having to build the sources. The generator produces an ISO image of the GeeXboX, ready to be burned on disc. This piece of software currently works under both GNU/Linux and Microsoft Windows 9x/NT/2k/XP systems.<br/><br/>
-          <b><use name="dl-gen"/> - 6.5 MB</b>
+          <b><use name="dl-gen"/> - <use name="dl2-gen"/> - 6.5 MB</b>
       </content>
       <content lang="fr" title="Générateur d'ISO GeeXboX">
         Avec ce paquetage, il vous sera facile de modifier la GeeXboX en quelques instants sans avoir à recompiler toutes les sources. Le générateur produit une image ISO de la GeeXboX prête à être gravée sur CD. Ce logiciel fonctionne sur les systèmes GNU/Linux et Microsoft Windows 9x/NT/2k/XP.<br/><br/>
-          <b><use name="dl-gen"/> - 6,5 Mo</b>
+          <b><use name="dl-gen"/> - <use name="dl2-gen"/> - 6,5 Mo</b>
       </content>
     </subsection>
     <subsection label="sources">
       <content lang="en" title="GeeXboX Sources">
         Here are the GeeXboX 0.98 sources. You both need the wget package and a connection to the Internet to compile your own GeeXboX. Indeed, most of the packages are directly donwloaded from the web while compiling the GeeXboX. So, here are the sources :<br/><br/>
-          <b><use name="dl-src-lite"/> (Lite Package - 103 kB)</b><br/>
-          <b><use name="dl-src-full"/> (Full Package - no more connection to the Internet needed - 71 MB)</b>
+          <b><use name="dl-src-lite"/> - <use name="dl2-src-lite"/> (Lite Package - 103 kB)</b><br/>
+          <b><use name="dl-src-full"/> - <use name="dl2-src-full"/> (Full Package - no more connection to the Internet needed - 71 MB)</b>
       </content>
       <content lang="fr" title="Sources de la GeeXboX">
         Voici les sources de la version 0.98 de la GeeXboX. Vous nécessitez à la fois le programme wget et une connection à Internet lors de la compilation de la première version des sources. En effet, la plupart des packages seront téléchargés à la volée au cours de la compilation. Voici donc les sources :<br/><br/>
-          <b><use name="dl-src-lite"/> (Paquetage Allégé - 103 kB)</b><br/>
-          <b><use name="dl-src-full"/> (Paquetage Complet - aucune connexion à Internet supplémentaire n'est requise - 71 MB)</b>
+          <b><use name="dl-src-lite"/> - <use name="dl2-src-lite"/> (Paquetage Allégé - 103 kB)</b><br/>
+          <b><use name="dl-src-full"/> - <use name="dl2-src-full"/> (Paquetage Complet - aucune connexion à Internet supplémentaire n'est requise - 71 MB)</b>
       </content>
     </subsection>
 
