@@ -14,10 +14,110 @@
   <define name="devel">
     <a href="../releases/devel/pre-0.99/">page</a>
   </define>          
+  <define name="dl-iso-en">
+    <a href="../releases/0.98.5/geexbox-0.98.5-en.iso">GeeXboX 0.98.5</a>
+  </define>
 
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
+
+    <subsection label="release_0.98.5">
+      <content lang="en" title="GeeXboX 0.98.5 (12/29/04)">
+Ho ho ho ... here comes a new GeeXboX release. As a tradition, many free software projects have decided to release on Christmas, so do we (with a little bit delay, just to be original :-). So, here's our gift to you to end up with 2004 : GeeXboX 0.98.5 !! Hum what ... you've said 0.98.5 ? Man ... where's 0.99 ?<br/>
+<br/>
+As we said before, the 0.99 release will come with a completely new interface (you can have a look at our Work in progress <use name="drafts"/>), which is not yet completely finished. But 4 monthes have last since last release and many work has been done from this date. You probably won't notice any big differences in terms of functionnalities by comparison to the old 0.98 release. The reason of it is quite simple : we did a major rewrite of our code, build toolkit and all major packages and there were that much deep changes that we needed to make some new release before adding the new interface.<br/>
+<br/>
+We really want to thank <i>Amir Shalem</i> who officially took his place to the GeeXboX development team few monthes ago and who made a huge part of this rewrite of GeeXboX. Many thanks to him.<br/>
+<br/>
+So, please use our last GeeXboX. Do not consider it as a revolution, it isn't. Please see it as an up-to-date release of the old 0.98 : coming with its new kernel, updated player and codecs, with a better support for video cards and better handling of fonts and languages and with an easier than ever way to install it on disk.<br/>
+<br/>
+We hope you'll be enjoyed by this release, wish you an happy new year and hope you'll keep using GeeXboX in 2005 :-)<br/>
+<br/>
+<b>Detailled Changelog (relative to 0.98 release) :</b><br/>
+<br/>
+<b>System :</b><br/>
+- Switch to Linux kernel 2.6.9 (say goodbye to 2.4 series).<br/>
+- Switch from Linux Progress Patch to BootSplash as a splash screen.<br/>
+- Switch to uClibc CVS.<br/>
+- Switch to Samba 3.0.10<br/>
+<br/>
+<b>Player :</b><br/>
+- Switch to the new MPlayer 1.0pre6 (thanks for the Xmas present guys) : see its complete ChangeLog for more details.<br/>
+- Support for video Post Processing : features horizontal and vertical deblocking, deringing effects and auto luminance (disabled by default).<br/>
+- Use of a 24 bits per pixel display depth.<br/>
+- Playback speed increased with certain hardware (fewer CPU needed).<br/>
+<br/>
+<b>Drivers :</b><br/>
+- Switch to the latest ALSA 1.0.7 drivers and librairies.<br/>
+- Fix bugs with some audio chipsets (the output sound rate is now automatically adjusted to its best value).<br/>
+- Increased VESA compliance (hey we now supports 3Dfx and Intel i845/855/865 cards too !!)<br/>
+- Vidix support for EPIA MII boards (CLE266 revision) and S3 Savage chipsets.<br/>
+- Removed useless DirectFB drivers (as they were only used by 3Dfx cards, which are now supported in VESA mode).<br/>
+- Added WiFi drivers for RaLink rt25xx chipsets.<br/>
+- Removed drivers for ACX100 chipsets (need proprietary firmware to work).<br/>
+- Support for more ISA network adapters.<br/>
+<br/>
+<b>Internationalization :</b><br/>
+- Better menu fonts and subtitle fonts handling.<br/>
+- Support for asian fonts.<br/>
+<br/>
+<b>Miscellaneous :</b><br/>
+- Support for TV-Out on Intel i810/i815 cards.<br/>
+- Added new options to our win32 generator (even easier to use now).<br/>
+- Complete rewrite of the installator : it now uses GRUB as the main bootloader. It also has support for both FAT16/32 and EXT2/3 partitions to install GeeXboX to. Besides, there's no more need to install GeeXboX on first primary partition. And, to end up with this, it features an autodetection of other installed OS and installs a multiboot if requested.<br/>
+- Complete rewrite of the build toolkit (you should now be able to build GeeXboX from sources on every kind of GNU/Linux distro or from FreeBSD). It also features more optimization and an easier way to add new packages to the distro, following the toolkit rules.<br/>
+<br/>
+<use name="dl-iso-en"/> is available here and right now.<br/>
+      </content>
+      <content lang="fr" title="GeeXboX 0.98.5 (29/12/04)">
+Ho ho ho ... voici arriver une nouvelle version de la GeeXboX. Comme à l'accoutumée, de nombreux projets libres ont décidé de sortir une nouvelle version de leur produit pour Noël, ainsi faisons nous de même (avec un petit peu de retard quand même, pour rester marginal :-). Voici donc notre cadeau pour en finir en beauté avec l'année 2004 : la GeeXboX en version 0.98.5 !! Hum quoi ... que venez vous de dire ? 0.98.5 ? Mais nous attendions tous la 0.99 !!<br/>
+<br/>
+Comme nous l'avions dit précédemment, la version 0.99 débarquera avec une nouvelle interface complètement remaniée (dont vous pouvez voir un aperçu sur notre page <use name="drafts"/> de progression), qui, à l'heure actuelle n'est pas tout à fait terminée. Mais 4 mois se sont écoulés depuis notre dernière version publique et une quantité impressionnante de modifications ont été apportées depuis ce moment. Vous ne remarquerez cependant probablement pas de grosses différences en termes de fonctionnalités avec la précédente version 0.98. La raison de cela est fort simple : nous avons procédé à une réécriture massive de notre code, du processus de compilation, ainsi qu'une mise à jour de la majorité des paquetages et cela a donné lieu à de tels changements qu'il nous était nécessaire de sortir une nouvelle version avant d'inclure notre nouvelle interface.<br/>
+<br/>
+Nous souhaitons également remercier vivement <i>Amir Shalem</i>, qui a officiellement rejoint notre équipe de développement il y a quelques mois et qui est responsable d'une grande partie du travail de réécriture de code. Merci à lui.<br/>
+<br/>
+Veuillez donc utiliser notre dernière version de la GeeXboX. Ne la considérez pas comme une révolution, ce n'est pas le cas. Il s'agit plutôt d'une version au goût du jour de la vieillissante version 0.98 : débarquant avec son nouveau noyau, un lecteur multimédia et des codecs mis à jour, une meilleure prise en compte de la gestion des fontes, un meilleur support des cartes vidéo et une procédure facilitée d'installation sur disque.<br/>
+<br/>
+Nous espérons que vous allez apprécier cette nouvelle version, vous souhaitons à tous une excellente année 2005, et espérons vivement continuer à vous compter parmi les utilisateurs GeeXboX l'année prochaine :-)<br/>
+<br/>
+<b>Liste détaillée des modifications (depuis la version 0.98) :</b><br/>
+<br/>
+<b>Composants système :</b><br/>
+- Passage au noyau Linux 2.6.9 (nos adieux à la série 2.4).<br/>
+- Passage de Linux Progress Patch à BootSplash comme écran de démarrage.<br/>
+- Passage à la version CVS de la uClibc.<br/>
+- Mise à jour de Samba vers la version 3.0.10<br/>
+<br/>
+<b>Lecteur Multimédia :</b><br/>
+- Mise à jour vers le nouveau MPlayer 1.0pre6 (merci pour votre cadeau de Noël les gars) : voyez son ChangeLog complet pour plus de détails.<br/>
+- Support du traitement d'aimge (Post Processing) : incluant la correction des effets de blocs horizontaux et verticaux, des effets d'anneaux lors des dégradés et une correction automatique de la luminosité (inactif par défaut).<br/>
+- Utilisation d'un profondeur d'affichage de 24 bits.<br/>
+- Amélioration de la vitesse de rendu avec certaines cartes graphiques (un plus faible CPU sera alors requis).<br/>
+<br/>
+<b>Pilotes :</b><br/>
+- Passage à la suite de pilotes et librairies ALSA en version 1.0.7.<br/>
+- Correction de bugs avec certains chipsets audio (le taux d'échantillonnage en sortie est désormais automatiquement ajusté à sa meilleure valeur en fonction de la carte).<br/>
+- Une compatibilité accrue avec le mode d'affichage VESA (qui se traduit désormais par un support des cartes 3Dfx et Intel i845/855/865!!)<br/>
+- Support Vidix pour les cartes mères EPIA MII (révision du chipset CLE266) et des puces S3.<br/>
+- Suppression des pilotes DirectFB désormais obsolètes (dans la mesure où ils n'étaient utilisés que pour les cartes 3Dfx, désormais compatibles avec le mode VESA).<br/>
+- Ajout des pilotes pour cartes WiFi à base de chipset RaLink rt25xx.<br/>
+- Suppression des pilotes pour cartes à base de puce ACX100 (qui nécessitent un firmware propriétaire pour fonctionner).<br/>
+- Support de nouveaux controlleurs réseaux au format ISA.<br/>
+<br/>
+<b>Internationalisation :</b><br/>
+- Meilleure prise en compte des langues et de l'affichage des fontes du menu et des sous-titres.<br/>
+- Support des polices de type asiatique.<br/>
+<br/>
+<b>Divers :</b><br/>
+- Support de la sortie TV pour cartes à base de puces Intel i810/i815.<br/>
+- Ajout de nouvelles options au générateur d'ISO pour Windows (qui devient encore plus simple à utiliser).<br/>
+- Réécriture complète de l'installateur : ce dernier utilise désormais GRUB comme amorçeur par défaut. Il propose également le support des partitions à la fois FAT16/32 et EXT2/3 pour y installer la GeeXboX. De plus, il n'est plus nécessaire d'installer le système sur une partition primaire. Et, pour terminer, il propose une auto-détection des autres systèmes d'exploitations installés sur le disque et permet d'installer un multiboot si le besoin s'en fait ressentir.<br/>
+- Réécriture complète du schéma de compilation (vous devriez désormais être en mesure de compiler la GeeXboX depuis les sources à partir de n'importe quelle distribution GNU/Linux ou depuis FreeBSD). L'outil de compilation propose en outre des optimisations bien plus poussées ainsi qu'une procédure simplifiée d'ajout de paquetages au système, en suivant en ensemble de règles prédéfini.<br/>
+<br/>
+<use name="dl-iso-en"/> est disponible dès à présent sur tous les bons serveurs :-)<br/>
+      </content>
+    </subsection>
 
     <subsection label="pre_0.99">
       <content lang="en" title="Help with GeeXboX development : try devel releases">    
