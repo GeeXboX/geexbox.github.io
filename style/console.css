@@ -33,6 +33,11 @@ body {
 	margin: 0 0.5em 0 0.5em;
 }
 
+#language img {
+	border: 0;
+        vertical-align: middle;
+}
+
 #logo img {
 	border: 0;
 }

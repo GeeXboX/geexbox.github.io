@@ -5,7 +5,7 @@
   <logo link="index.html" src="../img/geexbox-logo.png"
         alt="GeeXboX" title="GeeXboX HomePage"/>
   <langs>
-    <text lang="en">english</text>
-    <text lang="fr">français</text>
+    <text lang="en" flag="../img/flag-en.gif">english</text>
+    <text lang="fr" flag="../img/flag-fr.gif">français</text>
   </langs>
 </banner>

@@ -194,7 +194,7 @@ body {
 #language {
 	position: absolute;
 	right: 1%;
-        top: 100px;
+        top: 90px;
 	text-align: right;
 	margin-right: 1em;
 	color: white;
@@ -203,6 +203,11 @@ body {
 #language li {
 	list-style: none;
         margin-bottom: 4px;
+}
+
+#language img {
+	border: 0;
+        vertical-align: middle;
 }
 
 #ours {
