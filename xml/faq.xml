@@ -65,10 +65,10 @@
     </subsection>
     <subsection>
       <content lang="en" title="Does GeeXboX supports 5.1 Audio Output ?">
-        Unfortunately, for now, only stereo audio output is supported. Besides, AC3 streams are converted to stereo :-( If you want true AC3 output, you'll have to add the <b>ac=hwac3,</b> line into <i>mplayer.conf</i>.
+        Unfortunately, for now, only stereo audio output is supported. Besides, AC3 streams are converted to stereo :-( If you want true AC3 output, you'll have to add the <b>ac=hwac3,</b> (warning: don't forget the comma) line into <i>mplayer.conf</i>.
       </content>
       <content lang="fr" title="La GeeXboX supporte elle la sortie audio 5.1 ?">
-        Malheureusement, à l'heure actuelle, seule la sortie stéréo est supportée. De plus, les flux AC3 sont convertis en stéréo :-( Si vous désirez réellement un son AC3, rajoutez simplement la ligne <b>ac=hwac3,</b> au fichier <i>mplayer.conf</i>.
+        Malheureusement, à l'heure actuelle, seule la sortie stéréo est supportée. De plus, les flux AC3 sont convertis en stéréo :-( Si vous désirez réellement un son AC3, rajoutez simplement la ligne <b>ac=hwac3,</b> (attention a ne pas oublier la virgule) au fichier <i>mplayer.conf</i>.
       </content>
     </subsection>
 
