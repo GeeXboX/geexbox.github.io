@@ -2,6 +2,10 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
+  <define name="bootsplash-link">
+    <a href="http://www.bootsplash.org/config.html">BootSplash</a>
+  </define>
+
   <section label="faq">
     <content lang="en" title="Frequently Asked Questions ..."/>
     <content lang="fr" title="Foire Aux Questions ..."/>
@@ -289,98 +293,44 @@
 
     <subsection label="bootlogo">
       <content lang="en" title="How can I modify the GeeXboX boot logo ?">
-        First of all, you have to choose or create a typical picture using your favorite graphical tools such as <i>The Gimp</i> ;-). To display a boot image, Linux uses the FrameBuffer. The GeeXboX does the same, adding the Linux Progress Patch (LPP) which displays a dynamic progress bar. For memory consumption reasons, you are limited to a 8-bit color depth picture. So, you'll have to create a Linux 2.4-compatible <b>linux_logo.h</b> file.<br/><br/>
+        First of all, you have to choose or create a typical picture using your favorite graphical tools such as <i>The Gimp</i> ;-). To display a boot image, Linux uses the FrameBuffer and a tool called <i>BootSplash</i>. The image used by the BootSplash can be any kind of image file. Simply remember that you can't change the boot logo using the generator, it has to be done by recompiling the full distribution.<br/><br/>
 
-          Now, just download the Linux Progress Patch package and get the Linux 2.4.21 archive (which can be found in <i>./sources/linux/</i>) and extract it twice (into linux-2.4.21 and linux-2.4.21.orig for example). Make sure you've checked that the LPP gives you a progress bar. So, you'll need to read the LPP's README file carefully. You'll then have to draw some special pixels on your picture, as explained. When it's done, create the <b>linux_logo.h</b> file.<br/><br/>
+          All that you have to do is to replace the current boot logo image by your own. To do so, simply modify the content of the theme archive. You image file has no more restiction other than being at a resolution of 800x600 pixels using a 24 bits depth. Once you got your file, simply save it in JPEG format, name it <i>bootsplash-800x600.jpeg</i> and replace the current one.<br/><br/>
 
-          In order to do that, you'll need the <i>ImageMagick</i> and <i>FbLogo</i> packages. Now, just follow the next steps :<br/><br/>
-          * <b>convert -colors 223 -dither -resize 640x480 inputimage image.png </b><br/>
-          * <b>fblogo image.png linux_logo.h</b><br/>
-          <br/>
+          You also need to edit the <i>bootsplash-800x600.cfg</i> contained in the theme archive. This file describes the image properties, such as the position and color of the loading bar. Even if this file contains many options only the ones about the progress bar are really meaningful. Here's a sample of this options.<br/><br/>
 
-          Then, you'll have to write down the coordinates and size of the progress bar. Decide where to put the text and where to put the error/warning icons. You can modify the length of the text, too. Remember to write down your logo dimensions. Read the LPP documentation and create the required file called <b>definitions</b>, describing all of your customizations. This file may contain something like this : <br/><br/>
-          
-          <b>
-          #define PROGRESS_BAR_X      120<br/>
-          #define PROGRESS_BAR_Y      440<br/>
-          #define PROGRESS_CORNER_X   640<br/>
-          #define PROGRESS_CORNER_Y   480<br/>
-          #define PROGRESS_VERTICALLY 0<br/>
-          #define REVERSE_DIRECTION   0<br/>
-          #define TEXT_X              220<br/>
-          #define TEXT_Y              460<br/>
-          #define MAX_TEXT_LEN        27<br/>
-          #define MESSAGE_LENGTH      27<br/>
-          #define ICON_X              540<br/>
-          #define ICON_Y              425<br/>
-          #define LOGO_H              480<br/>
-          #define LOGO_W              640<br/>
-          </b><br/>
+<b>
+# progress bar<br/>
+box silent inter 224 393 224 404 #fd8100<br/>
+box silent       224 393 601 404 #fd8100<br/>
+box        inter 224 393 224 404 #fd8100<br/>
+box              224 393 601 404 #fd8100<br/>
+box noover       110  20 680 500 #333333E0<br/>
+</b><br/>
 
-          Here you have to modify your kernel with the curent LPP patch (that's the easiest way to achieve this). So, just apply the patch and replace the LPP files with the newly created ones. Just do the following :<br/><br/>
+For a complete list of available options of this config file and documentation, please see the <use name="bootsplash-link"/> documentation.<br/><br/>
 
-          * <b>bunzip2 patch-linux-lpp.bz2</b><br/>
-          * <b>cd linux-2.4.21 </b><br/>
-          * <b>patch -Np1 &lt; patch-linux-lpp</b><br/>
-          * <b>mv linux_logo.h ./linux-2.4.21/include/linux/linux_logo_640x480.h</b><br/>
-          * <b>mv definitions ./linux-2.4.21/drivers/video/fbprogress.h</b><br/>
-          <br/>
-
-          Ok, you've just finished patching the kernel with LPP ;-). What you have to do now (and this will be the last thing ;-) is to generate a GeeXboX patch ;-). The resulted patch will be applied to a safe kernel archive to build the GeeXboX. So, just go to where you've extracted the Linux archive twice. The <i>linux-2.4.21</i> should have been modified by the LPP and the <i>linux-2.4.0.orig</i> directory should be theoritically safe. So, just do : <br/><br/>
-
-          * <b>diff -Naur linux-2.4.21.orig linux-2.4.21 &gt; patch-linux-lpp</b><br/>
-          * <b>bzip2 patch-linux-lpp</b><br/>
-          * <b>move patch-linux-lpp.bz2 into ./sources/linux</b><br/>
-          <br/>
-          
-          Hey, you know what ? I think you've finished with the LPP patch ;-) Sorry, it was long and difficult but by doing it this way, you may understand how hard it could be to generate a complete OS like GeeXboX ;-)
+Once all of this is done, simply replace the current theme's files by the 2 ones you've just created and start building the distribution.
       </content>
       <content lang="fr" title="Comment puis - je modifier la logo de démarrage de la GeeXboX ?">
-        En premieur lieu, vous devez choisir ou créer une image en utilisant votre logiciel de dessin préféré tel que <i>The Gimp</i> ;-). Pour afficher une image de démarrage, Linux utilises le FrameBuffer. La GeeXboX fait de même, en y rajoutant le Linux Progress Patch (LPP) qui permet d'afficher une barre de porgression du chargement du système. Pour des raisons de consommation mémoire, vous êtes limité à une profondeur de 8 bits. Ainsi, la seule chose que vous ayez à faire, sera de crée un fichier <b>linux_logo.h</b> compatible avec les noyaux de la série 2.4.<br/><br/>
+        En premier lieu, vous devez choisir une image ou en créer une au moyen de n'importe quel outil graphique tel que <i>The Gimp</i> ;-). Pour afficher une image au démarrage, Linux Linux utilise le FrameBuffer ainsi qu'une extension appelée <i>BootSplash</i>. L'image utilisée par BootSplash peut être n'importe quel type d'image. Veuillez simplement garder à l'esprit que vous ne pouvez pas changer l'image de démarrage via le generator et qu'il vous faudra absolument recompiler la distribution complètement.<br/><br/>
 
-          Maintenant, téléchargez simplement le paquetage du Linux Progress Patch et récupérez l'archive de Linux 2.4.21 (elle est présente dans <i>./sources/linux/</i>) et extraiyez là en double exemplaire (dans linux-2.4.21 et linux-2.4.21.orig par exemples). Vous aurez probablement remarqué que le LPP vous procure une barre de progression. Il vous sera donc nécessaire de lire attentivement la fichier README de l'archive LPP. Vous aurez alors à dessiner sur votre image certains pixels particuliers, comme cela est expliqué. Une fois terminé, créez le fichier <b>linux_logo.h</b> file.<br/><br/>
+          Tout ce que vous avez à faire est de remplacer l'image actuellement utilisé dans notre thème par votre propre image. Pour ce faire, editez simplement le contenu de l'archive du thème. Votre image n'a pas d'autres restictions que d'être à une résolution de 800x600 pixels et avec un profondeur de 24 bits. Une fois que vous disposez de votre image, sauvegardez la au format JPEG, nommez la <i>bootsplash-800x600.jpeg</i> et remplacez le fichier actuel.<br/><br/>
 
-          Pour ce faire, vous aurez besoin des paquetages <i>ImageMagick</i> et <i>FbLogo</i>. Suivez simplement les étapes suivantes :<br/><br/>
-          * <b>convert -colors 223 -dither -resize 640x480 imageoriginale image.png </b><br/>
-          * <b>fblogo image.png linux_logo.h</b><br/>
-          <br/>
+          Vous aurez également besoin de modifier le contenu du fichier <i>bootsplash-800x600.cfg</i> contenu dans l'archive du même thème. Ce fichier décrit les propriétés de votre image, comme par exemple la position et couleur de la barre de progression. Même si ce fichier comporte de nombreuses options, seules celles concernant la barre de progression sont réellement significatives. Voici un aperçu des options que vous pourrez être amenés à modifier.<br/><br/>
 
-          Maintenant, notez les coordonnées et la taille de la barre de progression. Choisissez où vous désirez mettre le texte et les icônes d'erreurs/avertissement. Vous pouvez également modifier la taille du texte. Lisez la documentation fournie avec le LPP et créez le fichier appelé <b>definitions</b>, décrivant toutes vos modifications. Ce fichier devrait contenir quelque chose comme ce qui suit : <br/><br/>
-          
-          <b>
-          #define PROGRESS_BAR_X      120<br/>
-          #define PROGRESS_BAR_Y      440<br/>
-          #define PROGRESS_CORNER_X   640<br/>
-          #define PROGRESS_CORNER_Y   480<br/>
-          #define PROGRESS_VERTICALLY 0<br/>
-          #define REVERSE_DIRECTION   0<br/>
-          #define TEXT_X              220<br/>
-          #define TEXT_Y              460<br/>
-          #define MAX_TEXT_LEN        27<br/>
-          #define MESSAGE_LENGTH      27<br/>
-          #define ICON_X              540<br/>
-          #define ICON_Y              425<br/>
-          #define LOGO_H              480<br/>
-          #define LOGO_W              640<br/>
-          </b><br/>
+<b>
+# progress bar<br/>
+box silent inter 224 393 224 404 #fd8100<br/>
+box silent       224 393 601 404 #fd8100<br/>
+box        inter 224 393 224 404 #fd8100<br/>
+box              224 393 601 404 #fd8100<br/>
+box noover       110  20 680 500 #333333E0<br/>
+</b><br/>
 
-          Vous avez maintenant à modifier votre noyau avec le patch LPP actuel (c'est la façon la plus simple de procéder). Ainsi, appliquez simplement le patch et remplacez les fichiers du LPP avec ceux nouvellement crées. Procédez comme suit :<br/><br/>
+Pour une liste complète et détaillée de toutes les options disponibles pour ce fichier de configuration, veuillez consulter la documentation de <use name="bootsplash-link"/>.<br/><br/>
 
-          * <b> bunzip2 patch-linux-lpp.bz2 </b><br/>
-          * <b> cd linux-2.4.21 </b><br/>
-          * <b> patch -Np1 &lt; patch-linux-lpp </b><br/>
-          * <b> mv linux_logo.h ./linux-2.4.21/include/linux/linux_logo_640x480.h </b><br/>
-          * <b> mv definitions ./linux-2.4.21/drivers/video/fbprogress.h </b><br/>
-          <br/>
-
-          Ok, nous en avons fini avec le patch LPP du noyau ;-). Ce qu'il vous reste à faire (et ce sera la dernière chose ;-), c'est de générer un patch pour la GeeXboX ;-). En effet, le patch en résultant sera appliqué sur un noyau non modifié pour reconstruire la GeeXboX. Ainsi, allez simplement là où vous avez extrait votre archive de Linux en double exemplaires. Le répertoire <i>linux-2.4.21</i> devrait avoir été modifié par le patch LPP tandis que le répertoire <i>linux-2.4.0.orig</i> devrait théoriquement être inchangé. Faites donc : <br/><br/>
-
-          * <b>diff -Naur linux-2.4.21.orig linux-2.4.21 &gt; patch-linux-lpp</b><br/>
-          * <b>bzip2 patch-linux-lpp</b><br/>
-          * <b>move patch-linux-lpp.bz2 into ./sources/linux</b><br/>
-          <br/>
-          
-          Vous savez quoi ? Vous venez d'en finir avec le patch LPP ;-) Désolé, c'était long et difficile mais, par cette occasion, vous êtes peut être à même de comprendre à quel point cela a été difficile de créer un système complet comme la GeeXboX ;-)
+Une fois tout ceci temriné, remplacez les fichiers présents dans l'archive du thème par les 2 que vous venez de créer et commencez à compiler votre distribution.
       </content>
     </subsection>
 
