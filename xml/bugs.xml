@@ -2,6 +2,10 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
+  <define name="link-bugzilla">
+    <a href="http://bugs.geexbox.org/">BugZilla</a>
+  </define>
+
   <section label="bugs_todo">
     <content lang="en" title="Bugs / TODO ..."/>
     <content lang="fr" title="Bugs / Correctifs ..."/>
@@ -12,6 +16,12 @@
 * <b>Display Bug on Matrox cards in high res</b> : these cards don't seem to accept video with a width greater than 1024 pixels.<br/><br/>
 
 * <b>Bug with DVD autoplay on DXR3</b> : When using DXR3 cards, the Autoplay feature prevent DVD from working. You have to press the 'Q' key to exit after DVD insertion and then use the menu to launch the DVD again.<br/><br/>
+
+Reporting new bugs can also be done through our bug tracking system, which is using <use name="link-bugzilla"/>. If you encounter a bug with GeeXboX you can now do a bug report through this interface.<br/><br/>
+
+<b>PLEASE use it as a bug report tools only and not for describing your problems, your life, your hardware, or asking dumb questions such as "Why does my system not work ? How do I burn a CD ... I can't boot ...".</b><br/><br/>
+
+It's a real bug report tool, not a new forum. There will be no answer to reported bugs, only bug fixes. And remember that useless reports will be trashed.<br/><br/>
       </content>
       <content lang="fr" title="Bugs connus ...">
         Malheureusement, la GeeXboX n'est pas dépourvue de bugs :-( Ne vous inquiétez pas pour autant, ils ne sont pas réellement génants et, dans la mesure où ils sont connus, cela signifie qu'ils seront bien corrigés un jour ;-). Les principaux bugs connus sont :<br/><br/>
@@ -19,6 +29,12 @@
 * <b>Bug d'affichage sur cartes Matrox en hautes résolution</b> : ces dernières ne semblent pas accepter les vidéos d'une largeur supérieure à 1024 pixels.<br/><br/>
 
 * <b>Bug avec la fonction d'autoplay des DVD avec les cartes DXR3</b> : Lorsque vous utilisez une carte DXR3, la fonction d'autoplay empêche la lecture des DVD. Il vous est nécessaire d'appuyer manuellement sur la touche 'Q' pour quitter après insertion du disque et d'ensuite réutiliser le menu pour relancer la lecture.<br/><br/>
+
+Si vous souhaitez signaler un bug lors de l'utilisation de la GeeXboX, vous pouvez le faire via notre système de suivi de bugs (en anglais uniquement) qui utilise <use name="link-bugzilla"/>. Si vous rencontrez un problème ou bug génant dans l'utilisation de la GeeXboX, vous pouvez le signaler via cette interface.<br/><br/>
+
+<b>ATTENTION à ne pas utiliser cette interface pour y décrire vos problèmes personnels, votre incompétence à lire une FAQ, votre nouveau matériel ou à y poser des questions récurrentes du genre "Pourquoi mon système ne fonctionne pas ? Comment je grave un CD etc ...".</b><br/><br/>
+
+Il s'agit donc d'un véritable outil de rapport de bugs pas d'un second forum prêt à être pollué. Il n'y aura aucune réponse aux bugs rapportés, simplement une résolution. Les rapports sans intérêt ou du genre décrit plus haut seront immédiatement supprimés.<br/><br/>
       </content>
     </subsection>
     <subsection label="todo">
