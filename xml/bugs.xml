@@ -11,7 +11,7 @@
     <content lang="fr" title="Bugs / Correctifs ..."/>
     <subsection label="bugs">
       <content lang="en" title="Known Bugs ...">
-        Unfortunately, GeeXboX is not bug-free :-( Don't worry, they're not really anoying and, as they're known to us, it means that they'll be corrected some day ;-). The main known bugs are :<br/><br/>
+        Unfortunately, GeeXboX is not bug-free :-( Don't worry, they're not really annoying and, as they're known to us, it means that they'll be corrected some day ;-). The main known bugs are :<br/><br/>
 
 * <b>Display Bug on Matrox cards in high res</b> : these cards don't seem to accept video with a width greater than 1024 pixels.<br/><br/>
 

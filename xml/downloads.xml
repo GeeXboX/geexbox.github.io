@@ -99,7 +99,7 @@
     <content lang="fr" title="Téléchargements ..."/>
     <subsection label="iso">
       <content lang="en" title="GeeXboX ISO">
-        We're currently releasing 2 versions of the GeeXboX : French and English. The installer software includes the original ISO, increasing the size slightly. It's now up to you to choose the menu's langage that fits you best :<br/><br/>
+        We're currently releasing 2 versions of the GeeXboX : French and English. The installer software includes the original ISO, increasing the size slightly. It's now up to you to choose the menu's language that fits you best :<br/><br/>
           * <b><use name="dl-iso-en"/> - <use name="dl1-iso-en"/> - <use name="dl2-iso-en"/> - <use name="dl3-iso-en"/> - 6.2 MB</b><br/>
           * <b><use name="dl-iso-fr"/> - <use name="dl1-iso-fr"/> - <use name="dl2-iso-fr"/> - <use name="dl3-iso-fr"/> - 6.2 MB</b><br/>
           <br/>

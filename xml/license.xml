@@ -24,7 +24,7 @@
 
     <subsection label="license">
       <content lang="en" title="The GPL GeeXboX License">
-        GeeXboX is more than just a software, it's a complete Linux distribution, including dozens of software.<br/>All the programs and librairies used by the GeeXboX are protected by their respective licenses.<br/>They are all free software and most of them are covered by the GNU General Public Licence.<br/><br/>
+        GeeXboX is more than just a software, it's a complete Linux distribution, including dozens of software.<br/>All the programs and libraries used by the GeeXboX are protected by their respective licenses.<br/>They are all free software and most of them are covered by the GNU General Public Licence.<br/><br/>
 
 The GeeXboX itself, meaning all the scripts which are used in the building toolkit, configuration files, init files, logos but also all the patches that have been added to existent software (in a simple word, all that is included in the GeeXboX full archive) are covered by the GNU General Public Licence.<br/><br/>
 
