@@ -9,18 +9,28 @@
     <a href="http://www.geexbox.org/mailman/listinfo/devel"><b>page d'administration</b></a>
   </define>
 
-  <define name="ct-devel-archive1-en">
+  <define name="ct-devel-archive-en">
     <a href="http://www.geexbox.org/pipermail/devel/"><b>here</b></a>
   </define>
-  <define name="ct-devel-archive2-en">
-    <a href="http://listes.tuxfamily.org/?A=LIST&amp;L=devel_geexbox.org"><b>here</b></a>
-  </define>
-
-  <define name="ct-devel-archive1-fr">
+  <define name="ct-devel-archive-fr">
     <a href="http://www.geexbox.org/pipermail/devel/"><b>cette page</b></a>
   </define>
-  <define name="ct-devel-archive2-fr">
-    <a href="http://listes.tuxfamily.org/?A=LIST&amp;L=devel_geexbox.org"><b>celle-ci</b></a>
+
+  <define name="ct-gnu-arch">
+    <a href="http://www.gnu.org/software/gnu-arch/">GNU Arch</a>
+  </define>
+  <define name="ct-geexbox-arch">
+    <a href="http://www.geexbox.org/cgi/viewarch.sh">GeeXboX Web-Arch</a>
+  </define>
+
+  <define name="ct-tla-register">
+    tla register-archive devel@geexbox.org--2004 http://www.geexbox.org/arch
+  </define>
+  <define name="ct-tla-get">
+    tla  get -A devel@geexbox.org--2004 geexbox--main--1
+  </define>
+  <define name="ct-tla-update">
+    tla update
   </define>
 
   <section label="dev">
@@ -28,29 +38,36 @@
     <content lang="fr" title="Developpeurs ..."/>
 
     <subsection label="cvs">
-      <content lang="en" title="GeeXboX CVS">
-        We've decided to provide you a Web-CVS access. It will help developpers to easily add patches and fixes to the distribution. Moreover, you can also try pre-released versions of the GeeXboX and help us to find and correct bugs. Be ware that the provided CVS can be modified frequently and MUST be consider as UNSTABLE release. We won't provide any support for this release and can't be responsible for any damage or data loss.<br/><br/>
+      <content lang="en" title="GeeXboX Arch">
+        <use name="ct-gnu-arch"/> is a revision control system, similar in purpose to tools such as CVS, SCCS, and Subversion. It is used to keep track of the changes made to a source tree and to help programmers combine and otherwise manipulate changes made by multiple people or at different times.<br/><br/>
 
-          There's currently 2 ways from accesing our CVS Tree : via command-line or Web-CVS (to just have a look to some changes on a specific file for example). You can directly access to the Web-CVS with your browser from :<br/><br/>
+We've decided to provide you a Web-Arch access. It will help developpers to easily add patches and fixes to the distribution. Moreover, you can also try pre-released versions of the GeeXboX and help us to find and correct bugs. Be aware that the provided Arch can be modified frequently and MUST be consider as UNSTABLE release. We won't provide any support for this release and can't be responsible for any damage or data loss.<br/><br/>
 
-<b><a href="http://www.geexbox.org/viewcvs/">GeeXboX Web-CVS</a></b><br/><br/>
+          There's currently 2 ways from accesing our Arch Tree : via command-line or Web-Arch (to just have a look to some changes on a specific file for example). You can directly access to the Web-Arch with your browser from :<br/><br/>
 
-          In order to access to our CVS via command line, create and go to a new directory and do the following (be sure to have installed the SubVersion package) :<br/><br/> 
+<b><use name="ct-geexbox-arch"/></b><br/><br/>
 
-<b>* svn co svn://geexbox.org/</b><i> - To fetch all the files from the directory geexbox.</i><br/>
-<b>* svn update</b><i> - To update your local copy of the CVS, synchronizing with our server.</i>
+          In order to access to our Arch via command line, create and go to a new directory and do the following (be sure to have installed the TLA package) :<br/><br/> 
+
+<b>* <use name="ct-tla-register"/></b><i> - To register with the GeeXboX's Arch repository.</i><br/>
+<b>* <use name="ct-tla-get"/></b><i> - To fetch all the files from the directory geexbox.</i><br/>
+<b>* <use name="ct-tla-update"/></b><i> - To update your local copy of the Arch, synchronizing with our server.</i>
       </content>
-      <content lang="fr" title="GeeXboX, version CVS">
-        Nous avons décidé de vous fournir un accès au CVS. Cela permettra d'aider les contributeurs à réaliser des patchs et correctifs plus facilement pour le système. De plus, vous pourrez également essayer les pré-versions de la GeeXboX et nous aider à repérer et corriger des bugs. Soyez attentifs au fait que le contenu du CVS peut être modifié fréquemment et DOIT être considéré comme une version INSTABLE. Nous ne fournirons aucun support pour cette version et ne pouvons être tenus pour responsables pour toute pertes de données ou problèmes engendré.<br/><br/>
 
-          Il existe actuellement 2 façons d'accéder à notre CVS : par ligne de commande ou interface Web (pour simplement constater les changements apportés à un fichier en particulier par exemple). Vous pouvez accéder directement au CVS Web depuis votre navigateur via :<br/><br/>
+      <content lang="fr" title="GeeXboX Arch">
+      <use name="ct-gnu-arch"/> est un système de gestion de versions, similaire dans le principe à des outils tels que CVS, SCCS et Subversion. Il est utilisé pour conserver une trace des changements effectués à un arbre de sources et ainsi pour aider les programmeurs à combiner les modifications faites par différentes personnes à différents moments.<br/><br/>
 
-<b><a href="http://www.geexbox.org/viewcvs/">GeeXboX Web-CVS</a></b><br/><br/>
+        Nous avons décidé de vous fournir un accès au Web-Arch. Cela permettra d'aider les contributeurs à réaliser des patchs et correctifs plus facilement pour le système. De plus, vous pourrez également essayer les pré-versions de la GeeXboX et nous aider à repérer et corriger des bugs. Soyez attentifs au fait que le contenu de l'Arch peut être modifié fréquemment et DOIT être considéré comme une version INSTABLE. Nous ne fournirons aucun support pour cette version et ne pouvons être tenus pour responsables pour toute pertes de données ou problèmes engendré.<br/><br/>
 
-          Pour accéder à notre CVS en ligne de commande, créez et déplacez vous dans un nouveau répertoire puis faites comme suit (prenez garde à avoir le paquetage SubVersion) :<br/><br/> 
+          Il existe actuellement 2 façons d'accéder à notre arbre Arch : par ligne de commande ou interface Web (pour simplement constater les changements apportés à un fichier en particulier par exemple). Vous pouvez accéder directement au Web-Arch depuis votre navigateur via :<br/><br/>
 
-<b>* svn co svn://geexbox.org/</b><i> - Pour rappatrier tous les fichiers depuis le répertoire geexbox.</i><br/>
-<b>* svn update</b><i> - Pour mettre à jour votre copie locale du CVS, en la synchronisant avec le version sur notre serveur.</i>
+<b><use name="ct-geexbox-arch"/></b><br/><br/>
+
+          Pour accéder à notre Arch en ligne de commande, créez et déplacez vous dans un nouveau répertoire puis faites comme suit (prenez garde à avoir le paquetage TLA) :<br/><br/> 
+
+<b>* <use name="ct-tla-register"/></b><i> - Pour enregistrer le dépositoire Arch utilisé par l'équipe GeeXboX.</i><br/>
+<b>* <use name="ct-tla-get"/></b><i> - Pour rappatrier tous les fichiers depuis le répertoire geexbox.</i><br/>
+<b>* <use name="ct-tla-update"/></b><i> - Pour mettre à jour votre copie locale du CVS, en la synchronisant avec le version sur notre serveur.</i>
       </content>
     </subsection>
 
@@ -62,7 +79,7 @@
 
         Please remember that only the subscribed email accounts can be used to post on the mailing list.<br/><br/>
 
-        You can easily access to the developper mailing list archives <use name="ct-devel-archive1-en"/> (or <use name="ct-devel-archive2-en"/> for the former mailing list's archives).
+        You can easily access to the developper mailing list archives <use name="ct-devel-archive-en"/>.
       </content>
 
       <content lang="fr" title="Liste de Diffusion pour Développeurs">
@@ -72,7 +89,7 @@
 
         Souvenez vous que seuls les comptes mails valides et qui auront été enregistré peuvent être utilisés pour poster des messages sur le liste de diffusion.<br/><br/>
 
-        Il est cependant possible d'accéder rapidement aux archives de cette liste de diffusion via <use name="ct-devel-archive1-fr"/> (ou <use name="ct-devel-archive2-fr"/> pour les archives précédentes).
+        Il est cependant possible d'accéder rapidement aux archives de cette liste de diffusion via <use name="ct-devel-archive-fr"/>.
       </content>
     </subsection>
   </section>

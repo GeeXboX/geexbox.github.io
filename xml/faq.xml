@@ -31,11 +31,20 @@
     </subsection>
 
     <subsection label="disable_vidix">
-      <content label="en" title="How to disable VidiX ?">
+      <content lang="en" title="How to disable VidiX ?">
       In some really few cases, your computer may not support the VidiX hardware acceleration of you display adapter. You can, of course disable it easily, resulting in a lack of performances, regarding to your configuration. To do so, simply replace the <b>vo=vesa:vidix,vesa</b> stanza in your <i>/etc/mplayer/mplayer.conf</i> file by the following one : <b>vo=vesa</b> and regenerate the ISO.
       </content>
-      <content label="fr" title="Comment désactiver le support du VidiX ?">
+      <content lang="fr" title="Comment désactiver le support du VidiX ?">
       Dans certains cas particuliers, votre ordinateur peut ne pas supporter l'accélération matérielle VidiX de votre carte graphique. Vous pouvez, dans ce cas, la désactiver, cela étant accompagné d'une perte de performances, en fonction de votre configuration. Pour cela, remplacez simplement la ligne <b>vo=vesa:vidix,vesa</b> de votre fichier <i>/etc/mplayer/mplayer.conf</i> par la suivante : <b>vo=vesa</b> et regénérez l'iso avec le generator.
+      </content>
+    </subsection>
+
+    <subsection label="nvidia_vidix">
+      <content lang="en" title="How to enable VidiX for nVidia cards?">
+      Since MPlayer 1.0pre4, you're now able to enable support for hardware video acceleration (VidiX). This features is for now experimental and should be tested further before we can enable it by defaut. Theorically, when activated, the image shpuld be smoother and more pretty and you should be able to use zoom/pan-scan operations. To do so, simply use the generator and remove the <i>/etc/mplayer/no_nvidia_vidix</i> file. Please report us whether your computer works with VidiX support or not, specifying the nVidia card you're using.
+      </content>
+      <content lang="fr" title="Comment activer le support du VidiX pour cartes nVidia?">
+      Depuis le sortie de MPlayer 1.0pre4, il est désormais possible d'activer le support VidiX (accélération vidéo matérielle) pour les cartes nVidia. Cette fonctionnalité est à l'heure actuelle, encore expérimentale et nécessite de plus amples tests avant d'être activée par défaut. En théorie, une fois activée, l'image devrait apparaître plus belle et plus lisse et vous devriez pouvoir procéder à des opérations de zoom. Pour ce faire, regénérez simplement une ISO en utilisant le générateur, en prennant soin de supprimer le fichier <i>/etc/mplayer/no_nvidia_vidix</i>. Veuillez nous rapporter si votre ordinateur fonctionne ou non avec le support vidix activé, en nous précisant le modèle de carte utilisée.
       </content>
     </subsection>
 
@@ -54,6 +63,16 @@
       </content>
       <content lang="fr" title="Comment utiliser la sortie TV des cartes Matrox ?">
       Les cartes Matrox peuvent ne pas fonctionner correctement en mode srtie TV. Vous devrez alors flasher le BIOS de votre carte à l'aide du <a href="http://www.matrox.com/mga/support/drivers/bios/home2.cfm">Site Web Matrox</a>.
+      </content>
+    </subsection>
+
+    <subsection label="dxr3_menu">
+      <content lang="en" title="I can't access to the menu when using my DXR3 card">
+        The DXR3/H+ card is a hardware MPEG 1/2 decoder. Efforts has been made to enable the hardware decompression on GeeXboX so that old computers will be able to play DVDs. Nevertheless, in such a situation and for technical reasons, it's not possible to add filters to the image (like OSD) and so menu won't be accessible when playing such kind of files (this problem do not exist when playing MPEG 4/DivX files).
+      </content>
+        
+      <content lang="fr" title="Je n'arrive pas à voir les menus avec ma carte DXR3">   
+      La carte DXR3/H+ est un décodeur matériel MPEG 1/2. D'importants efforts ont été fait pour activer la décompression matérielle avec la GeeXboX, dans le but qu'il soit possible de lire des DVD en utilisant des ordinateurs relativement anciens. Néanmoins, dans un tel cas et, pour des raisons techniques, il n'est pas possible d'appliquer un filtre sur l'image (comme l'OSD) et, de ce fait, les menus ne seront pas accessibles lors de la lecture de ce type de fichiers (ce problème n'existe pas lors de la lecture de fichiers MPEG 4 et/ou DivX).
       </content>
     </subsection>
 

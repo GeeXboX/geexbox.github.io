@@ -148,18 +148,28 @@ et enfin, pour générer l'installator ; <br/>
           <b>THEME=xmas</b><br/>
           <b># Default Langage (bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk)</b><br/>
           <b>LANG=en</b><br/>
-          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850/animax)</b><br/>
-          <b>REMOTE=pctv</b><br/>
+          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850/animax/packard_bell/atiusb)</b><br/>
+          <b>REMOTE=atiusb</b><br/>
           <b># Use Extra Binary Codecs - RealMedia/WindowsMedia 9 (yes/no)</b><br/>
           <b>EXTRACODECS=no</b><br/>
           <b># Network Support (Samba shares and FTP Server) (yes/no)</b><br/>
           <b>NETWORK=yes</b><br/>
+          <b># Wireless network support (yes/no)</b><br/>
+          <b>WIFI=yes</b><br/>
           <b># Choose font type for OSD (truetype/bitmap)</b><br/>
           <b>FONT=truetype</b><br/>
           <b># Enable Debuging (build gdb ...)</b><br/>
           <b>DEBUG=no</b><br/>
           <b># Add DirectFB support (EXPERIMENTAL)</b><br/>
           <b>DIRECTFB=yes</b><br/>
+          <b># Add DXR3/Hollywood+ support (EXPERIMENTAL)</b><br/>
+          <b>DXR3=yes</b><br/>
+          <b># Add BT8x8 TV Card support (yes/no)</b><br/>
+          <b>BTTV=yes</b><br/>
+          <b># Image viewer / dia show support (yes/no)</b><br/>
+          <b>VIEW_IMG=yes</b><br/>
+          <b># Default timeout in seconds for dia show (0 to disable)</b><br/>
+          <b>VIEW_IMG_TIMEOUT=10</b><br/>
           <br/>
           <b># Burning options</b><br/><br/>
           <b># device (ex: 0,0,0). See the output of cdrecord -scanbus</b><br/>
@@ -190,18 +200,28 @@ et enfin, pour générer l'installator ; <br/>
           <b>THEME=xmas</b><br/>
           <b># Default Langage (bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk)</b><br/>
           <b>LANG=en</b><br/>
-          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850/animax)</b><br/>
-          <b>REMOTE=pctv</b><br/>
+          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850/animax/packard_bell/atiusb)</b><br/>
+          <b>REMOTE=atiusb</b><br/>
           <b># Use Extra Binary Codecs - RealMedia/WindowsMedia 9 (yes/no)</b><br/>
           <b>EXTRACODECS=no</b><br/>
           <b># Network Support (Samba shares and FTP Server) (yes/no)</b><br/>
           <b>NETWORK=yes</b><br/>
+          <b># Wireless network support (yes/no)</b><br/>
+          <b>WIFI=yes</b><br/>
           <b># Choose font type for OSD (truetype/bitmap)</b><br/>
           <b>FONT=truetype</b><br/>
           <b># Enable Debuging (build gdb ...)</b><br/>
           <b>DEBUG=no</b><br/>
           <b># Add DirectFB support (EXPERIMENTAL)</b><br/>
           <b>DIRECTFB=yes</b><br/>
+          <b># Add DXR3/Hollywood+ support (EXPERIMENTAL)</b><br/>
+          <b>DXR3=yes</b><br/>
+          <b># Add BT8x8 TV Card support (yes/no)</b><br/>
+          <b>BTTV=yes</b><br/>
+          <b># Image viewer / dia show support (yes/no)</b><br/>
+          <b>VIEW_IMG=yes</b><br/>
+          <b># Default timeout in seconds for dia show (0 to disable)</b><br/>
+          <b>VIEW_IMG_TIMEOUT=10</b><br/>
           <br/>
           <b># Burning options</b><br/><br/>
           <b># device (ex: 0,0,0). See the output of cdrecord -scanbus</b><br/>

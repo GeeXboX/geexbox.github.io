@@ -41,10 +41,31 @@
   <define name="lnk-beb59">
     <a href="http://beb59.truc.net"><b>Hardware Compatibility List</b></a>
   </define>
+  <define name="lnk-intouch">
+    <center>
+      <a href="http://www.intouch.net/">
+        <img src="../img/logo-intouch.gif"
+             alt="InTouch.Net"/>
+      </a>
+    </center>
+  </define>
 
   <section label="links">
     <content lang="en" title="Links ..."/>
     <content lang="fr" title="Liens ..."/>
+
+    <subsection label="intouch">
+      <content lang="en" title="Special Thanks ...">
+        We'd like to address special thanks to the <b>InTouch.Net</b> company. They provide us solutions to freely host <i>geexbox.org</i> with a great quality of services.
+        <use name="lnk-intouch"/>
+        InTouch N.V. is an independent Communication Service Provider based in Amsterdam, the Netherlands. Established in 1994, InTouch concerns itself with providing tailor-made communication solutions for specific customer requirements, guiding and supporting their customers from the initial stages of design to implementation and operational management of network infrastructures and systems. In close conjunction with their business partners, they provide global communication services to their customers.
+      </content>               
+      <content lang="fr" title="Remerciements particuliers ...">
+        Nous souhaitons adresser des remerciements particuliers à la companie <b>InTouch.Net</b>. Elle nous fournit une solution gratuite d'hébergement de <i>geexbox.org</i> et ce, avec une grande qualité de services.
+        <use name="lnk-intouch"/>
+        InTouch N.V. est un fournisseur de services de communication indépendant, basé à Amsterdam, aux Pays-Bas. Fondé en 1994, InTouch se focalise sur l'approvisionnement de solutions aux besoins de communication spécifiques de ses clients, les guidant de la phase d'évaluation des besoins, au design, en passant par la phase d'implémentation et de gestion des infrastructures réseau et des systèmes. En étroite relation avec ses partenaires, la companie fournit des services de communication à ses clients.
+      </content>               
+    </subsection>
 
     <subsection label="geexbox_projects">
       <content lang="en" title="GeeXboX Related Links ...">

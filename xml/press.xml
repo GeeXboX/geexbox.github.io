@@ -7,7 +7,8 @@
     * <a href = "http://www.pcinpact.com/actu/news/9673.htm"><b>PC Inpact : <i>GeeXboX : Nouvelle Version</i> (0.90-2)</b></a><br/>
     * <a href = "http://www.pcinpact.com/actu/news/10000.htm"><b>PC Inpact : <i>Lecteur multimédia GeeXbox version 0.90-3</i> (0.90-3)</b></a><br/>
     * <a href = "http://www.pcinpact.com/actu/news/10442.htm"><b>PC Inpact : <i>Nouvelle version de la GeeXboX</i> (0.90-4)</b></a><br/>
-    * <a href = "http://www.pcinpact.com/actu/news/11406.htm"><b>PC Inpact : <i>GeeXboX 0.95 : Halloween Edition</i></b></a><br/><br/>
+    * <a href = "http://www.pcinpact.com/actu/news/11406.htm"><b>PC Inpact : <i>GeeXboX 0.95 : Halloween Edition</i></b></a><br/>
+    * <a href = "http://www.pcinpact.com/actu/news/12270.htm"><b>PC Inpact : <i>Sortie de la GeeXboX 0.96 : Xmas Edition</i></b></a><br/><br/>
 
     * <a href = "http://www.clubic.com/n/n8883.html"><b>Clubic : <i>Moviebox à partir d'un simple CD Linux bootable</i> (0.90-1)</b></a><br/>
     * <a href = "http://ratiatum.com/logitheque.php?id_log=206"><b>Ratiatum : <i>GeexBox 0.95</i></b></a><br/><br/>
@@ -15,13 +16,16 @@
     * <a href = "http://linuxfr.org/2003/05/18/12478.html"><b>Da Linux French Page : <i>Lecteur multimédia autonome: GeeXboX</i> (0.90-1)</b></a><br/>
     * <a href = "http://linuxfr.org/2003/08/06/13550.html"><b>Da Linux French Page : <i>Sortie de la GeeXboX 0.90-4</i></b></a><br/>
     * <a href = "http://linuxfr.org/2003/10/21/14332.html"><b>Da Linux French Page : <i>Sortie de la GeeXboX 0.95 : Halloween Edition</i></b></a><br/>
+    * <a href = "http://linuxfr.org/2003/12/18/14900.html"><b>Da Linux French Page : <i>Sortie de la GeeXboX 0.96 : Xmas Edition</i></b></a><br/>
+
   </define>
 
   <define name="prs-paper">
     * <a href = "../img/press-linuxpratique18.jpeg"><b>Linux Pratique, Issue 18 (0.90-1)</b></a><br/>
     * <b>Linux Loader, Issue 18 with pages </b><a href = "../img/press-linuxloader18-1.jpeg">1</a> and <a href = "../img/press-linuxloader18-2.jpeg">2</a> <b>(0.90-2)</b>.<br/>
     * <b>Planète Linux, Issue 27 with pages </b><a href = "../img/press-linuxplanet27-1.jpeg">1</a> and <a href = "../img/press-linuxplanet27-2.jpeg">2</a> <b>(0.95)</b>.<br/>
-    * <b>Hardware Magazine, Issue 8 with pages </b><a href = "../img/press-hardwaremag8-1.jpeg">1</a> and <a href = "../img/press-hardwaremag8-2.jpeg">2</a> <b>(0.95)</b>.
+    * <b>Hardware Magazine, Issue 8 with pages </b><a href = "../img/press-hardwaremag8-1.jpeg">1</a> and <a href = "../img/press-hardwaremag8-2.jpeg">2</a> <b>(0.95)</b>.<br/>
+    * <b>Linux Loader, Issue 20 with pages </b><a href = "../img/press-linuxloader20-1.jpeg">1</a>, <a href = "../img/press-linuxloader20-2.jpeg">2</a>,  <a href = "../img/press-linuxloader20-3.jpeg">3</a> and <a href = "../img/press-linuxloader20-4.jpeg">4</a><b>(0.96)</b>.<br/>
   </define>
 
   <section label="press">

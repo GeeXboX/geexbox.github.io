@@ -48,7 +48,7 @@ So, here's what can be considered as a typical / minimal config :<br/>
 * CD-ROM or DVD-ROM drive<br/>
 * Motherboard which supports booting on CD-ROM (should be ok for everyone ;-)<br/>
 * Keyboard or Remote Controller, using a Lirc-compatible IR (InfraRed) receiver
-  (check <use name="req-lirc"/> to build yours), e.g. Miro PcTV's one.
+  (check <use name="req-lirc"/> to build yours), e.g. Miro PcTV's one or ATI Remote Wonder.
       </content>
       <content lang="fr" title="Besoins Matériel">
         La GeeXboX a beau être un système d'exploitation, elle ne nécessite pas moins quelque chose sur quoi démarrer ;-) Vous avez de la chance, elle est basée sur MPlayer, qui peut être considéré comme l'un des lecteurs multimédia les moins dépendant de puissance CPU, de par l'utilisation de la librairie FFMpeg pour décoder les vidéos par exemple.<br/><br/>
@@ -59,7 +59,7 @@ Voici donc ce qui peut être considéré comme une configuration typique / minimale
 * environ 64 Mo de mémoire vive<br/>
 * un lecteur CD-ROM ou DVD-ROM<br/>
 * une carte-mère supportant le démarrage sur CD (cela devrait être bon dans 99% des cas ;-)<br/>
-* un clavier ou une télécommande (utilisant un récepteur infra-rouge compatible avec Lirc - vérifiez le sur <use name="req-lirc"/> pour construire le votre), comme par exemple celui fourni avec la carte Miro PcTV.
+* un clavier ou une télécommande (utilisant un récepteur infra-rouge compatible avec Lirc - vérifiez le sur <use name="req-lirc"/> pour construire le votre), comme par exemple celui fourni avec la carte Miro PcTV ou encore l'ATI Remote Wonder.
       </content>
     </subsection>
     <subsection label="software">
