@@ -21,14 +21,16 @@
         C'est le problème avec les pilotes dont les sources ne sont pas disponibles. nVidia ne fourni pas les spécifications de ces cartes graphiques à la communauté du libre. Il en résulte que nvtv (le logiciel utilisé pour afficher sur la sortie TV) n'est, à l'heure actuelle, pas réellement compatiblet avec certaines cartes de type GeForce 3/4 et sur lesquelles la sortie TV peut ne pas fonctionner du tout. Contactez directement le support technique de nVidia pour les inciter à fournir les sources de leurs pilotes ;-)
       </content>
     </subsection>
+
     <subsection>
-      <content lang="en" title="Display seems to be flickering with my GeForce2/TnT">
-        When using GeeXboX with some GeForce2 or TnT cards, the display may be flickering, which is particullary annoying :-( You may try to change this by using the "Options/Switch Vsync" option from the menu. Another idea may be to flash your card's BIOS (do it at your own risks !) with the <a href="http://www.x86-secret.com/articles/nvbios.htm">latest available release</a>.
+      <content lang="en" title="How Can I use Matrox TV-Out ?">
+      Matrox cards may not work properly using the TV-Out mode. You may have a look at the <a href="http://www.matrox.com/mga/support/drivers/bios/home2.cfm">Matrox WebSite</a> to flash your card's BIOS.
       </content>
-      <content lang="fr" title="L'affichge semble scintiller avec ma carte GeForce2/TnT">
-        Lorsqu'elle est utilisée avec certaines cartes GeForce2 ou TnT, l'affichage peut scintiller, ce qui est particulièrement gênant :-( Vous pouvez essayer d'activer l'option "Options/Switch Vsync" dans le menu. Une autre idée, est de flasher le BIOS de votre carte graphique (A vos risques et périls) par la <a href="http://www.x86-secret.com/articles/nvbios.htm">dernière version</a> en date disponible.
+      <content lang="fr" title="Comment utiliser la sortie TV des cartes Matrox ?">
+      Les cartes Matrox peuvent ne pas fonctionner correctement en mode srtie TV. Vous devrez alors flasher le BIOS de votre carte à l'aide du <a href="http://www.matrox.com/mga/support/drivers/bios/home2.cfm">Site Web Matrox</a>.
       </content>
     </subsection>
+
     <subsection>
       <content lang="en" title="I have NO sound at all or GeeXboX hangs at '/dev/mixer Error'">
         If one of this problems occur, that's because your sound card isn't recognize by the GeeXboX. This could happen if your sound card is a really new PCI card (in this case, please mail us). For configuration reasons, ISA sound cards support will be done later.
@@ -39,10 +41,10 @@
     </subsection>
     <subsection>
       <content lang="en" title="My remote controller isn't recognized">
-        As it was said, the GeeXboX has been compiled for the Miro PcTV remote and ATI Remote Wonder. It doesn't imply that other remote are not supported. The Logitech, RealMagic, Leadtek and Hauppage remotes are also supported but you will have to regenerate the ISO to use them. For other brands remotes, if you are able to rebuild GeeXboX and owner of a remote controller, please mail to us the LIRC configuration file you're using and we'll include it to our OS.
+        As it was said, the GeeXboX has been compiled for the Miro PcTV remote and ATI Remote Wonder. It doesn't imply that other remote are not supported. The Logitech, RealMagic, Leadtek, Creative, RM-S6, RX-V850 and Hauppage remotes are also supported but you will have to regenerate the ISO to use them. For other brands remotes, if you are able to rebuild GeeXboX and owner of a remote controller, please mail to us the LIRC configuration file you're using and we'll include it to our OS.
       </content>
       <content lang="fr" title="Ma télécommande n'est pas reconnue">
-        Comme cela a été dit, la GeeXboX a été compilée pour le support de la télécommande fournie avec les cartes Miro PcTV ainsi que pour les ATI Remote Wonder. Cela n'implique pas que d'autres télécommandes ne fonctionnent pas. Les télécommandes Logitech, RealMagic, Leadtek et Hauppage sont également supportées mais vous devrez pour cela, regénérer l'ISO au moyen du générateur fourni. Pour les autres modèles, si vous êtes en mesure de recompiler la GeeXboX et que vous êtes possésseur d'une quelconque télécommande, veuillez nous envoyer vos fichiers de configuration pour LIRC, que nous puissions les inclure dans notre système.
+        Comme cela a été dit, la GeeXboX a été compilée pour le support de la télécommande fournie avec les cartes Miro PcTV ainsi que pour les ATI Remote Wonder. Cela n'implique pas que d'autres télécommandes ne fonctionnent pas. Les télécommandes Logitech, RealMagic, Leadtek, Creative, RM-S6, RX-V850 et Hauppage sont également supportées mais vous devrez pour cela, regénérer l'ISO au moyen du générateur fourni. Pour les autres modèles, si vous êtes en mesure de recompiler la GeeXboX et que vous êtes possésseur d'une quelconque télécommande, veuillez nous envoyer vos fichiers de configuration pour LIRC, que nous puissions les inclure dans notre système.
       </content>
     </subsection>
     <subsection>
@@ -63,12 +65,22 @@
     </subsection>
     <subsection>
       <content lang="en" title="Does GeeXboX supports 5.1 Audio Output ?">
-        Unfortunately, for now, only stereo audio output is supported. Besides, there's no support for digital and optical output of the soundcards and AC3 streams are converted to stereo :-(
+        Unfortunately, for now, only stereo audio output is supported. Besides, AC3 streams are converted to stereo :-( If you want true AC3 output, you'll have to add the <b>ac=hwac3,</b> line into <i>mplayer.conf</i>.
       </content>
       <content lang="fr" title="La GeeXboX supporte elle la sortie audio 5.1 ?">
-        Malheureusement, à l'heure actuelle, seule la sortie stéréo est supportée. De plus, il n'y a pas de support des sorties optiques et numériques des cartes son et les flux AC3 sont convertis en stéréo :-(
+        Malheureusement, à l'heure actuelle, seule la sortie stéréo est supportée. De plus, les flux AC3 sont convertis en stéréo :-( Si vous désirez réellement un son AC3, rajoutez simplement la ligne <b>ac=hwac3,</b> au fichier <i>mplayer.conf</i>.
       </content>
     </subsection>
+
+    <subsection>
+      <content lang="en" title="My generated customized ISO don't work.">
+      In some cases, ISO generated under Windows systems don't work. If you want to extract the generator archive with WinZip, you will have to uncheck the <b>TAR file smart CR/LF conversion</b> option in the <i>Configuration / Options / Miscellaneous</i> menu. Please notice that, whether you want to modify the configuration files, you'll have to use an UNIX compatible text editor or to use <b>dos2unix</b> against your modified files.
+      </content>
+      <content lang="fr" title="Mon ISO personnalisée avec le generateur ne fonctionne pas.">
+      Dans certains cas, l'ISO générée sous Windows peut ne pas fonctionner. Si vous désirez extraire l'archive du générateur au moyen de WinZip, vous aurez à décocher l'option <b>TAR file smart CR/LF conversion</b> dans le menu <i>Configuration / Options / Miscellaneous</i>. Veuillez noter que, si vous désirez modifier les fichiers de configuration, vous devrez utiliser un éditeur de texte compatible UNIX ou utiliser <b>dos2unix</b> sur vos fichiers modifiés.
+      </content>
+    </subsection>
+
     <subsection>
       <content lang="en" title="Can I watch subtitled movies ?">
         Based on MPlayer, the GeeXboX enables you to watch such movies, supporting most of the subs formats (e.g. <i>MicroDVD, SubRip, SubViewer, Sami, VPlayer, RT, SSA, AQTitle, JACOsub, MPsub, VobSub, SPU Streams and Closed-Captions</i>).<br/>

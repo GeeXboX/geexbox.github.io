@@ -146,14 +146,14 @@ et enfin, pour générer l'installator ; <br/>
           <b>CPU=i586</b><br/>
           <b># Theme (movies, aqua, classic)</b><br/>
           <b>THEME=movies</b><br/>
-          <b># Default Langage (en/fr/it/cz/sk)</b><br/>
+          <b># Default Langage (br/cz/en/es/fi/fr/it/nl/ru/se/sk)</b><br/>
           <b>LANG=en</b><br/>
-          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/leadtek)</b><br/>
+          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850)</b><br/>
           <b>REMOTE=pctv</b><br/>
           <b># Use Extra Binary Codecs (RealMedia/WindowsMedia 9)</b><br/>
           <b>EXTRACODECS=no</b><br/>
-          <b># Use Samba shares (yes/no)</b><br/>
-          <b>SAMBA=yes</b><br/>
+          <b># Network Support (Samba shares and FTP Server) (yes/no)</b><br/>
+          <b>NETWORK=yes</b><br/>
           <b># Choose font type for OSD (truetype/bitmap)</b><br/>
           <b>FONT=truetype</b><br/>
           <b># Enable Debuging (build gdb ...)</b><br/>
@@ -170,7 +170,7 @@ et enfin, pour générer l'installator ; <br/>
           To sum up, the GeeXboX configuration files can be found here :<br/>
 * <b>./config/options</b> : main GeeXboX build options and burner specs<br/>
 * <b>./packages/linux/linux.conf</b> : this is the kernel config file, used to build the GeeXboX. It can be edited to fit your needs (e.g. some IR devices ...)<br/>
-* <b>./packages/MPlayer/menu_{en,fr,it,cz,sk}.conf</b> : modify this file to edit your menu items.<br/>
+* <b>./packages/MPlayer/menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</b> : modify this file to edit your menu items.<br/>
 * <b>./packages/MPlayer/mplayer.conf</b> : this file contains MPlayer's start options.
       </content>
       <content lang="fr" title="Fichier de Configuration ...">
@@ -181,14 +181,14 @@ et enfin, pour générer l'installator ; <br/>
           <b>CPU=i586</b><br/>
           <b># Theme (movies, aqua, classic)</b><br/>
           <b>THEME=movies</b><br/>
-          <b># Default Langage (en/fr/it/cz/sk)</b><br/>
+          <b># Default Langage (br/cz/en/es/fi/fr/it/nl/ru/se/sk)</b><br/>
           <b>LANG=en</b><br/>
-          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/leadtek)</b><br/>
+          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850)</b><br/>
           <b>REMOTE=pctv</b><br/>
           <b># Use Extra Binary Codecs (RealMedia/WindowsMedia 9)</b><br/>
           <b>EXTRACODECS=no</b><br/>
-          <b># Use Samba shares (yes/no)</b><br/>
-          <b>SAMBA=yes</b><br/>          
+          <b># Network Support (Samba shares and FTP Server) (yes/no)</b><br/>
+          <b>NETWORK=yes</b><br/>          
           <b># Choose font type for OSD (truetype/bitmap)</b><br/>
           <b>FONT=truetype</b><br/>
           <b># Enable Debuging (build gdb ...)</b><br/>
@@ -205,17 +205,17 @@ et enfin, pour générer l'installator ; <br/>
           Pour résumer, les fichiers de configuration de la GeeXboX sont les suivants :<br/><br/>
 * <b>./config/options</b> : options principales de compilation et du graveur<br/>
 * <b>./packages/linux/linux.conf</b> : il s'agit du fichier de configurations du noyau Linux, utilisé pour construire la GeeXboX. Il peut être édité afin de répondre au mieux à vos besoins (pour le support de certains récepteurs infra-rouge par exemple)<br/>
-* <b>./packages/MPlayer/menu_{en,fr,it,cz,sk}.conf</b> : modifiez ce fichier pour éditer les options du menu OSD.<br/>
+* <b>./packages/MPlayer/menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</b> : modifiez ce fichier pour éditer les options du menu OSD.<br/>
 * <b>./packages/MPlayer/mplayer.conf</b> : ce fichier contient les options de lancement de MPlayer.
       </content>
     </subsection>
     <subsection>
       <content lang="en" title="MPlayer Documentation ...">
         The GeeXboX is mainly featuring MPlayer. As this player is one of the most powerful media player, it can be started by several ways. In the GeeXboX, 2 files are used to control MPlayer's options :<br/><br/>
-          * <i>./packages/MPlayer/menu_{en,fr,it,cz,sk}.conf</i><br/>
+          * <i>./packages/MPlayer/menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</i><br/>
           * <i>./packages/MPlayer/mplayer.conf</i><br/><br/>
 
-          The <b>menu_{en,fr,it,cz,sk}.conf</b> is used to generate the OSD Menu. You may have to modify it whether you want to add or remove items from the menu or to change the items captions to fit your needs.<br/>
+          The <b>menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</b> is used to generate the OSD Menu. You may have to modify it whether you want to add or remove items from the menu or to change the items captions to fit your needs.<br/>
           The <b>mplayer.conf</b> is related to MPlayer's lauching options. The default config file contains some of the following lines :<br/><br/>
           <b>vo=vesa:vidix,vesa</b><i> # Video Output driver (Use VidiX if available, VESA otherwise)</i><br/>
           <b>fs=yes</b><i> # Enable Fullscreen (need more CPU)</i><br/>
@@ -227,16 +227,18 @@ et enfin, pour générer l'installator ; <br/>
           <b>framedrop=yes</b><i> # When set to 'yes', MPlayer may skip decoding some frames if video plays too slowly</i><br/>
           <b>lircconf=/etc/lirc</b><i> # Path to LIRC configuration file</i><br/>
           <b>subfont-text-scale=3</b><i> # OSD Fonts Size</i><br/>
+          <b>screenw=800</b><i> # Screen Width</i><br/>
+          <b>screenh=600</b><i> # Screen Height</i><br/>
           <br/>
           
           More documentation about MPlayer and it's configuration files may be found at <a href="http://www.mplayerhq.hu/DOCS/">MPlayer's Documentation</a>.
       </content>
       <content lang="fr" title="Documentation de MPlayer ...">
         La GeeXboX est principalement basée sur l'utilisation de MPlayer. Comme ce lecteur est l'un des lecteurs multimédia les plus performant, il accepte de nombreuses options de configuration et de lancement. Dans la GeeXboX, 2 fichiers sont utilisés pour gérer les options de MPlayer :<br/><br/>
-          * <i>./packages/MPlayer/menu_{en,fr,it,cz,sk}.conf</i><br/>
+          * <i>./packages/MPlayer/menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</i><br/>
           * <i>./packages/MPlayer/mplayer.conf</i><br/><br/>
 
-          Le fichier <b>menu_{en,fr,it,cz,sk}.conf</b> est utilisé pour générer le menu OSD. Vous pouvez le modifier si vous décider d'ajouter ou supprimer des options au menu actuel, ou encore pour le traduire dans votre langue favorite.<br/>
+          Le fichier <b>menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</b> est utilisé pour générer le menu OSD. Vous pouvez le modifier si vous décider d'ajouter ou supprimer des options au menu actuel, ou encore pour le traduire dans votre langue favorite.<br/>
           Le fichier <b>mplayer.conf</b> est directement lié au mode de lancement de MPlayer. La configuration proposée par défaut contient les lignes suivantes :<br/><br/>
           <b>vo=vesa:vidix,vesa</b><i> # Pilote de sortie Vidéo (Utilise le mode VidiX si disponible, le mode VESA sinon)</i><br/>
           <b>fs=yes</b><i> # Active le mode Plein-Ecran (nécessite davantage de puissance CPU)</i><br/>
@@ -248,6 +250,8 @@ et enfin, pour générer l'installator ; <br/>
           <b>framedrop=yes</b><i> # Lorsqu'il est activé, MPlayer peut 'sauter' le décodage de certaines images si la vidéo apparaît trop lentement</i><br/>
           <b>lircconf=/etc/lirc</b><i> # Emplacement du fichier de configuration de LIRC</i><br/>
           <b>subfont-text-scale=3</b><i> # Taille des fontes sur l'OSD</i><br/>
+          <b>screenw=800</b><i> # Largeur de l'écran</i><br/>
+          <b>screeh=600</b><i> # Hauteur de l'écran</i><br/>
           <br/>
           
           Davantage de documentation concernant MPlayer et ses fchiers de configuration peut être trouvée sur le site officiel de <a href="http://www.mplayerhq.hu/DOCS/">Documentation de MPlayer</a>.
@@ -255,7 +259,7 @@ et enfin, pour générer l'installator ; <br/>
     </subsection>
     <subsection>
       <content lang="en" title="Using the ISO generator ...">
-        Thanks to it, it's now possible to build a bootable image of the GeeXboX from the binaries. This let you build the GeeXboX after slight changes in the configuration files for example, with no need to build the full sources. Besides, the generation process can be done both under Linux tahn Windows. Just execute the ./generator.sh (under Linux) or generator.bat (under Windows) scripts and let the magic plays ;-)<br/><br/>
+        Thanks to it, it's now possible to build a bootable image of the GeeXboX from the binaries. This let you build the GeeXboX after slight changes in the configuration files for example, with no need to build the full sources. Besides, the generation process can be done both under Linux than Windows. Just execute the ./generator.sh (under Linux) script or generator.exe (under Windows) and let the magic plays ;-)<br/><br/>
 
           GeeXboX's customization is interesting under many points such as :<br/><br/>
 
@@ -311,19 +315,19 @@ De nombreuses autres modifications sont bien entendu possibles, comme le changem
     </subsection>
     <subsection>
       <content lang="en" title="Editing Network Configuration ...">
-        GeeXboX 0.90-4 comes with a network support for most of the ethernet cards (not all of them unfortunately) and a Samba (Windows shares) support. GeeXboX is running a DHCP client which is trying to autoconfigure your network adapter. Whether you do not get a DHCP server on your network, you'll have to modify the <b>/etc/network</b> file which contains the following lines : <br/><br/>
+        GeeXboX 0.90-4 and above come with a network support for most of the ethernet cards (not all of them unfortunately) and a Samba (Windows shares) support. GeeXboX is running a DHCP client which is trying to autoconfigure your network adapter. Whether you do not get a DHCP server on your network, you'll have to modify the <b>/etc/network</b> file which contains the following lines : <br/><br/>
 
 * <b> HOST=""                 # GeeXboX IP ("" for DHCP)</b><br/>
-* <b> USER=""                 # User Login ("" for none)</b><br/>
+* <b> USER="SHARE"            # User Login ("" for none)</b><br/>
 * <b> PWD=""                  # User Password ("" for none)</b><br/><br/>
 
 You can easily modify the IP and Samba Login and Password. On boot, the GeeXboX is checking for remote computers from a common domain and try to automount the Samba Windows shares. Be sure that all of your computers are on the same domain in order to mount all the shares.
       </content>
       <content lang="fr" title="Modifier la configuration du réseau ...">
-        La version 0.90-4 de la GeeXboX rajoute le support réseau pour la plupart des cartes Ethernet (malheureusement pas toutes) ainsi qu'un support du protocole Samba (i.e. les partages Windows). La GeeXboX possède un client DHCP permettant de configurer automatiquement votre carte réseau. Dans le cas où votre réseau ne possède pas de serveur DHCP, vous aurez à modifier le fichier <b>/etc/network</b>, contenant les lignes suivantes : <br/><br/>
+        Les versions 0.90-4 et supérieures de la GeeXboX rajoutent le support réseau pour la plupart des cartes Ethernet (malheureusement pas toutes) ainsi qu'un support du protocole Samba (i.e. les partages Windows). La GeeXboX possède un client DHCP permettant de configurer automatiquement votre carte réseau. Dans le cas où votre réseau ne possède pas de serveur DHCP, vous aurez à modifier le fichier <b>/etc/network</b>, contenant les lignes suivantes : <br/><br/>
 
 * <b> HOST=""                 # GeeXboX IP ("" for DHCP)</b><br/>
-* <b> USER=""                 # User Login ("" for none)</b><br/>
+* <b> USER="SHARE"            # User Login ("" for none)</b><br/>
 * <b> PWD=""                  # User Password ("" for none)</b><br/><br/>
 
 Vous ouvez très facilement modifier l'IP ainsi que le login et mot de passe des partages Samba. Au démarrage, la GeeXboX cherche la présence d'odrinateurs distants sur un même domaine et essaie de monter automatiquement tous les partages Windows disponibles. Prenez garde à ce que tous les ordinateurs soient bien configurés avec le même nom de domaine si vous désirez que tous les partages soient reconnus.

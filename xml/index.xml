@@ -5,6 +5,57 @@
   <section>
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
+
+    <subsection>
+      <content lang="en" title="GeeXboX ReBirth : 0.95-1 (10/16/03)">
+      Here it comes again ! GeeXboX releases take much and much time but add a full list of new features and bug fixes, as usual. This time, many compatibility problems have been solved and there's the so awaited support for soundcards digital output. Look at this quick changelog :<br/><br/>
+* Fix display problems with nVidia, SiS and Kyro graphic adapters.<br/>
+* Support for multi-subbed OGM files.<br/>
+* Added AutoPlay.<br/>
+* Added XCD support.<br/>
+* Added lots of translations (available in 11 languages).<br/>
+* Added support for Creative PC-DVD, Sony RM-S6 and RX-V850 remote controllers.<br/>
+* Added a GUI-Win32 version of the generator with many bugfixes.<br/>
+* Updated MPlayer to version 1.0pre2.<br/>
+* Replace OSS sound drivers by ALSA ones, with support for digital outputs.<br/>
+* Set resolution to 800x600 to fix some TV-Out bugs.<br/>
+* Fix the DVD playback problem.<br/>
+* Upgraded Samba to 3.0 with better WinXP shares support.<br/>
+* Better USB keys support and detection.<br/>
+* Added FTP server to easily modify GeeXboX's configuration files or copy movies from the network.<br/>
+* Native support for QuickTime SVQ3, H264, ASV 1/2, Indeo, ATI VCR 1/2, and 3ivX codecs.<br/> 
+* GeeXboX can be booted under Debug mode.<br/>
+      </content>
+      <content lang="fr" title="GeeXboX ReBirth : 0.95-1 (16/10/03)">
+      La GeeXboX est à nouveau de retour ! La durée entre chaque nouvelle version de la GeeXboX s'allonge à chaque fois mais, il en va de même pour la liste des nouvelles fonctionnalités et des bugs corrigés, comme àl'accoutumée. Cette fois, de nombreux problèmes de compatibilité ont été résolus et l'on peut découvrir le support tant attendu pour les sorties numériques de cartes son. Voici donc un rapide descriptif des nouveautés :<br/><br/>
+* Correction des problèmes d'affichage avec les cartes graphiques nVidia, SiS et Kyro.<br/>
+* Support des fichiers OGM multi sous-titres.<br/>
+* Ajout de l'AutoPlay.<br/>
+* Support des XCD.<br/>
+* Ajout de nombreuses traductions (disponibles dans 11 langues).<br/>
+* Support des télécommandes Creative PC-DVD, Sony RM-S6 et RX-V850.<br/>
+* Ajout d'une interface graphique pour Win32 du générateur d'ISO avec de nombreux correctifs.<br/>
+* Mise à jour de MPlayer vers la version 1.0pre2.<br/>
+* Remplacement des drivers son OSS par ceux de ALSA, avec support des sorties numériques.<br/>
+* Résolution ajustée à 800x600 avec correction des problèmes de sortie TV.<br/>
+* Correction du problème de lecture des DVD.<br/>
+* Mise à jour de Samba en version 3.0 avec un meilleur support des partages WinXP.<br/>
+* Meilleur support et détection des clés USB.<br/>
+* Ajout d'un serveur FTP permettant une modification rapide et facile des fichiers de configuration de la GeeXboX ou pour copier des films depuis le réseau.<br/>
+* Support natif des codecs QuickTime SVQ3, H264, ASV 1/2, Indeo, ATI VCR 1/2, et 3ivX.<br/> 
+* La GeeXboX peut désormais être démarrée en mode de débogguage.<br/>      
+      </content>
+    </subsection>
+
+    <subsection>
+      <content lang="en" title="GeeXboX's CD available (08/22/03)">
+      For people who don't get a high speed connection to the Internet, the GeeXboX'CD is available. This latter provides you the 0.90-4 bootable release and the full sources packages of all GeeXboX releases, for only 1.99$. More infos in the <a href="down.html">Downloads</a> section.
+      </content>
+      <content lang="fr" title="Disponibilité du CD GeeXboX (22/08/03)">
+      Pour ceux qui ne disposeraient pas de connection Internet haut-débit, ils peuvent commander le CD GeeXboX, qui contient la version bootable 0.90-4, ainsi que les sources complètes de toutes les versions, pour la modique somme de 1.99e. Plus de renseignements, dans la section <a href="down.html"> Téléchargements</a>.
+      </content>
+    </subsection>
+
     <subsection>
       <content lang="en" title="GeeXboX Summer Edition : 0.90-4 (08/05/03)">
         Here is GeeXboX's new release ;-) It now comes with the 2 main features that were missing and requested : network support and hard disk installation. Take a look further, changes are still consequent ;-)<br/><br/>

@@ -27,9 +27,10 @@
 * Display ID3 Tags (Albums, Artist, Track Name and Number) when playing audio-only streams (Waves, MP3, Ogg ...).<br/>
 * Add an image browser (PNG, JPEG ..) and support for USB card-readers (SmartMedia, CompactFlash ...).<br/>
 * Add support for TV cards based on BT8x8 chipset.<br/>
-* Add support for sound cards Digital Outputs and 5.1 sound.<br/>
+* Add support for 5.1 sound.<br/>
 * Add a DVD naviguation menu.<br/>
-* Add support for multimedia keyboards.
+* Add support for multimedia keyboards.<br/>
+* Add support for karaoke playback.
       </content>
       <content lang="fr" title="Fonctionnalités Futures de la GeeXboX ...">
         Vous trouverez ci-dessous quelques fonctionnalités que la prochaine version de la GeeXboX sera susceptible de proposer. Cela pourra prendre un certain temps, en fonction de la nécessité de chaque fonctionnalité :<br/><br/>
@@ -37,9 +38,10 @@
 * Affichage des ID3 Tags (Nom de l'album, de l'artiste, du numéro et nom de piste) lors de la lecture de flux exclusivement audio (WAV, MP3, Ogg ...).<br/>
 * Ajout d'un visualiseur d'images (formats PNG, JPEG ..) et support des lecteurs USB de cartes (SmartMedia, CompactFlash ...).<br/>
 * Support des cartes TV de type BT8x8<br/>
-* Support des sorties numériques des cartes son et du son au format 5.1.<br/>
+* Support du son au format 5.1.<br/>
 * Ajout d'un véritable menu de navigation pour les DVD.<br/>
-* Support des claviers multimédia.
+* Support des claviers multimédia.<br/>
+* Support de fonctionnalités karaoké.
       </content>
     </subsection>
   </section>

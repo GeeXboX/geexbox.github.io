@@ -43,6 +43,7 @@
 So, here's what can be considered as a typical / minimal config :<br/>
 * Pentium-Class CPU or above (P2-400 should be quite enough)<br/>
 * a VESA 2.0 compliant graphics card.<br/>
+* an ALSA compatible sound card.<br/>
 * at least 64 MB of RAM<br/>
 * CD-ROM or DVD-ROM drive<br/>
 * Motherboard which supports booting on CD-ROM (should be ok for everyone ;-)<br/>
@@ -54,6 +55,7 @@ So, here's what can be considered as a typical / minimal config :<br/>
 Voici donc ce qui peut être considéré comme une configuration typique / minimale :<br/>
 * CPU de type Pentium ou Supérieur (un P2-400 devrait parfaitement convenir)<br/>
 * une carte graphique compatible VESA 2.0<br/>
+* une carte son compatible ALSA.<br/>
 * environ 64 Mo de mémoire vive<br/>
 * un lecteur CD-ROM ou DVD-ROM<br/>
 * une carte-mère supportant le démarrage sur CD (cela devrait être bon dans 99% des cas ;-)<br/>
@@ -77,12 +79,9 @@ Voici donc ce qui peut être considéré comme une configuration typique / minimale
 * CONFIG_FAT_FS<br/>
 * CONFIG_MSDOS_FS<br/>
 * CONFIG_UMSDOS_FS<br/>
-* CONFIG_VFAT_FS<br/>
-* CONFIG_BLK_DEV_LOOP, for device loopback support.<br/><br/>
+* CONFIG_VFAT_FS<br/><br/>
 
           You also need to have at least 500 MB of free disk space in order to build the GeeXboX properly.<br/><br/>
-
-          And last but not least, GeeXboX can only be compiled by the super-user, because compilation actually need to mount in loopback the newly-created filesystem, which can be done only by root ;-(
       </content>
       <content lang="fr" title="Besoins Logiciel">
         Ceci n'est nécessaire que dans le cas où vous souhaiteriez construire ou personnaliser votre propre version de la GeeXboX. Avant toute chose, il vous faut savoir que la construction nécessite d'être faite sous un système GNU/Linux. De plus, certains paquetages sont requis, tels que : <br/><br/>
@@ -100,12 +99,9 @@ Voici donc ce qui peut être considéré comme une configuration typique / minimale
 * CONFIG_FAT_FS<br/>
 * CONFIG_MSDOS_FS<br/>
 * CONFIG_UMSDOS_FS<br/>
-* CONFIG_VFAT_FS<br/>
-* CONFIG_BLK_DEV_LOOP, pour permettre un montage en loopback.<br/><br/>
+* CONFIG_VFAT_FS<br/><br/>
 
           Vous devez en outre disposer d'un minimum de 500 Mo d'espace disque disponible afin de construire la GeeXboX correctement.<br/><br/>
-
-          Et pour finir, la GeeXboX ne peut être compilée que par le super-utilisateur, la compilation nécessitant de monter en loopback le système de fichiers nouvellement crée, ce qui ne peut être fait que par le root ;-(
       </content>
     </subsection>
   </section>
