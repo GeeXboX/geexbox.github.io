@@ -15,7 +15,6 @@
     <xsl:comment>
       This web site is (c) 2003 Zores Benjamin
       HomePage for the GeeXboX Project (http://www.geexbox.org/)
-      Design from the OpenWeb Group (http://www.openweb.eu.org/)
       Feel free to get inspiration from this site, as soon as you leave
       this comment here.
 
@@ -27,20 +26,21 @@
     <head>
       <title>GeeXboX HomePage</title>
       <meta http-equiv="Content-language" content="en"/>
-      <link rel="stylesheet" type="text/css" href="../style.css"/>
+      <xsl:call-template name="stylesheet"/>
       <link rel="icon" type="images/png" href="../img/geexbox-icon.png"/>
+      <script type="text/javascript" src="../style/styleswitcher.js"></script>
     </head>
 
     <body>
-      <div id="page">        
+      <div id="page">
 
         <xsl:call-template name="banner"/>
-        <xsl:apply-templates select="node()"/>
-
         <xsl:call-template name="menu"/>
+        <xsl:apply-templates select="node()"/>
+        <xsl:call-template name="style"/>
         <xsl:call-template name="ours"/>
 
-      </div>        
+      </div>
     </body>
   </html>
 
@@ -54,27 +54,51 @@
 </xsl:template>
 
 <xsl:template match="section">
-  <div id="text">
-    <h2><xsl:value-of select="./content[@lang=$lang]/@title"/></h2>
-    <xsl:if test="./content[@lang=$lang]/node()">
-      <p><xsl:apply-templates select="./content[@lang=$lang]/node()"/></p>
-    </xsl:if>
-    <xsl:apply-templates select="./subsection"/>
+  <div id="textbox">
+    <div id="text">
+      <h2>
+        <xsl:if test="@label">
+          <xsl:element name="a">
+            <xsl:attribute name="id">
+              <xsl:value-of select="@label"/>
+            </xsl:attribute><div/>
+          </xsl:element>
+        </xsl:if>
+        <xsl:value-of select="./content[@lang=$lang]/@title"/>
+      </h2>
+      <xsl:if test="./content[@lang=$lang]/node()">
+        <div class="p">
+          <xsl:apply-templates select="./content[@lang=$lang]/node()"/>
+        </div>
+      </xsl:if>
+      <xsl:apply-templates select="./subsection"/>
+    </div>
   </div>
 </xsl:template>
 
 <xsl:template match="subsection">
-  <h4><xsl:value-of select="./content[@lang=$lang]/@title"/></h4>
+  <h4>
+    <xsl:if test="@label">
+      <xsl:element name="a">
+        <xsl:attribute name="name">
+          <xsl:value-of select="@label"/>
+        </xsl:attribute><xml:space/>
+      </xsl:element>
+    </xsl:if>
+    <xsl:value-of select="./content[@lang=$lang]/@title"/>
+  </h4>
   <xsl:if test="./content[@lang=$lang]/node()">
-    <p><xsl:apply-templates select="./content[@lang=$lang]/node()"/></p>
+    <div class="p">
+      <xsl:apply-templates select="./content[@lang=$lang]/node()"/>
+    </div>
   </xsl:if>
   <xsl:apply-templates select="use"/>
 </xsl:template>
 
 <xsl:template match="center">
-  <p class="center">
+  <div class="center">
     <xsl:apply-templates select="node()"/>
-  </p>
+  </div>
 </xsl:template>
 
 <xsl:template match="page">
@@ -89,24 +113,52 @@
 </xsl:template>
 
 
+<xsl:template match="/style"><xsl:call-template name="style"/></xsl:template>
+<xsl:template name="style">
+  <xsl:variable name="style" select="document('style.xml')/style"/>
+  <div id="styles">
+    <h4><xsl:value-of select="$style/content[@lang=$lang]/@title"/></h4>
+    <ul>
+      <xsl:for-each select="$style/stylesheet">
+        <li>
+          <xsl:element name="a">
+            <xsl:attribute name="href">#</xsl:attribute>
+            <xsl:attribute name="onclick">setActiveStyleSheet('<xsl:value-of select="."/>'); return false;</xsl:attribute>
+            <xsl:value-of select="."/>
+          </xsl:element>
+        </li>
+      </xsl:for-each>
+    </ul>
+  </div>
+</xsl:template>
+
+<xsl:template name="stylesheet">
+  <xsl:variable name="style" select="document('style.xml')/style"/>
+  <xsl:for-each select="$style/stylesheet">
+    <xsl:element name="link">
+      <xsl:attribute name="rel">
+        <xsl:choose>
+          <xsl:when test="@default='yes'">stylesheet</xsl:when>
+          <xsl:otherwise>alternate stylesheet</xsl:otherwise>
+        </xsl:choose>
+      </xsl:attribute>
+      <xsl:attribute name="type">text/css</xsl:attribute>
+      <xsl:attribute name="href"><xsl:value-of select="@file"/></xsl:attribute>
+      <xsl:attribute name="media"><xsl:value-of select="@media"/></xsl:attribute>
+      <xsl:attribute name="title"><xsl:value-of select="."/></xsl:attribute>
+    </xsl:element>
+  </xsl:for-each>
+</xsl:template>
+
 <xsl:template match="/banner"><xsl:call-template name="banner"/></xsl:template>
 <xsl:template name="banner">
   <xsl:variable name="banner" select="document('banner.xml')/banner"/>
-  <div id="title">
-    <div id="language">
-      <xsl:for-each select="$banner/langs/text">
-        <xsl:element name="a">
-          <xsl:attribute name="href">../<xsl:value-of select="@lang"/>/<xsl:value-of select="$filename"/></xsl:attribute>
-          <xsl:value-of select="."/>
-        </xsl:element><br/>
-      </xsl:for-each>
-    </div>
+  <div id="logo">
     <xsl:element name="a">
       <xsl:attribute name="href">
         <xsl:value-of select="$banner/logo/@link"/>
       </xsl:attribute>
       <xsl:element name="img">
-        <xsl:attribute name="class">logo</xsl:attribute>
         <xsl:attribute name="src">
           <xsl:value-of select="$banner/logo/@src"/>
         </xsl:attribute>
@@ -119,12 +171,24 @@
       </xsl:element>
     </xsl:element>
   </div>
+  <div id="language">
+    <ul>
+      <xsl:for-each select="$banner/langs/text">
+        <li>
+          <xsl:element name="a">
+            <xsl:attribute name="href">../<xsl:value-of select="@lang"/>/<xsl:value-of select="$filename"/></xsl:attribute>
+            <xsl:value-of select="."/>
+          </xsl:element>
+        </li>
+      </xsl:for-each>
+    </ul>
+  </div>
 </xsl:template>
 
 <xsl:template match="/menu"><xsl:call-template name="menu"/></xsl:template>
 <xsl:template name="menu">
-  <div id="menus">
-    <div id="sectionmenus">
+  <div id="menubox">
+    <div id="menu">
       <xsl:variable name="menu" select="document('menu.xml')/menu"/>
       <xsl:for-each select="$menu/item">
         <xsl:element name="div">
@@ -182,14 +246,6 @@
     <xsl:if test="@title">
       <xsl:attribute name="title"><xsl:value-of select="@title"/></xsl:attribute>
     </xsl:if>CSS2</xsl:element>
-</xsl:template>
-
-<xsl:template match="openweb">
-  <xsl:element name="a">
-    <xsl:attribute name="href">http://openweb.eu.org/</xsl:attribute>
-    <xsl:if test="@title">
-      <xsl:attribute name="title"><xsl:value-of select="@title"/></xsl:attribute>
-    </xsl:if>OpenWeb Group</xsl:element>
 </xsl:template>
 
 

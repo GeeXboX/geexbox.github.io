@@ -18,10 +18,10 @@
     <a href="../releases/0.96/geexbox-0.96-full.tar">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.96-full.tar%7C62064640%7C4B99D8FDF75F5A0A9D03A9C498051E58%7C">edonkey</a>
   </define>
 
-  <section>
+  <section label="download">
     <content lang="en" title="Downloads ..."/>
     <content lang="fr" title="Téléchargements ..."/>
-    <subsection>
+    <subsection label="iso">
       <content lang="en" title="GeeXboX ISO">
         We're currently releasing 2 versions of the GeeXboX : French and English. The installator software has been included to the provided ISO, increasing them slightly. Cause we're fed up with hearing everywhere that Peer-To-Peer (P2P) networks are just a way to share illegal files, we've also decided to let donwload our new release quickly from the edonkey network (the more you are, the faster it'll be ;). It's now you to choose the menu's langage that fits you best :<br/><br/>
           * <b>GeeXboX 0.96 for i586 - English Version - 4.8 MB ( <use name="dl-iso-en"/> ) </b><br/>
@@ -35,7 +35,7 @@
           * <a href="../releases/"><b>Anciennes versions de la GeeXboX</b></a>
       </content>
     </subsection>
-    <subsection>
+    <subsection label="generator">
       <content lang="en" title="GeeXboX ISO Generator">
         With this package, it will be easy to modify the GeeXboX in a few seconds without having to build the sources. The generator produces an ISO image of the GeeXboX, ready to be burned on disc. This piece of software currently works under both GNU/Linux and Microsoft Windows 9x/NT/2k/XP systems.<br/><br/>
           <b>GeeXboX 0.96 ISO generator - 5.4 MB ( <use name="dl-gen"/> )</b>
@@ -45,7 +45,7 @@
           <b>Générateur d'ISO GeeXboX 0.96 - 5.4 Mo ( <use name="dl-gen"/> )</b>
       </content>
     </subsection>
-    <subsection>
+    <subsection label="sources">
       <content lang="en" title="GeeXboX Sources">
         Here are the GeeXboX 0.96 sources. You both need the wget package and a connection to the Internet to compile your own GeeXboX. Indeed, most of the packages are directly donwloaded from the web while compiling the GeeXboX. So, here are the sources :<br/><br/>
           <b>GeeXboX 0.96 Sources (Lite Package - 68 kB) ( <use name="dl-src-lite"/> ) </b><br/>
@@ -57,7 +57,7 @@
           <b>Sources GeeXboX 0.96 (Paquetage Complet - aucune connection à Internet supplémentaire requise - 60 Mo) ( <use name="dl-src-full"/> )</b>
       </content>
     </subsection>
-    <subsection>
+    <subsection label="cvs">
       <content lang="en" title="GeeXboX CVS">
         We've decided to provide you a Web-CVS access. It will help developpers to easily add patches and fixes to the distribution. Moreover, you can also try pre-released versions of the GeeXboX and help us to find and correct bugs. Be ware that the provided CVS can be modified frequently and MUST be consider as UNSTABLE release. We won't provide any support for this release and can't be responsible for any damage or data loss.<br/><br/>
 
@@ -86,7 +86,7 @@
       </content>
     </subsection>
 
-    <subsection>
+    <subsection label="cd">
       <content lang="en" title="Buy GeeXboX CD">
       For people who don't get a high speed connection to the Internet, the GeeXboX's CD is also available. This latter provides you the :<br/><br/>
 <b>* a GeeXboX 0.96 bootable release</b><br/>

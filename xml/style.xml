@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE style SYSTEM "geexbox.dtd">
+
+<style>
+  <content lang="en" title="Styles"/>
+  <content lang="fr" title="Styles"/>
+  <title>Styles</title>
+  <stylesheet file="../style/default.css" media="screen" default="yes">Default</stylesheet>
+  <stylesheet file="../style/console.css" media="screen">Console</stylesheet>
+  <stylesheet file="../style/openweb.css" media="screen">OpenWeb</stylesheet>
+</style>

@@ -2,7 +2,7 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
-  <section>
+  <section label="404">
     <content lang="en" title="Error 404">
       <br/><br/>
       The requested page do not exist.

@@ -1,26 +1,26 @@
 <!ELEMENT article (define | section)*>
-<!ELEMENT define (#PCDATA | use | center | page | webmaster | users | devel | xhtml | css | openweb)*>
+<!ELEMENT define (#PCDATA | use | center | page | webmaster | users | devel | xhtml | css)*>
 <!ELEMENT use EMPTY>
 <!ELEMENT section (content | subsection)*>
 <!ELEMENT subsection (content)*>
-<!ELEMENT content (#PCDATA | use | center | page | webmaster | users | devel | xhtml | css | openweb)*>
-<!ELEMENT center (#PCDATA | use | center | page | webmaster | users | devel | xhtml | css | openweb)*>
+<!ELEMENT content (#PCDATA | use | center | page | webmaster | users | devel | xhtml | css)*>
+<!ELEMENT center (#PCDATA | use | center | page | webmaster | users | devel | xhtml | css)*>
 <!ELEMENT page EMPTY>
 <!ELEMENT webmaster EMPTY>
 <!ELEMENT users EMPTY>
 <!ELEMENT devel EMPTY>
 <!ELEMENT xhml EMPTY>
 <!ELEMENT css EMPTY>
-<!ELEMENT openweb EMPTY>
 
 <!ATTLIST define name NMTOKEN #REQUIRED>
 <!ATTLIST use name NMTOKEN #REQUIRED>
+<!ATTLIST section label NMTOKEN #IMPLIED>
+<!ATTLIST subsection label NMTOKEN #IMPLIED>
 <!ATTLIST content lang NMTOKEN "en"
                   title CDATA #IMPLIED>
 <!ATTLIST page name NMTOKEN #REQUIRED>
 <!ATTLIST xhml title CDATA #IMPLIED>
 <!ATTLIST css title CDATA #IMPLIED>
-<!ATTLIST openweb title CDATA #IMPLIED>
 
 
 <!ELEMENT text (#PCDATA)>
@@ -48,3 +48,11 @@
 
 
 <!ELEMENT ours (content)*>
+
+
+<!ELEMENT style (content | stylesheet)*>
+
+<!ATTLIST stylesheet file NMTOKEN #REQUIRED
+                     default NMTOKEN "no">
+
+<!--                      media (screen | print) -->

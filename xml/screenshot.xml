@@ -36,10 +36,10 @@
     </center>
   </define>
 
-  <section>
+  <section label="screenshot">
     <content lang="en" title="Screenshots and Themes ...">Here are some screenshots of the GeeXboX in action. You just have to click on the thumbnails to enlarge pictures.</content>
     <content lang="fr" title="Captures d'écrans et Thèmes ...">Vous trouverez ci-dessous des captures d'écrans de la GeeXboX en action. Cliquez simplement sur les miniatures pour afficher les images à leur taille originale.</content>
-    <subsection>
+    <subsection label="boot">
       <content lang="en" title="Booting Sequence">
         This is a screenshot taken on GeeXboX on boot. The system is booting using a LPP (Linux Progress Patch, see <a href="http://freshmeat.net/projects/lpp/?topic_id=143">here</a> for more infos).
       </content>
@@ -48,7 +48,7 @@
       </content>
       <use name="scr-boot"/>
     </subsection>
-    <subsection>
+    <subsection label="menu">
       <content lang="en" title="GeeXboX OSD Menu">
         Here is the main OSD (On Screen Display) Menu. This is the state of the system just after boot. You're now able to fully control the OS using a keyboard or a supported remote controller. Pictures above represents the 3 main themes (aqua theme on the left, movies theme on center and classic theme on the right).
       </content>
@@ -57,7 +57,7 @@
       </content>
       <use name="scr-osd"/>
     </subsection>
-    <subsection>
+    <subsection label="video">
       <content lang="en" title="Playing Video">
         The GeeXboX is currently playing a DivX movie. The system has been paused to minimize motion, letting a screenshot to be taken.
       </content>
@@ -66,7 +66,7 @@
       </content>
       <use name="scr-play"/>
     </subsection>
-    <subsection>
+    <subsection label="themes">
       <content lang="en" title="Themes ...">Beyond the official themes, more and more users just have customized their GeeXboX to get a better aspect. The followinf unofficial website has been done by <i>GSX_HS</i> to provide you themes and tutorials to easily modify your GeeXboX. Please have a look at <a href="http://www.geexdb.net/">GeexDB</a>
       </content> 
       <content lang="fr" title="Thèmes ...">Malgré les thèmes officiels, de plus en plus d'utilisateurs ont personnalisé leur GeeXboX afin d'obtenir un plus bel aspect. Le site non-officiel ci-dessous a été réalisé par <i>GSX_HS</i> pour vous fournir des thèmes et tutoriaux pour modifier simplement votre GeeXboX. Précipitez vous donc sur <a href="http://www.geexdb.net/">GeexDB</a>

@@ -33,11 +33,11 @@
     <b><a href="http://www.fokus.fhg.de/research/cc/glone/employees/joerg.schilling/private/cdrecord.html">cdrecord</a></b>
   </define>
 
-  <section>
+  <section label="requirements">
     <content lang="en" title="Requirements ..."/>
 
     <content lang="fr" title="Pré-Requis ..."/>
-    <subsection>
+    <subsection label="hardware">
       <content lang="en" title="Hardware Needs">
         'Sure GeeXboX is an operating system but you still need something to boot on ;-) You're lucky, GeeXboX is based on MPlayer, which can be considered as one of the less cpu-dependant movie player, thanks to the use of FFMpeg for decoding movies.<br/><br/>
 So, here's what can be considered as a typical / minimal config :<br/>
@@ -62,7 +62,7 @@ Voici donc ce qui peut être considéré comme une configuration typique / minimale
 * un clavier ou une télécommande (utilisant un récepteur infra-rouge compatible avec Lirc - vérifiez le sur <use name="req-lirc"/> pour construire le votre), comme par exemple celui fourni avec la carte Miro PcTV.
       </content>
     </subsection>
-    <subsection>
+    <subsection label="software">
       <content lang="en" title="Software Requirements">
         This is usefull only if you consider compiling / customizing your own GeeXboX. First of all, GeeXboX has to be compiled under GNU/Linux. Besides, you may need some packages such as : <br/><br/>
 * <use name="req-gcc"/> : The GNU Compiler Collection, used to build the whole project. Please avoid using Gcc 2.96 (available on old Redhat and Mandrake distributions) which is not really MPlayer-compliant.<br/>

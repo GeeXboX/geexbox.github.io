@@ -2,10 +2,10 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
-  <section>
+  <section label="doc">
     <content lang="en" title="Documentation ..."/>
     <content lang="fr" title="Documentation ..."/>
-    <subsection>
+    <subsection label="menu">
       <content lang="en" title="How to use OSD menu ...">
         The GeeXboX's OSD Menu can easily be controlled using either a single keyboard or a remote controller. Use the up and down arrows keys to switch between the main menu options. The right arrow is used to go to a specific submenu (i.e "Ok") and the left one is for coming back (i.e "Cancel").<br/><br/>
 
@@ -72,7 +72,7 @@
           La GeeXboX a été compilée pour supporter les télécommandes Miro PcTV et ATI Remote Wonder. Cela signifie que, dans le cas où vous utiliseriez un autre type de télécommande, vous serez amener à reconstruire votre propre version de la GeeXboX, en modifiant utilisant le générateur d'ISO prévu à cet effet. Si vous souhaitez utiliser une télécommande non actuellement supportée par la GeeXboX, vous devrez reconstruire les sources et modifier le fichier <i>./packages/lirc/lircd.conf</i>. Consultez le <a href="http://www.lirc.org">Site Web LIRC</a> pour de plus amples détails sur la façon de modifier ce fichier.
       </content>
     </subsection>
-    <subsection>
+    <subsection label="building">
       <content lang="en" title="Building the GeeXboX ...">
         First, you have to be root (the building scripts have to mount the
 boot disk image in loopback).<br/><br/>
@@ -136,7 +136,7 @@ et enfin, pour générer l'installator ; <br/>
   La seule chose dont vous ayez à vous soucier reste alors le fichier de configuration de la GeeXboX.
       </content>
     </subsection>
-    <subsection>
+    <subsection label="config">
       <content lang="en" title="GeeXboX Config File ...">
         The GeeXboX is mainly built as specified in it's configuration file, dexribing the compilation's options and the burner specification.<br/><br/>
           
@@ -222,7 +222,7 @@ et enfin, pour générer l'installator ; <br/>
 * <b>./packages/MPlayer/mplayer.conf</b> : ce fichier contient les options de lancement de MPlayer.
       </content>
     </subsection>
-    <subsection>
+    <subsection label="mplayer">
       <content lang="en" title="MPlayer Documentation ...">
         The GeeXboX is mainly featuring MPlayer. As this player is one of the most powerful media player, it can be started by several ways. In the GeeXboX, 2 files are used to control MPlayer's options :<br/><br/>
           * <i>./packages/MPlayer/menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</i><br/>
@@ -279,7 +279,7 @@ et enfin, pour générer l'installator ; <br/>
           Davantage de documentation concernant MPlayer et ses fchiers de configuration peut être trouvée sur le site officiel de <a href="http://www.mplayerhq.hu/DOCS/">Documentation de MPlayer</a>.
       </content>
     </subsection>
-    <subsection>
+    <subsection label="generator">
       <content lang="en" title="Using the ISO generator ...">
         Thanks to it, it's now possible to build a bootable image of the GeeXboX from the binaries. This let you build the GeeXboX after slight changes in the configuration files for example, with no need to build the full sources. Besides, the generation process can be done both under Linux than Windows. Just execute the ./generator.sh (under Linux) script or generator.exe (under Windows) and let the magic plays ;-)<br/><br/>
 
@@ -312,7 +312,7 @@ Veuillez télécharger cette <a href = "http://www1.mplayerhq.hu/MPlayer/releases/
 De nombreuses autres modifications sont bien entendu possibles, comme le changement de télécommande, d'image de fond ... mais nous vous laissons parcourir en détail le fichier README.txt fourni en conséquence ;-)
       </content>
     </subsection>
-    <subsection>
+    <subsection label="installator">
       <content lang="en" title="Using the installator ...">
         With GeeXboX 0.90-4, you're now able to quickly and easily install the system on any IDE hard disk or USB keys (check that your motherboard's BIOS support boot from USB-HDD). You can install GeeXboX on a new disk or on an empty partition from your current disk. All you need is a partition of at least 8 MB of disk storage (16 MB will be nice, so that you can add more codecs and backgrounds). Plesa note that you MUST use a primary partition (not logical) of less than 1 GB.<br/><br/>
           Installation is not quite difficult. You can either do it from an existing GNU/Linux system or directly when booting the GeeXboX CDROM. At the IsoLinux prompt <b>"boot:"</b> (just before loading GeeXboX), just hit a key and type <b>install</b>. The GeeXboX will now load on a menu for HDD install.<br/><br/>
@@ -335,7 +335,7 @@ De nombreuses autres modifications sont bien entendu possibles, comme le changem
           Si vous aimez la GeeXboX et l'utilisez régulièrement, cela peut être une bonne idée de l'installer sur disque dur. En effet, le système sera vu comme un nouveau lecteur sous Windows ou Linux et ainsi, il sera très facilement possible de le modifier pour qu'il corresponde au mieux à vos besoins (en modifiant la configuration de MPlayer, la télécommande supportée, la configuration du réseau ...) sans avoir à regénérer l'ISO et graver un CD.
       </content>
     </subsection>
-    <subsection>
+    <subsection label="network">
       <content lang="en" title="Editing Network Configuration ...">
         GeeXboX 0.90-4 and above come with a network support for most of the ethernet cards (not all of them unfortunately) and a Samba (Windows shares) support. GeeXboX is running a DHCP client which is trying to autoconfigure your network adapter. Whether you do not get a DHCP server on your network, you'll have to modify the <b>/etc/network</b> file which contains the following lines : <br/><br/>
 
@@ -356,7 +356,7 @@ Vous ouvez très facilement modifier l'IP ainsi que le login et mot de passe des 
       </content>
     </subsection>
 
-    <subsection>
+    <subsection label="pxe">
       <content lang="en" title="Booting from PXE using NFS shares ...">
         GeeXboX 0.96 and above come with a NFS shares support and let you boot from the network from a diskless station using the PXE boot method. To achieve this you will need :<br/><br/>
 <b>
@@ -417,7 +417,7 @@ Le tout devrait maintenant fonctionner. Il ne vous reste plus qu'à booter la mac
       </content>
     </subsection>
 
-    <subsection>
+    <subsection label="ntloader">
       <content lang="en" title="Booting GeeXboX from NT Loader ...">
       You can easily boot GeeXboX from the Windows NT bootloader (provided with Win2k and XP). To perform this, the GeeXboX installator made a backup of your partition's boot sector when you've installed it. So, when using <b>explorer</b> under Windows you just have to copy the file <b>geexbox.lnx</b> from the GeeXboX's partition to your <b>C:\</b> root (and NO OTHER directory !!). Then, simply edit the <b>C:\boot.ini</b> file, and add the following line at the end :<br/><br/>
 <b>c:\geexbox.lnx="GeeXboX"</b><br/><br/>

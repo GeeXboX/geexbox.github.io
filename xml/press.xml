@@ -24,26 +24,24 @@
     * <b>Hardware Magazine, Issue 8 with pages </b><a href = "../img/press-hardwaremag8-1.jpeg">1</a> and <a href = "../img/press-hardwaremag8-2.jpeg">2</a> <b>(0.95)</b>.
   </define>
 
-  <section>
+  <section label="press">
     <content lang="en" title="Press ...">
       Here is a few list of some news or articles that have been published, talking from the GeeXboX project. If you heard about others, we'll be glad to have a look at them. If you are in this case, just contact the <webmaster/>.
     </content>
     <content lang="fr" title="Presse ...">
       Voici une courte liste de quelques nouvelles ou articles qui ont été publiés, et traitant de la GeeXboX. Si vous avez entendu parler d'autres, nous serions ravis d'y jeter un oeil. Si tel est votre cas, veuillez contacter le <webmaster/>.
     </content>
-    <subsection>
-      <stitle lang="en" title="Internet News and articles"/>
-      <stitle lang="fr" title="Nouvelles et Articles parus sur Internet"/>
-      <content lang="en">
+    <subsection label="internet">
+      <content lang="en" title="Internet News and articles">
         The following list covers all of the Internet websites that have post some news or articles about the GeeXboX. We want to thank them for what they've done in so far as the GeeXboX's success would'nt have reach this level without their help.<br/><br/>
         <use name="prs-internet"/><br/><br/>
       </content>
-      <content lang="fr">
+      <content lang="fr" title="Nouvelles et Articles parus sur Internet">
         La liste ci-dessous couvre tous les sites qui ont posté une news ou un article relatif à la GeeXboX. Nous tenons à les remercier, car le succès de la GeeXboX n'aurait pas été tel sans leur contribution.<br/><br/>
         <use name="prs-internet"/><br/><br/>
       </content>
     </subsection>
-    <subsection>
+    <subsection label="newspaper">
       <content lang="en" title="Newspaper articles">
         Some computer-relative newspapers also honnoured us by writing some news or article about eh GeeXboX. Here you can have a look at these, thanks to the follwing links :<br/><br/>
         <use name="prs-paper"/>

@@ -1,0 +1,131 @@
+/* console.css */
+/* This stylesheet is (c) 2004 Aurelien Jacobs */
+/* Designed for the GeeXboX Project (http://www.geexbox.org/) */
+/* Feel free to get inspiration from this stylesheet, as soon as you leave */
+/* this comment here. */
+
+body {
+	background-color: black;
+	color: lightgrey;
+	font-family: monospace;
+}
+
+#language {
+	position: absolute;
+	top: 1em;
+	left: 0;
+	width: 98%;
+        text-align: right;
+	text-decoration: none;
+}
+
+#language li {
+	display: inline;
+	list-style: none;
+}
+
+#language li + li:before {
+	content: " :: ";
+}
+
+#language a {
+	text-decoration: none;
+}
+
+#logo img {
+	border: 0;
+}
+
+#logo a:hover {
+	background-color: transparent;
+}
+
+#text {
+	margin-bottom: 2em;
+}
+
+#text h2 {
+	background-color: #555;
+	font-size:160%;
+}
+
+#text h4 {
+	background-color: #333;
+	font-size:110%;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	background-color: #666;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #eee;
+}
+
+#menu {
+	position: absolute;
+	top: 6em;
+	left: 570px;
+	overflow: hidden;
+	display: table;
+}
+
+#geexbox, #ressources, #feedback {
+	display: table-row;
+}
+
+#geexbox h2, #ressources h2, #feedback h2 {
+	font-size:110%;
+	display: table-cell;
+	padding-bottom: 5px;
+}
+
+#geexbox ul, #ressources ul, #feedback ul {
+	display: table-cell;
+}
+
+#geexbox li, #ressources li, #feedback li {
+	display: inline;
+	display: table-cel;
+	list-style: none;
+	margin-right: 1em;
+}
+
+#geexbox a, #ressources a, #feedback a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#styles {
+	background-color: #555;
+	float: left;
+}
+
+#styles h4 {
+	display: inline;
+	margin-right: 1em;
+}
+
+#styles ul, #styles li {
+	display: inline;
+	list-style: none;
+}
+
+#styles li + li:before {
+	content: " :: ";
+}
+
+#ours {
+	background-color: #555;
+        text-align: right;
+}
+
+.center {
+	text-align: center;
+        margin: 1em 0 2em 0;
+}

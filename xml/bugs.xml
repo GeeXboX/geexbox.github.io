@@ -2,10 +2,10 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
-  <section>
+  <section label="bugs_todo">
     <content lang="en" title="Bugs / TODO ..."/>
     <content lang="fr" title="Bugs / Correctifs ..."/>
-    <subsection>
+    <subsection label="bugs">
       <content lang="en" title="Known Bugs ...">
         Unfortunately, the GeeXboX is not bugs free :-( Don't worry, they're not really anoying and, as they're known, it means that they'll be corrected some day ;-). The main known bugs are :<br/><br/>
 
@@ -21,7 +21,7 @@
 * <b>Problème de démarrage avec IsoLinux sur les EPIA 800</b> : malheureusement, les BIOS des carte-mères EPIA semblent être réellement buggés :-( Il est en effet actuellement impossible de démarrer la nouvelle version de la GeeXboX depuis le lecteur CDROM sur ces cartes-mère, si aucun disque dur n'est physiquement branché (et ce, même s'il n'est pas utilisé !!). Si vous êtes dans ce cas, vous devrez donc utiliser, soit une ancienne version de la GeeXboX ou un disque dur. Nous avons contacté le support technique de VIA pour les prévenir du problème et ils vont essayer de le résoudre. Vous pouvez également leur rapporter le problème via <a href="http://www.viavpsd.com/vpsdcontacts/index.jsp">cette page</a> afin de leur faire prendre conscience que ce bug est bien plus embêtant qu'il ne semble ;-)<br/><br/>
       </content>
     </subsection>
-    <subsection>
+    <subsection label="todo">
       <content lang="en" title="GeeXboX TODO List ...">
         Below are some features that are to be included in the next releases of the GeeXboX. It may takes some time, according to the feature's necessity :<br/><br/>
 * Display ID3 Tags (Albums, Artist, Track Name and Number) when playing audio-only streams (Waves, MP3, Ogg ...).<br/>

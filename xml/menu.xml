@@ -2,7 +2,7 @@
 <!DOCTYPE menu SYSTEM "geexbox.dtd">
 
 <menu>
-  <item name="geexbox" id="techno">
+  <item name="geexbox" id="geexbox">
     <text lang="en">GeeXboX</text>
     <text lang="fr">GeeXboX</text>
 

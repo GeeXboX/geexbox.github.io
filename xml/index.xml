@@ -2,11 +2,11 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
-  <section>
+  <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
 
-    <subsection>
+    <subsection label="release_0.96">
       <content lang="en" title="GeeXboX Xmas Edition : 0.96 (12/18/03)">
       It's Christmas time ! So comes the new release, ready to be put under Xmas tree :-) Most of the changes are essentially bug fixes and hardware support just to please more and more users. Here's part of the Changelog :<br/><br/>
 * New remotes support (this feature was broken in previous release when used with autoplay function).<br/>
@@ -43,7 +43,7 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
       </content>
     </subsection>
 
-    <subsection>
+    <subsection label="forum_crash">
       <content lang="en" title="GeeXboX's Forum Crashdown (12/10/03)">
       As you might have noticed, GeeXboX's forum has been unreachable for last 10 days for an unknown problem with our PostgreSQL database. A severe error cause our host to completely purge this latter with unfortunately no existing backup :-( This means that the forum has been completely purged. All apologies for such a situation.<br/><br/>
       All existing threads and registers have been lost, so that you just have to register once again to the forum (a weekly backup is now automatically done). To make you feel better, we just can say that the 0.96 release of GeeXboX is really bound to come, so just stay tuned :p<br/>
@@ -54,7 +54,7 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
       </content>
     </subsection>
 
-    <subsection>
+    <subsection label="release_0.95">
       <content lang="en" title="GeeXboX Halloween Edition : 0.95 (10/20/03)">
       Here it comes again ! GeeXboX releases take much and much time but add a full list of new features and bug fixes, as usual. This time, many compatibility problems have been solved and there's the so awaited support for soundcards digital output. Look at this quick changelog :<br/><br/>
 * Fix display problems with nVidia, SiS and Kyro graphic adapters.<br/>
@@ -95,7 +95,7 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
       </content>
     </subsection>
 
-    <subsection>
+    <subsection label="cd_0.90-4">
       <content lang="en" title="GeeXboX's CD available (08/22/03)">
       For people who don't get a high speed connection to the Internet, the GeeXboX'CD is available. This latter provides you the 0.90-4 bootable release and the full sources packages of all GeeXboX releases, for only 1.99$. More infos in the <page name="download"/> section.
       </content>
@@ -104,7 +104,7 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
       </content>
     </subsection>
 
-    <subsection>
+    <subsection label="release_0.90-4">
       <content lang="en" title="GeeXboX Summer Edition : 0.90-4 (08/05/03)">
         Here is GeeXboX's new release ;-) It now comes with the 2 main features that were missing and requested : network support and hard disk installation. Take a look further, changes are still consequent ;-)<br/><br/>
 * Add a runtime subtitle file selector.<br/>
@@ -140,7 +140,7 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
 * La version en cours de développement est disponible au téléchargement depuis un CVS.<br/>
       </content>
     </subsection>
-    <subsection>
+    <subsection label="release_0.90-3">
       <content lang="en" title="GeeXboX Revolution : 0.90-3 (06/25/03)">
         Seems it has been a while since last release ;-) But its contents come with its name ;-) Whether the overall system hasn't change much, you'll be please to discover all of theses news features for which you've juste waited for so long :<br/><br/>
 
@@ -180,7 +180,7 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
 * Ajout d'un générateur d'ISO, permettant de regénérer une ISO personnalisée (ou d'y inclure un DivX) en quelques secondes seulement sans recompiler les sources (disponible sous GNU/Linux et Microsoft Windows 9x/NT/2k/XP).<br/>
       </content>
     </subsection>
-    <subsection>
+    <subsection label="release_0.90-2">
       <content lang="en" title="GeeXboX Reloaded : 0.90-2 (05/28/03)">
         You enjoyed 0.90-1 ? We just listened to your requests and new release has finally come. Since the first public release's day, almost 15000 ISO have been downloaded. Hope this one will do the same. So here are the news :<br/><br/>
 * Support for almost all PCI or motherboards integrated soundcards (ISA sound cards are still NOT supported at all).<br/>
@@ -204,7 +204,7 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
 * Les noms de lecteurs ont été renommés pour plus de compréhension.<br/>
       </content>
     </subsection>
-    <subsection>
+    <subsection label="release_0.90-1">
       <content lang="en" title="GeeXboX First Public Release : 0.90-1 (05/16/03)">
         GeeXboX is a full standalone media player. It's a boot CD based on Linux which allows you to watch movies or listen to music. It supports a lot of most formats, such as MPEG, AVI, DivX, XviD, Ogg/Vorbis (Ogm, Ogg), RealMedia, MP3, DVD, VCD and Audio CD. Here is a few examples of its capabilities : <br/><br/>
 

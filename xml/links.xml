@@ -36,10 +36,10 @@
     <a href="http://www.uclibc.org"><b>uClibc</b></a>
   </define>
 
-  <section>
+  <section label="links">
     <content lang="en" title="Links ..."/>
     <content lang="fr" title="Liens ..."/>
-    <subsection>
+    <subsection label="projects">
       <content lang="en" title="Related Projects ...">
         * <use name="lnk-movix"/> : MoviX is a small Linux distro that transforms your PC in a powerful multimedia box. After booting your PC with MoviX, a user-friendly console menu will allow you to use MPlayer to play any DVD/VCD, video/audio files (most noticeably DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, and OGG/VORBIS), TV (provided you have a TV card), and radio stations on the Internet (if you are connected to a LAN). Since the entire operating system is loaded into RAM, you do not even need a hard disk to use MoviX.<br/><br/>
         * <use name="lnk-freevo"/> : Freevo is a Linux application that turns a PC with a TV capture card and/or TV-out into a standalone multimedia jukebox/VCR/PVR/HTPC/DVR/set-top box. It uses MPlayer and other apps to play and record audio and video. It is optimized for use with a TV and remote, but can be used with a monitor and keyboard. It is very easy to install since the binary release package has no external dependencies.<br/><br/>
@@ -55,7 +55,7 @@
         * <use name="lnk-freepia"/> est une distribution GNU/Linux légère conçue pour fonctionner sur les plateformes Via Epia-M. A l'heure actuelle, elle fonctionne uniquement sur la M-9000 mais quelques modifications du noyau et des modules X11 devraient permettre de la faire fonctionner sur d'autres plateformes. La motivation principale de ce projet est de permettre la construction d'un lecteur complet, silencieux permettant de lire films/mp3s/images etc ...
       </content>
     </subsection>
-    <subsection>
+    <subsection label="programs">
       <content lang="en" title="Embedded Programs ...">
         GeeXboX is a full standalone media player. The current stable release is featuring the following programs :<br/><br/>
         * <use name="lnk-linux"/> : Linux is a free Unix-type operating system originally created by Linus Torvalds with the assistance of developers around the world.<br/>
