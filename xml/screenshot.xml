@@ -2,29 +2,39 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
+  <define name="bootsplash">
+    <a href="http://www.bootsplash.org/">BootSplash</a>
+  </define>
+
   <define name="scr-boot">
     <center>
-      <a href="../img/gx-boot-full.jpeg">
-        <img src="../img/gx-boot-thumb.jpeg" alt="GeeXboX Boot"/>
-      </a>
       <a href="../img/gx-boot-full-halloween.jpeg">
         <img src="../img/gx-boot-thumb-halloween.jpeg" alt="GeeXboX Halloween Boot"/>
       </a>
       <a href="../img/gx-boot-full-xmas.jpeg">
         <img src="../img/gx-boot-thumb-xmas.jpeg" alt="GeeXboX Xmas Boot"/>
       </a>
+      <a href="../img/gx-boot-full.jpeg">
+        <img src="../img/gx-boot-thumb.jpeg" alt="GeeXboX Boot"/>
+      </a>
+      <a href="../img/gx-boot-full-omc.jpeg">
+        <img src="../img/gx-boot-thumb-omc.jpeg" alt="GeeXboX Open Media CenterBoot"/>
+      </a>
     </center>
   </define>
   <define name="scr-osd">
     <center>
+      <a href="../img/gx-menu-classic-full.jpeg">
+        <img src="../img/gx-menu-classic-thumb.jpeg" alt="GeeXboX Classic Menu"/>
+      </a>
       <a href="../img/gx-menu-aqua-full.jpeg">
         <img src="../img/gx-menu-aqua-thumb.jpeg" alt="GeeXboX Aqua Menu"/>
       </a>
       <a href="../img/gx-menu-movies-full.jpeg">
         <img src="../img/gx-menu-movies-thumb.jpeg" alt="GeeXboX Movies Menu"/>
       </a>
-      <a href="../img/gx-menu-classic-full.jpeg">
-        <img src="../img/gx-menu-classic-thumb.jpeg" alt="GeeXboX Classic Menu"/>
+      <a href="../img/gx-menu-omc-full.jpeg">
+        <img src="../img/gx-menu-omc-thumb.jpeg" alt="GeeXboX Open Media Center Menu"/>
       </a>
     </center>
   </define>
@@ -41,19 +51,19 @@
     <content lang="fr" title="Captures d'écrans et Thèmes ...">Vous trouverez ci-dessous des captures d'écrans de la GeeXboX en action. Cliquez simplement sur les miniatures pour afficher les images à leur taille originale.</content>
     <subsection label="boot">
       <content lang="en" title="Booting Sequence">
-        This is a screenshot of GeeXboX booting. The system is booting using a LPP (Linux Progress Patch, see <a href="http://freshmeat.net/projects/lpp/?topic_id=143">here</a> for more infos).
+        This is a screenshot of GeeXboX booting. The system is booting using <use name="bootsplash"/> in order to have an animated boot logo.
       </content>
       <content lang="fr" title="Séquence de démarrage">
-        Cette capture a été prise lors du démarrage de la GeeXboX. Le systèm démarre en utilisant un LPP (Linux Progress Patch, voyez <a href="http://freshmeat.net/projects/lpp/?topic_id=143">ici</a> pour de plus amples informations).
+        Cette capture a été prise lors du démarrage de la GeeXboX. Le système démarre en utilisant l'extension <use name="bootsplash"/> qui permet d'avoir un logo de boot animé.
       </content>
       <use name="scr-boot"/>
     </subsection>
     <subsection label="osd">
       <content lang="en" title="GeeXboX OSD Menu">
-        Here is the main OSD (On Screen Display) Menu. This is what the system looks like just after booting. You're now able to fully control the OS using a keyboard, joystick or a supported remote control. The pictures above represents the 3 main themes (aqua theme on the left, movies theme on center and classic theme on the right).
+        Here is the main OSD (On Screen Display) Menu. This is what the system looks like just after booting. You're now able to fully control the OS using a keyboard, joystick or a supported remote control. The pictures above represents the 4 main themes (classic theme on the left, then aqua theme, movies theme and open media center theme on the right).
       </content>
       <content lang="fr" title="Menu OSD de la GeeXboX">
-        Voici le menu OSD (On Screen Display) principal. C'est l'état du votre système juste après la phase de démarrage. A ce point, vous êtes en mesure de controller complètement le système, en utilisant un clavier, joystick ou une télécommande infrarouge compatible. Les images ci-dessous représentent les 3 thèmes principaux (à gauche le thème par aqua, au centre le thème movies et à droite le thème classique).
+        Voici le menu OSD (On Screen Display) principal. C'est l'état du votre système juste après la phase de démarrage. A ce point, vous êtes en mesure de controller complètement le système, en utilisant un clavier, joystick ou une télécommande infrarouge compatible. Les images ci-dessous représentent les 4 thèmes principaux (à gauche le thème classique, suivi du thème aqua, du thème movies et enfin le thème "Open Media Center" à l'extrême droite).
       </content>
       <use name="scr-osd"/>
     </subsection>
