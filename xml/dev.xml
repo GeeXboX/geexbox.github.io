@@ -3,17 +3,17 @@
 
 <article>
   <define name="ct-devel-en">
-    <a href="http://www.geexbox.org/mailman/listinfo/devel"><b>GeeXboX's DevList</b></a>
+    <a href="http://www.geexbox.org/sympa/info/devel"><b>GeeXboX's DevList</b></a>
   </define>
   <define name="ct-devel-fr">
-    <a href="http://www.geexbox.org/mailman/listinfo/devel"><b>page d'administration</b></a>
+    <a href="http://www.geexbox.org/sympa/info/devel"><b>page d'administration</b></a>
   </define>
 
   <define name="ct-devel-archive-en">
-    <a href="http://www.geexbox.org/pipermail/devel/"><b>here</b></a>
+    <a href="http://www.geexbox.org/sympa/arc/devel/"><b>here</b></a>
   </define>
   <define name="ct-devel-archive-fr">
-    <a href="http://www.geexbox.org/pipermail/devel/"><b>cette page</b></a>
+    <a href="http://www.geexbox.org/sympa/arc/devel/"><b>cette page</b></a>
   </define>
 
   <define name="ct-gnu-arch">
