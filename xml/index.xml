@@ -14,7 +14,7 @@
     <content lang="fr" title="Dernières Nouvelles ..."/>
 
     <subsection label="release_0.98">
-      <content lang="en" title="GeeXboX 0.98 (08/11/04)">
+      <content lang="en" title="GeeXboX 0.98 (08/12/04)">
       Here comes again the GeeXboX. This 0.98 edition is a key point in our roadmap. Indeed, this latter dos not really comes with many new features (but somes new usefull things whenever) but fixes a huge number of anoying bugs. Most of all, this release will probably be the last time you see GeeXboX looks like it. We've plan to work harder than ever to bring you next time a new OS, like you've never seen, still keeping it as simple to use as it ever been. So just stay tuned :-)<br/><br/>
       Ok, back from the future, lets give you details about the current release. So, here's what you've been waiting for : <br/><br/>
 * Switch MPlayer to 1.0pre5<br/>
@@ -35,7 +35,7 @@
 * Added support for external USB SmartMedia and CompactFlash cards readers.<br/><br/>
       Hope you'll be pleased with this release, 'cause next one will be kicking-ass :-) By the way, we're still lacking of support in several domains. More than ever, we need translators, designers, and documentation updaters. If you get some free time and want to help us, please let us know. And oh, to conclude, if you really like GeeXboX and want to be warned each time a new version is released, you can freely subscribe to our project page on <use name="freshmeat"/>(and let us gain some popularity in the same way, maybe one day we'll rank the top :-)<br/>
       </content>
-      <content lang="fr" title="GeeXboX 0.98 (11/08/04)">
+      <content lang="fr" title="GeeXboX 0.98 (12/08/04)">
       Et voici débarquer la nouvelle GeeXboX en cette période estivale. Cette version 0.98 marque un point clé dans notre développement. En effet, cette dernière ne contient pas de réelles avancées (bien que vous y retrouverez quelques petites nouveautés bien utiles) mais plutot un très grand nombre de corrections de bugs. Mais surtout, cette version 0.98 sera très probablement la dernière fois que vous verrez la GeeXboX sous son apparence actuelle. Nous avons prévu de travailler plus dur que jamais pour vous fournir un nouvel OS, comme vous ne l'aurez jamais vu, tout en gardant sa simplicité d'utilisation actuelle. Restez donc à l'écoute :-)<br/><br/>
       Ok, revenons sur terre, voici donc les détails concernant la version actuelle. Voici donc ce pour quoi vous avez tant attendu : <br/><br/>
 * Passage à MPlayer 1.0pre5<br/>
