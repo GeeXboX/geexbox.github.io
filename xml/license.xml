@@ -20,7 +20,7 @@
 
   <section label="starting">
     <content lang="en" title="GeeXboX License ..."/>
-    <content lang="fr" title="License d'exploitation ..."/>
+    <content lang="fr" title="Licence d'exploitation ..."/>
 
     <subsection label="license">
       <content lang="en" title="The GPL GeeXboX License">
@@ -30,12 +30,12 @@ The GeeXboX itself, meaning all the scripts which are used in the building toolk
 
 There might be some confusion about what is required to safely distribute GPL'd software such as GeeXboX or its components as part (or as a standalone) of a product. To ensure that there is no confusion whatsoever, this page attempts to summarize what you should do to ensure you do not accidentally violate the law.
       </content>
-      <content lang="fr" title="License GPL d'exploitation de la GeeXboX">
-        La GeeXboX est plus qu'un simple logiciel, il s'agit d'une distribution Linux complète, incluant des dizaines de programmes.<br/>Tous les programmes et librairies utilisés par la GeeXboX sont protégés par leurs licenses respectives.<br/>Ils appartiennent tous à la famille des logiciels libres et la plupart d'entre eux sont couverts par la GNU General Public Licence.<br/><br/>
+      <content lang="fr" title="Licence GPL d'exploitation de la GeeXboX">
+        La GeeXboX est plus qu'un simple logiciel, il s'agit d'une distribution Linux complète, incluant des dizaines de programmes.<br/>Tous les programmes et librairies utilisés par la GeeXboX sont protégés par leurs licenses respectives.<br/>Ils appartiennent tous à la famille des logiciels libres et la plupart d'entre eux sont couverts par la GNU General Public License.<br/><br/>
 
-La GeeXboX elle-même, et ainsi tous les scripts utilisés pour sa construction, ses fichiers de configuration et d'initialisation, ses logos mais également tous les patchs qui ont été rajoutés à des logiciels existants (en un mot, tout ce qui est inclus dans l'archive complète de la GeeXboX) sont couverts par la GNU General Public Licence.<br/><br/>
+La GeeXboX elle-même, et ainsi tous les scripts utilisés pour sa construction, ses fichiers de configuration et d'initialisation, ses logos mais également tous les patchs qui ont été rajoutés à des logiciels existants (en un mot, tout ce qui est inclus dans l'archive complète de la GeeXboX) sont couverts par la GNU General Public License.<br/><br/>
 
-Il peux y avoir confusion sur ce qu'il est nécessaire afin de pouvoir distribuer sans crainte et sous le couvert de la loi des logiciels libres sous license GPL tels que la GeeXboX ou ses composants comme partie intégrante d'un produit (ou comme un produit complet). Afin d'éviter toute confusion, cette page s'attarde à résumer brièvement ce qu'il est nécessaire de faire pour vous assurer de ne pas violer la loi accidentellement.
+Il peux y avoir confusion sur ce qu'il est nécessaire afin de pouvoir distribuer sans crainte et sous le couvert de la loi des logiciels libres sous licence GPL tels que la GeeXboX ou ses composants comme partie intégrante d'un produit (ou comme un produit complet). Afin d'éviter toute confusion, cette page s'attarde à résumer brièvement ce qu'il est nécessaire de faire pour vous assurer de ne pas violer la loi accidentellement.
       </content>
     </subsection>
 
@@ -47,12 +47,12 @@ Il peux y avoir confusion sur ce qu'il est nécessaire afin de pouvoir distribuer
 
 Nobody wants that to happen. Do everyone a favor and don't break the law -- if you use GeeXboX and its components, you <b>must comply with the GeeXboX license</b>.
       </content>
-      <content lang="fr" title="Etre en accord avec la license de la GeeXboX license est facile et complètement gratuit.">
-      Les lois U.S. et internationales protègent les possesseurs de droits d'auteurs de reproduction non autorisée, adaptation, modification cosmétique, distribution ... de produits protégés par les droits d'auteurs. Une violation de copyright (comme le fait de distribuer la GeeXboX d'une façon non conforme à sa license d'exploitation) est sujette à de très lourdes peines. Les tribunaux sont en mesure d'accorder un dédommagement d'un montant maximum de 150 000 $ par produit distribué (même sans être vendu) sans qu'il ne soit nulle part fait référence à l'auteur original du produit. Des poursuites pénales du ressort de la criminalité peuvent être entreprises en cas d'acte intentionnel afin d'un tirer un profit commercial ou dans l'espoir d'un gain financier personnel"<br/><br/>
+      <content lang="fr" title="Etre en accord avec la licence de la GeeXboX licence est facile et complètement gratuit.">
+      Les lois U.S. et internationales protègent les possesseurs de droits d'auteurs de reproduction non autorisée, adaptation, modification cosmétique, distribution ... de produits protégés par les droits d'auteurs. Une violation de copyright (comme le fait de distribuer la GeeXboX d'une façon non conforme à sa licence d'exploitation) est sujette à de très lourdes peines. Les tribunaux sont en mesure d'accorder un dédommagement d'un montant maximum de 150 000 $ par produit distribué (même sans être vendu) sans qu'il ne soit nulle part fait référence à l'auteur original du produit. Des poursuites pénales du ressort de la criminalité peuvent être entreprises en cas d'acte intentionnel afin d'un tirer un profit commercial ou dans l'espoir d'un gain financier personnel"<br/><br/>
 
-      Gardez à l'esprit que la GeeXboX est une distribution complète et non un logiciel unique. Violer la license d'exploitation de la GeeXboX revient d'une certaine manière à violer celle de tous les logiciels qui la compose, à savoir Linux, MPlayer, uClibc, BusyBox (d'où a été tiré le message d'avertissement original en terme de license) et bien d'autres ... Des poursuites pénales peuvent être entreprises pour CHACUN de ces logiciels.<br/><br/>
+      Gardez à l'esprit que la GeeXboX est une distribution complète et non un logiciel unique. Violer la licence d'exploitation de la GeeXboX revient d'une certaine manière à violer celle de tous les logiciels qui la compose, à savoir Linux, MPlayer, uClibc, BusyBox (d'où a été tiré le message d'avertissement original en terme de licence) et bien d'autres ... Des poursuites pénales peuvent être entreprises pour CHACUN de ces logiciels.<br/><br/>
 
-Personne ne souhaite que cela se produise. Faites une faveur à tout le monde, n'enfraigniez pas la loi -- si vous utilisez la GeeXboX et de ce fait ses composants, vous <b>devez être en accord avec la license d'exploitation de la GeeXboX</b>.
+Personne ne souhaite que cela se produise. Faites une faveur à tout le monde, n'enfraigniez pas la loi -- si vous utilisez la GeeXboX et de ce fait ses composants, vous <b>devez être en accord avec la licence d'exploitation de la GeeXboX</b>.
        </content>
      </subsection>
 
@@ -83,19 +83,19 @@ Keep in mind though that if you distribute GPL'd binaries online (as is often do
 
 Some people have the mistaken understanding that if they use unmodified GPL'd source code, they do not need to distribute anything. This belief is not correct, and is not supported by the text of GPL. Please do re-read it -- you will find there is no such provision. If you distribute any GPL'd binaries, you must also make source available as discussed on this webpage. 
       </content>
-      <content lang="fr" title="La GeeXboX est distribuée sous license GNU General Public License">
-       La GeeXboX est distribuée sous license GNU General Public License, générallement abrégée sous le terme de license GPL, ou plus simplement GPL. Toute personne désireuse de distribuer la GeeXboX comme partie intégrante d'un produit ou comme produit complet (tout particulièrement avec des modifications) se doit d'être familière avec les termes de la license selon laquelle elle est en mesure ou non de distribuer son produit dérivé de la GeeXboX. Vous êtes cordialement invités à prendre conscience de :
+      <content lang="fr" title="La GeeXboX est distribuée sous licence GNU General Public License">
+       La GeeXboX est distribuée sous licence GNU General Public Licence, générallement abrégée sous le terme de licence GPL, ou plus simplement GPL. Toute personne désireuse de distribuer la GeeXboX comme partie intégrante d'un produit ou comme produit complet (tout particulièrement avec des modifications) se doit d'être familière avec les termes de la licence selon laquelle elle est en mesure ou non de distribuer son produit dérivé de la GeeXboX. Vous êtes cordialement invités à prendre conscience de :
 <br/><br/>
     * <use name="gpl-text-fr"/>, et<br/>
     * <use name="gpl-faq-fr"/><br/><br/>
 
 afin d'être sûr que vous (ainsi que vos avocats) en comprennent bien tous les termes.<br/><br/>
 
-En voici un rapide résumé (qui ne tient pas lieu de license officielle). Si vous suivez scrupuleusement les étapes ci-dessous, cela impliquera que vous serez à 100% autorisé à distribuer GeeXboX au sein de votre produit (ou comme un produit complet), et n'aurez aucune aucune raison d'avoir peur de poursuites judiciaires. Vous serez en mesure de dormir sans doutes, sachant que vous aurez rempli toutes vos obligations en terme de license.<br/><br/>
+En voici un rapide résumé (qui ne tient pas lieu de licence officielle). Si vous suivez scrupuleusement les étapes ci-dessous, cela impliquera que vous serez à 100% autorisé à distribuer GeeXboX au sein de votre produit (ou comme un produit complet), et n'aurez aucune aucune raison d'avoir peur de poursuites judiciaires. Vous serez en mesure de dormir sans doutes, sachant que vous aurez rempli toutes vos obligations en terme de licence.<br/><br/>
 
-Si vous distribuez un produit, il doit être accompagné par <b>le code source complet de tous ses composants sous license GPL</b> (incluant donc la GeeXboX et tous les logiciels la composant) et/ou une <b>offre écrite</b> de fournir le code source complet pour tous les composants sous license GPL à quiconque en ferait la demande, en contre partie d'éventuels vrais de conditionnement et d'envoi. Le code source se doit d'être dans un langage humainement déchiffrable, vous ne pouvez donc pas en cacher une partie ou le crypter/chiffrer. Il n'est par contre absolument pas nécessaire que vous fournissiez le code source des composantes propriétaires que vous auriez inclus à votre produit, dans la mesure où il s'agit bien d'oeuvre originale et non pas de modification à un logiciel existant sous license GPL. Néanmoins, fournir le code source pour les applications sous license GPL telles que la GeeXboX et tous ses composants est une obligation légale.<br/><br/>
+Si vous distribuez un produit, il doit être accompagné par <b>le code source complet de tous ses composants sous licence GPL</b> (incluant donc la GeeXboX et tous les logiciels la composant) et/ou une <b>offre écrite</b> de fournir le code source complet pour tous les composants sous licence GPL à quiconque en ferait la demande, en contre partie d'éventuels vrais de conditionnement et d'envoi. Le code source se doit d'être dans un langage humainement déchiffrable, vous ne pouvez donc pas en cacher une partie ou le crypter/chiffrer. Il n'est par contre absolument pas nécessaire que vous fournissiez le code source des composantes propriétaires que vous auriez inclus à votre produit, dans la mesure où il s'agit bien d'oeuvre originale et non pas de modification à un logiciel existant sous licence GPL. Néanmoins, fournir le code source pour les applications sous licence GPL telles que la GeeXboX et tous ses composants est une obligation légale.<br/><br/>
 
-<b>Accompagné par les sources</b> signifie généralement que vous distribuez le code source complet de toutes les parties sous license GPL (y compris la GeeXboX donc) de votre produit, en les mettant à disposition sur le CD d'installation par exemple. Le code source complet inclut les fichiers ".config" de configuration pour chacun des logiciels utilisés dans la GeeXboX, mais également l'ensemble des scripts de configuration et d'initialisation qui ont été utilisés pour générer le fichier binaire finale dérivé de la GeeXboX, ainsi que toutes les modifications apportées à du code sous license GPL.<br/><br/>
+<b>Accompagné par les sources</b> signifie généralement que vous distribuez le code source complet de toutes les parties sous licence GPL (y compris la GeeXboX donc) de votre produit, en les mettant à disposition sur le CD d'installation par exemple. Le code source complet inclut les fichiers ".config" de configuration pour chacun des logiciels utilisés dans la GeeXboX, mais également l'ensemble des scripts de configuration et d'initialisation qui ont été utilisés pour générer le fichier binaire finale dérivé de la GeeXboX, ainsi que toutes les modifications apportées à du code sous licence GPL.<br/><br/>
 
 <b>Une offre écrite</b> signifie quant à elle, que quelque part, dans la documentation de votre produit, vous écrivez un paragraphe du genre :<br/><br/>
 
@@ -103,11 +103,11 @@ Si vous distribuez un produit, il doit être accompagné par <b>le code source com
 
 Une autre alternative est également d'offrir le code source moyennant les frais d'envoi, en écrivant quelque part dans la documentation de votre produit une phrase du type :<br/><br/>
 
-    <i>Si vous désirez acquérir une copie du code source complet sous license GPL sur lequel se base ce porduit, il peut vous être envoyé à votre adresse postale en contrepartie d'une participation de 9,99$ aux frais de presse et d'envoi du CD.</i><br/><br/>
+    <i>Si vous désirez acquérir une copie du code source complet sous licence GPL sur lequel se base ce porduit, il peut vous être envoyé à votre adresse postale en contrepartie d'une participation de 9,99$ aux frais de presse et d'envoi du CD.</i><br/><br/>
 
-Gardez cependant à l'esprit que si vous distribuez en ligne des programmes sous license GPL sous forme binaire (comme c'est souvent le cas lors de la distribution d'image CD d'une distribution Linux), il est <b>grandement</b> recommandé que vous fassiez apparaître le code source correspondant sur la même page. De ce fait, si vous distribuez en ligne une version binaire d'une GeeXboX modifiée vous <b>devez</b> soit y joindre le code source en ligne (i.e. <b>accompagné par les sources</b>) et/ou préciser à ceux qui téléchargeront votre produit, de leur droit d'accéder au code source (i.e. a <b>offre écrite</b>). Le cas échéant, il s'agit purement et simplement d'une violation de vos devoirs et obligations en termes de license.<br/><br/>
+Gardez cependant à l'esprit que si vous distribuez en ligne des programmes sous licence GPL sous forme binaire (comme c'est souvent le cas lors de la distribution d'image CD d'une distribution Linux), il est <b>grandement</b> recommandé que vous fassiez apparaître le code source correspondant sur la même page. De ce fait, si vous distribuez en ligne une version binaire d'une GeeXboX modifiée vous <b>devez</b> soit y joindre le code source en ligne (i.e. <b>accompagné par les sources</b>) et/ou préciser à ceux qui téléchargeront votre produit, de leur droit d'accéder au code source (i.e. a <b>offre écrite</b>). Le cas échéant, il s'agit purement et simplement d'une violation de vos devoirs et obligations en termes de licence.<br/><br/>
 
-Certaines personnes ont la fausse idée reçue que s'ils utilisent du code source sous license GPL et qu'ils le distribuent sans même l'avoir modifié, ils n'ont aucune obligation de faire disposer l'utilisateur des sources. Cette croyance est complètement infondée et, de ce fait, non supportée par le texte de la license GPL. Veuillez procéder à nouveau à sa lecture complète, vous ne trouverez nulle présence d'une telle clause. Si vous êtes amenés à distribuer une version binaire d'un logiciel sous license GPL, vous devez rendre sa source disponible, comme expliqué sur cette même page.
+Certaines personnes ont la fausse idée reçue que s'ils utilisent du code source sous licence GPL et qu'ils le distribuent sans même l'avoir modifié, ils n'ont aucune obligation de faire disposer l'utilisateur des sources. Cette croyance est complètement infondée et, de ce fait, non supportée par le texte de la licence GPL. Veuillez procéder à nouveau à sa lecture complète, vous ne trouverez nulle présence d'une telle clause. Si vous êtes amenés à distribuer une version binaire d'un logiciel sous licence GPL, vous devez rendre sa source disponible, comme expliqué sur cette même page.
        </content>
      </subsection>
 
