@@ -6,49 +6,56 @@
     <a href="../releases/0.98/geexbox-0.98-en.iso">GeeXboX 0.98 - English Version</a>
   </define>
   <define name="dl2-iso-en">
-    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98-en.iso">Mirror 2</a>
+    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98-en.iso">Mirror</a>
   </define>
 
   <define name="dl-iso-fr">
     <a href="../releases/0.98/geexbox-0.98-fr.iso">GeeXboX 0.98 - French Version</a>
   </define>
   <define name="dl2-iso-fr">
-    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98-fr.iso">Mirror 2</a>
+    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98-fr.iso">Mirror</a>
   </define>
 
   <define name="dl-old-en">
     <a href="../releases/"><b>GeeXboX old Releases</b></a>
   </define>
   <define name="dl2-old-en">
-    <a href="http://www2.geexbox.org/releases/"><b>Mirror 2</b></a>
+    <a href="http://www2.geexbox.org/releases/"><b>Mirror</b></a>
   </define>
 
  <define name="dl-old-fr">
     <a href="../releases/"><b>Anciennes versions de la GeeXboX</b></a>
   </define>
   <define name="dl2-old-fr">
-    <a href="http://www2.geexbox.org/releases/"><b>Mirror 2</b></a>
+    <a href="http://www2.geexbox.org/releases/"><b>Mirror</b></a>
   </define>
 
   <define name="dl-gen">
     <a href="../releases/0.98/geexbox-generator-0.98.tar.gz">GeeXboX 0.98 ISO generator</a>
   </define>
   <define name="dl2-gen">
-    <a href="http://www2.geexbox.org/releases/0.98/geexbox-generator-0.98.tar.gz">Mirror 2</a>
+    <a href="http://www2.geexbox.org/releases/0.98/geexbox-generator-0.98.tar.gz">Mirror</a>
+  </define>
+
+  <define name="deb-gen">
+    <b>deb http://www.geexbox.org/debian/ unstable main</b>
+  </define>
+  <define name="deb-gen-src">
+    <b>deb-src http://www.geexbox.org/debian/ unstable main</b>
   </define>
 
   <define name="dl-src-lite">
     <a href="../releases/0.98/geexbox-0.98.tar.bz2">GeeXboX 0.98 Sources</a>
   </define>
   <define name="dl2-src-lite">
-    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98.tar.bz2">Mirror 2</a>
+    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98.tar.bz2">Mirror</a>
   </define>
 
   <define name="dl-src-full">
     <a href="../releases/0.98/geexbox-0.98-full.tar">GeeXboX 0.98 Sources</a>
   </define>
   <define name="dl2-src-full">
-    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98-full.tar">Mirror 2</a>
+    <a href="http://www2.geexbox.org/releases/0.98/geexbox-0.98-full.tar">Mirror</a>
   </define>
 
   <define name="dl-md5">
@@ -88,6 +95,20 @@
           <b><use name="dl-gen"/> - <use name="dl2-gen"/> - 6,5 Mo</b>
       </content>
     </subsection>
+
+    <subsection label="debian">
+      <content lang="en" title="GeeXboX Debian Repository">
+        The GeeXboX ISO generator is also available through <b>apt-get</b> for GNU/Linux Debian's users. Simply add the following lines to your <i>/etc/apt/sources.list</i> file :<br/><br/>
+        <use name="deb-gen"/><br/>
+        <use name="deb-gen-src"/><br/>
+      </content>
+      <content lang="fr" title="Dépositoire GeeXboX pour Debian">
+        Le générateur d'ISO de la GeeXboX est également disponible au travers d'<b>apt-get</b> pour les utilisateurs de distribution Debian GNU/Linux. Rajoutez simplement les lignes suivantes à votre fichier <i>/etc/apt/sources.list</i> :<br/><br/>
+        <use name="deb-gen"/><br/>
+        <use name="deb-gen-src"/><br/>
+      </content>
+    </subsection>
+
     <subsection label="sources">
       <content lang="en" title="GeeXboX Sources">
         Here are the GeeXboX 0.98 sources. You both need the wget package and a connection to the Internet to compile your own GeeXboX. Indeed, most of the packages are directly donwloaded from the web while compiling the GeeXboX. So, here are the sources :<br/><br/>
