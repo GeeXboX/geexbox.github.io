@@ -41,15 +41,6 @@ A l'époque des premières phases de développement (Dec. 2002), il était uniquemen
    * Les flux exclusivement Audio tels que le MP3, Ogg/Vorbis, WAV (AudioCD), AC3 ...<br/>
       </content>
     </subsection>
-    <subsection label="license">
-      <content lang="en" title="License">
-        All the programs used by the GeeXboX are protected by their respective licenses.<br/>They are all free software and most of them are covered by the GNU General Public Licence.<br/>
-The GeeXboX itself, meaning all the scripts which are used in the building process, are covered by the GNU General Public Licence.<br/>
-      </content>
-      <content lang="fr" title="License d'exploitation">
-        Tous les programmes utilisés par la GeeXboX sont protégés par leurs licenses respectives.<br/>Ils appartiennent tous à la famille des logiciels libres et la plupart d'eux sont couverts par la GNU General Public Licence. La GeeXboX elle-même, et donc tous les scripts utilisés pour sa construction, sont couverts par la GNU General Public Licence.<br/>
-      </content>
-    </subsection>
     <subsection label="more">
       <content lang="en" title="Want more ?">
         'You may think that such a thing requires a new generation computer ;-) That's where you're wrong !! An old P2-400 with 64 MB of RAM will be quite powerful enough to let the magic play. Also, the GeeXboX ISO only takes about 6 MB on disc. And of course, the whole thing can be managed by a remote controller, thanks to its full OSD (On Screen Display) Menu.<br/>

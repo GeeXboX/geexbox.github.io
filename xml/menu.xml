@@ -11,6 +11,11 @@
       <text lang="fr">Par où commencer ...</text>
     </subitem>
 
+    <subitem name="license" url="license.html">
+      <text lang="en">License</text>
+      <text lang="fr">License</text>
+    </subitem>
+
     <subitem name="screenshots" url="screenshot.html">
       <text lang="en">Screenshots</text>
       <text lang="fr">Captures d'écrans</text>
