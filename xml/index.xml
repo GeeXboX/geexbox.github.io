@@ -2,9 +2,26 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
+  <define name="mozilla">
+    <a href="http://www.mozilla.org/">Mozilla</a>
+  </define>
+
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
+
+    <subsection label="site_v2">
+      <content lang="en" title="GeeXboX Website updated (01/13/04)">
+      OpenWeb's stylesheet was used for too long. OpenWeb's people were not so pleased so we've finally took the time to redesign it from scratch. You're now even able to switch between two different stylesheets (feel free to submit new ones if your inspired).<br/><br/>
+
+      As always, the site is W3C standards compliant (XHTML 1.1 and CSS 2). If you notice display problems, just use a CSS 2 compliant browser (for example <use name="mozilla"/>).
+      </content>
+      <content lang="fr" title="Mise à jour du site GeeXboX (13/01/04)">
+      Nous utilisions la feuille de style du consortium OpenWeb depuis trop longtemps. Cela n'enchantait guère les gens d'OpenWeb et nous avons donc enfin pris le temps de créer un nouveau design depuis zéro. Vous pouvez maintenant choisir entre deux thèmes différents (libre à vous de nous en soumettre de nouveaux).<br/><br/>
+
+      Comme d'habitude, le site est conforme aux standards du W3C (XHTML 1.1 et CSS 2). Si vous rencontrez des problèmes d'affichage, utilisez simplement un navigateur respectant ces standards (par exemple <use name="mozilla"/>).
+      </content>
+    </subsection>
 
     <subsection label="release_0.96">
       <content lang="en" title="GeeXboX Xmas Edition : 0.96 (12/18/03)">
