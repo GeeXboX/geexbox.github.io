@@ -69,7 +69,7 @@ So, as usual, here's a quick changelog of the new features for which you've been
 * Support for S3 Virge GX2 TV Out.<br/>
 * Support for the Matroska container.<br/>
 * Support for the Nullsoft streaming video (NSV) container.<br/>
-* Support for PCI and USB WiFi network adapters (AiroNet, Atmel, Atheros, Prism2 et Prism54/GT chipsets).<br/>
+* Support for PCI and USB WiFi network adapters (AiroNet, Atmel, and Prism2 chipsets).<br/>
 * Support for Serial ATA disks.<br/>
 * Support for 3COM/NetGear Gigabit ethernet cards.<br/>
 * Support for BT8x8 and Saa73134 cards (Composite and S-VHS inputs and TV tuners).<br/>
@@ -93,7 +93,7 @@ Donc, comme à l'accoutumée, voici un rapide aperçu des nouvelles fonctionnalités
 * Support de la sortie TV des cartes S3 Virge GX2.<br/>
 * Support du conteneur audio/vidéo Matroska.<br/>
 * Support du conteneur Nullsoft streaming video (NSV).<br/>
-* Support des cartes réseaux WiFi aux formats PCI et USB (chipsets AiroNet, Atmel, Atheros, Prism2 et Prism54/GT).<br/>
+* Support des cartes réseaux WiFi aux formats PCI et USB (chipsets AiroNet, Atmel, et Prism2).<br/>
 * Support des disques Serial ATA.<br/>
 * Support des cartes Ethernet 3COM/NetGear Gigabit.<br/>
 * Support des cartes BT8x8 et Saa7134 (entrées Composite et S-VHS et des tuners TV).<br/>
