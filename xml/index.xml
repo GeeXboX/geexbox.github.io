@@ -8,10 +8,33 @@
   <define name="freshmeat">
     <a href="http://freshmeat.net/projects/geexbox/"><i>Freshmeat</i></a>  
   </define>
+  <define name="drafts">
+    <a href="../drafts/">page</a>
+  </define>          
+  <define name="devel">
+    <a href="../releases/devel/pre-0.99/">page</a>
+  </define>          
 
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
+
+    <subsection label="pre_0.99">
+      <content lang="en" title="Help with GeeXboX development : try devel releases">    
+        Almost 2 monthes have passed since GeeXboX 0.98 has been released. Lots of work have been done since then. For information, we're now supporting the Linux 2.6 kernel serie and many improvements have been included to the video output. This latter now fully respects the VESA 3.0 specification, adding a new support for all 3Dfx and Intel i845/i855/i865 cards and chipsets. Besides, pictures are now rendered using a 24 bits depth.<br/><br/>
+
+        We've now almost end up with the architecture changes we've planned to do for 0.99 release and we could finally start to work on a complete rework of the menu interface. To give you a taste of the future of GeeXboX, you can simply have a look to our <i>Work In Progress</i><use name="drafts"/>. For now it's only a snapshot of the coming 0.99 and to provide you such a perfect release as soon as possible, we need you to test our development release and report us as many bugs as possible.<br/><br/>
+
+        We'll try to release as much development release as we can, each time we would have added significant changes. So, if you want to help us, please try our development release at this <use name="devel"/>. Be sure to understand that it's only work in progress snapshots, meaning that they can no longer be considered as stable. If you want to be sure to use a ready to work release, keep using the 0.98 release.
+      </content>
+      <content lang="fr" title="Contribuer au développement de la GeeXboX : testez les versions de développements.">    
+        Presque 2 mois se sont écoulés depuis la sortie de la version 0.98 de la GeeXboX. De nombreuses améliorations ont été apportées depuis et, pour ne citer que les principales, la distribution supporte désormais la série 2.6 du noyau Linux et de gros efforts ont été portés sur l'amélioration de la qualité d'affichage. La GeeXboX supporte désormais une profondeur de rendu d'image de 24 bits et respecte les spécifications de la norme VESA 3.0, ce qui nous permet (enfin) de supporter les cartes graphiques et chipsets 3Dfx et Intel i845/i855/i865.<br/><br/>
+
+        Nous en avons maintenant quasiment fini avec les changements d'architecture que nous avions prévu d'apporter à la future version 0.99 et nous sommes désormais en mesure de concentrer nos efforts sur une refonte complète de l'interface du menu. Pour vous donner un aperçu du futur de la GeeXboX, vous pouvez simplement jetter un oeil sur notre page <use name="drafts"/> d'ébauche de l'interface. A l'heure actuelle il ne s'agit que d'un simple aperçu de la future version 0.99 et, afin de la distribuer au plus tôt, nous avons besoin de votre aide pour tester nos versions de développement et pour nous rapporter tous les bugs que vous pourrez rencontrer.<br/><br/>
+
+        Nous essaierons de mettre à votre disposition de nouvelles versions de développement aussi souvent que possible, dès que des changements significatifs auront été apportés. Ainsi, si vous souhaitez contribuer au développement, vous êtes invités à tester nos versions de développement sur cette <use name="devel"/>. Comprenez bien cependant qu'il ne s'agit que de versions unstables, en cours de développement, et qui ne peuvent être considérées comme stable. Si vous souhaitez utiliser une version certifiée stable de la GeeXboX, la 0.98 est faite pour vous.
+      </content>
+    </subsection>
 
     <subsection label="release_0.98">
       <content lang="en" title="GeeXboX 0.98 (08/12/04)">
