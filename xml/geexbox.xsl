@@ -61,7 +61,8 @@
           <xsl:element name="a">
             <xsl:attribute name="id">
               <xsl:value-of select="@label"/>
-            </xsl:attribute><div/>
+            </xsl:attribute>
+            <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
           </xsl:element>
         </xsl:if>
         <xsl:value-of select="./content[@lang=$lang]/@title"/>
@@ -80,9 +81,10 @@
   <h4>
     <xsl:if test="@label">
       <xsl:element name="a">
-        <xsl:attribute name="name">
+        <xsl:attribute name="id">
           <xsl:value-of select="@label"/>
-        </xsl:attribute><xml:space/>
+        </xsl:attribute>
+        <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
       </xsl:element>
     </xsl:if>
     <xsl:value-of select="./content[@lang=$lang]/@title"/>
