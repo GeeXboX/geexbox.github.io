@@ -13,7 +13,7 @@
     <subsection label="release_0.97">
       <content lang="en" title="GeeXboX 0.97 : Birthday Edition (05/16/04)">
       'Think it was the hardest version to release but 0.97 has finally come, exactly one year after the first public release. As you may have noticed, our website was unreachable for some times in the last month and till now, some services were unfortunately down. Let's clarify the situation. Our previous host (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) has been attacked by hackers in January 2004 and decided to stop hosting free projects for an undefined period. Thanks to <b>BWare</b>, a member of the GeeXboX's forum, we got the opportunity to get a nearly dedicated web server with full of bandwidth. Many thanks for him, without whom, our services wouldn't have restarted at this time. More than ever, we need generous contributors and donators to help the project and prevent us from such a situation to happen once again. If you believe in our project, don't hesitate to have a look at the appropriate section of this website.<br/><br/>
-Let's stop with it, it's now time to talk about the 0.97 release :-) For many reasons (like the one just above), the developpement took really much more time that we could have wished. But you will be glad to know that this release comes with many new features that have been requested by users for a long time. By the way, one of the longest period between releases is the bug tracking phase. We often release developpement versions of GeeXboX and you're all welcomed to test them the most you can. Please remember that the most you are to test and to report bugs and the quicker will new versions be released.<br/><br/>
+Let's stop with it, it's now time to talk about the 0.97 release :-) For many reasons (like the one just above), the developement took really much more time that we could have wished. But you will be glad to know that this release comes with many new features that have been requested by users for a long time. By the way, one of the longest period between releases is the bug tracking phase. We often release developement versions of GeeXboX and you're all welcomed to test them the most you can. Please remember that the most you are to test and to report bugs and the quicker will new versions be released.<br/><br/>
 So, as usual, here's a quick changelog of the new features for which you've been waiting for so long : <br/><br/>
 * Switch MPlayer to 1.0pre4<br/>
 * Support for Packard Bell Fast media remote and receiver.<br/>
@@ -185,10 +185,10 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
 * Add a new theme (design and boot logo).<br/>
 * Add an easy HDD and USB keys installator (just hit <b>install</b> at boot prompt).<br/><br/>
 
-        The GeeXboX's website has also been modified to provide better user's support and faster developpement : <br/><br/>
+        The GeeXboX's website has also been modified to provide better user's support and faster developement : <br/><br/>
 * This website is now accesible from <b><a href="http://www.geexbox.org/">http://www.geexbox.org/</a></b><br/>
-* You can now suscribe to a developper mailing list to help for the developpement or simply be aware of daily evolution.<br/>
-* You can get current developpement version from CVS.<br/>
+* You can now subscribe to a developer mailing list to help for the developement or simply be aware of daily evolution.<br/>
+* You can get current developement version from CVS.<br/>
       </content>
       <content lang="fr" title="GeeXboX Summer Edition : 0.90-4 (05/08/03)">
         Voici venue la nouvelle version de la GeeXboX ;-) Elle comprend désormais les 2 principales fonctionnalités qui lui manquaient et que vous attendiez tant, à savoir : le support réseau and l'installation sur disque dur. Regardez plus en détails, les changements sont assez conséquents ;-)<br/><br/>

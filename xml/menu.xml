@@ -23,7 +23,7 @@
   </item>
 
   <item name="ressources" id="ressources">
-    <text lang="en">Ressources</text>
+    <text lang="en">Resources</text>
     <text lang="fr">Ressources</text>
 
     <subitem name="require" url="requirements.html">
@@ -42,7 +42,7 @@
     </subitem>
 
     <subitem name="dev" url="dev.html">
-      <text lang="en">Developpers</text>
+      <text lang="en">Developers</text>
       <text lang="fr">Developpeurs</text>
     </subitem>
   </item>

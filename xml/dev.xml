@@ -34,14 +34,14 @@
   </define>
 
   <section label="dev">
-    <content lang="en" title="Developpers ..."/>
+    <content lang="en" title="Developers ..."/>
     <content lang="fr" title="Developpeurs ..."/>
 
     <subsection label="cvs">
       <content lang="en" title="GeeXboX Arch">
         <use name="ct-gnu-arch"/> is a revision control system, similar in purpose to tools such as CVS, SCCS, and Subversion. It is used to keep track of the changes made to a source tree and to help programmers combine and otherwise manipulate changes made by multiple people or at different times.<br/><br/>
 
-We've decided to provide you a Web-Arch access. It will help developpers to easily add patches and fixes to the distribution. Moreover, you can also try pre-released versions of the GeeXboX and help us to find and correct bugs. Be aware that the provided Arch can be modified frequently and MUST be consider as UNSTABLE release. We won't provide any support for this release and can't be responsible for any damage or data loss.<br/><br/>
+We've decided to provide you a Web-Arch access. It will help developers to easily add patches and fixes to the distribution. Moreover, you can also try pre-released versions of the GeeXboX and help us to find and correct bugs. Be aware that the provided Arch can be modified frequently and MUST be consider as UNSTABLE release. We won't provide any support for this release and can't be responsible for any damage or data loss.<br/><br/>
 
           There's currently 2 ways from accesing our Arch Tree : via command-line or Web-Arch (to just have a look to some changes on a specific file for example). You can directly access to the Web-Arch with your browser from :<br/><br/>
 
@@ -72,14 +72,14 @@ We've decided to provide you a Web-Arch access. It will help developpers to easi
     </subsection>
 
     <subsection label="devel">
-      <content lang="en" title="Developpers Mailing List">
-        Whether you port any interrest into GeeXboX's developpement, you may want to subscribe to our developper mailing list. There you can send your patches, and code fixes but also learn about the daily developpement progress. You have to suscribe to the mailing list to post on it. Please note that ENGLISH only will be used on this list (other langages posts won't get any answer from us, nor than questions, suggestions or bug reports). You can post at this address :
+      <content lang="en" title="Developers Mailing List">
+        Whether you port any interrest into GeeXboX's developement, you may want to subscribe to our developer mailing list. There you can send your patches, and code fixes but also learn about the daily developement progress. You have to suscribe to the mailing list to post on it. Please note that ENGLISH only will be used on this list (other langages posts won't get any answer from us, nor than questions, suggestions or bug reports). You can post at this address :
         <center><devel/></center>
         You can (un)subscribe to the mailing list, registering on <use name="ct-devel-en"/><br/><br/> 
 
         Please remember that only the subscribed email accounts can be used to post on the mailing list.<br/><br/>
 
-        You can easily access to the developper mailing list archives <use name="ct-devel-archive-en"/>.
+        You can easily access to the developer mailing list archives <use name="ct-devel-archive-en"/>.
       </content>
 
       <content lang="fr" title="Liste de Diffusion pour Développeurs">
