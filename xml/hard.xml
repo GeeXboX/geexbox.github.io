@@ -2,6 +2,10 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
+  <define name="response-computing">
+    <a href="http://www.responsecomputing.co.uk/html/geexbox.html">Response Computing</a>
+  </define>
+
   <define name="video_supported">
     ATI Rage, ATI RageMobility, ATI Mach64, ATI Rage128, ATI Radeon, ATI X300/600/800, nVidia Riva TnT 1/2, nVidia GeForce 1/2/3/4/5/6 series, 3Dfx Voodoo Banshee, 3Dfx Voodoo 3/4/5, Matrox Mystique/Millenium, Matrox G200/G400/G450/G455/G550/G650/G750, Intel i810/815, SiS 300/315/330, Trident Cyberblade, VIA Unichrome.
   </define>
@@ -92,7 +96,16 @@
     <content lang="en" title="Supported Hardware ..."/>
     <content lang="fr" title="Matériel compatible ..."/>
 
-    <subsection label="donate_why">
+    <subsection label="hard_rc">
+      <content lang="en" title="Get an officialy supported computer ...">
+        Of course GeeXboX should work on any kind of computer but you may want to buy a new one that is officially supported by our development team. <use name="response-computing"/> is a UK computer shop that sells hardware that has been approved by GeeXboX team to be fully compliant. It looks like an embedded mini-itx plateform, featuring an EPIA-MII motherboard, and shipped with a pre-installed version of GeeXboX. Then, if you look for an easy way to build a GeeXboX, you may be interested by <use name="response-computing"/>. Moreover, 5£ are given back to our development team for each computer sold.
+      </content>
+      <content lang="fr" title="Se procurer un ordinateur officiellement supporté ...">
+        Bien entendu, la GeeXboX a été conçue pour fonctionner sur tout type d'ordinateur, mais vous pouvez vouloir en acheter un, dédié à devenir platine de salon, et qui soit certifié par l'équipe de développement. <use name="response-computing"/> est une société anglaise qui commercialise un système embarqué qui a été officiellment testé et certifié par notre équipe de développement. Il s'agit d'une plateforme Mini-ITX, basée sur une carte mère EPIA-MII, et qui est vendue avec une version pré-installée de la GeeXboX. Ainsi, si vous cherchez un moyen facile de construire votre propre GeeXboX, vous pourrez être intéressés par l'offre de <use name="response-computing"/>. De plus, 5£ sont reversées à l'équipe de développement pour chaque vente.
+      </content>
+    </subsection>
+
+    <subsection label="list_hard">
       <content lang="en" title="List of supported hardware ...">
 GeeXboX has been designed to work on almost every kind of computer, being as generic as possible. Thus, most of the components of your computer are supported. Whatever the brand or model of your motherboard, CD/DVD drive, hard disk, CPU and memory, GeeXboX will be able to recognize and use it well.<br/><br/>
 
