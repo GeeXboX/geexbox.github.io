@@ -60,6 +60,11 @@
       <text lang="en">Developers</text>
       <text lang="fr">Developpeurs</text>
     </subitem>
+
+    <subitem name="packages" url="packages.html">
+      <text lang="en">Packages</text>
+      <text lang="fr">Paquetages</text>
+    </subitem>
   </item>
 
   <item name="feedback" id="feedback">
