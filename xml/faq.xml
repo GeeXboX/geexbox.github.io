@@ -6,6 +6,12 @@
     <content lang="en" title="Frequently Asked Questions ..."/>
     <content lang="fr" title="Foire Aux Questions ..."/>
     <subsection>
+      <content lang="en" title="Compatibility List ...">You're fully in rights to wonder whether GeeXboX is compatible with your current hardware. A short list has been done by users and just need you to grow up faster. GeeXboX aims at being run on almost every PC but sometimes, there's unfortunately not the case. Just have a look a this <a href="http://beb59.no-ip.com/geexbox/">HardWare Compatibility List</a> before doing any bug report.
+      </content>
+      <content lang="fr" title="Liste de Compatibilité ...">Vous êtes parfaitement en droit de vous demander si votre matériel est supporté par la GeeXboX. Une courte liste a été crée par les utilisateurs et ne demande qu'à grandir. La GeeXboX devrait fonctionne rsur quasiemment tous les PC mais des fois, ce n'est malheureusement pas le cas. Jettez donc un coup d'oeil à la <a href="http://beb59.no-ip.com/geexbox/">Liste de Compatibilité Matérielle</a> avant de procéder à un rapport de bug.
+      </content>
+    </subsection>
+    <subsection>
       <content lang="en" title="How to burn the image ?">
         Some users reported to us few problems to burn the image and to boot under GeeXboX. Most are Windows users. Be aware that WinRAR seems to recognize the .iso files as archives and try to extract the files from it. IT'S A BAD IDEA TO DO THAT ! The provided ISO is a ready-to-burn file. It's already bootable. You just have to burn it with "File/Burn Image..." under Ahead Nero in DAO MODE or with cdrecord under Linux. If you can, please finalize the writing session.
       </content>
