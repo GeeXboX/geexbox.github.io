@@ -27,6 +27,7 @@
 * Display ID3 Tags (Albums, Artist, Track Name and Number) when playing audio-only streams (Waves, MP3, Ogg ...).<br/>
 * Add an image browser (PNG, JPEG ..) and support for USB card-readers (SmartMedia, CompactFlash ...).<br/>
 * Add support for TV cards based on BT8x8 chipset.<br/>
+* Add support for DXR3 cards.<br/>
 * Add support for 5.1 sound.<br/>
 * Add a DVD naviguation menu.<br/>
 * Add support for multimedia keyboards.<br/>
@@ -38,6 +39,7 @@
 * Affichage des ID3 Tags (Nom de l'album, de l'artiste, du numéro et nom de piste) lors de la lecture de flux exclusivement audio (WAV, MP3, Ogg ...).<br/>
 * Ajout d'un visualiseur d'images (formats PNG, JPEG ..) et support des lecteurs USB de cartes (SmartMedia, CompactFlash ...).<br/>
 * Support des cartes TV de type BT8x8<br/>
+* Support des cartes DXR3.<br/>
 * Support du son au format 5.1.<br/>
 * Ajout d'un véritable menu de navigation pour les DVD.<br/>
 * Support des claviers multimédia.<br/>

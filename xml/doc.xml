@@ -144,20 +144,23 @@ et enfin, pour générer l'installator ; <br/>
 
           <b># Target CPU (i586 or C3)</b><br/>
           <b>CPU=i586</b><br/>
-          <b># Theme (movies, aqua, classic)</b><br/>
-          <b>THEME=movies</b><br/>
-          <b># Default Langage (br/cz/en/es/fi/fr/it/nl/ru/se/sk)</b><br/>
+          <b># Theme (xmas, halloween, movies, aqua, classic)</b><br/>
+          <b>THEME=xmas</b><br/>
+          <b># Default Langage (bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk)</b><br/>
           <b>LANG=en</b><br/>
-          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850)</b><br/>
+          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850/animax)</b><br/>
           <b>REMOTE=pctv</b><br/>
-          <b># Use Extra Binary Codecs (RealMedia/WindowsMedia 9)</b><br/>
+          <b># Use Extra Binary Codecs - RealMedia/WindowsMedia 9 (yes/no)</b><br/>
           <b>EXTRACODECS=no</b><br/>
           <b># Network Support (Samba shares and FTP Server) (yes/no)</b><br/>
           <b>NETWORK=yes</b><br/>
           <b># Choose font type for OSD (truetype/bitmap)</b><br/>
           <b>FONT=truetype</b><br/>
           <b># Enable Debuging (build gdb ...)</b><br/>
-          <b>DEBUG=no</b><br/><br/>
+          <b>DEBUG=no</b><br/>
+          <b># Add DirectFB support (EXPERIMENTAL)</b><br/>
+          <b>DIRECTFB=yes</b><br/>
+          <br/>
           <b># Burning options</b><br/><br/>
           <b># device (ex: 0,0,0). See the output of cdrecord -scanbus</b><br/>
           <b>BURNER=0,0,0</b><br/>
@@ -166,33 +169,40 @@ et enfin, pour générer l'installator ; <br/>
           <b># you can also pass options to cdrecord :</b><br/>
           <b>CDRECORD_OPTS=</b><br/>
           <br/>
+          <b># PXE boot options</b><br/>
+          <b>DEFAULT_NFS_SERVER=192.168.0.1</b><br/>
+          <br/>
 
           To sum up, the GeeXboX configuration files can be found here :<br/>
 * <b>./config/options</b> : main GeeXboX build options and burner specs<br/>
 * <b>./packages/linux/linux.conf</b> : this is the kernel config file, used to build the GeeXboX. It can be edited to fit your needs (e.g. some IR devices ...)<br/>
-* <b>./packages/MPlayer/menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</b> : modify this file to edit your menu items.<br/>
+* <b>./packages/MPlayer/menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> : modify this file to edit your menu items.<br/>
 * <b>./packages/MPlayer/mplayer.conf</b> : this file contains MPlayer's start options.
       </content>
       <content lang="fr" title="Fichier de Configuration ...">
         La GeeXboX est construite en suivant les définitions présentes dans son fichier de configuration, décrivant les options de compilation ainsi que les spécifications propres au graveur de CD avec lequel l'image sera gravée.<br/><br/>
           
           Voici donc le contenu de <i>./config/options</i>, où vous pouvez choisir votre type de CPU, le thème, ainsi que si vous désirez utliser ou non des fontes de type TrueTypeet bien d'autres choses encore ...<br/><br/>
+
           <b># Target CPU (i586 or C3)</b><br/>
           <b>CPU=i586</b><br/>
-          <b># Theme (movies, aqua, classic)</b><br/>
-          <b>THEME=movies</b><br/>
-          <b># Default Langage (br/cz/en/es/fi/fr/it/nl/ru/se/sk)</b><br/>
+          <b># Theme (xmas, halloween, movies, aqua, classic)</b><br/>
+          <b>THEME=xmas</b><br/>
+          <b># Default Langage (bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk)</b><br/>
           <b>LANG=en</b><br/>
-          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850)</b><br/>
+          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850/animax)</b><br/>
           <b>REMOTE=pctv</b><br/>
-          <b># Use Extra Binary Codecs (RealMedia/WindowsMedia 9)</b><br/>
+          <b># Use Extra Binary Codecs - RealMedia/WindowsMedia 9 (yes/no)</b><br/>
           <b>EXTRACODECS=no</b><br/>
           <b># Network Support (Samba shares and FTP Server) (yes/no)</b><br/>
-          <b>NETWORK=yes</b><br/>          
+          <b>NETWORK=yes</b><br/>
           <b># Choose font type for OSD (truetype/bitmap)</b><br/>
           <b>FONT=truetype</b><br/>
           <b># Enable Debuging (build gdb ...)</b><br/>
-          <b>DEBUG=no</b><br/><br/>
+          <b>DEBUG=no</b><br/>
+          <b># Add DirectFB support (EXPERIMENTAL)</b><br/>
+          <b>DIRECTFB=yes</b><br/>
+          <br/>
           <b># Burning options</b><br/><br/>
           <b># device (ex: 0,0,0). See the output of cdrecord -scanbus</b><br/>
           <b>BURNER=0,0,0</b><br/>
@@ -201,30 +211,38 @@ et enfin, pour générer l'installator ; <br/>
           <b># you can also pass options to cdrecord :</b><br/>
           <b>CDRECORD_OPTS=</b><br/>
           <br/>
+          <b># PXE boot options</b><br/>
+          <b>DEFAULT_NFS_SERVER=192.168.0.1</b><br/>
+          <br/>
 
           Pour résumer, les fichiers de configuration de la GeeXboX sont les suivants :<br/><br/>
 * <b>./config/options</b> : options principales de compilation et du graveur<br/>
 * <b>./packages/linux/linux.conf</b> : il s'agit du fichier de configurations du noyau Linux, utilisé pour construire la GeeXboX. Il peut être édité afin de répondre au mieux à vos besoins (pour le support de certains récepteurs infra-rouge par exemple)<br/>
-* <b>./packages/MPlayer/menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</b> : modifiez ce fichier pour éditer les options du menu OSD.<br/>
+* <b>./packages/MPlayer/menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> : modifiez ce fichier pour éditer les options du menu OSD.<br/>
 * <b>./packages/MPlayer/mplayer.conf</b> : ce fichier contient les options de lancement de MPlayer.
       </content>
     </subsection>
     <subsection>
       <content lang="en" title="MPlayer Documentation ...">
         The GeeXboX is mainly featuring MPlayer. As this player is one of the most powerful media player, it can be started by several ways. In the GeeXboX, 2 files are used to control MPlayer's options :<br/><br/>
-          * <i>./packages/MPlayer/menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</i><br/>
+          * <i>./packages/MPlayer/menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</i><br/>
           * <i>./packages/MPlayer/mplayer.conf</i><br/><br/>
 
-          The <b>menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</b> is used to generate the OSD Menu. You may have to modify it whether you want to add or remove items from the menu or to change the items captions to fit your needs.<br/>
+          The <b>menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> is used to generate the OSD Menu. You may have to modify it whether you want to add or remove items from the menu or to change the items captions to fit your needs.<br/>
           The <b>mplayer.conf</b> is related to MPlayer's lauching options. The default config file contains some of the following lines :<br/><br/>
           <b>vo=vesa:vidix,vesa</b><i> # Video Output driver (Use VidiX if available, VESA otherwise)</i><br/>
+          <b>ao=alsa9</b><i> # Audio Output driver</i><br/>
+          <b>framedrop=yes</b><i> # When set to 'yes', MPlayer may skip decoding some frames if video plays too slowly</i><br/>
+          <b>vsync=yes</b><i> # Activate Vertical Synchronization</i><br/>
           <b>fs=yes</b><i> # Enable Fullscreen (need more CPU)</i><br/>
           <b>zoom=yes</b><i> #Enable Zoom - modify aspect ratio (need more CPU)</i><br/>
           <b>menu=yes</b><i> # Display OSD Menu</i><br/>
           <b>double=yes</b><i> # Enable Double Buffering</i><br/>
-          <b>cache=8192</b><i> # Cache Size (in kB)</i><br/>
+          <b>fixed-vo=yes</b><i> # Use a fixe image ratio</i><br/>
+          <b>nocolorkey=yes</b><i> # Deactivate the Colorkey</i><br/>
+          <b>cache=1500</b><i> # Cache Size (in kB)</i><br/>
           <b>idx=yes</b><i> # Let MPlayer rebuild file broken headers</i><br/>
-          <b>framedrop=yes</b><i> # When set to 'yes', MPlayer may skip decoding some frames if video plays too slowly</i><br/>
+
           <b>lircconf=/etc/lirc</b><i> # Path to LIRC configuration file</i><br/>
           <b>subfont-text-scale=3</b><i> # OSD Fonts Size</i><br/>
           <b>screenw=800</b><i> # Screen Width</i><br/>
@@ -235,19 +253,23 @@ et enfin, pour générer l'installator ; <br/>
       </content>
       <content lang="fr" title="Documentation de MPlayer ...">
         La GeeXboX est principalement basée sur l'utilisation de MPlayer. Comme ce lecteur est l'un des lecteurs multimédia les plus performant, il accepte de nombreuses options de configuration et de lancement. Dans la GeeXboX, 2 fichiers sont utilisés pour gérer les options de MPlayer :<br/><br/>
-          * <i>./packages/MPlayer/menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</i><br/>
+          * <i>./packages/MPlayer/menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</i><br/>
           * <i>./packages/MPlayer/mplayer.conf</i><br/><br/>
 
-          Le fichier <b>menu_{br/cz/en/es/fi/fr/it/nl/ru/se/sk}.conf</b> est utilisé pour générer le menu OSD. Vous pouvez le modifier si vous décider d'ajouter ou supprimer des options au menu actuel, ou encore pour le traduire dans votre langue favorite.<br/>
+          Le fichier <b>menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> est utilisé pour générer le menu OSD. Vous pouvez le modifier si vous décider d'ajouter ou supprimer des options au menu actuel, ou encore pour le traduire dans votre langue favorite.<br/>
           Le fichier <b>mplayer.conf</b> est directement lié au mode de lancement de MPlayer. La configuration proposée par défaut contient les lignes suivantes :<br/><br/>
           <b>vo=vesa:vidix,vesa</b><i> # Pilote de sortie Vidéo (Utilise le mode VidiX si disponible, le mode VESA sinon)</i><br/>
+          <b>ao=alsa9</b><i> # Pilote de sortie Audio</i><br/>
+          <b>framedrop=yes</b><i> # Lorsqu'il est activé, MPlayer peut 'sauter' le décodage de certaines images si la vidéo apparaît trop lentement</i><br/>
+          <b>vsync=yes</b><i> # Active ou non la synchronisation verticale de l'image</i><br/>
           <b>fs=yes</b><i> # Active le mode Plein-Ecran (nécessite davantage de puissance CPU)</i><br/>
           <b>zoom=yes</b><i> #Active le Zoom - modifie le rapport largeur/hauteur (nécessite davantage de puissance CPU)</i><br/>
           <b>menu=yes</b><i> # Affiche le Menu OSD</i><br/>
           <b>double=yes</b><i> # Utilise un double tampon pour l'affichage des images</i><br/>
-          <b>cache=8192</b><i> # Taille du Cache (en ko)</i><br/>
+          <b>fixed-vo=yes</b><i> # Utilise un rapport d'image de taille fixe</i><br/>
+          <b>nocolorkey=yes</b><i> # Désactive la couleur clé</i><br/>
+          <b>cache=1500</b><i> # Taille du Cache (en ko)</i><br/>
           <b>idx=yes</b><i> # Permet de reconstruire l'entête du fichier si elle est endommagée</i><br/>
-          <b>framedrop=yes</b><i> # Lorsqu'il est activé, MPlayer peut 'sauter' le décodage de certaines images si la vidéo apparaît trop lentement</i><br/>
           <b>lircconf=/etc/lirc</b><i> # Emplacement du fichier de configuration de LIRC</i><br/>
           <b>subfont-text-scale=3</b><i> # Taille des fontes sur l'OSD</i><br/>
           <b>screenw=800</b><i> # Largeur de l'écran</i><br/>
@@ -331,6 +353,80 @@ You can easily modify the IP and Samba Login and Password. On boot, the GeeXboX 
 * <b> PWD=""                  # User Password ("" for none)</b><br/><br/>
 
 Vous ouvez très facilement modifier l'IP ainsi que le login et mot de passe des partages Samba. Au démarrage, la GeeXboX cherche la présence d'odrinateurs distants sur un même domaine et essaie de monter automatiquement tous les partages Windows disponibles. Prenez garde à ce que tous les ordinateurs soient bien configurés avec le même nom de domaine si vous désirez que tous les partages soient reconnus.
+      </content>
+    </subsection>
+
+    <subsection>
+      <content lang="en" title="Booting from PXE using NFS shares ...">
+        GeeXboX 0.96 and above come with a NFS shares support and let you boot from the network from a diskless station using the PXE boot method. To achieve this you will need :<br/><br/>
+<b>
+* a DHCP server<br/>
+* a TFTP server<br/>
+* a NFS server<br/>
+* a PXE capable station :-)<br/><br/>
+</b>
+First configure your DHCP server to send PXE boot informations. Here is an example using ISC DHCP :<br/><br/>
+<b>
+allow booting;<br/>
+allow bootp;<br/>
+<br/>
+subnet 192.168.0.0 netmask 255.255.255.0 {<br/>
+  range 192.168.0.128 192.168.0.192;<br/>
+  option subnet-mask 255.255.255.0;<br/>
+  option broadcast-address 192.168.0.255;<br/>
+  next-server 192.168.0.1;<br/>
+  filename "/tftpboot/GEEXBOX/boot/pxelinux.0";<br/>
+}<br/>
+</b><br/>
+The <b>next-server</b> option is the address of the <b>TFTP server</b>. Then configure your TFTP server (such as <i>atftpd</i>) to serve the <b>/tftpboot</b> directory and copy a full GEEXBOX tree in this directory. For example, you can copy the content of a GeeXboX CD from a linux <b>WITH THE CDROM TRANSPARENT DECOMPRESSION ENABLED</b> !! (to verify this, look at the <b>sbin/init</b> file in the GeeXboX tree and verify that it do not contain garbage). If you've built the GeeXboX yourself from sources, you can also generate the GEEXBOX tree with <b>make pxe</b>.<br/><br/>
+
+Then you should edit the file <b>/tftpboot/GEEXBOX/boot/pxelinux.cfg/default</b> to set nfsroot to the right NFS path to the GEEXBOX tree.<br/> Finaly set up your NFS to export the GEEXBOX tree with a <b>/etc/exports</b> containing something like this :<br/><br/>
+<b>/tftpboot/GEEXBOX (ro)</b><br/><br/>
+and a <b>/etc/hosts.allow</b> containing something like :<br/><br/>
+<b>ALL: ALL</b><br/><br/>
+That should do the trick. Boot your PXE station and see what happen ...<br/>
+      </content>
+      <content lang="fr" title="Booting depuis le réseau via PXE en utilisant les partages NFS ...">
+        Les versions 0.96 et supérieures de la GeeXboX rajoutent le support des partages NFS ainsi que la possibilité pour une station sans disque dur ni lecteur CD de démarrer depuis le réseau, selon la méthode PXE. Pour obtenir cela, il vous faudra :<br/><br/>
+<b>
+* un serveur DHCP<br/>
+* un serveur TFTP<br/>
+* un serveur NFS<br/>
+* une machine supportant le PXE :-)<br/>
+</b><br/>
+Il faut tout d'abord configurer le server <b>DHCP</b> pour qu'il envoie les informations de boot PXE. Voici un exemple de configuration avec ISC DHCP :<br/><br/>
+<b>
+allow booting;<br/>
+allow bootp;<br/>
+<br/>
+subnet 192.168.0.0 netmask 255.255.255.0 {<br/>
+  range 192.168.0.128 192.168.0.192;<br/>
+  option subnet-mask 255.255.255.0;<br/>
+  option broadcast-address 192.168.0.255;<br/>
+  next-server 192.168.0.1;<br/>
+  filename "/tftpboot/GEEXBOX/boot/pxelinux.0";<br/>
+}<br/>
+</b><br/>
+L'option <b>next-server</b> est l'adresse du server <b>TFTP</b>. Ensuite il faut configurer votre serveur TFTP (tel que <i>atftpd</i>) pour qu'il serve le répertoire <b>/tftpboot</b> et copier une arborescence GEEXBOX complète dans ce même répertoire. Par exemple, il est possible de copier le contenu d'un CD de GeeXboX depuis un Linux <b>AVEC L'OPTION CDROM TRANSPARENT DECOMPRESSION ACTIVEE</b> !! (pour vérifier cela, il suffit de regarder si le fichier <b>sbin/init</b> de l'arborescence GeeXboX ne contient pas de caractères totalement incohérents). Si vous avez compilé la GeeXboX vous même a partir des sources, il est aussi possible de générer l'arborescence GEEXBOX avec <b>make pxe</b>.<br/><br/>
+
+Ensuite il vous faudra éditer le fichier <b>/tftpboot/GEEXBOX/boot/pxelinux.cfg/default</b> pour faire correspondre le nfsroot au bon chemin NFS vers l'arborescence GeeXboX. Enfin il reste a configurer NFS pour qu'il exporte l'arborescence GEEXBOX avec un fichier <b>/etc/exports</b> ressemblant à ceci :<br/><br/>
+<b>/tftpboot/GEEXBOX (ro)</b><br/><br/>
+et un <b>/etc/hosts.allow</b> ressemblant à :<br/>
+<b>ALL: ALL</b><br/><br/>
+Le tout devrait maintenant fonctionner. Il ne vous reste plus qu'à booter la machine PXE et a voir ce qu'il se passe.<br/>
+      </content>
+    </subsection>
+
+    <subsection>
+      <content lang="en" title="Booting GeeXboX from NT Loader ...">
+      You can easily boot GeeXboX from the Windows NT bootloader (provided with Win2k and XP). To perform this, the GeeXboX installator made a backup of your partition's boot sector when you've installed it. So, when using <b>explorer</b> under Windows you just have to copy the file <b>geexbox.lnx</b> from the GeeXboX's partition to your <b>C:\</b> root (and NO OTHER directory !!). Then, simply edit the <b>C:\boot.ini</b> file, and add the following line at the end :<br/><br/>
+<b>c:\geexbox.lnx="GeeXboX"</b><br/><br/>
+When done, reboot your computer. If everything was done correctly, you should see the NTLoader bootmanager, which let you boot the GeeXboX.<br/>
+      </content>
+      <content lang="fr" title="Démarrer la GeeXboX depuis le chargeur Windows NT ...">
+      Il est très facile de démarrer la GeeXboX depuis le chargeur de boot de Windows NT (ce dernier est fourni avec Windows 2000 et XP). Pour ce faire, l'installateur de la GeeXboX a fait une copie du secteur de boot de votre partition, lorsque vous avez installé le système. Puis, au moyen de l'<b>explorateur</b> sous Windows, copiez simplement le fichier <b>geexbox.lnx</b> depuis votre partition GeeXboX vers la racine de votre lecteur <b>C:\</b> (et PAS DANS UN AUTRE répertoire !!). Enfin, éditez simplement le fichier <b>C:\boot.ini</b>, et ajoutez à la fin de dernier la ligne suivante :<br/><br/>
+<b>c:\geexbox.lnx="GeeXboX"</b><br/><br/>
+Une fois terminé, redémarrez votre ordinateur. Si tout c'est bien passé, vous devriez voir apparaître le chargeur de boot NTLoader, quivous permettra de démarrer la GeeXboX.<br/>
       </content>
     </subsection>
   </section>

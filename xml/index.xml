@@ -7,11 +7,48 @@
     <content lang="fr" title="Dernières Nouvelles ..."/>
 
     <subsection>
+      <content lang="en" title="GeeXboX Xmas Edition : 0.96 (12/18/03)">
+      It's Christmas time ! So comes the new release, ready to be put under Xmas tree :-) Most of the changes are essentially bug fixes and hardware support just to please more and more users. Here's part of the Changelog :<br/><br/>
+* New remotes support (this feature was broken in previous release when used with autoplay function).<br/>
+* Switch MPlayer to 1.0pre3 release and ALSA to 1.0rc2.<br/>
+* Support for DirectFB video mode.<br/>
+* Support for 3Dfx cards.<br/>
+* Support for USB devices hotplug.<br/>
+* Support for nForce Ethernet controller.<br/>
+* Support for NFS shares.<br/>
+* Support for Windows 2k/XP multi-boot manager.<br/>
+* Support for AniMAX remote.<br/>
+* Ready to boot network, using PXE method.<br/>
+* Russian font fix.<br/>
+* Added bulgarian, romanian, polish and german languages.<br/><br/>
+The GeeXboX team also provides you a live IRC chatroom, to share your experience with worldwide users about all yours suggestions or problems. Please connect to IRC server <b>chat.zone-irc.org</b> on <b>#geexbox</b> room.<br/><br/>
+This release is dedicated to our first generous donator (we're sure he will recognize himself :) for his xmas gift which will help us in further development. Besides, we want to thank you, users from all around the world, for using GeeXboX, we wish you a merry Christmas and hope you will continue using our software next year :-p<br/>
+      </content>
+      <content lang="fr" title="GeeXboX Xmas Edition : 0.96 (18/12/03)">
+      C'est bientôt Noël ! Voici donc la nouvelle version, prête à être posée juste sous le sapin :-) La plupart des changements constituent essentiellement des corrections de bugs ou ajout de support matériel, afin de contenter chaque jour davantage d'utilisateurs. Voici donc la liste de ces ajouts :<br/><br/>
+* Télécommandes à nouveau fonctionnelles (cette fonction était devenue inutilisable avec la version précédente, lorsqu'utilisée conjointement à l'autoplay.<br/>
+* Passage à MPlayer 1.0pre3 et ALSA 1.0rc2.<br/>
+* Support de l'affichage en mode DirectFB.<br/>
+* Support des cartes 3Dfx.<br/>
+* Support du branchement à chaud (hotplug) pour les périphériques USB.<br/>
+* Support du controlleur Ethernet des cartes nForce.<br/>
+* Support des partages NFS.<br/>
+* Support du multi-boot depuis le chargeur Windows 2000/XP.<br/>
+* Support de la télécommande AniMAX.<br/>
+* Prêt à booter depuis le réseau, en utilisant la méthode PXE.<br/>
+* Correction des polices Russe.<br/>
+* Support de nouvelles langues : bulgare, roumain, polonais et allemand.<br/><br/>
+L'équipe GeeXboX met également à votre disposition un canal IRC, pour partager votre expérience avec les utilisateurs du monde entier, que ce soit vos suggestions ou vos problèmes. Connectez vous au serveur IRC <b>chat.zone-irc.org</b> sur le canal <b>#geexbox</b>.<br/><br/>
+Cette version est dédiée à notre premier généreux donateur (nous sommes convaincus qu'il se reconnaîtra :) pour son cadeau de Noël qui nous aidera beaucoup pour le développement à venir. Nous tenons enfin à vous remercier, tous tant que vous êtes, d'utiliser la GeeXboX et de nous aider à l'améliorer. Toute l'équipe vous souhaite de joyeuses fêtes de fin d'année et espère vous retrouver nombreux en 2004 pour la suite des aventures :-)<br/>
+      </content>
+    </subsection>
+
+    <subsection>
       <content lang="en" title="GeeXboX's Forum Crashdown (12/10/03)">
       As you might have noticed, GeeXboX's forum has been unreachable for last 10 days for an unknown problem with our PostgreSQL database. A severe error cause our host to completely purge this latter with unfortunately no existing backup :-( This means that the forum has been completely purged. All apologies for such a situation.<br/><br/>
       All existing threads and registers have been lost, so that you just have to register once again to the forum (a weekly backup is now automatically done). To make you feel better, we just can say that the 0.96 release of GeeXboX is really bound to come, so just stay tuned :p<br/>
       </content>
-      <content lang="fr" title="Crash dur Forum GeeXboX (10/12/03)">
+      <content lang="fr" title="Crash du Forum GeeXboX (10/12/03)">
       Comme vous avez pu le constater, le forum GeeXboX est resté inaccesible depuis environ 10 jours pour un problème inconnu sur notre base de données PostgreSQL. Une erreur sérieuse a contraint notre hébergeur à procéder à un nettoyage complet de cette dernière, sans malheureusement que nous ayons la moindre sauvegarde :-( Ceci signifie que le forum a été complètement effacé. Toutes nos excuses pour une telle situaion.<br/><br/>
       Tous les messages existants et autres enregistrements ont été perdus, de ce fait vous devrez à nouveau vous inscrire au forum (un processus de sauvegarde automatique hebdomadaire a été mis en place). Pour faire passer le pilule, nous vous annonçons simplement que la sortie de la version 0.96 de la GeeXboX est toute proche, restez à l'écoute :p<br/>
       </content>

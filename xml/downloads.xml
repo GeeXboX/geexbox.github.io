@@ -3,19 +3,19 @@
 
 <article>
   <define name="dl-iso-en">
-    <a href="../releases/0.95/geexbox-0.95-en.iso">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95-en.iso%7C4610048%7CA1786570C90C80788F3A09464FF8CBDF%7C">edonkey</a>
+    <a href="../releases/0.96/geexbox-0.96-en.iso">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.96-en.iso%7C5015552%7C9F26205B8D88B83B7113EB27DDBED672%7C">edonkey</a>
   </define>
   <define name="dl-iso-fr">
-    <a href="../releases/0.95/geexbox-0.95-fr.iso">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95-fr.iso%7C4610048%7CC6ECC8D378FCD40D15DEB6FAFF15FCF6%7C">edonkey</a>
+    <a href="../releases/0.96/geexbox-0.96-fr.iso">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.96-fr.iso%7C5015552%7C1F0432A04E4700EB170B71AD05B869E3%7C">edonkey</a>
   </define>
   <define name="dl-gen">
-    <a href="../releases/0.95/geexbox-generator-0.95.tar.gz">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-generator-0.95.tar.gz%7C5159088%7CF04808C67CF661047249136FE0861A6E%7C">edonkey</a>
+    <a href="../releases/0.96/geexbox-generator-0.96.tar.gz">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-generator-0.96.tar.gz%7C5627874%7C5FC420C0D30EC1D7430FFA088642E299%7C">edonkey</a>
   </define>
   <define name="dl-src-lite">
-    <a href="../releases/0.95/geexbox-0.95.tar.bz2">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95.tar.bz2%7C56608%7C0200E8B20F962ED70487C3AB5D7B404E%7C">edonkey</a>
+    <a href="../releases/0.96/geexbox-0.96.tar.bz2">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.96.tar.bz2%7C64283%7CFADB9CD451393C2FE609313FE661B209%7C">edonkey</a>
   </define>
   <define name="dl-src-full">
-    <a href="../releases/0.95/geexbox-0.95-full.tar">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95-full.tar%7C59381760%7C2B16BAB7F2238D659CABE4757A9BE0F5%7C">edonkey</a>
+    <a href="../releases/0.96/geexbox-0.96-full.tar">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.96-full.tar%7C62064640%7C4B99D8FDF75F5A0A9D03A9C498051E58%7C">edonkey</a>
   </define>
 
   <section>
@@ -24,37 +24,37 @@
     <subsection>
       <content lang="en" title="GeeXboX ISO">
         We're currently releasing 2 versions of the GeeXboX : French and English. The installator software has been included to the provided ISO, increasing them slightly. Cause we're fed up with hearing everywhere that Peer-To-Peer (P2P) networks are just a way to share illegal files, we've also decided to let donwload our new release quickly from the edonkey network (the more you are, the faster it'll be ;). It's now you to choose the menu's langage that fits you best :<br/><br/>
-          * <b>GeeXboX 0.95 for i586 - English Version - 4.4 MB ( <use name="dl-iso-en"/> ) </b><br/>
-          * <b>GeeXboX 0.95 for i586 - French Version - 4.4 MB ( <use name="dl-iso-fr"/> )</b><br/>
+          * <b>GeeXboX 0.96 for i586 - English Version - 4.8 MB ( <use name="dl-iso-en"/> ) </b><br/>
+          * <b>GeeXboX 0.96 for i586 - French Version - 4.8 MB ( <use name="dl-iso-fr"/> )</b><br/>
           * <a href="../releases/"><b>GeeXboX old Releases</b></a>
       </content>
       <content lang="fr" title="Images ISO de la GeeXboX">
         Nous fournissons actuellement 2 versions de la GeeXboX : Française et Anglaise. Le logiciel d'installation a été inclus dans les ISO proposées, augmentant légèrement leur taille. Comme nous en avons assez d'entendre dire partout que les réseaux Peer-To-Peer (P2P) sont juste un moyen de partager des fichiers illégaux, nous avons décider de vous proposer le téléchargement de cette nouvelle version via le réseau edonkey (plus vous partagerez et plsu le téléchargement sera rapide ;). Il ne vous reste plus qu'à choisir la langue de menu qui vous convient le mieux.<br/><br/>
-          * <b>GeeXboX 0.95 pour i586 - Version FR - 4,4 Mo ( <use name="dl-iso-fr"/> )</b><br/>
-          * <b>GeeXboX 0.95 pour i586 - Version EN - 4,4 Mo ( <use name="dl-iso-en"/> ) </b><br/>
+          * <b>GeeXboX 0.96 pour i586 - Version FR - 4,8 Mo ( <use name="dl-iso-fr"/> )</b><br/>
+          * <b>GeeXboX 0.96 pour i586 - Version EN - 4,8 Mo ( <use name="dl-iso-en"/> ) </b><br/>
           * <a href="../releases/"><b>Anciennes versions de la GeeXboX</b></a>
       </content>
     </subsection>
     <subsection>
       <content lang="en" title="GeeXboX ISO Generator">
         With this package, it will be easy to modify the GeeXboX in a few seconds without having to build the sources. The generator produces an ISO image of the GeeXboX, ready to be burned on disc. This piece of software currently works under both GNU/Linux and Microsoft Windows 9x/NT/2k/XP systems.<br/><br/>
-          <b>GeeXboX 0.95 ISO generator - 5 MB ( <use name="dl-gen"/> )</b>
+          <b>GeeXboX 0.96 ISO generator - 5.4 MB ( <use name="dl-gen"/> )</b>
       </content>
       <content lang="fr" title="Générateur d'ISO GeeXboX">
         Avec ce paquetage, il vous sera facile de modifier la GeeXboX en quelques instants sans avoir à recompiler toutes les sources. Le générateur produit une image ISO de la GeeXboX prête à être gravée sur CD. Ce logiciel fonctionne sur les systèmes GNU/Linux et Microsoft Windows 9x/NT/2k/XP.<br/><br/>
-          <b>Générateur d'ISO GeeXboX 0.95 - 5 Mo ( <use name="dl-gen"/> )</b>
+          <b>Générateur d'ISO GeeXboX 0.96 - 5.4 Mo ( <use name="dl-gen"/> )</b>
       </content>
     </subsection>
     <subsection>
       <content lang="en" title="GeeXboX Sources">
-        Here are the GeeXboX 0.95 sources. You both need the wget package and a connection to the Internet to compile your own GeeXboX. Indeed, most of the packages are directly donwloaded from the web while compiling the GeeXboX. So, here are the sources :<br/><br/>
-          <b>GeeXboX 0.95 Sources (Lite Package - 56 kB) ( <use name="dl-src-lite"/> ) </b><br/>
-          <b>GeeXboX 0.95 Sources (Full Package - no more connection to the Internet needed - 57 MB) ( <use name="dl-src-full"/> )</b>
+        Here are the GeeXboX 0.96 sources. You both need the wget package and a connection to the Internet to compile your own GeeXboX. Indeed, most of the packages are directly donwloaded from the web while compiling the GeeXboX. So, here are the sources :<br/><br/>
+          <b>GeeXboX 0.96 Sources (Lite Package - 68 kB) ( <use name="dl-src-lite"/> ) </b><br/>
+          <b>GeeXboX 0.96 Sources (Full Package - no more connection to the Internet needed - 60 MB) ( <use name="dl-src-full"/> )</b>
       </content>
       <content lang="fr" title="Sources de la GeeXboX">
-        Voici les sources de la version 0.95 de la GeeXboX. Vous nécessitez à la fois le programme wget et une connection à Internet lors de la compilation de la première version des sources. En effet, la plupart des packages seront téléchargés à la volée au cours de la compilation. Voici donc les sources :<br/><br/>
-          <b>Sources GeeXboX 0.95 (Paquetage Allégé - 56 ko) ( <use name="dl-src-lite"/> )</b><br/>
-          <b>Sources GeeXboX 0.95 (Paquetage Complet - aucune connection à Internet supplémentaire requise - 57 Mo) ( <use name="dl-src-full"/> )</b>
+        Voici les sources de la version 0.96 de la GeeXboX. Vous nécessitez à la fois le programme wget et une connection à Internet lors de la compilation de la première version des sources. En effet, la plupart des packages seront téléchargés à la volée au cours de la compilation. Voici donc les sources :<br/><br/>
+          <b>Sources GeeXboX 0.96 (Paquetage Allégé - 68 ko) ( <use name="dl-src-lite"/> )</b><br/>
+          <b>Sources GeeXboX 0.96 (Paquetage Complet - aucune connection à Internet supplémentaire requise - 60 Mo) ( <use name="dl-src-full"/> )</b>
       </content>
     </subsection>
     <subsection>
@@ -89,18 +89,18 @@
     <subsection>
       <content lang="en" title="Buy GeeXboX CD">
       For people who don't get a high speed connection to the Internet, the GeeXboX's CD is also available. This latter provides you the :<br/><br/>
-<b>* a GeeXboX 0.90-4 bootable release</b><br/>
-<b>* the full source packages of all GeeXboX releases (0.90-1 to 0.90-4)</b><br/>
+<b>* a GeeXboX 0.96 bootable release</b><br/>
+<b>* the full source packages of all GeeXboX releases (0.90-1 to 0.90-4, 0.95 and 0.96)</b><br/>
 <b>* the copy of the website</b><br/><br/>
 You can buy it at <a href="http://www.linuxcd.org/">LinuxCD</a> for only 1.99$.
-If you're interested by such a CD, don't hesitate anymore : <b><a href="http://www.linuxcd.org/view_distro.php?id_distro=112">Buy GeeXboX 0.90-4 Full CD</a></b>      </content>
+If you're interested by such a CD, don't hesitate anymore : <b><a href="http://www.linuxcd.org/view_distro.php?id_distro=112">Buy GeeXboX 0.96 Full CD</a></b>      </content>
       <content lang="fr" title="Acheter le CD GeeXboX">
       Pour ceux qui ne disposent pas de connection Internet haut-débit, il est également possible d'acheter le CD de la GeeXboX. Ce dernier contient :<br/><br/>
-<b>* la GeeXboX 0.90-4 en version auto-amorçable</b><br/>
+<b>* la GeeXboX 0.96 en version auto-amorçable</b><br/>
 <b>* les paquetages de sources complètes de toutes les versions de la GeeXboX
- (de la 0.90-1 à la 0.90-4)</b><br/>
+ (de la 0.90-1 à la 0.90-4, 0.95 et 0.96)</b><br/>
 <b>* une copie du site Internet</b><br/><br/>
-Vous pouvez l'acheter chez <a href="http://www.linuxcd.org/">LinuxCD</a> au prix réduit de 1.99e seulement. Si vous êtes intéressés par ce CD, n'hésitez pas, : <b><a href="http://www.linuxcd.org/view_distro.php?id_distro=112">Achetez le CD Complet de la GeeXboX 0.90-4</a></b>
+Vous pouvez l'acheter chez <a href="http://www.linuxcd.org/">LinuxCD</a> au prix réduit de 1.99e seulement. Si vous êtes intéressés par ce CD, n'hésitez pas, : <b><a href="http://www.linuxcd.org/view_distro.php?id_distro=112">Achetez le CD Complet de la GeeXboX 0.96</a></b>
       </content>
     </subsection>
 
