@@ -5,14 +5,62 @@
   <define name="mozilla">
     <a href="http://www.mozilla.org/">Mozilla</a>
   </define>
+  <define name="freshmeat">
+    <a href="http://freshmeat.net/projects/geexbox/"><i>Freshmeat</i></a>  
+  </define>
 
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
 
+    <subsection label="release_0.98">
+      <content lang="en" title="GeeXboX 0.98 (08/11/04)">
+      Here comes again the GeeXboX. This 0.98 edition is a key point in our roadmap. Indeed, this latter dos not really comes with many new features (but somes new usefull things whenever) but fixes a huge number of anoying bugs. Most of all, this release will probably be the last time you see GeeXboX looks like it. We've plan to work harder than ever to bring you next time a new OS, like you've never seen, still keeping it as simple to use as it ever been. So just stay tuned :-)<br/><br/>
+      Ok, back from the future, lets give you details about the current release. So, here's what you've been waiting for : <br/><br/>
+* Switch MPlayer to 1.0pre5<br/>
+* Fix for key delay with ATI Remote Wonder.<br/>
+* Better WiFi support and drivers for RT2400 and ACX100 chipsets.<br/>
+* Better support for FTP file transfert.<br/>
+* Disk free space information is now available in the menu.<br/>
+* Added player control through joysticks (all USB models and Microsoft SideWinder on traditional gameport).<br/>
+* Added support for SPDIF (digital) sound output.<br/>
+* Better support of WideScreen (16:9) displays and fix the TV-Out norm (PAL/NTSC) with DXR3 cards.<br/>
+* Added support for software decoding of DTS audio streams.<br/>
+* Autodetection and autoplay of the the longest available DVD title (should be the right one, i.e. the one containing the main movie).<br/>
+* Added a GeeXboX's generator Debian's package building script.<br/>
+* Fix some compilation compatibility issue with distribution other than Debian (i.e. should work pretty well under Mandrake 10 and Fedora Core 2).<br/>
+* Added a chapter selector for DVDs and Matroska files.<br/>
+* Fix the TV-Out problem with nVidia cards : display should no more turn to black-and-white at each video change.<br/>
+* The generator now includes a distinction between the receiver and the remote itself.<br/>
+* Added support for external USB SmartMedia and CompactFlash cards readers.<br/><br/>
+      Hope you'll be pleased with this release, 'cause next one will be kicking-ass :-) By the way, we're still lacking of support in several domains. More than ever, we need translators, designers, and documentation updaters. If you get some free time and want to help us, please let us know. And oh, to conclude, if you really like GeeXboX and want to be warned each time a new version is released, you can freely subscribe to our project page on <use name="freshmeat"/>(and let us gain some popularity in the same way, maybe one day we'll rank the top :-)<br/>
+      </content>
+      <content lang="fr" title="GeeXboX 0.98 (11/08/04)">
+      Et voici débarquer la nouvelle GeeXboX en cette période estivale. Cette version 0.98 marque un point clé dans notre développement. En effet, cette dernière ne contient pas de réelles avancées (bien que vous y retrouverez quelques petites nouveautés bien utiles) mais plutot un très grand nombre de corrections de bugs. Mais surtout, cette version 0.98 sera très probablement la dernière fois que vous verrez la GeeXboX sous son apparence actuelle. Nous avons prévu de travailler plus dur que jamais pour vous fournir un nouvel OS, comme vous ne l'aurez jamais vu, tout en gardant sa simplicité d'utilisation actuelle. Restez donc à l'écoute :-)<br/><br/>
+      Ok, revenons sur terre, voici donc les détails concernant la version actuelle. Voici donc ce pour quoi vous avez tant attendu : <br/><br/>
+* Passage à MPlayer 1.0pre5<br/>
+* Correction de la temporisation des touches de l'ATI Remote Wonder.<br/>
+* Meilleur support du WiFi et ajotu des drivers poru chipsets RT2400 et ACX100.<br/>
+* Meilleur support des transferts de fichier via FTP.<br/>
+* L'information sur l'espace disque disponible est désormais accessible via le menu.<br/>
+* Le lecteur est désormais controlable via un joystick (sont supportés, tous les modèles USB ainsi que les Microsoft SideWinder sur port de jeu traditionnel).<br/>
+* Ajout du support de la sortie numérique SPDIF des cartes sons.<br/>
+* Meilleur support des écrans panoramiques (16:9) et possibilité de choisir la norme d'affichage (PAL/NTSC) avec les cartes DXR3.<br/>
+* Support deu décodage logiciel des flux audio au format DTS.<br/>
+* Autodétection et lecture automatique du plus long titre d'un DVD (ce qui devrait correspondre à celui contenant le film principal).<br/>
+* Ajout d'un script permettant de générer un package Debian du générateur d'ISO.<br/>
+* Correction d'un problème de compatibilité à la compilation des sources avec des distributions autres que Debian (i.e. cela devrait fonctionner à merveille avec une Mandrake 10 et/ou Fedora Core 2).<br/>
+* Ajout d'un menu de sélection des chapitres pour les DVDs et fichiers Matroska.<br/>
+* Correction du problème de sortie TV avec les cartes nVidia : l'affichage ne devrait maintenant plus rebasculer en Noir et Blanc à chaque changement de vidéo.<br/>
+* Le générateur d'ISO inclut désormais une distinction entre le récepteur de la télécommande et la télécommande elle-meme.<br/>
+* Ajout du support des lecteurs USB externes de cartes SmartMedia et CompactFlash.<br/><br/>
+      Nous espérons que cette version 0.98 vous plaira, car la prochaine sera décoiffante :-) A ce propos, nous avons encore et toujours besoin de support dans de nombreux domaines. Plus que jamais, nous avons besoin de traducteurs, documentalistes, graphistes et designers. Si vous avez du temps à disposition et souhaitez nous aider, faites nous le savoir. Et, pour conclure, si vous appréciez la GeeXboX et souhaitez etre informés par mail dès qu'une nouvelle version est disponible au grand public, vous pouvez vous enregistrer sur la page de notre projet sur <use name="freshmeat"/>(et par là meme, nous permettre de gagner et popularité et, pourquoi pas arriver un jour en haut de la liste :-)<br/>
+      </content>
+    </subsection>
+
     <subsection label="release_0.97">
       <content lang="en" title="GeeXboX 0.97 : Birthday Edition (05/16/04)">
-      'Think it was the hardest version to release but 0.97 has finally come, exactly one year after the first public release. As you may have noticed, our website was unreachable for some times in the last month and till now, some services were unfortunately down. Let's clarify the situation. Our previous host (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) has been attacked by hackers in January 2004 and decided to stop hosting free projects for an undefined period. Thanks to <b>BWare</b>, a member of the GeeXboX's forum, we got the opportunity to get a nearly dedicated web server with full of bandwidth. Many thanks for him, without whom, our services wouldn't have restarted at this time. More than ever, we need generous contributors and donators to help the project and prevent us from such a situation to happen once again. If you believe in our project, don't hesitate to have a look at the appropriate section of this website.<br/><br/>
+      'Think it was the hardest version to release but 0.97 has finally come, exactly one year after the first public release. As you may have noticed, our website was unreachable for some times in the last month and till now, some services were unfortunately down. Let's clarify the situation. Our previous host (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) has been attacked by hackers in January 2004 and decided to stop hosting free projects for an undefined period. Thanks to <b>BWare</b>, a member of the GeeXboX's forum, we got the opportunity to get a nearly dedicated web server with full of bandwidth. Many thanks to him, without whom, our services wouldn't have restarted at this time. More than ever, we need generous contributors and donators to help the project and prevent us from such a situation to happen once again. If you believe in our project, don't hesitate to have a look at the appropriate section of this website.<br/><br/>
 Let's stop with it, it's now time to talk about the 0.97 release :-) For many reasons (like the one just above), the developement took really much more time that we could have wished. But you will be glad to know that this release comes with many new features that have been requested by users for a long time. By the way, one of the longest period between releases is the bug tracking phase. We often release developement versions of GeeXboX and you're all welcomed to test them the most you can. Please remember that the most you are to test and to report bugs and the quicker will new versions be released.<br/><br/>
 So, as usual, here's a quick changelog of the new features for which you've been waiting for so long : <br/><br/>
 * Switch MPlayer to 1.0pre4<br/>
