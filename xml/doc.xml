@@ -541,18 +541,5 @@ et un <b>/etc/hosts.allow</b> ressemblant à :<br/>
 Le tout devrait maintenant fonctionner. Il ne vous reste plus qu'à booter la machine PXE et a voir ce qu'il se passe.<br/>
       </content>
     </subsection>
-
-    <subsection label="ntloader">
-      <content lang="en" title="Booting GeeXboX from NT Loader ...">
-      You can easily boot GeeXboX from the Windows NT bootloader (provided with Win2k and XP). To perform this, the GeeXboX installer made a backup of your partition's boot sector when you installed it. So, when using <b>explorer</b> under Windows you just have to copy the file <b>geexbox.lnx</b> from the GeeXboX's partition to your <b>C:\</b> root (NO OTHER directory !!). Then, simply edit the <b>C:\boot.ini</b> file, and add the following line at the end :<br/><br/>
-<b>c:\geexbox.lnx="GeeXboX"</b><br/><br/>
-When done, reboot your computer. If everything was done correctly, you should see the NTLoader bootmanager, which let you boot the GeeXboX.<br/>
-      </content>
-      <content lang="fr" title="Démarrer la GeeXboX depuis le chargeur Windows NT ...">
-      Il est très facile de démarrer la GeeXboX depuis le chargeur de boot de Windows NT (ce dernier est fourni avec Windows 2000 et XP). Pour ce faire, l'installateur de la GeeXboX a fait une copie du secteur de boot de votre partition, lorsque vous avez installé le système. Puis, au moyen de l'<b>explorateur</b> sous Windows, copiez simplement le fichier <b>geexbox.lnx</b> depuis votre partition GeeXboX vers la racine de votre lecteur <b>C:\</b> (et PAS DANS UN AUTRE répertoire !!). Enfin, éditez simplement le fichier <b>C:\boot.ini</b>, et ajoutez à la fin de dernier la ligne suivante :<br/><br/>
-<b>c:\geexbox.lnx="GeeXboX"</b><br/><br/>
-Une fois terminé, redémarrez votre ordinateur. Si tout c'est bien passé, vous devriez voir apparaître le chargeur de boot NTLoader, qui vous permettra de démarrer la GeeXboX.<br/>
-      </content>
-    </subsection>
   </section>
 </article>
