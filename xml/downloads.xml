@@ -63,8 +63,8 @@
       </content>
       <content lang="fr" title="Sources de la GeeXboX">
         Voici les sources de la version 0.97 de la GeeXboX. Vous nécessitez à la fois le programme wget et une connection à Internet lors de la compilation de la première version des sources. En effet, la plupart des packages seront téléchargés à la volée au cours de la compilation. Voici donc les sources :<br/><br/>
-          <b><use name="dl-src-lite"/> (Paquetage Allégé - 91 kB)<br/>MD5SUM : <use name="dl-src-lite-md5"/> </b><br/>
-          <b><use name="dl-src-full"/> (Paquetage Complet - aucune connection à Internet supplémentaire n'est requise - 66 MB)<br/>MD5SUM : <use name="dl-src-full-md5"/></b>
+          <b><use name="dl-src-lite"/> (Paquetage Allégé - 91 kB)</b><br/>
+          <b><use name="dl-src-full"/> (Paquetage Complet - aucune connection à Internet supplémentaire n'est requise - 66 MB)</b>
       </content>
     </subsection>
 
