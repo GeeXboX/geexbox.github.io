@@ -10,19 +10,6 @@
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
 
-    <subsection label="site_v2">
-      <content lang="en" title="GeeXboX Website updated (01/13/04)">
-      OpenWeb's stylesheet was used for too long. OpenWeb's people were not so pleased so we've finally took the time to redesign it from scratch. You're now even able to switch between two different stylesheets (feel free to submit new ones if your inspired).<br/><br/>
-
-      As always, the site is W3C standards compliant (XHTML 1.1 and CSS 2). If you notice display problems, just use a CSS 2 compliant browser (for example <use name="mozilla"/>).
-      </content>
-      <content lang="fr" title="Mise à jour du site GeeXboX (13/01/04)">
-      Nous utilisions la feuille de style du consortium OpenWeb depuis trop longtemps. Cela n'enchantait guère les gens d'OpenWeb et nous avons donc enfin pris le temps de créer un nouveau design depuis zéro. Vous pouvez maintenant choisir entre deux thèmes différents (libre à vous de nous en soumettre de nouveaux).<br/><br/>
-
-      Comme d'habitude, le site est conforme aux standards du W3C (XHTML 1.1 et CSS 2). Si vous rencontrez des problèmes d'affichage, utilisez simplement un navigateur respectant ces standards (par exemple <use name="mozilla"/>).
-      </content>
-    </subsection>
-
     <subsection label="release_0.97">
       <content lang="en" title="GeeXboX 0.97 (03/xx/04)">
       'Think it was the hardest version to release but 0.97 has finally come. As you may have noticed, our website was unreachable for some times in the last month and till now, some services were unfortunately down. Let's clarify the situation. Our previous host (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) has been attacked by hackers in January 2004 and decided to stop hosting free projects for an undefined period. Thanks to <b>BWare</b>, a member of the GeeXboX's forum, we got the opportunity to get a nearly dedicated web server with full of bandwidth. Many thanks for him, without whom, our services wouldn't have restarted at this time. More than ever, we need generous contributors and donators to help the project and prevent us from such a situation to happen once again. If you believe in our project, don't hesitate to have a look at the appropriate section of this website.<br/><br/>
@@ -60,14 +47,16 @@ Donc, comme à l'accoutumée, voici un rapide aperçu des nouvelles fonctionnalités
       </content>
     </subsection>
 
-    <subsection label="website_update">
+    <subsection label="site_v2">
       <content lang="en" title="GeeXboX Website updated (01/13/04)">
       OpenWeb's stylesheet was used for too long. OpenWeb's people were not so pleased so we've finally took the time to redesign it from scratch. You're now even able to switch between two different stylesheets (feel free to submit new ones if your inspired).<br/><br/>
-As always, the site is W3C standards compliant (XHTML 1.1 and CSS 2). If you notice display problems, just use a CSS 2 compliant browser (for example <a href="http://www.mozilla.org/">Mozilla</a> ).
+
+      As always, the site is W3C standards compliant (XHTML 1.1 and CSS 2). If you notice display problems, just use a CSS 2 compliant browser (for example <use name="mozilla"/>).
       </content>
       <content lang="fr" title="Mise à jour du site GeeXboX (13/01/04)">
       Nous utilisions la feuille de style du consortium OpenWeb depuis trop longtemps. Cela n'enchantait guère les gens d'OpenWeb et nous avons donc enfin pris le temps de créer un nouveau design depuis zéro. Vous pouvez maintenant choisir entre deux thèmes différents (libre à vous de nous en soumettre de nouveaux).<br/><br/>
-Comme d'habitude, le site est conforme aux standards du W3C (XHTML 1.1 et CSS 2). Si vous rencontrez des problèmes d'affichage, utilisez simplement un navigateur respectant ces standards (par exemple <a href="http://www.mozilla.org/">Mozilla</a> ).
+
+      Comme d'habitude, le site est conforme aux standards du W3C (XHTML 1.1 et CSS 2). Si vous rencontrez des problèmes d'affichage, utilisez simplement un navigateur respectant ces standards (par exemple <use name="mozilla"/>).
       </content>
     </subsection>
 
