@@ -26,6 +26,7 @@
     <head>
       <title>GeeXboX HomePage</title>
       <meta http-equiv="Content-language" content="en"/>
+      <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1"/>
       <meta name="description" content="GeeXboX Homepage : a free software media center for Linux"/>
       <meta name="dc.description" content="GeeXboX Homepage : a free software media center for Linux"/>
       <meta name="dc.subject" content="GeeXboX Homepage : a free software media center for Linux"/>
