@@ -24,7 +24,7 @@
     </subsection>
 
     <subsection label="release_0.97">
-      <content lang="en" title="GeeXboX 0.97 (02/xx/04)">
+      <content lang="en" title="GeeXboX 0.97 (03/xx/04)">
       'Think it was the hardest version to release but 0.97 has finally come. As you may have noticed, our website was unreachable for some times in the last month and till now, some services were unfortunately down. Let's clarify the situation. Our previous host (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) has been attacked by hackers in January 2004 and decided to stop hosting free projects for an undefined period. Thanks to <b>BWare</b>, a member of the GeeXboX's forum, we got the opportunity to get a nearly dedicated web server with full of bandwidth. Many thanks for him, without whom, our services wouldn't have restarted at this time. More than ever, we need generous contributors and donators to help the project and prevent us from such a situation to happen once again. If you believe in our project, don't hesitate to have a look at the appropriate section of this website.<br/><br/>
 Let's stop with it, it's now time to talk you about the 0.97 release :-) For many reasons (like the one just above), the developpement took really much more time that we could have wished. But you will be glad to know that this release comes with many new features that have been requested by users for a long time. By the way, one of the longest period between releases is the bug tracking phase. We often release developpement versions of GeeXboX and you're all welcomed to test it the most you can. Please remember that the most you are to test and to report bugs and the quicker will new versions be released.<br/><br/>
 So, as usual, here's a quick changelog of the new features for which you've been waiting for so long : <br/><br/>
@@ -35,6 +35,8 @@ So, as usual, here's a quick changelog of the new features for which you've been
 * Support for S3 Virge GX2 TV Out.<br/>
 * Support for the Matroska container.<br/>
 * Support for PCI and USB WiFi network adapters.<br/>
+* Support for Serial ATA disks.<br/>
+* Support for 3COM/NetGear Gigabit ethernet cards.<br/>
 * Support for BT8x8 cards (Composite and S-VHS inputs and TV tuners).<br/>
 * Support for audio/video streaming (Web-Radios etc ...)<br/>
 * Access to the Internet through web gateways.<br/>
@@ -50,6 +52,8 @@ Donc, comme à l'accoutumée, voici un rapide aperçu des nouvelles fonctionnalités
 * Support de la sortie TV des cartes S3 Virge GX2.<br/>
 * Support du conteneur audio/vidéo Matroska.<br/>
 * Support des cartes réseaux WiFi aux formats PCI et USB.<br/>
+* Support des disques Serial ATA.<br/>
+* Support des cartes Ethernet 3COM/NetGear Gigabit.<br/>
 * Support des cartes BT8x8 (entrées Composite et S-VHS et des tuners TV).<br/>
 * Support du streaming audio/vidéo (Web-Radios etc ...)<br/>
 * Accès à Internet via des passerelles web.<br/>
