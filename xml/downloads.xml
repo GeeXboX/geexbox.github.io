@@ -3,19 +3,19 @@
 
 <article>
   <define name="dl-iso-en">
-    <a href="../releases/0.95/geexbox-0.95-en.iso">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95-en.iso%7C45914%7C994C084ED9473DD164935FF31E0B96E2%7C">edonkey</a>
+    <a href="../releases/0.95/geexbox-0.95-en.iso">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95-en.iso%7C4610048%7CA1786570C90C80788F3A09464FF8CBDF%7C">edonkey</a>
   </define>
   <define name="dl-iso-fr">
-    <a href="../releases/0.95/geexbox-0.95-fr.iso">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95-fr.iso%7C149963643%7C7532D1F92C86CC993AD2D52072AEBDFB%7C">edonkey</a>
+    <a href="../releases/0.95/geexbox-0.95-fr.iso">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95-fr.iso%7C4610048%7CC6ECC8D378FCD40D15DEB6FAFF15FCF6%7C">edonkey</a>
   </define>
   <define name="dl-gen">
-    <a href="../releases/0.95/geexbox-generator-0.95.tar.gz">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-generator-0.95.tar.gz%7C102724526%7C3CE76FA5874816D0CFCC83B255B53DBD%7C">edonkey</a>
+    <a href="../releases/0.95/geexbox-generator-0.95.tar.gz">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-generator-0.95.tar.gz%7C5159088%7CF04808C67CF661047249136FE0861A6E%7C">edonkey</a>
   </define>
   <define name="dl-src-lite">
-    <a href="../releases/0.95/geexbox-0.95.tar.bz2">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95.tar.bz2%7C77074688%7CC43C8CF55B9B5E66536CC8776BB67B58%7C">edonkey</a>
+    <a href="../releases/0.95/geexbox-0.95.tar.bz2">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95.tar.bz2%7C56608%7C0200E8B20F962ED70487C3AB5D7B404E%7C">edonkey</a>
   </define>
   <define name="dl-src-full">
-    <a href="../releases/0.95/geexbox-0.95-full.tar">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95-full.tar%7C455461637%7C02A2B37F7B6298CE5CB8F0564715062A%7C">edonkey</a>
+    <a href="../releases/0.95/geexbox-0.95-full.tar">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.95-full.tar%7C59381760%7C2B16BAB7F2238D659CABE4757A9BE0F5%7C">edonkey</a>
   </define>
 
   <section>
