@@ -26,6 +26,13 @@
     <head>
       <title>GeeXboX HomePage</title>
       <meta http-equiv="Content-language" content="en"/>
+      <meta name="description" content="GeeXboX Homepage : a free software media center for Linux"/>
+      <meta name="dc.description" content="GeeXboX Homepage : a free software media center for Linux"/>
+      <meta name="dc.subject" content="GeeXboX Homepage : a free software media center for Linux"/>
+      <meta name="dc.title" content="GeeXboX Homepage"/>
+      <meta name="author" content="Aurelien Jacobs, Benjamin Zores"/>
+      <meta name="robots" content="index, follow"/>
+      <meta name="keywords" content="computer, OS, Linux, distribution, embedded, multimedia, HTPC, home, theater, LiveCD, movie, audio, video, media, center, MPlayer, standalone, player, free, software, open, source, mpeg, mp3, divx, xvid, matroska, ogg, vorbis, AC3, DTS, VCD, DVD, CD, TV, tuner, TVOut, ATI, nVidia, DXR3, WiFi, PC, computer, buysbox, uClibc, geexbox, geexbox.org"/>
       <xsl:call-template name="stylesheet"/>
       <link rel="icon" type="images/png" href="../img/geexbox-icon.png"/>
       <script type="text/javascript" src="../style/styleswitcher.js">
