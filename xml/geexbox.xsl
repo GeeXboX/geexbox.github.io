@@ -68,6 +68,7 @@
   <xsl:if test="./content[@lang=$lang]/node()">
     <p><xsl:apply-templates select="./content[@lang=$lang]/node()"/></p>
   </xsl:if>
+  <xsl:apply-templates select="use"/>
 </xsl:template>
 
 <xsl:template match="center">
