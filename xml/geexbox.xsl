@@ -246,7 +246,7 @@
 
 <xsl:template match="css">
   <xsl:element name="a">
-    <xsl:attribute name="href">http://jigsaw.w3.org/css-validator/</xsl:attribute>
+    <xsl:attribute name="href">http://jigsaw.w3.org/css-validator/check/referer</xsl:attribute>
     <xsl:if test="@title">
       <xsl:attribute name="title"><xsl:value-of select="@title"/></xsl:attribute>
     </xsl:if>CSS2</xsl:element>
