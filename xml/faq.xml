@@ -6,6 +6,10 @@
     <a href="http://www.bootsplash.org/config.html">BootSplash</a>
   </define>
 
+  <define name="tutorials-link">
+    <a href="http://www.swisslinux.org/wiki/index.php/GeexBox">SwissLinux</a>
+  </define>
+
   <section label="faq">
     <content lang="en" title="Frequently Asked Questions ..."/>
     <content lang="fr" title="Foire Aux Questions ..."/>
@@ -38,6 +42,7 @@
         <a href="#theme">How can I create my own GeeXboX's theme ?</a>
       </content>
       <content lang="fr" title="Liste des FAQ ...">
+        <a href="#tutorials">GeeXboX pas-à-pas : tutoriaux (non officiels)</a><br/>
         <a href="#burning">Comment graver l'image ?</a><br/>
         <a href="#generator">Comment construire son ISO personnalisée ?</a><br/>
         <a href="#display">Comment régler mes paramètres d'affichage ?</a><br/>
@@ -86,6 +91,12 @@
         <a href="#bootlogo">Wie kann ich das GeeXboX Bootlogo verändern ?</a><br/>
         <a href="#modify_menu">Wie kann ich die Menüeinträge anpassen ?</a><br/>
         <a href="#theme">Wie kann ich mein eigenes GeeXboX's Theme erstellen ?</a>
+      </content>
+    </subsection>
+
+    <subsection label="tutorials">
+      <content lang="fr" title="GeeXboX pas-à-pas : tutoriaux (non officiels)">
+        GeeXboX est un système qui nécessite très peu d'intervention de la part de l'utilisateur moyen. Néanmoins, si vous souhaitez vous lancer dans l'aventure, il est possible d'affiner un peu plus le système à sa propre configuration. Le site web <use name="tutorials-link"/> regroupe un ensemble d'astuces pour améliorer sa GeeXboX. Il comporte de nombreux tutoriaux expliquant étapes après étapes comment modifier son ISO à ses propres besoins, recompiler les sources, ou encore les adapter à son système. Ce site est un regroupement non-officiel de tutoriaux (à savoir qu'il est maintenu par des utilisateurs et non les développeurs). Mais il fonctionne surtout sur le principe du Wiki, une page web collaboratrice, où chacun peut contribuer pour ajouter son grain de sel.
       </content>
     </subsection>
 
