@@ -6,6 +6,12 @@
     <a href = "http://www1.mplayerhq.hu/MPlayer/releases/codecs/essential-20040809.tar.bz2">archive</a>
   </define>
 
+  <define name="ati-remote">
+    <center>
+      <img src="../img/ati-remote-wonder.png" alt="ATI Remote Wonder"/>
+    </center>
+  </define>
+
   <section label="doc">
     <content lang="en" title="Documentation ..."/>
     <content lang="fr" title="Documentation ..."/>
@@ -78,6 +84,23 @@
           La GeeXboX a été compilée pour supporter la télécommande ATI Remote Wonder. Cela signifie que, dans le cas où vous utiliseriez un autre type de télécommande, vous serez amener à reconstruire votre propre version de la GeeXboX, en modifiant utilisant le générateur d'ISO prévu à cet effet. Si vous souhaitez utiliser une télécommande non actuellement supportée par la GeeXboX, vous devrez reconstruire les sources et modifier le fichier <i>./packages/lirc/lircd.conf</i>. Consultez le <a href="http://www.lirc.org">Site Web LIRC</a> pour de plus amples détails sur la façon de modifier ce fichier.
       </content>
     </subsection>
+
+    <subsection label="ati-wonder">
+      <content lang="en" title="Using the ATI Remote Wonder ...">
+      GeeXboX can be controlled using a LIRC compliant remote and receiver. The only officialy supported remote is the <i>Remote Wonder</i>, provided by ATI. Many other brands sell exactly the same controller and if the one you bought look like the one above, it means that it's supported.<br/><br/>
+
+      Even if the remote is user-friendly, here's the complete key bindings between the <i>Remote Wonder</i> and GeeXboX : <br/><br/>
+      <use name="ati-remote"/>
+      </content>      
+      <content lang="fr" title="Utiliser la télécommande ATI Remote Wonder ...">
+      La GeeXboX peut être controlée au moyen d'une télécommande et d'un récepteur compatible avec LIRC. La seule télécommande dont le support officiel est assurée est la <i>Remote Wonder</i>, produite par ATI. De nombreuses autres marques vendent exactement le même modèle et si la télécommande dont vous disposez ressemble à celle ci-dessous, cela signifie qu'elle est supportée.<br/><br/>
+
+      Même si l'usage de la télécommande semble implicite, voici un aperçu complet de l'association des touches de la <i>Remote Wonder</i> et des actions de la GeeXboX : <br/><br/>
+      <use name="ati-remote"/>
+
+      </content>      
+    </subsection>
+
     <subsection label="building">
       <content lang="en" title="Building the GeeXboX ...">
         First, you have to be root (the building scripts have to mount the
