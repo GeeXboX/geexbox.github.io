@@ -174,108 +174,22 @@ et enfin, pour générer l'installator ; <br/>
       </content>
     </subsection>
     <subsection label="config">
-      <content lang="en" title="GeeXboX Config File ...">
-        The GeeXboX is built as specified in its configuration file, describing the compilation's options and the burner specification.<br/><br/>
-          
-          Here are the contents of <i>./config/options</i>, where you can choose your CPU family, the GeeXboX's theme, whether you want truetype fonts or not and many other things ...<br/><br/>
+      <content lang="en" title="GeeXboX Config Files ...">
+        The GeeXboX is built as specified in its configuration file, describing the compilation's options, remote to be used, language to be supported, burner's specifications and so on.<br/><br/>        
 
-          <b># Target CPU (i586 or C3)</b><br/>
-          <b>CPU=i586</b><br/>
-          <b># Theme (xmas, halloween, movies, aqua, classic)</b><br/>
-          <b>THEME=xmas</b><br/>
-          <b># Default Langage (bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk)</b><br/>
-          <b>LANG=en</b><br/>
-          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850/animax/packard_bell/atiusb)</b><br/>
-          <b>REMOTE=atiusb</b><br/>
-          <b># Use Extra Binary Codecs - RealMedia/WindowsMedia 9 (yes/no)</b><br/>
-          <b>EXTRACODECS=no</b><br/>
-          <b># Network Support (Samba shares and FTP Server) (yes/no)</b><br/>
-          <b>NETWORK=yes</b><br/>
-          <b># Wireless network support (yes/no)</b><br/>
-          <b>WIFI=yes</b><br/>
-          <b># Choose font type for OSD (truetype/bitmap)</b><br/>
-          <b>FONT=truetype</b><br/>
-          <b># Enable Debuging (build gdb ...)</b><br/>
-          <b>DEBUG=no</b><br/>
-          <b># Add DirectFB support (EXPERIMENTAL)</b><br/>
-          <b>DIRECTFB=yes</b><br/>
-          <b># Add DXR3/Hollywood+ support (EXPERIMENTAL)</b><br/>
-          <b>DXR3=yes</b><br/>
-          <b># Add BT8x8 TV Card support (yes/no)</b><br/>
-          <b>BTTV=yes</b><br/>
-          <b># Image viewer / dia show support (yes/no)</b><br/>
-          <b>VIEW_IMG=yes</b><br/>
-          <b># Default timeout in seconds for dia show (0 to disable)</b><br/>
-          <b>VIEW_IMG_TIMEOUT=10</b><br/>
-          <br/>
-          <b># Burning options</b><br/><br/>
-          <b># device (ex: 0,0,0). See the output of cdrecord -scanbus</b><br/>
-          <b>BURNER=0,0,0</b><br/>
-          <b># blank the CD-RW before burning (yes/no)</b><br/>
-          <b>BLANK=yes</b><br/>
-          <b># you can also pass options to cdrecord :</b><br/>
-          <b>CDRECORD_OPTS=</b><br/>
-          <br/>
-          <b># PXE boot options</b><br/>
-          <b>DEFAULT_NFS_SERVER=192.168.0.1</b><br/>
-          <br/>
-
-          To sum up, the GeeXboX configuration files can be found here :<br/>
-* <b>./config/options</b> : main GeeXboX build options and burner specs<br/>
-* <b>./packages/linux/linux.conf</b> : this is the kernel config file, used to build the GeeXboX. It can be edited to suit your needs (e.g. some IR devices ...)<br/>
-* <b>./packages/MPlayer/menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> : modify this file to edit your menu items.<br/>
+        To sum up, the GeeXboX configuration files can be found here :<br/>
+* <b>./config/options</b> : main GeeXboX build options and burner specification<br/>
+* <b>./packages/linux/linux.conf</b> : this is the kernel config file, used to build the GeeXboX. It can be edited to suit your needs.<br/>
+* <b>./packages/MPlayer/menu_<i>lang</i>.conf</b> : modify this file to edit your menu items.<br/>
 * <b>./packages/MPlayer/mplayer.conf</b> : this file contains MPlayer's start options.
       </content>
-      <content lang="fr" title="Fichier de Configuration ...">
-        La GeeXboX est construite en suivant les définitions présentes dans son fichier de configuration, décrivant les options de compilation ainsi que les spécifications propres au graveur de CD avec lequel l'image sera gravée.<br/><br/>
+      <content lang="fr" title="Fichiers de Configuration ...">
+        La GeeXboX est construite en suivant les définitions présentes dans son fichier de configuration, décrivant les options de compilation, la télécommande et la langue à utiliser, ainsi que les spécifications propres au graveur de CD avec lequel l'image sera gravée.<br/><br/>
           
-          Voici donc le contenu de <i>./config/options</i>, où vous pouvez choisir votre type de CPU, le thème, ainsi que si vous désirer utliser ou non des fontes de type TrueTypeet bien d'autres choses encore ...<br/><br/>
-
-          <b># Target CPU (i586 or C3)</b><br/>
-          <b>CPU=i586</b><br/>
-          <b># Theme (xmas, halloween, movies, aqua, classic)</b><br/>
-          <b>THEME=xmas</b><br/>
-          <b># Default Langage (bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk)</b><br/>
-          <b>LANG=en</b><br/>
-          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/creative/leadtek/RM-S6/RX-V850/animax/packard_bell/atiusb)</b><br/>
-          <b>REMOTE=atiusb</b><br/>
-          <b># Use Extra Binary Codecs - RealMedia/WindowsMedia 9 (yes/no)</b><br/>
-          <b>EXTRACODECS=no</b><br/>
-          <b># Network Support (Samba shares and FTP Server) (yes/no)</b><br/>
-          <b>NETWORK=yes</b><br/>
-          <b># Wireless network support (yes/no)</b><br/>
-          <b>WIFI=yes</b><br/>
-          <b># Choose font type for OSD (truetype/bitmap)</b><br/>
-          <b>FONT=truetype</b><br/>
-          <b># Enable Debuging (build gdb ...)</b><br/>
-          <b>DEBUG=no</b><br/>
-          <b># Add DirectFB support (EXPERIMENTAL)</b><br/>
-          <b>DIRECTFB=yes</b><br/>
-          <b># Add DXR3/Hollywood+ support (EXPERIMENTAL)</b><br/>
-          <b>DXR3=yes</b><br/>
-          <b># Add BT8x8 TV Card support (yes/no)</b><br/>
-          <b>BTTV=yes</b><br/>
-          <b># Image viewer / dia show support (yes/no)</b><br/>
-          <b>VIEW_IMG=yes</b><br/>
-          <b># Default timeout in seconds for dia show (0 to disable)</b><br/>
-          <b>VIEW_IMG_TIMEOUT=10</b><br/>
-          <br/>
-          <b># Burning options</b><br/><br/>
-          <b># device (ex: 0,0,0). See the output of cdrecord -scanbus</b><br/>
-          <b>BURNER=0,0,0</b><br/>
-          <b># blank the CD-RW before burning (yes/no)</b><br/>
-          <b>BLANK=yes</b><br/>
-          <b># you can also pass options to cdrecord :</b><br/>
-          <b>CDRECORD_OPTS=</b><br/>
-          <br/>
-          <b># PXE boot options</b><br/>
-          <b>DEFAULT_NFS_SERVER=192.168.0.1</b><br/>
-          <br/>
-
-          Pour résumer, les fichiers de configuration de la GeeXboX sont les suivants :<br/><br/>
+        Pour résumer, les fichiers de configuration de la GeeXboX sont les suivants :<br/><br/>
 * <b>./config/options</b> : options principales de compilation et du graveur<br/>
-* <b>./packages/linux/linux.conf</b> : il s'agit du fichier de configurations du noyau Linux, utilisé pour construire la GeeXboX. Il peut être édité afin de répondre au mieux à vos besoins (pour le support de certains récepteurs infrarouge par exemple)<br/>
-* <b>./packages/MPlayer/menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> : modifiez ce fichier pour éditer les options du menu OSD.<br/>
+* <b>./packages/linux/linux.conf</b> : il s'agit du fichier de configurations du noyau Linux, utilisé pour construire la GeeXboX. Il peut être édité afin de répondre au mieux à vos besoins.<br/>
+* <b>./packages/MPlayer/menu_<i>lang</i>.conf</b> : modifiez ce fichier pour éditer les options du menu OSD.<br/>
 * <b>./packages/MPlayer/mplayer.conf</b> : ce fichier contient les options de lancement de MPlayer.
       </content>
     </subsection>
