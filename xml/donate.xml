@@ -13,6 +13,24 @@
     </center>
   </define>        
 
+  <define name="vboard">
+* ATI Rage 128 Ultra 32M AGP TV<br/>
+* ATI Rage 128 Pro AGP<br/>
+* ATI Rage 128 AGP<br/>
+* SiS 6326 8M AGP<br/>
+* SiS 6326 4M AGP<br/>
+* S3 Trio 64V+<br/>
+* S3 Trio 368 8M AGP<br/>
+* S3 Trio 32 PCI<br/>
+* 3Dfx Voodoo 3 8M PCI<br/>
+  </define>
+
+  <define name="soundcard">
+* SB 128 CT4810 PCI<br/>
+* SB Live! CT4830<br/>
+* Yamaha WaveForce 192XG<br/>
+  </define>
+
   <section label="donate">
     <content lang="en" title="Donate ..."/>
     <content lang="fr" title="Donations ..."/>
@@ -40,8 +58,16 @@ At now, we're really looking for specific needs :<br/><br/>
 * a Macintosh G3 (or even G4 or G5 :-) to port GeeXboX to.<br/>
 * whatever may inspire you.<br/><br/>
 
-So, if you want to help us, just mail us a <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. And, from all the developers and users, thank you for your help.
-    <br/><br/><br/><br/>
+So, if you want to help us, just mail us a <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. And, from all the developers and users, thank you for your help.<br/><br/>
+
+Our development team already has received the following piece of hardware. Special thanks to <i>Sylvain Doctrinal</i> for his donation.<br/><br/>
+
+<b>Display adapters :</b><br/>
+<use name="vboard"/><br/>
+<b>Sound cards :</b><br/>
+<use name="soundcard"/>
+        <br/><br/>
+
       </content>
       <content lang="fr" title="Comment puis-je aider ou faire un don ?">
       Faire un don ne signifie pas nécessairement donner de l'argent. Bien entendu, si vous appréciez la GeeXboX et estimez que le temps conscré à la développer mérite une récompense, vos dons monétaires sont les bienvenus (ils seront utilisés dans le sens des requêtes utilisateurs, en vue de meilleures conditions de développement, i.e l'achat de nouveau matériel pour y ajouter son support ...). Si vous souhaitez contribuer financièrement au projet GeeXboX ou tout simplement lui donner un coup de pouce, vous pouvez faire un don via <b>PayPal</b> : c'est à la fois simple et rapide mais surtout, c'est à vous de decider du montant de votre don. A vous de juger la qualité de notre travail. L'ensemble de l'équipe de développement vous en remercie par avance.<br/><br/>
@@ -56,8 +82,15 @@ A l'heure actuelle, nous avons des besoins particuliers :<br/><br/>
 * un Macintosh G3 (ou mieux G4 ou G5 :-) pour y porter la GeeXboX.<br/>
 * tout ce qui vous inspire.<br/><br/>
 
-Donc, si vous souhaitez nous aider, envoyez simplement un mail à <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. Et, de la part de tous les développeurs et utilisateurs, merci de tout coeur pour votre aide.
-    <br/><br/><br/><br/>
+Donc, si vous souhaitez nous aider, envoyez simplement un mail à <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. Et, de la part de tous les développeurs et utilisateurs, merci de tout coeur pour votre aide.<br/><br/>
+
+Notre équipe de développement à déjà reçu la liste suivante de matériel et autres pièces détachées. Un grand merci à <i>Sylvain Doctrinal</i> pour son don.<br/><br/>
+
+<b>Cartes graphiques :</b><br/>
+<use name="vboard"/><br/>
+<b>Cartes sons :</b><br/>
+<use name="soundcard"/>
+        <br/><br/>
       </content>
     </subsection>
 
