@@ -40,13 +40,13 @@
       Ok, revenons sur terre, voici donc les détails concernant la version actuelle. Voici donc ce pour quoi vous avez tant attendu : <br/><br/>
 * Passage à MPlayer 1.0pre5<br/>
 * Correction de la temporisation des touches de l'ATI Remote Wonder.<br/>
-* Meilleur support du WiFi et ajotu des drivers poru chipsets RT2400 et ACX100.<br/>
+* Meilleur support du WiFi et ajout des drivers pour chipsets RT2400 et ACX100.<br/>
 * Meilleur support des transferts de fichier via FTP.<br/>
 * L'information sur l'espace disque disponible est désormais accessible via le menu.<br/>
 * Le lecteur est désormais controlable via un joystick (sont supportés, tous les modèles USB ainsi que les Microsoft SideWinder sur port de jeu traditionnel).<br/>
 * Ajout du support de la sortie numérique SPDIF des cartes sons.<br/>
 * Meilleur support des écrans panoramiques (16:9) et possibilité de choisir la norme d'affichage (PAL/NTSC) avec les cartes DXR3.<br/>
-* Support deu décodage logiciel des flux audio au format DTS.<br/>
+* Support du décodage logiciel des flux audio au format DTS.<br/>
 * Autodétection et lecture automatique du plus long titre d'un DVD (ce qui devrait correspondre à celui contenant le film principal).<br/>
 * Ajout d'un script permettant de générer un package Debian du générateur d'ISO.<br/>
 * Correction d'un problème de compatibilité à la compilation des sources avec des distributions autres que Debian (i.e. cela devrait fonctionner à merveille avec une Mandrake 10 et/ou Fedora Core 2).<br/>
