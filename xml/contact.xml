@@ -8,13 +8,19 @@
       <a href="mailto:__ben__at__geexbox__dot__org__">Benjamin Zores</a><br/>
     </i>
   </define>
+
+  <define name="author-dev">
+    <i>
+      Amir Shalem<br/>
+    </i>
+  </define>
+
   <define name="author-contrib">
     <i>
       Serge Gebhardt<br/>
       Dennis Roos<br/>
       Alexis Saettler<br/>
       Ville Skytta<br/>
-      Amir Shalem<br/>
     </i>
   </define>
 
@@ -54,6 +60,8 @@
       <content lang="en" title="Authors">
         <b>Core maintainers :</b><br/><br/>
         <use name="author-core"/><br/>
+        <b>Regular Developers :</b><br/><br/>
+        <use name="author-dev"/><br/>
         <b>Designers :</b><br/><br/>
         <use name="author-design"/><br/>
         <b>Occasional contributors :</b><br/><br/>
@@ -62,6 +70,8 @@
       <content lang="fr" title="Auteurs">
         <b>Développeurs principaux :</b><br/><br/>
         <use name="author-core"/><br/>
+        <b>Développeurs reguliers :</b><br/><br/>
+        <use name="author-dev"/><br/>
         <b>Designers :</b><br/><br/>
         <use name="author-design"/>
         <b>Contributeurs occasionnels :</b><br/><br/>
