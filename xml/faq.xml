@@ -330,7 +330,7 @@ box noover       110  20 680 500 #333333E0<br/>
 
 Pour une liste complète et détaillée de toutes les options disponibles pour ce fichier de configuration, veuillez consulter la documentation de <use name="bootsplash-link"/>.<br/><br/>
 
-Une fois tout ceci temriné, remplacez les fichiers présents dans l'archive du thème par les 2 que vous venez de créer et commencez à compiler votre distribution.
+Une fois tout ceci terminé, remplacez les fichiers présents dans l'archive du thème par les 2 que vous venez de créer et commencez à compiler votre distribution.
       </content>
     </subsection>
 
@@ -345,14 +345,14 @@ Une fois tout ceci temriné, remplacez les fichiers présents dans l'archive du th
 
     <subsection label="theme">
       <content lang="en" title="How can I create my own GeeXboX's theme ?">
-        A theme is an archive, packaging TrueType fonts, a video background, an optional audio background and a specific Linux Progress Patch (see above for how to create it).<br/><br/>
+        A theme is an archive, packaging TrueType fonts, a video background, an optional audio background and a specific Linux boot logo (i.e a JPEG image and its associated configuration file, see above for how to create it).<br/><br/>
 
   The current background can be found in <i>./sources/theme-*/</i>. It is simply called <b>background.avi</b>. Another background may exist, called <b>background-audio.avi</b> and is displayed only when playing audio streams. You may replace these files by any kind of playable video. The only restriction is the codec which must be supported by MPlayer (MPEG4 should be fine).<br/><br/>
 
           By default, our fonts are available in the <i>./sources/theme-*/</i> folder (<b>casual.ttf</b> in the classic theme). Whether you decide to use different fonts (and different font names), you'll just need to put your .ttf files in the theme archive (<b>theme-*.tar.bz2</b>).
       </content>
       <content lang="fr" title="Comment puis-je créer mon propre thème pour la GeeXboX ?">
-        Un thème est en fait une archive contenant des polices TrueType, un fond d'écran vidéo, éventuellement un fond d'écran pour les flux exclusivement audio, et un patch LPP spécifique (voir plus haut).<br/>
+        Un thème est en fait une archive contenant des polices TrueType, un fond d'écran vidéo, éventuellement un fond d'écran pour les flux exclusivement audio, et une image de démarrage (un fichier JPEG et son fichier de configuration associé, voir plus haut).<br/>
           <br/>
 
           Le fond d'écran actuel est disponible dans <i>./sources/theme-*/</i>. Il est simplement intitulé <b>background.avi</b>. Un autre fond d'écran est susceptible d'exister, nommé <b>background-audio.avi</b> et n'est affiché que lors de la lecture de flux audio exclusivement. Vous pouvez procéder au remplacement de ces fichiers par n'importe quel fichier vidéo, qu'importe la manière dont vous l'ayez construit, la seule restriction concernant le fait qu'il puisse être lu par MPlayer (le format MPEG4 devrait convenir à merveille).<br/>
