@@ -39,7 +39,7 @@
     <content lang="fr" title="Pré-Requis ..."/>
     <subsection label="hardware">
       <content lang="en" title="Hardware Needs">
-        'Sure GeeXboX is an operating system but you still need something to boot on ;-) You're lucky, GeeXboX is based on MPlayer, which can be considered as one of the less cpu-dependant movie player, thanks to the use of FFMpeg for decoding movies.<br/><br/>
+        'GeeXboX is an operating system but you still need something to boot on ;-) You're lucky, GeeXboX is based on MPlayer, which can be considered as one of the less cpu-dependent movie players, thanks to the use of FFMpeg for decoding movies.<br/><br/>
 So, here's what can be considered as a typical / minimal config :<br/>
 * Pentium-Class CPU or above (P2-400 should be quite enough)<br/>
 * a VESA 2.0 compliant graphics card.<br/>
@@ -64,18 +64,18 @@ Voici donc ce qui peut être considéré comme une configuration typique / minimale
     </subsection>
     <subsection label="software">
       <content lang="en" title="Software Requirements">
-        This is usefull only if you consider compiling / customizing your own GeeXboX. First of all, GeeXboX has to be compiled under GNU/Linux. Besides, you may need some packages such as : <br/><br/>
+        This is useful only if you consider compiling / customizing your own GeeXboX. First of all, GeeXboX has to be compiled under GNU/Linux. Also, you may need some packages such as : <br/><br/>
 * <use name="req-gcc"/> : The GNU Compiler Collection, used to build the whole project. Please avoid using Gcc 2.96 (available on old Redhat and Mandrake distributions) which is not really MPlayer-compliant.<br/>
 * <use name="req-make"/> : GNU Make is a program that determines which pieces of a large program need to be recompiled and issues the commands to recompile them, when necessary.<br/>
 * <use name="req-patch"/> : this package is needed to patch some official programs sources to customize them to be GeeXboX compliant or simply to add some features.<br/>
-* <use name="req-wget"/> : Wget is a network utility to retrieve files from the Web using http and ftp, the two most widely used Internet protocols.<br/>
+* <use name="req-wget"/> : Wget is a network utility to retrieve files from the Web using http and ftp, the two most widely-used Internet protocols.<br/>
 * <use name="req-nasm"/> : This is an x86 assembler which will flat-form binary files, a.out, COFF and ELF Unix object files, and Microsoft 16-bit DOS and Win32 object files. It is used to compile the uClibc of the GeeXboX.<br/>
 * <use name="req-dosfstools"/> : Utilities to create and check MS-DOS FAT filesystems.<br/>
 * <use name="req-mkisofs"/> : Creates ISO-9660 CD-ROM filesystem images.<br/>
 * <use name="req-mkzftree"/> : this program is available from the zisofs-tools package and let you create compressed iso images.<br/>
 * <use name="req-cdrecord"/> : A command line CD writing tool cdrecord allows you to create CDs.<br/><br/>
 
-          Besides, some modules need to be compiled in your kernel. Indeed, for creating DOS filesystem (standard boot CDROM filesystem), you need to add these modules into the Kernel <i>FileSystems</i> and <i>Block Device</i> menus :<br/><br/>
+          Also, some modules need to be compiled in your kernel. To create DOS filesystems (standard boot CDROM filesystem), you need to add these modules into the Kernel <i>FileSystems</i> and <i>Block Device</i> menus :<br/><br/>
 * CONFIG_FAT_FS<br/>
 * CONFIG_MSDOS_FS<br/>
 * CONFIG_UMSDOS_FS<br/>

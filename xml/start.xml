@@ -7,15 +7,15 @@
     <content lang="fr" title="Par Où Commencer ..."/>
     <subsection label="what">
       <content lang="en" title="What is the GeeXboX ...">
-        The question you may wonder is probably : "Dude, what's exactly the GeeXboX project I've just heard about ?" ;-)<br/> If so, you're at the right place !<br/><br/>
+        The question you may wonder is probably : "Dude, what exactly is this GeeXboX project I've heard so much about ?" ;-)<br/> Well, you're at the right place !<br/><br/>
 
 Ok, we'll try to make it simple. The GeeXboX is no more than an awesome standalone media player. Why such a name ? Well, its main purpose is to play DivX movies and, as everybody usually call this kind of projects DivX boxes, we'll just prepended a "GeeX", cause that's for the geeks you all are ;-)<br/><br/>
 
-So, GeeXboX is a full operating system, running under Linux and based on the excellent MPlayer. No need of hard drive, you just have to put the GeeXboX bootable CD into the CD-Drive of any pentium-class computer to boot it. Moreover, GeeXboX is a free software, created thanks to many open-source software. This means that everyone can modify it and build his own release of the GeeXboX.<br/><br/>
+So, GeeXboX is a full operating system, running under Linux and based on the excellent MPlayer. No need for a hard drive, you just have to put the GeeXboX bootable CD into the CD-Drive of any Pentium-class computer to boot it. Moreover, GeeXboX is free software, created as open-source software. This means that everyone can modify it and build his own release of the GeeXboX.<br/><br/>
 
-You may wonder why you could have to boot on another operating system to play your media files, but just think about the Mini-ITX plateforms like VIA Epia/Eden or Shuttle barebones. It's now affordable to bring DivX to your home cinema, pluging this kind of computers directly to your TV !!<br/><br/>
+You may wonder why you should have to boot another operating system to play your media files, but just think about the Mini-ITX platforms like VIA Epia/Eden or Shuttle barebones. It's now affordable to bring DivX to your home cinema, plugging this kind of computer directly to your TV !!<br/><br/>
 
-At the time of the first developement releases (Dec. 2002), it was only able to play DivX movies, but for now, nearly every kind of media files can be played from GeeXboX, our OS supporting for example :<br/><br/>
+At the time of the first development releases (Dec. 2002), it was only capable of playing DivX movies, but now, nearly every kind of media file can be played with GeeXboX, with the OS supporting :<br/><br/>
    * MPEG 1/2 movies (MPG files, VCDs, DVDs ...)<br/>
    * MPEG 4 movies (DivX, XviD ...)<br/>
    * RealMedia and Windows Media movies.<br/>
@@ -43,7 +43,7 @@ A l'époque des premières phases de développement (Dec. 2002), il était uniquemen
     </subsection>
     <subsection label="license">
       <content lang="en" title="License">
-        All the programs used by the GeeXboX are protected by their respective license.<br/>They all are free software and most of them are covered by the GNU General Public Licence.<br/>
+        All the programs used by the GeeXboX are protected by their respective licenses.<br/>They are all free software and most of them are covered by the GNU General Public Licence.<br/>
 The GeeXboX itself, meaning all the scripts which are used in the building process, are covered by the GNU General Public Licence.<br/>
       </content>
       <content lang="fr" title="License d'exploitation">
@@ -52,9 +52,9 @@ The GeeXboX itself, meaning all the scripts which are used in the building proce
     </subsection>
     <subsection label="more">
       <content lang="en" title="Want more ?">
-        'Sure you think that such a thing requires a new generation computer ;-) That's where you're wrong !! First of all, an old P2-400 with 64 MB of RAM will be quite powerful enough to let the magic plays. Besides, the GeeXboX ISO only takes about 6 MB on disc. And of course, the whole thing can be managed by a remote controller, thanks to its full OSD (On Screen Display) Menu.<br/>
+        'You may think that such a thing requires a new generation computer ;-) That's where you're wrong !! An old P2-400 with 64 MB of RAM will be quite powerful enough to let the magic play. Also, the GeeXboX ISO only takes about 6 MB on disc. And of course, the whole thing can be managed by a remote controller, thanks to its full OSD (On Screen Display) Menu.<br/>
 So, what are you still waiting for ?? Xmas ?<br/><br/>
-No way, just go to the <page name="download"/> section and enjoy ;-)<br/><br/><br/>
+Just go to the <page name="download"/> section and enjoy ;-)<br/><br/><br/>
 <b>The GeeXboX's Team</b><br/>
       </content>
       <content lang="fr" title="Vous en voulez davantage ?">

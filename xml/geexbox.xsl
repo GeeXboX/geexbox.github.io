@@ -15,7 +15,7 @@
     <xsl:comment>
       This web site is (c) 2003 Zores Benjamin
       HomePage for the GeeXboX Project (http://www.geexbox.org/)
-      Feel free to get inspiration from this site, as soon as you leave
+      Feel free to get inspiration from this site, as long as you leave
       this comment here.
 
       THIS PAGE WAS AUTOMATICALY GENERATED FROM TEMPLATES,

@@ -59,7 +59,7 @@
 
     <subsection label="intouch">
       <content lang="en" title="Special Thanks ...">
-        We'd like to address special thanks to the <b>InTouch.Net</b> company. They provide us solutions to freely host <i>geexbox.org</i> with a great quality of services.
+        We'd like to give special thanks to the <b>InTouch.Net</b> company. They provide us with solutions to freely host <i>geexbox.org</i> and provide great services.
         <use name="lnk-intouch"/>
         InTouch N.V. is an independent Communication Service Provider based in Amsterdam, the Netherlands. Established in 1994, InTouch concerns itself with providing tailor-made communication solutions for specific customer requirements, guiding and supporting their customers from the initial stages of design to implementation and operational management of network infrastructures and systems. In close conjunction with their business partners, they provide global communication services to their customers.
       </content>               
@@ -86,9 +86,9 @@
         * <use name="lnk-movix"/> : MoviX is a small Linux distro that transforms your PC in a powerful multimedia box. After booting your PC with MoviX, a user-friendly console menu will allow you to use MPlayer to play any DVD/VCD, video/audio files (most noticeably DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, and OGG/VORBIS), TV (provided you have a TV card), and radio stations on the Internet (if you are connected to a LAN). Since the entire operating system is loaded into RAM, you do not even need a hard disk to use MoviX.<br/><br/>
         * <use name="lnk-freevo"/> : Freevo is a Linux application that turns a PC with a TV capture card and/or TV-out into a standalone multimedia jukebox/VCR/PVR/HTPC/DVR/set-top box. It uses MPlayer and other apps to play and record audio and video. It is optimized for use with a TV and remote, but can be used with a monitor and keyboard. It is very easy to install since the binary release package has no external dependencies.<br/><br/>
         * <use name="lnk-freevix"/> is a GNU/Linux distro providing a complete but small footprint environment for Freevo based media players.<br/><br/>
-        * <use name="lnk-womp"/> is a micro linux distribution focussed on multimedia, it takes only 13 to 18 Mo on a bootable CD, and allow playing multimedia files (video/audio/image) without installing any software on the computer's hard drive.<br/><br/>
+        * <use name="lnk-womp"/> is a micro linux distribution focused on multimedia, it takes only 13 to 18 MB on a bootable CD, and allows playing of multimedia files (video/audio/image) without installing any software on the computer's hard drive.<br/><br/>
         * <use name="lnk-freepia"/> is small GNU/Linux distribution designed to run on  Via Epia-M Mainboards. At present it only runs on the M-9000 but with some modifications like kernel and X11 modules it should be able to run on others too. The main motivation behind this project is to build a full featured, low noise media box to play movies/mp3s/images etc.<br/><br/>
-        * <use name="lnk-vdrlive"/> is a multimedia distro, which is a fork from the GeeXboX project itself. It's main advantage is to support DVB-s cards through <i>Video Disk Recorder</i> (VDR).
+        * <use name="lnk-vdrlive"/> is a multimedia distro, which is a fork from the GeeXboX project itself. Its main advantage is support of DVB-s cards through <i>Video Disk Recorder</i> (VDR).
       </content>
       <content lang="fr" title="Projects Liés ...">
         * <use name="lnk-movix"/> : MoviX une une distribution Linux de petite taille qui transforme votre PC en plateforme multimédia. Après avoir allumé votre PC sous MoviX, un menu convivial vous permettra d'utiliser MPlayer pour lire tout type de DVD/VCD, fichiers audio/vidéo (comme par exemple les DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, and OGG/VORBIS), la TV (en supposant que vous ayez une carte TV), et les stations de radio sur Internet (en supposant que vous soyiez connectés). Comme l'intégralité du système est chargé en mémoire vive, vous n'avez pas besoin de disque dur pour utiliser MoviX.<br/><br/>
@@ -101,11 +101,11 @@
     </subsection>
     <subsection label="programs">
       <content lang="en" title="Embedded Programs ...">
-        GeeXboX is a full standalone media player. The current stable release is featuring the following programs :<br/><br/>
+        GeeXboX is a full standalone media player. The current stable release is features the following programs :<br/><br/>
         * <use name="lnk-linux"/> : Linux is a free Unix-type operating system originally created by Linus Torvalds with the assistance of developers around the world.<br/>
-        * <use name="lnk-mplayer"/> : probably the best media player, supporting most of the available audio / video codecs.<br/>
+        * <use name="lnk-mplayer"/> : probably the best media player, supports most of the available audio / video codecs.<br/>
         * <use name="lnk-busybox"/> : BusyBox provides a fairly complete POSIX environment for any small or embedded system. It combines tiny versions of many common UNIX utilities into a single small executable.<br/>
-        * <use name="lnk-lirc"/> : it's a package that allows you to decode and send infra-red signals of many (but not all) commonly used remote controls.<br/>
+        * <use name="lnk-lirc"/> : is a package that allows you to decode and send infra-red signals using many (but not all) types of remote controls.<br/>
         * <use name="lnk-syslinux"/> is an easy-to-use Linux Bootloader.<br/>
         * <use name="lnk-uclibc"/> : uClibc is a C library for developing embedded Linux systems. It is much smaller then the GNU C Library, but nearly all applications supported by glibc also work perfectly with uClibc.
       </content>

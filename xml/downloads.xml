@@ -67,7 +67,7 @@
     <content lang="fr" title="Téléchargements ..."/>
     <subsection label="iso">
       <content lang="en" title="GeeXboX ISO">
-        We're currently releasing 2 versions of the GeeXboX : French and English. The installator software has been included to the provided ISO, increasing them slightly. It's now you to choose the menu's langage that fits you best :<br/><br/>
+        We're currently releasing 2 versions of the GeeXboX : French and English. The installer software includes the original ISO, increasing the size slightly. It's now up to you to choose the menu's langage that fits you best :<br/><br/>
           * <b><use name="dl-iso-en"/> - <use name="dl2-iso-en"/> - 6.1 MB</b><br/>
           * <b><use name="dl-iso-fr"/> - <use name="dl2-iso-fr"/> - 6.1 MB</b><br/>
           <br/>
@@ -87,7 +87,7 @@
     </subsection>
     <subsection label="generator">
       <content lang="en" title="GeeXboX ISO Generator">
-        With this package, it will be easy to modify the GeeXboX in a few seconds without having to build the sources. The generator produces an ISO image of the GeeXboX, ready to be burned on disc. This piece of software currently works under both GNU/Linux and Microsoft Windows 9x/NT/2k/XP systems.<br/><br/>
+        With this package, it is easy to modify the GeeXboX in a few seconds without having to build the sources. The generator produces an ISO image of the GeeXboX, ready to be burned on disc. This piece of software currently works under both GNU/Linux and Microsoft Windows 9x/NT/2k/XP systems.<br/><br/>
           <b><use name="dl-gen"/> - <use name="dl2-gen"/> - 6.5 MB</b>
       </content>
       <content lang="fr" title="Générateur d'ISO GeeXboX">
@@ -98,7 +98,7 @@
 
     <subsection label="debian">
       <content lang="en" title="GeeXboX Debian Repository">
-        The GeeXboX ISO generator is also available through <b>apt-get</b> for GNU/Linux Debian's users. Simply add the following lines to your <i>/etc/apt/sources.list</i> file :<br/><br/>
+        The GeeXboX ISO generator is also available through <b>apt-get</b> for GNU/Linux Debian users. Simply add the following lines to your <i>/etc/apt/sources.list</i> file :<br/><br/>
         <use name="deb-gen"/><br/>
         <use name="deb-gen-src"/><br/>
       </content>
@@ -111,9 +111,9 @@
 
     <subsection label="sources">
       <content lang="en" title="GeeXboX Sources">
-        Here are the GeeXboX 0.98 sources. You both need the wget package and a connection to the Internet to compile your own GeeXboX. Indeed, most of the packages are directly donwloaded from the web while compiling the GeeXboX. So, here are the sources :<br/><br/>
+        Here are the GeeXboX 0.98 sources. You need both the wget package and a connection to the Internet to compile your own GeeXboX. Most of the packages are directly downloaded from the web while compiling the GeeXboX. So, here are the sources :<br/><br/>
           <b><use name="dl-src-lite"/> - <use name="dl2-src-lite"/> (Lite Package - 103 kB)</b><br/>
-          <b><use name="dl-src-full"/> - <use name="dl2-src-full"/> (Full Package - no more connection to the Internet needed - 71 MB)</b>
+          <b><use name="dl-src-full"/> - <use name="dl2-src-full"/> (Full Package - faster connection to the Internet needed - 71 MB)</b>
       </content>
       <content lang="fr" title="Sources de la GeeXboX">
         Voici les sources de la version 0.98 de la GeeXboX. Vous nécessitez à la fois le programme wget et une connection à Internet lors de la compilation de la première version des sources. En effet, la plupart des packages seront téléchargés à la volée au cours de la compilation. Voici donc les sources :<br/><br/>

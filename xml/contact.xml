@@ -30,7 +30,7 @@
     <content lang="fr" title="Contact utilisateurs"/>
     <subsection label="user">
       <content lang="en" title="Contact ...">
-        Any suggestions ? We'll be glad to answer to you for any question you may wonder about GeeXboX. So, for suggestions / bug report (please supply your hardware configuration and the GeeXboX's release you're using) / (thanks ? ;-) or simply any other kind of question, please mail at :
+        Any suggestions ? We'll be glad to answer any questions you may have about GeeXboX. If you have a bug report, please supply your hardware configuration and the GeeXboX release you're using. For suggestions / bug reports / thanks? ;-) or any other kind of question, please mail at :
         <center><users/></center>
       </content>
       <content lang="fr" title="Contact ...">
@@ -41,7 +41,7 @@
 
     <subsection label="webmaster">
       <content lang="en" title="WebSite">
-        For any questions or problems with the website display or content, please talk about it to the <webmaster/><br/>
+        For any questions or problems with the website display or content, please contact the <webmaster/><br/>
         <center><b>The GeeXboX's Team</b></center>
       </content>
       <content lang="fr" title="Site Internet">

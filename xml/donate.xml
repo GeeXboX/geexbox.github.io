@@ -46,7 +46,7 @@
 
     <subsection label="donate_why">
       <content lang="en" title="Why donate ?">
-      GeeXboX is a free project, developed by people on their free time. This means that we have no incomes or subventions to help us with developement. Many users request us new features, especially on hardware we do not own. Besides, hosting the web server, the domain name and providing the needed bandwidth to let you download GeeXboX's ISO has a cost. From now, we're lucky that someone has provided us a free webserver but this may change at any time.
+      GeeXboX is a free project, developed by people with their free time. This means that we have no income or support to help us with development. Many users request new features from us, especially on hardware we do not own. Besides, hosting the web server, the domain name and providing the needed bandwidth to let you download GeeXboX's ISO has a cost. Recently, we've been lucky that someone has provided us a free webserver but this may change at any time.
       </content>
       <content lang="fr" title="Pourquoi faire un don ?">
       GeeXboX est un projet libre, développé par des bénévoles sur leur temps libre. Cela signifie que nous ne touchons aucun revenu, profit ou subventions qui pourrait nous aider à développer. De nombreux utilisateurs nous demande de nouvelles fonctionnalités, particulièrement le support de matériel que nous ne possédons pas. De plus, héberger le serveur web, le nom de domaine et fournir la bande passante requise pour vous permettre de télécharger la GeeXboX, a un coût non négligeable. A l'heure actuelle, nous avons de la chance qu'un généreux contributeur nous ais fourni un serveur web gratuitement, mais cette situation peut changer à n'importe quel moment.
@@ -55,19 +55,19 @@
 
     <subsection label="donate_how">
       <content lang="en" title="How can I help or donate ?">
-      Donate does not necessarely means giving money. Of course, if you really like GeeXboX and estimate that the time wasted to develop it should be rewarded, your money donations are welcomed (they will be used in the way of users requests to have better developement conditions, i.e buying new hardware to add support ...). If you want to contribute to the GeeXboX project you can make a donation using <b>PayPal</b> : it's free, easy and of course you're free to donate what you think our work deserves. The whole development team thank you.<br/><br/>
+      To donate does not necessarily mean giving money. Of course, if you really like GeeXboX and believe that the time used to develop it should be rewarded, your money donations are welcomed (they will be used to help meet goals requested from users, such as having better development conditions, i.e buying new hardware to add support ...). If you want to contribute to the GeeXboX project you can make a donation using <b>PayPal</b> : it's free, easy and of course you're free to donate what you think our work deserves. The whole development team thanks you.<br/><br/>
 
 <use name="paypal"/>
 
 But you're also able to help us from many others ways. If you can provide us dedicated servers, bandwidth, promotions, advertisement, or even specific piece of hardware, old computers stuff, please contact us, your help will be greatly welcomed. By the way, you can also help us with your own skills as we're looking for translations maintainers, documentation maintainers and especially designers and drawers.<br/><br/>
 
-At now, we're really looking for specific needs :<br/><br/>
-* lots of hardware stuff (even old one) to add support to GeeXboX (video cards, sound cards ...).<br/>
+At the moment, we're really looking for specific help :<br/><br/>
+* lots of hardware bits (even old ones) to add support to GeeXboX (video cards, sound cards ...).<br/>
 * a DVB card.<br/>
 * a Macintosh G3 (or even G4 or G5 :-) to port GeeXboX to.<br/>
 * whatever may inspire you.<br/><br/>
 
-So, if you want to help us, just mail us a <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. And, from all the developers and users, thank you for your help.<br/><br/>
+So, if you want to help us, just mail us at <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. And, on behalf of all the developers and users, thank you for your help.<br/><br/>
 
 Our development team already has received the following piece of hardware. Special thanks to <i>Sylvain Doctrinal</i> for his donation.<br/><br/>
 

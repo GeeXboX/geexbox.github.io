@@ -28,19 +28,19 @@
           <b>+++ Play Audio CD</b><i> # Play an Audio CD</i><br/>
           * <b>Controls</b><br/>
           <b>+++ Pause</b><i> # Pause/Resume function</i><br/>
-          <b>+++ Stop</b><i> # Stop the media playing.</i><br/>
+          <b>+++ Stop</b><i> # Stop the media from playing.</i><br/>
           <b>+++ Eject</b><i> # Eject the CD from the drive.</i><br/>
-          <b>+++ Chpater selection ...</b><i> # Let you dinamically change the chapter for DVDs and Matroska files.</i><br/>
+          <b>+++ Chapter selection ...</b><i> # Let you dynamically change the chapter for DVDs and Matroska files.</i><br/>
           <b>+++ Prev/Next</b><i> # Go to the Next/Previous loaded stream</i><br/>
           <b>+++ Jump to</b><i> # Jump to another stream / vcd track / dvd title</i><br/>
           * <b>Options</b><br/>
-          <b>+++ Aspect</b><i> # Let you dynamically change image aspect ratio</i><br/>
+          <b>+++ Aspect</b><i> # Lets you dynamically change image aspect ratio</i><br/>
           <b>------ Original</b><i> # Reset ratio to its original value</i><br/>
           <b>------ 4:3</b><i> # Switch video to a 4:3 (1.33) height/width ratio</i><br/>
           <b>------ 16:9</b><i> # Switch video to a 16:9 (1.78) height/width ratio</i><br/>
           <b>------ Cinemascope</b><i> # Switch video to a Cinemascope (2:35) height/width ratio</i><br/>
-          <b>+++ Audio Channel ...</b><i> # Let you dynamycally change the audio output channel</i><br/>
-          <b>+++ Subtitle Selection ...</b><i> # Let you dynamically change the subtitle to display</i><br/>
+          <b>+++ Audio Channel ...</b><i> # Lets you dynamically change the audio output channel</i><br/>
+          <b>+++ Subtitle Selection ...</b><i> # Lets you dynamically change the subtitle to be displayed</i><br/>
 
           <b>+++ Switch TV-Out</b><i> # Switch from monitor's output to TV-Out</i><br/>
           <b>+++ Switch Vertical Sync</b><i> # Switch On/Off the Vertical Synchronization (may be useful for nVidia cards)</i><br/>
@@ -48,7 +48,7 @@
           * <b>Quit</b><i> # Shutdown the GeeXboX</i><br/>
           <br/>
 
-          The GeeXboX has been compiled for supporting the ATI Remote Wonder. It means that if you're using another kind of remote, you may have to build your own GeeXboX, using the ISO generator. If you like to use another kind of remote that is not currently supported by the GeeXboX, you'll have to build the sources and to modify <i>./packages/lirc/lircd.conf</i>. See the <a href="http://www.lirc.org">LIRC WebSite</a> for further details about how to modify this file.
+          The GeeXboX has been compiled with support for the ATI Remote Wonder. It means that if you're using another kind of remote, you may have to build your own GeeXboX, using the ISO generator. If you would like to use another kind of remote that is not currently supported by the GeeXboX, you'll have to build the sources and modify <i>./packages/lirc/lircd.conf</i>. See the <a href="http://www.lirc.org">LIRC WebSite</a> for further details about how to modify this file.
       </content>
       <content lang="fr" title="Guide d'utilisation du menu OSD ...">
         Le menu OSD de la GeeXboX peut être très facilement controlé en utilisant un traditionnel clavier ou une télécommande. Utilisez les flèches Haut et Bas pour vous déplacer entre les différentes options du menu. Les flèches de Droite et Gauche sont respectivement utilisées pour explorer un sous-menu (i.e "Ok") et en revenir (i.e "Annuler").<br/><br/>
@@ -87,7 +87,7 @@
 
     <subsection label="ati-wonder">
       <content lang="en" title="Using the ATI Remote Wonder ...">
-      GeeXboX can be controlled using a LIRC compliant remote and receiver. The only officialy supported remote is the <i>Remote Wonder</i>, provided by ATI. Many other brands sell exactly the same controller and if the one you bought look like the one above, it means that it's supported.<br/><br/>
+      GeeXboX can be controlled using a LIRC-compliant remote and receiver. The only officially supported remote is the <i>Remote Wonder</i>, provided by ATI. Many other brands sell exactly the same controller and if the one you bought looks like the one above, it means that it's supported.<br/><br/>
 
       Even if the remote is user-friendly, here's the complete key bindings between the <i>Remote Wonder</i> and GeeXboX : <br/><br/>
       <use name="ati-remote"/>
@@ -103,9 +103,9 @@
 
     <subsection label="building">
       <content lang="en" title="Building the GeeXboX ...">
-        First, you have to be root (the building scripts have to mount the
+        First, you have to be root (the building scripts need to mount the
 boot disk image in loopback).<br/><br/>
-Then basicaly you can build the iso with :<br/>
+Then you can build the iso with :<br/>
  <b>make</b><br/>
 Or you can directly burn this iso with :<br/>
  <b>make burn</b><br/><br/>
@@ -131,7 +131,7 @@ or even, create the ISO generator package thanks to :<br/>
   <b>make generator</b><br/>
 or, create the Linux GeeXboX's installator version with : <br/>
   <b>make installator</b><br/><br/>
-  The only thing you will have to carry about is the GeeXboX configuration file.
+  The only thing you will have to worry about is the GeeXboX configuration file.
       </content>
       <content lang="fr" title="Construire la GeeXboX ...">
         Avant tout, vous devez être root (les scripts de construction nécessitent de monter l'image d'amorçage en loopback).<br/><br/>
@@ -167,9 +167,9 @@ et enfin, pour générer l'installator ; <br/>
     </subsection>
     <subsection label="config">
       <content lang="en" title="GeeXboX Config File ...">
-        The GeeXboX is mainly built as specified in it's configuration file, dexribing the compilation's options and the burner specification.<br/><br/>
+        The GeeXboX is built as specified in its configuration file, describing the compilation's options and the burner specification.<br/><br/>
           
-          Here are the contents of <i>./config/options</i>, where you can choose your CPU family, the GeeXboX's theme, whether you want truetype fonts or not and many others things ...<br/><br/>
+          Here are the contents of <i>./config/options</i>, where you can choose your CPU family, the GeeXboX's theme, whether you want truetype fonts or not and many other things ...<br/><br/>
 
           <b># Target CPU (i586 or C3)</b><br/>
           <b>CPU=i586</b><br/>
@@ -214,7 +214,7 @@ et enfin, pour générer l'installator ; <br/>
 
           To sum up, the GeeXboX configuration files can be found here :<br/>
 * <b>./config/options</b> : main GeeXboX build options and burner specs<br/>
-* <b>./packages/linux/linux.conf</b> : this is the kernel config file, used to build the GeeXboX. It can be edited to fit your needs (e.g. some IR devices ...)<br/>
+* <b>./packages/linux/linux.conf</b> : this is the kernel config file, used to build the GeeXboX. It can be edited to suit your needs (e.g. some IR devices ...)<br/>
 * <b>./packages/MPlayer/menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> : modify this file to edit your menu items.<br/>
 * <b>./packages/MPlayer/mplayer.conf</b> : this file contains MPlayer's start options.
       </content>
@@ -273,15 +273,15 @@ et enfin, pour générer l'installator ; <br/>
     </subsection>
     <subsection label="mplayer">
       <content lang="en" title="MPlayer Documentation ...">
-        The GeeXboX is mainly featuring MPlayer. As this player is one of the most powerful media player, it can be started by several ways. In the GeeXboX, 2 files are used to control MPlayer's options :<br/><br/>
+        The GeeXboX uses MPlayer. As this player is one of the most powerful media players, it can be started in several different ways. In the GeeXboX, two files are used to control MPlayer's options :<br/><br/>
           * <i>./packages/MPlayer/menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</i><br/>
           * <i>./packages/MPlayer/mplayer.conf</i><br/><br/>
 
-          The <b>menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> is used to generate the OSD Menu. You may have to modify it whether you want to add or remove items from the menu or to change the items captions to fit your needs.<br/>
+          The <b>menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> is used to generate the OSD Menu. You may have to modify it if you wish to add or remove items from the menu, or to change the items captions to fit your needs.<br/>
           The <b>mplayer.conf</b> is related to MPlayer's lauching options. The default config file contains some of the following lines :<br/><br/>
           <b>vo=vesa:vidix,vesa</b><i> # Video Output driver (Use VidiX if available, VESA otherwise)</i><br/>
           <b>ao=alsa</b><i> # Audio Output driver</i><br/>
-          <b>framedrop=yes</b><i> # When set to 'yes', MPlayer may skip decoding some frames if video plays too slowly</i><br/>
+          <b>framedrop=yes</b><i> # When set to 'yes', MPlayer may skip decoding some frames if the video plays too slowly</i><br/>
           <b>vsync=yes</b><i> # Activate Vertical Synchronization</i><br/>
           <b>fs=yes</b><i> # Enable Fullscreen (need more CPU)</i><br/>
           <b>zoom=yes</b><i> #Enable Zoom - modify aspect ratio (need more CPU)</i><br/>
@@ -290,7 +290,7 @@ et enfin, pour générer l'installator ; <br/>
           <b>fixed-vo=yes</b><i> # Use a fixe image ratio</i><br/>
           <b>nocolorkey=yes</b><i> # Deactivate the Colorkey</i><br/>
           <b>cache=1500</b><i> # Cache Size (in kB)</i><br/>
-          <b>idx=yes</b><i> # Let MPlayer rebuild file broken headers</i><br/>
+          <b>idx=yes</b><i> # Let MPlayer rebuild a file with broken headers</i><br/>
 
           <b>lircconf=/etc/lirc</b><i> # Path to LIRC configuration file</i><br/>
           <b>subfont-text-scale=3</b><i> # OSD Fonts Size</i><br/>
@@ -298,7 +298,7 @@ et enfin, pour générer l'installator ; <br/>
           <b>screenh=600</b><i> # Screen Height</i><br/>
           <br/>
           
-          More documentation about MPlayer and it's configuration files may be found at <a href="http://www.mplayerhq.hu/DOCS/">MPlayer's Documentation</a>.
+          More documentation about MPlayer and its configuration files may be found at <a href="http://www.mplayerhq.hu/DOCS/">MPlayer's Documentation</a>.
       </content>
       <content lang="fr" title="Documentation de MPlayer ...">
         La GeeXboX est principalement basée sur l'utilisation de MPlayer. Comme ce lecteur est l'un des lecteurs multimédia les plus performant, il accepte de nombreuses options de configuration et de lancement. Dans la GeeXboX, 2 fichiers sont utilisés pour gérer les options de MPlayer :<br/><br/>
@@ -330,20 +330,20 @@ et enfin, pour générer l'installator ; <br/>
     </subsection>
     <subsection label="generator">
       <content lang="en" title="Using the ISO generator ...">
-        Thanks to it, it's now possible to build a bootable image of the GeeXboX from the binaries. This let you build the GeeXboX after slight changes in the configuration files for example, with no need to build the full sources. Besides, the generation process can be done both under Linux than Windows. Just execute the ./generator.sh (under Linux) script or generator.exe (under Windows) and let the magic plays ;-)<br/><br/>
+        Thanks to this generator, it's now possible to build a bootable image of the GeeXboX from the binaries. This lets you build the GeeXboX after slight changes in the configuration files, for example, with no need to build the full sources. Besides, the generation process can be done both under Linux and Windows. Just execute the ./generator.sh (under Linux) script or generator.exe (under Windows) and watch the magic ;-)<br/><br/>
 
-          GeeXboX's customization is interesting under many points such as :<br/><br/>
+          GeeXboX's customization is interesting in many ways, such as :<br/><br/>
 
-* <b>Include a movie</b> : You just have to put your movie or sound files and the playlist into the <b>iso</b> directory of the generator and regenerate the image. The GeeXboX will then boot on the CD and will automatically play the provided list.<br/><br/>
+* <b>Include a movie</b> : You just have to put your movie or sound files and the playlist into the <b>iso</b> directory of the generator and regenerate the image. The GeeXboX will then boot off the CD and will automatically play the provided list/file.<br/><br/>
 
-* <b>Add extra codecs</b> : Even if GeeXboX has now support for RealMedia and Windows Media 9 codecs, these laters are not rights free and we do not get authorization to provide them in the released ISO :-( So, you'll have to add them and regenerate the ISO if you want them to be included. Don't worry, we could hardly make easier !! Just add the following files to the <b>iso/GEEXBOX/codecs</b> generator's directory :<br/><br/>
+* <b>Add extra codecs</b> : Even though GeeXboX has now support for RealMedia and Windows Media 9 codecs, these are not rights-free and we do not get authorization to provide them in the released ISO :-( So, you'll have to add them and regenerate the ISO if you want them to be included. Don't worry, we could hardly make it easier !! Just add the following files to the <b>iso/GEEXBOX/codecs</b> generator's directory :<br/><br/>
 
-Please download this <use name="dl-codecs"/> which contains the RealMedia 8/9 (used to read the RV9-encoded movies for example) and Windows Media 9 (WMV9/WMA9) codecs. Only the files <i>atrc.so.6.0, cook.so.6.0, sipr.so.6.0, drv2.so.6.0, drv3.so.6.0, drv4.so.6.0</i> for RealMedia and <i>wma9dmod.dll and wmv9dmod.dll</i> for Windows Media are really usefull. The other ones can be dropped.<br/><br/>
+Please download this <use name="dl-codecs"/> which contains the RealMedia 8/9 (used to read the RV9-encoded movies for example) and Windows Media 9 (WMV9/WMA9) codecs. Only the files <i>atrc.so.6.0, cook.so.6.0, sipr.so.6.0, drv2.so.6.0, drv3.so.6.0, drv4.so.6.0</i> for RealMedia and <i>wma9dmod.dll and wmv9dmod.dll</i> for Windows Media are really useful. The other ones can be dropped.<br/><br/>
 
 * <b>Modify MPlayer's launch options</b> :<br/>
  You just have to edit the contents fo the file <b>iso/GEEXBOX/etc/mplayer/mplayer.conf</b> and to generate the new ISO.<br/><br/>
 
-Of course, many other changes are availables, such as changing the supported remote, using another background video ... but we'll let you parse the README.txt file carefully to see the possibilities ;-)
+Of course, many other changes are available, such as changing the supported remote, using another background video ... but we'll let you study the README.txt file carefully to see the possibilities ;-)
       </content>
       <content lang="fr" title="Utilisation du générateur d'ISO ...">
         Grâce à ce générateur d'ISO, il est désormais possible de reconstruire une image bootable de la GeeXboX à partir des binaires. Cela permet par exemple de reconstruire la GeeXboX suite à de petites modifications des fichiers de configuration, sans pour autant avoir à recompiler toutes les sources. De plus, la génération est possible aussi bien sous Linux que sous Windows. Exécutez simplement ./generator.sh (sous Linux) ou generator.bat (sous Windows) et laisser la magie apparaître ;-)<br/><br/>
@@ -362,15 +362,15 @@ De nombreuses autres modifications sont bien entendu possibles, comme le changem
       </content>
     </subsection>
     <subsection label="installator">
-      <content lang="en" title="Using the installator ...">
-        With GeeXboX 0.90-4, you're now able to quickly and easily install the system on any IDE hard disk or USB keys (check that your motherboard's BIOS support boot from USB-HDD). You can install GeeXboX on a new disk or on an empty partition from your current disk. All you need is a partition of at least 8 MB of disk storage (16 MB will be nice, so that you can add more codecs and backgrounds). Plesa note that you MUST use a primary partition (not logical) of less than 1 GB.<br/><br/>
-          Installation is not quite difficult. You can either do it from an existing GNU/Linux system or directly when booting the GeeXboX CDROM. At the IsoLinux prompt <b>"boot:"</b> (just before loading GeeXboX), just hit a key and type <b>install</b>. The GeeXboX will now load on a menu for HDD install.<br/><br/>
+      <content lang="en" title="Using the installer ...">
+        With GeeXboX 0.90-4, you're now able to quickly and easily install the system on any IDE hard disk or USB keys (check that your motherboard's BIOS support boot from USB-HDD). You can install GeeXboX on a new disk or on an empty partition from your current disk. All you need is a partition with at least 8 MB of disk storage (16 MB would be nice, so that you can add more codecs and backgrounds). Please note that you MUST use a primary partition (not logical) of less than 1 GB.<br/><br/>
+          Installation is not at all difficult. You can either do it from an existing GNU/Linux system or directly when booting the GeeXboX CDROM. At the IsoLinux prompt <b>"boot:"</b> (just before loading GeeXboX), just hit a key and type <b>install</b>. The GeeXboX will now load on a menu for HDD install.<br/><br/>
 
-          Just follow the instructions and choose the hard disk on which you want GeeXboX to be installed. Disks are named with Linux systems notation (hda, hdb, hdc, hdd). The 'a' letter stands for the master IDE 0 device, 'b' for the slave IDE 0 device ('c' and 'd' are the same but for IDE 1 channel). When done, you'll get a <b>cfdisk</b> screen which will let you partitionnize your disk. Use the arrows to go to some partition representing <i>Free Space</i> and hit the <b>New</b> button. Then, choose the <b>Type 06</b> (FAT16) with the provided menu. Finish with <b>Write</b> and the <b>Finish</b>.<br/><br/>
+          Just follow the instructions and choose the hard disk on which you want GeeXboX to be installed. Disks are named with Linux systems notation (hda, hdb, hdc, hdd). The 'a' letter stands for the master IDE 0 device, 'b' for the slave IDE 0 device ('c' and 'd' are the same but for IDE 1 channel). When you're done, you'll get a <b>cfdisk</b> screen which will let you partition your disk. Use the arrows to go to any partition representing <i>Free Space</i> and hit the <b>New</b> button. Then, choose the <b>Type 06</b> (FAT16) from the provided menu. Finish with <b>Write</b> and then <b>Finish</b>.<br/><br/>
 
-          Confirm the partition where you want the system to be install and format it. Then, the installator ask you whether you want or not for a bootloader to be installed. A bootloader is a software that let you boot from a partition. If the hard disk is designed to be used with GeeXboX only (like USB keys or old small hard disks), say <b>Yes</b> to install the SysLinux bootloader. In other case, (it suppose that you already got an operating system), you can use your current bootloader (like GRUB or LILO for Linux or Windows 2k/XP boot manager) to add GeeXboX to your actual multiboot menu. When done, you might be able to boot GeeXboX from hard disk as any other system in a few times.<br/><br/>
+          Confirm the partition where you want the system to be installed and format it. Then, the installer asks you whether you want a bootloader to be installed or not . A bootloader is software that lets you boot from a partition. If the hard disk is designed to be used with GeeXboX only (like USB keys or old small hard disks), say <b>Yes</b> to install the SysLinux bootloader. In other cases, (if you already have an operating system), you can use your current bootloader (like GRUB or LILO for Linux or Windows 2k/XP boot manager) to add GeeXboX to your actual multiboot menu. When done, you should be able to boot GeeXboX from hard disk just like any other system.<br/><br/>
 
-          If you really like GeeXboX and uses it frequently, it could be a really good idea to install it on a hard disk. Indeed, the system can be seen a new drive on Windows or Linux and so, it can be easily modify to fit your needs (changing MPlayer's configuration file, supported remote, network configuration ...) without having to regenerate the ISO and burn a CD.
+          If you really like GeeXboX and use it frequently, it would be a really good idea to install it on a hard disk. Indeed, the system can be seen as a new drive on Windows or Linux and hence, it can be easily modified to fit your needs (changing MPlayer's configuration file, supported remote, network configuration ...) without having to regenerate the ISO and burn a CD.
       </content>
       <content lang="fr" title="Utilisation de l'installator ...">
         Avec le version 0.90-4 de la GeeXboX, il est possible d'installer rapidement et facilement le système sur n'importe quel disque dur IDE ou clé USB (vérifiez néanmoins que le BIOS de votre carte-mère permette le démarrage depuis un périphérique USB-HDD). Vous pouvez installer la GeeXboX sur un disque vierge ou sur une partition non utilisée de votre disque actuel. Tout ce dont vous aurez besoin, c'est d'une partition d'au moins 8 Mo d'espace disque (16 Mo paraissent plus appropriés, ainsi vous pourrez rajouter davantage de codecs ou fonds d'écran). Veuillez noter que la partition doit être de type primaire (et non logique) et faire un maximum de 1 Go.<br/><br/>
@@ -387,17 +387,17 @@ De nombreuses autres modifications sont bien entendu possibles, comme le changem
 
     <subsection label="tv">
       <content lang="en" title="Editing TV Configuration ...">
-      GeeXboX now supports TV inputs and tuners. Unfortunately, not all of your cards are supported. For the supported ones, the system hardly tries to autodetect the card and the tuner. In some cases, autodetection may fail, resulting in an ugly distorted picture. That's why you can force the settings and skip the autodetection try. Please modify the <b>/etc/tvsettings</b> as described :<br/><br/>
+      GeeXboX now supports TV inputs and tuners. Unfortunately, not all cards are supported. For the supported ones, the system tries to autodetect the card and the tuner. In some cases, autodetection may fail, resulting in an ugly distorted picture. That's why you can force the settings and skip the autodetection attempt. Please modify the <b>/etc/tvsettings</b> as described :<br/><br/>
 
-<b># TV CARD/TUNER Model (AUTO for autodetection or look at the following urls)<br/>
+<b># TV CARD/TUNER Model (AUTO for autodetection or look at the following URLs)<br/>
 # http://www.linuxhq.com/kernel/v2.6/2/Documentation/video4linux/CARDLIST.bttv<br/>
 # http://www.linuxhq.com/kernel/v2.6/2/Documentation/video4linux/CARDLIST.tuner<br/></b>
 * <b>TV_CARD=AUTO</b><br/>
 * <b>TV_TUNER=AUTO</b><br/><br/>
 
-Please let the <b>AUTO</b> parameter whether you want to keep autodetection, or replace it by the number of your card and tuner types, according to the previous URL. Please be careful : in order to force the card and tuner types, you have to know the EXACT REFERENCES of your hardware.<br/><br/>
+Please use the <b>AUTO</b> parameter if you want to keep autodetection active, or replace it by the number of your card and tuner types, according to the previous URL. Please be careful : in order to force the card and tuner types, you have to know the EXACT SPECIFICATIONS of your hardware.<br/><br/>
 
-Once done, you should be able to use the TV inputs (Composite and S-VHS) of your TV card. In the same way, you can use the tuner to watch TV. For that, you will have to define the region you belongs to and the frequency of the TV channels you want to watch. Once again, simply edit the <b>/etc/tvsettings</b> file :<br/><br/>
+Once done, you should be able to use the TV inputs (Composite and S-VHS) of your TV card. In the same way, you can use the tuner to watch TV. For that, you will have to define the region you belong to and the frequency of the TV channels you want to watch. Once again, simply edit the <b>/etc/tvsettings</b> file :<br/><br/>
 
 <b># TV Channels<br/>
 # Syntax : CHAN="Channel Title":"Channel Frequency"<br/>
@@ -438,13 +438,13 @@ Faites attention lors de l'édition des canaux TV et veuillez à utiliser la même 
 
     <subsection label="network">
       <content lang="en" title="Editing Network Configuration ...">
-        GeeXboX 0.90-4 and above come with a network support for most of the ethernet cards (not all of them unfortunately) and a Samba (Windows shares) support. GeeXboX is running a DHCP client which is trying to autoconfigure your network adapter. Whether you do not get a DHCP server on your network, you'll have to modify the <b>/etc/network</b> file which contains the following lines : <br/><br/>
+        GeeXboX 0.90-4 and above come with network support for most Ethernet cards (not all of them, unfortunately) and Samba (Windows shares) support. GeeXboX is running a DHCP client which is trying to autoconfigure your network adapter. If you do not have a DHCP server on your network, you'll have to modify the <b>/etc/network</b> file which contains the following lines : <br/><br/>
 
 * <b> HOST=""                 # GeeXboX IP ("" for DHCP)</b><br/>
 * <b> SMB_USER="SHARE"        # User Login ("" for none)</b><br/>
 * <b> SMB_PWD=""              # User Password ("" for none)</b><br/><br/>
 
-You can easily modify the IP and Samba Login and Password. On boot, the GeeXboX is checking for remote computers from a common domain and try to automount the Samba Windows shares. Be sure that all of your computers are on the same domain in order to mount all the shares.
+You can easily modify the IP and Samba Login and Password. On boot, the GeeXboX checks for remote computers from a common domain and tries to automount the Samba Windows shares. Be sure that all of your computers are on the same domain/subnet in order to mount all the shares.
       </content>
       <content lang="fr" title="Modifier la configuration du réseau ...">
         Les versions 0.90-4 et supérieures de la GeeXboX rajoutent le support réseau pour la plupart des cartes Ethernet (malheureusement pas toutes) ainsi qu'un support du protocole Samba (i.e. les partages Windows). La GeeXboX possède un client DHCP permettant de configurer automatiquement votre carte réseau. Dans le cas où votre réseau ne possède pas de serveur DHCP, vous aurez à modifier le fichier <b>/etc/network</b>, contenant les lignes suivantes : <br/><br/>
@@ -459,14 +459,14 @@ Vous pouvez très facilement modifier l'IP ainsi que le login et mot de passe des
 
     <subsection label="wifi">
       <content lang="en" title="Editing WiFi configuration ...">
-      If your lucky owner of a Linux-compatible WiFi card, you will be pleased to know that the 0.97 release comes with it's support. By default, GeeXboX tries to autodetect your network settings. If you have both traditionnal NIC and WiFi cards, only the latest will be setup. One again, you may have to modify the <b>/etc/network</b> file in order to fit your network's settings. In this one, 4 lines are related to wireless cards : <br/><br/>
+      If you are a lucky owner of a Linux-compatible WiFi card, you will be pleased to know that the 0.97 release comes with support for it. By default, GeeXboX tries to autodetect your network settings. If you have both traditional NIC and WiFi cards, only the latter will be set up. One again, you may have to modify the <b>/etc/network</b> file in order to match your network's settings. In this case, 4 lines are related to wireless cards : <br/><br/>
 
 * <b> PHY_TYPE="auto"      # Network physical type (auto|ethernet|wifi)</b><br/>
 * <b> WIFI_MODE="managed"  # Wifi working mode (managed|ad-hoc)</b><br/>
 * <b> WIFI_WEP=""          # Wifi WEP key</b><br/>
 * <b> WIFI_ESSID="any"     # Wifi SSID</b><br/><br/>
 
-These lines let you configure most of the settings. You can let autodetection enable or even force the use of ethernet or WiFi adapters. In the same way, this let you choose between the <i>managed</i> and the <i>ad-hoc</i> mode and let you define your WEP key and SSID.
+These lines let you configure most of the settings. You can enable autodetection, or even force the use of ethernet or WiFi adapters. In the same way, this lets you choose between the <i>managed</i> and the <i>ad-hoc</i> mode and lets you define your WEP key and SSID.
       </content>
       <content lang="fr" title="Modifier la configuration WiFi ...">
       Si vous êtes l'heureux possesseur d'une carte WiFi compatible avec Linux, vous serez ravi d'apprendre que cette dernière est supportée par les versions 0.97 et supérieures de la GeeXboX. Par defaut, le système tente de détecter automatiquement votre configuration réseau. Si vous disposez à la fois d'une carte réseau Ethernet classique et d'une carte WiFi, seule cette dernière sera configurée. Encore une fois, vous pourrez avoir à modifier le fichier <b>/etc/network</b> afin d'y configurer vos paramètres réseaux. Dans ce dernier, 4 lignes sont relatives aux cartes sans-fils : <br/><br/>
@@ -482,11 +482,11 @@ Ces lignes vous permettent de configurer la quasi totalité de vos besoins. Vous 
 
     <subsection label="gateway">
       <content lang="en" title="Using a gateway to access to the Internet and play streaming ...">
-      With 0.97 release, GeeXboX now supports the access to the Internet. Of course, there's no direct connection to it (no modem support and there's will never be). In the case you've got a connection to the Internet, you may share it with your multimedia box, using a router or a gateway. For this, simply define the gateway IP address in the <b>/etc/network</b> file.<br/><br/>
+      With the 0.97 release, GeeXboX now supports access to the Internet. Of course, there's no support for a direct connection to the Internet (no dial-up modem support and there never will be). If you've got a connection to the Internet, you may share it with your multimedia box, using a router or a gateway. For this, simply define the gateway IP address in the <b>/etc/network</b> file.<br/><br/>
 
 * <b> GATEWAY=""     # Gateway IP ("" for DHCP or no internet connexion)</b><br/><br/>
 
-If you got a DHCP server, you don't even have to bother with this settings :p By this way, GeeXboX is now fully able to plays live videos, sounds or streaming, regarless of the contents. You simply have to put in a playlist file the URL of streams you want to play (like Web-Radios for example ...).
+If you have a DHCP server, you don't even have to bother with these settings :p So GeeXboX is now fully able to play live videos, sounds or streaming, regardless of the contents. You simply have to put in a playlist file which contains the URL of the streams that you want to play (like Web-Radios for example ...).
       </content>
       <content lang="fr" title="Utiliser une passerelle pour accéder à Internet et lire du contenu streaming en direct ...">
       Avec la version 0.97, la GeeXboX supporte désormais l'accès à Internet. Bien entendu, il n'y a pas de connexion directe avec Internet (pas de support des modems et il n'y en aura jamais). Dans le cas où vous disposez d'une connexion partagée à Internet, vous pouvez en faire profiter votre PC multimédia, en utilisant votre routeur ou votre passerelle. Pour cela, définissez simplement l'adresse IP de la passerelle dans le fichier <b>/etc/network</b>.<br/><br/>
@@ -499,14 +499,14 @@ Si vous disposez d'un serveur DHCP, vous n'aurez alors même pas à vous soucier d
 
     <subsection label="pxe">
       <content lang="en" title="Booting from PXE using NFS shares ...">
-        GeeXboX 0.96 and above come with a NFS shares support and let you boot from the network from a diskless station using the PXE boot method. To achieve this you will need :<br/><br/>
+        GeeXboX 0.96 and above comes with NFS shares support, and lets you boot from the network with a diskless station using the PXE boot method. To achieve this you will need :<br/><br/>
 <b>
 * a DHCP server<br/>
 * a TFTP server<br/>
 * a NFS server<br/>
 * a PXE capable station :-)<br/><br/>
 </b>
-First configure your DHCP server to send PXE boot informations. Here is an example using ISC DHCP :<br/><br/>
+First, configure your DHCP server to send PXE boot information. Here is an example using ISC DHCP :<br/><br/>
 <b>
 allow booting;<br/>
 allow bootp;<br/>
@@ -519,13 +519,13 @@ subnet 192.168.0.0 netmask 255.255.255.0 {<br/>
   filename "/tftpboot/GEEXBOX/boot/pxelinux.0";<br/>
 }<br/>
 </b><br/>
-The <b>next-server</b> option is the address of the <b>TFTP server</b>. Then configure your TFTP server (such as <i>atftpd</i>) to serve the <b>/tftpboot</b> directory and copy a full GEEXBOX tree in this directory. For example, you can copy the content of a GeeXboX CD from a linux <b>WITH THE CDROM TRANSPARENT DECOMPRESSION ENABLED</b> !! (to verify this, look at the <b>sbin/init</b> file in the GeeXboX tree and verify that it do not contain garbage). If you've built the GeeXboX yourself from sources, you can also generate the GEEXBOX tree with <b>make pxe</b>.<br/><br/>
+The <b>next-server</b> option is the address of the <b>TFTP server</b>. Then, configure your TFTP server (such as <i>atftpd</i>) to serve the <b>/tftpboot</b> directory and copy a full GEEXBOX tree into this directory. For example, you can copy the contents of a GeeXboX CD from Linux <b>WITH THE CDROM TRANSPARENT DECOMPRESSION ENABLED</b> !! (to verify this, look at the <b>sbin/init</b> file in the GeeXboX tree and verify that it does not contain garbage). If you've built the GeeXboX yourself from sources, you can also generate the GEEXBOX tree with <b>make pxe</b>.<br/><br/>
 
-Then you should edit the file <b>/tftpboot/GEEXBOX/boot/pxelinux.cfg/default</b> to set nfsroot to the right NFS path to the GEEXBOX tree.<br/> Finaly set up your NFS to export the GEEXBOX tree with a <b>/etc/exports</b> containing something like this :<br/><br/>
+Then you should edit the file <b>/tftpboot/GEEXBOX/boot/pxelinux.cfg/default</b> to set nfsroot to the right NFS path to the GEEXBOX tree.<br/> Finally set up your NFS to export the GEEXBOX tree with a <b>/etc/exports</b> that contains something like this :<br/><br/>
 <b>/tftpboot/GEEXBOX (ro)</b><br/><br/>
-and a <b>/etc/hosts.allow</b> containing something like :<br/><br/>
+and a <b>/etc/hosts.allow</b> which contains something like :<br/><br/>
 <b>ALL: ALL</b><br/><br/>
-That should do the trick. Boot your PXE station and see what happen ...<br/>
+That should do the trick. Boot your PXE station and see what happens ...<br/>
       </content>
       <content lang="fr" title="Booting depuis le réseau via PXE en utilisant les partages NFS ...">
         Les versions 0.96 et supérieures de la GeeXboX rajoutent le support des partages NFS ainsi que la possibilité pour une station sans disque dur ni lecteur CD de démarrer depuis le réseau, selon la méthode PXE. Pour obtenir cela, il vous faudra :<br/><br/>
@@ -560,7 +560,7 @@ Le tout devrait maintenant fonctionner. Il ne vous reste plus qu'à booter la mac
 
     <subsection label="ntloader">
       <content lang="en" title="Booting GeeXboX from NT Loader ...">
-      You can easily boot GeeXboX from the Windows NT bootloader (provided with Win2k and XP). To perform this, the GeeXboX installator made a backup of your partition's boot sector when you've installed it. So, when using <b>explorer</b> under Windows you just have to copy the file <b>geexbox.lnx</b> from the GeeXboX's partition to your <b>C:\</b> root (and NO OTHER directory !!). Then, simply edit the <b>C:\boot.ini</b> file, and add the following line at the end :<br/><br/>
+      You can easily boot GeeXboX from the Windows NT bootloader (provided with Win2k and XP). To perform this, the GeeXboX installer made a backup of your partition's boot sector when you installed it. So, when using <b>explorer</b> under Windows you just have to copy the file <b>geexbox.lnx</b> from the GeeXboX's partition to your <b>C:\</b> root (NO OTHER directory !!). Then, simply edit the <b>C:\boot.ini</b> file, and add the following line at the end :<br/><br/>
 <b>c:\geexbox.lnx="GeeXboX"</b><br/><br/>
 When done, reboot your computer. If everything was done correctly, you should see the NTLoader bootmanager, which let you boot the GeeXboX.<br/>
       </content>
