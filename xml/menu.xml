@@ -46,6 +46,11 @@
       <text lang="fr">Documentation</text>
     </subitem>
 
+    <subitem name="hard" url="hard.html">
+      <text lang="en">Hardware</text>
+      <text lang="fr">Matériel</text>
+    </subitem>
+
     <subitem name="dev" url="dev.html">
       <text lang="en">Developers</text>
       <text lang="fr">Developpeurs</text>

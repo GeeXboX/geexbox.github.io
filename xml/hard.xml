@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<article>
+  <define name="video_supported">
+    ATI Rage, ATI RageMobility, ATI Mach64, ATI Rage128, ATI Radeon, ATI X300/600/800, nVidia Riva TnT 1/2, nVidia GeForce 1/2/3/4/5/6 series, 3Dfx Voodoo Banshee, 3Dfx Voodoo 3/4/5, Matrox Mystique/Millenium, Matrox G200/G400/G450/G455/G550/G650/G750, Intel i810/815, SiS 300/315/330, Trident Cyberblade, VIA Unichrome.
+  </define>
+  <define name="video_unsupported">
+    Intel i740, VESA 1.2 cards.
+  </define>
+  <define name="video_untested">
+    PowerVR Rendition, Intel i845/855/i865, Kyro, Kyro II, 3DLabs Permedia2, Matrox Parhelia, NeoMagic.
+  </define>
+
+  <define name="audio_pci_supported">
+    ALI M5451, ATI IXP 150/200/250/300, Aureal Advantage, Aurel Vortex 1/2, Aztech AZF3328/PCI168, Cirrus Logic Sound Fusion CS4280/CS461x/CS462x/CS463x/CS4281, SoundBlaster EMU10K1 (SB512, Live, Audigy, E-mu APS), NeoMagic NM256AV/ZX, Trident 4D-Wave, SiS 7018, Yamaha YMF724/740/744/754, Advance Logic ALS4000, C-Media 8738, 8338, Ensoniq AudioPCI 1370/1371/1373 (SB64/128), ESS ES1938/1946/1961 (Solo-1), ESS ES1968/1978 (Maestro-1/2/2E), ESS Allegro/Maestro3, ForteMedia FM801, ICEnsemble ICE1712 (Envy24), ICE/VT1724/1720 (Envy24HT/PT), Intel i8x0/MX440, SiS 7012/7013, ALI 5455, nForce Audio, AMD 768/8111, S3 SonicVibes, VIA 82C686A/B, Digigram VX222.
+  </define>
+  <define name="audio_isa_supported">
+    Analog Devices AD18616A/AD1848, Cirrus Logic CS4248/CS423{1|2|6+}, ESS ES968/688/1688/18xx, Gravis UltraSound Classic/Extreme/MAX, AMD InterWave, OPTi 82C92x/93x, SoundBlaster 1.0/2.0/Pro, Sound Blaster 16, Sound Blaster AWE32/64, Turle Beach Maui/Tropez(+), Advance Logic ALS100/120, Aztech AZT2320, C-Media CMI8330, Diamond DT-019X, Advance Logic ALS-007, Yamaha OPL3-SA2/SA3, Aztech Sound Galaxy, Ensoniq SoundScape.
+  </define>
+  <define name="audio_unsupported">
+    Korg 1212, Digigram miXart, RME Digi32/96/9652, RME Hammerfall, PCMCIA cards, USB devices.
+  </define>
+
+  <define name="accel_supported">
+    RealMagic Hollywood+, Creative DXR3 (EM8300 chipset).
+  </define>
+  <define name="accel_unsupported">
+    Creative DXR2, RealMagic Xcard (EM8500 chipset).
+  </define>
+
+  <define name="ata_supported">
+    CMD64{0|3|6|8|9}, OPTi 82C621, RZ1000, AEC62XX, ALI M15x3, AMD-7xx, AMD-8111, nVidia nForce, ATI IXP, CY82C693, Cyrix CS5530 MediaGX, HighPoint HPT34X/36X/37X, Intel PIIXn, NS87415, Promise PDC202{46|62|65|67|68|69|70|71|75|76|77}, Silicon Image, SiS 55xx/56xx/5xx/6xx/7xx, , SLC90E66, VIA82CXX.
+  </define>
+  <define name="ata_unsupported">
+    Compaq Triflex, Cyrix CS5510/20 MediaGX, National SCx200, ServerWorks OSB4/CSB5/CSB6, Tekram TRM290.
+  </define>
+
+  <define name="sata_supported">
+    Promise SX8, ServerWorks Frodo, Apple K2, Intel PIIX/ICH, nVidia, Promise TX2/TX4, Promise SX4, Silicon Image, SiS 964/180, VIA, VITESSE VASC-7174.
+  </define>
+  <define name="sata_unsupported">
+    None.
+  </define>
+
+  <define name="scsi_supported">
+    Tekram DC390(T), Am53/79C974, SYM53C8xx, Adaptec AIC7xx Fast.
+  </define>
+  <define name="scsi_unsupported">
+    All other controllers.
+  </define>
+
+  <define name="eth_supported">
+    3COM 3c50x (EtherLink serie), 3COM 3c590/900/990 series (Vortex/Boomerang/Typhoon), WD/SMC Ultra ISA, AMD PCnet32, AMD 8111, Adaptec Starfire/DuraLAN, Broadcom 4400, nForce, Intel EtherExpress Pro, National Semiconductor DP8381x, NE2000 PCI, RealTek 8139(C+), RealTek 8129/8130, SiS 900/7016, SMC EtherPower, VIA Rhine, VIA Velocity (Giga), Alteon AceNIC/3Com 3C958 (Giga), NetGear GA620 (Giga), Intel Pro 1000, RealTek 8169 (Giga), Marvell Yukon (Giga), SysKonnect SK-98xx (Giga), Broadcom Tigon3 (Giga).
+  </define>
+  <define name="eth_unsupported">
+    3COM 3c525 ISA, AMD Lance ISA, SMC 9194, ATxxx, DExxx, HPxxx, other ISA cards, D-Link DL2000 (Giga), National Semiconductor DP83820. All PCMCIA cards.
+  </define>
+ 
+  <define name="link-wifi">
+    <a href="http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Wireless.html">Jean Tourrilhes' Page</a>
+  </define>
+  <define name="wifi_supported">
+    Hermes (Orinoco), Intersil HFA384x (Prism 2), Prism 2.5, Ralinktech RT2400, Ralinktech RT2500, Cisco 34X, Cisco 35X, Aironet 4500, Aironet 4800(B), Atmel at76c50x.
+  </define>
+  <define name="wifi_unsupported">
+    Centrino, Prism54/GT, Texas Instruments ACX100, RealTek 8180, Admteck ADM 8211, Atheros, USB Prism3, PCMCIA cards.
+  </define>
+
+  <define name="tv_supported">
+    BrookTree BT848/BT878, Philips SAA7134.
+  </define>
+  <define name="tv_unsupported">
+    Conexant 2388x.
+  </define>
+
+  <define name="fs_supported">
+    EXT2/3, ReseirFS, ISO9660, Joliet, UDF, VFAT, NTFS (RO), xBSD UFS (RO), NFS, Samba SMB.
+  </define>
+  <define name="fs_unsupported">
+    JFS, XFS, Minix, ROMfs, NTFS (RW), ADFS, Amiga FFS, Apple HFS, BeOS BeFS, BFS, EFS, Comrpessed ROM CramFS, FreeVxFS, OS/2 HPFS, QNX4 FS, xBSD UFS (RW), NFS 3/4, CIFS, NCP, AFS.
+  </define>
+
+  <define name="misc_supported">
+    USB Joysticks, ATI Remote Wonder.
+  </define>
+  <define name="misc_unsupported">
+    Mouse, RAID controllers, PCMCIA cards, DVB cards, Radio adapters.
+  </define>
+
+  <section label="hard">
+    <content lang="en" title="Supported Hardware ..."/>
+    <content lang="fr" title="Matériel compatible ..."/>
+
+    <subsection label="donate_why">
+      <content lang="en" title="List of supported hardware ...">
+GeeXboX has been designed to work on almost every kind of computer, being as generic as possible. Thus, most of the components of your computer are supported. Whatever the brand or model of your motherboard, CD/DVD drive, hard disk, CPU and memory, GeeXboX will be able to recognize and use it well.<br/><br/>
+
+Mainly for technical reasons, not all of the extended components are supported (but most of them are). The list above will try to describe for each kind of peripheral, which one is supported and which aren't.<br/><br/>
+
+Unsupported hardware may be due to several reasons. For some of them, the reason is quite simple : there's no free and open-source drivers working under Linux. Please do not complain to us that your hardware is not supported in this case, you were the one who bought hardware which is Windows only compliant. For other pieces of hardware, adding support to GeeXboX is simply not trivial and even if it's possible, our development team do not have the required hardware to test it. To conclude, please notice that hardware described as supported may not have been tested. Even if most of the supported hardware has been validated by the GeeXboX team, some is remained untested as we do not own it. So, consider the above list as a theorical support list, nothing's more.<br/><br/>
+
+And one last thing, many components are described by the name of the chipset they are using. We really do not know which brand or model is using which kind of chipset and honnestly we do not care about. If some manufacturer do not provide you this information (which is quite essential), complain about him not us.<br/>
+      </content>
+      <content lang="fr" title="Liste de matériel compatible ...">
+La GeeXboX a été conçue pour fonctionner sur presque n'importe quel type d'ordinateur, essayant de rester aussi générique que possible. De ce fait, la plupart des composants de vore ordinateur sont supportés. Quelle que soit la marque ou le modèle de votre carte mère, de votre lecteur CD/DVD, disque dur, processeur et mémoire, ils sont reconnus et la GeeXboX est en mesure de les utiliser pleinement.<br/><br/>
+
+Pour des raisons essentiellement techniques, tous les composants additionnels ne sont par contre pas compatibles ou supportés (bien que la majorité le soit). La liste ci-dessous a été faite dans le but de décrire dans la mesure du possible, pour chaque type de périphérique, ceux qui sont supportés et ceux qui ne le sont pas.<br/><br/>
+
+Le fait que votre matériel ne soit pas supporté par la GeeXboX peut avoir plusieurs raisons. Pour certains composants, la raison est fort simple : il n'existe pas de drivers libre et open-source fonctionnant avec Linux. Veuillez dans ce cas, ne pas vous plaindre du non-support de votre matériel, vous n'aviez qu'à ne pas acheter du matériel conçu exclusivement pour Microsoft Windows. Pour d'autres périphériques dont les drivers existent, ajouter leur support à la GeeXboX n'est simplement pas trivial et s'il est possible de le faire, notre équipe n'a simplement pas en sa possession le matériel, ce qui empêche tout test et toute inclusion. Pour finir, veuillez noter que le matériel décrit ci-dessous comme supporté peut ne pas avoir été testé. Bien que la plupart du matériel dit compatible ait été testé et validé par notre équipe de développement, certaines pièces n'ont jamais pu être testées car nous n'en disposons pas. Veuillez donc considérer cette liste comme une liste de support théorique, et rien de plus.<br/><br/>
+
+Et, dernière chose, la plupart des composants sont décrits par le nom du chipset qu'ils intégrent. Nous ne connaissons absolument pas les marques ou modèles qui inclut chacun de ces chipsets et en toute honnêteté, ce n'est pas notre problème. Si un constructeur n'est pas en mesure de vous fournir une information aussi simple (et pourtant tellement essentielle), c'est chez lui que vous pourrez vous en plaindre, mais pas ici.<br/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_video">
+      <content lang="en" title="Video Adapters ...">
+      - <b>Supported cards</b> : VESA 2.0 compliant cards like <use name="video_supported"/><br/><br/>
+      - <b>Unsupported cards</b> : <use name="video_unsupported"/><br/><br/>
+      - <b>Untested cards (may work)</b> : <use name="video_untested"/><br/>
+      </content>
+      <content lang="fr" title="Cartes graphiques ...">
+      - <b>Cartes supportées</b> : Toutes les cartes compatible avec la norme VESA 2.0 comme par exemple les <use name="video_supported"/><br/><br/>
+      - <b>Cartes non supportées</b> : <use name="video_unsupported"/><br/><br/>
+      - <b>Cartes non testées (mais qui peuvent fonctionner)</b> : <use name="video_untested"/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_audio">
+      <content lang="en" title="Sound Cards ...">
+      - <b>Supported PCI cards</b> : <use name="audio_pci_supported"/><br/><br/>
+      - <b>Supported ISA cards</b> : <use name="audio_isa_supported"/><br/><br/>
+      - <b>Unsupported cards</b> : <use name="audio_unsupported"/><br/>
+      </content>
+      <content lang="fr" title="Cartes Son ...">
+      - <b>Cartes PCI supportées</b> : <use name="audio_pci_supported"/><br/><br/>
+      - <b>Cartes ISA supportées</b> : <use name="audio_isa_supported"/><br/><br/>
+      - <b>Cartes non supportées</b> : <use name="audio_unsupported"/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_accel">
+      <content lang="en" title="Hardware Acceleration Cards ...">
+      - <b>Supported cards</b> : <use name="accel_supported"/><br/><br/>
+      - <b>Unsupported cards</b> : <use name="accel_unsupported"/><br/>
+      </content>
+      <content lang="fr" title="Cartes d'accélération matérielle ...">
+      - <b>Cartes supportées</b> : <use name="accel_supported"/><br/><br/>
+      - <b>Cartes non supportées</b> : <use name="accel_unsupported"/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_ata">
+      <content lang="en" title="ATA Controllers ...">
+      - <b>Supported controllers</b> : <use name="ata_supported"/><br/><br/>
+      - <b>Unsupported controllers</b> : <use name="ata_unsupported"/><br/>
+      </content>
+      <content lang="fr" title="Controlleurs ATA ...">
+      - <b>Controlleurs supportés</b> : <use name="ata_supported"/><br/><br/>
+      - <b>Controlleurs non supportés</b> : <use name="ata_unsupported"/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_sata">
+      <content lang="en" title="Serial-ATA Controllers ...">
+      - <b>Supported controllers</b> : <use name="sata_supported"/><br/><br/>
+      - <b>Unsupported controllers</b> : <use name="sata_unsupported"/><br/>
+      </content>
+      <content lang="fr" title="Controlleurs Serial-ATA ...">
+      - <b>Controlleurs supportés</b> : <use name="sata_supported"/><br/><br/>
+      - <b>Controlleurs non supportés</b> : <use name="sata_unsupported"/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_scsi">
+      <content lang="en" title="SCSI Controllers ...">
+      - <b>Supported controllers</b> : <use name="scsi_supported"/><br/><br/>
+      - <b>Unsupported controllers</b> : <use name="scsi_unsupported"/><br/>
+      </content>
+      <content lang="fr" title="Controlleurs SCSI ...">
+      - <b>Controlleurs supportés</b> : <use name="scsi_supported"/><br/><br/>
+      - <b>Controlleurs non supportés</b> : <use name="scsi_unsupported"/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_ethernet">
+      <content lang="en" title="Ethernet Cards (10/100/1000) ...">
+      - <b>Supported chipsets</b> : <use name="eth_supported"/><br/><br/>
+      - <b>Unsupported chipsets</b> : <use name="eth_unsupported"/><br/>
+      </content>
+      <content lang="fr" title="Cartes Ethernet (10/100/1000) ...">
+      - <b>Chipsets supportés</b> : <use name="eth_supported"/><br/><br/>
+      - <b>Chipsets non supportés</b> : <use name="eth_unsupported"/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_wifi">
+      <content lang="en" title="WiFi Cards (802.11b/g) ...">
+      - <b>Supported chipsets</b> : <use name="wifi_supported"/><br/><br/>
+      - <b>Unsupported chipsets</b> : <use name="wifi_unsupported"/><br/><br/>
+      More details and specifications about wireless chipsets, cards and manufacturers can be found at <use name="link-wifi"/>
+      </content>
+      <content lang="fr" title="Cartes WiFi (802.11b/g) ...">
+      - <b>Chipsets supportés</b> : <use name="wifi_supported"/><br/><br/>
+      - <b>Chipsets non supportés</b> : <use name="wifi_unsupported"/><br/><br/>
+      De plus amples détails et spécifications sur les chipsets WiFi, les cartes et les fabricants peuvent être trouvé sur la <use name="link-wifi"/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_tv">
+      <content lang="en" title="TV Cards ...">
+      - <b>Supported chipsets</b> : <use name="tv_supported"/><br/><br/>
+      - <b>Unsupported chipsets</b> : <use name="tv_unsupported"/><br/>
+      </content>
+      <content lang="fr" title="Cartes TV ...">
+      - <b>Chipsets supportés</b> : <use name="tv_supported"/><br/><br/>
+      - <b>Chipsets non supportés</b> : <use name="tv_unsupported"/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_fs">
+      <content lang="en" title="FileSystems ...">
+      - <b>Supported file systems</b> : <use name="fs_supported"/><br/><br/>
+      - <b>Unsupported file systems</b> : <use name="fs_unsupported"/><br/>
+      </content>
+      <content lang="fr" title="Systèmes de fichiers ...">
+      - <b>Systèmes de fichiers supportés</b> : <use name="fs_supported"/><br/><br/>
+      - <b>Systèmes de fichiers non supportés</b> : <use name="fs_unsupported"/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_misc">
+      <content lang="en" title="Miscellaneous ...">
+      - <b>Supported devices</b> : <use name="misc_supported"/><br/><br/>
+      - <b>Unsupported devices</b> : <use name="misc_unsupported"/><br/>
+      </content>
+      <content lang="fr" title="Périphériques divers ...">
+      - <b>Périphériques supportés</b> : <use name="misc_supported"/><br/><br/>
+      - <b>Périphériques non supportés</b> : <use name="misc_unsupported"/><br/>
+      </content>
+    </subsection>
+  </section>
+</article>
