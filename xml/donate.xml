@@ -5,11 +5,21 @@
 
   <define name="paypal">
     <center>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick"/>
-        <input type="image" src="https://www.paypal.com/fr_FR/i/btn/x-click-but04.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"/>
-        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----"/>
-      </form>
+      <p>
+        <object>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <p>
+            <input type="hidden" name="cmd" value="_s-xclick"/>
+          </p>
+          <p>
+            <input type="image" src="https://www.paypal.com/fr_FR/i/btn/x-click-but04.gif" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"/>
+          </p>
+          <p>
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----"/>
+            </p>
+          </form>
+        </object>
+      </p>
     </center>
   </define>        
 
@@ -35,7 +45,7 @@
     <content lang="en" title="Donate ..."/>
     <content lang="fr" title="Donations ..."/>
 
-    <subsection label="osd_menu">
+    <subsection label="donate_why">
       <content lang="en" title="Why donate ?">
       GeeXboX is a free project, developed by people on their free time. This means that we have no incomes or subventions to help us with developement. Many users request us new features, especially on hardware we do not own. Besides, hosting the web server, the domain name and providing the needed bandwidth to let you download GeeXboX's ISO has a cost. From now, we're lucky that someone has provided us a free webserver but this may change at any time.
       </content>
@@ -44,7 +54,7 @@
       </content>
     </subsection>
 
-    <subsection label="osd_menu">
+    <subsection label="donate_how">
       <content lang="en" title="How can I help or donate ?">
       Donate does not necessarely means giving money. Of course, if you really like GeeXboX and estimate that the time wasted to develop it should be rewarded, your money donations are welcomed (they will be used in the way of users requests to have better developement conditions, i.e buying new hardware to add support ...). If you want to contribute to the GeeXboX project you can make a donation using <b>PayPal</b> : it's free, easy and of course you're free to donate what you think our work deserves. The whole development team thank you.<br/><br/>
 

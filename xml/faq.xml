@@ -6,7 +6,7 @@
     <content lang="en" title="Frequently Asked Questions ..."/>
     <content lang="fr" title="Foire Aux Questions ..."/>
 
-    <subsection label="faq">
+    <subsection label="faq-list">
       <content lang="en" title="FAQ List ...">
         <a href="#compatibility">Compatibility List</a><br/>
         <a href="#burning">How to burn the image ?</a><br/>
