@@ -21,7 +21,7 @@
     <a href="http://www.kernel.org"><b>Linux</b></a>
   </define>
   <define name="lnk-mplayer">
-    <a href="http://www.mplayerhq.hu"><b>MPlayer 1.0pre3</b></a>
+    <a href="http://www.mplayerhq.hu"><b>MPlayer 1.0pre4</b></a>
   </define>
   <define name="lnk-busybox">
     <a href="http://www.busybox.net"><b>BusyBox</b></a>
@@ -35,10 +35,28 @@
   <define name="lnk-uclibc">
     <a href="http://www.uclibc.org"><b>uClibc</b></a>
   </define>
+  <define name="lnk-geexdb">
+    <a href="http://www.geexdb.net"><b>GeexDB</b></a>
+  </define>
+  <define name="lnk-beb59">
+    <a href="http://beb59.truc.net"><b>Hardware Compatibility List</b></a>
+  </define>
 
   <section label="links">
     <content lang="en" title="Links ..."/>
     <content lang="fr" title="Liens ..."/>
+
+    <subsection label="geexbox_projects">
+      <content lang="en" title="GeeXboX Related Links ...">
+        * <use name="lnk-geexdb"/> : this website provides help for GeeXboX users. It contains many new unofficial themes and tutorials to help you customize your GeeXboX.<br/><br/>
+        * <use name="lnk-beb59"/> : this website provides you an unofficial compatibility list of supported hardware (video cards, sound, network ...).<br/><br/>
+      </content>
+      <content lang="fr" title="Liens relatifs à la GeeXboX ...">
+        * <use name="lnk-geexdb"/> : ce site web vous fournit une aide supplémentire pour les utilisateurs de la GeeXboX. Il contient de nouveaux thèmes non-officiels ainsi que des tutoriaux pour vous aider à personnaliser votre GeeXboX.<br/><br/>
+        * <use name="lnk-beb59"/> : ce site web vous fournit une liste non officielle de matériel testé compatible avec la GeeXboX (cartes vidéos, sons, réseau  ...).<br/><br/>
+      </content>
+    </subsection>
+
     <subsection label="projects">
       <content lang="en" title="Related Projects ...">
         * <use name="lnk-movix"/> : MoviX is a small Linux distro that transforms your PC in a powerful multimedia box. After booting your PC with MoviX, a user-friendly console menu will allow you to use MPlayer to play any DVD/VCD, video/audio files (most noticeably DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, and OGG/VORBIS), TV (provided you have a TV card), and radio stations on the Internet (if you are connected to a LAN). Since the entire operating system is loaded into RAM, you do not even need a hard disk to use MoviX.<br/><br/>

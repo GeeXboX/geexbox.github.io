@@ -40,6 +40,11 @@
       <text lang="en">Documentation</text>
       <text lang="fr">Documentation</text>
     </subitem>
+
+    <subitem name="dev" url="dev.html">
+      <text lang="en">Developpers</text>
+      <text lang="fr">Developpeurs</text>
+    </subitem>
   </item>
 
   <item name="feedback" id="feedback">
@@ -59,6 +64,11 @@
     <subitem name="press" url="press.html">
       <text lang="en">Press</text>
       <text lang="fr">Presse</text>
+    </subitem>
+
+    <subitem name="donate" url="donate.html">
+      <text lang="en">Donate</text>
+      <text lang="fr">Donations</text>
     </subitem>
 
     <subitem name="contact" url="contact.html">

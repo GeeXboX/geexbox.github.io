@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PAGES="index start screenshot bugs requirements downloads doc faq links press contact 404"
+PAGES="index start screenshot bugs requirements downloads doc faq links press contact dev donate 404"
 LANGS="en fr"
 
 for l in $LANGS; do

@@ -11,6 +11,7 @@
       <content lang="fr" title="Liste de Compatibilité ...">Vous êtes parfaitement en droit de vous demander si votre matériel est supporté par la GeeXboX. Une courte liste a été crée par les utilisateurs et ne demande qu'à grandir. La GeeXboX devrait fonctionne rsur quasiemment tous les PC mais des fois, ce n'est malheureusement pas le cas. Jettez donc un coup d'oeil à la <a href="http://beb59.no-ip.com/geexbox/">Liste de Compatibilité Matérielle</a> avant de procéder à un rapport de bug.
       </content>
     </subsection>
+
     <subsection label="burning">
       <content lang="en" title="How to burn the image ?">
         Some users reported to us few problems to burn the image and to boot under GeeXboX. Most are Windows users. Be aware that WinRAR seems to recognize the .iso files as archives and try to extract the files from it. IT'S A BAD IDEA TO DO THAT ! The provided ISO is a ready-to-burn file. It's already bootable. You just have to burn it with "File/Burn Image..." under Ahead Nero in DAO MODE or with cdrecord under Linux. If you can, please finalize the writing session.
@@ -19,6 +20,25 @@
         Certains utilisateurs nous ont rapporté des problèmes pour graver l'image ou pour booter sur la GeeXboX. La plupart sont des utilisateurs de Windows. Soyez attentifs au fait que WinRAR semble reconnaître les fichiers .iso comme des archives et essaye d'en extraire les fichiers. C'EST UNE TRES MAUVAISE IDEE DE FAIRE CELA ! Les ISO disponibles sont des fichiers prêt à être gravés. Elles sont déjà amorçables. Vous n'avez qu'à les graver en faisant "Fichier/Graver l'Image..." sous Ahead Nero EN MODE DAO ou directement avec cdrecord sous Linux. Si vous le pouvez, finaliser la gravure.
       </content>
     </subsection>
+
+    <subsection label="generator">
+      <content lang="en" title="How to build your customized ISO ?">
+      For many reasons, you may want to build a customized version of GeeXboX. You just have to download the GeeXboX's generator. This later comes with both Linux and Win32 versions. You may have to modify the configuration files you need to change (for editing network configuration or tv in/outputs settings for example). When done, simply use the <b>generator.sh</b> script under GNU/Linux or the <b>generator.exe</b> under Microsoft Windows. This later provides you a combo list, letting you choose for the ISO's language and the tv remote to be supported. Under GNU/Linux, this can only be done by editing the script before running it. That's all folks, you've just regenerated a customized ISO of GeeXboX.
+      </content>
+      <content lang="fr" title="Comment construire son ISO personnalisée ?">
+      Plusieurs raisons, vous pouvez être amenez à vouloir construire une version personnalisée de la GeeXboX. Pour cela, téléchargez simplement le generator GeeXboX. Ce dernier est disponible en versions Linux et Win32. Vous pouvez souhaiter modifier les fichiers de configuration (les fichiers de configuration réseau ou de les paramètres de gestion des entrées et sortie TV par exemple). Une fois cela fait, éxéctuez simplement le script <b>generator.sh</b> sous GNU/Linux ou le fichier <b>generator.exe</b> sous Microsoft Windows. Ce dernier propose une liste vous permettant de choisir la langue de la nouvelle ISO ainsi que la télécommande à supporter. Sous GNU/Linux, ceci ne peut être fait que par l'édition du script avant son éxécution. Voilà, c'est terminé, vous devriez maintenant disposer d'une image ISO personnalisée de la GeeXboX.
+      </content>
+    </subsection>
+
+    <subsection label="disable_vidix">
+      <content label="en" title="How to disable VidiX ?">
+      In some really few cases, your computer may not support the VidiX hardware acceleration of you display adapter. You can, of course disable it easily, resulting in a lack of performances, regarding to your configuration. To do so, simply replace the <b>vo=vesa:vidix,vesa</b> stanza in your <i>/etc/mplayer/mplayer.conf</i> file by the following one : <b>vo=vesa</b> and regenerate the ISO.
+      </content>
+      <content label="fr" title="Comment désactiver le support du VidiX ?">
+      Dans certains cas particuliers, votre ordinateur peut ne pas supporter l'accélération matérielle VidiX de votre carte graphique. Vous pouvez, dans ce cas, la désactiver, cela étant accompagné d'une perte de performances, en fonction de votre configuration. Pour cela, remplacez simplement la ligne <b>vo=vesa:vidix,vesa</b> de votre fichier <i>/etc/mplayer/mplayer.conf</i> par la suivante : <b>vo=vesa</b> et regénérez l'iso avec le generator.
+      </content>
+    </subsection>
+
     <subsection label="nvidia_tvout">
       <content lang="en" title="I got a nVidia card but TV-Out doesn't work :-(">
         This is the problem of closed source driver. nVidia didn't provided the specifications of its graphic cards to the open source community. As a result, nvtv (the soft used to use the TV-Out) is, at now, not really compliant with some GeForce 3/4 cards and TV-Out may not work. Spam nVidia's tech support, requesting open source driver ;-)
@@ -45,6 +65,7 @@
         Si l'un de ces problèmes intervient, c'est probablement dû au fait que votre carte son n'est pas reconnue par la GeeXboX. Cela peut arriver si votre carte son est un modèle PCI extrêmement récent (dans ce cas, envoyez nous un mail). Pour des problèmes de configuration automatique, les cartes son au format ISA ne seront supportées que plus tard.
       </content>
     </subsection>
+
     <subsection label="remote">
       <content lang="en" title="My remote controller isn't recognized">
         As it was said, the GeeXboX has been compiled for the Miro PcTV remote and ATI Remote Wonder. It doesn't imply that other remote are not supported. The Logitech, RealMagic, Leadtek, Creative, RM-S6, RX-V850, AniMAX and Hauppage remotes are also supported but you will have to regenerate the ISO to use them. For other brands remotes, if you are able to rebuild GeeXboX and owner of a remote controller, please mail to us the LIRC configuration file you're using and we'll include it to our OS.
@@ -53,6 +74,16 @@
         Comme cela a été dit, la GeeXboX a été compilée pour le support de la télécommande fournie avec les cartes Miro PcTV ainsi que pour les ATI Remote Wonder. Cela n'implique pas que d'autres télécommandes ne fonctionnent pas. Les télécommandes Logitech, RealMagic, Leadtek, Creative, RM-S6, RX-V850, AniMAX et Hauppage sont également supportées mais vous devrez pour cela, regénérer l'ISO au moyen du générateur fourni. Pour les autres modèles, si vous êtes en mesure de recompiler la GeeXboX et que vous êtes possésseur d'une quelconque télécommande, veuillez nous envoyer vos fichiers de configuration pour LIRC, que nous puissions les inclure dans notre système.
       </content>
     </subsection>
+
+    <subsection label="remote_add">
+      <content lang="en" title="How to make my remote supported by GeeXboX ?">
+      In case your remote is not in the list of supported remotes, you can, of course, add support for it (the only requirement is that your model is supported by LIRC). You may have a look at LIRC-compatible remotes, at the following URL : <b><a href="http://lirc.sourceforge.net/remotes/">http://lirc.sourceforge.net/remotes/</a></b>. Three files are needed : <b>lircd_remote</b>, <b>lircd_remote.conf</b>, and <b>lircrc_remote</b>. The <i>.conf</i> file MUST be the one available on the last URL. The 2 others are files that have to be created by yourself and that must describes bindings between your remote's buttons and the actions that have to be done, using GeeXboX. You may have a look at the GeeXboX's sources or better, in CVS (in <i>packages/lirc/</i>) for examples of current bindings for supported remotes. Once done and fully working, you can send us your configuration files (in ENGLISH only) so that we can add the official support for the releases to come.
+      </content>
+      <content lang="fr" title="Comment utiliser votre propre télécommande avec la GeeXboX ?">
+      Dans le cas où votre télécommande ne ferait pas partie de la liste des télécommandes supportées, vous pouvez très bien en ajouter le support (la seule contrainte est que cette dernière soit compatible avec LIRC). Vous trouverez la liste des télécommandes supportées par LIRC à l'adresse suivante : <b><a href="http://lirc.sourceforge.net/remotes/">http://lirc.sourceforge.net/remotes/</a></b>. Trois fichiers sont nécessaires : <b>lircd_remote</b>, <b>lircd_remote.conf</b>, et <b>lircrc_remote</b>. Le fichier <i>.conf</i> DOIT être celui disponible à l'adresse précédente pour votre témécommande. Les 2 autres fichiers doivent être crées à la main et doivent correspondre aux liens entre les touches et les actions à effectuer lors de l'utilisation avec la GeeXboX. Vous pouvez vous inspirer pour cela, des fichiers disponibles dans les sources de la GeeXboX ou mieux, sur le CVS (dans le répertoire <i>packages/lirc/</i>). Le répertoire contient des exemples des liens utilisés par les télécommandes supportées actuellement. Une fois cela fait, testé et que le tout est opérationnel, vous pouvez tout à fait nous envoyer vos fichiers de configuration (en ANGLAIS uniquement) afin que nous puissions les rajouter et supporter officiellement votre télécommande dans les versions à venir de la GeeXboX.
+      </content>
+    </subsection>
+
     <subsection label="cdrom">
       <content lang="en" title="The screen hangs on 'Cleaning Ram Disk' and I see 'sh: can't access tty: job control turned off'">
         This problem is due to your CDROM. The GeeXboX may not be able to find the request drivers for you CD drive (i.e. drive is not supported). More than a drive error, it seems to be the device controller (especially for USB/FireWire/SCSI/RAID devices) that is not recognized.
@@ -61,6 +92,7 @@
         Ce problème est dû à votre CDROM. La GeeXboX peut ne pas être en mesure de charger les pilotes requis pour votre lecteur CD. Plus qu'un problème de lecteur, c'est probablement le controleur (surtout pour les périphériques USB/FireWire/SCSI/RAID) qui risque de ne pas être reconnu.
       </content>
     </subsection>
+
     <subsection label="mplayer">
       <content lang="en" title="The system hangs on 'Launching MPlayer' and ejects the CD">
         This means that MPlayer has crashed. This may be due to a video driver problem. Try to build your own GeeXboX without vidix support (VESA only).
@@ -69,6 +101,7 @@
         Cela signifie que MPlayer aprovoqué une erreur. Cela est probablement dû à un problème avec le pilote vidéo. Essayez de reconstruire votre propre GeeXboX sans le support du vidix (VESA uniquement).
       </content>
     </subsection>
+
     <subsection label="ac3">
       <content lang="en" title="Does GeeXboX supports 5.1 Audio Output ?">
         Unfortunately, for now, only stereo audio output is supported. Besides, AC3 streams are converted to stereo :-( If you want true AC3 output, you'll have to add the <b>ac=hwac3,</b> (warning: don't forget the comma) line into <i>mplayer.conf</i>.
@@ -106,6 +139,7 @@
           Il est possible de désactiver les sous-titres, en pressant la touche "v", dans le cas où vous ne souhaiteriez par les voir s'afficher ;-)
       </content>
     </subsection>
+
     <subsection label="sync">
       <content lang="en" title="The A/V (audio/video) seems to be down ...">
         Due to some problems (CD errors, low CPU ...), you may have lost the audio/video synchronisation. This can be corrected by adjusting the A/V sync, using the "+" and "-" buttons. One plays audio 100ms before video, the other one plays it 100ms after.
@@ -114,6 +148,7 @@
         En raison de certains problèmes (erreurs sur le CD, CPU de faible puissance ...), il se peut que vous perdiez la synchronisation audio/vidéo. Ce problème peut être corrigé en ajustant la synchronisation, via les touches "+" et "-". La première jouera le flux audio 100ms avant le flux vidéo, la seconde le jouera 100ms après.
       </content>
     </subsection>
+
     <subsection label="bootlogo">
       <content lang="en" title="How can I modify the GeeXboX boot logo ?">
         First of all, you have to choose or create a typical picture using your favorite graphical tools such as <i>The Gimp</i> ;-). To display a boot image, Linux uses the FrameBuffer. The GeeXboX does the same, adding the Linux Progress Patch (LPP) which displays a dynamic progress bar. For memory consumption reasons, you are limited to a 8-bit color depth picture. So, the only things you'll have to do is to create a Linux 2.4-compatible <b>linux_logo.h</b> file.<br/><br/>
@@ -210,6 +245,7 @@
           Vous savez quoi ? Vous venez d'en finir avec le patch LPP ;-) Désolé, c'était long et difficile mais, par cette occasion, vous êtes peut être à même de comprendre à quel point cela a été difficile de créer un système complet comme la GeeXboX ;-)
       </content>
     </subsection>
+
     <subsection label="modify_menu">
       <content lang="en" title="How can I modify the menu items ?">
         The menu items are described in a file called <b>menu.conf</b> in <i>./packages/MPlayer/</i> Unless you're aware of MPlayer's menu's configuration file, you may only modify the items' language or delete some that you don't need but please do not modify it at your ease ;-)
@@ -218,6 +254,7 @@
         Les paramètres du menu sont décrits dans un fichier nommé <b>menu.conf</b> disponible dans <i>./packages/MPlayer/</i> A moins que vous ne soyez familier avec la configuration du menu de MPlayer, vous ne devriez procéder qu'à des modifications de niveau linguistique ou pour y effacer des options dont vous n'éprouvez pas le besoin.
       </content>
     </subsection>
+
     <subsection label="theme">
       <content lang="en" title="How can I create my own GeeXboX's theme ?">
         A theme is an archive, packaging TrueType fonts, a video background, an optionnal audio background and a specific Linux Progress Patch (see above for how to create it).<br/><br/>

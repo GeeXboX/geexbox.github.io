@@ -335,13 +335,65 @@ De nombreuses autres modifications sont bien entendu possibles, comme le changem
           Si vous aimez la GeeXboX et l'utilisez régulièrement, cela peut être une bonne idée de l'installer sur disque dur. En effet, le système sera vu comme un nouveau lecteur sous Windows ou Linux et ainsi, il sera très facilement possible de le modifier pour qu'il corresponde au mieux à vos besoins (en modifiant la configuration de MPlayer, la télécommande supportée, la configuration du réseau ...) sans avoir à regénérer l'ISO et graver un CD.
       </content>
     </subsection>
+
+    <subsection label="tv">
+      <content lang="en" title="Editing TV Configuration ...">
+      GeeXboX now supports TV inputs and tuners. Unfortunately, not all of your cards are supported. For the supported ones, the system hardly tries to autodetect the card and the tuner. In some cases, autodetection may fail, resulting in an ugly distorted picture. That's why you can force the settings and skip the autodetection try. Please modify the <b>/etc/tvsettings</b> as described :<br/><br/>
+
+<b># TV CARD/TUNER Model (AUTO for autodetection or look at the following urls)<br/>
+# http://www.linuxhq.com/kernel/v2.6/2/Documentation/video4linux/CARDLIST.bttv<br/>
+# http://www.linuxhq.com/kernel/v2.6/2/Documentation/video4linux/CARDLIST.tuner<br/></b>
+* <b>TV_CARD=AUTO</b><br/>
+* <b>TV_TUNER=AUTO</b><br/><br/>
+
+Please let the <b>AUTO</b> parameter whether you want to keep autodetection, or replace it by the number of your card and tuner types, according to the previous URL. Please be careful : in order to force the card and tuner types, you have to know the EXACT REFERENCES of your hardware.<br/><br/>
+
+Once done, you should be able to use the TV inputs (Composite and S-VHS) of your TV card. In the same way, you can use the tuner to watch TV. For that, you will have to define the region you belongs to and the frequency of the TV channels you want to watch. Once again, simply edit the <b>/etc/tvsettings</b> file :<br/><br/>
+
+<b># TV Channels<br/>
+# Syntax : CHAN="Channel Title":"Channel Frequency"<br/>
+# Example:<br/></b>
+* <b> #CHAN="France 2":"26"</b><br/>
+* <b> #CHAN="Canal +":"K08"</b><br/><br/>
+<b># TV Channels List<br/>
+# Available : france, europe-east, europe-west, us-bcast, us-cable<br/></b>
+* <b> CHANLIST=france</b><br/><br/>
+
+Please be careful when editing channels and simply use the same syntax as described above and TV channels should be present in the main menu.
+       </content>
+      <content lang="fr" title="Modifier la configuration TV ...">
+      La GeeXboX supporte désormais les entrées et tuners de cartes TV. Malheureusement, toutes les cartes ne sont pas supportées. Pour celles qui sont supportées, le système essaie avec peine de détecter automatiquement le type de carte et de tuners utilisés. Dans certains cas, la détection automatique peut échouer, ayant pour résultat une horrible image déformée. C'est pourquoi, vous pouvez forcer les paramètres et ainsi éviter la tentative de détection automatique. Veuillez modifier le fichier <b>/etc/tvsettings</b> tel qu'il suit :<br/><br/>
+
+<b># TV CARD/TUNER Model (AUTO for autodetection or look at the following urls)<br/>
+# http://www.linuxhq.com/kernel/v2.6/2/Documentation/video4linux/CARDLIST.bttv<br/>
+# http://www.linuxhq.com/kernel/v2.6/2/Documentation/video4linux/CARDLIST.tuner<br/></b>
+* <b>TV_CARD=AUTO</b><br/>
+* <b>TV_TUNER=AUTO</b><br/><br/>
+
+Laissez le paramètre <b>AUTO</b> si vous souahitez conserver la détection automatique, ou remplacez le par le numéro de la carte et du tuner, comme décrit dans les URL précédentes. Soyez attentifs : pour forcer les types de cartes et de tuners, vous devez connaître les REFERENCES EXACTES de votre matériel.<br/><br/>
+
+Une fois cela fait, vous devriez être en mesure d'utiliser les entrées TV (Composite et S-VHS) de votre carte TV. De la même manière, vous pouvez utiliser le tuner pour regarder la TV. Pour cela, vous devrez définir votre région ainsi que les fréquences des chaînes que vous souhaitez visionner. Encore une fois, éditez simplement le fichier <b>/etc/tvsettings</b> :<br/><br/>
+
+<b># TV Channels<br/>
+# Syntax : CHAN="Channel Title":"Channel Frequency"<br/>
+# Example:<br/></b>
+* <b> #CHAN="France 2":"26"</b><br/>
+* <b> #CHAN="Canal +":"K08"</b><br/><br/>
+<b># TV Channels List<br/>
+# Available : france, europe-east, europe-west, us-bcast, us-cable<br/></b>
+* <b> CHANLIST=france</b><br/><br/>
+
+Faites attention lors de l'édition des canaux TV et veuillez à utiliser la même syntaxe que décrit ci-dessus et les canaux TV devraient apparaître dans le menu principal.
+      </content>
+    </subsection>
+
     <subsection label="network">
       <content lang="en" title="Editing Network Configuration ...">
         GeeXboX 0.90-4 and above come with a network support for most of the ethernet cards (not all of them unfortunately) and a Samba (Windows shares) support. GeeXboX is running a DHCP client which is trying to autoconfigure your network adapter. Whether you do not get a DHCP server on your network, you'll have to modify the <b>/etc/network</b> file which contains the following lines : <br/><br/>
 
 * <b> HOST=""                 # GeeXboX IP ("" for DHCP)</b><br/>
-* <b> USER="SHARE"            # User Login ("" for none)</b><br/>
-* <b> PWD=""                  # User Password ("" for none)</b><br/><br/>
+* <b> SMB_USER="SHARE"        # User Login ("" for none)</b><br/>
+* <b> SMB_PWD=""              # User Password ("" for none)</b><br/><br/>
 
 You can easily modify the IP and Samba Login and Password. On boot, the GeeXboX is checking for remote computers from a common domain and try to automount the Samba Windows shares. Be sure that all of your computers are on the same domain in order to mount all the shares.
       </content>
@@ -349,10 +401,50 @@ You can easily modify the IP and Samba Login and Password. On boot, the GeeXboX 
         Les versions 0.90-4 et supérieures de la GeeXboX rajoutent le support réseau pour la plupart des cartes Ethernet (malheureusement pas toutes) ainsi qu'un support du protocole Samba (i.e. les partages Windows). La GeeXboX possède un client DHCP permettant de configurer automatiquement votre carte réseau. Dans le cas où votre réseau ne possède pas de serveur DHCP, vous aurez à modifier le fichier <b>/etc/network</b>, contenant les lignes suivantes : <br/><br/>
 
 * <b> HOST=""                 # GeeXboX IP ("" for DHCP)</b><br/>
-* <b> USER="SHARE"            # User Login ("" for none)</b><br/>
-* <b> PWD=""                  # User Password ("" for none)</b><br/><br/>
+* <b> SMB_USER="SHARE"        # User Login ("" for none)</b><br/>
+* <b> SMB_PWD=""              # User Password ("" for none)</b><br/><br/>
 
 Vous ouvez très facilement modifier l'IP ainsi que le login et mot de passe des partages Samba. Au démarrage, la GeeXboX cherche la présence d'odrinateurs distants sur un même domaine et essaie de monter automatiquement tous les partages Windows disponibles. Prenez garde à ce que tous les ordinateurs soient bien configurés avec le même nom de domaine si vous désirez que tous les partages soient reconnus.
+      </content>
+    </subsection>
+
+    <subsection label="wifi">
+      <content lang="en" title="Editing WiFi configuration ...">
+      If your lucky owner of a Linux-compatible WiFi card, you will be pleased to know that the 0.97 release comes with it's support. By default, GeeXboX tries to autodetect your network settings. If you have both traditionnal NIC and WiFi cards, only the latest will be setup. One again, you may have to modify the <b>/etc/network</b> file in order to fit your network's settings. In this one, 4 lines are related to wireless cards : <br/><br/>
+
+* <b> PHY_TYPE="auto"      # Network physical type (auto|ethernet|wifi)</b><br/>
+* <b> WIFI_MODE="managed"  # Wifi working mode (managed|ad-hoc)</b><br/>
+* <b> WIFI_WEP=""          # Wifi WEP key</b><br/>
+* <b> WIFI_ESSID="any"     # Wifi SSID</b><br/><br/>
+
+These lines let you configure most of the settings. You can let autodetection enable or even force the use of ethernet or WiFi adapters. In the same way, this let you choose between the <i>managed</i> and the <i>ad-hoc</i> mode and let you define your WEP key and SSID.
+      </content>
+      <content lang="fr" title="Modifier la configuration WiFi ...">
+      Si vous êtes l'heureux possésseur d'une carte WiFi compatible avec Linux, vous serez ravi d'apprendre que cette dernière est supportée par les versions 0.97 et supérieures de la GeeXboX. Par defaut, le système tente de détecter automatiquement votre configuration réseau. Si vous disposez à la fois d'une carte réseau Ethernet classique et d'une carte WiFi, seule cette dernière sera configurée. Encore une fois, vous pourrez avoir à modifier le fichier <b>/etc/network</b> afin d'y configurer vos paramètres réseaux. Dans ce dernier, 4 lignes sont relatives aux cartes sans-fils : <br/><br/>
+
+* <b> PHY_TYPE="auto"      # Network physical type (auto|ethernet|wifi)</b><br/>
+* <b> WIFI_MODE="managed"  # Wifi working mode (managed|ad-hoc)</b><br/>
+* <b> WIFI_WEP=""          # Wifi WEP key</b><br/>
+* <b> WIFI_ESSID="any"     # Wifi SSID</b><br/><br/>
+
+Ces lignes vous permettent de configurer la quasi totalité de vos besoins. Vous pouvez soit conserver la détection automatique, soit forcer l'activation du controleur Ethernet ou WiFi. De la même façon, ceci vous permettra de choisir entre le mode <i>managed</i> et le mode de communication dit <i>ad-hoc</i> et de définir à la fois votre clé WEP et le SSID de votre réseau.
+      </content>
+    </subsection>
+
+    <subsection label="gateway">
+      <content lang="en" title="Using a gateway to access to the Internet and play streaming ...">
+      With 0.97 release, GeeXboX now supports the access to the Internet. Of course, there's no direct connection to it (no modem support and there's will never be). In the case you've got a connection to the Internet, you may share it with your multimedia box, using a router or a gateway. For this, simply define the gateway IP address in the <b>/etc/network</b> file.<br/><br/>
+
+* <b> GATEWAY=""     # Gateway IP ("" for DHCP or no internet connection)</b><br/><br/>
+
+If you got a DHCP server, you don't even have to bother with this settings :p By this way, GeeXboX is now fully able to plays live videos, sounds or streaming, regarless of the contents. You simply have to put in a playlist file the URL of streams you want to play (like Web-Radios for example ...).
+      </content>
+      <content lang="fr" title="Utiliser une passerelle pour accéder à Internet et lire du contenu streaming en direct ...">
+      Avec la version 0.97, la GeeXboX supporte désormais l'accès à Internet. Bien entendu, il n'y a pas de connection directe avec Internet (pas de support des modems et il n'y en aura jamais). Dans le cas où vous disposez d'une connection partagée à Internet, vous pouvez en faire profiter votre PC multimédia, en utilisant votre routeur ou votre passerelle. Pour cela, définissez simplement l'adresse IP de la passerelle dans le fichier <b>/etc/network</b>.<br/><br/>
+
+* <b> GATEWAY=""     # Gateway IP ("" for DHCP or no internet connection)</b><br/><br/>
+
+Si vous disposez d'un serveur DHCP, vous n'aurez alors même pas à vous soucier de la configuration de la passerelle :p De cette manière, la GeeXboX est désormais entièrement en mesure de lire des vidéos ou sons en direct, quelque soit le contenu. Inscrivez simplement dans une liste de lecture les URL des flux audio/vidéo que vous souhaitez lire (comme des Web-Radios par exemple ...).
       </content>
     </subsection>
 
