@@ -109,6 +109,25 @@
       </content>      
     </subsection>
 
+    <subsection label="post-process">
+      <content lang="en" title="Enabling Post-Processing Effects ...">
+        Post-Processing is a software way to get a smoother and more accurate render of your videos. It however consumes a lot of CPU time to magnify pictures but, as a result, it looks far better. Using MPlayer internal filters, GeeXboX lets you make horizontal and vertical deblocking, deringing and auto luminance to  enhance your image. By default, post-processing is disabled to avoid lagging on small configurations. You can enable it simply by editing the <i>/etc/tvout</i> file :<br/><br/>
+
+<b>
+# Set Post Processing (consume CPU power, disable for low configs)<br/>
+POSTPROCESS=no<br/>
+</b>
+      </content>      
+      <content lang="fr" title="Activer les effets de traitement d'image (Post-Processing) ...">
+        Le Post-Processing est un moyen logiciel pour affiner une image, en la rendant plus nette et plus précise. Cela a par contre l'inconvénient de consommer une partie du temps processeur afin de rendre l'image plus belle. Via l'utilisation des filtres internes à MPlayer, la GeeXboX vous permet de  minimiser les effets de blocs horizontaux et verticaux, les effets d'anneaux de dégradés et de corriger automatiquement la luminosité de votre film. Par défaut, le Post-Processing est désactivé, pour éviter de saccader sur de petites configurations matérielles. Il vous est possible de l'activer très simplement en éditant le fichier <i>/etc/tvout</i> :<br/><br/>
+
+<b>
+# Set Post Processing (consume CPU power, disable for low configs)<br/>
+POSTPROCESS=no<br/>
+</b>
+      </content>      
+    </subsection>
+
     <subsection label="building">
       <content lang="en" title="Building the GeeXboX ...">
         First, you have to be root (the building scripts need to mount the
