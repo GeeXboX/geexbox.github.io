@@ -189,9 +189,6 @@
           <xsl:element name="a">
             <xsl:attribute name="href">../<xsl:value-of select="@lang"/>/<xsl:value-of select="$filename"/></xsl:attribute>
             <xsl:value-of select="."/>
-          </xsl:element>
-          <xsl:element name="a">
-            <xsl:attribute name="href">../<xsl:value-of select="@lang"/>/<xsl:value-of select="$filename"/></xsl:attribute>
             <xsl:element name="img">
               <xsl:attribute name="src">
                 <xsl:value-of select="@flag"/>

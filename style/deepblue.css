@@ -193,21 +193,21 @@ body {
 
 #language {
 	position: absolute;
-	right: 1%;
-        top: 85px;
+	right: 2em;
+	top: 85px;
 	text-align: right;
-	margin-right: 1em;
 	color: white;
 }
 
 #language li {
 	list-style: none;
-        margin-bottom: 4px;
 }
 
 #language img {
 	border: 0;
-        vertical-align: middle;
+	vertical-align: middle;
+	margin-left: 0.5em;
+	margin-bottom: 4px;
 }
 
 #ours {
