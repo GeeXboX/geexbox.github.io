@@ -584,7 +584,6 @@ Install "<i>Allegro NFS server</i>" and fill in the boxes following these settin
 <b>Exports tab : </b><br/>
         * Add a "<b>new name</b>" : and call it "<b>/tftpboot/GEEXBOX</b>"<br/>
         * In "<b>path</b>" just below : choose "<b>C:\tftp32\GEEXBOX</b>" folder<br/>
-        * "<b>Set mode bits (octal)" : 777</b><br/>
         * In "<b>allowed host list</b>" , choose "<b>all</b>"<br/>
 	* "<b>Read write</b>", and "<b>read only user list</b>", choose "<b>root</b>" and "<b>everyone</b>" (if you want some log just check all in the last tab)<br/>
 <br/>
@@ -661,7 +660,6 @@ Installez "<i>Allegro NFS Server</i>" et configurez le comme suit :<br/>
 <b>Onglet Exports : </b><br/>
 * faites un "<b>new name</b>" : et nommez le "<b>/tftpboot/GEEXBOX</b>"<br/>
 * dans "<b>path</b>", juste en dessous : selectionnez le répertoire "<b>C:\tftp32\GEEXBOX</b>"<br/>
-* "<b>Set mode bits (octal)</b>" : <b>777</b>
 * dans "<b>allowed host list</b>", selectionnez "<b>all</b>".<br/>
 * "<b>Read write</b>" , et "<b>read only user list</b>", selectionnez "<b>root</b>" et "<b>everyone</b>" (pour avoir un log, il suffit de tout cocher dans le dernier onglet).<br/>
 <br/>
