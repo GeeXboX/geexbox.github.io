@@ -2,20 +2,12 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
-  <define name="beb59-en">
-    <a href="http://beb59.net/">HardWare Compatibility List</a>
-  </define>
-  <define name="beb59-fr">
-    <a href="http://beb59.net/">Liste de Compatibilité Matérielle</a>
-  </define>
-
   <section label="faq">
     <content lang="en" title="Frequently Asked Questions ..."/>
     <content lang="fr" title="Foire Aux Questions ..."/>
 
     <subsection label="faq-list">
       <content lang="en" title="FAQ List ...">
-        <a href="#compatibility">Compatibility List</a><br/>
         <a href="#burning">How to burn the image ?</a><br/>
         <a href="#generator">How to build your customized ISO ?</a><br/>
         <a href="#display">How to set up my display efficiently ?</a><br/>
@@ -26,7 +18,6 @@
         <a href="#dxr3">How can I use my DXR3/Hollywood+ card ?</a><br/>
         <a href="#dxr3_menu">I can't access to the menu when using my DXR3 card</a><br/>
         <a href="#epia-boot">I have no HDD and my EPIA (V) motherboard refuses to boot GeeXboX</a><br/>
-        <a href="#sound">I have NO sound at all or GeeXboX hangs at '/dev/mixer Error'</a><br/>
         <a href="#remote">My remote controller isn't recognized</a><br/>
         <a href="#remote_add">How to make my remote supported by GeeXboX ?</a><br/>
         <a href="#cdrom">The screen hangs on 'Cleaning Ram Disk' and I see 'sh: can't access tty: job control turned off'</a><br/>
@@ -42,7 +33,6 @@
         <a href="#theme">How can I create my own GeeXboX's theme ?</a>
       </content>
       <content lang="fr" title="Liste des FAQ ...">
-        <a href="#compatibility">Liste de Compatibilité ...</a><br/>
         <a href="#burning">Comment graver l'image ?</a><br/>
         <a href="#generator">Comment construire son ISO personnalisée ?</a><br/>
         <a href="#display">Comment régler mes paramètres d'affichage ?</a><br/>
@@ -53,7 +43,6 @@
         <a href="#dxr3">Comment puis-je utiliser ma carte DXR3/Hollywood+ ?</a><br/>
         <a href="#dxr3_menu">Je n'arrive pas à voir les menus avec ma carte DXR3</a><br/>
         <a href="#epia-boot">Je n'ai pas de disque dur et ma carte mère EPIA (V) refuse de démarrer la GeeXboX</a><br/>
-        <a href="#sound">Je n'ai pas du tout de son ou la GeeXboX se bloque sur le message '/dev/mixer Error'</a><br/>
         <a href="#remote">Ma télécommande n'est pas reconnue</a><br/>
         <a href="#remote_add">Comment utiliser votre propre télécommande avec la GeeXboX ?</a><br/>
         <a href="#cdrom">L'écran se bloque sur le message 'Cleaning Ram Disk' et m'affiche 'sh: can't access tty: job control turned off'</a><br/>
@@ -67,13 +56,6 @@
         <a href="#bootlogo">Comment puis - je modifier la logo de démarrage de la GeeXboX ?</a><br/>
         <a href="#modify_menu">Comment puis - je modifier les options du menu ?</a><br/>
         <a href="#theme">Comment puis-je créer mon propre thème pour la GeeXboX ?</a>
-      </content>
-    </subsection>
-
-    <subsection label="compatibility">
-      <content lang="en" title="Compatibility List ...">If you're wondering whether GeeXboX is compatible with your hardware, a short list has been created by users and just needs you to help it get larger. GeeXboX aims at being compatible with almost every PC but unfortunately that's not always the case. Just have a look a this <use name="beb59-en"/> before doing any bug reporting.
-      </content>
-      <content lang="fr" title="Liste de Compatibilité ...">Vous êtes parfaitement en droit de vous demander si votre matériel est supporté par la GeeXboX. Une courte liste a été crée par les utilisateurs et ne demande qu'à grandir. La GeeXboX devrait fonctionne rsur quasiemment tous les PC mais des fois, ce n'est malheureusement pas le cas. Jettez donc un coup d'oeil à la <use name="beb59-fr"/> avant de procéder à un rapport de bug.
       </content>
     </subsection>
 
@@ -189,15 +171,6 @@
       </content>
       <content lang="fr" title="Je n'ai pas de disque dur et ma carte mère EPIA (V) refuse de démarrer la GeeXboX">
       En raison d'un bug dans le BIOS des cartes mères EPIA et EPIA V (les séries M ne sont pas touchées par ce problème), il est impossible de démarrer un CD de la GeeXboX (d'une manière générale tout LiveCD qui utilise IsoLinux comme chargeur) si aucun disque dur n'est pysiquement connecté. Il existe néanmoins un moyen de contourner ce problème. Il suffit de se rendre dans le BIOS et d'y déclarer un faux disque dur, en réglant ses propriétés sur Manuel et non Automatique. Il suffit alors de le déclarer comme fonctionnant en mode CHS, et étant constitué de 0 têtes, 0 secteurs et 0 cylindres. Sélectionnez ensuite, l'option appropriée dans le BIOS pour empêcher de bloquer le chargement en cas d'erreur (option <i>Halt On No Error</i>).
-      </content>
-    </subsection>
-
-    <subsection label="sound">
-      <content lang="en" title="I have NO sound at all or GeeXboX hangs at '/dev/mixer Error'">
-        If one of these problems occur, that's because your sound card isn't recognized by the GeeXboX. This could happen if your sound card is a really new PCI card (in this case, please mail us). For configuration reasons, ISA sound cards support will be done later.
-      </content>
-      <content lang="fr" title="Je n'ai pas du tout de son ou la GeeXboX se bloque sur le message '/dev/mixer Error'">
-        Si l'un de ces problèmes intervient, c'est probablement dû au fait que votre carte son n'est pas reconnue par la GeeXboX. Cela peut arriver si votre carte son est un modèle PCI extrêmement récent (dans ce cas, envoyez nous un mail). Pour des problèmes de configuration automatique, les cartes son au format ISA ne seront supportées que plus tard.
       </content>
     </subsection>
 
