@@ -11,39 +11,53 @@
     <content lang="fr" title="Dernières Nouvelles ..."/>
 
     <subsection label="release_0.97">
-      <content lang="en" title="GeeXboX 0.97 (03/xx/04)">
-      'Think it was the hardest version to release but 0.97 has finally come. As you may have noticed, our website was unreachable for some times in the last month and till now, some services were unfortunately down. Let's clarify the situation. Our previous host (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) has been attacked by hackers in January 2004 and decided to stop hosting free projects for an undefined period. Thanks to <b>BWare</b>, a member of the GeeXboX's forum, we got the opportunity to get a nearly dedicated web server with full of bandwidth. Many thanks for him, without whom, our services wouldn't have restarted at this time. More than ever, we need generous contributors and donators to help the project and prevent us from such a situation to happen once again. If you believe in our project, don't hesitate to have a look at the appropriate section of this website.<br/><br/>
-Let's stop with it, it's now time to talk you about the 0.97 release :-) For many reasons (like the one just above), the developpement took really much more time that we could have wished. But you will be glad to know that this release comes with many new features that have been requested by users for a long time. By the way, one of the longest period between releases is the bug tracking phase. We often release developpement versions of GeeXboX and you're all welcomed to test it the most you can. Please remember that the most you are to test and to report bugs and the quicker will new versions be released.<br/><br/>
+      <content lang="en" title="GeeXboX 0.97 : Birthday Edition (05/16/04)">
+      'Think it was the hardest version to release but 0.97 has finally come, exactly one year after the first public release. As you may have noticed, our website was unreachable for some times in the last month and till now, some services were unfortunately down. Let's clarify the situation. Our previous host (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) has been attacked by hackers in January 2004 and decided to stop hosting free projects for an undefined period. Thanks to <b>BWare</b>, a member of the GeeXboX's forum, we got the opportunity to get a nearly dedicated web server with full of bandwidth. Many thanks for him, without whom, our services wouldn't have restarted at this time. More than ever, we need generous contributors and donators to help the project and prevent us from such a situation to happen once again. If you believe in our project, don't hesitate to have a look at the appropriate section of this website.<br/><br/>
+Let's stop with it, it's now time to talk about the 0.97 release :-) For many reasons (like the one just above), the developpement took really much more time that we could have wished. But you will be glad to know that this release comes with many new features that have been requested by users for a long time. By the way, one of the longest period between releases is the bug tracking phase. We often release developpement versions of GeeXboX and you're all welcomed to test them the most you can. Please remember that the most you are to test and to report bugs and the quicker will new versions be released.<br/><br/>
 So, as usual, here's a quick changelog of the new features for which you've been waiting for so long : <br/><br/>
 * Switch MPlayer to 1.0pre4<br/>
 * Support for Packard Bell Fast media remote and receiver.<br/>
 * Support for DXR3/Hollywood+ (MPEG1/2 hardware decoder) cards (TVOut only for now).<br/>
-* Added hungarian language.<br/>
 * Support for S3 Virge GX2 TV Out.<br/>
 * Support for the Matroska container.<br/>
-* Support for PCI and USB WiFi network adapters.<br/>
+* Support for the Nullsoft streaming video (NSV) container.<br/>
+* Support for PCI and USB WiFi network adapters (AiroNet, Atmel, Atheros, Prism2 et Prism54/GT chipsets).<br/>
 * Support for Serial ATA disks.<br/>
 * Support for 3COM/NetGear Gigabit ethernet cards.<br/>
-* Support for BT8x8 cards (Composite and S-VHS inputs and TV tuners).<br/>
+* Support for BT8x8 and Saa73134 cards (Composite and S-VHS inputs and TV tuners).<br/>
 * Support for audio/video streaming (Web-Radios etc ...)<br/>
 * Access to the Internet through web gateways.<br/>
+* Added Telnet server for remote access.<br/>
+* Support for hardware video acceleration (VidiX) for EPIA-M (CLE266 chipset) and ATI Radeon 9xxx boards.<br/>
+* Support for VidiX for nVidia cards (EXPERIMENTAL : disabled by defaut).<br/>
+* Added the IrMan library.<br/>
+* Support for ATI Remote Wonder remotes through LIRC (better latency time and customizable key bindings).<br/>
+* Added an image viewer (FBI) with support for BMP, GIF, JPEG, PCD, PNG, PNM and PPM formats.<br/>
+* Switch form CVS revision control system to GNU Arch.<br/>
       </content>
-      <content lang="fr" title="GeeXboX 0.97 (xx/02/04)">
-      Cela a du être la version la plus difficile àsortir, mais la version 0.97 a finalement vu le jour. Comme vous aurez pu le remarquer, notre site web fut inaccesible pendant quelques jours depuis la fin Janvier et, jusqu'à présent, certains services étaient inaccessibles. Tentons de clarifier la situation. Notre hôte précédent (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) a subit des attaques de pirates en Janvier 2004 et a malheureusement décidé de stoper l'hébergement de projets libres pour un temps undéfini. De grands mercis à <b>BWare</b>, un membre du forum GeeXboX, qui nous a fourni un serveur quasi-dédié ainsi que la bande passante nécessaire. Nous le remercions encore car, sans lui, nos services n'auraient peut être pas encore pu redémarrer. Plus que jamais, nous avons besoin de généreux contributeurs et/ou donateurs au projet pour empêcher qu'une telle sitution ne se reproduise. Si vous croyez en ce projet, n'hésitez pas à jetter un oeil à la section apropprié du site.<br/><br/>
+      <content lang="fr" title="GeeXboX 0.97 : Birthday Edition (16/05/04)">
+      Cela a du être la version la plus difficile à sortir, mais la version 0.97 a finalement vu le jour, exactement 1 an après la première version publique de la GeeXboX. Comme vous aurez pu le remarquer, notre site web fut inaccesible pendant quelques jours depuis la fin Janvier et, jusqu'à présent, certains services étaient inaccessibles. Tentons de clarifier la situation. Notre hôte précédent (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) a subit des attaques de pirates en Janvier 2004 et a malheureusement décidé de stoper l'hébergement de projets libres pour un temps indéfini. De grands mercis à <b>BWare</b>, un membre du forum GeeXboX, qui nous a fourni un serveur quasi-dédié ainsi que la bande passante nécessaire. Nous le remercions encore car, sans lui, nos services n'auraient peut être pas encore pu redémarrer. Plus que jamais, nous avons besoin de généreux contributeurs et/ou donateurs au projet pour empêcher qu'une telle situation ne se reproduise. Si vous croyez en ce projet, n'hésitez pas à jetter un oeil à la section apropprié du site.<br/><br/>
 Arrêtons un peu tout cela, pour reparler de la version 0.97 de la GeeXboX :-) Pour de nombreuses raisons (comme celle présentée ci-dessus), le développement a pris bien plus de temps que nous l'avions prévu. Mais vous serez heureux d'apprendre que cette version arrive avec de nombreuses fonctionnalités que vous attendiez depuis un long moment. Par ailleurs, une des phases les plus longues entre 2 nouvelles versions est bien évidemment la chasse aux bugs. Nous sortons fréquemment des versions de développement de la GeeXboX et vous êtes tous cordialement invités à les tester le plus qu'il vous est possible de le faire. Ayez à l'esprit que plus vous serez à tester et rapporter les bugs et plus rapidement sortira chaque nouvelle version.<br/><br/>
 Donc, comme à l'accoutumée, voici un rapide aperçu des nouvelles fonctionnalités pour lesquelles vous avez tant attendu : <br/><br/>
 * Passage à MPlayer 1.0pre4<br/>
 * Support des télécommandes et récépteurs Packard Bell Fast media.<br/>
 * Support des cartes DXR3/Hollywood+ (décodeurs MPEG1/2 matériel) (Sortie TV uniquement pour l'instant).<br/>
-* Ajout du hongrois.<br/>
 * Support de la sortie TV des cartes S3 Virge GX2.<br/>
 * Support du conteneur audio/vidéo Matroska.<br/>
-* Support des cartes réseaux WiFi aux formats PCI et USB.<br/>
+* Support du conteneur Nullsoft streaming video (NSV).<br/>
+* Support des cartes réseaux WiFi aux formats PCI et USB (chipsets AiroNet, Atmel, Atheros, Prism2 et Prism54/GT).<br/>
 * Support des disques Serial ATA.<br/>
 * Support des cartes Ethernet 3COM/NetGear Gigabit.<br/>
-* Support des cartes BT8x8 (entrées Composite et S-VHS et des tuners TV).<br/>
+* Support des cartes BT8x8 et Saa7134 (entrées Composite et S-VHS et des tuners TV).<br/>
 * Support du streaming audio/vidéo (Web-Radios etc ...)<br/>
 * Accès à Internet via des passerelles web.<br/>
+* Ajout d'un serveur Telnet pour prise en main distante.<br/>
+* Support de l'acceleration vidéo matérielle (VidiX) pour les cartes EPIA-M (chipset CLE266) et ATI Radeon 9xxx.<br/>
+* Support VidiX pour les cartes nVidia (EXPERIMENTAL : désactivé par défaut).<br/>
+* Ajout de la librairie IrMan.<br/>
+* Support des télécommandes ATI Remote Wonder via LIRC (temps de réponse amélioré et configuration des touches possibles).<br/>
+* Ajout d'un visualiseur d'images (FBI) avec support des formats BMP, GIF, JPEG, PCD, PNG, PNM et PPM.<br/>
+* Passage du gestionnaire de version CVS à GNU Arch.<br/>
       </content>
     </subsection>
 
