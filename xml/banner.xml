@@ -2,7 +2,7 @@
 <!DOCTYPE banner SYSTEM "geexbox.dtd">
 
 <banner>
-  <logo link="index.html" src="../img/geexbox-logo.jpg"
+  <logo link="index.html" src="../img/geexbox-logo.jpeg"
         alt="GeeXboX" title="GeeXboX HomePage"/>
   <langs>
     <text lang="en">english</text>

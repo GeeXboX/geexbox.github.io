@@ -4,28 +4,31 @@
 <article>
   <define name="scr-boot">
     <center>
-      <a href="../img/gx-boot-full.jpg">
-        <img src="../img/gx-boot-thumb.jpg" alt="GeeXboX Boot"/>
+      <a href="../img/gx-boot-full.jpeg">
+        <img src="../img/gx-boot-thumb.jpeg" alt="GeeXboX Boot"/>
+      </a>
+      <a href="../img/gx-boot-full-halloween.jpeg">
+        <img src="../img/gx-boot-thumb-halloween.jpeg" alt="GeeXboX Halloween Boot"/>
       </a>
     </center>
   </define>
   <define name="scr-osd">
     <center>
-      <a href="../img/gx-menu-aqua-full.jpg">
-        <img src="../img/gx-menu-aqua-thumb.jpg" alt="GeeXboX Aqua Menu"/>
+      <a href="../img/gx-menu-aqua-full.jpeg">
+        <img src="../img/gx-menu-aqua-thumb.jpeg" alt="GeeXboX Aqua Menu"/>
       </a>
-      <a href="../img/gx-menu-movies-full.jpg">
-        <img src="../img/gx-menu-movies-thumb.jpg" alt="GeeXboX Movies Menu"/>
+      <a href="../img/gx-menu-movies-full.jpeg">
+        <img src="../img/gx-menu-movies-thumb.jpeg" alt="GeeXboX Movies Menu"/>
       </a>
-      <a href="../img/gx-menu-classic-full.jpg">
-        <img src="../img/gx-menu-classic-thumb.jpg" alt="GeeXboX Classic Menu"/>
+      <a href="../img/gx-menu-classic-full.jpeg">
+        <img src="../img/gx-menu-classic-thumb.jpeg" alt="GeeXboX Classic Menu"/>
       </a>
     </center>
   </define>
   <define name="scr-play">
     <center>
-      <a href="../img/gx-play-full.jpg">
-        <img src="../img/gx-play-thumb.jpg" alt="GeeXboX Playing"/>
+      <a href="../img/gx-play-full.jpeg">
+        <img src="../img/gx-play-thumb.jpeg" alt="GeeXboX Playing"/>
       </a>
     </center>
   </define>
