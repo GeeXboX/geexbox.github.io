@@ -32,6 +32,7 @@
 * S3 Trio 368 8M AGP<br/>
 * S3 Trio 32 PCI<br/>
 * 3Dfx Voodoo 3 8M PCI<br/>
+* Diamond Viper V550 (nVidia TnT) 16M AGP TV<br/>
   </define>
 
   <define name="soundcard">
@@ -43,6 +44,7 @@
   <define name="misc">
 * Tekram DC-310/310U PCI SCSI<br/>
 * Adaptec AHA-2920 PCI SCSI<br/>
+* Cnet WiFi 54 Mbps USB dongle WD-854<br/>
   </define>
 
   <define name="computer">
@@ -59,7 +61,7 @@
   </define>
 
   <define name="donators-hard">
-    Sylvain Doctrinal, Coyot, Andrew Florence
+    Sylvain Doctrinal, Coyot, Lolo, Andrew Florence
   </define>
 
   <section label="donate">
