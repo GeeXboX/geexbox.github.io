@@ -36,6 +36,11 @@
       <text lang="fr">Téléchargements</text>
     </subitem>
 
+    <subitem name="buy" url="buy.html">
+      <text lang="en">Get a CD</text>
+      <text lang="fr">Obtenir un CD</text>
+    </subitem>
+
     <subitem name="doc" url="doc.html">
       <text lang="en">Documentation</text>
       <text lang="fr">Documentation</text>

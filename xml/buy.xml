@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<article>
+  <define name="ikarios-fr">
+   <a href="http://www.ikarios.com/"><b>Ikarios</b></a>
+  </define>
+
+  <define name="ikarios-en">
+    <a href="http://ikarios.com/index_en.html"><b>Ikarios</b></a>
+  </define>
+
+  <define name="ikarios-cd-fr">
+    <center><a href="http://ikarios.com/form/#gxbx"><b>Obtenir un CD officiel de la GeeXboX</b></a></center>
+  </define>
+
+  <define name="ikarios-cd-en">
+    <center><a href="http://ikarios.com/form/#gxbx"><b>Get an official GeeXboX CD</b></a></center>
+  </define>
+
+  <section label="buy_cd">
+    <content lang="en" title="Get GeeXboX on CD"/>
+    <content lang="fr" title="Obtenir GeeXboX sur CD"/>
+
+    <subsection label="get_cd">
+      <content lang="en" title="Get GeeXboX on CD">  
+      GeeXboX is an embedded micro-system, designed to be as small as possible. Nevertheless, its sources, required to be able to rebuild the OS take more than 100 MB of disk space. If you're not able to download such an amount of data, you can get a GeeXboX CD through postal mail.<br/><br/>
+
+      We had a deal with a french company called <use name="ikarios-en"/>, which let you buy GeeXboX CD. These latter are for sale at a unique price of <b>2.99 Euros par unit</b> and feature the following content :<br/>
+
+<br/><b>
+- bootable on the latest GeeXboX release.<br/>
+- features all previous releases sources and ISO.<br/>
+- a local mirror of the web site.<br/>
+- a directory containing pictures for CD sleeves.<br/>
+</b><br/>
+
+As a company, IKARIOS contributes to the expansion of free software by offering high-quality products at rock-bottom prices, free information, and money to the free-software world. A considerable amount of incomes is sent to the Free Software Foundation (FSF), one of the major organism contributing to help open-source software.<br/><br/>
+
+For each CD sold, a <b>1 Euro income is given to the GeeXboX development team</b>. Besides, all CD are not burned (like traditional CDR) but pressed as commercial ones, and are sold with a sleeve.<br/><br/>
+
+If you want to get an official GeeXboX CD, contribute to the project's development, help the free software or simply, if you do not have access to an high-speed Internet connexion required to get the full sources, you get call for a CD through the following page :<br/><br/>
+<use name="ikarios-cd-en"/><br/><br/><br/>
+      </content>
+
+      <content lang="fr" title="Obtenir GeeXboX sur CD">   
+      GeeXboX est un micro-système d'exploitation, conçu pour être le plus petit possible. Néanmoins, les sources permettant de reconstruire son propre OS occupent plus de 100 Mo. Si vous n'êtes pas en moyen de télécharger une telle quantité de données, il est possible d'obtenir un CD de la GeeXboX par voie postale.<br/><br/>
+
+      Nous avons ainsi maintenu un accord avec la société française <use name="ikarios-fr"/>, qui propose à la vente des CD de la GeeXboX. Ces derniers sont proposés au prix attractif de <b>2.99 Euros l'unité</b> et dispose du contenu suivant :<br/>
+
+<br/><b>
+- auto-amorçable sur dernière version disponible de la GeeXboX.<br/>
+- l'ensemble des ISO et sources complètes des versions précédentes.<br/>
+- une copie du site Internet.<br/>
+- un répertoire avec les images des pochettes pour CD.<br/>
+</b><br/>
+
+Ikarios est une société qui vend, exclusivement par correspondance et depuis 1997, des articles relatifs au logiciel libre/open source (Linux, BSD ...). Une importante part des gains réalisés par Ikarios permettait de régler les factures de la Free Software Foundation, l'un des principaux organismes créés en faveur du logiciel libre.<br/><br/>
+
+Un bénéfice de <b>1 Euro est également reversé à l'équipe de développement</b> de la GeeXboX pour chaque CD vendu par Ikarios. De plus, les CD proposés sont pressés (et non gravés dits 'CD-R'), et fournis avec une pochette.<br/><br/>
+
+Si vous souhaitez donc obtenir un CD officiel de la GeeXboX, contribuer à son développement, aider le logiciel libre ou plus simplement si vous n'avez pas la connectivité Internet nécessaire pour vous procurer la GeeXboX, vous pouvez donc passer commande sur la page suivante :<br/><br/>
+<use name="ikarios-cd-fr"/><br/><br/><br/>
+      </content>
+    </subsection>
+
+  </section>
+</article>
