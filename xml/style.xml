@@ -7,5 +7,4 @@
   <title>Styles</title>
   <stylesheet file="../style/deepblue.css" media="screen" default="yes">DeepBlue</stylesheet>
   <stylesheet file="../style/console.css" media="screen">Console</stylesheet>
-  <stylesheet file="../style/openweb.css" media="screen">OpenWeb</stylesheet>
 </style>
