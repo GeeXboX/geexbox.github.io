@@ -18,6 +18,7 @@
         <a href="#matrox_tvout">How Can I use Matrox TV-Out ?</a><br/>
         <a href="#dxr3">How can I use my DXR3/Hollywood+ card ?</a><br/>
         <a href="#dxr3_menu">I can't access to the menu when using my DXR3 card</a><br/>
+        <a href="#epia-boot">I have no HDD and my EPIA (V) motherboard refuses to boot GeeXboX</a><br/>
         <a href="#sound">I have NO sound at all or GeeXboX hangs at '/dev/mixer Error'</a><br/>
         <a href="#remote">My remote controller isn't recognized</a><br/>
         <a href="#remote_add">How to make my remote supported by GeeXboX ?</a><br/>
@@ -44,6 +45,7 @@
         <a href="#matrox_tvout">Comment utiliser la sortie TV des cartes Matrox ?"</a><br/>
         <a href="#dxr3">Comment puis-je utiliser ma carte DXR3/Hollywood+ ?</a><br/>
         <a href="#dxr3_menu">Je n'arrive pas à voir les menus avec ma carte DXR3</a><br/>
+        <a href="#epia-boot">Je n'ai pas de disque dur et ma carte mère EPIA (V) refuse de démarrer la GeeXboX</a><br/>
         <a href="#sound">Je n'ai pas du tout de son ou la GeeXboX se bloque sur le message '/dev/mixer Error'</a><br/>
         <a href="#remote">Ma télécommande n'est pas reconnue</a><br/>
         <a href="#remote_add">Comment utiliser votre propre télécommande avec la GeeXboX ?</a><br/>
@@ -171,6 +173,15 @@
         
       <content lang="fr" title="Je n'arrive pas à voir les menus avec ma carte DXR3">   
       La carte DXR3/H+ est un décodeur matériel MPEG 1/2. D'importants efforts ont été fait pour activer la décompression matérielle avec la GeeXboX, dans le but qu'il soit possible de lire des DVD en utilisant des ordinateurs relativement anciens. Néanmoins, dans un tel cas et, pour des raisons techniques, il n'est pas possible d'appliquer un filtre sur l'image (comme l'OSD) et, de ce fait, les menus ne seront pas accessibles lors de la lecture de ce type de fichiers (ce problème n'existe pas lors de la lecture de fichiers MPEG 4 et/ou DivX).
+      </content>
+    </subsection>
+
+    <subsection label="epia-boot">
+      <content lang="en" title="I have no HDD and my EPIA (V) motherboard refuses to boot GeeXboX">
+      Due to some buggy BIOSes, EPIA and EPIA V motherboards (not M series) refuse to boot from the GeeXboX CD (in a more common way, all LiveCD using IsoLinux as a bootloader) if no hard-drive is physically plugged to. There's a trick to still boots from CD, without any HDD. Simply go to the BIOS and declare a fake HDD, setting its properties to Manual instead of Auto. Declare it using CHS mode, with 0 heads, 0 sectors and 0 cylinders. Then select the appropriate BIOS option to prevent stopping on any error that may occur (option <i>Halt On No Error</i>).
+      </content>
+      <content lang="fr" title="Je n'ai pas de disque dur et ma carte mère EPIA (V) refuse de démarrer la GeeXboX">
+      En raison d'un bug dans le BIOS des cartes mères EPIA et EPIA V (les séries M ne sont pas touchées par ce problème), il est impossible de démarrer un CD de la GeeXboX (d'une manière générale tout LiveCD qui utilise IsoLinux comme chargeur) si aucun disque dur n'est pysiquement connecté. Il existe néanmoins un moyen de contourner ce problème. Il suffit de se rendre dans le BIOS et d'y déclarer un faux disque dur, en réglant ses propriétés sur Manuel et non Automatique. Il suffit alors de le déclarer comme fonctionnant en mode CHS, et étant constitué de 0 têtes, 0 secteurs et 0 cylindres. Sélectionnez ensuite, l'option appropriée dans le BIOS pour empêcher de bloquer le chargement en cas d'erreur (option <i>Halt On No Error</i>).
       </content>
     </subsection>
 

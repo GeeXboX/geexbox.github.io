@@ -12,8 +12,6 @@
 * <b>Display Bug on Matrox cards in high res</b> : these cards don't seem to accept video with a width greater than 1024 pixels.<br/><br/>
 
 * <b>Bug with DVD autoplay on DXR3</b> : When using DXR3 cards, the Autoplay feature prevent DVD from working. You have to press the 'Q' key to exit after DVD insertion and then use the menu to launch the DVD again.<br/><br/>
-
-* <b>Boot Bug with IsoLinux on EPIA 800 boards</b> : unfortunately the EPIA motherboards BIOS seem to be REALLY buggy bioses :-( It's currently unable to boot the new GeeXboX release on such boards from a CDROM drive when no hard disk is plugged (even if it's not in use !!). If you're in this case, you'll have to use the previous GeeXboX release or use a harddisk. We've contacted the VIA Technical Support to warn them about the bug and they'll try to fix it. You can also report them the bug on <a href="http://www.viavpsd.com/vpsdcontacts/index.jsp">this page</a> to show them that the bug is really more annoying that it seems to be ;-)<br/><br/>
       </content>
       <content lang="fr" title="Bugs connus ...">
         Malheureusement, la GeeXboX n'est pas dépourvue de bugs :-( Ne vous inquiétez pas pour autant, ils ne sont pas réellement génants et, dans la mesure où ils sont connus, cela signifie qu'ils seront bien corrigés un jour ;-). Les principaux bugs connus sont :<br/><br/>
@@ -21,8 +19,6 @@
 * <b>Bug d'affichage sur cartes Matrox en hautes résolution</b> : ces dernières ne semblent pas accepter les vidéos d'une largeur supérieure à 1024 pixels.<br/><br/>
 
 * <b>Bug avec la fonction d'autoplay des DVD avec les cartes DXR3</b> : Lorsque vous utilisez une carte DXR3, la fonction d'autoplay empêche la lecture des DVD. Il vous est nécessaire d'appuyer manuellement sur la touche 'Q' pour quitter après insertion du disque et d'ensuite réutiliser le menu pour relancer la lecture.<br/><br/>
-
-* <b>Problème de démarrage avec IsoLinux sur les EPIA 800</b> : malheureusement, les BIOS des carte-mères EPIA semblent être réellement buggés :-( Il est en effet actuellement impossible de démarrer la nouvelle version de la GeeXboX depuis le lecteur CDROM sur ces cartes-mère, si aucun disque dur n'est physiquement branché (et ce, même s'il n'est pas utilisé !!). Si vous êtes dans ce cas, vous devrez donc utiliser, soit une ancienne version de la GeeXboX ou un disque dur. Nous avons contacté le support technique de VIA pour les prévenir du problème et ils vont essayer de le résoudre. Vous pouvez également leur rapporter le problème via <a href="http://www.viavpsd.com/vpsdcontacts/index.jsp">cette page</a> afin de leur faire prendre conscience que ce bug est bien plus embêtant qu'il ne semble ;-)<br/><br/>
       </content>
     </subsection>
     <subsection label="todo">
@@ -31,6 +27,8 @@
 * Add a new fancy interface.<br/>
 * Add a new graphical ISO generator.<br/>
 * Add encoding/recording capabilities.<br/>
+* Add TimeShifting capabilities.<br/>
+* Add Pan/Scan feature.<br/>
 * Add support for DVB cards.<br/>
 * Display ID3 Tags (Albums, Artist, Track Name and Number) when playing audio-only streams (Waves, MP3, Ogg ...).<br/>
 * Add a DVD naviguation menu.<br/>
@@ -43,6 +41,8 @@
 * Ajout d'une nouvelle interface graphique.<br/>
 * Ajout d'un nouveau générateur d'ISO complet en mode graphique.<br/>
 * Support des possibilités d'enregistrement.<br/>
+* Support des fonctionnalités de TimeShifting.<br/>
+* Support du mode Pan/Scan.<br/>
 * Support des cartes DVB.<br/>
 * Affichage des ID3 Tags (Nom de l'album, de l'artiste, du numéro et nom de piste) lors de la lecture de flux exclusivement audio (WAV, MP3, Ogg ...).<br/>
 * Ajout d'un véritable menu de navigation pour les DVD.<br/>
