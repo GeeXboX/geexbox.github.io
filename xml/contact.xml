@@ -2,6 +2,21 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
+  <define name="author-core">
+    <i>
+      <a href="mailto:__aurel__at__geexbox__dot__org__">Aurelien Jacobs</a><br/>
+      <a href="mailto:__ben__at__geexbox__dot__org__">Benjamin Zores</a><br/>
+    </i>
+  </define>
+  <define name="author-contrib">
+    <i>
+      Serge Gebhardt<br/>
+      Dennis Roos<br/>
+      Alexis Saettler<br/>
+      Ville Skytta<br/>
+    </i>
+  </define>
+
   <section label="contact">
     <content lang="en" title="GeeXboX's users contact"/>
     <content lang="fr" title="Contact utilisateurs"/>
@@ -18,14 +33,27 @@
 
     <subsection label="webmaster">
       <content lang="en" title="WebSite">
-        For any questions or problems with the website display or content, please talk about it to the <webmaster/><br/><br/><br/>
+        For any questions or problems with the website display or content, please talk about it to the <webmaster/><br/>
         <center><b>The GeeXboX's Team</b></center>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       </content>
       <content lang="fr" title="Site Internet">
-        Por toute question ou problème avec le contenu ou l'affichage du site en lui-même, veuillez en référer au <webmaster/><br/><br/><br/>
+        Por toute question ou problème avec le contenu ou l'affichage du site en lui-même, veuillez en référer au <webmaster/><br/>
         <center><b>L'équipe GeeXboX</b></center>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="authors">
+      <content lang="en" title="Authors">
+        <b>Core maintainers :</b><br/><br/>
+        <use name="author-core"/><br/>
+        <b>Occasional contributors :</b><br/><br/>
+        <use name="author-contrib"/>
+      </content>
+      <content lang="fr" title="Auteurs">
+        <b>Développeurs principaux :</b><br/><br/>
+        <use name="author-core"/><br/>
+        <b>Contributeurs occasionnels :</b><br/><br/>
+        <use name="author-contrib"/>
       </content>
     </subsection>
 
