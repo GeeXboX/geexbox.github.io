@@ -646,10 +646,10 @@ Please use the <b>AUTO</b> parameter if you want to keep autodetection active, o
 Once done, you should be able to use the TV inputs (Composite and S-VHS) of your TV card. In the same way, you can use the tuner to watch TV. For that, you will have to define the region you belong to and the frequency of the TV channels you want to watch. Once again, simply edit the <b>/etc/tvsettings</b> file :<br/><br/>
 
 <b># TV Channels<br/>
-# Syntax : CHAN="Channel Title":"Channel Frequency"<br/>
+# Syntax : CHAN="Channel Frequency:Channel Title"<br/>
 # Example:<br/></b>
-* <b> #CHAN="France 2":"26"</b><br/>
-* <b> #CHAN="Canal +":"K08"</b><br/><br/>
+* <b> #CHAN="29:France 2"</b><br/>
+* <b> #CHAN="K08:Canal +"</b><br/><br/>
 <b># TV Channels List<br/>
 # Available : france, europe-east, europe-west, us-bcast, us-cable<br/></b>
 * <b> CHANLIST=france</b><br/><br/>
@@ -670,10 +670,10 @@ Laissez le paramètre <b>AUTO</b> si vous souhaitez conserver la détection automa
 Une fois cela fait, vous devriez être en mesure d'utiliser les entrées TV (Composite et S-VHS) de votre carte TV. De la même manière, vous pouvez utiliser le tuner pour regarder la TV. Pour cela, vous devrez définir votre région ainsi que les fréquences des chaînes que vous souhaitez visionner. Encore une fois, éditez simplement le fichier <b>/etc/tvsettings</b> :<br/><br/>
 
 <b># TV Channels<br/>
-# Syntax : CHAN="Channel Title":"Channel Frequency"<br/>
+# Syntax : CHAN="Channel Frequency:Channel Title"<br/>
 # Example:<br/></b>
-* <b> #CHAN="France 2":"26"</b><br/>
-* <b> #CHAN="Canal +":"K08"</b><br/><br/>
+* <b> #CHAN="29:France 2"</b><br/>
+* <b> #CHAN="K08:Canal +"</b><br/><br/>
 <b># TV Channels List<br/>
 # Available : france, europe-east, europe-west, us-bcast, us-cable<br/></b>
 * <b> CHANLIST=france</b><br/><br/>
@@ -695,10 +695,10 @@ Bitte nutzen Sie <b>AUTO</b> als Parameter, wenn Sie die automatische Erkennung 
 Einmal konfiguriert, haben Sie dann die Möglichkeit, die Composite and S-VHS Eingänge Ihrer TV-Karte zu nutzen. Auf gleichem Wege können Sie auch TV mittels des Tuners empfangen. Dazu müssen Sie Ihren "Regionalcode" definieren und die Frequenzen aller Sender angeben, die Sie anschauen möchten. Diese Änderungen werden auch in der Datei <b>/etc/tvsettings</b> vorgenommen :<br/><br/>
 
 <b># TV Channels<br/>
-# Syntax : CHAN="Kanal Titel":"Kanal Frequenz"<br/>
+# Syntax : CHAN="Kanal Frequenz:Kanal Titel"<br/>
 # Exlample:<br/></b>
-* <b> #CHAN="France 2":"26"</b><br/>
-* <b> #CHAN="Canal +":"K08"</b><br/><br/>
+* <b> #CHAN="29:France 2"</b><br/>
+* <b> #CHAN="K08:Canal +"</b><br/><br/>
 <b># TV Channels List<br/>
 # Available : france, europe-east, europe-west, us-bcast, us-cable<br/></b>
 * <b> CHANLIST=france</b><br/><br/>
