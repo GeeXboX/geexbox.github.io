@@ -2,6 +2,13 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
+  <define name="beb59-en">
+    <a href="http://beb59.net/">HardWare Compatibility List</a>
+  </define>
+  <define name="beb59-fr">
+    <a href="http://beb59.net/">Liste de Compatibilité Matérielle</a>
+  </define>
+
   <section label="faq">
     <content lang="en" title="Frequently Asked Questions ..."/>
     <content lang="fr" title="Foire Aux Questions ..."/>
@@ -64,9 +71,9 @@
     </subsection>
 
     <subsection label="compatibility">
-      <content lang="en" title="Compatibility List ...">You're fully in rights to wonder whether GeeXboX is compatible with your current hardware. A short list has been done by users and just need you to grow up faster. GeeXboX aims at being run on almost every PC but sometimes, there's unfortunately not the case. Just have a look a this <a href="http://beb59.no-ip.com/geexbox/">HardWare Compatibility List</a> before doing any bug report.
+      <content lang="en" title="Compatibility List ...">You're fully in rights to wonder whether GeeXboX is compatible with your current hardware. A short list has been done by users and just need you to grow up faster. GeeXboX aims at being run on almost every PC but sometimes, there's unfortunately not the case. Just have a look a this <use name="beb59-en"/> before doing any bug report.
       </content>
-      <content lang="fr" title="Liste de Compatibilité ...">Vous êtes parfaitement en droit de vous demander si votre matériel est supporté par la GeeXboX. Une courte liste a été crée par les utilisateurs et ne demande qu'à grandir. La GeeXboX devrait fonctionne rsur quasiemment tous les PC mais des fois, ce n'est malheureusement pas le cas. Jettez donc un coup d'oeil à la <a href="http://beb59.no-ip.com/geexbox/">Liste de Compatibilité Matérielle</a> avant de procéder à un rapport de bug.
+      <content lang="fr" title="Liste de Compatibilité ...">Vous êtes parfaitement en droit de vous demander si votre matériel est supporté par la GeeXboX. Une courte liste a été crée par les utilisateurs et ne demande qu'à grandir. La GeeXboX devrait fonctionne rsur quasiemment tous les PC mais des fois, ce n'est malheureusement pas le cas. Jettez donc un coup d'oeil à la <use name="beb59-fr"/> avant de procéder à un rapport de bug.
       </content>
     </subsection>
 
