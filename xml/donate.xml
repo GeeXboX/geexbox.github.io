@@ -40,6 +40,15 @@
 * Yamaha WaveForce 192XG<br/>
   </define>
 
+  <define name="computer">
+* Macintosh iMac G3<br/>
+* EPIA MII-1000<br/>
+  </define>
+
+  <define name="response-computing-url">
+    <a href="http://www.responsecomputing.co.uk">Response Computing</a>
+  </define>
+
   <section label="donate">
     <content lang="en" title="Donate ..."/>
     <content lang="fr" title="Donations ..."/>
@@ -69,12 +78,14 @@ At the moment, we're really looking for specific help :<br/><br/>
 
 So, if you want to help us, just mail us at <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. And, on behalf of all the developers and users, thank you for your help.<br/><br/>
 
-Our development team already has received the following piece of hardware. Special thanks to <i>Sylvain Doctrinal</i> for his donation.<br/><br/>
+Our development team already has received the following piece of hardware. Special thanks to <i>Sylvain Doctrinal</i> and <i>Andrew Florence</i> (from <use name="response-computing-url"/>) for their donations.<br/><br/>
 
 <b>Display adapters :</b><br/>
 <use name="vboard"/><br/>
 <b>Sound cards :</b><br/>
-<use name="soundcard"/>
+<use name="soundcard"/><br/>
+<b>Complete Systems :</b><br/>
+<use name="computer"/>
         <br/><br/>
 
       </content>
@@ -93,12 +104,14 @@ A l'heure actuelle, nous avons des besoins particuliers :<br/><br/>
 
 Donc, si vous souhaitez nous aider, envoyez simplement un mail à <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. Et, de la part de tous les développeurs et utilisateurs, merci de tout coeur pour votre aide.<br/><br/>
 
-Notre équipe de développement à déjà reçu la liste suivante de matériel et autres pièces détachées. Un grand merci à <i>Sylvain Doctrinal</i> pour son don.<br/><br/>
+Notre équipe de développement à déjà reçu la liste suivante de matériel et autres pièces détachées. Un grand merci à <i>Sylvain Doctrinal</i> et à <i>Andrew Florence</i> (de la société <use name="response-computing-url"/>) pour leurs dons.<br/><br/>
 
 <b>Cartes graphiques :</b><br/>
 <use name="vboard"/><br/>
 <b>Cartes sons :</b><br/>
-<use name="soundcard"/>
+<use name="soundcard"/><br/>
+<b>Systèmes complets :</b><br/>
+<use name="computer"/>
         <br/><br/>
       </content>
     </subsection>
