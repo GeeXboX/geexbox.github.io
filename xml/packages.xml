@@ -132,7 +132,7 @@
   </define>
   <define name="dialog">
     <tr>
-      <th align="center"><b><a href="http://freshmeat.net/projects/dialog/">dialog</a></b></th>
+      <th align="center"><b><a href="http://invisible-island.net/dialog/">dialog</a></b></th>
       <td align="center">0.9b-20031002</td>
       <td align="center">1.0-20041118</td>
     </tr>
