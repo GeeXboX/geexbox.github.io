@@ -20,6 +20,7 @@ At the time of the first developement releases (Dec. 2002), it was only able to 
    * MPEG 4 movies (DivX, XviD ...)<br/>
    * RealMedia and Windows Media movies.<br/>
    * OggMedia streams<br/>
+   * Matroska streams<br/>
    * Audio streams like : MP3, Ogg/Vorbis, WAV (AudioCD), AC3 ...<br/>
       </content>
       <content lang="fr" title="Qu'est ce que la GeeXboX ...">
@@ -36,6 +37,7 @@ A l'époque des premières phases de développement (Dec. 2002), il était uniquemen
    * Les vidéos de type MPEG 4 (DivX, XviD ...)<br/>
    * Les vidéos de type RealMedia et Windows Media.<br/>
    * Les flux OggMedia<br/>
+   * Les flux Matroska<br/>
    * Les flux exclusivement Audio tels que le MP3, Ogg/Vorbis, WAV (AudioCD), AC3 ...<br/>
       </content>
     </subsection>
@@ -50,13 +52,13 @@ The GeeXboX itself, meaning all the scripts which are used in the building proce
     </subsection>
     <subsection label="more">
       <content lang="en" title="Want more ?">
-        'Sure you think that such a thing requires a new generation computer ;-) That's where you're wrong !! First of all, an old P2-400 with 64 MB of RAM will be quite powerful enough to let the magic plays. Besides, the GeeXboX ISO only takes about 4 MB on disc. And of course, the whole thing can be managed by a remote controller, thanks to its full OSD (On Screen Display) Menu.<br/>
+        'Sure you think that such a thing requires a new generation computer ;-) That's where you're wrong !! First of all, an old P2-400 with 64 MB of RAM will be quite powerful enough to let the magic plays. Besides, the GeeXboX ISO only takes about 6 MB on disc. And of course, the whole thing can be managed by a remote controller, thanks to its full OSD (On Screen Display) Menu.<br/>
 So, what are you still waiting for ?? Xmas ?<br/><br/>
 No way, just go to the <page name="download"/> section and enjoy ;-)<br/><br/><br/>
 <b>The GeeXboX's Team</b><br/>
       </content>
       <content lang="fr" title="Vous en voulez davantage ?">
-        Assuremment, vous devez penser qu'un tel système requiert un ordinateur de dernière génération ;-) C'est bien là que vous faites erreur !! D'une part, un "vieux" P2-400 doté de 64 Mo de mémoire devrait être suffisamment puissant pour laisser la magie opérer. D'autre part, l'image ISO de la GeeXboX ne requiert que 4 Mo sur le CD. Et, bien entendu, le tout peut être intégralement controllé au moyen d'une télécommande à infra-rouge, grâce à son menu OSD complet.<br/>             
+        Assuremment, vous devez penser qu'un tel système requiert un ordinateur de dernière génération ;-) C'est bien là que vous faites erreur !! D'une part, un "vieux" P2-400 doté de 64 Mo de mémoire devrait être suffisamment puissant pour laisser la magie opérer. D'autre part, l'image ISO de la GeeXboX ne requiert que 6 Mo sur le CD. Et, bien entendu, le tout peut être intégralement controllé au moyen d'une télécommande à infra-rouge, grâce à son menu OSD complet.<br/>             
 Alors, qu'attendez vous encore ?? <br/><br/>
 Rendez vous tout simplement dans la section <page name="download"/> et rejouissez vous ;-)<br/><br/><br/>
 <b>L'équipe GeeXboX</b><br/>

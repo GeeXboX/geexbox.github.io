@@ -33,7 +33,6 @@
 * Add encoding/recording capabilities.<br/>
 * Add support for DVB cards.<br/>
 * Display ID3 Tags (Albums, Artist, Track Name and Number) when playing audio-only streams (Waves, MP3, Ogg ...).<br/>
-* Add support for 5.1 sound.<br/>
 * Add a DVD naviguation menu.<br/>
 * Add support for multimedia keyboards.<br/>
 * Add support for karaoke playback.
@@ -46,7 +45,6 @@
 * Support des possibilités d'enregistrement.<br/>
 * Support des cartes DVB.<br/>
 * Affichage des ID3 Tags (Nom de l'album, de l'artiste, du numéro et nom de piste) lors de la lecture de flux exclusivement audio (WAV, MP3, Ogg ...).<br/>
-* Support du son au format 5.1.<br/>
 * Ajout d'un véritable menu de navigation pour les DVD.<br/>
 * Support des claviers multimédia.<br/>
 * Support de fonctionnalités karaoké.

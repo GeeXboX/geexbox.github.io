@@ -20,6 +20,7 @@
           <b>+++ Pause</b><i> # Pause/Resume function</i><br/>
           <b>+++ Stop</b><i> # Stop the media playing.</i><br/>
           <b>+++ Eject</b><i> # Eject the CD from the drive.</i><br/>
+          <b>+++ Chpater selection ...</b><i> # Let you dinamically change the chapter for DVDs and Matroska files.</i><br/>
           <b>+++ Prev/Next</b><i> # Go to the Next/Previous loaded stream</i><br/>
           <b>+++ Jump to</b><i> # Jump to another stream / vcd track / dvd title</i><br/>
           * <b>Options</b><br/>
@@ -37,7 +38,7 @@
           * <b>Quit</b><i> # Shutdown the GeeXboX</i><br/>
           <br/>
 
-          The GeeXboX has been compiled for supporting the Miro PcTV controller and ATI Remote Wonder. It means that if you're using another kind of remote, you may have to build your own GeeXboX, using the ISO generator. If you like to use another kind of remote that is not currently supported by the GeeXboX, you'll have to build the sources and to modify <i>./packages/lirc/lircd.conf</i>. See the <a href="http://www.lirc.org">LIRC WebSite</a> for further details about how to modify this file.
+          The GeeXboX has been compiled for supporting the ATI Remote Wonder. It means that if you're using another kind of remote, you may have to build your own GeeXboX, using the ISO generator. If you like to use another kind of remote that is not currently supported by the GeeXboX, you'll have to build the sources and to modify <i>./packages/lirc/lircd.conf</i>. See the <a href="http://www.lirc.org">LIRC WebSite</a> for further details about how to modify this file.
       </content>
       <content lang="fr" title="Guide d'utilisation du menu OSD ...">
         Le menu OSD de la GeeXboX peut être très facilement controlé en utilisant un traditionnel clavier ou une télécommande. Utilisez les flèches Haut et Bas pour vous déplacer entre les différentes options du menu. Les flèches de Droite et Gauche sont respectivement utilisées pour explorer un sous-menu (i.e "Ok") et en revenir (i.e "Annuler").<br/><br/>
@@ -52,6 +53,7 @@
           * <b>Controles</b><br/>
           <b>+++ Pause</b><i> # Permet la Pause et le Retour de pause</i><br/>
           <b>+++ Stop</b><i> # Stoppe la lecture du média </i><br/>
+          <b>+++ Sélection des chapitres ...</b><i> # Permet de changer dynamiquement de chapitre pour les DVD et fichiers Matroska.</i><br/>
           <b>+++ Eject</b><i> # Ejecte le CD du lecteur.</i><br/>
           <b>+++ Précédent/Suivant</b><i> # Charge le flux Suivant/Précédent qui a été chargé</i><br/>
           <b>+++ Aller à ...</b><i> # Se déplace vers un autre flux / piste de VCD / Titre de DVD</i><br/>
@@ -69,7 +71,7 @@
           * <b>Quitter</b><i> # Met l'ordinateur hors tension.</i><br/>
           <br/>
 
-          La GeeXboX a été compilée pour supporter les télécommandes Miro PcTV et ATI Remote Wonder. Cela signifie que, dans le cas où vous utiliseriez un autre type de télécommande, vous serez amener à reconstruire votre propre version de la GeeXboX, en modifiant utilisant le générateur d'ISO prévu à cet effet. Si vous souhaitez utiliser une télécommande non actuellement supportée par la GeeXboX, vous devrez reconstruire les sources et modifier le fichier <i>./packages/lirc/lircd.conf</i>. Consultez le <a href="http://www.lirc.org">Site Web LIRC</a> pour de plus amples détails sur la façon de modifier ce fichier.
+          La GeeXboX a été compilée pour supporter la télécommande ATI Remote Wonder. Cela signifie que, dans le cas où vous utiliseriez un autre type de télécommande, vous serez amener à reconstruire votre propre version de la GeeXboX, en modifiant utilisant le générateur d'ISO prévu à cet effet. Si vous souhaitez utiliser une télécommande non actuellement supportée par la GeeXboX, vous devrez reconstruire les sources et modifier le fichier <i>./packages/lirc/lircd.conf</i>. Consultez le <a href="http://www.lirc.org">Site Web LIRC</a> pour de plus amples détails sur la façon de modifier ce fichier.
       </content>
     </subsection>
     <subsection label="building">
@@ -251,7 +253,7 @@ et enfin, pour générer l'installator ; <br/>
           The <b>menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> is used to generate the OSD Menu. You may have to modify it whether you want to add or remove items from the menu or to change the items captions to fit your needs.<br/>
           The <b>mplayer.conf</b> is related to MPlayer's lauching options. The default config file contains some of the following lines :<br/><br/>
           <b>vo=vesa:vidix,vesa</b><i> # Video Output driver (Use VidiX if available, VESA otherwise)</i><br/>
-          <b>ao=alsa9</b><i> # Audio Output driver</i><br/>
+          <b>ao=alsa</b><i> # Audio Output driver</i><br/>
           <b>framedrop=yes</b><i> # When set to 'yes', MPlayer may skip decoding some frames if video plays too slowly</i><br/>
           <b>vsync=yes</b><i> # Activate Vertical Synchronization</i><br/>
           <b>fs=yes</b><i> # Enable Fullscreen (need more CPU)</i><br/>
@@ -279,7 +281,7 @@ et enfin, pour générer l'installator ; <br/>
           Le fichier <b>menu_{bg/br/sat/cz/de/en/es/fi/fr/it/nl/po/ro/ru/se/sk}.conf</b> est utilisé pour générer le menu OSD. Vous pouvez le modifier si vous décider d'ajouter ou supprimer des options au menu actuel, ou encore pour le traduire dans votre langue favorite.<br/>
           Le fichier <b>mplayer.conf</b> est directement lié au mode de lancement de MPlayer. La configuration proposée par défaut contient les lignes suivantes :<br/><br/>
           <b>vo=vesa:vidix,vesa</b><i> # Pilote de sortie Vidéo (Utilise le mode VidiX si disponible, le mode VESA sinon)</i><br/>
-          <b>ao=alsa9</b><i> # Pilote de sortie Audio</i><br/>
+          <b>ao=alsa</b><i> # Pilote de sortie Audio</i><br/>
           <b>framedrop=yes</b><i> # Lorsqu'il est activé, MPlayer peut 'sauter' le décodage de certaines images si la vidéo apparaît trop lentement</i><br/>
           <b>vsync=yes</b><i> # Active ou non la synchronisation verticale de l'image</i><br/>
           <b>fs=yes</b><i> # Active le mode Plein-Ecran (nécessite davantage de puissance CPU)</i><br/>

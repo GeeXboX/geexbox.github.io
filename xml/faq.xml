@@ -5,6 +5,62 @@
   <section label="faq">
     <content lang="en" title="Frequently Asked Questions ..."/>
     <content lang="fr" title="Foire Aux Questions ..."/>
+
+    <subsection label="faq">
+      <content lang="en" title="FAQ List ...">
+        <a href="#compatibility">Compatibility List</a><br/>
+        <a href="#burning">How to burn the image ?</a><br/>
+        <a href="#generator">How to build your customized ISO ?</a><br/>
+        <a href="#display">How to set up my display efficiently ?</a><br/>
+        <a href="#disable_vidix">How to disable VidiX ?</a><br/>
+        <a href="#nvidia_vidix">How to enable VidiX for nVidia cards?</a><br/>
+        <a href="#nvidia_tvout">I got a nVidia card but TV-Out doesn't work :-(</a><br/>
+        <a href="#matrox_tvout">How Can I use Matrox TV-Out ?</a><br/>
+        <a href="#dxr3">How can I use my DXR3/Hollywood+ card ?</a><br/>
+        <a href="#dxr3_menu">I can't access to the menu when using my DXR3 card</a><br/>
+        <a href="#sound">I have NO sound at all or GeeXboX hangs at '/dev/mixer Error'</a><br/>
+        <a href="#remote">My remote controller isn't recognized</a><br/>
+        <a href="#remote_add">How to make my remote supported by GeeXboX ?</a><br/>
+        <a href="#cdrom">The screen hangs on 'Cleaning Ram Disk' and I see 'sh: can't access tty: job control turned off'</a><br/>
+        <a href="#mplayer">The system hangs on 'Launching MPlayer' and ejects the CD</a><br/>
+        <a href="#ac3">Does GeeXboX supports 5.1 Audio Output ?</a><br/>
+        <a href="#spdif">How to use my soundcard's digital SPDIF out ?</a><br/>
+        <a href="#dts">How can I play DTS encoded DVD tracks ?</a><br/>
+        <a href="#customization">My generated customized ISO don't work.</a><br/>
+        <a href="#subtitle">Can I watch subtitled movies ?</a><br/>
+        <a href="#sync">The A/V (audio/video) seems to be down ...</a><br/>
+        <a href="#bootlogo">How can I modify the GeeXboX boot logo ?</a><br/>
+        <a href="#modify_menu">How can I modify the menu items ?</a><br/>
+        <a href="#theme">How can I create my own GeeXboX's theme ?</a>
+      </content>
+      <content lang="fr" title="Liste des FAQ ...">
+        <a href="#compatibility">Liste de Compatibilité ...</a><br/>
+        <a href="#burning">Comment graver l'image ?</a><br/>
+        <a href="#generator">Comment construire son ISO personnalisée ?</a><br/>
+        <a href="#display">Comment régler mes paramètres d'affichage ?</a><br/>
+        <a href="#disable_vidix">Comment désactiver le support du VidiX ?</a><br/>
+        <a href="#nvidia_vidix">Comment activer le support du VidiX pour cartes nVidia?</a><br/>
+        <a href="#nvidia_tvout">Je possède une carte nVidia mais la sortie TV ne fonctionne pas :-(</a><br/>
+        <a href="#matrox_tvout">Comment utiliser la sortie TV des cartes Matrox ?"</a><br/>
+        <a href="#dxr3">Comment puis-je utiliser ma carte DXR3/Hollywood+ ?</a><br/>
+        <a href="#dxr3_menu">Je n'arrive pas à voir les menus avec ma carte DXR3</a><br/>
+        <a href="#sound">Je n'ai pas du tout de son ou la GeeXboX se bloque sur le message '/dev/mixer Error'</a><br/>
+        <a href="#remote">Ma télécommande n'est pas reconnue</a><br/>
+        <a href="#remote_add">Comment utiliser votre propre télécommande avec la GeeXboX ?</a><br/>
+        <a href="#cdrom">L'écran se bloque sur le message 'Cleaning Ram Disk' et m'affiche 'sh: can't access tty: job control turned off'</a><br/>
+        <a href="#mplayer">Le système se bloque sur le message 'Launching MPlayer' et éjècte le CD du lecteur.</a><br/>
+        <a href="#ac3">La GeeXboX supporte elle la sortie audio 5.1 ?</a><br/>
+        <a href="#spdif">Comment puis-je utiliser la sortie numérique SPDIF de ma carte son ?</a><br/>
+        <a href="#dts">Comment puis-je lire les pistes sonores au format DTS sur mes DVD ?</a><br/>
+        <a href="#customization">Mon ISO personnalisée avec le generateur ne fonctionne pas.</a><br/>
+        <a href="#subtitle">Puis - je regarder des films sous-titrés ?</a><br/>
+        <a href="#sync">La Synchronisation Audio/Vidéo semble incorrecte ...</a><br/>
+        <a href="#bootlogo">Comment puis - je modifier la logo de démarrage de la GeeXboX ?</a><br/>
+        <a href="#modify_menu">Comment puis - je modifier les options du menu ?</a><br/>
+        <a href="#theme">Comment puis-je créer mon propre thème pour la GeeXboX ?</a>
+      </content>
+    </subsection>
+
     <subsection label="compatibility">
       <content lang="en" title="Compatibility List ...">You're fully in rights to wonder whether GeeXboX is compatible with your current hardware. A short list has been done by users and just need you to grow up faster. GeeXboX aims at being run on almost every PC but sometimes, there's unfortunately not the case. Just have a look a this <a href="http://beb59.no-ip.com/geexbox/">HardWare Compatibility List</a> before doing any bug report.
       </content>
@@ -27,6 +83,39 @@
       </content>
       <content lang="fr" title="Comment construire son ISO personnalisée ?">
       Plusieurs raisons, vous pouvez être amenez à vouloir construire une version personnalisée de la GeeXboX. Pour cela, téléchargez simplement le generator GeeXboX. Ce dernier est disponible en versions Linux et Win32. Vous pouvez souhaiter modifier les fichiers de configuration (les fichiers de configuration réseau ou de les paramètres de gestion des entrées et sortie TV par exemple). Une fois cela fait, éxéctuez simplement le script <b>generator.sh</b> sous GNU/Linux ou le fichier <b>generator.exe</b> sous Microsoft Windows. Ce dernier propose une liste vous permettant de choisir la langue de la nouvelle ISO ainsi que la télécommande à supporter. Sous GNU/Linux, ceci ne peut être fait que par l'édition du script avant son éxécution. Voilà, c'est terminé, vous devriez maintenant disposer d'une image ISO personnalisée de la GeeXboX.
+      </content>
+    </subsection>
+
+    <subsection label="display">
+      <content lang="en" title="How to set up my display efficiently ?">
+      Enabling the TV-Out is achieved with the help of multiple small programs dedicated to different video card brands. Currently we use <i>atitvout</i> for ATI cards, <i>s3switch</i> for S3 cards and <i>nvtv</i> for nVidia cards (and possibly intel i810 and 3dfx cards). The configuration of those programs is done in <i>/etc/tvout</i>. There you can choose the TV standard you want (pal, ntsc...) and you can also modify specific options for nvtv.<br/><br/>
+
+    Please note that you can also define the output aspect (say 4:3 or 16:9 display) in this file through the line :<br/><br/>
+
+    <b>TVOUT_ASPECT="4:3"</b><br/><br/>
+
+    This parameter will be used both for TVOut and regular (CRT/TFT) display. You can also specify the desired height/width values and your display's horizontal and vertical frequencies in case you have unusual screen like WideScreens or videoprojector. This can be done, editing the <i>/etc/mplayer/mplayer.conf</i> file. Default parameters are shown below (please uncomment lines related to frequency if you want to use them) :<br/><br/>
+    <b>
+    screenw=800<br/>
+    screenh=600<br/>
+    #monitor-hfreq=31.5k-50k<br/>
+    #monitor-vfreq=50-90<br/>
+    </b>
+      </content>
+      <content lang="fr" title="Comment régler mes paramètres d'affichage ?">
+      Activer la sortie TV se fait au moyen de nombreux petits utilitaires dédiés chacun à une marque de carte graphique. Nous utilisons actuellement <i>atitvout</i> pour les cartes ATI, <i>s3switch</i> pour les cartes S3 et <i>nvtv</i> pour les cartes nVidia (ce qui peut aussi marcher avec les cartes i810 et 3dfx). La configuration de ces programmes se fait dans le fichier <i>/etc/tvout</i>. Vous pouvez y choisir le standard que vous utilisez (pal, secam, ntsc ...) et y modifier les options spécifiques à nvtv.<br/><br/>
+
+      Vous pouvez également définir le rapport d'image de sortie (mode 4:3 ou 16:9) via la ligne :<br/><br/>
+
+      <b>TVOUT_ASPECT="4:3"</b><br/><br/>
+
+      Ce paramètre est utilisé à la fois pour la sortie TV et pour l'affichage classique sur moniteurs CRT ou TFT. Vous pouvez également définir les valeurs de hauteur et largeur (en pixels) pour l'affichage, ainsi que les fréquences de rafraichissement horizontal et vertical, dans le cas où vous utiliseriez un écran panoramique ou encore un rétro-projecteur. Ceci peut etre fait en modifiant le contenu du fichier <i>/etc/mplayer/mplayer.conf</i>. Les paramètres suivants sont donnés par défaut (veuillez décommenter les lignes liées à la fréquence de refraichissement si vous souhaiter les utiliser ) :<br/><br/>
+      <b>
+      screenw=800<br/>
+      screenh=600<br/>
+      #monitor-hfreq=31.5k-50k<br/>
+      #monitor-vfreq=50-90<br/>
+      </b>
       </content>
     </subsection>
 
@@ -66,6 +155,15 @@
       </content>
     </subsection>
 
+    <subsection label="dxr3">
+      <content lang="en" title="How can I use my DXR3/Hollywood+ card ?">
+      Users with this kind of hardware decompression card does NOT even need to have a video board and sound card to use GeeXboX. On the drawbacks, only the tvout connector can be used with DXR3 cards (no CRT display). You may have to set the required image norm (PAL/NTSC) in the <i>/etc/tvout</i> file and the kind of audio output you want to use (Analog or SPDIF) in <i>/etc/audio</i>.
+      </content>
+      <content lang="fr" title="Comment puis-je utiliser ma carte DXR3/Hollywood+ ?">
+      Les utilisateurs de ce type de cartes de décompression n'ont pas besoin d'avoir une carte vidéo ou une carte son dans leur ordinateur. Parmi les inconvénients, on notera néanmoins que seule la sortie TV peut etre utilisée avec ce type de carte (pas d'affichage sur moniteur). Vous pouvez etre amené à définir la norme d'image souhaitée (PAL/NTSC) via le fichier <i>/etc/tvout</i> ainsi que le type de sortie audio à utiliser (Analogique ou SPDIF) via le fichier <i>/etc/audio</i>.
+      </content>
+    </subsection>
+
     <subsection label="dxr3_menu">
       <content lang="en" title="I can't access to the menu when using my DXR3 card">
         The DXR3/H+ card is a hardware MPEG 1/2 decoder. Efforts has been made to enable the hardware decompression on GeeXboX so that old computers will be able to play DVDs. Nevertheless, in such a situation and for technical reasons, it's not possible to add filters to the image (like OSD) and so menu won't be accessible when playing such kind of files (this problem do not exist when playing MPEG 4/DivX files).
@@ -87,10 +185,10 @@
 
     <subsection label="remote">
       <content lang="en" title="My remote controller isn't recognized">
-        As it was said, the GeeXboX has been compiled for the Miro PcTV remote and ATI Remote Wonder. It doesn't imply that other remote are not supported. The Logitech, RealMagic, Leadtek, Creative, RM-S6, RX-V850, AniMAX and Hauppage remotes are also supported but you will have to regenerate the ISO to use them. For other brands remotes, if you are able to rebuild GeeXboX and owner of a remote controller, please mail to us the LIRC configuration file you're using and we'll include it to our OS.
+        As it was said, the GeeXboX has been compiled for the ATI Remote Wonder. It doesn't imply that other remote are not supported. The Logitech, Miro PCTV, RealMagic, Leadtek, Creative, RM-S6, RX-V850, AniMAX and Hauppage remotes are also supported but you will have to regenerate the ISO to use them. For other brands remotes, if you are able to rebuild GeeXboX and owner of a remote controller, please mail to us the LIRC configuration file you're using and we'll include it to our OS.
       </content>
       <content lang="fr" title="Ma télécommande n'est pas reconnue">
-        Comme cela a été dit, la GeeXboX a été compilée pour le support de la télécommande fournie avec les cartes Miro PcTV ainsi que pour les ATI Remote Wonder. Cela n'implique pas que d'autres télécommandes ne fonctionnent pas. Les télécommandes Logitech, RealMagic, Leadtek, Creative, RM-S6, RX-V850, AniMAX et Hauppage sont également supportées mais vous devrez pour cela, regénérer l'ISO au moyen du générateur fourni. Pour les autres modèles, si vous êtes en mesure de recompiler la GeeXboX et que vous êtes possésseur d'une quelconque télécommande, veuillez nous envoyer vos fichiers de configuration pour LIRC, que nous puissions les inclure dans notre système.
+        Comme cela a été dit, la GeeXboX a été compilée pour le support de la télécommande ATI Remote Wonder. Cela n'implique pas que d'autres télécommandes ne fonctionnent pas. Les télécommandes Logitech, Miro PcTV, RealMagic, Leadtek, Creative, RM-S6, RX-V850, AniMAX et Hauppage sont également supportées mais vous devrez pour cela, regénérer l'ISO au moyen du générateur fourni. Pour les autres modèles, si vous êtes en mesure de recompiler la GeeXboX et que vous êtes possésseur d'une quelconque télécommande, veuillez nous envoyer vos fichiers de configuration pour LIRC, que nous puissions les inclure dans notre système.
       </content>
     </subsection>
 
@@ -127,6 +225,36 @@
       </content>
       <content lang="fr" title="La GeeXboX supporte elle la sortie audio 5.1 ?">
         Malheureusement, à l'heure actuelle, seule la sortie stéréo est supportée. De plus, les flux AC3 sont convertis en stéréo :-( Si vous désirez réellement un son AC3, rajoutez simplement la ligne <b>ac=hwac3,</b> (attention a ne pas oublier la virgule) au fichier <i>mplayer.conf</i>.
+      </content>
+    </subsection>
+
+    <subsection label="spdif">
+      <content lang="en" title="How to use my soundcard's digital SPDIF out ?">
+      GeeXboX supports both analog and digital audio output through regular JACK, connectors or RCA SPDIF one. By default, output is set to analog. You can change this, by editing the <i>/etc/audio</i> file :<br/><br/>
+    <b>
+    # Output using SPDIF (yes/no), otherwise ANALOG output<br/>
+    SPDIF=no<br/>
+    </b><br/>
+    Remember that you will need to set your output to SPDIF if you want to connect your soundcard to an external amplifier for decoding AC3/DTS streams (using passthrough mode).
+      </content>
+      <content lang="fr" title="Comment puis-je utiliser la sortie numérique SPDIF de ma carte son ?">
+      La GeeXboX supporte à la fois la restitution audio via la sortie analogique ou numérique, en utilisant les connecteurs classiques JACK ou RCA SPDIF. Par défaut, la sortie est gérée de manière analogique. Ceci peut etre changé en modifiant le fichier <i>/etc/audio</i> :<br/><br/>
+    <b>
+    # Output using SPDIF (yes/no), otherwise ANALOG output<br/>
+    SPDIF=no<br/>
+    </b><br/>
+    Souvenez vous qu'il est nécessaire de régler la sortie en mode numérique (SPDIF), si vous souhaitez relier votre carte son à un amplificateur hifi externe pour décoder des flux AC3/DTS (en utilisant le mode passthrough).
+      </content>
+    </subsection>
+
+    <subsection label="dts">
+      <content lang="en" title="How can I play DTS encoded DVD tracks ?">
+      GeeXboX does support DTS encoded DVD tracks. When using SPDIF output with <b>ac=hwac3,</b> option enabled, the raw AC3/DTS stream is sent to an external hifi amplifier, which should decode the soundtrack. Otherwise, AC3 and DTS tracks are decoded by software, using your CPU.<br/><br/>
+      Unfortunately, it appears that, due to some MPlayer's limitation (unresolved for now), you can't switch between audio codecs once the DVD is running. As AC3 is often the first audio track, you can then switch to DTS. So, DVD DTS track can only be played when it is the first audio track.
+      </content>
+      <content lang="fr" title="Comment puis-je lire les pistes sonores au format DTS sur mes DVD ?">
+      La GeeXboX supporte désormais les pistes DVD au format sonore DTS. Lorsque l'on utilise la sortie SPDIF, associée à l'option <b>ac=hwac3,</b> le flux AC3/DTS brut est transmis à l'ampli hifi externe, qui a pour role de décoder la piste son. Dans le cas contraire, les pistes AC3 et DTS sont décodées logicielement, par le CPU.<br/><br/>
+      Malheureusement, du à certaines limitations de MPlayer (non résolues à l'heure actuelle), il n'est pas possible de passer d'un codec audio à un autre en cours de lecture. Comme l'AC3 correspond le plus souvent à la piste audio par défaut, il n'est pas possible de basculer vers la piste au format DTS. Ainsi, la piste DTS d'un DVD ne peut etre lue que si elle correspond à la première piste sur le disque.
       </content>
     </subsection>
 

@@ -50,10 +50,10 @@
     </subsection>
     <subsection label="osd">
       <content lang="en" title="GeeXboX OSD Menu">
-        Here is the main OSD (On Screen Display) Menu. This is the state of the system just after boot. You're now able to fully control the OS using a keyboard or a supported remote controller. Pictures above represents the 3 main themes (aqua theme on the left, movies theme on center and classic theme on the right).
+        Here is the main OSD (On Screen Display) Menu. This is the state of the system just after boot. You're now able to fully control the OS using a keyboard, joystick or a supported remote controller. Pictures above represents the 3 main themes (aqua theme on the left, movies theme on center and classic theme on the right).
       </content>
       <content lang="fr" title="Menu OSD de la GeeXboX">
-        Voici le menu OSD (On Screen Display) principal. C'est l'état du votre système juste après la phase de démarrage. A ce point, vous êtes en mesure de controller complètement le système, en utilisant un clavier ou une télécommande infrarouge compatible. Les images ci-dessous représentent les 3 thèmes principaux (à gauche le thème par aqua, au centre le thème movies et à droite le thème classique).
+        Voici le menu OSD (On Screen Display) principal. C'est l'état du votre système juste après la phase de démarrage. A ce point, vous êtes en mesure de controller complètement le système, en utilisant un clavier, joystick ou une télécommande infrarouge compatible. Les images ci-dessous représentent les 3 thèmes principaux (à gauche le thème par aqua, au centre le thème movies et à droite le thème classique).
       </content>
       <use name="scr-osd"/>
     </subsection>
@@ -67,7 +67,7 @@
       <use name="scr-play"/>
     </subsection>
     <subsection label="themes">
-      <content lang="en" title="Themes ...">Beyond the official themes, more and more users just have customized their GeeXboX to get a better aspect. The followinf unofficial website has been done by <i>GSX_HS</i> to provide you themes and tutorials to easily modify your GeeXboX. Please have a look at <a href="http://www.geexdb.net/">GeexDB</a>
+      <content lang="en" title="Themes ...">Beyond the official themes, more and more users just have customized their GeeXboX to get a better aspect. The following unofficial website has been done by <i>GSX_HS</i> to provide you themes and tutorials to easily modify your GeeXboX. Please have a look at <a href="http://www.geexdb.net/">GeexDB</a>
       </content> 
       <content lang="fr" title="Thèmes ...">Malgré les thèmes officiels, de plus en plus d'utilisateurs ont personnalisé leur GeeXboX afin d'obtenir un plus bel aspect. Le site non-officiel ci-dessous a été réalisé par <i>GSX_HS</i> pour vous fournir des thèmes et tutoriaux pour modifier simplement votre GeeXboX. Précipitez vous donc sur <a href="http://www.geexdb.net/">GeexDB</a>
       </content>

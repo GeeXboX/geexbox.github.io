@@ -33,7 +33,7 @@ So, as usual, here's a quick changelog of the new features for which you've been
 * Added the IrMan library.<br/>
 * Support for ATI Remote Wonder remotes through LIRC (better latency time and customizable key bindings).<br/>
 * Added an image viewer (FBI) with support for BMP, GIF, JPEG, PCD, PNG, PNM and PPM formats.<br/>
-* Switch form CVS revision control system to GNU Arch.<br/>
+* Switch from CVS revision control system to GNU Arch.<br/>
       </content>
       <content lang="fr" title="GeeXboX 0.97 : Birthday Edition (16/05/04)">
       Cela a du être la version la plus difficile à sortir, mais la version 0.97 a finalement vu le jour, exactement 1 an après la première version publique de la GeeXboX. Comme vous aurez pu le remarquer, notre site web fut inaccesible pendant quelques jours depuis la fin Janvier et, jusqu'à présent, certains services étaient inaccessibles. Tentons de clarifier la situation. Notre hôte précédent (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) a subit des attaques de pirates en Janvier 2004 et a malheureusement décidé de stoper l'hébergement de projets libres pour un temps indéfini. De grands mercis à <b>BWare</b>, un membre du forum GeeXboX, qui nous a fourni un serveur quasi-dédié ainsi que la bande passante nécessaire. Nous le remercions encore car, sans lui, nos services n'auraient peut être pas encore pu redémarrer. Plus que jamais, nous avons besoin de généreux contributeurs et/ou donateurs au projet pour empêcher qu'une telle situation ne se reproduise. Si vous croyez en ce projet, n'hésitez pas à jetter un oeil à la section apropprié du site.<br/><br/>
