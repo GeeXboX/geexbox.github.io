@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<article>
+  <section>
+    <content lang="en" title="Get Started ..."/>
+    <content lang="fr" title="Par Où Commencer ..."/>
+    <subsection>
+      <content lang="en" title="What is the GeeXboX ...">
+        The question you may wonder is probably : "Dude, what's exactly the GeeXboX project I've just heard about ?" ;-)<br/> If so, you're at the right place !<br/><br/>
+
+Ok, we'll try to make it simple. The GeeXboX is no more than an awesome standalone media player. Why such a name ? Well, its main purpose is to play DivX movies and, as everybody usually call this kind of projects DivX boxes, we'll just prepended a "GeeX", cause that's for the geeks you all are ;-)<br/><br/>
+
+So, GeeXboX is a full operating system, running under Linux and based on the excellent MPlayer. No need of hard drive, you just have to put the GeeXboX bootable CD into the CD-Drive of any pentium-class computer to boot it. Moreover, GeeXboX is a free software, created thanks to many open-source software. This means that everyone can modify it and build his own release of the GeeXboX.<br/><br/>
+
+You may wonder why you could have to boot on another operating system to play your media files, but just think about the Mini-ITX plateforms like VIA Epia/Eden or Shuttle barebones. It's now affordable to bring DivX to your home cinema, pluging this kind of computers directly to your TV !!<br/><br/>
+
+At the time of the first developpement releases (Dec. 2002), it was only able to play DivX movies, but for now, nearly every kind of media files can be played from GeeXboX, our OS supporting for example :<br/><br/>
+   * MPEG 1/2 movies (MPG files, VCDs, DVDs ...)<br/>
+   * MPEG 4 movies (DivX, XviD ...)<br/>
+   * RealMedia and Windows Media movies.<br/>
+   * OggMedia streams<br/>
+   * Audio streams like : MP3, Ogg/Vorbis, WAV (AudioCD), AC3 ...<br/>
+      </content>
+      <content lang="fr" title="Qu'est ce que la GeeXboX ...">
+        La question que vous êtes surement à même de vous poser est probablement : "Mais qu'est donc exactement le projet GeeXboX dont on arrête pas de me parler ?" ;-) Si tel est le cas, vous êtes au bon endroit !<br/><br/>
+
+Ok, essayons de faire au plus simple. La GeeXboX n'est rien de plus qu'un formidable lecteur multimedia autonome. D'où vient ce nom ? Et bien, son but original étant la lecture de vidéos au format DivX et, comme tout le monde appelle générallement ce genre de projet des Divxbox, nous avons simplement préfixé son nom par le terme évocateur "GeeX", car, après tout, c'est bien pour les 'geeks' que vous êtes tous ;-)<br/><br/>
+
+La GeeXboX est donc un système d'exploitation complet, basé sur un noyau Linux et sur l'excellent lecteur multimédia qu'est MPlayer. Pas besoin de disque dur, vous n'avez qu'à insérer le CD auto-amorçable de la GeeXboX dans le lecteur de n'importe quel PC de type Pentium et supérieur pour l'utiliser. De plus, la GeeXboX est un logiciel libre, crée à l'aide de très nombreux programmes libres. Cela sous-entend que n'importe qui est autorisé à la modifier et à reconstruire sa propre version.<br/><br/>
+
+Vous êtes en mesure de vous interroger quant à l'intérêt de redémarrer votre ordinateur pour utiliser la GeeXboX pour faire ce qu'il vous était déjà possible de faire, mais pensez quelques instants à l'emploi possible sur des mini-PC tels que les plateformes Mini-ITX Epia/Eden de VIA ou de Shuttle. Il est désormais possible et abordable de ramener les DivX dans votre salon, en branchant simplement ce type de PC directement sur votre TV et ensemble hifi !!<br/><br/>
+
+A l'époque des premières phases de développement (Dec. 2002), il était uniquement possible de lire des vidéos encodées en DivX, mais désormais, presque tous les formats audio/vidéo sont compatibles avec la GeeXboX. Notre système supporte par exemple :<br/><br/>
+   * Les vidéos de type MPEG 1/2 (fichiers .MPG, VCDs, DVDs ...)<br/>
+   * Les vidéos de type MPEG 4 (DivX, XviD ...)<br/>
+   * Les vidéos de type RealMedia et Windows Media.<br/>
+   * Les flux OggMedia<br/>
+   * Les flux exclusivement Audio tels que le MP3, Ogg/Vorbis, WAV (AudioCD), AC3 ...<br/>
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="License">
+        All the programs used by the GeeXboX are protected by their respective license.<br/>They all are free software and most of them are covered by the GNU General Public Licence.<br/>
+The GeeXboX itself, meaning all the scripts which are used in the building process, are covered by the GNU General Public Licence.<br/>
+      </content>
+      <content lang="fr" title="License d'exploitation">
+        Tous les programmes utilisés par la GeeXboX sont protégés par leurs licenses respectives.<br/>Ils appartiennent tous à la famille des logiciels libres et la plupart d'eux sont couverts par la GNU General Public Licence. La GeeXboX elle-même, et donc tous les scripts utilisés pour sa construction, sont couverts par la GNU General Public Licence.<br/>
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="Want more ?">
+        'Sure you think that such a thing requires a new generation computer ;-) That's where you're wrong !! First of all, an old P2-400 with 64 MB of RAM will be quite powerful enough to let the magic plays. Besides, the GeeXboX ISO only takes about 4 MB on disc. And of course, the whole thing can be managed by a remote controller, thanks to its full OSD (On Screen Display) Menu.<br/>
+So, what are you still waiting for ?? Xmas ?<br/><br/>
+No way, just go to the <page name="download"/> section and enjoy ;-)<br/><br/><br/>
+<b>The GeeXboX's Team</b><br/>
+      </content>
+      <content lang="fr" title="Vous en voulez davantage ?">
+        Assuremment, vous devez penser qu'un tel système requiert un ordinateur de dernière génération ;-) C'est bien là que vous faites erreur !! D'une part, un "vieux" P2-400 doté de 64 Mo de mémoire devrait être suffisamment puissant pour laisser la magie opérer. D'autre part, l'image ISO de la GeeXboX ne requiert que 4 Mo sur le CD. Et, bien entendu, le tout peut être intégralement controllé au moyen d'une télécommande à infra-rouge, grâce à son menu OSD complet.<br/>             
+Alors, qu'attendez vous encore ?? <br/><br/>
+Rendez vous tout simplement dans la section <page name="download"/> et rejouissez vous ;-)<br/><br/><br/>
+<b>L'équipe GeeXboX</b><br/>
+      </content>
+    </subsection>
+  </section>
+</article>

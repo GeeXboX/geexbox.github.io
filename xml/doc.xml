@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<article>
+  <section>
+    <content lang="en" title="Documentation ..."/>
+    <content lang="fr" title="Documentation ..."/>
+    <subsection>
+      <content lang="en" title="How to use OSD menu ...">
+        The GeeXboX's OSD Menu can easily be controlled using either a single keyboard or a remote controller. Use the up and down arrows keys to switch between the main menu options. The right arrow is used to go to a specific submenu (i.e "Ok") and the left one is for coming back (i.e "Cancel").<br/><br/>
+
+          Here are the main menu's items :<br/><br/>
+          * <b>Open</b><br/>
+          <b>+++ Open file ...</b><i> # Open a single media file (Audio or Video)</i><br/>
+          <b>+++ Open playlist</b><i> # Open a MPlayer compatible playlist (.m3u files are supported)</i><br/>
+          <b>+++ Play DVD</b><i> # Play the first DVD chapter and title</i><br/>
+          <b>+++ Play VCD</b><i> # Used to play (S)VCD ((Super) VideoCD) at the first track</i><br/> 
+          <b>+++ Play Audio CD</b><i> # Play an Audio CD</i><br/>
+          * <b>Controls</b><br/>
+          <b>+++ Pause</b><i> # Pause/Resume function</i><br/>
+          <b>+++ Stop</b><i> # Stop the media playing.</i><br/>
+          <b>+++ Eject</b><i> # Eject the CD from the drive.</i><br/>
+          <b>+++ Prev/Next</b><i> # Go to the Next/Previous loaded stream</i><br/>
+          <b>+++ Jump to</b><i> # Jump to another stream / vcd track / dvd title</i><br/>
+          * <b>Options</b><br/>
+          <b>+++ Aspect</b><i> # Let you dynamically change image aspect ratio</i><br/>
+          <b>------ Original</b><i> # Reset ratio to its original value</i><br/>
+          <b>------ 4:3</b><i> # Switch video to a 4:3 (1.33) height/width ratio</i><br/>
+          <b>------ 16:9</b><i> # Switch video to a 16:9 (1.78) height/width ratio</i><br/>
+          <b>------ Cinemascope</b><i> # Switch video to a Cinemascope (2:35) height/width ratio</i><br/>
+          <b>+++ Audio Channel ...</b><i> # Let you dynamycally change the audio output channel</i><br/>
+          <b>+++ Subtitle Selection ...</b><i> # Let you dynamically change the subtitle to display</i><br/>
+
+          <b>+++ Switch TV-Out</b><i> # Switch from monitor's output to TV-Out</i><br/>
+          <b>+++ Switch Vertical Sync</b><i> # Switch On/Off the Vertical Synchronization (may be useful for nVidia cards)</i><br/>
+          * <b>Help</b><i> # Display OSD Help</i><br/>
+          * <b>Quit</b><i> # Shutdown the GeeXboX</i><br/>
+          <br/>
+
+          The GeeXboX has been compiled for supporting the Miro PcTV controller and ATI Remote Wonder. It means that if you're using another kind of remote, you may have to build your own GeeXboX, using the ISO generator. If you like to use another kind of remote that is not currently supported by the GeeXboX, you'll have to build the sources and to modify <i>./packages/lirc/lircd.conf</i>. See the <a href="http://www.lirc.org">LIRC WebSite</a> for further details about how to modify this file.
+      </content>
+      <content lang="fr" title="Guide d'utilisation du menu OSD ...">
+        Le menu OSD de la GeeXboX peut être très facilement controllé en utilisant un traditionnel clavier ou une télécommande. Utilisez les flèches Haut et Bas pour vous déplacer entre les différents options du menu. Les flèches de Droite et Gauche sont respectivement utilisées pour explorer un sous-menu (i.e "Ok") et en revenir (i.e "Annuler").<br/><br/>
+
+          Voici donc les options du menu principal :<br/><br/>
+          * <b>Ouvrir</b><br/>
+          <b>+++ Lire un fichier ...</b><i> # Ouvre un unique fichier multimédia (Audio ou Vidéo)</i><br/>
+          <b>+++ Lire une liste ...</b><i> # Ouvre une liste de lecture compatible avec MPlayer (les fichiers .m3u sont supportés)</i><br/>
+          <b>+++ Lire un DVD</b><i> # Lance le premier titre du premier chapitre d'un DVD</i><br/>
+          <b>+++ Lire un VCD</b><i> # Utilisé pour lire des (S)VCD ((Super) VidéoCD) à la première piste</i><br/> 
+          <b>+++ Lire un CD Audio</b><i> # Lecture d'un CD Audio</i><br/>
+          * <b>Controles</b><br/>
+          <b>+++ Pause</b><i> # Permet la Pause et le Retour de pause</i><br/>
+          <b>+++ Stop</b><i> # Stoppe la lecture du média </i><br/>
+          <b>+++ Eject</b><i> # Ejecte le CD du lecteur.</i><br/>
+          <b>+++ Précédent/Suivant</b><i> # Charge le flux Suivant/Précédent qui a été chargé</i><br/>
+          <b>+++ Aller à ...</b><i> # Se déplace vers un autre flux / piste de VCD / Titre de DVD</i><br/>
+          * <b>Options</b><br/>
+          <b>+++ Aspect</b><i> # Permet de changer dynamiquement le ratio de l'image</i><br/>
+          <b>------ Original</b><i> # Restaure l'image à son aspect original</i><br/>
+          <b>------ 4:3</b><i> # Affiche l'image au format 4:3 (1,33)</i><br/>
+          <b>------ 16:9</b><i> # Affiche l'image au format 16:9 (1,78)</i><br/>
+          <b>------ Cinemascope</b><i> # Affiche l'image au format Cinemascope (2:35)</i><br/>
+          <b>+++ Canal Audio ...</b><i> # Permet de changer dynamiquement le canal audio de sortie</i><br/>
+          <b>+++ Sélection du sous-titre ...</b><i> # Permet de changer dynamiquement les sous-titres à afficher</i><br/>
+          <b>+++ Activer la Sortie TV</b><i> # Bascule de la sortie moniteur vers la sortie TV et réciproquement</i><br/>
+          <b>+++ Activer la Sync. Vert.</b><i> # Active ou désactive la synchronisation verticale (semble utile sur les cartes nVidia)</i><br/>
+          * <b>Aide</b><i> # Affichage le menu d'aide</i><br/>
+          * <b>Quitter</b><i> # Met l'ordinateur hors tension.</i><br/>
+          <br/>
+
+          La GeeXboX a été compilée pour supporter les télécommandes Miro PcTV et ATI Remote Wonder. Cela signifie que, dans le cas où vous utiliseriez un autre type de télécommande, vous serez amener à reconstruire votre propre version de la GeeXboX, en modifiant utilisant le générateur d'ISO prévu à cet effet. Si vous souhaitez utiliser une télécommande non actuellement supportée par la GeeXboX, vous devrez reconstruire les sources et modifier le fichier <i>./packages/lirc/lircd.conf</i>. Consultez le <a href="http://www.lirc.org">Site Web LIRC</a> pour de plus amples détails sur la façon de modifier ce fichier.
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="Building the GeeXboX ...">
+        First, you have to be root (the building scripts have to mount the
+boot disk image in loopback).<br/><br/>
+Then basicaly you can build the iso with :<br/>
+ <b>make</b><br/>
+Or you can directly burn this iso with :<br/>
+ <b>make burn</b><br/><br/>
+
+When done, you can save disk space by cleaning the build tree :<br/>
+  <b>make clean</b><br/>
+or by doing a full cleaning, even removing downloaded sources :<br/>
+  <b>make distclean</b><br/><br/>
+
+There's also more advanced commands if you want hack around the GeeXboX :<br/>
+  <b>scripts/get package</b>        <i># download the package</i><br/>
+  <b>scripts/unpack package</b>     <i># unpack and prepare the package</i><br/>
+  <b>scripts/build package</b>      <i># build the package</i><br/>
+  <b>scripts/install package</b>    <i># install the package with the $INSTALL prefix</i><br/>
+  <b>scripts/clean package</b>      <i># clean the package source tree</i><br/>
+  <b>make exec</b>                  <i># launch directly the GeeXboX in a jail (i.e. chroot - EXPERIMENTAL FEATURE - Use it at your own risks !!)</i><br/><br/>
+
+If you've made a hacked version of the GeeXboX, you can easily build a small tar.gz for it with :<br/>
+  <b>make dist</b><br/>
+or a full tar (containing all sources) with :<br/>
+  <b>make fulldist</b><br/>
+or even, create the ISO generator package thanks to :<br/>
+  <b>make generator</b><br/>
+or, create the Linux GeeXboX's installator version with : <br/>
+  <b>make installator</b><br/><br/>
+  The only thing you will have to carry about is the GeeXboX configuration file.
+      </content>
+      <content lang="fr" title="Construire la GeeXboX ...">
+        Avant tout, vous devez être root (les scripts de constrcution nécessitent de monter l'image d'amorçage en loopback).<br/><br/>
+Ensuite, il est possible de construire l'image au moyen de :<br/>
+ <b>make</b><br/>
+Ou de directement la graver, via :<br/>
+ <b>make burn</b><br/><br/>
+
+Une fois terminé, vous pouvez économiser de l'espace disque en effaçant l'arbre de construction :<br/>
+  <b>make clean</b><br/>
+ou en procédant à un nettoyage complet, supprimant même les sources des programmes téléchargés :<br/>
+  <b>make distclean</b><br/><br/>
+
+Il existe également des commandes plus avancées; si vous désirez procéder à des modifications internes à la GeeXboX :<br/>
+  <b>scripts/get package</b>        <i># télécharge le paquetage</i><br/>
+  <b>scripts/unpack package</b>     <i># décompresse et prépare le paquetage</i><br/>
+  <b>scripts/build package</b>      <i># construit le paquetage</i><br/>
+  <b>scripts/install package</b>    <i># installe le paquetage avec le préfixe $INSTALL</i><br/>
+  <b>scripts/clean package</b>      <i># nettoye l'arbre de construction dupaquetage</i><br/>
+  <b>make exec</b>                  <i># lance directement la GeeXboX dans une cellule (i.e. chroot - Version EXPERIMENTALE - Soumis à votre responsabilité)</i><br/><br/>
+
+Si vous avez réalisé une modification interne à la GeeXboX, vous pouvez simplement construire un petit tar.gz au moyen de  :<br/>
+  <b>make dist</b><br/>
+ou un tar complet (incluant toutes les sources) via :<br/>
+  <b>make fulldist</b><br/>
+ou encore, créer l'archive du générateur d'ISO grâce à :<br/>
+  <b>make generator</b><br/>
+et enfin, pour générer l'installator ; <br/>
+  <b>make installator</b><br/><br/>
+
+  La seule chose dont vous ayez à vous soucier reste alors le fichier de configuration de la GeeXboX.
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="GeeXboX Config File ...">
+        The GeeXboX is mainly built as specified in it's configuration file, dexribing the compilation's options and the burner specification.<br/><br/>
+          
+          Here are the contents of <i>./config/options</i>, where you can choose your CPU family, the GeeXboX's theme, whether you want truetype fonts or not and many others things ...<br/><br/>
+
+          <b># Target CPU (i586 or C3)</b><br/>
+          <b>CPU=i586</b><br/>
+          <b># Theme (movies, aqua, classic)</b><br/>
+          <b>THEME=movies</b><br/>
+          <b># Default Langage (en/fr/it/cz/sk)</b><br/>
+          <b>LANG=en</b><br/>
+          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/leadtek)</b><br/>
+          <b>REMOTE=pctv</b><br/>
+          <b># Use Extra Binary Codecs (RealMedia/WindowsMedia 9)</b><br/>
+          <b>EXTRACODECS=no</b><br/>
+          <b># Use Samba shares (yes/no)</b><br/>
+          <b>SAMBA=yes</b><br/>
+          <b># Choose font type for OSD (truetype/bitmap)</b><br/>
+          <b>FONT=truetype</b><br/>
+          <b># Enable Debuging (build gdb ...)</b><br/>
+          <b>DEBUG=no</b><br/><br/>
+          <b># Burning options</b><br/><br/>
+          <b># device (ex: 0,0,0). See the output of cdrecord -scanbus</b><br/>
+          <b>BURNER=0,0,0</b><br/>
+          <b># blank the CD-RW before burning (yes/no)</b><br/>
+          <b>BLANK=yes</b><br/>
+          <b># you can also pass options to cdrecord :</b><br/>
+          <b>CDRECORD_OPTS=</b><br/>
+          <br/>
+
+          To sum up, the GeeXboX configuration files can be found here :<br/>
+* <b>./config/options</b> : main GeeXboX build options and burner specs<br/>
+* <b>./packages/linux/linux.conf</b> : this is the kernel config file, used to build the GeeXboX. It can be edited to fit your needs (e.g. some IR devices ...)<br/>
+* <b>./packages/MPlayer/menu_{en,fr,it,cz,sk}.conf</b> : modify this file to edit your menu items.<br/>
+* <b>./packages/MPlayer/mplayer.conf</b> : this file contains MPlayer's start options.
+      </content>
+      <content lang="fr" title="Fichier de Configuration ...">
+        La GeeXboX est construite en suivant les définitions présentes dans son fichier de configuration, décrivant les options de compilation ainsi que les spécifications propres au graveur de CD avec lequel l'image sera gravée.<br/><br/>
+          
+          Voici donc le contenu de <i>./config/options</i>, où vous pouvez choisir votre type de CPU, le thème, ainsi que si vous désirez utliser ou non des fontes de type TrueTypeet bien d'autres choses encore ...<br/><br/>
+          <b># Target CPU (i586 or C3)</b><br/>
+          <b>CPU=i586</b><br/>
+          <b># Theme (movies, aqua, classic)</b><br/>
+          <b>THEME=movies</b><br/>
+          <b># Default Langage (en/fr/it/cz/sk)</b><br/>
+          <b>LANG=en</b><br/>
+          <b># Remote to Use (pctv/logitech/hauppauge/realmagic/leadtek)</b><br/>
+          <b>REMOTE=pctv</b><br/>
+          <b># Use Extra Binary Codecs (RealMedia/WindowsMedia 9)</b><br/>
+          <b>EXTRACODECS=no</b><br/>
+          <b># Use Samba shares (yes/no)</b><br/>
+          <b>SAMBA=yes</b><br/>          
+          <b># Choose font type for OSD (truetype/bitmap)</b><br/>
+          <b>FONT=truetype</b><br/>
+          <b># Enable Debuging (build gdb ...)</b><br/>
+          <b>DEBUG=no</b><br/><br/>
+          <b># Burning options</b><br/><br/>
+          <b># device (ex: 0,0,0). See the output of cdrecord -scanbus</b><br/>
+          <b>BURNER=0,0,0</b><br/>
+          <b># blank the CD-RW before burning (yes/no)</b><br/>
+          <b>BLANK=yes</b><br/>
+          <b># you can also pass options to cdrecord :</b><br/>
+          <b>CDRECORD_OPTS=</b><br/>
+          <br/>
+
+          Pour résumer, les fichiers de configuration de la GeeXboX sont les suivants :<br/><br/>
+* <b>./config/options</b> : options principales de compilation et du graveur<br/>
+* <b>./packages/linux/linux.conf</b> : il s'agit du fichier de configurations du noyau Linux, utilisé pour construire la GeeXboX. Il peut être édité afin de répondre au mieux à vos besoins (pour le support de certains récepteurs infra-rouge par exemple)<br/>
+* <b>./packages/MPlayer/menu_{en,fr,it,cz,sk}.conf</b> : modifiez ce fichier pour éditer les options du menu OSD.<br/>
+* <b>./packages/MPlayer/mplayer.conf</b> : ce fichier contient les options de lancement de MPlayer.
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="MPlayer Documentation ...">
+        The GeeXboX is mainly featuring MPlayer. As this player is one of the most powerful media player, it can be started by several ways. In the GeeXboX, 2 files are used to control MPlayer's options :<br/><br/>
+          * <i>./packages/MPlayer/menu_{en,fr,it,cz,sk}.conf</i><br/>
+          * <i>./packages/MPlayer/mplayer.conf</i><br/><br/>
+
+          The <b>menu_{en,fr,it,cz,sk}.conf</b> is used to generate the OSD Menu. You may have to modify it whether you want to add or remove items from the menu or to change the items captions to fit your needs.<br/>
+          The <b>mplayer.conf</b> is related to MPlayer's lauching options. The default config file contains some of the following lines :<br/><br/>
+          <b>vo=vesa:vidix,vesa</b><i> # Video Output driver (Use VidiX if available, VESA otherwise)</i><br/>
+          <b>fs=yes</b><i> # Enable Fullscreen (need more CPU)</i><br/>
+          <b>zoom=yes</b><i> #Enable Zoom - modify aspect ratio (need more CPU)</i><br/>
+          <b>menu=yes</b><i> # Display OSD Menu</i><br/>
+          <b>double=yes</b><i> # Enable Double Buffering</i><br/>
+          <b>cache=8192</b><i> # Cache Size (in kB)</i><br/>
+          <b>idx=yes</b><i> # Let MPlayer rebuild file broken headers</i><br/>
+          <b>framedrop=yes</b><i> # When set to 'yes', MPlayer may skip decoding some frames if video plays too slowly</i><br/>
+          <b>lircconf=/etc/lirc</b><i> # Path to LIRC configuration file</i><br/>
+          <b>subfont-text-scale=3</b><i> # OSD Fonts Size</i><br/>
+          <br/>
+          
+          More documentation about MPlayer and it's configuration files may be found at <a href="http://www.mplayerhq.hu/DOCS/">MPlayer's Documentation</a>.
+      </content>
+      <content lang="fr" title="Documentation de MPlayer ...">
+        La GeeXboX est principalement basée sur l'utilisation de MPlayer. Comme ce lecteur est l'un des lecteurs multimédia les plus performant, il accepte de nombreuses options de configuration et de lancement. Dans la GeeXboX, 2 fichiers sont utilisés pour gérer les options de MPlayer :<br/><br/>
+          * <i>./packages/MPlayer/menu_{en,fr,it,cz,sk}.conf</i><br/>
+          * <i>./packages/MPlayer/mplayer.conf</i><br/><br/>
+
+          Le fichier <b>menu_{en,fr,it,cz,sk}.conf</b> est utilisé pour générer le menu OSD. Vous pouvez le modifier si vous décider d'ajouter ou supprimer des options au menu actuel, ou encore pour le traduire dans votre langue favorite.<br/>
+          Le fichier <b>mplayer.conf</b> est directement lié au mode de lancement de MPlayer. La configuration proposée par défaut contient les lignes suivantes :<br/><br/>
+          <b>vo=vesa:vidix,vesa</b><i> # Pilote de sortie Vidéo (Utilise le mode VidiX si disponible, le mode VESA sinon)</i><br/>
+          <b>fs=yes</b><i> # Active le mode Plein-Ecran (nécessite davantage de puissance CPU)</i><br/>
+          <b>zoom=yes</b><i> #Active le Zoom - modifie le rapport largeur/hauteur (nécessite davantage de puissance CPU)</i><br/>
+          <b>menu=yes</b><i> # Affiche le Menu OSD</i><br/>
+          <b>double=yes</b><i> # Utilise un double tampon pour l'affichage des images</i><br/>
+          <b>cache=8192</b><i> # Taille du Cache (en ko)</i><br/>
+          <b>idx=yes</b><i> # Permet de reconstruire l'entête du fichier si elle est endommagée</i><br/>
+          <b>framedrop=yes</b><i> # Lorsqu'il est activé, MPlayer peut 'sauter' le décodage de certaines images si la vidéo apparaît trop lentement</i><br/>
+          <b>lircconf=/etc/lirc</b><i> # Emplacement du fichier de configuration de LIRC</i><br/>
+          <b>subfont-text-scale=3</b><i> # Taille des fontes sur l'OSD</i><br/>
+          <br/>
+          
+          Davantage de documentation concernant MPlayer et ses fchiers de configuration peut être trouvée sur le site officiel de <a href="http://www.mplayerhq.hu/DOCS/">Documentation de MPlayer</a>.
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="Using the ISO generator ...">
+        Thanks to it, it's now possible to build a bootable image of the GeeXboX from the binaries. This let you build the GeeXboX after slight changes in the configuration files for example, with no need to build the full sources. Besides, the generation process can be done both under Linux tahn Windows. Just execute the ./generator.sh (under Linux) or generator.bat (under Windows) scripts and let the magic plays ;-)<br/><br/>
+
+          GeeXboX's customization is interesting under many points such as :<br/><br/>
+
+* <b>Include a movie</b> : You just have to put your movie or sound files and the playlist into the <b>iso</b> directory of the generator and regenerate the image. The GeeXboX will then boot on the CD and will automatically play the provided list.<br/><br/>
+
+* <b>Add extra codecs</b> : Even if GeeXboX has now support for RealMedia and Windows Media 9 codecs, these laters are not rights free and we do not get authorization to provide them in the released ISO :-( So, you'll have to add them and regenerate the ISO if you want them to be included. Don't worry, we could hardly make easier !! Just add the following files to the <b>iso/GEEXBOX/codecs</b> generator's directory :<br/><br/>
+
+Please download this <a href = "http://www1.mplayerhq.hu/MPlayer/releases/codecs/extralite.tar.bz2">archive</a> which contains the RealMedia 8/9 (used to read the RV9-encoded movies for example) and Windows Media 9 (WMV9/WMA9) codecs. Only the files <i>atrc.so.6.0, cook.so.6.0, sipr.so.6.0, drv2.so.6.0, drv3.so.6.0, drv4.so.6.0</i> for RealMedia and <i>wma9dmod.dll and wmv9dmod.dll</i> for Windows Media are really usefull. The other ones can be dropped.<br/><br/>
+
+* <b>Modify MPlayer's launch options</b> :<br/>
+ You just have to edit the contents fo the file <b>iso/GEEXBOX/etc/mplayer/mplayer.conf</b> and to generate the new ISO.<br/><br/>
+
+Of course, many other changes are availables, such as changing the supported remote, using another background video ... but we'll let you parse the README.txt file carefully to see the possibilities ;-)
+      </content>
+      <content lang="fr" title="Utilisation du générateur d'ISO ...">
+        Grâce à ce générateur d'ISO, il est désormais possible de reconstruire une image bootable de la GeeXboX à partir des binaires. Cela permet par exemple de reconstruire la GeeXboX suite à de petites modifications des fichiers de configuration, sans pour autant avoir à recompiler toutes les sources. De plus, la génération est possible aussi bien sous Linux que sous Windows. Exécutez simplement ./generator.sh (sous Linux) ou generator.bat (sous Windows) et laisser la magie apparaître ;-)<br/><br/>
+
+          La personnalisation de la GeeXboX est intéressante sur plusieurs aspects :<br/><br/>
+
+* <b>Inclure un film</b> : Il vous suffit de mettre votre film ou vos fichiers sons ainsi que leur liste de lecture dans le répertoire <b>iso</b> du générateur et de regénérer l'image ISO. La GeeXboX bootera alors sur le CD et lancera directement la lecture.<br/><br/>
+
+* <b>Rajouter des codecs supplémentaires</b> : Si la GeeXboX supporte désormais les codecs RealMedia et Windows Media 9, ces derniers ne sont pas libres de droit pour autant et nous ne disposons pas de l'autorisation permettant leur diffusion au sein de nos ISO précompilées. Aussi, vous devrez les ajouter et regénérer l'ISO si votre souhait est de les voir inclus. Ne vous inquiétez pas, il n'y a rien de plus simple !! Ajoutez simplement les fichiers suivants au répertoire <b>iso/GEEXBOX/codecs</b> du générateur :<br/><br/>
+
+Veuillez télécharger cette <a href = "http://www1.mplayerhq.hu/MPlayer/releases/codecs/extralite.tar.bz2">archive</a>, qui contient les codecs RealMedia 8/9 (utilisés pour lire le format RV9 par exemple) et Windows Media 9 (WMV9/WMA9). Seuls les fichiers <i>atrc.so.6.0, cook.so.6.0, sipr.so.6.0, drv2.so.6.0, drv3.so.6.0, drv4.so.6.0</i> pour RealMedia et <i>wma9dmod.dll et wmv9dmod.dll</i> pour Windows Media sont réellement utiles.<br/><br/>
+
+* <b>Modifier les options de lancement de MPlayer</b> : Il vous suffira pour cela de simplement modifier le contenu du fichier <b>iso/GEEXBOX/etc/mplayer/mplayer.conf</b> et à nouveau de regénérer l'ISO.<br/><br/>
+
+De nombreuses autres modifications sont bien entendu possibles, comme le changement de télécommande, d'image de fond ... mais nous vous laissons parcourir en détail le fichier README.txt fourni en conséquence ;-)
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="Using the installator ...">
+        With GeeXboX 0.90-4, you're now able to quickly and easily install the system on any IDE hard disk or USB keys (check that your motherboard's BIOS support boot from USB-HDD). You can install GeeXboX on a new disk or on an empty partition from your current disk. All you need is a partition of at least 8 MB of disk storage (16 MB will be nice, so that you can add more codecs and backgrounds). Plesa note that you MUST use a primary partition (not logical) of less than 1 GB.<br/><br/>
+          Installation is not quite difficult. You can either do it from an existing GNU/Linux system or directly when booting the GeeXboX CDROM. At the IsoLinux prompt <b>"boot:"</b> (just before loading GeeXboX), just hit a key and type <b>install</b>. The GeeXboX will now load on a menu for HDD install.<br/><br/>
+
+          Just follow the instructions and choose the hard disk on which you want GeeXboX to be installed. Disks are named with Linux systems notation (hda, hdb, hdc, hdd). The 'a' letter stands for the master IDE 0 device, 'b' for the slave IDE 0 device ('c' and 'd' are the same but for IDE 1 channel). When done, you'll get a <b>cfdisk</b> screen which will let you partitionnize your disk. Use the arrows to go to some partition representing <i>Free Space</i> and hit the <b>New</b> button. Then, choose the <b>Type 06</b> (FAT16) with the provided menu. Finish with <b>Write</b> and the <b>Finish</b>.<br/><br/>
+
+          Confirm the partition where you want the system to be install and format it. Then, the installator ask you whether you want or not for a bootloader to be installed. A bootloader is a software that let you boot from a partition. If the hard disk is designed to be used with GeeXboX only (like USB keys or old small hard disks), say <b>Yes</b> to install the SysLinux bootloader. In other case, (it suppose that you already got an operating system), you can use your current bootloader (like GRUB or LILO for Linux or Windows 2k/XP boot manager) to add GeeXboX to your actual multiboot menu. When done, you might be able to boot GeeXboX from hard disk as any other system in a few times.<br/><br/>
+
+          If you really like GeeXboX and uses it frequently, it could be a really good idea to install it on a hard disk. Indeed, the system can be seen a new drive on Windows or Linux and so, it can be easily modify to fit your needs (changing MPlayer's configuration file, supported remote, network configuration ...) without having to regenerate the ISO and burn a CD.
+      </content>
+      <content lang="fr" title="Utilisation de l'installator ...">
+        Avec le version 0.90-4 de la GeeXboX, il est possible d'installer rapidement et facilement le système sur n'importe quel disque dur IDE ou clé USB (vérifiez néanmoins que le BIOS de votre carte-mère permette le démarrage depuis un périphérique USB-HDD). Vous pouvez installer la GeeXboX sur un disque vierge ou sur une partition non utilisée de votre disque actuel. Tout ce dont vous aurez besoin, c'est d'une partition d'au moins 8 Mo d'espace disque (16 Mo paraissent plus appropriés, ainsi vous pourrez rajouter davantage de codecs ou fonds d'écran). Veuillez noter que la partition doit être de type primaire (et non logique) et faire un maximum de 1 Go.<br/><br/>
+
+          L'installation en elle-même n'est pas très compliquée. Elle peut être réalisée soit depuis un système GNU/Linux existant ou directement depuis le démarrage du CDROM. Au prompt IsoLinux de démarrage <b>"boot:"</b> (juste avant le chargement de la GeeXboX), pressez une touche et tapez le mot <b>install</b>. La GeeXboX chargera alors le menu d'installation sur disque dur.<br/><br/>
+
+          Suivez les instructions et choisissez sur quel disque dur vous souhaitez installer la GeeXboX. Le nommage des disques est conforme à celui des systèmes Linux à savoir hda, hdb, hdc, hdd. La lettre 'a' représente le périphérique maître du canal IDE 0, 'b' pour l'esclave de l'IDE 0 ('c' et 'd' sont de même mais pour la canal IDE 1). Une fois ceci fait, vous arriverez à l'écran de <b>cfdisk</b>, qui vous permettra de partitionner votre disque. Utilisez les flèches pour aller à une partition rerésentant de l'espace non partitionné et choisissez le menu <b>New</b>. Puis, optez pour le type de fichier <b>Type 06</b> (FAT16) au moyen du menu adéquat. Finissez au moyen de <b>Write</b> puis du bouton <b>Finish</b>.<br/><br/>
+
+          Confirmez la partition sur laquelle vous souhaitez installer le système et formatez la. L'installator vous demande alors si vous souhaitez ou non installer à chargeur de démarrage. Ce dernier est un logiciel permettant de démarrer sur une partition. Si le disque dur est prévu pour contenir exclusivement le système GeeXboX, (comme les clés USB ou d'anciens disques de taille réduite), choisissez <b>Yes</b> pour installer le chargeur SysLinux. Dans les autres cas, (cela suppose que vous disposez déjà d'un système d'exploitation utilisable), vous pouvez continuer d'utiliser votre chargeur de démarrage actuel (tels que GRUB ou LILO pour Linux ou le gestionnaire de démarrage de Windows 2k/XP) et ajouter une entrée pour la GeeXboX à votre menu de multiboot actuel. Une fois temriné, vous devriez être à même de démarrer la GeeXboX depuis le disque dur, comme vous le feriez avec n'importe quel autre système.<br/><br/>
+
+          Si vous aimez la GeeXboX et l'utilisez régulièrement, cela peut être une bonne idée de l'installer sur disque dur. En effet, le système sera vu comme un nouveau lecteur sous Windows ou Linux et ainsi, il sera très facilement possible de le modifier pour qu'il corresponde au mieux à vos besoins (en modifiant la configuration de MPlayer, la télécommande supportée, la configuration du réseau ...) sans avoir à regénérer l'ISO et graver un CD.
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="Editing Network Configuration ...">
+        GeeXboX 0.90-4 comes with a network support for most of the ethernet cards (not all of them unfortunately) and a Samba (Windows shares) support. GeeXboX is running a DHCP client which is trying to autoconfigure your network adapter. Whether you do not get a DHCP server on your network, you'll have to modify the <b>/etc/network</b> file which contains the following lines : <br/><br/>
+
+* <b> HOST=""                 # GeeXboX IP ("" for DHCP)</b><br/>
+* <b> USER=""                 # User Login ("" for none)</b><br/>
+* <b> PWD=""                  # User Password ("" for none)</b><br/><br/>
+
+You can easily modify the IP and Samba Login and Password. On boot, the GeeXboX is checking for remote computers from a common domain and try to automount the Samba Windows shares. Be sure that all of your computers are on the same domain in order to mount all the shares.
+      </content>
+      <content lang="fr" title="Modifier la configuration du réseau ...">
+        La version 0.90-4 de la GeeXboX rajoute le support réseau pour la plupart des cartes Ethernet (malheureusement pas toutes) ainsi qu'un support du protocole Samba (i.e. les partages Windows). La GeeXboX possède un client DHCP permettant de configurer automatiquement votre carte réseau. Dans le cas où votre réseau ne possède pas de serveur DHCP, vous aurez à modifier le fichier <b>/etc/network</b>, contenant les lignes suivantes : <br/><br/>
+
+* <b> HOST=""                 # GeeXboX IP ("" for DHCP)</b><br/>
+* <b> USER=""                 # User Login ("" for none)</b><br/>
+* <b> PWD=""                  # User Password ("" for none)</b><br/><br/>
+
+Vous ouvez très facilement modifier l'IP ainsi que le login et mot de passe des partages Samba. Au démarrage, la GeeXboX cherche la présence d'odrinateurs distants sur un même domaine et essaie de monter automatiquement tous les partages Windows disponibles. Prenez garde à ce que tous les ordinateurs soient bien configurés avec le même nom de domaine si vous désirez que tous les partages soient reconnus.
+      </content>
+    </subsection>
+  </section>
+</article>

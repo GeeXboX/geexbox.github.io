@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<article>
+  <define name="req-lirc">
+    <b><a href="http://www.lirc.org/">http://www.lirc.org</a></b>
+  </define>
+  <define name="req-gcc">
+    <b><a href="http://gcc.gnu.org/">gcc</a></b>
+  </define>
+  <define name="req-make">
+    <b><a href="http://www.gnu.org/software/make/">make</a></b>
+  </define>
+  <define name="req-patch">
+    <b><a href="http://www.gnu.org/software/patch/">patch</a></b>
+  </define>
+  <define name="req-wget">
+    <b><a href="http://www.gnu.org/software/wget/">wget</a></b>
+  </define>
+  <define name="req-nasm">
+    <b><a href="http://freshmeat.net/projects/nasm/?topic_id=48">nasm</a></b>
+  </define>
+  <define name="req-dosfstools">
+    <b><a href="ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools/">dosfstools</a></b>
+  </define>
+  <define name="req-mkisofs">
+    <b><a href="http://www.fokus.gmd.de/research/cc/glone/employees/joerg.schilling/private/mkisofs.html">mkisofs</a></b>
+  </define>
+  <define name="req-mkzftree">
+    <b><a href="http://www.kernel.org/pub/linux/utils/fs/zisofs/">mkzftree</a></b>
+  </define>
+  <define name="req-cdrecord">
+    <b><a href="http://www.fokus.fhg.de/research/cc/glone/employees/joerg.schilling/private/cdrecord.html">cdrecord</a></b>
+  </define>
+
+  <section>
+    <content lang="en" title="Requirements ..."/>
+
+    <content lang="fr" title="Pré-Requis ..."/>
+    <subsection>
+      <content lang="en" title="Hardware Needs">
+        'Sure GeeXboX is an operating system but you still need something to boot on ;-) You're lucky, GeeXboX is based on MPlayer, which can be considered as one of the less cpu-dependant movie player, thanks to the use of FFMpeg for decoding movies.<br/><br/>
+So, here's what can be considered as a typical / minimal config :<br/>
+* Pentium-Class CPU or above (P2-400 should be quite enough)<br/>
+* a VESA 2.0 compliant graphics card.<br/>
+* at least 64 MB of RAM<br/>
+* CD-ROM or DVD-ROM drive<br/>
+* Motherboard which supports booting on CD-ROM (should be ok for everyone ;-)<br/>
+* Keyboard or Remote Controller, using a Lirc-compatible IR (InfraRed) receiver
+  (check <use name="req-lirc"/> to build yours), e.g. Miro PcTV's one.
+      </content>
+      <content lang="fr" title="Besoins Matériel">
+        La GeeXboX a beau être un système d'exploitation, elle ne nécessite pas moins quelque chose sur quoi démarrer ;-) Vous avez de la chance, elle est basée sur MPlayer, qui peut être considéré comme l'un des lecteurs multimédia les moins dépendant de puissance CPU, de par l'utilisation de la librairie FFMpeg pour décoder les vidéos par exemple.<br/><br/>
+Voici donc ce qui peut être considéré comme une configuration typique / minimale :<br/>
+* CPU de type Pentium ou Supérieur (un P2-400 devrait parfaitement convenir)<br/>
+* une carte graphique compatible VESA 2.0<br/>
+* environ 64 Mo de mémoire vive<br/>
+* un lecteur CD-ROM ou DVD-ROM<br/>
+* une carte-mère supportant le démarrage sur CD (cela devrait être bon dans 99% des cas ;-)<br/>
+* un clavier ou une télécommande (utilisant un récepteur infra-rouge compatible avec Lirc - vérifiez le sur <use name="req-lirc"/> pour construire le votre), comme par exemple celui fourni avec la carte Miro PcTV.
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="Software Requirements">
+        This is usefull only if you consider compiling / customizing your own GeeXboX. First of all, GeeXboX has to be compiled under GNU/Linux. Besides, you may need some packages such as : <br/><br/>
+* <use name="req-gcc"/> : The GNU Compiler Collection, used to build the whole project. Please avoid using Gcc 2.96 (available on old Redhat and Mandrake distributions) which is not really MPlayer-compliant.<br/>
+* <use name="req-make"/> : GNU Make is a program that determines which pieces of a large program need to be recompiled and issues the commands to recompile them, when necessary.<br/>
+* <use name="req-patch"/> : this package is needed to patch some official programs sources to customize them to be GeeXboX compliant or simply to add some features.<br/>
+* <use name="req-wget"/> : Wget is a network utility to retrieve files from the Web using http and ftp, the two most widely used Internet protocols.<br/>
+* <use name="req-nasm"/> : This is an x86 assembler which will flat-form binary files, a.out, COFF and ELF Unix object files, and Microsoft 16-bit DOS and Win32 object files. It is used to compile the uClibc of the GeeXboX.<br/>
+* <use name="req-dosfstools"/> : Utilities to create and check MS-DOS FAT filesystems.<br/>
+* <use name="req-mkisofs"/> : Creates ISO-9660 CD-ROM filesystem images.<br/>
+* <use name="req-mkzftree"/> : this program is available from the zisofs-tools package and let you create compressed iso images.<br/>
+* <use name="req-cdrecord"/> : A command line CD writing tool cdrecord allows you to create CDs.<br/><br/>
+
+          Besides, some modules need to be compiled in your kernel. Indeed, for creating DOS filesystem (standard boot CDROM filesystem), you need to add these modules into the Kernel <i>FileSystems</i> and <i>Block Device</i> menus :<br/><br/>
+* CONFIG_FAT_FS<br/>
+* CONFIG_MSDOS_FS<br/>
+* CONFIG_UMSDOS_FS<br/>
+* CONFIG_VFAT_FS<br/>
+* CONFIG_BLK_DEV_LOOP, for device loopback support.<br/><br/>
+
+          You also need to have at least 500 MB of free disk space in order to build the GeeXboX properly.<br/><br/>
+
+          And last but not least, GeeXboX can only be compiled by the super-user, because compilation actually need to mount in loopback the newly-created filesystem, which can be done only by root ;-(
+      </content>
+      <content lang="fr" title="Besoins Logiciel">
+        Ceci n'est nécessaire que dans le cas où vous souhaiteriez construire ou personnaliser votre propre version de la GeeXboX. Avant toute chose, il vous faut savoir que la construction nécessite d'être faite sous un système GNU/Linux. De plus, certains paquetages sont requis, tels que : <br/><br/>
+* <use name="req-gcc"/> : Le Compilateur GNU, utilisé pour construire l'intégralité du projet. Veuillez éviter d'utiliser la version 2.96 (disponible sur les anciennes versions des distributions Redhat et Mandrake) en raison de sa non compatibilité réelle avec MPlayer.<br/>
+* <use name="req-make"/> : GNU Make est un programme qui détermine quels parties d'un logiciel nécessitent réellement d'êtres reconstruites.<br/>
+* <use name="req-patch"/> : ce paquetage est utilisé pour effectuer des modifications aux sources officielles des logiciels et ce, afin de les personnaliser pour être compatibles avec la GeeXboX ou simplement pour leur rajouter des fonctionnalités.<br/>
+* <use name="req-wget"/> : Wget est un utilitaire réseau chargé de rappatrier des fichiers depuis Internet en utilisant les protocoles HTTP et FTP, les 2 plus couramment utilisés.<br/>
+* <use name="req-nasm"/> : C'est un assembleur de code x86, permettant de générer des fichiers binaires de type a.out, COFF et des fichiers objets Unix ELF, ainsi que des binaires Microsoft 16-bit pour DOS et Win32. Il sera utilisé pour bâtir la uClibc de la GeeXboX.<br/>
+* <use name="req-dosfstools"/> : Utilitaires permettant la création et vérification de systèmes de fichiers MS-DOS FAT.<br/>
+* <use name="req-mkisofs"/> : Génère des images ISO-9660 (système de fichier des CD-ROM).<br/>
+* <use name="req-mkzftree"/> : ce programme est disponible dans le paquetage zisofs-tools et permet des créer des images iso compressées.<br/>
+* <use name="req-cdrecord"/> : Un logiciel de gravure de CD en ligne de commande.<br/><br/>
+
+          De plus, certains modules se doivent d'être compilés dans le noyau de l'hôte désirant créer une GeeXboX. En effet, afin de générer un système de fichier de type DOS (système standard d'amorçage des CDROM), vous devrez ajouter les modules suivants à votre noyau dans les sections <i>FileSystems</i> et <i>Block Device</i> :<br/><br/>
+* CONFIG_FAT_FS<br/>
+* CONFIG_MSDOS_FS<br/>
+* CONFIG_UMSDOS_FS<br/>
+* CONFIG_VFAT_FS<br/>
+* CONFIG_BLK_DEV_LOOP, pour permettre un montage en loopback.<br/><br/>
+
+          Vous devez en outre disposer d'un minimum de 500 Mo d'espace disque disponible afin de construire la GeeXboX correctement.<br/><br/>
+
+          Et pour finir, la GeeXboX ne peut être compilée que par le super-utilisateur, la compilation nécessitant de monter en loopback le système de fichiers nouvellement crée, ce qui ne peut être fait que par le root ;-(
+      </content>
+    </subsection>
+  </section>
+</article>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<article>
+  <section>
+    <content lang="en" title="Latest News ..."/>
+    <content lang="fr" title="Dernières Nouvelles ..."/>
+    <subsection>
+      <content lang="en" title="GeeXboX Summer Edition : 0.90-4 (08/05/03)">
+        Here is GeeXboX's new release ;-) It now comes with the 2 main features that were missing and requested : network support and hard disk installation. Take a look further, changes are still consequent ;-)<br/><br/>
+* Add a runtime subtitle file selector.<br/>
+* SysLinux bootloader has been replaced by IsoLinux, providing quicker boot with no more floppy emulation.<br/>
+* Add a TCP/IP and network ethernet support and autoconfiguration with DHCP client.<br/>
+* Add support and automount for all Windows shares (Samba support).<br/>
+* Add support for Leadtek TV2000 remote.<br/>
+* Add support for homemade LIRC receivers.<br/>
+* Add Italian, Czech and Slovak langage support.<br/>
+* Add a new theme (design and boot logo).<br/>
+* Add an easy HDD and USB keys installator (just hit <b>install</b> at boot prompt).<br/><br/>
+
+        The GeeXboX's website has also been modified to provide better user's support and faster developpement : <br/><br/>
+* This website is now accesible from <b><a href="http://www.geexbox.org/">http://www.geexbox.org/</a></b><br/>
+* You can now suscribe to a developper mailing list to help for the developpement or simply be aware of daily evolution.<br/>
+* You can get current developpement version from CVS.<br/>
+      </content>
+      <content lang="fr" title="GeeXboX Summer Edition : 0.90-4 (08/05/03)">
+        Voici venue la nouvelle version de la GeeXboX ;-) Elle comprend désormais les 2 principales fonctionnalités qui lui manquaient et que vous attendiez tant, à savoir : le support réseau and l'installation sur disque dur. Regardez plus en détails, les changements sont assez conséquents ;-)<br/><br/>
+* Ajout d'un menu de sélection dynamique des sous-titres.<br/>
+* Le chargeur SysLinux a été remplacé par IsoLinux, permettant un démarrage plus rapide et ne nécessitant plus d'émulation disquette.<br/>
+* Ajout du support TCP/IP et des cartes réseaux Ethernet avec configuration automatique via DHCP.<br/>
+* Ajout du support et du montage automatique des partages Windows (support Samba).<br/>
+* Support de la télécommande Leadtek TV2000.<br/>
+* Support des récepteurs LIRC fait-maison.<br/>
+* Support des langages Italien, Tchèque et Slovaque.<br/>
+* Ajout d'un nouveau thème (design et logo de boot).<br/>
+* Ajout d'un installateur rapide pour disques dur et clés USB (tapez simplement <b>install</b> au prompt de démarrage).<br/><br/>
+
+        Le site de la GeeXboX a également subit quelques modifications permettant un meilleur support utilisateur ainsi qu'un développement plus rapide : <br/><br/>
+* Le site est désormais accessible depuis l'adresse <b><a href="http://www.geexbox.org/">http://www.geexbox.org/</a></b><br/>
+* Vous pouvez désormais souscrire à la liste de diffusion pour développeurs, permettant de participer au développement du système or simplement pour être informé des évolutions journalières.<br/>
+* La version en cours de développement est disponible au téléchargement depuis un CVS.<br/>
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="GeeXboX Revolution : 0.90-3 (06/25/03)">
+        Seems it has been a while since last release ;-) But its contents come with its name ;-) Whether the overall system hasn't change much, you'll be please to discover all of theses news features for which you've juste waited for so long :<br/><br/>
+
+* Support for multilingual menus.<br/>
+* Change the quit/eject scheme.<br/>
+* Support for RealMedia 8/9 and Windows Media 9 codecs (needs to regenerate the ISO).<br/>
+* Better CD/DVD drives detection.<br/>
+* Reduction of the CD's rotation speed.<br/>
+* Support for hardware acceleration (vidix) on EPIA 800.<br/>
+* Support for on-the-fly image ratio switch.<br/>
+* Support for on-the-fly audio streams switch.<br/>
+* Support for on-the-fly subtitles switch.<br/>
+* Display subtitles in a more traditionnal font.<br/>
+* Support for FireWire devices.<br/>
+* Support for PcTV, RealMagic, Hauppage, Logitech and especially ATI Remote Wonder remote controllers..<br/>
+* No more distinction between EDEN and i586 versions.<br/>
+* Partial support for some Plug'n Play ISA sound cards (untested feature).<br/>
+* Add an ISO generator, that let you regenerate a customized ISO (or include a movie) in just a few seconds without building the sources (available under GNU/Linux and Microsoft Windows 9x/NT/2k/XP systems).<br/>
+      </content>
+      <content lang="fr" title="GeeXboX Revolution : 0.90-3 (06/25/03)">
+        On peut dire qu'elle aura pris son temps celle là. Mais son contenu est à la hauteur de son nom ;-) Si le fonctionnement global reste inchangé, vous serez ravis de découvrir tous ces petits plus pour lesquels vous avez tous tant attendu :<br/><br/>
+
+* Support des menus multilangues.<br/>
+* Changement de la procédure d'arrêt et d'éjection.<br/>
+* Support des codecs RealMedia 8/9 et Windows Media 9 (nécessaire de regénérer l'ISO).<br/>
+* Meilleure détection des lecteurs CD/DVD.<br/>
+* Réduction de la vitesse de rotation des CD.<br/>
+* Support de l'accélération matérielle (vidix) pour les EPIA 800.<br/>
+* Support du changement de ratio d'image à la volée.<br/>
+* Support du changement du flux audio à la volée.<br/>
+* Support du changement de sous-titres à la volée.<br/>
+* Affichage des sous-titres dans une police moins extravagante.<br/>
+* Support des périphériques FireWire.<br/>
+* Support des télécommandes PcTV, RealMagic, Hauppage, Logitech et surtout ATI Remote Wonder.<br/>
+* Plus de distinction entre les versions EDEN et i586.<br/>
+* Support partiel de certaines cartes sons au format ISA Plug'n Play (non testé).<br/>
+* Ajout d'un générateur d'ISO, permettant de regénérer une ISO personnalisée (ou d'y inclure un DivX) en quelques secondes seulement sans recompiler les sources (disponible sous GNU/Linux et Microsoft Windows 9x/NT/2k/XP).<br/>
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="GeeXboX Reloaded : 0.90-2 (05/28/03)">
+        You enjoyed 0.90-1 ? We just listened to your requests and new release has finally come. Since the first public release's day, almost 15000 ISO have been downloaded. Hope this one will do the same. So here are the news :<br/><br/>
+* Support for almost all PCI or motherboards integrated soundcards (ISA sound cards are still NOT supported at all).<br/>
+* Support for USB Keyboards<br/>
+* Support for SCSI CDROM and Disks and Adaptec SCSI controllers.<br/>
+* Support for FireWire/IEEE1394 CDROM and Disks (no HotPlug). EDIT : Seems to be broken :-(<br/>
+* Support for NTFS FileSystem.<br/>
+* Support for S3 Savage cards' TV-Out.<br/>
+* No more distinction between Standard and ACPI version.<br/>
+* Drives has been renamed for easier understanding.<br/>
+      </content>
+      <content lang="fr" title="GeeXboX Reloaded : 0.90-2 (05/28/03)">
+        Vous avez apprécié la version 0.90-1 ? Nous avons écouté vos requêtes et la nouvelle version est désormais disponible. Depuis le jour de sortie de la première version publique, plus de 15000 ISO ont été téléchargées !! Espérons que cette version fera de même ;-) Voici donc les principaux changements :<br/><br/>
+* Support de presque toutes les cartes son PCI ou intégrées à la carte-mère (les cartes sons ISA ne sont toujours pas supportées).<br/>
+* Support des claviers USB<br/>
+* Support des lecteurs CDROM et disques SCSI ainsi que des controlleurs Adaptec.<br/>
+* Support des CDROM et disques FireWire/IEEE1394 (pas de branchement à chaud). EDIT : Semble ne pas fonctionner :-(<br/>
+* Support du système de fichiers NTFS.<br/>
+* Prise en charge de la sortie TV des cartes S3 Savage.<br/>
+* Plus de distinction entre les versions standard et ACPI.<br/>
+* Les noms de lecteurs ont été renommés pour plus de compréhension.<br/>
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="GeeXboX First Public Release : 0.90-1 (05/16/03)">
+        GeeXboX is a full standalone media player. It's a boot CD based on Linux which allows you to watch movies or listen to music. It supports a lot of most formats, such as MPEG, AVI, DivX, XviD, Ogg/Vorbis (Ogm, Ogg), RealMedia, MP3, DVD, VCD and Audio CD. Here is a few examples of its capabilities : <br/><br/>
+
+* Support for MPEG 1/2 movies (MPG files, VCDs, DVDs ...)<br/>
+* Support for MPEG 4 movies (DivX, XviD, FFMpeg ...)<br/>
+* Support for OggMedia streams<br/>
+* Support for Audio streams like MP3, Ogg/Vorbis, WAV (AudioCD), AC3 ...<br/>
+* Support for IR remote controllers<br/>
+* Support for ATI and nVidia cards TV-Out<br/>
+* Support for subtitled movies<br/>
+* Support for media playlist (including WinAmp .m3u)<br/>
+* Support for USB Drives<br/>
+* Fully customizable with themes.<br/>
+* Fully controllable by OSD Menu.<br/>
+* Fully bootable Operating System (i.e. don't need any hard disk to boot).<br/>
+<br/>
+Don't wait anymore, just go to the <page name="download"/> Section.<br/>
+<br/>
+<b>The GeeXboX's Team</b>
+      </content>
+      <content lang="fr" title="GeeXboX First Public Release : 0.90-1 (05/16/03)">
+        La GeeXboX est un lecteur multimédia autonome. C'est en fait un CD auto-amorçable, basé sur un noyau Linux, vous permettant de visionner des films ou d'écouter de la musique. Elle supporte de très nombreux formats, comme par exemple les MPEG, AVI, DivX, XviD, Ogg/Vorbis (Ogm, Ogg), RealMedia, MP3, DVD, VCD et autres CD Audio. Voici quelques exemples de l'étendue de ces capacités : <br/><br/>
+
+* Support des vidéos de type MPEG 1/2 (fichiers .MPG , VCDs, DVDs ...)<br/>
+* Support des vidéos MPEG 4 (DivX, XviD, FFMpeg ...)<br/>
+* Support des flux OggMedia <br/>
+* Support des flux audio exclusifs tels que le MP3, l'Ogg/Vorbis, les .WAV (CD Audio), AC3 ...<br/>
+* Support des télécommandes infra-rouges<br/>
+* Support de la sortie TV des cartes graphiques ATI et nVidia <br/>
+* Support des films sous-titrés<br/>
+* Support des listes de lecture (incluant les .m3u de WinAmp par exemple)<br/>
+* Support des lecteurs externes au format USB <br/>
+* Entièrement personnalisable à l'aide de nombreux thèmes<br/>
+* Entièrement controlable à l'aide du menu interractif à l'ecran (OSD)<br/>
+* Système d'exploitation complet (i.e. ne nécessite pas de disque dur d'installé pour démarrer).<br/>
+<br/>
+N'attendez plus, dirigez vous vers la Section de <page name="download"/>.<br/>
+<br/>
+<b>L'équipe GeeXboX</b>
+      </content>
+    </subsection>
+  </section>
+</article>

@@ -1,0 +1,50 @@
+<!ELEMENT article (define | section)*>
+<!ELEMENT define (#PCDATA | use | center | page | webmaster | users | devel | xhtml | css | openweb)*>
+<!ELEMENT use EMPTY>
+<!ELEMENT section (content | subsection)*>
+<!ELEMENT subsection (content)*>
+<!ELEMENT content (#PCDATA | use | center | page | webmaster | users | devel | xhtml | css | openweb)*>
+<!ELEMENT center (#PCDATA | use | center | page | webmaster | users | devel | xhtml | css | openweb)*>
+<!ELEMENT page EMPTY>
+<!ELEMENT webmaster EMPTY>
+<!ELEMENT users EMPTY>
+<!ELEMENT devel EMPTY>
+<!ELEMENT xhml EMPTY>
+<!ELEMENT css EMPTY>
+<!ELEMENT openweb EMPTY>
+
+<!ATTLIST define name NMTOKEN #REQUIRED>
+<!ATTLIST use name NMTOKEN #REQUIRED>
+<!ATTLIST content lang NMTOKEN "en"
+                  title CDATA #IMPLIED>
+<!ATTLIST page name NMTOKEN #REQUIRED>
+<!ATTLIST xhml title CDATA #IMPLIED>
+<!ATTLIST css title CDATA #IMPLIED>
+<!ATTLIST openweb title CDATA #IMPLIED>
+
+
+<!ELEMENT text (#PCDATA)>
+<!ATTLIST text lang NMTOKEN "en">
+
+
+<!ELEMENT banner (logo, langs)>
+<!ELEMENT logo EMPTY>
+<!ELEMENT langs (text*)>
+
+<!ATTLIST logo link  CDATA #REQUIRED
+               src   CDATA #REQUIRED
+               alt   CDATA #REQUIRED
+               title CDATA #REQUIRED>
+
+
+<!ELEMENT menu (item*)>
+<!ELEMENT item (text*, subitem*)>
+<!ELEMENT subitem (text*)>
+
+<!ATTLIST item name NMTOKEN #REQUIRED
+               id   NMTOKEN #REQUIRED>
+<!ATTLIST subitem name NMTOKEN #REQUIRED
+                  url  CDATA   #REQUIRED>
+
+
+<!ELEMENT ours (content)*>

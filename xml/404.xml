@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<article>
+  <section>
+    <content lang="en" title="Error 404">
+      <br/><br/>
+      The requested page do not exist.
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    </content>
+    <content lang="fr" title="Erreur 404">
+      <br/><br/>
+      La page demandé n'existe pas.
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    </content>
+  </section>
+</article>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE ours SYSTEM "geexbox.dtd">
+
+<ours>
+  <content lang="en">Valid <xhtml title="Check page validity"/> and <css title="Check CSS Style Validity"/> Page. Design from the <openweb/>.</content>
+  <content lang="fr">Page conforme aux spécifications <xhtml title="Check page validity"/> et <css title="Check CSS Style Validity"/>. Design par le <openweb/>.</content>
+</ours>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<article>
+  <define name="ct-devel-sub">
+    <a href="mailto:devel-subscribe@geexbox.org"><b>devel-subscribe@geexbox.org</b></a>
+  </define>
+  <define name="ct-devel-unsub">
+    <a href="mailto:devel-unsubscribe@geexbox.org"><b>devel-unsubscribe@geexbox.org</b></a>
+  </define>
+  <define name="ct-devel-archive">
+    <a href="http://listes.tuxfamily.org/?A=LIST&amp;L=devel_geexbox.org"><b>here</b></a>
+  </define>
+
+  <section>
+    <subsection>
+      <stitle lang="en" title="GeeXboX's users contact"/>
+      <stitle lang="fr" title="Contact utilisateurs"/>
+      <content lang="en" title="Contact ...">
+        Any suggestions ? We'll be glad to answer to you for any question you may wonder about GeeXboX. So, for suggestions / bug report (please supply your hardware configuration and the GeeXboX's release you're using) / (thanks ? ;-) or simply any other kind of question, please mail at :
+        <center><users/></center>
+      </content>
+      <content lang="fr" title="Contact ...">
+        Des suggestions ? Nous serions ravis de vous répondre pour toute question que vous seriez à même de vous poser. Donc, pour toutes suggestions / retour de bugs (précisez votre configuration matérielle ainsi que la version de la GeeXboX utilisée svp) / (remerciements ? ;-) ou simplement n'importe quel autre type de question, écrivez simplement à :
+        <center><users/></center>
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="Developpers Mailing List">
+        Whether you port any interrest into GeeXboX's developpement, you may want to suscribe to our developper mailing list. There you can send your patches, and code fixes but also learn about the daily developpement progress. You have to suscribe to the mailing list to post on it. Please note that only ENGLISH langage will be used on this list (other langages posts won't get any answer from us, nor than questions, suggestions or bug reports). You can post at this address :
+        <center><devel/></center><br/><br/>
+        You can subscribe to the mailing list, sending an empty mail to <use name="ct-devel-sub"/><br/> 
+        You can unsubscribe to the mailing list, sending an empty mail to <use name="ct-devel-unsub"/><br/><br/> 
+
+        Please remember that only the subscribed email account can be used to post on the mailing list.<br/><br/>
+
+        You can easily access to the developper mailing list archives <use name="ct-devel-archive"/>.
+      </content>
+      <content lang="fr" title="Liste de Diffusion pour Développeurs">
+        Si vous portez un quelconque intérêt au développement de la GeeXboX et que vous souhaitez y contribuer, vous pouvez souscrire à notre liste de diffusion pour développeurs. Vous pourrez alors nous envoyer vos patchs et autres correctifs, mais également y apprendre sur l'évolution de la GeeXboX au jour le jour. Ceci nécessite néanmoins de souscrire à la liste de diffusion pour pouvoir poster un mail. Veuillez noter que seul l'ANGLAIS est utilisé pour y correspondre (des messages dans d'autres langues, français y compris, ne recevront aucune réponse, pas plus que les questions sur des problèmes d'utilisation, suggestions et autres rapports de bug). Vous pourrez envoyer vos messages à cette adresse :
+        <center><devel/></center><br/><br/>
+        Vous pouvez souscrire à la liste de diffusion, en envoyant simplement un email vide à <use name="ct-devel-sub"/><br/> 
+        Vous pouvez vous en désabonner, en renvoyant en email à <use name="ct-devel-unsub"/><br/><br/> 
+
+        Souvenez vous que seuls les comptes mails valides et qui auront été enregistré peuvent être utilisés pour poster des messages sur le liste de diffusion.<br/><br/>
+
+        Il est cependant possible d'accéder rapidement aux archives de cette liste de diffusion via <use name="ct-devel-archive"/>.
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="WebSite">
+        For any questions or problems with the website display or content, please talk about it to the <webmaster/><br/><br/><br/>
+        <center><b>The GeeXboX's Team</b></center>
+      </content>
+      <content lang="fr" title="Site Internet">
+        Por toute question ou problème avec le contenu ou l'affichage du site en lui-même, veuillez en référer au <webmaster/><br/><br/><br/>
+        <center><b>L'équipe GeeXboX</b></center>
+      </content>
+    </subsection>
+  </section>
+</article>

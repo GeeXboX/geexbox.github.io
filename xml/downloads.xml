@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<article>
+  <define name="dl-iso-en">
+    <a href="../releases/0.90-4/geexbox-0.90-4-en.iso">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.90-4-en.iso%7C4474880%7CAB0D354BBFF5CE84C0B041FE9C4D4962%7C">edonkey</a>
+  </define>
+  <define name="dl-iso-fr">
+    <a href="../releases/0.90-4/geexbox-0.90-4-fr.iso">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.90-4-fr.iso%7C4474880%7C1B31D8CFD2DB9405549312D2FBE1351D%7C">edonkey</a>
+  </define>
+  <define name="dl-gen">
+    <a href="../releases/0.90-4/geexbox-generator-0.90-4.tar.gz">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-generator-0.90-4.tar.gz%7C4836771%7C2E89418A50EA5BAC92093C5E3363DD3E%7C">edonkey</a>
+  </define>
+  <define name="dl-src-lite">
+    <a href="../releases/0.90-4/geexbox-0.90-4.tar.bz2">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.90-4.tar.bz2%7C45914%7C994C084ED9473DD164935FF31E0B96E2%7C">edonkey</a>
+  </define>
+  <define name="dl-src-full">
+    <a href="../releases/0.90-4/geexbox-0.90-4-full.tar">http</a> / <a href="ed2k://%7Cfile%7Cgeexbox-0.90-4-full.tar%7C53381120%7CE7153A70DC1D09C20FB02CD8FB7AF848%7C">edonkey</a>
+  </define>
+
+  <section>
+    <content lang="en" title="Downloads ..."/>
+    <content lang="fr" title="Téléchargements ..."/>
+    <subsection>
+      <content lang="en" title="GeeXboX ISO">
+        We're currently releasing 2 versions of the GeeXboX : French and English. The installator software has been included to the provided ISO, increasing them slightly. Cause we're fed up with hearing everywhere that Peer-To-Peer (P2P) networks are just a way to share illegal files, we've also decided to let donwload our new release quickly from the edonkey network (the more you are, the faster it'll be ;). It's now you to choose the menu's langage that fits you best :<br/><br/>
+          * <b>GeeXboX 0.90-4 for i586 - English Version - 4.3 MB ( <use name="dl-iso-en"/> ) </b><br/>
+          * <b>GeeXboX 0.90-4 for i586 - French Version - 4.3 MB ( <use name="dl-iso-fr"/> )</b><br/>
+          * <a href="../releases/"><b>GeeXboX old Releases</b></a>
+      </content>
+      <content lang="fr" title="Images ISO de la GeeXboX">
+        Nous fournissons actuellement 2 versions de la GeeXboX : Française et Anglaise. Le logiciel d'installation a été inclus dans les ISO proposées, augmentant légèrement leur taille. Comme nous en avons assez d'entendre dire partout que les réseaux Peer-To-Peer (P2P) sont juste un moyen de partager des fichiers illégaux, nous avons décider de vous proposer le téléchargement de cette nouvelle version via le réseau edonkey (plus vous partagerez et plsu le téléchargement sera rapide ;). Il ne vous reste plus qu'à choisir la langue de menu qui vous convient le mieux.<br/><br/>
+          * <b>GeeXboX 0.90-4 pour i586 - Version FR - 4,3 Mo ( <use name="dl-iso-fr"/> )</b><br/>
+          * <b>GeeXboX 0.90-4 pour i586 - Version EN - 4,3 Mo ( <use name="dl-iso-en"/> ) </b><br/>
+          * <a href="../releases/"><b>Anciennes versions de la GeeXboX</b></a>
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="GeeXboX ISO Generator">
+        With this package, it will be easy to modify the GeeXboX in a few seconds without having to build the sources. The generator produces an ISO image of the GeeXboX, ready to be burned on disc. This piece of software currently works under both GNU/Linux and Microsoft Windows 9x/NT/2k/XP systems.<br/><br/>
+          <b>GeeXboX 0.90-4 ISO generator - 4.7 MB ( <use name="dl-gen"/> )</b>
+      </content>
+      <content lang="fr" title="Générateur d'ISO GeeXboX">
+        Avec ce paquetage, il vous sera facile de modifier la GeeXboX en quelques instants sans avoir à recompiler toutes les sources. Le générateur produit une image ISO de la GeeXboX prête à être gravée sur CD. Ce logiciel fonctionne sur les systèmes GNU/Linux et Microsoft Windows 9x/NT/2k/XP.<br/><br/>
+          <b>Générateur d'ISO GeeXboX 0.90-4 - 4,7 Mo ( <use name="dl-gen"/> )</b>
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="GeeXboX Sources">
+        Here are the GeeXboX 0.90-4 sources. You both need the wget package and a connection to the Internet to compile your own GeeXboX. Indeed, most of the packages are directly donwloaded from the web while compiling the GeeXboX. So, here are the sources :<br/><br/>
+          <b>GeeXboX 0.90-4 Sources (Lite Package - 45 kB) ( <use name="dl-src-lite"/> ) </b><br/>
+          <b>GeeXboX 0.90-4 Sources (Full Package - no more connection to the Internet needed - 51 MB) ( <use name="dl-src-full"/> )</b>
+      </content>
+      <content lang="fr" title="Sources de la GeeXboX">
+        Voici les sources de la version 0.90-4 de la GeeXboX. Vous nécessitez à la fois le programme wget et une connection à Internet lors de la compilation de la première version des sources. En effet, la plupart des packages seront téléchargés à la volée au cours de la compilation. Voici donc les sources :<br/><br/>
+          <b>Sources GeeXboX 0.90-4 (Paquetage Allégé - 45 ko) ( <use name="dl-src-lite"/> )</b><br/>
+          <b>Sources GeeXboX 0.90-4 (Paquetage Complet - aucune connection à Internet supplémentaire requise - 51 Mo) ( <use name="dl-src-full"/> )</b>
+      </content>
+    </subsection>
+    <subsection>
+      <content lang="en" title="GeeXboX CVS">
+        We've decided to provide you a Web-CVS access. It will help developpers to easily add patches and fixes to the distribution. Moreover, you can also try pre-released versions of the GeeXboX and help us to find and correct bugs. Be ware that the provided CVS can be modified frequently and MUST be consider as UNSTABLE release. We won't provide any support for this release and can't be responsible for any damage or data loss.<br/><br/>
+
+          There's currently 2 way from accesing our CVS Tree : via command-line or Web-CVS (to just have a look to some changes on a specific file for example). You can directly access to the Web-CVS with your browser from :<br/><br/>
+
+<b><a href="http://cvsweb.tuxfamily.org/cvs/geexbox/?cvsroot=geexbox">GeeXboX Web-CVS</a></b><br/><br/>
+
+          In order to access to our CVS via command line, create and go to a new directory and do the following :<br/><br/> 
+
+<b>* export CVSROOT=:pserver:anonymous@cvs.tuxfamily.org:/cvsroot/geexbox</b><br/>
+<b>* cvs -z3 co geexbox</b><i> - To fetch all the files from the directory geexbox.</i><br/>
+<b>* cvs -z3 update</b><i> - To update your local copy of the CVS, synchronizing with our server.</i>
+      </content>
+      <content lang="fr" title="GeeXboX, version CVS">
+        Nous avons décidé de vous fournir un accès au CVS. Cela permettra d'aider les contributeurs à réaliser des patchs et correctifs plus facilement pour le système. De plus, vous pourrez également essayer les pré-versions de la GeeXboX et nous aider à repérer et corriger des bugs. Soyez attentifs au fait que le contenu du CVS peut être modifié fréquemment et DOIT être considéré comme une version INSTABLE. Nous ne fournirons aucun support pour cette version et ne pouvons être tenus pour responsables pour toute pertes de données ou problèmes engendré.<br/><br/>
+
+          Il existe actuellement 2 façons d'accéder à notre CVS : par ligne de commande ou interface Web (pour simplement constater les changements apportés à un fichier en particulier par exemple). Vous pouvez accéder directement au CVS Web depuis votre navigateur via :<br/><br/>
+
+<b><a href="http://cvsweb.tuxfamily.org/cvs/geexbox/?cvsroot=geexbox">GeeXboX Web-CVS</a></b><br/><br/>
+
+          Pour accéder à notre CVS en ligne de commande, créez et déplacez vous dans un nouveau répertoire puis faites comme suit :<br/><br/> 
+
+<b>* export CVSROOT=:pserver:anonymous@cvs.tuxfamily.org:/cvsroot/geexbox</b><br/>
+<b>* cvs -z3 co geexbox</b><i> - Pour rappatrier tous les fichiers depuis le répertoire geexbox.</i><br/>
+<b>* cvs -z3 update</b><i> - Pour mettre à jour votre copie locale du CVS, en la synchronisant avec le version sur notre serveur.</i>
+      </content>
+    </subsection>
+  </section>
+</article>

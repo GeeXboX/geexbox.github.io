@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE banner SYSTEM "geexbox.dtd">
+
+<banner>
+  <logo link="index.html" src="../img/geexbox-logo.jpg"
+        alt="GeeXboX" title="GeeXboX HomePage"/>
+  <langs>
+    <text lang="en">english</text>
+    <text lang="fr">français</text>
+  </langs>
+</banner>
