@@ -95,13 +95,16 @@
   <section label="hard">
     <content lang="en" title="Supported Hardware ..."/>
     <content lang="fr" title="Matériel compatible ..."/>
-
+    <content lang="de" title="Kompatible Hardware ..."/>
     <subsection label="hard_rc">
       <content lang="en" title="Get an officially supported computer ...">
         Of course GeeXboX should work on any kind of computer but you may want to buy a new one that is officially supported by our development team. <use name="response-computing"/> is a UK computer shop that sells hardware that has been approved by GeeXboX team to be fully compliant. It looks like an embedded mini-itx platform, featuring an EPIA-MII motherboard, and shipped with a pre-installed version of GeeXboX. Then, if you look for an easy way to build a GeeXboX, you may be interested by <use name="response-computing"/>. Moreover, 5£ are given back to our development team for each computer sold.
       </content>
       <content lang="fr" title="Se procurer un ordinateur officiellement supporté ...">
         Bien entendu, la GeeXboX a été conçue pour fonctionner sur tout type d'ordinateur, mais vous pouvez vouloir en acheter un, dédié à devenir platine de salon, et qui soit certifié par l'équipe de développement. <use name="response-computing"/> est une société anglaise qui commercialise un système embarqué qui a été officiellment testé et certifié par notre équipe de développement. Il s'agit d'une plateforme Mini-ITX, basée sur une carte mère EPIA-MII, et qui est vendue avec une version pré-installée de la GeeXboX. Ainsi, si vous cherchez un moyen facile de construire votre propre GeeXboX, vous pourrez être intéressés par l'offre de <use name="response-computing"/>. De plus, 5£ sont reversées à l'équipe de développement pour chaque vente.
+      </content>
+      <content lang="de" title="Erwerben Sie einen offiziell unterstützten Computer ...">
+        GeeXboX sollte eigentlich mit jedem Computer funktionieren. Wenn Sie aber vielleicht trotzdem einen neuen Computer erwerben möchten, dann vielleicht einen, der offiziell vom GeeXboX Team zertifiziert ist. <use name="response-computing"/> ist ein in England ansässiger Computerversand, der vom GeeXboX Team auf Kompatibilität geprüfte Hardware versendet. Die Plattformbasis bildet ein mini ITX Motherboard, (EPIA-MII) und das vollständige System wird mit vorinstallierter GeeXboX ausgeliefert. Wenn Sie also nach einer Möglichkeit suchen, möglichst einfach eine GeeXboX zu basteln, kann Ihnen <use name="response-computing"/> bestimmt weiterhelfen. Zusätzlich erhält das Entwicklerteam eine 5 Pfund Gutschrift für jeden verkauften Computer.
       </content>
     </subsection>
 
@@ -124,6 +127,17 @@ Le fait que votre matériel ne soit pas supporté par la GeeXboX peut avoir plusie
 
 Et, dernière chose, la plupart des composants sont décrits par le nom du chipset qu'ils intégrent. Nous ne connaissons absolument pas les marques ou modèles qui inclut chacun de ces chipsets et en toute honnêteté, ce n'est pas notre problème. Si un constructeur n'est pas en mesure de vous fournir une information aussi simple (et pourtant tellement essentielle), c'est chez lui que vous pourrez vous en plaindre, mais pas ici.<br/>
       </content>
+      <content lang="de" title="Hardware - Kompatibilitätsliste ...">
+GeeXboX wurde unter dem Gesichtspunkt entwickelt, auf möglichst jedem Computersystem zu funktionieren. Daher werden sicher die meisten Ihrer Hardware-Komponenten unterstützt. Dabei spielt es keine Rolle, wer der Hersteller Ihres Motherboards, des CD/DVD-Laufwerkes, der Festplatte, CPU oder Speichers ist. GeeXboX wird all Ihre Hardware erkennen und in der Lage sein, diese auch vernünftig zu nutzen.<br/><br/>
+
+Aus technischen Gründen werden nicht alle Erweiterungskarten richtig unterstützt (aber die meisten werden es). Die folgende Liste gibt für jeden Peripherietyp an, welcher unterstützt wird und welche nicht.  
+
+Hardware kann aus den verschiedensten Gründen inkompatibel mit GeeXboX sein. Bei einiger Hardware ist der Grund dafür sehr einfach : Es gibt keinen freien Open-Source Treiber, der mit Linux funktioniert. Beschweren Sie sich also bitte nicht bei uns, wenn Ihre gekaufte Hardware nur zu Windows kompatibel ist und nicht mit GeeXboX funktioniert.
+Für nicht unterstütze Hardware ist es nämlich sehr sehr schwierig, Unterstützung in GeeXboX zu implementieren, wenn nicht sogar völlig unmöglich. Ausserdem besitzt unser Entwicklerteam meist nicht die erwähnte Hardware und ist daher gar nicht in der Lage, diese zu testen. Die meiste, der als kompatibel gelisteten Hardware, wurde auch vom Team selbst geprüft. Dennoch ist diese Liste mehr "theoretischer" Natur, da wir nicht all die gelistete Hardware besitzen, um diese auch selbst zu testen.
+
+Noch ein Hinweis zum Schluss. Viele der hier gelisteten Hardware wurde nach dem Chipsatz aufgeführt, den sie verwenden, nicht nach Herstellernamen. Wir wissen daher, nicht welches Modell welchen Chipsatz benutzt und das ist auch zum Glück unwichtig, da nur der Chipsatz für uns von Interesse ist. Wenn Ihnen einige Hersteller keine Angaben über den verwendeten Chipsatz der Hardware macht (was zu Wissen aber sehr wichtig ist), fragen Sie bitte den Hersteller, nicht uns.
+.<br/>
+      </content>
     </subsection>
 
     <subsection label="hard_video">
@@ -136,6 +150,11 @@ Et, dernière chose, la plupart des composants sont décrits par le nom du chipset
       - <b>Cartes supportées</b> : Toutes les cartes compatible avec la norme VESA 2.0 comme par exemple les <use name="video_supported"/><br/><br/>
       - <b>Cartes non supportées</b> : <use name="video_unsupported"/><br/><br/>
       - <b>Cartes non testées (mais qui peuvent fonctionner)</b> : <use name="video_untested"/><br/>
+      </content>
+      <content lang="de" title="Grafikkarten ...">
+      - <b>Unterstützte Karten</b> : VESA 2.0 kompatible Karten wie <use name="video_supported"/><br/><br/>
+      - <b>Nicht unterstützte Karten</b> : <use name="video_unsupported"/><br/><br/>
+      - <b>Ungetestet Karten (können funktionieren)</b> : <use name="video_untested"/><br/>
       </content>
     </subsection>
 
@@ -150,6 +169,11 @@ Et, dernière chose, la plupart des composants sont décrits par le nom du chipset
       - <b>Cartes ISA supportées</b> : <use name="audio_isa_supported"/><br/><br/>
       - <b>Cartes non supportées</b> : <use name="audio_unsupported"/><br/>
       </content>
+      <content lang="de" title="Soundkarten ...">
+      - <b>Unterstützte PCI Karten</b> : <use name="audio_pci_supported"/><br/><br/>
+      - <b>Unterstützte ISA Karten</b> : <use name="audio_isa_supported"/><br/><br/>
+      - <b>Nicht unterstützte Karten</b> : <use name="audio_unsupported"/><br/>
+      </content>
     </subsection>
 
     <subsection label="hard_accel">
@@ -160,6 +184,10 @@ Et, dernière chose, la plupart des composants sont décrits par le nom du chipset
       <content lang="fr" title="Cartes d'accélération matérielle ...">
       - <b>Cartes supportées</b> : <use name="accel_supported"/><br/><br/>
       - <b>Cartes non supportées</b> : <use name="accel_unsupported"/><br/>
+      </content>
+      <content lang="de" title="Hardwarebeschleunigte Karten ...">
+      - <b>Unterstützte Karten</b> : <use name="accel_supported"/><br/><br/>
+      - <b>Nicht unterstützte Karten</b> : <use name="accel_unsupported"/><br/>
       </content>
     </subsection>
 
@@ -172,6 +200,10 @@ Et, dernière chose, la plupart des composants sont décrits par le nom du chipset
       - <b>Controlleurs supportés</b> : <use name="ata_supported"/><br/><br/>
       - <b>Controlleurs non supportés</b> : <use name="ata_unsupported"/><br/>
       </content>
+      <content lang="de" title="ATA Controller ...">
+      - <b>Unterstützte Controller</b> : <use name="ata_supported"/><br/><br/>
+      - <b>Nicht unterstützte Controller</b> : <use name="ata_unsupported"/><br/>
+      </content>
     </subsection>
 
     <subsection label="hard_sata">
@@ -182,6 +214,10 @@ Et, dernière chose, la plupart des composants sont décrits par le nom du chipset
       <content lang="fr" title="Controlleurs Serial-ATA ...">
       - <b>Controlleurs supportés</b> : <use name="sata_supported"/><br/><br/>
       - <b>Controlleurs non supportés</b> : <use name="sata_unsupported"/><br/>
+      </content>
+      <content lang="de" title="Serial-ATA Controller ...">
+      - <b>Unterstützte Controller</b> : <use name="sata_supported"/><br/><br/>
+      - <b>Nicht unterstützte Controller</b> : <use name="sata_unsupported"/><br/>
       </content>
     </subsection>
 
@@ -194,6 +230,10 @@ Et, dernière chose, la plupart des composants sont décrits par le nom du chipset
       - <b>Controlleurs supportés</b> : <use name="scsi_supported"/><br/><br/>
       - <b>Controlleurs non supportés</b> : <use name="scsi_unsupported"/><br/>
       </content>
+      <content lang="de" title="SCSI Controller ...">
+      - <b>Unterstützte Controller</b> : <use name="scsi_supported"/><br/><br/>
+      - <b>Nicht unterstützte Controller</b> : <use name="scsi_unsupported"/><br/>
+      </content>
     </subsection>
 
     <subsection label="hard_ethernet">
@@ -204,6 +244,10 @@ Et, dernière chose, la plupart des composants sont décrits par le nom du chipset
       <content lang="fr" title="Cartes Ethernet (10/100/1000) ...">
       - <b>Chipsets supportés</b> : <use name="eth_supported"/><br/><br/>
       - <b>Chipsets non supportés</b> : <use name="eth_unsupported"/><br/>
+      </content>
+      <content lang="de" title="Netzwerkarten (10/100/1000) ...">
+      - <b>Unterstützte Chipsätze</b> : <use name="eth_supported"/><br/><br/>
+      - <b>Nicht unterstützte Chipsätze</b> : <use name="eth_unsupported"/><br/>
       </content>
     </subsection>
 
@@ -218,6 +262,11 @@ Et, dernière chose, la plupart des composants sont décrits par le nom du chipset
       - <b>Chipsets non supportés</b> : <use name="wifi_unsupported"/><br/><br/>
       De plus amples détails et spécifications sur les chipsets WiFi, les cartes et les fabricants peuvent être trouvé sur la <use name="link-wifi"/>
       </content>
+      <content lang="de" title="WiFi Karten (802.11b/g) ...">
+      - <b>Unterstützte Chipsätze</b> : <use name="wifi_supported"/><br/><br/>
+      - <b>Nicht unterstützte Chipsätze</b> : <use name="wifi_unsupported"/><br/><br/>
+      Mehr Informationen über Wireless Chipsätze, Karten und Hersteller finden Sie unter <use name="link-wifi"/>
+      </content>
     </subsection>
 
     <subsection label="hard_tv">
@@ -228,6 +277,10 @@ Et, dernière chose, la plupart des composants sont décrits par le nom du chipset
       <content lang="fr" title="Cartes TV ...">
       - <b>Chipsets supportés</b> : <use name="tv_supported"/><br/><br/>
       - <b>Chipsets non supportés</b> : <use name="tv_unsupported"/><br/>
+      </content>
+      <content lang="de" title="TV - Karten ...">
+      - <b>Unterstützte Chipsätze</b> : <use name="tv_supported"/><br/><br/>
+      - <b>Nicht unterstützte Chipsätze</b> : <use name="tv_unsupported"/><br/>
       </content>
     </subsection>
 
@@ -240,6 +293,10 @@ Et, dernière chose, la plupart des composants sont décrits par le nom du chipset
       - <b>Systèmes de fichiers supportés</b> : <use name="fs_supported"/><br/><br/>
       - <b>Systèmes de fichiers non supportés</b> : <use name="fs_unsupported"/><br/>
       </content>
+      <content lang="de" title="Dateisysteme ...">
+      - <b>Unterstützte Dateisysteme</b> : <use name="fs_supported"/><br/><br/>
+      - <b>Nicht unterstützte Dateisysteme</b> : <use name="fs_unsupported"/><br/>
+      </content>
     </subsection>
 
     <subsection label="hard_misc">
@@ -250,6 +307,10 @@ Et, dernière chose, la plupart des composants sont décrits par le nom du chipset
       <content lang="fr" title="Périphériques divers ...">
       - <b>Périphériques supportés</b> : <use name="misc_supported"/><br/><br/>
       - <b>Périphériques non supportés</b> : <use name="misc_unsupported"/><br/>
+      </content>
+      <content lang="de" title="Verschiedenes ...">
+      - <b>Unterstützte Geräte</b> : <use name="misc_supported"/><br/><br/>
+      - <b>Nicht unterstützte Geräte</b> : <use name="misc_unsupported"/><br/>
       </content>
     </subsection>
   </section>

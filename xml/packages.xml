@@ -412,6 +412,18 @@
            <use name="sed"/>
          </table>
       </content>
+      <content lang="de" title="Toolkit Softwarepakete">
+         Hier nun eine Liste aller Softwarepakete, die von unserer "toolchain" genutzt werden, um die GeeXbox zu erstellen.<br/><br/>
+         <table border="2" cellpadding="2" cellspacing="1" width="100%">
+           <use name="headers"/>
+           <use name="binutils"/>
+           <use name="ccache"/>
+           <use name="gcc"/>
+           <use name="genext2fs"/>
+           <use name="make"/>
+           <use name="sed"/>
+         </table>
+      </content>
     </subsection>
 
     <subsection label="os">
@@ -470,6 +482,59 @@
       </content>
       <content lang="fr" title="Paquetages contenus dans la GeeXboX">
          Et voici la liste des différents paquetages systèmes contenus dans la GeeXboX. Chacun d'entre eux est essentiel au bon fonctionnement de l'ensemble.<br/><br/>
+         <table border="2" cellpadding="2" cellspacing="1" width="100%">
+           <use name="headers"/>
+           <use name="acx100"/>
+           <use name="alsa-driver"/>
+           <use name="alsa-lib"/>
+           <use name="alsa-utils"/>
+           <use name="at76c503"/>
+           <use name="atitvout"/>
+           <use name="autoplay"/>
+           <use name="bftpd"/>
+           <use name="bootsplash"/>
+           <use name="busybox"/>
+           <use name="cdparanoia"/>
+           <use name="dialog"/>
+           <use name="DirectFB"/>
+           <use name="dosfstools"/>
+           <use name="eject"/>
+           <use name="em8300"/>
+           <use name="fbi"/>
+           <use name="freetype"/>
+           <use name="fribidi"/>
+           <use name="grub"/>
+           <use name="iscd"/>
+           <use name="jpeg"/>
+           <use name="libdts"/>
+           <use name="libexif"/>
+           <use name="libirman"/>
+           <use name="libogg"/>
+           <use name="libpcd"/>
+           <use name="libpng"/>
+           <use name="libtheora"/>
+           <use name="libungif"/>
+           <use name="libvorbis"/>
+           <use name="linux"/>
+           <use name="lirc"/>
+           <use name="module-init-tools"/>
+           <use name="MPlayer"/>
+           <use name="ncurses"/>
+           <use name="nvtv"/>
+           <use name="pciutils"/>
+           <use name="rt2400"/>
+           <use name="RT2500"/>
+           <use name="samba"/>
+           <use name="setcd"/>
+           <use name="syslinux"/>
+           <use name="uClibc"/>
+           <use name="util-linux"/>
+           <use name="wireless_tools"/>
+           <use name="zlib"/>
+         </table>
+      </content>
+      <content lang="de" title="GeeXboX Softwarepakete">
+         Hier nun eine Liste aller Programme, die in der GeeXboX enthalten sind und vom GeexboX Betriebssystem genutzt werden. Jedes von ihnen ist ein wichtiger Bestandteil der GeeXboX.<br/><br/>
          <table border="2" cellpadding="2" cellspacing="1" width="100%">
            <use name="headers"/>
            <use name="acx100"/>

@@ -34,6 +34,9 @@
  <define name="dl-old-fr">
     <a href="../releases/"><b>Anciennes versions de la GeeXboX</b></a>
   </define>
+  <define name="dl-old-de">
+    <a href="../releases/"><b>Ältere GeeXboX Versionen</b></a>
+  </define>
   <define name="dl1-old">
     <a href="http://www2.geexbox.org/releases/"><b>Mirror 1</b></a>
   </define>
@@ -97,6 +100,7 @@
   <section label="download">
     <content lang="en" title="Downloads ..."/>
     <content lang="fr" title="Téléchargements ..."/>
+    <content lang="de" title="Downloads ..."/>
     <subsection label="iso">
       <content lang="en" title="GeeXboX ISO">
         We're currently releasing 2 versions of the GeeXboX : French and English. The installer software includes the original ISO, increasing the size slightly. It's now up to you to choose the menu's language that fits you best :<br/><br/>
@@ -116,6 +120,15 @@
           * <use name="dl-old-fr"/> - <use name="dl1-old"/> - <use name="dl2-old"/> - <use name="dl3-old"/><br/>
           * <b><use name="dl-md5"/></b><br/>
       </content>
+      <content lang="de" title="GeeXboX ISO">
+        Zur Zeit gibt es 2 Versionen der GeeXboX : Französisch und Englisch. Die Installer-Software enthält das original ISO (und ist daher etwas größer im Download). Bitte wählen Sie hier nun die für Sie am besten geeignete Menüsprache :<br/><br/>
+          * <b><use name="dl-iso-en"/> - <use name="dl1-iso-en"/> - <use name="dl2-iso-en"/> - <use name="dl3-iso-en"/> - 6.2 MB</b><br/>
+          * <b><use name="dl-iso-fr"/> - <use name="dl1-iso-fr"/> - <use name="dl2-iso-fr"/> - <use name="dl3-iso-fr"/> - 6.2 MB</b><br/>
+          <br/>
+
+          * <use name="dl-old-de"/> - <use name="dl1-old"/> - <use name="dl2-old"/> - <use name="dl3-old"/><br/>
+          * <b><use name="dl-md5"/></b><br/>
+      </content>
     </subsection>
     <subsection label="generator">
       <content lang="en" title="GeeXboX ISO Generator">
@@ -125,6 +138,10 @@
       <content lang="fr" title="Générateur d'ISO GeeXboX">
         Avec ce paquetage, il vous sera facile de modifier la GeeXboX en quelques instants sans avoir à recompiler toutes les sources. Le générateur produit une image ISO de la GeeXboX prête à être gravée sur CD. Ce logiciel fonctionne sur les systèmes GNU/Linux et Microsoft Windows 9x/NT/2k/XP.<br/><br/>
           <b><use name="dl-gen"/> - <use name="dl1-gen"/> - <use name="dl2-gen"/> - <use name="dl3-gen"/> - 7,0 Mo</b>
+      </content>
+      <content lang="de" title="GeeXboX ISO Generator">
+        Mit diesem Paket ist es ein Einfaches, die GeeXboX zu modifizieren, ohne die Neuübersetzung des Quellcodes. Der Generator ertsellt ein ISO-Image der GeeXboX, das gleich auf CD gebrannt werden kann. Diese Software können Sie sowohl unter GNU/Linux als auch mit Microsoft Windows 9x/NT/2k/XP Systemen nutzen.<br/><br/>
+          <b><use name="dl-gen"/> - <use name="dl1-gen"/> - <use name="dl2-gen"/> - <use name="dl3-gen"/> - 7.0 MB</b>
       </content>
     </subsection>
 
@@ -136,6 +153,11 @@
       </content>
       <content lang="fr" title="Dépositoire GeeXboX pour Debian">
         Le générateur d'ISO de la GeeXboX est également disponible au travers d'<b>apt-get</b> pour les utilisateurs de distribution Debian GNU/Linux. Rajoutez simplement les lignes suivantes à votre fichier <i>/etc/apt/sources.list</i> :<br/><br/>
+        <use name="deb-gen"/><br/>
+        <use name="deb-gen-src"/><br/>
+      </content>
+      <content lang="de" title="GeeXboX Debian Repository">
+        Der GeeXboX ISO Generator ist auch über <b>apt-get</b> für GNU/Linux Debian Benutzer verfügbar. Fügen Sie dazu einfach folgende Zeilen in Ihre <i>/etc/apt/sources.list</i> Datei ein :<br/><br/>
         <use name="deb-gen"/><br/>
         <use name="deb-gen-src"/><br/>
       </content>
@@ -151,6 +173,11 @@
         Voici les sources de la version 0.98 de la GeeXboX. Vous nécessitez à la fois le programme wget et une connection à Internet lors de la compilation de la première version des sources. En effet, la plupart des packages seront téléchargés à la volée au cours de la compilation. Voici donc les sources :<br/><br/>
           <b><use name="dl-src-lite"/> - <use name="dl1-src-lite"/> - <use name="dl2-src-lite"/> - <use name="dl3-src-lite"/> (Paquetage Allégé - 127 kB)</b><br/>
           <b><use name="dl-src-full"/> - <use name="dl1-src-full"/> - <use name="dl2-src-full"/> - <use name="dl3-src-full"/> (Paquetage Complet - aucune connexion à Internet supplémentaire n'est requise - 113 MB)</b>
+      </content>
+      <content lang="de" title="GeeXboX Sourcecode">
+        Hier finden Sie den GeeXboX 0.98 Sourcecode. Sie benötigen zwei Dinge : Das wget Programm und eine Internetverbindung, um Ihre eigene GeeXboX zu erstellen. Die meisten Pakete werden während des Kompilierens direkt aus dem Internet geladen. Also hier gibt es den Sourcecode :<br/><br/>
+          <b><use name="dl-src-lite"/> - <use name="dl1-src-lite"/> - <use name="dl2-src-lite"/> - <use name="dl3-src-lite"/> (Kleines Installationspaket - 127 kB)</b><br/>
+          <b><use name="dl-src-full"/> - <use name="dl1-src-full"/> - <use name="dl2-src-full"/> - <use name="dl3-src-full"/> (Gesamtpaket - eine schnelle Internetverbindung wird benötigt - 113 MB)</b>
       </content>
     </subsection>
 

@@ -5,6 +5,7 @@
   <section label="starting">
     <content lang="en" title="Get Started ..."/>
     <content lang="fr" title="Par Où Commencer ..."/>
+    <content lang="de" title="Starten Sie durch ..."/>
     <subsection label="what">
       <content lang="en" title="What is the GeeXboX ...">
         The question you may wonder is probably : "Dude, what exactly is this GeeXboX project I've heard so much about ?" ;-)<br/> Well, you're at the right place !<br/><br/>
@@ -40,6 +41,23 @@ A l'époque des premières phases de développement (Dec. 2002), il était uniquemen
    * Les flux Matroska<br/>
    * Les flux exclusivement Audio tels que le MP3, Ogg/Vorbis, WAV (AudioCD), AC3 ...<br/>
       </content>
+      <content lang="de" title="Was genau ist die GeeXboX ...">
+        Die Frage, die Sie sich wahrscheinlich stellen, ist : "Junge, was genau ist eingentlich dieses GeeXboX Projekt, über das ich schon so viel gehört habe ?" ;-)<br/> Hier finden Sie die Antwort !<br/><br/>
+
+Ok, versuchen wir es so einfach wie möglich zu halten. Die GeeXboX ist eigentlich nichts anderes als ein wahnsinnig guter Media Player. Aber warum solch ein Name ? Also, die Hauptanforderung ist es, DivX Filme wiederzugeben.  Da normalerweise jedermann diese Art von Playern "boxes" nennt, haben wir einfach noch ein "GeeX" für all euch "geeks" vorangestellt ;-)<br/><br/>
+
+GeeXboX ist also ein vollständiges Betriebssystem, das auf Linux und dem excellenten MPlayer basiert. Sie benötigen keine Festplatte. Legen Sie einfach die startbare GeeXboX-CD in Ihr Laufwerk und starten Sie Ihren Pentium - Klasse PC. Mehr noch, GeeXboX ist freie Software, erstellt als "open-source" Software. Dies bedeutet, dass jedermann die GeeXboX ändern und so seine eigene Version erstellen kann.<br/><br/>
+
+Sie mögen sich fragen, wozu Sie ein eigenes Betriebssystem starten sollten, nur um Ihre Multimediadateien abzuspielen. Aber denken Sie doch auch einmal an die Mini-ITX Plattformen wie VIA Epia/Eden oder Shuttle Barebones. Damit haben Sie nämlich zu erschwinglichen Preisen die Möglichkeit, DivX in Ihr Wohnzimmerkino mit direkter Ausgabe auf Ihrem TV zu bekommen !!<br/><br/>
+
+Z.Zt. der ersten Entwicklerversion (Dez. 2002) konnte die GeeXboX nur DivX Filme abspielen, aber jetzt kann nahezu jede Art von Mediadateien damit wiedergegeben werden, z.B. :<br/><br/>
+   * MPEG 1/2 Filme (MPG Dateien, VCDs, DVDs ...)<br/>
+   * MPEG 4 Filme (DivX, XviD ...)<br/>
+   * RealMedia und Windows Media Filme.<br/>
+   * OggMedia Streams<br/>
+   * Matroska Streams<br/>
+   * Audio Streams wie : MP3, Ogg/Vorbis, WAV (AudioCD), AC3 ...<br/>
+      </content>
     </subsection>
     <subsection label="more">
       <content lang="en" title="Want more ?">
@@ -53,6 +71,12 @@ Just go to the <page name="download"/> section and enjoy ;-)<br/><br/><br/>
 Alors, qu'attendez vous encore ?? <br/><br/>
 Rendez vous tout simplement dans la section <page name="download"/> et rejouissez vous ;-)<br/><br/><br/>
 <b>L'équipe GeeXboX</b><br/>
+      </content>
+      <content lang="de" title="Sie wollen mehr ?">
+        Sie werden nun glauben, eine solche Geschichte benötige einen Computer der neuesten Version ;-) Und genau da liegen Sie ganz falsch !! Schon ein alter PII-400 mit 64 MB Arbeitsspeicher ist schnell genug. Außerdem benötigt das GeeXboX ISO auch nur rund 6 MB auf der CD. Und natürlich läßt sich das Ganze durch ein OSD (On Screen Display) bequem per Fernbedienung steuern.<br/>
+Auf was warten Sie also noch ?? Weihnachten ?<br/><br/>
+Wechseln Sie einfach zur <page name="download"/> Seite und genießen Sie die GeeXboX ;-)<br/><br/><br/>
+<b>Das GeeXboX Team</b><br/>
       </content>
     </subsection>
   </section>

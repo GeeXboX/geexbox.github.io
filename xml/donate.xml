@@ -56,6 +56,7 @@
   <section label="donate">
     <content lang="en" title="Donate ..."/>
     <content lang="fr" title="Donations ..."/>
+    <content lang="de" title="Spenden ..."/>
 
     <subsection label="donate_why">
       <content lang="en" title="Why donate ?">
@@ -63,6 +64,9 @@
       </content>
       <content lang="fr" title="Pourquoi faire un don ?">
       GeeXboX est un projet libre, développé par des bénévoles sur leur temps libre. Cela signifie que nous ne touchons aucun revenu, profit ou subventions qui pourrait nous aider à développer. De nombreux utilisateurs nous demande de nouvelles fonctionnalités, particulièrement le support de matériel que nous ne possédons pas. De plus, héberger le serveur web, le nom de domaine et fournir la bande passante requise pour vous permettre de télécharger la GeeXboX, a un coût non négligeable. A l'heure actuelle, nous avons de la chance qu'un généreux contributeur nous ais fourni un serveur web gratuitement, mais cette situation peut changer à n'importe quel moment.
+      </content>
+      <content lang="de" title="Warum Spenden ?">
+      GeeXboX ist ein "freies" Projekt und wird von verschiedenen Leuten in deren Freizeit entwickelt. Dies bedeutet, dass wir kein Einkommen oder eine andere Unterstützung für die Entwicklung erhalten. Viele Benutzer fragen nach Verbesserungen, speziell für ihre Hardware, die wir aber selbst nicht besitzen. Neben der Bereitstellung des Webservers, des Domänennamens und der benötigten Bandbreite, damit Sie das GeeXboX ISO herunterladen können, entstehen uns weitere Kosten. Seit kurzem haben wir das Glück, dass uns ein Webserver kostenlos zur Verfügung steht, aber dies kann sich jederzeit auch wieder ändern.
       </content>
     </subsection>
 
@@ -120,6 +124,35 @@ Notre équipe de développement à déjà reçu la liste suivante de matériel et autre
 <use name="computer"/>
         <br/><br/>
       </content>
+      <content lang="de" title="Wie kann ich helfen oder spenden ?">
+      Ihre Spenden müssen nicht immer Geldspenden sein. Wenn Sie GeeXboX aber wirklich mögen und der Meinung sind, unsere Zeit für die Entwicklung sollte entsprechend vergütet werden, sind Ihre Geldspenden natürlich sehr willkommen. (Wir verwenden diese, um die gewünschten Verbesserungen der Benutzer zu verwirklichen, indem wir uns bessere Möglichkeiten zur Entwicklung von GeeXboX schaffen, etwa durch den Kauf von neuer Hardware, damit diese dann später unterstützt wird ...). Wenn Sie das GeeXBox Projekt unterstützen möchten, können Sie Ihre Spende mittels <b>PayPal</b> tätigen: Paypal ist einfach in der Handhabung und Sie können damit jeden Betrag spenden. Das gesamte Entwicklerteam bedankt sich hiermit für Ihre Spende!<br/><br/>
+
+<use name="paypal"/>
+
+Sie können uns aber auch auf vielen anderen Wegen helfen. Wenn Sie uns mit dedizierten Servern, Bandbreite, spezieller Hardware und alten Computerteilen aushelfen möchten, setzten Sie sich bitte mit uns in Verbindung.
+Natürlich können Sie uns auch mit Werbeartikeln oder durch Werbung unterstützen. Jede Hilfe ist herzlich willkommen. In diesem Zusammenhang können Sie uns auch durch Ihre speziellen Fähigkeiten aushelfen. Wir suchen z.B. nach Leuten, die die Übersetzungen der verschiedenen Sprachen pflegen und ganz speziell nach Designern und Zeichnern.<br/><br/>
+
+Z.Zt. suchen wir gezielt nach folgenden Dingen :<br/><br/>
+* Eine Menge an Hardware (auch etwas ältere), um diese in GeeXboX zu unterstützen (Grafikkarten, Soundkarten ...).<br/>
+* Eine DVB Karte.<br/>
+* Einen Macintosh G3 (oder auch G4 oder G5 :-), um GeeXboX auf diese Plattform zu portieren.<br/>
+* Alles von dem Sie glauben, das es nützlich wäre.<br/><br/>
+
+Wenn Sie uns also helfen möchten, schreiben Sie einfach an <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. In Vertretung aller Entwickler und Benutzer vielen Dank für Ihre Hilfe.<br/>
+Hier ist eine Liste unserer grosszügigen Spender. Jeder von Ihnen hat uns ein kleines Einkommen als Lohn für unsere Arbeit beschert. Wir werden das Geld verwenden, um noch mehr Hardware mit GeeXboX zu unterstützen. Vielen Dank an <use name="donators"/><br/><br/>
+
+Unser Entwicklerteam hat bereits die folgenden Hardwarespenden erhalten. Besonder Dank an <i>Sylvain Doctrinal</i> und <i>Andrew Florence</i> (von <use name="response-computing-url"/>) für Ihre Hardwarespenden.<br/><br/>
+
+<b>Grafikkarten :</b><br/>
+<use name="vboard"/><br/>
+<b>Soundkarten :</b><br/>
+<use name="soundcard"/><br/>
+<b>Komplettsysteme :</b><br/>
+<use name="computer"/>
+        <br/><br/>
+
+      </content>
+
     </subsection>
 
   </section>

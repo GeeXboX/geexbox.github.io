@@ -8,12 +8,18 @@
   <define name="ct-devel-fr">
     <a href="http://www.geexbox.org/sympa/info/devel"><b>page d'administration</b></a>
   </define>
+  <define name="ct-devel-de">
+    <a href="http://www.geexbox.org/sympa/info/devel"><b>GeeXboX Developer Liste</b></a>
+  </define>
 
   <define name="ct-devel-archive-en">
     <a href="http://www.geexbox.org/sympa/arc/devel/"><b>here</b></a>
   </define>
   <define name="ct-devel-archive-fr">
     <a href="http://www.geexbox.org/sympa/arc/devel/"><b>cette page</b></a>
+  </define>
+  <define name="ct-devel-archive-de">
+    <a href="http://www.geexbox.org/sympa/arc/devel/"><b>hier</b></a>
   </define>
 
   <define name="ct-gnu-arch">
@@ -36,6 +42,7 @@
   <section label="dev">
     <content lang="en" title="Developers ..."/>
     <content lang="fr" title="Developpeurs ..."/>
+    <content lang="de" title="Entwickler ..."/>
 
     <subsection label="cvs">
       <content lang="en" title="GeeXboX Arch">
@@ -69,6 +76,23 @@ We've decided to provide you with Web-Arch access. It will help developers to ea
 <b>* <use name="ct-tla-get"/></b><i> - Pour rappatrier tous les fichiers depuis le répertoire geexbox.</i><br/>
 <b>* <use name="ct-tla-update"/></b><i> - Pour mettre à jour votre copie locale du CVS, en la synchronisant avec le version sur notre serveur.</i>
       </content>
+
+      <content lang="de" title="GeeXboX Archiv">
+        <use name="ct-gnu-arch"/> ist ein Revisions-Kontroll-System, ähnlich CVS, SCCS und Subversion. Es wird genutzt, um Änderungen in den Quelltexten zu verfolgen und gleichzeitig den Entwicklern die Möglichkeit zu geben, alle gemachten Änderungen der einzelnen Entwickler am Projekt zusammenzuführen.<br/><br/>
+
+Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Archiv zu geben. Damit haben Sie als Entwickler die Möglichkeit, auf einfache Weise "Patches" oder "Fixes" für die Distribution zu erstellen. Zusätzlich dazu können Sie die jeweils aktuellen Betaversionen von GeeXboX austesten und uns so helfen, Fehler frühzeitig zu erkennen und zu beseitigen! Bitte beachten Sie, dass diese Versionen oft geändert und daher als "nicht stabil" angesehen werden sollten. Wir bieten daher keine Hilfe zu diesen Versionen und sind damit nicht verantwortlich für eventuelle Beschädigungen oder Datenverlust.<br/><br/>
+
+          Zur Zeit gibt es zwei Möglichkeiten des Zugriffes auf unser Archiv: Über Kommandozeile oder Web-Arch (um z.B. schnell eine Änderung in einer Datei nachzusehen). Das Webarchiv können Sie direkt per Browser erreichen, über:<br/><br/>
+
+<b><use name="ct-geexbox-arch"/></b><br/><br/>
+
+          Um unser Archiv über die Kommandozeile zu erreichen, erstellen Sie bitte zunächst ein neues Verzeichnis und wechseln dann in dieses. Dann führen Sie bitte die folgenden Befehle aus (Stellen Sie zunächst sicher, dass das TLA Paket installiert ist) :<br/><br/> 
+
+<b>* <use name="ct-tla-register"/></b><i> - Um das GeeXboX Archiv zu registrieren.</i><br/>
+<b>* <use name="ct-tla-get"/></b><i> - Um alle Dateien des GeeXBox Archives herunter zu laden.</i><br/>
+<b>* <use name="ct-tla-update"/></b><i> - Um Ihre lokale Kopie mit unserem Server zu synchronisieren.</i>
+      </content>
+
     </subsection>
 
     <subsection label="devel">
@@ -90,6 +114,16 @@ We've decided to provide you with Web-Arch access. It will help developers to ea
         Souvenez vous que seuls les comptes mails valides et qui auront été enregistré peuvent être utilisés pour poster des messages sur le liste de diffusion.<br/><br/>
 
         Il est cependant possible d'accéder rapidement aux archives de cette liste de diffusion via <use name="ct-devel-archive-fr"/>.
+      </content>
+
+      <content lang="de" title="Mailing Liste für Entwickler">
+        Wenn Sie Interesse an der Entwicklung von GeeXboX haben, sollten Sie unsere Mailingliste für Entwickler abonnieren. Dort können Sie "Patches" oder "Fixes" einsenden oder aber auch nur den täglichen Fortschritt bei der Entwicklung beobachten. Sie müssen die Liste erst abonnieren, bevor Sie Beiträge einsenden können. Bitte beachten Sie auch, dass nur englischsprachige Beiträge akzepiert werden können. Beiträge in anderen Sprachen werden nicht beantwortet, genauso wenig wie Fragen, Anregungen oder Fehlermeldungen. Senden Sie Ihre Beiträge bitte an diese Adresse :
+        <center><devel/></center>
+        Sie können die Mailing Liste hier abonnieren oder abbestellen <use name="ct-devel-de"/><br/><br/> 
+
+        Bitte beachten Sie, dass nur registrierte Email-Adressen genutzt werden können, um Beiträge zu senden!<br/><br/>
+
+        Das Archiv der Entwickler-Mailing-Liste finden Sie <use name="ct-devel-archive-de"/>.
       </content>
     </subsection>
   </section>

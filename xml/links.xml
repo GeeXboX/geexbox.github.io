@@ -50,6 +50,7 @@
   <section label="links">
     <content lang="en" title="Links ..."/>
     <content lang="fr" title="Liens ..."/>
+    <content lang="de" title="Links ..."/>
 
     <subsection label="intouch">
       <content lang="en" title="Special Thanks ...">
@@ -61,6 +62,11 @@
         Nous souhaitons adresser des remerciements particuliers à la companie <b>InTouch.Net</b>. Elle nous fournit une solution gratuite d'hébergement de <i>geexbox.org</i> et ce, avec une grande qualité de services.
         <use name="lnk-intouch"/>
         InTouch N.V. est un fournisseur de services de communication indépendant, basé à Amsterdam, aux Pays-Bas. Fondé en 1994, InTouch se focalise sur l'approvisionnement de solutions aux besoins de communication spécifiques de ses clients, les guidant de la phase d'évaluation des besoins, au design, en passant par la phase d'implémentation et de gestion des infrastructures réseau et des systèmes. En étroite relation avec ses partenaires, la companie fournit des services de communication à ses clients.
+      </content>               
+      <content lang="de" title="Besonderer Dank ...">
+        Unser besonderer Dank gilt der Firma <b>InTouch.Net</b>. Sie bieten uns großartigen Service und hosten <i>geexbox.org</i> kostenlos!.
+        <use name="lnk-intouch"/>
+        InTouch N.V. ist ein in Amsterdam (Niederlande) ansässiger unabhängiger Kommunikationsanbieter. Seit der Gründung 1994 beschäftigt sich InTouch mit dem Zurverfügungstellen von maßgeschneiderten Kommunikationslösungen für spezifische Kundenanforderungen. Sie führen und unterstützen ihre Kunden vom Design bis zur Implementierung und hin zum funktionsfähigen Management der Netzinfrastrukturen. Im engen Zusammenspiel mit ihren Teilhabern stellen sie globale Kommunikationsdienstleistungen für ihre Kunden zur Verfügung.
       </content>               
     </subsection>
 
@@ -81,6 +87,14 @@
         * <use name="lnk-freepia"/> est une distribution GNU/Linux légère conçue pour fonctionner sur les plateformes Via Epia-M. A l'heure actuelle, elle fonctionne uniquement sur la M-9000 mais quelques modifications du noyau et des modules X11 devraient permettre de la faire fonctionner sur d'autres plateformes. La motivation principale de ce projet est de permettre la construction d'un lecteur complet, silencieux permettant de lire films/mp3s/images etc ...<br/><br/>
         * <use name="lnk-vdrlive"/> est une distribution multimédia, issue du projet GeeXboX lui-même. Son avantage principal est de supporter les cartes DVB-s au travers de <i>Video Disk Recorder</i> (VDR).
       </content>
+      <content lang="de" title="Ähnliche Projekte ...">
+        * <use name="lnk-movix"/> : MoviX ist eine kleine Linux Distribution, die Ihren PC in eine Multimedia Maschine verwandelt. Nach dem Start von CD begrüßt Sie MoviX mit einem benutzerfreundlichen Menü, über das Sie mittels MPlayer jede DVD/VCD, Video/Audio Dateien (z.B. DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, und OGG/VORBIS), TV (Wenn Sie eine TV-Karte besitzen) und Radio über Internet (wenn Sie einen Zugang über LAN besitzen), abspielen können. Da das gesamte Betriebssystem in den Arbeitsspeicher geladen wird, brauchen Sie nicht einmal eine Festplatte.<br/><br/>
+        * <use name="lnk-freevo"/> : Freevo ist eine Linux Applikation, die einen PC mit TV Capture Karte und/oder TV-out in eine Multimedia Jukebox/VCR/PVR/HTPC/DVR/set-top verwandelt. Freevo verwendet MPlayer und andere Applikationen, um Video und Audio aufzunehmen und abzuspielen. Freevo ist für die Bedienung mittels Fernbedienung und der Ausgabe auf Fernseher optimiert, kann aber auch mit PC-Monitor und Tastatur genutzt werden. Die Installation ist sehr einfach, da es sich um eine Binärdatei handelt, die keine weiteren Abhängigkeiten besitzt.<br/><br/>
+        * <use name="lnk-freevix"/> ist eine GNU/Linux basierte Distribution im Miniformat und ist optimal als Basis für Freevo.<br/><br/>
+        * <use name="lnk-womp"/> ist eine winzige Linux Distribution mit Fokus auf Multimedia. Es werden nur etwa 13 bis 18 MB auf einer startfähigen CD belegt, aber man kann verschiedenste Multimediadateien (video/audio/image) ohne Installation auf der Festplatte damit wiedergeben.<br/><br/>
+        * <use name="lnk-freepia"/> ist eine kleine GNU/Linux Distribution. Entwickelt, um mit Via Epia-M Mainboards zu arbeiten. Z. Zt. funktioniert sie nur mit der M-9000 Serie, aber mit einigen Modifizierungen an Kernel und X11 Modulen sollte es auch mit anderen Boards funktionieren. Das eigentliche Anliegen dieses Projektes soll ein leiser Multimedia PC zur Wiedergaben von Filmen/mp3s/Bildern u.s.w. sein<br/><br/>
+        * <use name="lnk-vdrlive"/> ist eine Multimedia Distribution, welche aus der GeeXboX hervorgegangen ist. Der große Vorteil ist die Unterstützung von DVB-S Karten durch den  <i>Video Disk Recorder</i> (VDR).
+      </content>
     </subsection>
     <subsection label="programs">
       <content lang="en" title="Embedded Programs ...">
@@ -100,6 +114,15 @@
         * <use name="lnk-lirc"/> : c'est un paquetage permettant de décoder et d'envoyer des signaux infra-rouge sur de nombreux (mais pas tous) récepteurs et télécommandes.<br/>
         * <use name="lnk-syslinux"/> est chargeur de noyau Linux très facile d'utilisation.<br/>
         * <use name="lnk-uclibc"/> : la uClibc est une librairie C utilisée pour le développement de systèmes Linux embarqués. Elle est de bien plus petite taille que sa grande soeur, la librairie C GNU, mais presque toutes les applications supportées par la glibc fonctionnent parfaitement avec la uClibc.
+      </content>
+      <content lang="de" title="Verwendete Programme in GeeXboX...">
+        GeeXboX ist ein vollständiger Medien Player. Die aktuelle stabile Version nutzt die folgenden wichtigen Programme :<br/><br/>
+        * <use name="lnk-linux"/> : Linux ist ein freies UNIX ähnliches Betriebsystem, entwickelt von Linus Thorvalds mit der Unterstützung von tausenden Entwicklern auf der ganzen Welt.<br/>
+        * <use name="lnk-mplayer"/> : Wahrscheinlich der beste Medien Player, unterstützt die meisten verfügbaren Audio/Video Codecs.<br/>
+        * <use name="lnk-busybox"/> : BusyBox bietet eine nahezu vollständige POSIX Umgebung für jedes mini oder embedded System. Es verbindet "abgespeckte" Versionen bekannter UNIX Utilities in nur einer einzigen ausführbaren Datei.<br/>
+        * <use name="lnk-lirc"/> : Ist ein Programm zum Dekodieren und Senden von IR-Signalen, wie sie nahezu von jeder Fernbedienung genutzt werden.<br/>
+        * <use name="lnk-syslinux"/> Ist ein einfach zu nutzender Linux Bootloader.<br/>
+        * <use name="lnk-uclibc"/> : uClibc ist eine C Library zur Entwicklung von Embedded-Systems. Sie ist viel kleiner als die GNU C Library, aber nahezu alle, von der glibc unterstützten, Programme arbeiten auch perfekt mit der uClibc.
       </content>
     </subsection>
   </section>

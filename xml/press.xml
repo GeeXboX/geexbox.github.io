@@ -50,6 +50,9 @@
     <content lang="fr" title="Presse ...">
       Voici une courte liste de quelques nouvelles ou articles qui ont été publiés, et traitant de la GeeXboX. Si vous avez entendu parler d'autres, nous serions ravis d'y jeter un oeil. Si tel est votre cas, veuillez contacter le <webmaster/>.
     </content>
+    <content lang="de" title="Presse ...">
+      Hier finden Sie eine Liste von Nachrichten und Artikeln, die über das GeeXboX Projekt berichten. Wenn Sie von anderen Artikeln wissen, würde es uns freuen, wenn Sie uns dies mitteilen würden. Wenden Sie sich dazu bitte an den <webmaster/>.
+    </content>
     <subsection label="internet">
       <content lang="en" title="Internet News and articles">
         The following list covers all of the Internet websites that have posted some news or articles about the GeeXboX. We want to thank them for what they've done as the GeeXboX's success wouldn't have reached this level without their help.<br/><br/>
@@ -57,6 +60,10 @@
       </content>
       <content lang="fr" title="Nouvelles et Articles parus sur Internet">
         La liste ci-dessous couvre tous les sites qui ont posté une news ou un article relatif à la GeeXboX. Nous tenons à les remercier, car le succès de la GeeXboX n'aurait pas été tel sans leur contribution.<br/><br/>
+        <use name="prs-internet"/><br/><br/>
+      </content>
+      <content lang="de" title="Internet Nachrichten und Artikel">
+        Die folgende Liste enthält alle Webseiten, die entweder Nachrichten oder Artikel zu GeeXboX veröffentlicht haben. Wir möchten Ihnen dafür unseren Dank aussprechen, denn ohne Sie hätte die GeeXboX niemals diesen Bekanntheitsgrad erreichen können.<br/><br/>
         <use name="prs-internet"/><br/><br/>
       </content>
     </subsection>
@@ -67,6 +74,10 @@
       </content>
       <content lang="fr" title="Nouvelles et Articles parus en revues spécialisées">
         Quelques journaux spécialisés nous ont égalment fait l'honneur de nous consacrer une petite news ou un article, comme vous pouvez le voir grâce aux liens suivants :<br/><br/>
+        <use name="prs-paper"/>
+      </content>
+      <content lang="de" title="Zeitungsartikel">
+        Einige Computerzeitschriften haben uns gewürdigt, indem Sie über die GeeXboX in Artikeln oder News berichtet haben. Hier können Sie diese nachlesen. Folgen Sie dazu bitte einfach diesen "links" :<br/><br/>
         <use name="prs-paper"/>
       </content>
     </subsection>

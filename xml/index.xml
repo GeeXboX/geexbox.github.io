@@ -21,6 +21,7 @@
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
+    <content lang="de" title="Aktuelle Nachrichten ..."/>
 
     <subsection label="release_0.98.5">
       <content lang="en" title="GeeXboX 0.98.5 (12/29/04)">
@@ -117,6 +118,53 @@ Nous espérons que vous allez apprécier cette nouvelle version, vous souhaitons à
 <br/>
 <use name="dl-iso-en"/> est disponible dès à présent sur tous les bons serveurs :-)<br/>
       </content>
+      <content lang="de" title="GeeXboX 0.98.5 (12/29/04)">
+Ho ho ho ... endlich gibt es die neue Version der GeeXboX. Aus der Tradition heraus bringen viele freie Softwareprojekte neue Versionen ihrer Software zur Weihnachtszeit heraus, und wir machen es genau so (um genau zu sein, mit etwas Verspätung :-). Hier ist unser Geschenk zum Jahresabschluß 2004: GeeXboX 0.98.5 !! Wie bitte ... warum 0.98.5 ? ... wo bleibt Version 0.99 ?<br/>
+<br/>
+Wie wir schon früher angemerkt haben, wird die Version 0.99 eine völlig neu gestaltete Oberfläche besitzen, welche aber z. Zt. leider noch nicht vollständig ist (Sie können aber jederzeit den Fortschritt der Arbeiten unter <use name="drafts"/> begutachten). Es sind nun bereits wieder 4 Monate seit dem Release der letzten Version vergangen, und es wurde seitdem sehr viel Arbeit in die Verbesserung von GeexBoX gesteckt, auch wenn Sie vielleicht keinen so großen Unterschied bei der Funktionalität zur 0.98 Version feststellen werden. Der Grund dafür ist recht einfach : Wir haben in weiten Teilen den Sourcecode neu geschrieben. Dies betrifft das "build toolkit" und alle anderen wichtigen Programme. Daher ist es auch nötig, erst noch einmal eine neue Version bereitzustellen, bevor wir die neue Oberfläche endgültig integrieren können.<br/>
+<br/>
+Wir danken an dieser Stelle <i>Amir Shalem</i>, der vor einigen Monaten dem GeeXboX Entwicklerteam beigetreten ist und den größten Anteil an der Überarbeitung des Sourcecodes erledigt hat. An dieser Stelle nochmals : Vielen Dank!<br/>
+<br/>
+Wir bitten Sie nun, diese Version zu testen. Sehen Sie diese aber bitte nicht als revolutionär an, weil sie es nicht ist ;-) Es ist "nur" eine überarbeitete Version der alten 0.98 : Allerdings mit neuem Kernel, neueren Versionen von Playern und deren Codecs, mit besserer Unterstützung für Grafikkarten, besserer Verwaltung von Schriftarten und Sprachen und einer neuen nie dagewesenen einfachen Installationsmöglichkeit auf Festplatte.<br/>
+<br/>
+Wir hoffen, Sie haben Spaß mit der neuen Version, wünschen hiermit ein frohes neues Jahr und hoffen, dass Sie auch in 2005 GeeXboX nutzen werden:-)<br/>
+<br/>
+<b>Änderungen im Detail (im Vergleich zur 0.98 Version) :</b><br/>
+<br/>
+<b>System :</b><br/>
+- Wechsel zu Linux Kernel 2.6.9 (Auf Wiedersehen 2.4).<br/>
+- Wechsel von "Linux Progress Patch" zu "BootSplash".<br/>
+- Wechsel zur uClibc CVS Version.<br/>
+- Wechsel zu Samba 3.0.10<br/>
+<br/>
+<b>Player :</b><br/>
+- Wechsel zur neuen MPlayer Version 1.0pre6 (Danke für dieses Weihnachtsgeschenk) : Für mehr Details sehen Sie dazu bitte im MPlayer ChangeLog nach.<br/>
+- Unterstützung zur Videonachbearbeitung (Bildverbesserung): Horizontales und verticales "deblocking", "deringing effects" und automatische Helligkeitseinstellung (Standard : deaktiviert).<br/>
+- 24 bit Farbtiefe.<br/>
+- Playback-Geschwindigkeit für verschiedene Hardware verbessert (weniger CPU-Last).<br/>
+<br/>
+<b>Treiber :</b><br/>
+- Wechsel zu den neuesten ALSA 1.0.7 Treibern und Bibliotheken.<br/>
+- Fehler bei einigen Audio-Chipsätzen behoben (die Lautstärke wird nun automatisch auf den besten Wert eingestellt).<br/>
+- Verbesserte VESA Kompatibilität (es werden nun auch 3Dfx und Intel i845/855/865 Karten unterstützt !!)<br/>
+- Vidix Unterstützung von EPIA MII Boards (CLE266 Revision) und S3 Savage Chipsätzen.<br/>
+- Unnötige DirectFB Treiber entfernt (wurden nur von 3Dfx Karten genutzt, diese verwenden nun den VESA Modus).<br/>
+- WiFi Trieber für RaLink rt25xx Chipsätze hinzugefügt.<br/>
+- Treiber für ACX100 Chipsätze entfernt (brauchen propritäre "firmware", um zu funktionieren).<br/>
+- Unterstützung für mehr ISA Netzwerkkarten.<br/>
+<br/>
+<b>Internationalisierung :</b><br/>
+- Verbesserter Umgang und Darstellung von Menü und Untertitelschriften.<br/>
+- Unterstützung asiatischer Schriftarten.<br/>
+<br/>
+<b>Verschiedenes :</b><br/>
+- Unterstützung von TV-Out für Intel i810/i815 Karten.<br/>
+- Neue Optionen für den win32 Generator (jetzt noch einfacher zu nutzen).<br/>
+- Komplette Neuprogrammierung des Installers : Nutzt nun GRUB als "bootloader". Außerdem bietet der neue Installer nun Unterstüzung von FAT16/32 und EXT2/3 Partitionen. Ganz nebenbei besteht auch keine Notwendigkeit mehr, GeeXboX auf der ersten primären Partition zu installieren. Und noch besser : Er bietet jetzt automatische Erkennung von anderen bereits installierten Betriebssystemen und richtet, falls gewünscht, bei Bedarf eine "multiboot" Umgebung ein.<br/>
+- Komplette Neuprogrammierung des "build toolkit" (es sollte nun möglich sein, angepasste GeeXboX Sourcen auf jeder GNU/Linux oder FreeBSD Distribution zu erstellen). Zusätzlich bietet das Toolkit weitere Optimierungen und gemäß den "build toolkit" Regeln die Möglichkeit, sehr einfach neue Programme zu integrieren.<br/>
+<br/>
+<use name="dl-iso-en"/> gibts hier.<br/>
+      </content>
     </subsection>
 
     <subsection label="pre_0.99">
@@ -133,6 +181,13 @@ Nous espérons que vous allez apprécier cette nouvelle version, vous souhaitons à
         Nous en avons maintenant quasiment fini avec les changements d'architecture que nous avions prévu d'apporter à la future version 0.99 et nous sommes désormais en mesure de concentrer nos efforts sur une refonte complète de l'interface du menu. Pour vous donner un aperçu du futur de la GeeXboX, vous pouvez simplement jetter un oeil sur notre page <use name="drafts"/> d'ébauche de l'interface. A l'heure actuelle il ne s'agit que d'un simple aperçu de la future version 0.99 et, afin de la distribuer au plus tôt, nous avons besoin de votre aide pour tester nos versions de développement et pour nous rapporter tous les bugs que vous pourrez rencontrer.<br/><br/>
 
         Nous essaierons de mettre à votre disposition de nouvelles versions de développement aussi souvent que possible, dès que des changements significatifs auront été apportés. Ainsi, si vous souhaitez contribuer au développement, vous êtes invités à tester nos versions de développement sur cette <use name="devel"/>. Comprenez bien cependant qu'il ne s'agit que de versions unstables, en cours de développement, et qui ne peuvent être considérées comme stable. Si vous souhaitez utiliser une version certifiée stable de la GeeXboX, la 0.98 est faite pour vous.
+      </content>
+      <content lang="de" title="Helfen Sie bei der GeeXboX Entwicklung : Testen Sie Entwicklerversionen">    
+        Nahezu 2 Monate sind seit der Veröffentlichung der GeeXboX Version 0.98 vergangen. Eine Menge Arbeit wurde seitdem erledigt. Zum Beispiel gibt es jetzt Unterstützung für den Linux 2.6 Kernel, und es wurden viele Verbesserungen bei der Grafikausgabe gemacht. Die VESA 3.0 Spezifikation wird nun voll unterstützt und es gibt verbesserte Unterstützung für alle 3Dfx und Intel i845/i855/i865 Karten und Chipsätze. Außerdem werden nun alle Bilder mit einer Farbtiefe von 24 bit dargestellt.<br/><br/>
+
+        Wir haben nun nahzu alle Änderungen an der Architektur (nötig für die 0.99 Version) abgeschlossen und können nun mit der Überarbeitung der Menüdarstellung beginnen. Um einen Vorgeschmack zukünftiger GeeXboX Versionen zu bekommen, sehen Sie einfach auf unserer <i>Work In Progress</i><use name="drafts"/> nach. Zur Zeit handelt es sich um eine Testversion der kommenden 0.99 Version und wir bitten Sie, diese Version schon jetzt zu testen und uns alle bugs mitzuteilen, damit wir so schnell wie möglich diese Version fertigstellen können.<br/><br/>
+
+        Wir werden versuchen, so viele Testversionen wie möglich zu veröffentlichen. In jeder Version werden neue signifikante Verbesserungen enthalten sein. Wenn Sie uns also helfen möchten, testen Sie bitte die aktuellen Testversionen die Sie hier finden <use name="devel"/> können. Beachten Sie bitte, dass es sich hierbei wie gesagt um Testversionen handelt, die nicht als "stabil" angesehen werden sollten. Wenn Sie also eine als "stabil" eingestufte Version verwenden möchten, nutzen Sie bitte die weiterhin 0.98 Version.
       </content>
     </subsection>
 
@@ -179,8 +234,29 @@ Nous espérons que vous allez apprécier cette nouvelle version, vous souhaitons à
 * Ajout du support des lecteurs USB externes de cartes SmartMedia et CompactFlash.<br/><br/>
       Nous espérons que cette version 0.98 vous plaira, car la prochaine sera décoiffante :-) A ce propos, nous avons encore et toujours besoin de support dans de nombreux domaines. Plus que jamais, nous avons besoin de traducteurs, documentalistes, graphistes et designers. Si vous avez du temps à disposition et souhaitez nous aider, faites nous le savoir. Et, pour conclure, si vous appréciez la GeeXboX et souhaitez etre informés par mail dès qu'une nouvelle version est disponible au grand public, vous pouvez vous enregistrer sur la page de notre projet sur <use name="freshmeat"/>(et par là meme, nous permettre de gagner et popularité et, pourquoi pas arriver un jour en haut de la liste :-)<br/>
       </content>
-    </subsection>
 
+<content lang="de" title="GeeXboX 0.98 (08/12/04)">
+      Und wieder ist eine neue GeeXboX Version verfügbar. Diese Version ist ein weiterer wichtiger Schritt in unserer "Roadmap". Diese Version bringt nicht wirklich viele neue Features (oder andere nützliche Dingen), behebt aber eine Menge an ärgerlichen Bugs. Höchstwahrscheinlich wird diese Version die letzte GeeXboX in der jetzigen Form sein. Wir planen, noch härter an der GeeXboX zu arbeiten, um Ihnen ein noch nie dagewesenes Betriebssystem zu bieten, das aber weiterhin so einfach wie möglich zu bedienen sein wird. Seien Sie also gespannt :-)<br/><br/>
+      Ok, zurück aus der Zukunft. Lassen Sie uns einige Details der aktuellen Version vorstellen. Hier kommt, auf was Sie gewartet haben : <br/><br/>
+* Wechsel zu MPlayer 1.0pre5<br/>
+* Fehler für Reaktion der Tastendrücke bei ATI Remote Wonder behoben.<br/>
+* Verbesserte WiFi Unterstützung und Treiber für RT2400 und ACX100 Chipsätze.<br/>
+* Verbesserte Unterstützung für FTP Dateiübertragung.<br/>
+* Verfügbarer Speicher auf der Festplatte kann nun im Menü angezeigt werden.<br/>
+* Kontrolle der "Player" über Joysticks (alle USB Modelle und Microsoft SideWinder am Standard Gameport).<br/>
+* Unterstützung für SPDIF (digital) Audio Ausgang implementiert.<br/>
+* Verbesserte Unterstützung von WideScreen (16:9) Displays und Fehler bei der TV-Out Norm (PAL/NTSC) bei DXR3 Karten behoben.<br/>
+* Unterstützung für Softwaredekodierung von DTS Audio.<br/>
+* Autoerkennung und automatisches Abspielen des längsten verfügbaren DVD Titels (sollte der richtige sein, also jener Titel, der den Film darstellt).<br/>
+* Ein GeeXboX "generator" Skript für Debian Pakete hinzugefügt.<br/>
+* Einige Kompatibilitätsprobleme beim Kompilieren unter anderen Distributionen als Debian behoben (Es sollte nun auch wunderbar mit Mandrake 10 und Fedora Core 2 funktionieren).<br/>
+* Kapitelwahl für DVDs und Matroska Dateien implementiert.<br/>
+* Problem mit dem TV-Out von nVidia Karten behoben : Keine schwarz-weiss Darstellung mehr beim Abspielen neuer Videos.<br/>
+* Der "generator" bietet nun eine Unterscheidung von Empfänger und Fernbedienung.<br/>
+* Unterstützung von externen USB SmartMedia und CompactFlash Kartenlesern hinzugefügt.<br/><br/>
+      Wir hoffen, dass Sie mit dieser Version zufrieden sein werden. Aber die nächste wird noch viel besser :-) Apropos, uns fehlt noch immer etwas Unterstützung bei einigen Dingen. Mehr als vorher brauchen wir Übersetzer, Designer und Leute, die willens sind, die Dokumentation anzupassen und upzudaten. Wenn Sie also etwas Freizeit haben und helfen möchten, teilen Sie uns das bitte mit. Achja, wenn Sie die GeeXboX wirklich mögen und benachrichtigt werden wollen, wenn eine neue Version erscheint, können Sie sich kostenlos auf unserer Projektseite <use name="freshmeat"/> für den Newsletter eintragen. (Und uns damit gleichzeitig zu mehr Popularität verhelfen, vielleicht schaffen wir es so eines Tages an die Spitze :-)<br/>
+</content>
+    </subsection>
     <subsection label="release_0.97">
       <content lang="en" title="GeeXboX 0.97 : Birthday Edition (05/16/04)">
       'I think it was the hardest version to release but 0.97 has finally come, exactly one year after the first public release. As you may have noticed, our website was unreachable for some time in the last month and until only recently, some services were unfortunately down. Let's clarify the situation. Our previous host (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) has been attacked by hackers in January 2004 and decided to stop hosting free projects for an undefined period. Thanks to <b>BWare</b>, a member of the GeeXboX's forum, we got the opportunity to get a nearly dedicated web server with lots of bandwidth. Many thanks to him, without whom our services wouldn't have been restored at this time. More than ever, we need generous contributors and donators to help the project and prevent us from such a situation to happen once again. If you believe in our project, don't hesitate to have a look at the appropriate section of this website.<br/><br/>
@@ -230,6 +306,30 @@ Donc, comme à l'accoutumée, voici un rapide aperçu des nouvelles fonctionnalités
 * Ajout d'un visualiseur d'images (FBI) avec support des formats BMP, GIF, JPEG, PCD, PNG, PNM et PPM.<br/>
 * Passage du gestionnaire de version CVS à GNU Arch.<br/>
       </content>
+      <content lang="de" title="GeeXboX 0.97 : Geburtstagsausgabe (05/16/04)">
+      'Ich denke, dass die Veröffentlichung dieser Version eine der am anstrengendsten in der Geschichte von GeeXboX war, aber exakt ein Jahr nach Herausgabe der ersten öffentlichen Version ist sie nun da : GeeXboX 0.97.' Wahrscheinlich haben Sie bemerkt, dass es in der letzten Zeit einige Probleme bei der Erreichbarkeit unserer Webseite gegeben hat und einige Dienste gar nicht mehr erreichbar waren. Dazu möchte ich folgendes anmerken. Unser alter Hoster (<a href="http://www.tuxfamily.org/"><i>tuxfamily.org</i></a>) wurde im Januar 2004 von "Hackern" angegriffen und tuxfamily.org hat daraufhin das Hosten für freie Projekte auf unbestimmte Zeit ausgesetzt. Durch die Hilfe von <b>BWare</b>, einem Mitglied im GeeXboX Forum, haben wir einen dedizierten Server mit großer Bandbreite bereitgestellt bekommen. Dafür vielen Dank! Ohne seine Hilfe würden wir jetzt noch immer nicht unser Angebot wieder online haben. Mehr als jemals zuvor benötigen wir die Hilfe von Spendern und weiteren Angeboten, um nicht in naher Zukunft nochmals in eine solche Situation zu geraten. Wenn Sie an das GeeXboX Projekt glauben, scheuen Sie sich nicht, auf den verschiedenen Seiten der Webseite nachzusehen, wie Sie uns helfen können.<br/><br/>
+OK, genug dazu, lassen Sie uns nun etwas über die 0.97 Version verraten :-) Aus verschiedenen Gründen (auch den o.g.) hat die Weiterentwicklung sehr viel länger gedauert, als wir es uns gewünscht hatten. Aber Sie werden erfreut sein, dass diese Version jede Menge neue Dinge enthält, die schon seit sehr langer Zeit von vielen Nutzern gewünscht wurden. Nur nebenbei bemerkt, den längsten Zeitraum zwischen 2 Versionen bildet die Phase, in der die Programmfehler behoben werden. Wir veröffentlichen des Öfteren s.g. Entwicklerversionen und wir würden uns freuen, wenn Sie diese für uns testen können. Denn je mehr Leute testen und uns Fehler mitteilen, umso schneller können wir eine neue Version freigeben.<br/><br/>
+Wie immer an dieser Stelle eine schnelle Übersicht über die Änderungen, auf die Sie schon so lange gewartet haben: <br/><br/>
+* Wechsel zu MPlayer 1.0pre4<br/>
+* Unterstützung von Packard Bell "Fast Media Remote" und Empfänger.<br/>
+* Unterstützung von DXR3/Hollywood+ (MPEG1/2 hardware decoder) Karten (nur TVOut bis jetzt).<br/>
+* Unterstützung von S3 Virge GX2 TV Out.<br/>
+* Unterstützung für das Matroska Container-Format.<br/>
+* Unterstützung für den Nullsoft Streaming Video (NSV) Container.<br/>
+* Unterstützung von PCI und USB WiFi Netzwerkkarten (AiroNet, Atmel, und Prism2 Chipsätze).<br/>
+* Unterstützung von Serial ATA Festplatten.<br/>
+* Unterstützung von 3COM/NetGear Gigabit Netzwerkkarten.<br/>
+* Unterstützung von BT8x8 und Saa73134 Karten (Composite und S-VHS Eingang und TV Tuner).<br/> 
+* Unterstützung von Audio/Video Streaming (Web-Radios etc ...)<br/>
+* Internetzugang über Gateways.<br/>
+* Telnet Server für entfernten Zugriff implementiert.<br/>
+* Unterstützung von Hardware-Video-Beschleunigung (VidiX) für EPIA-M (CLE266 Chipsatz) und ATI Radeon 9xxx Karten.<br/>
+* Unterstützung von VidiX für nVidia Karten (EXPERIMENTELL : standardmäßig deaktiviert).<br/>
+* IrMan Library hinzugefügt.<br/>
+* Unterstützung von ATI Remote Wonder Fernbedienungen durch LIRC.<br/>
+* Bildbetrachter (FBI) mit Unterstützung von BMP, GIF, JPEG, PCD, PNG, PNM und PPM Formaten.<br/>
+* Wechsel vom CVS Revisions-Kontroll-System zu GNU Arch.<br/>
+      </content>
     </subsection>
 
     <subsection label="site_v2">
@@ -242,6 +342,11 @@ Donc, comme à l'accoutumée, voici un rapide aperçu des nouvelles fonctionnalités
       Nous utilisions la feuille de style du consortium OpenWeb depuis trop longtemps. Cela n'enchantait guère les gens d'OpenWeb et nous avons donc enfin pris le temps de créer un nouveau design depuis zéro. Vous pouvez maintenant choisir entre deux thèmes différents (libre à vous de nous en soumettre de nouveaux).<br/><br/>
 
       Comme d'habitude, le site est conforme aux standards du W3C (XHTML 1.1 et CSS 2). Si vous rencontrez des problèmes d'affichage, utilisez simplement un navigateur respectant ces standards (par exemple <use name="mozilla"/>).
+      </content>
+      <content lang="de" title="GeeXboX Webseite update (01/13/04)">
+      OpenWeb's Stylesheet Vorlage haben wir schon zu lange genutzt. Also haben wir uns die Zeit genommen, um das Ganze neu zu programmieren. Sie können nun sogar unter zwei verschiedenen Stylesheets wählen. (Sie können uns auch gerne neue zukommen lassen, wenn Sie mögen).<br/><br/>
+
+      Wie gehabt, ist unserer Seite W3C standardkonform (XHTML 1.1 und CSS 2). Sollten Sie Fehler bei der Darstellung bemerken, nutzen Sie bitte einen CSS 2 konformen Browser (z.B. <use name="mozilla"/>).
       </content>
     </subsection>
 
@@ -280,6 +385,23 @@ This release is dedicated to our first generous donator (we're sure he will reco
 L'équipe GeeXboX met également à votre disposition un canal IRC, pour partager votre expérience avec les utilisateurs du monde entier, que ce soit vos suggestions ou vos problèmes. Connectez vous au serveur IRC <b>chat.zone-irc.org</b> sur le canal <b>#geexbox</b>.<br/><br/>
 Cette version est dédiée à notre premier généreux donateur (nous sommes convaincus qu'il se reconnaîtra :) pour son cadeau de Noël qui nous aidera beaucoup pour le développement à venir. Nous tenons enfin à vous remercier, tous tant que vous êtes, d'utiliser la GeeXboX et de nous aider à l'améliorer. Toute l'équipe vous souhaite de joyeuses fêtes de fin d'année et espère vous retrouver nombreux en 2004 pour la suite des aventures :-)<br/>
       </content>
+      <content lang="de" title="GeeXboX Weihnachtsausgabe : 0.96 (12/18/03)">
+      Es ist Weihnachtszeit ! Also haben wir eine neue Version veröffentlicht, um sie unter den Weihnachtsbaum zu legen :-) Die meisten Veränderungen betreffen behobene Fehler. Aber auch mehr Hardware wird nun unterstützt, um mehr und mehr Benutzern gerecht zu werden. Hier sind die Änderungen :<br/><br/>
+* Unterstüzung für neue Fernbedienungen (es gab Probleme in alten Versionen im Zusammenspiel mit der "autoplay" Funktion).<br/>
+* Wechsel zu MPlayer 1.0pre3 Version und ALSA 1.0rc2.<br/>
+* Unterstützung des DirectFB Video Modus.<br/>
+* Unterstützung von 3Dfx Karten.<br/>
+* Unterstützung von USB Geräteerkennung.<br/>
+* Unterstützung von nForce Netzwerkkarten.<br/>
+* Unterstützung von NFS Shares.<br/>
+* Unterstützung von Windows 2k/XP "Multi-Boot-Manager".<br/>
+* Unterstützung von AniMAX Fernbedienungen.<br/>
+* Netzwerkboot über PXE.<br/>
+* Fehlerbeseitung bei russischen Schriftarten.<br/>
+* Neue bulgarische, rumänische, polnische und deutsche Übersetzung.<br/><br/>
+Das GeeXboX Team bietet Ihnen nun auch einen Live-IRC-Chatroom, um Ihre Erfahrungen, Probleme und Anregungen mit weltweiten Nutzern zu teilen. Verbinden Sie sich dazu bitte mit unserem IRC-Server <b>chat.zone-irc.org</b> und besuchen den <b>#geexbox</b> Chatroom.<br/><br/>
+Diese Version ist unserem ersten grosszügigen Spender (wir sind sicher, er weiss, wen wir meinen :) gewidmet für sein "Weihnachtsgeschenk", das uns bei der zukünftigen Entwicklung helfen wird. Natürlich sagen wir auch Ihnen, den Nutzern auf der ganzen Welt, Danke dafür, dass Sie GeeXboX nutzen und wünschen frohe Weihnachten :-p<br/>
+      </content>
     </subsection>
 
     <subsection label="forum_crash">
@@ -290,6 +412,10 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
       <content lang="fr" title="Crash du Forum GeeXboX (10/12/03)">
       Comme vous avez pu le constater, le forum GeeXboX est resté inaccesible depuis environ 10 jours pour un problème inconnu sur notre base de données PostgreSQL. Une erreur sérieuse a contraint notre hébergeur à procéder à un nettoyage complet de cette dernière, sans malheureusement que nous ayons la moindre sauvegarde :-( Ceci signifie que le forum a été complètement effacé. Toutes nos excuses pour une telle situaion.<br/><br/>
       Tous les messages existants et autres enregistrements ont été perdus, de ce fait vous devrez à nouveau vous inscrire au forum (un processus de sauvegarde automatique hebdomadaire a été mis en place). Pour faire passer le pilule, nous vous annonçons simplement que la sortie de la version 0.96 de la GeeXboX est toute proche, restez à l'écoute :p<br/>
+      </content>
+      <content lang="de" title="GeeXboX's Forum Absturz (12/10/03)">
+      Wahrscheinlich haben Sie es schon bemerkt. Durch einen unbekannten Fehler in unserer PostgreSQL Datenbank war das Forum in den letzten zehn Tagen nicht zu erreichen. Der Rechner hatte einen Totalabsturz und unglücklicherweise gibt es kein Backup :-( D.h., das Forum wurde komplett neu aufgesetzt. Dafür bitten wir um Entschuldigung.<br/><br/>
+      Alle bis dahin gemachten Anmeldungen und Beiträge sind leider verloren, daher müssen Sie sich nochmals neu registrieren (wir machen nun auch ein wöchentliches Backup). Um Ihnen die Laune wieder etwas zu verbessern, möchten wir anmerken, dass die Version 0.96 der GeeXboX in Kürze veröffentlicht wird :p<br/>
       </content>
     </subsection>
 
@@ -332,6 +458,25 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
 * Support natif des codecs QuickTime SVQ3, H264, ASV 1/2, Indeo, ATI VCR 1/2, et 3ivX.<br/> 
 * La GeeXboX peut désormais être démarrée en mode de débogguage.<br/>      
       </content>
+      <content lang="de" title="GeeXboX Halloween Edition : 0.95 (10/20/03)">
+      Endlich ist Sie da ! Neue GeeXboX Versionen brauchen manchmal lange Zeit bis zur Veröffentlichung, aber wir haben wie immer eine lange Liste an Erweiterungen in diese Version implementiert und wie immer einige Fehler entfernt. In dieser Version wurden viele Kompatibilitätsprobleme beseitigt und die lang ersehnte Ausgabe in Digitalsound wurde fertiggestellt. Die Änderungen im Detail :<br/><br/>
+* Darstellungsfehler von nVidia, SiS und Kyro Grafikkarten behoben.<br/>
+* Unterstützung von multilingualen OGM Dateien.<br/>
+* AutoPlay implementiert.<br/>
+* XCD Unterstützung implementiert.<br/>
+* Viele neue Übersetzungen (11 Sprachen verfügbar).<br/>
+* Unterstützung von Creative PC-DVD, Sony RM-S6 und RX-V850 Fernbedienungen.<br/>
+* Neue GUI-Win32 Version des "generators".<br/>
+* Wechsel zu MPlayer Version 1.0pre2.<br/>
+* OSS Sound durch ALSA ersetzt. (Unterstützt nun Digitale Soundausgabe)<br/>
+* Auflösung auf 800x600 geändert um einige TV-Out Probleme zu umgehen.<br/>
+* DVD Playback Problem behoben.<br/>
+* Update auf Samba 3.0 mit besserer Unterstützung von WinXP.<br/>
+* Verbesserte USB Erkennung und Unterstützung.<br/>
+* FTP Server implementiert um einfaches Modifizieren von GeeXboX's Konfigurationsdateien und das Kopieren von Viedeos über das Netzwerk zu ermöglichen.<br/>
+* Native Unterstützung von QuickTime SVQ3, H264, ASV 1/2, Indeo, ATI VCR 1/2, und 3ivX Codecs.<br/> 
+* GeeXboX kann nun im "debug" Modus gestartet werden.<br/>
+      </content>
     </subsection>
 
     <subsection label="cd_0.90-4">
@@ -340,6 +485,9 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
       </content>
       <content lang="fr" title="Disponibilité du CD GeeXboX (22/08/03)">
       Pour ceux qui ne disposeraient pas de connection Internet haut-débit, ils peuvent commander le CD GeeXboX, qui contient la version bootable 0.90-4, ainsi que les sources complètes de toutes les versions, pour la modique somme de 1.99e. Plus de renseignements, dans la section <page name="download"/>.
+      </content>
+      <content lang="de" title="GeeXboX CD verfügbar (08/22/03)">
+      Für alle, die keine schnelle Internetanbindung besitzen, bieten wir nun die GeeXboX als CD zum Kauf an. Diese beinhaltet die startbare Version 0.90-4 inkl. aller Quelltexte älterer Versionen für nur 1.99$. Mehr Information gibt es in der <page name="download"/> Sektion.
       </content>
     </subsection>
 
@@ -377,6 +525,23 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
 * Le site est désormais accessible depuis l'adresse <b><a href="http://www.geexbox.org/">http://www.geexbox.org/</a></b><br/>
 * Vous pouvez désormais souscrire à la liste de diffusion pour développeurs, permettant de participer au développement du système or simplement pour être informé des évolutions journalières.<br/>
 * La version en cours de développement est disponible au téléchargement depuis un CVS.<br/>
+      </content>
+      <content lang="de" title="GeeXboX Sommer-Edition : 0.90-4 (08/05/03)">
+        Hier kommt die neue GeeXboX Version ;-) Neu in dieser Version die 2 meist gefragten Verbesserungen : Netzwerkunterstützung und Installation auf Festplatte. Hier sind die Änderungen ;-)<br/><br/>
+* Untertitel zur Laufzeit ändern.<br/>
+* Der SysLinux Bootloader wurde durch IsoLinux ersetzt, dies ermöglicht einen schnelleren Start ohne Diskettenemulation.<br/>
+* TCP/IP Netzwerkunterstützung und DHCP Autokonfiguration implementiert.<br/>
+* Automatisches Einbinden aller verfügbaren Windowsfreigaben.<br/>
+* Unterstützung von Leadtek TV2000 Fernbedienungen.<br/>
+* Unterstützung von LIRC Empfängern.<br/>
+* Italienische, tschechische und slowakische Übersetzung.<br/>
+* Neues Design (Design und Bootlogo).<br/>
+* Neuer Installer für Festplatten und USB Sicks (einfach <b>install</b> beim starten tippen).<br/><br/>
+
+        Außerdem wurde die GeeXboX Webseite modifiziert, um Ihren Wünschen noch besser Rechnung zu tragen und um weitere Verbesserungen schneller zu implementieren : <br/><br/>
+* Die Webseite ist nun unter <b><a href="http://www.geexbox.org/">http://www.geexbox.org/</a> zu erreichen</b><br/>
+* Sie können sich nun in die Entwickler Mailingliste eintragen, um bei der Entwicklung zu helfen, oder einfach nur zu sehen, wie die Entwicklung voranschreitet.<br/>
+* Sie können nun die aktuelle Entwicklerversion aus dem CVS herunterladen.<br/>
       </content>
     </subsection>
     <subsection label="release_0.90-3">
@@ -418,6 +583,25 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
 * Support partiel de certaines cartes sons au format ISA Plug'n Play (non testé).<br/>
 * Ajout d'un générateur d'ISO, permettant de regénérer une ISO personnalisée (ou d'y inclure un DivX) en quelques secondes seulement sans recompiler les sources (disponible sous GNU/Linux et Microsoft Windows 9x/NT/2k/XP).<br/>
       </content>
+      <content lang="de" title="GeeXboX Revolution : 0.90-3 (06/25/03)">
+        Es sieht so aus, als wäre einige Zeit seit der letzten Version vergangen ;-) Aber die neuen Funktionen rechtfertigen den neuen Versionsnamen ;-) Auch wenn sich im Detail nicht sehr viel geändert hat, werden Sie sich über die vielen neuen Funktionen und Verbesserungen freuen, auf die Sie so lange gewartet haben :<br/><br/>
+
+* Unterstützung von mehrsprachigen Menüs.<br/>
+* Änderung der Beenden/Auswerfen Logik.<br/>
+* Unterstützung von RealMedia 8/9 und Windows Media 9 Codecs (Neuerstellen des Images nötig).<br/>
+* Bessere CD/DVD Laufwerkserkennung.<br/>
+* Verminderung der CD's Laufwerksgeschwindigeit (leise!).<br/>
+* Unterstützung von Harwarebeschleunigung (vidix) auf EPIA 800.<br/>
+* Unterstützung von "on-the-fly" Änderung des Seitenverhältnisses.<br/>
+* Unterstützung von "on-the-fly" Audiospur wechsel.<br/>
+* Unterstützung von "on-the-fly" Untertitel wechsel.<br/>
+* Anzeigen der Untertitel in besserer Schriftart.<br/>
+* Unterstützung von FireWire Geräten.<br/>
+* Unterstützung von PcTV, RealMagic, Hauppage, Logitech und ganz speziell ATI Remote Wonder Fernbedienungen..<br/>
+* Keine Unterscheidung mahr von EDEN und i586 Versionen.<br/>
+* Teilweise Unterstützung von einigen Plug'n Play ISA Soundkarten (ungetestet).<br/>
+* Erstellen Sie angepasste ISO Images mittels eines ISO "generators", innerhalb von sekunden ohne Neukompilieren des gesamten Quelltextes (verfügbar für GNU/Linux und Microsoft Windows 9x/NT/2k/XP).<br/>
+      </content>
     </subsection>
     <subsection label="release_0.90-2">
       <content lang="en" title="GeeXboX Reloaded : 0.90-2 (05/28/03)">
@@ -441,6 +625,17 @@ Cette version est dédiée à notre premier généreux donateur (nous sommes convainc
 * Prise en charge de la sortie TV des cartes S3 Savage.<br/>
 * Plus de distinction entre les versions standard et ACPI.<br/>
 * Les noms de lecteurs ont été renommés pour plus de compréhension.<br/>
+      </content>
+      <content lang="de" title="GeeXboX Reloaded : 0.90-2 (05/28/03)">
+        Ihnen hat die Version 0.90-1 gefallen ? Wir haben Ihre Anregungen erhört und hier ist die neue Version. Seit Veröffentlichung der ersten Version wurden bereits 15000 ISO Images heruntergeladen. Wir hoffen natürlich, dass diese Version noch größeren Anklang finden wird. Hier die Änderungen :<br/><br/>
+* Unterstützung von nahezu allen auf dem Mainboard integrierten PCI Soundkarten (ISA Soundkarten werden NICHT unsterstützt).<br/>
+* Unterstützung von USB Tastaturen<br/>
+* Unterstützung von SCSI CDROM/Festplatten und Adaptec SCSI Controllern.<br/>
+* Unterstützung von FireWire/IEEE1394 CDROM und Festplatten (kein HotPlug). Anmerkung : scheint doch nicht zu gehen :-(<br/>
+* Unterstützung von NTFS Dateisystemen.<br/>
+* Unterstützung von S3 Savage TV-Out.<br/>
+* Keine Unterscheidung mehr zwischen Standard und ACPI Version.<br/>
+* Laufwerksbezeichnungen umbenannt zum besseren Verständnis.<br/>
       </content>
     </subsection>
     <subsection label="release_0.90-1">
@@ -483,6 +678,26 @@ Don't wait any longer! Just go to the <page name="download"/> Section.<br/>
 N'attendez plus, dirigez vous vers la Section de <page name="download"/>.<br/>
 <br/>
 <b>L'équipe GeeXboX</b>
+      </content>
+      <content lang="de" title="GeeXboX : Erste Version verfügbar : 0.90-1 (05/16/03)">
+        GeeXboX ist ein selbständig laufender Medienspieler. Es handelt sich um eine von CD startbare Version auf Basis von Linux, mit der Sie all Ihre Videos anschauen oder Musik hören können. Es werden die meist verbreiteten Formate unterstützt, z.B. MPEG, AVI, DivX, XviD, Ogg/Vorbis (Ogm, Ogg), RealMedia, MP3, DVD, VCD und Audio CD. Hier nun einige Beispiele, was möglich ist : <br/><br/>
+
+* Unterstützung von MPEG 1/2 Videos (MPG Dateien, VCDs, DVDs ...)<br/>
+* Unterstützung von MPEG 4 Videos (DivX, XviD, FFMpeg ...)<br/>
+* Unterstützung von OggMedia Streams<br/>
+* Unterstützung von Audio Streams wie MP3, Ogg/Vorbis, WAV (AudioCD), AC3 ...<br/>
+* Unterstützung von IR Fernbedienungen<br/>
+* Unterstützung von ATI und nVidia TV-Out<br/>
+* Unterstützung von Videountertiteln<br/>
+* Unterstützung von Playlisten (inklusive WinAmp .m3u)<br/>
+* Unterstützung von USB Laufwerken<br/>
+* Anpassbar über verschiedene "Themes".<br/>
+* Bedienung über ein OSD Menu.<br/>
+* Bootet von CD (Sie brauchen nicht einmal eine Festplatte).<br/>
+<br/>
+Warten Sie nicht mehr länger! Besuchen Sie unsere <page name="download"/> Sektion.<br/>
+<br/>
+<b>Das GeeXboX's Team</b>
       </content>
     </subsection>
   </section>

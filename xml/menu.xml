@@ -5,100 +5,120 @@
   <item name="geexbox" id="geexbox">
     <text lang="en">GeeXboX</text>
     <text lang="fr">GeeXboX</text>
+    <text lang="de">GeeXboX</text>
 
     <subitem name="get_started" url="start.html">
       <text lang="en">Get Started ...</text>
       <text lang="fr">Par où commencer ...</text>
+      <text lang="de">Zu Anfang ...</text>
     </subitem>
 
     <subitem name="license" url="license.html">
       <text lang="en">License</text>
       <text lang="fr">Licence</text>
+      <text lang="de">Lizenz</text>
     </subitem>
 
     <subitem name="screenshots" url="screenshot.html">
       <text lang="en">Screenshots</text>
       <text lang="fr">Captures d'écrans</text>
+      <text lang="de">Screenshots</text>
     </subitem>
 
     <subitem name="bugs" url="bugs.html">
       <text lang="en">Bugs / TODO</text>
       <text lang="fr">Bugs / Correctifs</text>
+      <text lang="de">Bugs / TODO</text>
     </subitem>
   </item>
 
   <item name="ressources" id="ressources">
     <text lang="en">Resources</text>
     <text lang="fr">Ressources</text>
+    <text lang="de">Ressourcen</text>
 
     <subitem name="require" url="requirements.html">
       <text lang="en">Requirements</text>
       <text lang="fr">Pré-requis</text>
+      <text lang="de">Voraussetzungen</text>
     </subitem>
 
     <subitem name="download" url="downloads.html">
       <text lang="en">Downloads</text>
       <text lang="fr">Téléchargements</text>
+      <text lang="de">Downloads</text>
     </subitem>
 
     <subitem name="buy" url="buy.html">
       <text lang="en">Get a CD</text>
       <text lang="fr">Obtenir un CD</text>
+      <text lang="de">CD kaufen</text>
     </subitem>
 
     <subitem name="doc" url="doc.html">
       <text lang="en">Documentation</text>
       <text lang="fr">Documentation</text>
+      <text lang="de">Dokumentation</text>
     </subitem>
 
     <subitem name="hard" url="hard.html">
       <text lang="en">Hardware</text>
       <text lang="fr">Matériel</text>
+      <text lang="de">Hardware</text>
     </subitem>
 
     <subitem name="dev" url="dev.html">
       <text lang="en">Developers</text>
       <text lang="fr">Developpeurs</text>
+      <text lang="de">Entwickler</text>
     </subitem>
 
     <subitem name="packages" url="packages.html">
       <text lang="en">Packages</text>
       <text lang="fr">Paquetages</text>
+      <text lang="de">Softwarepakete</text>
     </subitem>
   </item>
 
   <item name="feedback" id="feedback">
     <text lang="en">FeedBack</text>
     <text lang="fr">En Savoir Plus</text>
+    <text lang="de">FeedBack</text>
 
     <subitem name="faq" url="faq.html">
       <text lang="en">FAQ</text>
       <text lang="fr">FAQ</text>
+      <text lang="de">FAQ</text>
     </subitem>
 
     <subitem name="links" url="links.html">
       <text lang="en">Links</text>
       <text lang="fr">Liens</text>
+      <text lang="de">Links</text>
     </subitem>
 
     <subitem name="press" url="press.html">
       <text lang="en">Press</text>
       <text lang="fr">Presse</text>
+      <text lang="de">Presse</text>
     </subitem>
 
     <subitem name="donate" url="donate.html">
       <text lang="en">Donate</text>
       <text lang="fr">Donations</text>
+      <text lang="de">Spenden</text>
     </subitem>
 
     <subitem name="contact" url="contact.html">
       <text lang="en">Contact</text>
       <text lang="fr">Contact</text>
+      <text lang="de">Kontakt</text>
     </subitem>
 
     <subitem name="forum" url="../forum/">
       <text lang="en">Forum</text>
       <text lang="fr">Forum</text>
+      <text lang="de">Forum</text>
     </subitem>
   </item>
 </menu>

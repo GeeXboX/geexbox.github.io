@@ -35,8 +35,9 @@
 
   <section label="requirements">
     <content lang="en" title="Requirements ..."/>
-
     <content lang="fr" title="Pré-Requis ..."/>
+    <content lang="de" title="Voraussetzungen ..."/>
+
     <subsection label="hardware">
       <content lang="en" title="Hardware Needs">
         'GeeXboX is an operating system but you still need something to boot on ;-) You're lucky, GeeXboX is based on MPlayer, which can be considered as one of the less cpu-dependent movie players, thanks to the use of FFMpeg for decoding movies.<br/><br/>
@@ -60,6 +61,18 @@ Voici donc ce qui peut être considéré comme une configuration typique / minimale
 * un lecteur CD-ROM ou DVD-ROM<br/>
 * une carte-mère supportant le démarrage sur CD (cela devrait être bon dans 99% des cas ;-)<br/>
 * un clavier, un joystick ou une télécommande (utilisant un récepteur infra-rouge compatible avec Lirc - vérifiez le sur <use name="req-lirc"/> pour construire le votre), comme par exemple celui fourni avec la carte Miro PcTV ou encore l'ATI Remote Wonder.
+      </content>
+      <content lang="de" title="Hardware Voraussetzungen">
+        GeeXboX ist ein Betriebssystem, aber trotzdem brauchen Sie etwas, um es irgendwie zu starten ;-) Sie können sich freuen, denn GeeXboX basiert auf MPlayer, der durch die Nutzung von FFMpeg für die Dekodierung von Filmen als einer der ressourcenschonendsten Player gilt.<br/><br/>
+Die folgende Liste stellt die Mindestanforderungen an die Hardware dar :<br/>
+* Pentium basierte CPU oder besser (P2-400 sollte ausreichend sein)<br/>
+* eine VESA 2.0 kompatible Grafikkarte.<br/>
+* eine ALSA kompatible Soundkarte.<br/>
+* wenigstens 64 MB Arbeitsspeicher<br/>
+* CD-ROM oder DVD-ROM Laufwerk<br/>
+* Motherboard mit Unterstützung für das Starten von CD-ROM.<br/>
+* Tastatur, Joystick oder Fernbedienung, mittels Lirc-kompatiblen IR (InfraRed) Empfänger
+  (s.h. <use name="req-lirc"/>), z-B. Miro PcTV's oder ATI Remote Wonder.
       </content>
     </subsection>
     <subsection label="software">
@@ -90,6 +103,20 @@ Voici donc ce qui peut être considéré comme une configuration typique / minimale
 * <use name="req-cdrecord"/> : Un logiciel de gravure de CD en ligne de commande.<br/><br/>
 
           Vous devez en outre disposer d'un minimum de 1.2 Go d'espace disque disponible afin de construire la GeeXboX correctement.<br/><br/>
+      </content>
+      <content lang="de" title="Software Voraussetzungen">
+        Sie benötigen die folgende Sofware nur, wenn Sie planen, die GeeXboX selbst zu kompilieren oder anzupassen. Dabei gilt, die GeeXboX muss unter GNU/Linux erstellt werden. Zusätzlich benötigen Sie evtl. einige dieser Softwarepakete : <br/><br/>
+* <use name="req-gcc"/> : Die GNU Compiler Collection wird genutzt, um das Projekt zu erstellen. Bitte nutzen Sie nicht die Version 2.96 des GCC (meist auf alten Redhat oder Mandrake Distributionen enthalten), diese ist nicht mit MPlayer kompatibel.<br/>
+* <use name="req-make"/> : GNU Make wird genutzt, um zu bestimmen, welche Teile eines Programmes kompiliert werden müssen und führt dann die entsprechenden Befehle durch.<br/>
+* <use name="req-patch"/> : Dies Programm wird benötigt, um Programme zu "Patchen", damit diese mit GeeXboX funktionieren, oder einfach auch nur, um neue Funktionen zur GeeXboX hinzuzufügen.<br/>
+* <use name="req-wget"/> : Wget ist ein Programm zum Herunterladen von Dateien aus dem Internet über das HTTP oder das FTP Protokoll, den beiden meistverbreiteten im Internet.<br/>
+* <use name="req-nasm"/> : Nasm ist ein "x86 assembler" zur Erstellung von "flat-form" Binärdateien, a.out, COFF und ELF Unix Objektdateien, und auch Microsoft 16-bit DOS und Win32 Objektdateien. Es wird genutzt, um die uClibc der GeeXboX zu kompilieren.<br/>
+* <use name="req-dosfstools"/> : Hilfsprogramm zum Testen und Erstellen von MS-DOS FAT Dateisystemen.<br/>
+* <use name="req-mkisofs"/> : Erstellt ISO-9660 CD-ROM Dateisystem Images.<br/>
+* <use name="req-mkzftree"/> : Dieses Programm gehört zu den "zisofs-tools" Programmen und hilft Ihnen bei der Erstellung von komprimierten ISO Images.<br/>
+* <use name="req-cdrecord"/> : Ein Kommandozeilenprogramm zum Erstellen von CDs.<br/><br/>
+
+          Ausserdem benötigen Sie als Minimum 1.2 GB freien Speicherplatz auf Ihrer Festplatte, um die GeeXboX zu erstellen.<br/><br/>
       </content>
     </subsection>
   </section>

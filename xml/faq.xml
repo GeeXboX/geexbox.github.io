@@ -9,6 +9,7 @@
   <section label="faq">
     <content lang="en" title="Frequently Asked Questions ..."/>
     <content lang="fr" title="Foire Aux Questions ..."/>
+    <content lang="de" title="Häufig gestellte Fragen (FAQ) ..."/>
 
     <subsection label="faq-list">
       <content lang="en" title="FAQ List ...">
@@ -61,6 +62,31 @@
         <a href="#modify_menu">Comment puis - je modifier les options du menu ?</a><br/>
         <a href="#theme">Comment puis-je créer mon propre thème pour la GeeXboX ?</a>
       </content>
+      <content lang="de" title="FAQ Liste ...">
+        <a href="#burning">Wie brenne ich ein Image ?</a><br/>
+        <a href="#generator">Wie erstelle ich ein eigenes ISO Image?</a><br/>
+        <a href="#display">Wie kann ich meine Display-Ausgabe optimal konfigurieren ?</a><br/>
+        <a href="#disable_vidix">Wie kann ich VidiX deaktivieren ?</a><br/>
+        <a href="#nvidia_vidix">Wie kann ich VidiX für nVidia Karten aktivieren ?</a><br/>
+        <a href="#nvidia_tvout">Ich habe eine nVidia Karte, aber TV-Out funktioniert nicht :-(</a><br/>
+        <a href="#matrox_tvout">Wie kann ich den TV-Out meiner Matrox Karte nutzen ?</a><br/>
+        <a href="#dxr3">Wie kann ich meine DXR3/Hollywood+ Karte nutzen ?</a><br/>
+        <a href="#dxr3_menu">Ich sehe kein Menü bei der Verwendung einer DXR3 Karte</a><br/>
+        <a href="#epia-boot">Ich habe keine Festplatte und mein EPIA (V) Motherboard bootet die GeeXboX nicht</a><br/>
+        <a href="#remote">Meine Fernbedienung wird nicht erkannt</a><br/>
+        <a href="#remote_add">Wie kann ich meine Fernbedienung zur Zusammenarbeit mit GeeXboX bewegen ?</a><br/>
+        <a href="#cdrom">Der Bildschirm bleibt bei 'Cleaning Ram Disk' stehen und ich sehe 'sh: can't access tty: job control turned off'</a><br/>
+        <a href="#mplayer">Das System hängt bei der Meldung 'Launching MPlayer' und wirft die CD aus</a><br/>
+        <a href="#ac3">Unterstützt GeeXboX die 5.1 Audio Ausgabe ?</a><br/>
+        <a href="#spdif">Wie kann ich den digitalen SPDIF Ausgang meiner Karte nutzen ?</a><br/>
+        <a href="#dts">Wie kann ich DTS kodierte DVD Tonpuren abspielen ?</a><br/>
+        <a href="#customization">Mein selbst erstelltes ISO funktioniert nicht</a><br/>
+        <a href="#subtitle">Kann ich Filme mit Untertiteln ansehen ?</a><br/>
+        <a href="#sync">Audio/Video (AV) scheint nicht zu funktionieren ...</a><br/>
+        <a href="#bootlogo">Wie kann ich das GeeXboX Bootlogo verändern ?</a><br/>
+        <a href="#modify_menu">Wie kann ich die Menüeinträge anpassen ?</a><br/>
+        <a href="#theme">Wie kann ich mein eigenes GeeXboX's Theme erstellen ?</a>
+      </content>
     </subsection>
 
     <subsection label="burning">
@@ -70,6 +96,9 @@
       <content lang="fr" title="Comment graver l'image ?">
         Certains utilisateurs nous ont rapporté des problèmes pour graver l'image ou pour booter sur la GeeXboX. La plupart sont des utilisateurs de Windows. Soyez attentifs au fait que WinRAR semble reconnaître les fichiers .iso comme des archives et essaye d'en extraire les fichiers. C'EST UNE TRES MAUVAISE IDEE DE FAIRE CELA ! Les ISO disponibles sont des fichiers prêt à être gravés. Elles sont déjà amorçables. Vous n'avez qu'à les graver en faisant "Fichier/Graver l'Image..." sous Ahead Nero EN MODE DAO ou directement avec cdrecord sous Linux. Si vous le pouvez, finaliser la gravure.
       </content>
+      <content lang="de" title="Wie brenne ich ein Image ?">
+        Einige Benutzer haben von Problemen beim Brennen des Images oder beim Starten von GeeXboX berichtet. Die meisten von Ihnen sind Windows Benutzer. Seien Sie gewarnt. Es scheint, als erkenne WinRAR die .iso Dateien als Archiv und versucht, diese zu entpacken. ES IST EINE SEHR SCHLECHTE IDEE, DIES ZU TUN ! Das bereitgestellte ISO ist bereit zum Brennen und bereits bootfähig. Sie brauchen es nur mit "Datei/Image brennen ..." bei Verwendung von Ahead Nero im DAO MODE oder mit cdrecord unter Linux auf ein Medium zu brennen. Wenn möglich, finalisieren Sie bitte die Sitzung.
+      </content>
     </subsection>
 
     <subsection label="generator">
@@ -78,6 +107,9 @@
       </content>
       <content lang="fr" title="Comment construire son ISO personnalisée ?">
       Plusieurs raisons, vous pouvez être amenez à vouloir construire une version personnalisée de la GeeXboX. Pour cela, téléchargez simplement le generator GeeXboX. Ce dernier est disponible en versions Linux et Win32. Vous pouvez souhaiter modifier les fichiers de configuration (les fichiers de configuration réseau ou de les paramètres de gestion des entrées et sortie TV par exemple). Une fois cela fait, éxéctuez simplement le script <b>generator.sh</b> sous GNU/Linux ou le fichier <b>generator.exe</b> sous Microsoft Windows. Ce dernier propose une liste vous permettant de choisir la langue de la nouvelle ISO ainsi que la télécommande à supporter. Sous GNU/Linux, ceci ne peut être fait que par l'édition du script avant son éxécution. Voilà, c'est terminé, vous devriez maintenant disposer d'une image ISO personnalisée de la GeeXboX.
+      </content>
+      <content lang="de" title="Wie erstelle ich ein eigenes ISO Image?">
+      Es gibt wahrscheinlich viele gute Gründe, warum Sie eine angepasste Version von GeeXboX erstellen möchten. Dazu müssen Sie nur den GeeXboX's Generator herunterladen. Diesen gibt es sowohl in einer Linux als auch in einer Win32 Version. Sie müssen nur die Konfigurationsdateien an Ihre Wünsche anpassen (z.B. Netzwerkeinstellungen, TV Einstellungen u.s.w.). Wenn Sie damit fertig sind, nutzen Sie einfach das <b>generator.sh</b> Skript unter GNU/Linux oder <b>generator.exe</b> bei Verwendung von Microsoft Windows. Dieses Skript bietet einige Auswahlmöglichkeiten, über die Sie z.B. die Sprache festlegen oder Ihre Fernbedienung definieren. Unter GNU/Linux muss dies durch vorheriges Editieren der Datei gemacht werden! Das ist schon alles. Glückwunsch, Sie haben soeben eine angepasste ISO-Version der GeeXboX erstellt.
       </content>
     </subsection>
 
@@ -112,6 +144,21 @@
       #monitor-vfreq=50-90<br/>
       </b>
       </content>
+      <content lang="de" title="Wie kann ich meine Display-Ausgabe optimal konfigurieren ?">
+      Die Aktivierung der TV-Ausgabe wird mit Hilfe einiger kleiner Programme für die jeweilige Grafikkarte erledigt. Zur Zeit nutzen wir <i>atitvout</i> für ATI Karten, <i>s3switch</i> für S3 Karten und <i>nvtv</i> für nVidia Karten (und eventuell für intel i810 und 3dfx Karten). Die Konfigurateion dieser Programme erfolgt in <i>/etc/tvout</i>. In dieser Datei können Sie den TV-Standard definieren (pal, ntsc...) und können verschiedene Optionen für nvtv anpassen.<br/><br/>
+
+    Bitte beachten Sie, dass Sie auch das Seitenverhältnis (4:3 / 16:9 Anzeige) in dieser Datei über die folgende Zeile festlegen können :<br/><br/>
+
+    <b>TVOUT_ASPECT="4:3"</b><br/><br/>
+
+    Dieser Parameter gilt sowohl für den TV-Out, als auch für die Monitorausgabe (CRT/TFT). Sie können außerdem die gewünschten Werte für Höhe / Breite und horizontale / vertikale Frequenz ändern, falls Sie etwa einen Projektor oder ein Widescreen Display besitzen. Dies erreichen Sie durch Editieren von <i>/etc/mplayer/mplayer.conf</i>. Die Vorgabeparameter sind unten aufgeführt (bitte entfernen Sie die "#", wenn Sie diese angeben möchten) :<br/><br/>
+    <b>
+    screenw=800<br/>
+    screenh=600<br/>
+    #monitor-hfreq=31.5k-50k<br/>
+    #monitor-vfreq=50-90<br/>
+    </b>
+      </content>
     </subsection>
 
     <subsection label="disable_vidix">
@@ -121,14 +168,20 @@
       <content lang="fr" title="Comment désactiver le support du VidiX ?">
       Dans certains cas particuliers, votre ordinateur peut ne pas supporter l'accélération matérielle VidiX de votre carte graphique. Vous pouvez, dans ce cas, la désactiver, cela étant accompagné d'une perte de performances, en fonction de votre configuration. Pour cela, remplacez simplement la ligne <b>vo=vesa:vidix,vesa</b> de votre fichier <i>/etc/mplayer/mplayer.conf</i> par la suivante : <b>vo=vesa</b> et regénérez l'iso avec le generator.
       </content>
+      <content lang="de" title="Wie kann ich VidiX deaktivieren ?">
+      In einigen wenigen Fällen kann es vorkommen, dass Ihre Hardware keine VidiX Beschleunigung unterstützt. Natürlich können Sie diese auf einfache Weise deaktivieren (mit dem Resultat, dass Sie einiges an Performance einbüßen). Um VidiX zu deaktivieren, ändern Sie einfach die Zeile <b>vo=vesa:vidix,vesa</b> in der <i>/etc/mplayer/mplayer.conf</i> Datei nach : <b>vo=vesa</b> und erstellen ein neues ISO-Image.
+      </content>
     </subsection>
 
     <subsection label="nvidia_vidix">
       <content lang="en" title="How to enable VidiX for nVidia cards?">
-      Since MPlayer 1.0pre4, you're now able to enable support for hardware video acceleration (VidiX). This features is for now experimental and should be tested further before we can enable it by defaut. Theorically, when activated, the image should be smoother and more pretty and you should be able to use zoom/pan-scan operations. To do so, simply use the generator and remove the <i>/etc/mplayer/no_nvidia_vidix</i> file. Please report to us whether your computer works with VidiX support or not, specifying the nVidia card you're using.
+      Since MPlayer 1.0pre4, you're now able to enable support for hardware video acceleration (VidiX). Diese Eigenschaft gilt zur Zeit noch als experimentell und muss noch mehr getestet werden, bevor wie dies als Standard aktivieren. Theoretisch sollte nach der Aktivierung das Bild weicher und schöner dargestellt werden. Außerdem sollten nun Zoom und Scan Operationen mögich sein. Um VidiX zu aktivieren entfernen Sie einfach die Datei <i>/etc/mplayer/no_nvidia_vidix</i> im Generator und erstellen ein neues ISO-Image. Bitte lassen Sie uns Wissen, wenn Ihr Computer mit eingeschalteter VidiX Unterstützung läuft und geben Sie uns auch Informationen über die verwendete nVidia Karte.
       </content>
       <content lang="fr" title="Comment activer le support du VidiX pour cartes nVidia?">
       Depuis le sortie de MPlayer 1.0pre4, il est désormais possible d'activer le support VidiX (accélération vidéo matérielle) pour les cartes nVidia. Cette fonctionnalité est à l'heure actuelle, encore expérimentale et nécessite de plus amples tests avant d'être activée par défaut. En théorie, une fois activée, l'image devrait apparaître plus belle et plus lisse et vous devriez pouvoir procéder à des opérations de zoom. Pour ce faire, regénérez simplement une ISO en utilisant le générateur, en prennant soin de supprimer le fichier <i>/etc/mplayer/no_nvidia_vidix</i>. Veuillez nous rapporter si votre ordinateur fonctionne ou non avec le support vidix activé, en nous précisant le modèle de carte utilisée.
+      </content>
+      <content lang="de" title="Wie kann ich VidiX für nVidia Karten aktivieren ?">
+      Seit MPlayer 1.0pre4 ist es möglich, Hardware Beschleunigung für nVidia Karten zu aktivieren (VidiX). Diese Funktion ist z. Zt. noch experimentell und muss noch mehr getestet werden, bevor wir diese standardmäßig aktivieren. Theoretisch sollten bei Aktivierung von VidiX die Bilder weicher und besser aussehen und Sie sollten zusätzlich in der Lage sein, auch zu zoomen. Zum Aktivieren nutzen Sie den "Generator" und entfernen einfach nur die Datei <i>/etc/mplayer/no_nvidia_vidix</i>. Bitte lassen Sie uns wissen, ob Ihr Computer mit VidiX Aktivierung funktioniert (oder auch nicht), und nennen Sie uns bitte auch die genaue Bezeichnung Ihrer nVidia Karte.
       </content>
     </subsection>
 
@@ -139,6 +192,9 @@
       <content lang="fr" title="Je possède une carte nVidia mais la sortie TV ne fonctionne pas :-(">
         C'est le problème avec les pilotes dont les sources ne sont pas disponibles. nVidia ne fourni pas les spécifications de ces cartes graphiques à la communauté du libre. Il en résulte que nvtv (le logiciel utilisé pour afficher sur la sortie TV) n'est, à l'heure actuelle, pas réellement compatiblet avec certaines cartes de type GeForce 3/4 et sur lesquelles la sortie TV peut ne pas fonctionner du tout. Contactez directement le support technique de nVidia pour les inciter à fournir les sources de leurs pilotes ;-)
       </content>
+      <content lang="de" title="Ich habe eine nVidia Karte, aber TV-Out funktioniert nicht :-(">
+        Dies ist nur einer der Nachteile von "closed source" Treibern. nVidia gibt keine Spezifikationen ihrer Grafikkarten an die "open source community" weiter. Als Resultat ist nvtv (die benötigte Software für TV-Out) zur Zeit nicht kompatibel mit einigen GeForce 3/4 Karten und der TV-Out funktioniert daher nicht. Überfluten Sie den nVidia's Support mit mails und fragen nach "open source" Treibern ;-)
+      </content>
     </subsection>
 
     <subsection label="matrox_tvout">
@@ -148,6 +204,9 @@
       <content lang="fr" title="Comment utiliser la sortie TV des cartes Matrox ?">
       Les cartes Matrox peuvent ne pas fonctionner correctement en mode srtie TV. Vous devrez alors flasher le BIOS de votre carte à l'aide du <a href="http://www.matrox.com/mga/support/drivers/bios/home2.cfm">Site Web Matrox</a>.
       </content>
+      <content lang="de" title="Wie kann ich den TV-Out meiner Matrox Karte nutzen ?">
+      Matrox Karten funktionieren eventuell nicht einwandfrei im TV-Out Modus. Sehen Sie dazu bitte auf der <a href="http://www.matrox.com/mga/support/drivers/bios/home2.cfm">Matrox WebSite</a> nach, wie Sie das BIOS Ihrer Karte updaten können.
+      </content>
     </subsection>
 
     <subsection label="dxr3">
@@ -156,6 +215,9 @@
       </content>
       <content lang="fr" title="Comment puis-je utiliser ma carte DXR3/Hollywood+ ?">
       Les utilisateurs de ce type de cartes de décompression n'ont pas besoin d'avoir une carte vidéo ou une carte son dans leur ordinateur. Parmi les inconvénients, on notera néanmoins que seule la sortie TV peut etre utilisée avec ce type de carte (pas d'affichage sur moniteur). Vous pouvez etre amené à définir la norme d'image souhaitée (PAL/NTSC) via le fichier <i>/etc/tvout</i> ainsi que le type de sortie audio à utiliser (Analogique ou SPDIF) via le fichier <i>/etc/audio</i>.
+      </content>
+      <content lang="de" title="Wie kann ich meine DXR3/Hollywood+ Karte nutzen ?">
+      Benutzer dieser Karte brauchen nicht einmal eine Grafik- und Soundkarte, um GeeXboX zu nutzen. Der Nachteil ist nur, dass Sie nur den TV-Out der DXR3 Karte nutzen können (keinen CRT Monitor). Eventuell müssen Sie noch den gewünschten TV-Standard (PAL/NTSC) in der Datei <i>/etc/tvout</i> und die gewünschte Art der Audioausgabe (Analog oder SPDIF) in <i>/etc/audio</i> festlegen.
       </content>
     </subsection>
 
@@ -167,6 +229,9 @@
       <content lang="fr" title="Je n'arrive pas à voir les menus avec ma carte DXR3">   
       La carte DXR3/H+ est un décodeur matériel MPEG 1/2. D'importants efforts ont été fait pour activer la décompression matérielle avec la GeeXboX, dans le but qu'il soit possible de lire des DVD en utilisant des ordinateurs relativement anciens. Néanmoins, dans un tel cas et, pour des raisons techniques, il n'est pas possible d'appliquer un filtre sur l'image (comme l'OSD) et, de ce fait, les menus ne seront pas accessibles lors de la lecture de ce type de fichiers (ce problème n'existe pas lors de la lecture de fichiers MPEG 4 et/ou DivX).
       </content>
+      <content lang="de" title="Ich sehe kein Menü bei der Verwendung einer DXR3 Karte">
+        Die DXR3/H+ Karte besitzt einen Hardware MPEG 1/2 Decoder. Es hat bereits Versuche gegeben, die Hardware-Dekomprimierung unter GeeXboX zu nutzen, damit auch ältere Computer DVDs abspielen können. Wie auch immer, aus technischen Gründen ist es nicht möglich, Filter über Bilder zu legen (z.B. für das Menü). Daher ist es nicht möglich, ein Menü bei der Wiedergabe solcher Dateien einzublenden (dieses Problem besteht nicht beim Abspielen von MPEG 4/DivX Dateien).
+      </content>
     </subsection>
 
     <subsection label="epia-boot">
@@ -175,6 +240,9 @@
       </content>
       <content lang="fr" title="Je n'ai pas de disque dur et ma carte mère EPIA (V) refuse de démarrer la GeeXboX">
       En raison d'un bug dans le BIOS des cartes mères EPIA et EPIA V (les séries M ne sont pas touchées par ce problème), il est impossible de démarrer un CD de la GeeXboX (d'une manière générale tout LiveCD qui utilise IsoLinux comme chargeur) si aucun disque dur n'est pysiquement connecté. Il existe néanmoins un moyen de contourner ce problème. Il suffit de se rendre dans le BIOS et d'y déclarer un faux disque dur, en réglant ses propriétés sur Manuel et non Automatique. Il suffit alors de le déclarer comme fonctionnant en mode CHS, et étant constitué de 0 têtes, 0 secteurs et 0 cylindres. Sélectionnez ensuite, l'option appropriée dans le BIOS pour empêcher de bloquer le chargement en cas d'erreur (option <i>Halt On No Error</i>).
+      </content>
+      <content lang="de" title="Ich habe keine Festplatte und mein EPIA (V) Motherboard bootet die GeeXboX nicht">
+      Bedingt durch Fehler im BIOS verweigern einige EPIA und EPIA V Motherboards (nicht die der M Serie) den Start der GeeXboX CD (genauer gesagt, alle LiveCDs, die IsoLinux als Bootloader nutzen), wenn keine Festplatte angeschlossen ist. Es gibt einen Trick, mit dem das Starten trotzdem ohne Festpaltte möglich ist. Definieren Sie dazu im BIOS eine "imaginäre" Festplatte und setzen die Eigenschaften für diese auf manuell statt auto. Definieren Sie dazu die Festplatte folgendermaßen : CHS Mode, mit 0 Köpfen (heads), 0 Sektoren (sectors) und 0 Zylindern (cylinders). Dann stellen Sie an der richtigen Stelle noch ein, dass das System auch bei Fehlern weiter startet. (Option <i>Halt On No Error</i>).
       </content>
     </subsection>
 
@@ -185,6 +253,9 @@
       <content lang="fr" title="Ma télécommande n'est pas reconnue">
         Comme cela a été dit, la GeeXboX a été compilée pour le support de la télécommande ATI Remote Wonder. Cela n'implique pas que d'autres télécommandes ne fonctionnent pas. Les télécommandes Logitech, Miro PcTV, RealMagic, Leadtek, Creative, RM-S6, RX-V850, AniMAX et Hauppage sont également supportées mais vous devrez pour cela, regénérer l'ISO au moyen du générateur fourni. Pour les autres modèles, si vous êtes en mesure de recompiler la GeeXboX et que vous êtes possésseur d'une quelconque télécommande, veuillez nous envoyer vos fichiers de configuration pour LIRC, que nous puissions les inclure dans notre système.
       </content>
+      <content lang="de" title="Meine Fernbedienung wird nicht erkannt">
+        Wie bereits erwähnt, wurde die GeeXboX für die Benutzung mit der "ATI Remote Wonder" Fernbedienung erstellt. Dies bedeutet aber nicht automatisch, dass keine anderen Fernbedienungen unterstützt werden. Fernbedienungen von Logitech, Miro PCTV, RealMagic, Leadtek, Creative, RM-S6, RX-V850, AniMAX und Hauppage werden auch unterstützt, aber dazu müssen Sie erst ein neues angepasstes ISO-Image erstellen. Sind Sie Eigentümer einer hier nicht aufgeführten Fernbedienung und sind in der Lage, diese mit GeeXboX zum Laufen zu bewegen, mailen Sie uns bitte die von Ihnen genutzte LIRC Konfigurationsdatei und wir packen diese dann mit in die GeeXboX.
+      </content>
     </subsection>
 
     <subsection label="remote_add">
@@ -193,6 +264,9 @@
       </content>
       <content lang="fr" title="Comment utiliser votre propre télécommande avec la GeeXboX ?">
       Dans le cas où votre télécommande ne ferait pas partie de la liste des télécommandes supportées, vous pouvez très bien en ajouter le support (la seule contrainte est que cette dernière soit compatible avec LIRC). Vous trouverez la liste des télécommandes supportées par LIRC à l'adresse suivante : <b><a href="http://lirc.sourceforge.net/remotes/">http://lirc.sourceforge.net/remotes/</a></b>. Trois fichiers sont nécessaires : <b>lircd_remote</b>, <b>lircd_remote.conf</b>, et <b>lircrc_remote</b>. Le fichier <i>.conf</i> DOIT être celui disponible à l'adresse précédente pour votre témécommande. Les 2 autres fichiers doivent être crées à la main et doivent correspondre aux liens entre les touches et les actions à effectuer lors de l'utilisation avec la GeeXboX. Vous pouvez vous inspirer pour cela, des fichiers disponibles dans les sources de la GeeXboX ou mieux, sur le CVS (dans le répertoire <i>packages/lirc/</i>). Le répertoire contient des exemples des liens utilisés par les télécommandes supportées actuellement. Une fois cela fait, testé et que le tout est opérationnel, vous pouvez tout à fait nous envoyer vos fichiers de configuration (en ANGLAIS uniquement) afin que nous puissions les rajouter et supporter officiellement votre télécommande dans les versions à venir de la GeeXboX.
+      </content>
+      <content lang="de" title="Wie kann ich meine Fernbedienung zur Zusammenarbeit mit GeeXboX bewegen ?">
+      Für den Fall, dass Ihre Fernbedienung nicht in der Liste der unterstützten auftaucht, können Sie diese trotzdem verwenden (einzige Voraussetzung dafür ist, dass Ihre Fernbedienung von LIRC unterstützt wird). Sie finden eine Liste der von LIRC kompatiblen Fernbedienungen unter : <b><a href="http://lirc.sourceforge.net/remotes/">http://lirc.sourceforge.net/remotes/</a></b>. Drei Dateien werden dazu benötigt : <b>lircd_remote</b>, <b>lircd_remote.conf</b>, und <b>lircrc_remote</b>. Die passende <i>.conf</i> Datei für Ihre Fernbedienung muss unter der o.g. URL verfügbar sein. Die anderen zwei Dateien müssen Sie selbst erstellen. In diesen Dateien wird definiert, was GeexBox tun soll, wenn eine bestimmte Taste gedrückt wurde. Sie sollten dazu in den GeeXboX Sourcen oder im CVS (in <i>packages/lirc/</i>) nach Beispielen für die Belegung bereits unterstützter Fernbedienungen suchen. Wenn alles funktioniert, senden Sie uns Ihre Konfigurationsdateien, (nur in ENGLISCH) damit wir diese dann in die nächste Version einbauen können.
       </content>
     </subsection>
 
@@ -203,6 +277,9 @@
       <content lang="fr" title="L'écran se bloque sur le message 'Cleaning Ram Disk' et m'affiche 'sh: can't access tty: job control turned off'">
         Ce problème est dû à votre CDROM. La GeeXboX peut ne pas être en mesure de charger les pilotes requis pour votre lecteur CD. Plus qu'un problème de lecteur, c'est probablement le controleur (surtout pour les périphériques USB/FireWire/SCSI/RAID) qui risque de ne pas être reconnu.
       </content>
+      <content lang="de" title="Der Bildschirm bleibt bei 'Cleaning Ram Disk' stehen und ich sehe 'sh: can't access tty: job control turned off'">
+        Das Problem ist Ihr CDROM Laufwerk. GeeXboX ist wahrscheinlich nicht in der Lage, den passenden Treiber zu finden (d.h., Ihr CDROM wird nicht unterstützt). Dies bedeutet nicht, dass Ihr CDROM defekt ist, es liegt vielmehr am Controller (dies gilt speziell für USB/FireWire/SCSI/RAID Laufwerke), der nicht erkannt wird.
+      </content>
     </subsection>
 
     <subsection label="mplayer">
@@ -212,6 +289,9 @@
       <content lang="fr" title="Le système se bloque sur le message 'Launching MPlayer' et éjècte le CD du lecteur.">
         Cela signifie que MPlayer aprovoqué une erreur. Cela est probablement dû à un problème avec le pilote vidéo. Essayez de reconstruire votre propre GeeXboX sans le support du vidix (VESA uniquement).
       </content>
+      <content lang="de" title="Das System hängt bei der Meldung 'Launching MPlayer' und wirft die CD aus">
+        Dies deutet auf einen Absturz von MPlayer hin. Dies passiert oft dadurch, dass ein Problem mit dem Videotreiber existiert. Erstellen Sie Ihre eigene GeeXboX ohne! VidiX Unterstützung (nutzen Sie nur VESA).
+      </content>
     </subsection>
 
     <subsection label="ac3">
@@ -220,6 +300,9 @@
       </content>
       <content lang="fr" title="La GeeXboX supporte elle la sortie audio 5.1 ?">
         Malheureusement, à l'heure actuelle, seule la sortie stéréo est supportée. De plus, les flux AC3 sont convertis en stéréo :-( Si vous désirez réellement un son AC3, rajoutez simplement la ligne <b>ac=hwac3,</b> (attention a ne pas oublier la virgule) au fichier <i>mplayer.conf</i>.
+      </content>
+      <content lang="de" title="Unterstützt GeeXboX die 5.1 Audio Ausgabe ?">
+        Leider wird zur Zeit nur die Ausgabe von Audio in Stereo unterstützt. Als Nebeneffekt werden AC3 Streams nach Stereo konvertiert :-( Wenn Sie "echte" AC3 Ausgabe wünschen, müssen Sie die folgende Zeile <b>ac=hwac3,</b> (Achtung: Vergessen Sie nicht das Komma) in die Datei <i>mplayer.conf</i> einfügen.
       </content>
     </subsection>
 
@@ -240,6 +323,14 @@
     </b><br/>
     Souvenez vous qu'il est nécessaire de régler la sortie en mode numérique (SPDIF), si vous souhaitez relier votre carte son à un amplificateur hifi externe pour décoder des flux AC3/DTS (en utilisant le mode passthrough).
       </content>
+      <content lang="de" title="Wie kann ich den digitalen SPDIF Ausgang meiner Karte nutzen ?">
+      GeeXboX unterstützt beides, Analog und Digital Audio über normale "JACK", Anschlüsse oder über RCA SPDIF. Standardmäßig ist die Ausgabe auf analog eingestellt. Sie können dies in der Datei <i>/etc/audio</i> ändern :<br/><br/>
+    <b>
+    # Output using SPDIF (yes/no), otherwise ANALOG output<br/>
+    SPDIF=no<br/>
+    </b><br/>
+    Beachten Sie bitte, dass Sie den Ausgang auf SPDIF stellen müssen, sollten Sie vorhaben, Ihre Soundkarte an einen externen Verstärker zur AC3/DTS Streamdekodierung anzuschliessen (Nutzen des pass-through Modus).
+      </content>
     </subsection>
 
     <subsection label="dts">
@@ -251,6 +342,10 @@
       La GeeXboX supporte désormais les pistes DVD au format sonore DTS. Lorsque l'on utilise la sortie SPDIF, associée à l'option <b>ac=hwac3,</b> le flux AC3/DTS brut est transmis à l'ampli hifi externe, qui a pour role de décoder la piste son. Dans le cas contraire, les pistes AC3 et DTS sont décodées logicielement, par le CPU.<br/><br/>
       Malheureusement, du à certaines limitations de MPlayer (non résolues à l'heure actuelle), il n'est pas possible de passer d'un codec audio à un autre en cours de lecture. Comme l'AC3 correspond le plus souvent à la piste audio par défaut, il n'est pas possible de basculer vers la piste au format DTS. Ainsi, la piste DTS d'un DVD ne peut etre lue que si elle correspond à la première piste sur le disque.
       </content>
+      <content lang="de" title="Wie kann ich DTS kodierte DVD Tonspuren abspielen ?">
+      GeeXboX unterstützt DTS encodierte DVD Spuren. Wenn Sie den SPDIF Ausgang durch aktivierte <b>ac=hwac3,</b> Option nutzen, wird das "Rohsignal" des AC3/DTS Streams an einen externen Verstärker gesendet, der den Sound decodiert. Andernfalls werden AC3 und DTS Spuren über eine Software dekodiert (von Ihrer CPU).<br/><br/>
+      Unglücklicherweise können Sie durch eine bis jetzt ungelöste Beschränkung im MPlayer nicht mehr zwischen verschiedenen Audio Codecs umschalten, sollte die DVD erst einmal gestartet sein. Weil AC3 oft auf der ersten Tonspur liegt, können Sie nun nicht mehr auf DTS umschalten. D.h., DVD DTS Tonspuren können nur abgespielt werden, wenn diese auf der ersten Spur liegen.
+      </content>
     </subsection>
 
     <subsection label="customization">
@@ -259,6 +354,9 @@
       </content>
       <content lang="fr" title="Mon ISO personnalisée avec le generateur ne fonctionne pas.">
       Dans certains cas, l'ISO générée sous Windows peut ne pas fonctionner. Si vous désirez extraire l'archive du générateur au moyen de WinZip, vous aurez à décocher l'option <b>TAR file smart CR/LF conversion</b> dans le menu <i>Configuration / Options / Miscellaneous</i>. Veuillez noter que, si vous désirez modifier les fichiers de configuration, vous devrez utiliser un éditeur de texte compatible UNIX ou utiliser <b>dos2unix</b> sur vos fichiers modifiés.
+      </content>
+      <content lang="de" title="Mein selbst erstelltes ISO funktioniert nicht">
+      In einigen Fällen funktionieren die unter Windows erstellten ISOs nicht. Wenn Sie das Generator Archiv mittels WinZip entpacken möchten, müssen Sie die <b>TAR file smart CR/LF conversion</b> Option unter <i>Configuration / Options / Miscellaneous</i> im Menü deaktivieren. Bitte beachten Sie auch, dass wenn Sie Konfigurationsdateien mit Windows bearbeiten, Sie unbedingt einen UNIX kompatiblen Texteditor verwenden oder <b>dos2unix</b> über die geänderten Dateien laufen lassen.
       </content>
     </subsection>
 
@@ -280,6 +378,15 @@
           <br/>
           Il est possible de désactiver les sous-titres, en pressant la touche "v", dans le cas où vous ne souhaiteriez par les voir s'afficher ;-)
       </content>
+      <content lang="de" title="Kann ich Filme mit Untertiteln ansehen ?">
+        Basierend auf MPlayer erlaubt die GeeXboX Ihnen das Ansehen solcher Filme. Die meisten Formate werden unterstützt  (z.B. <i>MicroDVD, SubRip, SubViewer, Sami, VPlayer, RT, SSA, AQTitle, JACOsub, MPsub, VobSub, SPU Streams und Closed-Captions</i>).<br/>
+
+          Das Einzige, dass Sie beachten müssen, ist, die CD auf folgende Weise zu brennen. (Video und Sub müssen den exakt gleichen Namen besitzen) :<br/><br/>
+          * <b> Ihrfilm.{avi, mpg, ogm ...}</b><br/>
+          * <b> Ihrfilm.{srt, sub, txt ...}</b><br/>
+          <br/>
+          Sie können die Anzeige von Untertiteln durch einfaches Drücken der "v" Taste ausschalten;-)
+      </content>
     </subsection>
 
     <subsection label="sync">
@@ -288,6 +395,9 @@
       </content>
       <content lang="fr" title="La Synchronisation Audio/Vidéo semble incorrecte ...">
         En raison de certains problèmes (erreurs sur le CD, CPU de faible puissance ...), il se peut que vous perdiez la synchronisation audio/vidéo. Ce problème peut être corrigé en ajustant la synchronisation, via les touches "+" et "-". La première jouera le flux audio 100ms avant le flux vidéo, la seconde le jouera 100ms après.
+      </content>
+      <content lang="de" title="Audio/Video (AV) Synchronisation scheint nicht zu funktionieren ...">
+        Durch verschiedene Probleme (CD Lesefehler, langsame CPU ...) kann die Synchronisation von Video / Audio Signalen fehlschlagen. Dies kann aber durch das Drücken der "+" oder "-" Tasten korrigiert werden. Mit "+" erhöhen Sie die Wiedergabeposition der Audiospur um 100ms gegenüber dem Video, mittels "-" reduzieren Sie um 100ms.
       </content>
     </subsection>
 
@@ -332,6 +442,26 @@ Pour une liste complète et détaillée de toutes les options disponibles pour ce f
 
 Une fois tout ceci terminé, remplacez les fichiers présents dans l'archive du thème par les 2 que vous venez de créer et commencez à compiler votre distribution.
       </content>
+      <content lang="de" title="Wie kann ich das GeeXboX Bootlogo verändern ?">
+        Zuerst müssen Sie ein geeignetes Bild mit einem Bildbearbeitungsprogramm wie etwa <i>The Gimp</i> erstellen. Um ein Bootlogo darzustellen, nutzt Linux einen "Framebuffer" und ein Programm namens <i>BootSplash</i>. Das gewünschte Bootlogo, das BootSplash benutzt, kann eine beliebige Bilddatei sein. Aber beachten Sie, dass das Austauschen des Bootlogos mittels Generator leider nicht möglich ist. Sie müssen dazu die gesamte Distribution neu kompilieren.<br/><br/>
+
+          Alles was Sie dazu tun müssen, ist das vorhandene Logo durch Ihres zu ersetzen. Um dies zu tun, modifizieren Sie einfach den Inhalt des Theme Archives. Außer einer Auflösung von 800x600 Pixeln bei einer Farbtiefe von 24bit gibt es dabei nichts zu beachten. Haben Sie das neue Bild erstellt, speichern Sie es einfach im JPEG Format, benennen es  <i>bootsplash-800x600.jpeg</i> und ersetzen damit das Vorhandene.<br/><br/>
+
+          Sie müssen zusätzlich noch die Datei <i>bootsplash-800x600.cfg</i> im Theme Archiv anpassen. Diese Datei enthält Informationen zur Bilddarstellung, wie etwa die Position und die Farbe des Fortschrittbalkens. Auch wenn diese Datei viele mögliche Optionen beinhaltet brauchen Sie eigentlich nur die, die für den Fortschrittbalken von Interesse sind. Hier ein Beispiel dieser Optionen.<br/><br/>
+
+<b>
+# progress bar<br/>
+box silent inter 224 393 224 404 #fd8100<br/>
+box silent       224 393 601 404 #fd8100<br/>
+box        inter 224 393 224 404 #fd8100<br/>
+box              224 393 601 404 #fd8100<br/>
+box noover       110  20 680 500 #333333E0<br/>
+</b><br/>
+
+Für eine ausführliche Liste aller verfügbaren Optionen und zusätzlichen Informationen sehen Sie bitte in der <use name="bootsplash-link"/> Dokumentation nach.<br/><br/>
+
+Wenn Sie all dies erledigt haben, ersetzen Sie einfach die vorhandenen zwei Dateien durch die, die Sie gerade erstellt haben, und bauen Sie Ihre neue GeeXboX.
+      </content>
     </subsection>
 
     <subsection label="modify_menu">
@@ -340,6 +470,9 @@ Une fois tout ceci terminé, remplacez les fichiers présents dans l'archive du th
       </content>
       <content lang="fr" title="Comment puis - je modifier les options du menu ?">
         Les paramètres du menu sont décrits dans un fichier nommé <b>menu.conf</b> disponible dans <i>./packages/MPlayer/</i> A moins que vous ne soyez familier avec la configuration du menu de MPlayer, vous ne devriez procéder qu'à des modifications de niveau linguistique ou pour y effacer des options dont vous n'éprouvez pas le besoin.
+      </content>
+      <content lang="de" title="Wie kann ich die Menüeinträge anpassen ?">
+        Die Menüeinträge sind in einer Datei namens <b>menu.conf</b> im <i>./packages/MPlayer/</i> Verzeichnis definiert. Wenn Sie sich mit der MPlayer Menü Konfigurationsdatei auskennen, können Sie z.B die Sprachen entfernen, die Sie nicht benötigen, aber das sollten Sie wirklich nur im Notfall tun ;-)
       </content>
     </subsection>
 
@@ -359,6 +492,13 @@ Une fois tout ceci terminé, remplacez les fichiers présents dans l'archive du th
           <br/>
 
           Par défaut, nos fontes sont disponibles dans le répertoire <i>./sources/theme-*/</i> (<b>casual.ttf</b> pour le thème classic). Si vous décidez d'utiliser d'autres fontes (avec des noms différents), mettez simplement vos fichier .ttf dans l'archive du thème (<b>theme-*.tar.bz2</b>).
+      </content>
+      <content lang="de" title="Wie kann ich mein eigenes GeeXboX's Theme erstellen ?">
+        Ein Theme ist ein Archiv, in dem Schriftarten, ein Hintergrundvideo, ein optionales Musik-Hintergrundvideo und ein Linux Bootlogo enhalten sind. (Für Informationen über das Bootlogo und wie dies zu erstellen ist, schauen Sie bitte weiter oben in dieser FAQ).<br/><br/>
+
+  Das aktuelle Hintergrundvideo finden Sie in <i>./sources/theme-*/</i>. Es wird einfach <b>background.avi</b> benannt. Es kann auch noch ein anderes Video namens <b>background-audio.avi</b> geben, das abgespielt, wird wenn Sie Audiodateien anhören. Sie können diese Dateien durch Ihre eigenen Videos ersetzen. Die einzige Einschränkung ist das Format. Diese muss von MPlayer unterstützt werden (MPEG4 sollte problemlos funktionieren).<br/><br/>
+
+          Standardmäßig liegen unsere Schriftarten in den <i>./sources/theme-*/</i> Verzeichnissen (<b>casual.ttf</b> für das Klassik Theme). Wenn Sie sich entschließen sollten, andere Schriftarten zu nutzen, müssen Sie diese mit in das (<b>theme-*.tar.bz2</b>) Archiv packen.
       </content>
     </subsection>
   </section>

@@ -49,12 +49,16 @@
   <section label="screenshot">
     <content lang="en" title="Screenshots and Themes ...">Here are some screenshots of the GeeXboX in action. You just have to click on the thumbnails to enlarge these pictures.</content>
     <content lang="fr" title="Captures d'écrans et Thèmes ...">Vous trouverez ci-dessous des captures d'écrans de la GeeXboX en action. Cliquez simplement sur les miniatures pour afficher les images à leur taille originale.</content>
+    <content lang="de" title="Screenshots und Themes ...">Hier sind einige Screenshots der GeeXboX in Aktion. Klicken Sie einfach auf die Vorschaubilder, um diese zu vergrößern.</content>
     <subsection label="boot">
       <content lang="en" title="Booting Sequence">
         This is a screenshot of GeeXboX booting. The system is booting using <use name="bootsplash"/> in order to have an animated boot logo.
       </content>
       <content lang="fr" title="Séquence de démarrage">
         Cette capture a été prise lors du démarrage de la GeeXboX. Le système démarre en utilisant l'extension <use name="bootsplash"/> qui permet d'avoir un logo de boot animé.
+      </content>
+      <content lang="de" title="Startsequenz">
+        Ein Screenshot der GeeXboX beim Starten. Das System nutzt beim Starten <use name="bootsplash"/>, dadurch wird ein animierter Startvorgang ermöglicht.
       </content>
       <use name="scr-boot"/>
     </subsection>
@@ -65,6 +69,9 @@
       <content lang="fr" title="Menu OSD de la GeeXboX">
         Voici le menu OSD (On Screen Display) principal. C'est l'état du votre système juste après la phase de démarrage. A ce point, vous êtes en mesure de controller complètement le système, en utilisant un clavier, joystick ou une télécommande infrarouge compatible. Les images ci-dessous représentent les 4 thèmes principaux (à gauche le thème classique, suivi du thème aqua, du thème movies et enfin le thème "Open Media Center" à l'extrême droite).
       </content>
+      <content lang="de" title="GeeXboX OSD Menü">
+        Dies ist das OSD (On Screen Display) Hauptmenü. So stellt sich das System gleich nach dem Starten dar. Sie haben nun die Möglichkeit, das OS mittels Tastatur, Joystick oder einer unterstützten Fernbedienung zu kontrollieren. Die Bilder oben zeigen die vier verfügbaren Themes (Classic Theme links, dann das Aqua Theme, Movies Theme und Open Media Center Theme auf der rechten Seite).
+      </content>
       <use name="scr-osd"/>
     </subsection>
     <subsection label="video">
@@ -73,6 +80,9 @@
       </content>
       <content lang="fr" title="Lecture Vidéo">
         La GeeXboX est actuellement en train de lire une vidéo au format DivX. Le système a été mis sous pause afin de minimiser le mouvement, permettant la capture d'écran.
+      </content>
+      <content lang="en" title="Playing Video">
+         Die GeeXboX beim Abspielen eines DivX Films. Der Film wurde dazu gestoppt um einen hochwertigen Screenshot zu erstellen.
       </content>
       <use name="scr-play"/>
     </subsection>

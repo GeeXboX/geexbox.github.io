@@ -21,6 +21,7 @@
       Dennis Roos<br/>
       Alexis Saettler<br/>
       Ville Skytta<br/>
+      Heiko Rutenbeck (bzrudi)<br/>
     </i>
   </define>
 
@@ -34,6 +35,7 @@
   <section label="contact">
     <content lang="en" title="GeeXboX's users contact"/>
     <content lang="fr" title="Contact utilisateurs"/>
+    <content lang="de" title="GeeXboX Kontaktinformationen"/>
     <subsection label="user">
       <content lang="en" title="Contact ...">
         Any suggestions ? We'll be glad to answer any questions you may have about GeeXboX. If you have a bug report, please supply your hardware configuration and the GeeXboX release you're using. For suggestions / bug reports / thanks? ;-) or any other kind of question, please mail at :
@@ -41,6 +43,10 @@
       </content>
       <content lang="fr" title="Contact ...">
         Des suggestions ? Nous serions ravis de vous répondre pour toute question que vous seriez à même de vous poser. Donc, pour toutes suggestions / retour de bugs (précisez votre configuration matérielle ainsi que la version de la GeeXboX utilisée svp) / (remerciements ? ;-) ou simplement n'importe quel autre type de question, écrivez simplement à :
+        <center><users/></center>
+      </content>
+      <content lang="de" title="Kontakt ...">
+        Vorschläge / Anregungen ? Wir freuen uns, jede Frage, die Sie vielleicht zu GeeXboX haben, zu beantworten. Haben Sie einen Bug gefunden, teilen Sie uns bitte Details über Ihre Hardwarekonfiguration und die verwendete GeeXboX Version mit. Für Anregungen/Vorschläge/Danksagungen ;-), oder jede andere Art von Frage schreiben Sie bitte an:
         <center><users/></center>
       </content>
     </subsection>
@@ -51,8 +57,12 @@
         <center><b>The GeeXboX's Team</b></center>
       </content>
       <content lang="fr" title="Site Internet">
-        Por toute question ou problème avec le contenu ou l'affichage du site en lui-même, veuillez en référer au <webmaster/><br/>
+        Pour toute question ou problème avec le contenu ou l'affichage du site en lui-même, veuillez en référer au <webmaster/><br/>
         <center><b>L'équipe GeeXboX</b></center>
+      </content>
+      <content lang="de" title="Webseite">
+        Bei Fragen zum Inhalt oder der Darstellung der Webseite kontaktieren Sie bitte den <webmaster/><br/>
+        <center><b>Das GeeXboX Team</b></center>
       </content>
     </subsection>
 
@@ -73,8 +83,18 @@
         <b>Développeurs reguliers :</b><br/><br/>
         <use name="author-dev"/><br/>
         <b>Designers :</b><br/><br/>
-        <use name="author-design"/>
+        <use name="author-design"/><br/>
         <b>Contributeurs occasionnels :</b><br/><br/>
+        <use name="author-contrib"/>
+      </content>
+      <content lang="de" title="Autoren">
+        <b>Hauptentwickler :</b><br/><br/>
+        <use name="author-core"/><br/>
+        <b>Entwickler :</b><br/><br/>
+        <use name="author-dev"/><br/>
+        <b>Designer :</b><br/><br/>
+        <use name="author-design"/><br/>
+        <b>Unterstützer :</b><br/><br/>
         <use name="author-contrib"/>
       </content>
     </subsection>

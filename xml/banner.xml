@@ -7,5 +7,6 @@
   <langs>
     <text lang="en" flag="../img/flag-en.gif">english</text>
     <text lang="fr" flag="../img/flag-fr.gif">français</text>
+    <text lang="de" flag="../img/flag-de.gif">deutsch</text>
   </langs>
 </banner>
