@@ -5,7 +5,7 @@
   <section label="doc">
     <content lang="en" title="Documentation ..."/>
     <content lang="fr" title="Documentation ..."/>
-    <subsection label="menu">
+    <subsection label="osd_menu">
       <content lang="en" title="How to use OSD menu ...">
         The GeeXboX's OSD Menu can easily be controlled using either a single keyboard or a remote controller. Use the up and down arrows keys to switch between the main menu options. The right arrow is used to go to a specific submenu (i.e "Ok") and the left one is for coming back (i.e "Cancel").<br/><br/>
 

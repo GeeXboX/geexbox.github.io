@@ -48,7 +48,7 @@
       </content>
       <use name="scr-boot"/>
     </subsection>
-    <subsection label="menu">
+    <subsection label="osd">
       <content lang="en" title="GeeXboX OSD Menu">
         Here is the main OSD (On Screen Display) Menu. This is the state of the system just after boot. You're now able to fully control the OS using a keyboard or a supported remote controller. Pictures above represents the 3 main themes (aqua theme on the left, movies theme on center and classic theme on the right).
       </content>

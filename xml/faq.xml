@@ -69,7 +69,7 @@
         Cela signifie que MPlayer aprovoqué une erreur. Cela est probablement dû à un problème avec le pilote vidéo. Essayez de reconstruire votre propre GeeXboX sans le support du vidix (VESA uniquement).
       </content>
     </subsection>
-    <subsection label="5.1">
+    <subsection label="ac3">
       <content lang="en" title="Does GeeXboX supports 5.1 Audio Output ?">
         Unfortunately, for now, only stereo audio output is supported. Besides, AC3 streams are converted to stereo :-( If you want true AC3 output, you'll have to add the <b>ac=hwac3,</b> (warning: don't forget the comma) line into <i>mplayer.conf</i>.
       </content>
@@ -210,7 +210,7 @@
           Vous savez quoi ? Vous venez d'en finir avec le patch LPP ;-) Désolé, c'était long et difficile mais, par cette occasion, vous êtes peut être à même de comprendre à quel point cela a été difficile de créer un système complet comme la GeeXboX ;-)
       </content>
     </subsection>
-    <subsection label="menu">
+    <subsection label="modify_menu">
       <content lang="en" title="How can I modify the menu items ?">
         The menu items are described in a file called <b>menu.conf</b> in <i>./packages/MPlayer/</i> Unless you're aware of MPlayer's menu's configuration file, you may only modify the items' language or delete some that you don't need but please do not modify it at your ease ;-)
       </content>
