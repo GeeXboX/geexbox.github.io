@@ -45,11 +45,13 @@
 * Tekram DC-310/310U PCI SCSI<br/>
 * Adaptec AHA-2920 PCI SCSI<br/>
 * Cnet WiFi 54 Mbps USB dongle WD-854<br/>
+* Pinnacle Studio PCTV Pro BT848<br/>
   </define>
 
   <define name="computer">
 * Macintosh iMac G3<br/>
 * EPIA MII-1000<br/>
+* Microsoft XboX<br/>
   </define>
 
   <define name="response-computing-url">
@@ -61,7 +63,7 @@
   </define>
 
   <define name="donators-hard">
-    Sylvain Doctrinal, Coyot, Lolo, Andrew Florence
+    Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Andrew Florence
   </define>
 
   <section label="donate">
