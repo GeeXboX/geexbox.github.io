@@ -7,10 +7,10 @@
   </define>
 
   <define name="video_supported">
-    ATI Rage, ATI RageMobility, ATI Mach64, ATI Rage128, ATI Radeon, ATI X300/600/800, nVidia Riva TnT 1/2, nVidia GeForce 1/2/3/4/5/6 series, 3Dfx Voodoo Banshee, 3Dfx Voodoo 3/4/5, Matrox Mystique/Millenium, Matrox G200/G400/G450/G455/G550/G650/G750, Intel i810/815, SiS 300/315/330, Trident Cyberblade, VIA Unichrome.
+    ATI Rage, ATI RageMobility, ATI Mach64, ATI Rage128, ATI Radeon, ATI X300/600/800, nVidia Riva TnT 1/2, nVidia GeForce 1/2/3/4/5/6 series, 3Dfx Voodoo Banshee, 3Dfx Voodoo 3/4/5, Matrox Mystique/Millenium, Matrox G200/G400/G450/G455/G550/G650/G750, Intel i810/815, SiS 300/315/330, Trident Cyberblade, Intel i740, VIA Unichrome.
   </define>
   <define name="video_unsupported">
-    Intel i740, VESA 1.2 cards.
+    VESA 1.2 cards.
   </define>
   <define name="video_untested">
     PowerVR Rendition, Intel i845/855/i865, Kyro, Kyro II, 3DLabs Permedia2, Matrox Parhelia, NeoMagic.
