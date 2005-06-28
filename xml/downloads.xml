@@ -97,6 +97,10 @@
     <a href="../releases/0.98.5/geexbox-0.98.5.md5sum">GeeXboX 0.98.5 MD5SUM</a>
   </define>
 
+  <define name="codecs-nonfree">
+    <a href="../releases/geexbox-extra-codecs-nonfree.tar.gz">Codecs</a>
+  </define>
+
   <section label="download">
     <content lang="en" title="Downloads ..."/>
     <content lang="fr" title="Téléchargements ..."/>
@@ -160,6 +164,15 @@
         Der GeeXboX ISO Generator ist auch über <b>apt-get</b> für GNU/Linux Debian Benutzer verfügbar. Fügen Sie dazu einfach folgende Zeilen in Ihre <i>/etc/apt/sources.list</i> Datei ein :<br/><br/>
         <use name="deb-gen"/><br/>
         <use name="deb-gen-src"/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="codecs">
+      <content lang="en" title="GeeXboX Non-free extra codecs">
+        MPlayer have builtin support for the most common audio and video formats, but some may require external codecs. Examples include Real or Windows Media codecs which still cannot be decoded properly by free implementation. Files using such codecs can however be decoded by MPlayer using legacy Win32 DLLs. As these librairies are not free they can't be included in the regular GeeXboX ISO. Nevertheless, judging by the massive demands of user, the GeeXboX team now lets you download these <use name="codecs-nonfree"/> from our servers. Simply untar the archive and copy the files to the /codecs directory of GeeXboX either on an HDD installed version or using the generator.<br/>
+      </content>
+      <content lang="fr" title="Codecs additionnels non-libres pour la GeeXboX">
+        MPlayer dispose d'un support natif pour la très grande majorité des formats audio/vidéo, mais certains peuvent néanmoins nécessiter des codecs additionnels. Par exemple, les formats/codecs Real ou Windows Media ne disposent pas encore d'implémentation libre suffisamment aboutie pour permettre leur décodage. Les fichiers utilisant ce type de codecs peuvent cependant être décodés par MPlayer en utilisant les DLLs Win32 originelles. Ces librairies n'étant cependant pas libres de droits, elles ne peuvent être inclues dans les ISO GeeXboX officielles. Néanmoins, à en juger par le nombre de demandes répétées des utilisateurs, l'équipe GeeXboX mets ces <use name="codecs-nonfree"/> à votre disposition sur nos serveurs. Décomrpessez simplement l'archive et copiez les fichiers qu'elle contient au sein du répertoire /codecs d'une GeeXboX installée sur disque dur ou en utilisant le generateur d'ISO.<br/>
       </content>
     </subsection>
 
