@@ -98,7 +98,7 @@
   </define>
 
   <define name="codecs-nonfree">
-    <a href="../releases/geexbox-extra-codecs-nonfree.tar.gz">Codecs</a>
+    <a href="../releases/extra-codecs-nonfree.tar.gz">Codecs</a>
   </define>
 
   <section label="download">
