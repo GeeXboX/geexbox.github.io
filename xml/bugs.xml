@@ -57,12 +57,11 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
       <content lang="en" title="GeeXboX TODO List ...">
         Below are some features that are to be included in future releases of the GeeXboX. They may take some time, according to the feature's importance :<br/><br/>
 * Add a new fancy interface.<br/>
-* Add a new graphical ISO generator.<br/>
 * Add encoding/recording capabilities.<br/>
 * Add TimeShifting capabilities.<br/>
 * Add Pan/Scan feature.<br/>
-* Add support for DVB cards.<br/>
-* Display ID3 Tags (Albums, Artist, Track Name and Number) when playing audio-only streams (WAVs, MP3, Ogg ...).<br/>
+* Add support for DVB cards (Digital TV : Satellite, Cable, Terrestrial).<br/>
+* Display ID3 Tags (Albums, Artist, Track Name and Number) and CDDB info when playing audio-only streams (WAVs, MP3, Ogg ...).<br/>
 * Add a DVD navigation menu.<br/>
 * Add support for multimedia keyboards.<br/>
 * Add support for karaoke playback.
@@ -71,12 +70,11 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
         Vous trouverez ci-dessous quelques fonctionnalités que la prochaine version de la GeeXboX sera susceptible de proposer. Cela pourra prendre un certain temps, en fonction de la nécessité de chaque fonctionnalité :<br/><br/>
 
 * Ajout d'une nouvelle interface graphique.<br/>
-* Ajout d'un nouveau générateur d'ISO complet en mode graphique.<br/>
 * Support des possibilités d'enregistrement.<br/>
 * Support des fonctionnalités de TimeShifting.<br/>
 * Support du mode Pan/Scan.<br/>
-* Support des cartes DVB.<br/>
-* Affichage des ID3 Tags (Nom de l'album, de l'artiste, du numéro et nom de piste) lors de la lecture de flux exclusivement audio (WAV, MP3, Ogg ...).<br/>
+* Support des cartes TV numériques (DVB : Cable, Satellite, TNT).<br/>
+* Affichage des ID3 Tags (Nom de l'album, de l'artiste, du numéro et nom de piste) et informations CDDB lors de la lecture de flux exclusivement audio (WAV, MP3, Ogg ...).<br/>
 * Ajout d'un véritable menu de navigation pour les DVD.<br/>
 * Support des claviers multimédia.<br/>
 * Support de fonctionnalités karaoké.
