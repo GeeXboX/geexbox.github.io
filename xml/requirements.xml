@@ -42,8 +42,8 @@
       <content lang="en" title="Hardware Needs">
         'GeeXboX is an operating system but you still need something to boot on ;-) You're lucky, GeeXboX is based on MPlayer, which can be considered as one of the less cpu-dependent movie players, thanks to the use of FFMpeg for decoding movies.<br/><br/>
 So, here's what can be considered as a typical / minimal config :<br/>
-* Pentium-Class CPU or above (P2-400 should be quite enough)<br/>
-* a VESA 2.0 compliant graphics card.<br/>
+* x86 Pentium-Class CPU or above (P2-400 should be quite enough) or Macintosh G3 (G4 highly recommended) <br/>
+* a VESA 2.0 compliant graphics card (for x86 PC only).<br/>
 * an ALSA compatible sound card.<br/>
 * at least 64 MB of RAM<br/>
 * CD-ROM or DVD-ROM drive<br/>
@@ -54,8 +54,8 @@ So, here's what can be considered as a typical / minimal config :<br/>
       <content lang="fr" title="Besoins Matériel">
         La GeeXboX a beau être un système d'exploitation, elle ne nécessite pas moins quelque chose sur quoi démarrer ;-) Vous avez de la chance, elle est basée sur MPlayer, qui peut être considéré comme l'un des lecteurs multimédia les moins dépendant de puissance CPU, de par l'utilisation de la librairie FFMpeg pour décoder les vidéos par exemple.<br/><br/>
 Voici donc ce qui peut être considéré comme une configuration typique / minimale :<br/>
-* CPU de type Pentium ou Supérieur (un P2-400 devrait parfaitement convenir)<br/>
-* une carte graphique compatible VESA 2.0<br/>
+* CPU x86 de type Pentium ou Supérieur (un P2-400 devrait parfaitement convenir) ou Macintosh G3 (G4 recommandé).<br/>
+* une carte graphique compatible VESA 2.0 (pour PC x86 uniquement)<br/>
 * une carte son compatible ALSA.<br/>
 * environ 64 Mo de mémoire vive<br/>
 * un lecteur CD-ROM ou DVD-ROM<br/>
