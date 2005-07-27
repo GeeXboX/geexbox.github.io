@@ -32,8 +32,10 @@
         <a href="#nvidia_vidix">How to enable VidiX for nVidia cards?</a><br/>
         <a href="#nvidia_tvout">I have a nVidia card but TV-Out doesn't work :-(</a><br/>
         <a href="#matrox_tvout">How Can I use Matrox TV-Out ?</a><br/>
+        <a href="#matrox_hires">My Matrox card doesn't seem to work with High Resolution movies ...</a><br/>
         <a href="#dxr3">How can I use my DXR3/Hollywood+ card ?</a><br/>
         <a href="#dxr3_menu">I can't access to the menu when using my DXR3 card</a><br/>
+        <a href="#dxr3_dvd">The screen goes weird when I insert a DVD using my DXR3 card</a><br/>
         <a href="#epia-boot">I have no HDD and my EPIA (V) motherboard refuses to boot GeeXboX</a><br/>
         <a href="#remote">My remote controller isn't recognized</a><br/>
         <a href="#remote_add">How to make my remote supported by GeeXboX ?</a><br/>
@@ -59,8 +61,10 @@
         <a href="#nvidia_vidix">Comment activer le support du VidiX pour cartes nVidia?</a><br/>
         <a href="#nvidia_tvout">Je possède une carte nVidia mais la sortie TV ne fonctionne pas :-(</a><br/>
         <a href="#matrox_tvout">Comment utiliser la sortie TV des cartes Matrox ?"</a><br/>
+        <a href="#matrox_hires">Ma carte graphique Matrox ne semble pas accepter les vidéos en haute résolution ...</a><br/>
         <a href="#dxr3">Comment puis-je utiliser ma carte DXR3/Hollywood+ ?</a><br/>
         <a href="#dxr3_menu">Je n'arrive pas à voir les menus avec ma carte DXR3</a><br/>
+        <a href="#dxr3_dvd">L'affichage se brouille à l'insertion d'un DVD avec une carte DXR3</a><br/>
         <a href="#epia-boot">Je n'ai pas de disque dur et ma carte mère EPIA (V) refuse de démarrer la GeeXboX</a><br/>
         <a href="#remote">Ma télécommande n'est pas reconnue</a><br/>
         <a href="#remote_add">Comment utiliser votre propre télécommande avec la GeeXboX ?</a><br/>
@@ -240,6 +244,15 @@
       </content>
     </subsection>
 
+    <subsection label="matrox_hires">
+      <content lang="en" title="My Matrox card doesn't seem to work with High Resolution movies ...">
+        This is unfortunately a known bug of GeeXboX with Matrox cards. These latters really don't seem to accept video signal with a width greater than 1024 pixels.
+      </content>
+      <content lang="fr" title="Ma carte graphique Matrox ne semble pas accepter les vidéos en haute résolution ...">
+        Il s'agit malheureusement là d'un bug connu rencontré sous GeeXboX avec des cartes de marque Matrox. Ces dernières semblent en effet incapables de comprendre un signal vidéo dont la largeur dépasse 1024 pixels de long.
+      </content>
+    </subsection>
+
     <subsection label="dxr3">
       <content lang="en" title="How can I use my DXR3/Hollywood+ card ?">
       Users with this kind of hardware decompression card do NOT even need to have a video board and sound card to use GeeXboX. The drawbacks are that only the tvout connector can be used with DXR3 cards (no CRT display). You may have to set the required image type (PAL/NTSC) in the <i>/etc/tvout</i> file and the kind of audio output you want to use (Analog or SPDIF) in <i>/etc/audio</i>.
@@ -262,6 +275,15 @@
       </content>
       <content lang="de" title="Ich sehe kein Menü bei der Verwendung einer DXR3 Karte">
         Die DXR3/H+ Karte besitzt einen Hardware MPEG 1/2 Decoder. Es hat bereits Versuche gegeben, die Hardware-Dekomprimierung unter GeeXboX zu nutzen, damit auch ältere Computer DVDs abspielen können. Wie auch immer, aus technischen Gründen ist es nicht möglich, Filter über Bilder zu legen (z.B. für das Menü). Daher ist es nicht möglich, ein Menü bei der Wiedergabe solcher Dateien einzublenden (dieses Problem besteht nicht beim Abspielen von MPEG 4/DivX Dateien).
+      </content>
+    </subsection>
+
+    <subsection label="dxr3_dvd">
+      <content lang="en" title="The screen goes weird when I insert a DVD using my DXR3 card.">
+        When using DXR3 cards, the Autoplay feature prevents DVDs from working. You have to press the 'Q' key to exit after you've inserted the DVD, then use the menu to launch the DVD again.
+      </content>
+      <content lang="fr" title="L'affichage se brouille à l'insertion d'un DVD avec une carte DXR3">
+        Lorsque vous utilisez une carte DXR3, la fonction d'autoplay empêche la lecture des DVD. Il vous est nécessaire d'appuyer manuellement sur la touche 'Q' pour quitter après insertion du disque et d'ensuite réutiliser le menu pour relancer la lecture.
       </content>
     </subsection>
 
