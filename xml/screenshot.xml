@@ -81,7 +81,7 @@
       <content lang="fr" title="Lecture Vidéo">
         La GeeXboX est actuellement en train de lire une vidéo au format DivX. Le système a été mis sous pause afin de minimiser le mouvement, permettant la capture d'écran.
       </content>
-      <content lang="en" title="Playing Video">
+      <content lang="de" title="Playing Video">
          Die GeeXboX beim Abspielen eines DivX Films. Der Film wurde dazu gestoppt um einen hochwertigen Screenshot zu erstellen.
       </content>
       <use name="scr-play"/>
