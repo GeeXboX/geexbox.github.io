@@ -17,7 +17,7 @@
   </define>
 
   <define name="audio_pci_supported">
-    ALI M5451, ATI IXP 150/200/250/300, Aureal Advantage, Aurel Vortex 1/2, Aztech AZF3328/PCI168, Cirrus Logic Sound Fusion CS4280/CS461x/CS462x/CS463x/CS4281, SoundBlaster EMU10K1 (SB512, Live, Audigy, E-mu APS), NeoMagic NM256AV/ZX, Trident 4D-Wave, SiS 7018, Yamaha YMF724/740/744/754, Advance Logic ALS4000, C-Media 8738, 8338, Ensoniq AudioPCI 1370/1371/1373 (SB64/128), ESS ES1938/1946/1961 (Solo-1), ESS ES1968/1978 (Maestro-1/2/2E), ESS Allegro/Maestro3, ForteMedia FM801, ICEnsemble ICE1712 (Envy24), ICE/VT1724/1720 (Envy24HT/PT), Intel i8x0/MX440, SiS 7012/7013, ALI 5455, nForce Audio, AMD 768/8111, S3 SonicVibes, VIA 82C686A/B, Digigram VX222.
+    ALI M5451, ATI IXP 150/200/250/300, Aureal Advantage, Aurel Vortex 1/2, Aztech AZF3328/PCI168, Cirrus Logic Sound Fusion CS4280/CS461x/CS462x/CS463x/CS4281, SoundBlaster EMU10K1 (SB512, Live, Audigy, E-mu APS), SoundBlaster EMU10K1X (SB Live! 24 bits, SB Audigy LS), NeoMagic NM256AV/ZX, Trident 4D-Wave, SiS 7018, Yamaha YMF724/740/744/754, Advance Logic ALS4000, C-Media 8738, 8338, Ensoniq AudioPCI 1370/1371/1373 (SB64/128), ESS ES1938/1946/1961 (Solo-1), ESS ES1968/1978 (Maestro-1/2/2E), ESS Allegro/Maestro3, ForteMedia FM801, ICEnsemble ICE1712 (Envy24), ICE/VT1724/1720 (Envy24HT/PT), Intel i8x0/MX440, SiS 7012/7013, ALI 5455, nForce Audio, AMD 768/8111, S3 SonicVibes, VIA 82C686A/B, Digigram VX222, Intel High Definition Audio (Azalia)
   </define>
   <define name="audio_isa_supported">
     Analog Devices AD18616A/AD1848, Cirrus Logic CS4248/CS423{1|2|6+}, ESS ES968/688/1688/18xx, Gravis UltraSound Classic/Extreme/MAX, AMD InterWave, OPTi 82C92x/93x, SoundBlaster 1.0/2.0/Pro, Sound Blaster 16, Sound Blaster AWE32/64, Turle Beach Maui/Tropez(+), Advance Logic ALS100/120, Aztech AZT2320, C-Media CMI8330, Diamond DT-019X, Advance Logic ALS-007, Yamaha OPL3-SA2/SA3, Aztech Sound Galaxy, Ensoniq SoundScape.
@@ -41,7 +41,7 @@
   </define>
 
   <define name="sata_supported">
-    Promise SX8, ServerWorks Frodo, Apple K2, Intel PIIX/ICH, nVidia, Promise TX2/TX4, Promise SX4, Silicon Image, SiS 964/180, VIA, VITESSE VASC-7174.
+    Promise SX8, ServerWorks Frodo, Apple K2, Intel PIIX/ICH, nVidia, Promise TX2/TX4, Promise SX4, Silicon Image, SiS 964/180, VIA, VITESSE VASC-7174, QStor.
   </define>
   <define name="sata_unsupported">
     None.
@@ -55,7 +55,7 @@
   </define>
 
   <define name="eth_supported">
-    3COM 3c50x (EtherLink serie), 3COM 3c590/900/990 series (Vortex/Boomerang/Typhoon), WD/SMC Ultra ISA, AMD PCnet32, AMD 8111, Adaptec Starfire/DuraLAN, Broadcom 4400, nForce, Intel EtherExpress Pro, National Semiconductor DP8381x, NE2000 PCI, RealTek 8139(C+), RealTek 8129/8130, SiS 900/7016, SMC EtherPower, VIA Rhine, VIA Velocity (Giga), Alteon AceNIC/3Com 3C958 (Giga), NetGear GA620 (Giga), Intel Pro 1000, RealTek 8169 (Giga), Marvell Yukon (Giga), SysKonnect SK-98xx (Giga), Broadcom Tigon3 (Giga).
+    3COM 3c50x (EtherLink serie), 3COM 3c590/900/990 series (Vortex/Boomerang/Typhoon), WD/SMC Ultra ISA, AMD PCnet32, AMD 8111, Adaptec Starfire/DuraLAN, Broadcom 4400, nForce, Intel EtherExpress Pro, National Semiconductor DP8381x, NE2000 PCI, RealTek 8139(C+), RealTek 8129/8130, SiS 900/7016, SMC EtherPower, VIA Rhine, VIA Velocity (Giga), Alteon AceNIC/3Com 3C958 (Giga), NetGear GA620 (Giga), Intel Pro 1000, RealTek 8169 (Giga), Marvell Yukon (Giga), SysKonnect SK-98xx (Giga), Broadcom Tigon3 (Giga), Tulip.
   </define>
   <define name="eth_unsupported">
     3COM 3c525 ISA, AMD Lance ISA, SMC 9194, ATxxx, DExxx, HPxxx, other ISA cards, D-Link DL2000 (Giga), National Semiconductor DP83820. All PCMCIA cards.
@@ -72,24 +72,21 @@
   </define>
 
   <define name="tv_supported">
-    BrookTree BT848/BT878, Philips SAA7134.
-  </define>
-  <define name="tv_unsupported">
-    Conexant 2388x.
+    BrookTree BT848/BT878, Philips SAA7134, Conexant 2388x.
   </define>
 
   <define name="fs_supported">
-    EXT2/3, ReseirFS, ISO9660, Joliet, UDF, VFAT, NTFS (RO), xBSD UFS (RO), NFS, Samba SMB.
+    EXT2/3, ReseirFS, ISO9660, Joliet, UDF, VFAT, NTFS (RO), xBSD UFS (RO), NFS, Samba SMB, CIFS.
   </define>
   <define name="fs_unsupported">
-    JFS, XFS, Minix, ROMfs, NTFS (RW), ADFS, Amiga FFS, Apple HFS, BeOS BeFS, BFS, EFS, Comrpessed ROM CramFS, FreeVxFS, OS/2 HPFS, QNX4 FS, xBSD UFS (RW), NFS 3/4, CIFS, NCP, AFS.
+    JFS, XFS, Minix, ROMfs, NTFS (RW), ADFS, Amiga FFS, Apple HFS, BeOS BeFS, BFS, EFS, Comrpessed ROM CramFS, FreeVxFS, OS/2 HPFS, QNX4 FS, xBSD UFS (RW), NFS 3/4, NCP, AFS.
   </define>
 
   <define name="misc_supported">
-    USB Joysticks, ATI Remote Wonder.
+    USB Joysticks, XboX GamePad, Cards readers, ATI Remote Wonder, Radio adapters.
   </define>
   <define name="misc_unsupported">
-    Mouse, RAID controllers, PCMCIA cards, DVB cards, Radio adapters.
+    Mouse, RAID controllers, PCMCIA cards, DVB cards.
   </define>
 
   <section label="hard">
@@ -110,7 +107,7 @@
 
     <subsection label="list_hard">
       <content lang="en" title="List of supported hardware ...">
-GeeXboX has been designed to work on almost every kind of computer, being as generic as possible. Thus, most of the components of your computer are supported. Whatever the brand or model of your motherboard, CD/DVD drive, hard disk, CPU and memory, GeeXboX will be able to recognize and use it well.<br/><br/>
+GeeXboX has been designed to work on almost every kind of computer, being as generic as possible. Thus, most of the components of your computer are supported. Whatever the brand or model of your motherboard, CD/DVD drive, hard disk, CPU and memory, GeeXboX will be able to recognize and use it well. The only real requirement in fact is to have a PC (x86 architecture) or Macintosh (PowerPC architecture).<br/><br/>
 
 Mainly for technical reasons, not all of the extended components are supported (but most of them are). The list above will try to describe for each kind of peripheral, which one is supported and which aren't.<br/><br/>
 
@@ -119,7 +116,7 @@ Unsupported hardware may be due to several reasons. For some of them, the reason
 And one last thing, many components are described by the name of the chipset they are using. We really do not know which brand or model is using which kind of chipset and honnestly we do not care about. If some manufacturer do not provide you this information (which is quite essential), complain about him not us.<br/>
       </content>
       <content lang="fr" title="Liste de matériel compatible ...">
-La GeeXboX a été conçue pour fonctionner sur presque n'importe quel type d'ordinateur, essayant de rester aussi générique que possible. De ce fait, la plupart des composants de vore ordinateur sont supportés. Quelle que soit la marque ou le modèle de votre carte mère, de votre lecteur CD/DVD, disque dur, processeur et mémoire, ils sont reconnus et la GeeXboX est en mesure de les utiliser pleinement.<br/><br/>
+La GeeXboX a été conçue pour fonctionner sur presque n'importe quel type d'ordinateur, essayant de rester aussi générique que possible. De ce fait, la plupart des composants de vore ordinateur sont supportés. Quelle que soit la marque ou le modèle de votre carte mère, de votre lecteur CD/DVD, disque dur, processeur et mémoire, ils sont reconnus et la GeeXboX est en mesure de les utiliser pleinement. La seule véritable contrainte au final, est de disposer d'un PC (architecture x86) ou d'un Macintosh (architecture PowerPC).<br/><br/>
 
 Pour des raisons essentiellement techniques, tous les composants additionnels ne sont par contre pas compatibles ou supportés (bien que la majorité le soit). La liste ci-dessous a été faite dans le but de décrire dans la mesure du possible, pour chaque type de périphérique, ceux qui sont supportés et ceux qui ne le sont pas.<br/><br/>
 
@@ -272,15 +269,12 @@ Noch ein Hinweis zum Schluss. Viele der hier gelisteten Hardware wurde nach dem 
     <subsection label="hard_tv">
       <content lang="en" title="TV Cards ...">
       - <b>Supported chipsets</b> : <use name="tv_supported"/><br/><br/>
-      - <b>Unsupported chipsets</b> : <use name="tv_unsupported"/><br/>
       </content>
       <content lang="fr" title="Cartes TV ...">
       - <b>Chipsets supportés</b> : <use name="tv_supported"/><br/><br/>
-      - <b>Chipsets non supportés</b> : <use name="tv_unsupported"/><br/>
       </content>
       <content lang="de" title="TV - Karten ...">
       - <b>Unterstützte Chipsätze</b> : <use name="tv_supported"/><br/><br/>
-      - <b>Nicht unterstützte Chipsätze</b> : <use name="tv_unsupported"/><br/>
       </content>
     </subsection>
 
