@@ -129,7 +129,7 @@
       <th align="center"><b><a href="http://www.busybox.net/">busyBox</a></b></th>
       <td align="center">1.00rc2</td>
       <td align="center">1.00</td>
-      <td align="center">1.00-20050706</td>
+      <td align="center">1.00-20050806</td>
     </tr>
   </define>
   <define name="cdparanoia">
@@ -353,7 +353,7 @@
       <th align="center"><b><a href="http://packages.debian.org/unstable/admin/module-init-tools">module-init-tools</a></b></th>
       <td align="center">*</td>
       <td align="center">3.0</td>
-      <td align="center">3.2-pre5</td>
+      <td align="center">3.2-pre8</td>
     </tr>
   </define>
   <define name="MPlayer">
@@ -393,7 +393,7 @@
       <th align="center"><b><a href="http://rt2400.sourceforge.net/">rt2400</a></b></th>
       <td align="center">1.2.0</td>
       <td align="center">1.2.1</td>
-      <td align="center">1.2.1-20050721</td>
+      <td align="center">1.2.2-beta3</td>
     </tr>
   </define>
   <define name="rt2500">
@@ -401,7 +401,7 @@
       <th align="center"><b><a href="http://rt2400.sourceforge.net/">rt2500</a></b></th>
       <td align="center">*</td>
       <td align="center">1.4.3.0</td>
-      <td align="center">1.4.3.0-20050721</td>
+      <td align="center">1.1.0-b3</td>
     </tr>
   </define>
   <define name="samba">
@@ -409,7 +409,7 @@
       <th align="center"><b><a href="http://us4.samba.org/samba/">Samba</a></b></th>
       <td align="center">3.0.5</td>
       <td align="center">3.0.10</td>
-      <td align="center">3.0.13</td>
+      <td align="center">3.0.14a</td>
     </tr>
   </define>
   <define name="setcd">
@@ -433,7 +433,7 @@
       <th align="center"><b><a href="http://www.uclibc.org/">uClibc</a></b></th>
       <td align="center">0.9.26</td>
       <td align="center">cvs 20040825</td>
-      <td align="center">cvs 20050706</td>
+      <td align="center">cvs 20050806</td>
     </tr>
   </define>
   <define name="udev">
@@ -441,7 +441,7 @@
       <th align="center"><b><a href="http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html">uDev</a></b></th>
       <td align="center">*</td>
       <td align="center">*</td>
-      <td align="center">0.64</td>
+      <td align="center">0.65</td>
     </tr>
   </define>
   <define name="util-linux">
