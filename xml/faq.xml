@@ -88,8 +88,10 @@
         <a href="#nvidia_vidix">Wie kann ich VidiX für nVidia Karten aktivieren ?</a><br/>
         <a href="#nvidia_tvout">Ich habe eine nVidia Karte, aber TV-Out funktioniert nicht :-(</a><br/>
         <a href="#matrox_tvout">Wie kann ich den TV-Out meiner Matrox Karte nutzen ?</a><br/>
+        <a href="#matrox_hires">Darstellungsfehler von Matrox Karten in hoher Auflösung ...</a><br/>
         <a href="#dxr3">Wie kann ich meine DXR3/Hollywood+ Karte nutzen ?</a><br/>
         <a href="#dxr3_menu">Ich sehe kein Menü bei der Verwendung einer DXR3 Karte</a><br/>
+        <a href="#dxr3_dvd">Fehler bei DVD Autostart und DXR3</a><br/>		
         <a href="#epia-boot">Ich habe keine Festplatte und mein EPIA (V) Motherboard bootet die GeeXboX nicht</a><br/>
         <a href="#remote">Meine Fernbedienung wird nicht erkannt</a><br/>
         <a href="#remote_add">Wie kann ich meine Fernbedienung zur Zusammenarbeit mit GeeXboX bewegen ?</a><br/>
@@ -252,6 +254,9 @@
         Il s'agit malheureusement là d'un bug connu rencontré sous GeeXboX avec des cartes de marque Matrox. Ces dernières semblent en effet incapables de comprendre un signal vidéo dont la largeur dépasse 1024 pixels de long.
       </content>
     </subsection>
+      <content lang="de" title="Darstellungsfehler von Matrox Karten in hoher Auflösung ...">
+	Matrox Karten scheinen keine Videos in Auflösungen größer als 1024 richtig darzustellen.
+      </content>
 
     <subsection label="dxr3">
       <content lang="en" title="How can I use my DXR3/Hollywood+ card ?">
@@ -285,6 +290,9 @@
       <content lang="fr" title="L'affichage se brouille à l'insertion d'un DVD avec une carte DXR3">
         Lorsque vous utilisez une carte DXR3, la fonction d'autoplay empêche la lecture des DVD. Il vous est nécessaire d'appuyer manuellement sur la touche 'Q' pour quitter après insertion du disque et d'ensuite réutiliser le menu pour relancer la lecture.
       </content>
+      <content lang="de" title="Fehler bei DVD Autostart und DXR3">
+	Bei der Verwendung von DXR3 Karten verhindert der Autostart die Wiedergabe von DVDs. Drücken Sie zum Abbrechen des Autostarts die 'Q' Taste direkt nach Einlegen der DVD und starten dann die Wiedergabe über das Menü.
+      </content>	
     </subsection>
 
     <subsection label="epia-boot">

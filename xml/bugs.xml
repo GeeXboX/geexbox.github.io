@@ -9,7 +9,7 @@
   <section label="bugs_todo">
     <content lang="en" title="Bugs Report / TODO ..."/>
     <content lang="fr" title="Rapport de Bugs / Fonctionnalités à venir ..."/>
-    <content lang="de" title="Bugs / TODO ..."/>
+    <content lang="de" title="Bug Report / TODO ..."/>
     <subsection label="bugs">
       <content lang="en" title="Sending a Bug Report ...">
         Unfortunately, GeeXboX is not bug-free :-( Reporting new bugs can be done through our bug tracking system, which is using <use name="link-bugzilla"/>. If you encounter a bug with GeeXboX you can now do a bug report through this interface.<br/><br/>
@@ -26,13 +26,7 @@ It's a real bug report tool, not a new forum. There will be no answer to reporte
 Il s'agit d'un véritable outil d'aide au développement par rapport de bugs et non pas d'un second forum prêt à être pollué. Il n'y aura aucune réponse aux bugs rapportés, simplement une résolution. Les rapports sans intérêt ou du genre décrit plus haut seront immédiatement supprimés.<br/><br/>
       </content>
       <content lang="de" title="Bekannte Fehler ...">
-        Natürlich ist auch GeeXboX nicht fehlerfrei :-( Aber keine Angst, die meisten Fehler sind nicht wirklich störend und sobald wir davon wissen, werden diese eines Tages behoben sein ;-). Bekannte Fehler sind :<br/><br/>
-
-* <b>Darstellungsfehler von Matrox Karten in hoher Auflösung</b> : Diese Karten scheinen keine Videos in Auflösungen größer als 1024 richtig darzustellen.<br/><br/>
-
-* <b>Fehler bei DVD Autostart und DXR3</b> : Bei der Verwendung von DXR3 Karten verhindert der Autostart die Wiedergabe von DVDs. Drücken Sie zum Abbrechen des Autostarts die 'Q' Taste direkt nach Einlegen der DVD und starten dann die Wiedergabe über das Menü.<br/><br/>
-
-Unbekannte Fehler können Sie uns über das neue Bug-Tracking-System, auf Basis von <use name="link-bugzilla"/>, an uns melden. Wenn Sie also einen Fehler bei der Verwendung von GeexBoX entdecken, benutzen Sie bitte das genannte System.<br/><br/>
+        Natürlich ist auch GeeXboX nicht fehlerfrei :-( Unbekannte Fehler können Sie uns über das neue Bug-Tracking-System, auf Basis von <use name="link-bugzilla"/>, an uns melden. Wenn Sie also einen Fehler bei der Verwendung von GeexBoX entdecken, benutzen Sie bitte das genannte System.<br/><br/>
 
 <b>BITTE nutzen Sie dieses System ausschließlich zur Mitteilung von Fehlern, nicht für Problembeschreibungen, Ihr Leben, Ihre Hardware oder zum stellen "unnötiger" Fragen wie 
 "Warum funktioniert mein System nicht ? Wie brenne ich eine CD... Mein System startet nicht ...".</b><br/><br/>
@@ -70,12 +64,11 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
       <content lang="de" title="GeeXboX TODO Liste ...">
         Hier finden Sie eine Liste von geplanten Verbesserungen, die in zukünftigen Versionen von GeeXbox zu finden sein werden. Dies kann je nach Gewichtung einige Zeit in Anspruch nehmen:<br/><br/>
 * Entwicklung einer neuen Menüoberfläche.<br/>
-* Entwicklung eines grafischen Werkzeuges zur Erstellung von eigenen ISO Images.<br/>
 * Implementierung von Dekodier- und Aufnahmemöglichkeiten.<br/>
 * Implementierung von TimeShifting (Zeitversetztes Fernsehen)<br/>
 * Implementierung von Pan/Scan (Automatischer Sendersuchlauf).<br/>
-* Unterstützung von DVB Karten.<br/>
-* Anzeigen von ID3 Informationen (Album, Künstler, Titelname und -nummer) bei der Wiedergabe von Audiodateien (WAVs, MP3, Ogg ...).<br/>
+* Unterstützung von DVB Karten (Digital TV: Satellit, Kabel, Terrestrisch).<br/>
+* Anzeigen von ID3 und CDDB Informationen (Album, Künstler, Titelname und -nummer) bei der Wiedergabe von Audiodateien (WAVs, MP3, Ogg ...).<br/>
 * Implemetnierung eines DVD Navigations-Menüs.<br/>
 * Unterstützung von Multimedia-Tastaturen.<br/>
 * Unterstützung von Karaoke Wiedergabe.

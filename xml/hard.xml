@@ -125,7 +125,7 @@ Le fait que votre matériel ne soit pas supporté par la GeeXboX peut avoir plusie
 Et, dernière chose, la plupart des composants sont décrits par le nom du chipset qu'ils intégrent. Nous ne connaissons absolument pas les marques ou modèles qui inclut chacun de ces chipsets et en toute honnêteté, ce n'est pas notre problème. Si un constructeur n'est pas en mesure de vous fournir une information aussi simple (et pourtant tellement essentielle), c'est chez lui que vous pourrez vous en plaindre, mais pas ici.<br/>
       </content>
       <content lang="de" title="Hardware - Kompatibilitätsliste ...">
-GeeXboX wurde unter dem Gesichtspunkt entwickelt, auf möglichst jedem Computersystem zu funktionieren. Daher werden sicher die meisten Ihrer Hardware-Komponenten unterstützt. Dabei spielt es keine Rolle, wer der Hersteller Ihres Motherboards, des CD/DVD-Laufwerkes, der Festplatte, CPU oder Speichers ist. GeeXboX wird all Ihre Hardware erkennen und in der Lage sein, diese auch vernünftig zu nutzen.<br/><br/>
+GeeXboX wurde unter dem Gesichtspunkt entwickelt, auf möglichst jedem Computersystem zu funktionieren. Daher werden sicher die meisten Ihrer Hardware-Komponenten unterstützt. Dabei spielt es keine Rolle, wer der Hersteller Ihres Motherboards, des CD/DVD-Laufwerkes, der Festplatte, CPU oder Speichers ist. GeeXboX wird all Ihre Hardware erkennen und in der Lage sein, diese auch vernünftig zu nutzen. Einzige Grundvoraussetzung ist ein PC (x86) oder ein PowerPC  Macintosh (PPC).<br/><br/>
 
 Aus technischen Gründen werden nicht alle Erweiterungskarten richtig unterstützt (aber die meisten werden es). Die folgende Liste gibt für jeden Peripherietyp an, welcher unterstützt wird und welche nicht.  
 

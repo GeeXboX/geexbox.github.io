@@ -65,8 +65,8 @@ Voici donc ce qui peut être considéré comme une configuration typique / minimale
       <content lang="de" title="Hardware Voraussetzungen">
         GeeXboX ist ein Betriebssystem, aber trotzdem brauchen Sie etwas, um es irgendwie zu starten ;-) Sie können sich freuen, denn GeeXboX basiert auf MPlayer, der durch die Nutzung von FFMpeg für die Dekodierung von Filmen als einer der ressourcenschonendsten Player gilt.<br/><br/>
 Die folgende Liste stellt die Mindestanforderungen an die Hardware dar :<br/>
-* Pentium basierte CPU oder besser (P2-400 sollte ausreichend sein)<br/>
-* eine VESA 2.0 kompatible Grafikkarte.<br/>
+* Pentium basierte CPU oder besser (P2-400 sollte ausreichend sein) oder ein Power Macintosh G3 (G4 empfohlen)<br/>
+* eine VESA 2.0 kompatible Grafikkarte (gilt nur für x86 PC's).<br/>
 * eine ALSA kompatible Soundkarte.<br/>
 * wenigstens 64 MB Arbeitsspeicher<br/>
 * CD-ROM oder DVD-ROM Laufwerk<br/>

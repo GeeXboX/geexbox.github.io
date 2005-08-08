@@ -56,11 +56,12 @@ Sie mögen sich fragen, wozu Sie ein eigenes Betriebssystem starten sollten, nur 
 
 Z.Zt. der ersten Entwicklerversion (Dez. 2002) konnte die GeeXboX nur DivX Filme abspielen, aber jetzt kann nahezu jede Art von Mediadateien damit wiedergegeben werden, z.B. :<br/><br/>
    * MPEG 1/2 Filme (MPG Dateien, VCDs, DVDs ...)<br/>
-   * MPEG 4 Filme (DivX, XviD ...)<br/>
+   * MPEG 4 Filme (DivX, XviD, H.264 ...)<br/>
    * RealMedia und Windows Media Filme.<br/>
    * OggMedia Streams<br/>
    * Matroska Streams<br/>
-   * Audio Streams wie : MP3, Ogg/Vorbis, WAV (AudioCD), AC3 ...<br/>
+   * Audio Streams wie : MP3, Ogg/Vorbis, WAV (AudioCD), AC3, MusePack (MPC), FLAC ...<br/>
+   * Network streams : Webradio and WebTV<br/>
       </content>
     </subsection>
     <subsection label="more">
@@ -77,7 +78,7 @@ Rendez vous tout simplement dans la section <page name="download"/> et rejouisse
 <b>L'équipe GeeXboX</b><br/>
       </content>
       <content lang="de" title="Sie wollen mehr ?">
-        Sie werden nun glauben, eine solche Geschichte benötige einen Computer der neuesten Version ;-) Und genau da liegen Sie ganz falsch !! Schon ein alter PII-400 mit 64 MB Arbeitsspeicher ist schnell genug. Außerdem benötigt das GeeXboX ISO auch nur rund 6 MB auf der CD. Und natürlich läßt sich das Ganze durch ein OSD (On Screen Display) bequem per Fernbedienung steuern.<br/>
+        Sie werden nun glauben, eine solche Geschichte benötige einen Computer der neuesten Version ;-) Und genau da liegen Sie ganz falsch !! Schon ein alter PII-400 mit 64 MB Arbeitsspeicher ist schnell genug. Außerdem benötigt das GeeXboX ISO auch nur rund 6 MB auf der CD. Und natürlich läßt sich das Ganze durch ein OSD (On Screen Display) bequem per Fernbedienung, Keyboard oder Joystick steuern.<br/>
 Auf was warten Sie also noch ?? Weihnachten ?<br/><br/>
 Wechseln Sie einfach zur <page name="download"/> Seite und genießen Sie die GeeXboX ;-)<br/><br/><br/>
 <b>Das GeeXboX Team</b><br/>
