@@ -7,6 +7,12 @@
     <text lang="fr">GeeXboX</text>
     <text lang="de">GeeXboX</text>
 
+    <subitem name="news" url="index.html">
+      <text lang="en">News ...</text>
+      <text lang="fr">Nouvelles ...</text>
+      <text lang="de">News ...</text>
+    </subitem>
+
     <subitem name="get_started" url="start.html">
       <text lang="en">Get Started ...</text>
       <text lang="fr">Par où commencer ...</text>
