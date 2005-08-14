@@ -186,6 +186,87 @@ GeeXboX 0.98.6 is available <a href="downloads.html">here</a> and right now.<br/
 <br/>
 La GeeXboX 0.98.6 est disponible dès maintenant sur notre <a href="downloads.html">page de téléchargements</a>.<br/>
       </content>
+      <content lang="de" title="GeeXboX 0.98.6 : Bigger, Longer, Uncuted ... (xx.08.05)">
+        Lange Zeit ist vergangen seit dem letzten Release, aber ab jetzt werden sich die Dinge ändern. Das Geexbox Team ist stolz darauf, Ihnen heute die neue Version vorzustellen: Die 0.98.6 Edition. Auch wenn sich auf den ersten Blick wenig geändert hat, gibt es doch zahllose Veränderungen (siehe Liste weiter unten). Diese Version unterstützt ab sofort auch andere Architekturen als nur x86 PC. Den Anfang macht dabei <b>GeeXboX für PowerPC</b>. Ja, Sie haben richtig gelesen, Sie können Geexbox nun mit beidem, Ihrem PC und Ihrem Macintosh, nutzen. Letztere Version ist noch im Betastadium, daher brauchen wir Sie, um diese zu testen.<br/>
+<br/>
+        Die 0.98.6 Edition bringt auch eine Neuerung in Bezug auf den <b>Release-Zyklus</b>. Wir haben uns dazu entschlossen, Ihnen neue Versionen häufiger anzubieten, als wir dies in den letzten Monaten getan haben. Das bedeutet öfter neue Versionen, allerdings auch weniger Änderungen pro Version. Der Grund dafür ist recht einfach. Die meisten unserer Benutzer testen keine Entwicklerversionen, und daher sind die meisten Fehler, die uns mitgeteilt werden, schon längst behoben, oder die internen Änderungen der GeeXboX sind so groß, dass die Fehlermeldung gar nicht mehr zutreffend ist. Und für Sie bringt es den Vorteil, stets aktuelle Codecs und Player zu haben.<br/>
+<br/>
+        Es gibt noch eine Menge zu tun an der GeeXbox. Wir arbeiten daher jeden Tag hart daran, um uns mit den propritären Lösungen messen zu können. Interessierte Entwickler und Übersetzer sind herzlich willkommen, um uns dabei zu helfen. So, genug geredet. Schauen wir uns die Highlights der 0.98.6 Edition einmal genauer an:<br/>
+<br/>
+<b>Detaillierte Änderungen (im Vergleich zur 0.98.5 Version) :</b><br/>
+<br/>
+<b>System :</b><br/>
+- Unterstützung für die PowerPC (MAC) Architektur.<br/>
+- Update auf Linux Version 2.6.12.3.<br/>
+- Update auf BusyBox 08/06/2005 CVS.<br/>
+- Update auf uClibc 08/06/2005 CVS.<br/>
+- Nutzung von UDEV zur Erstellung des /dev Verzeichnisses.<br/>
+- Entfernung des nun nutzlosen SuperMount Patches.<br/>
+- Nutzung des IDE CD Treibers anstelle der alten ide-scsi Emulation.<br/>
+- Unterstützung von CPU frequency scaling (normalerweise Laptops), um Strom zu sparen.<br/>
+- Nutzung des LZMA Algorithmus anstelle von gzip für die Kompression des ISO Images (deutlich kleiner).<br/>
+- Neues HotPlug Skript : Automatisches Erkennen und Einbinden/Freigeben von externen Geräten.<br/>
+- Reduzierung der CD Geschwindigkeit auf 8fach, wenn eine CD eingelegt wird (ältere Versionen taten dies nur beim Bootmedium).<br/>
+<br/>
+<b>Toolchain :</b><br/>
+- Komplette Neuüberarbeitung des Quelltextbaumes (<i>init.d</i> Skripte und Patches sind nun im package's Verzeichnis zu finden, dies erlaubt nun auch die Erstellung von älteren Versionen).<br/>
+- Die Toolchain erlaubt nun die Erstellung der GeeXboX für verschiedene Architekturen.<br/>
+- Die Toolchain kann nun auf bestimmte CPU Typen optimierte Versionen erstellen.<br/>
+<br/>
+<b>Player :</b><br/>
+- Update auf MPlayer Version 1.0pre7 (Unterstützung von H.264 Video und AAC Audio Codecs).<br/>
+- Kann nun IFO Dateien lesen, dies erlaubt die Wiedergabe kompletter DVD-Strukturen direkt von Festplatte.<br/>
+- Aktueller Pfad bleibt nach dem Abspielen einer Datei im OSD erhalten (man muss also nicht mehr jedesmal neu durch den ganzen Pfad hangeln, wenn man eine Datei abgespielt hat).<br/>
+- Nutzen der <i>cvidix</i> Videoausgabe anstelle von <i>vesa:vidix</i>.<br/>
+- Unterstützung von Radiokarten.<br/>
+- Unterstützung von FLAC Dateien.<br/>
+- Unterstützung des MusePack Codec (.mpc Dateien).<br/>
+- Verhindern von Abstürzen beim Anhalten/Abspielen von Videos unter Verwendung einer Fernbedienung.<br/>
+<br/>
+<b>Audio :</b><br/>
+- Update auf ALSA Treiber Version 1.0.9b<br/>
+- Behebung einiger SPDIF Konfigurationsprobleme.<br/>
+- Die Lautstärke für widerspenstige Soundkarten muss nicht mehr per Hand eingestellt werden.<br/>
+- Auswahl der zu verwendenden Soundkarte (Standard ist #0), Auswahl des Ausgabemodus (SPDIF oder Analog und AC3/DTS), Auswahl der Dekompressions - Methode (Hardware oder Software) über den ISO Generator.<br/>
+- Treiber für Emu10k1X Chipsätze hinzugefügt, d.h. Unterstützung von SB Audigy LS und SB Live! 24bit Karten.<br/>
+- Einige ALSA Fehler bei Verwendung von Nforce2 Chipsätzen behoben.<br/>
+- Unterstüzung von Intel High Definition Audio (Azalia) Chipsätzen.<br/>
+<br/>
+<b>Video :</b><br/>
+- Fehlerträchtigen Savage vidix Treiber entfernt (arbeitet prima auch mit VESA).<br/>
+- Verbesserte vidix Unterstützung für einige Rage128 / Radeon Karten.<br/>
+- Unterstützung neuer Chipsätze bei Verwendung von atitvout: Mobile M3, Radeon Mobility, Radeon Mobility 9000, RV200.<br/>
+<br/>
+<b>Treiber :</b><br/>
+- Unterstützung von QStor SATA Controllern.<br/>
+- Wechsel zu RT2500 GPL Treiber anstelle des Ralink Treibers.<br/>
+- Unterstützung von CX88 Analog TV Chipsätzen (BT8xx).<br/>
+- Unterstützung von Multi-LUN X-in-1 Kartenlesern.<br/>
+- Unterstützung von XboX Gamepads.<br/>
+<br/>
+<b>Netzwerk :</b><br/>
+- Sicherheitsupdate : FTP / Telnet / HTTP Dienste (Anonymer Rootzugang) sind in der Standardkonfiguration geschlossen : Freischalten der gewünschten Dienste über den Generator.<br/>
+- Unterstützung des CIFS Protokolls.<br/>
+- Netzwerksetup und Sambakonfiguration direkt über den Installer.<br/>
+- Update auf Samba 3.0.14a.<br/>
+- Manuelles Festlegen des DNS Server.<br/>
+- Schnelleres Einbinden von Samba Freigaben (Gleichzeitiges Einbinden von Verzeichnissen mehrerer Server).<br/>
+<br/>
+<b>Internationalisierung :</b><br/>
+- TrueType Schriftarten für Untertitel.<br/>
+- UTF-8 Encoding für Schriftarten.<br/>
+- Unterstützung von verschiedenen Schriftarten für das Menu und die Untertitel.<br/>
+<br/>
+<b>Verschiedenes :</b><br/>
+- Update von LIRC auf 0.7.2.<br/>
+- Unterstützung von DigiMatrix Fernbedienungen.<br/>
+- Neuer grafischer FLTK ISO Generator für Win32 und Linux.<br/>
+- Neuer Sendersuchlauf für Analogsender im Installer.<br/>
+- Neuer HTTP Server für die Verwaltung der GeeXbox über Webbrowser: Webdesigner sind herzlich eingeladen, eine neue Weboberfläche zu entwerfen ;-).<br/>
+- Nicht "freie" Codecs können nun direkt von unserem Server heruntergeladen werden.<br/>
+<br/>
+GeeXboX 0.98.6 is available <a href="downloads.html">here</a> and right now.<br/>
+      </content>
     </subsection>
 
     <subsection label="release_0.98.5">
