@@ -2,30 +2,56 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
-  <define name="dl-iso-en">
-    <a href="../releases/0.98.5/geexbox-0.98.5-en.iso">GeeXboX 0.98.5 - English Version</a>
+  <define name="dl-x86-iso-en">
+    <a href="../releases/0.98.6/geexbox-0.98.6-en.i386.iso">GeeXboX 0.98.6 (for x86) - English Version</a>
   </define>
-  <define name="dl1-iso-en">
-    <a href="http://www2.geexbox.org/releases/0.98.5/geexbox-0.98.5-en.iso">Mirror 1</a>
+  <define name="dl1-x86-iso-en">
+    <a href="http://www2.geexbox.org/releases/0.98.6/geexbox-0.98.6-en.i386.iso">Mirror 1</a>
   </define>
-  <define name="dl2-iso-en">
-    <a href="http://www3.geexbox.org/releases/0.98.5/geexbox-0.98.5-en.iso">Mirror 2</a>
+  <define name="dl2-x86-iso-en">
+    <a href="http://www3.geexbox.org/releases/0.98.6/geexbox-0.98.6-en.i386.iso">Mirror 2</a>
   </define>
-  <define name="dl3-iso-en">
-    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.5/geexbox-0.98.5-en.iso">Mirror 3 (Unofficial)</a>
+  <define name="dl3-x86-iso-en">
+    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.6/geexbox-0.98.6-en.i386.iso">Mirror 3 (Unofficial)</a>
   </define>
 
-  <define name="dl-iso-fr">
-    <a href="../releases/0.98.5/geexbox-0.98.5-fr.iso">GeeXboX 0.98.5 - French Version</a>
+  <define name="dl-x86-iso-fr">
+    <a href="../releases/0.98.6/geexbox-0.98.6-fr.i386.iso">GeeXboX 0.98.6 (for x86) - French Version</a>
   </define>
-  <define name="dl1-iso-fr">
-    <a href="http://www2.geexbox.org/releases/0.98.5/geexbox-0.98.5-fr.iso">Mirror 1</a>
+  <define name="dl1-x86-iso-fr">
+    <a href="http://www2.geexbox.org/releases/0.98.6/geexbox-0.98.6-fr.i386.iso">Mirror 1</a>
   </define>
-  <define name="dl2-iso-fr">
-    <a href="http://www3.geexbox.org/releases/0.98.5/geexbox-0.98.5-fr.iso">Mirror 2</a>
+  <define name="dl2-x86-iso-fr">
+    <a href="http://www3.geexbox.org/releases/0.98.6/geexbox-0.98.6-fr.i386.iso">Mirror 2</a>
   </define>
-  <define name="dl3-iso-fr">
-    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.5/geexbox-0.98.5-fr.iso">Mirror 3 (Unofficial)</a>
+  <define name="dl3-x86-iso-fr">
+    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.6/geexbox-0.98.6-fr.i386.iso">Mirror 3 (Unofficial)</a>
+  </define>
+
+  <define name="dl-ppc-iso-en">
+    <a href="../releases/0.98.6/geexbox-0.98.6-en.ppc.iso">GeeXboX 0.98.6 (for PPC) - English Version</a>
+  </define>
+  <define name="dl1-ppc-iso-en">
+    <a href="http://www2.geexbox.org/releases/0.98.6/geexbox-0.98.6-en.ppc.iso">Mirror 1</a>
+  </define>
+  <define name="dl2-ppc-iso-en">
+    <a href="http://www3.geexbox.org/releases/0.98.6/geexbox-0.98.6-en.ppc.iso">Mirror 2</a>
+  </define>
+  <define name="dl3-ppc-iso-en">
+    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.6/geexbox-0.98.6-en.ppc.iso">Mirror 3 (Unofficial)</a>
+  </define>
+
+  <define name="dl-ppc-iso-fr">
+    <a href="../releases/0.98.6/geexbox-0.98.6-fr.ppc.iso">GeeXboX 0.98.6 (for PPC) - French Version</a>
+  </define>
+  <define name="dl1-ppc-iso-fr">
+    <a href="http://www2.geexbox.org/releases/0.98.6/geexbox-0.98.6-fr.ppc.iso">Mirror 1</a>
+  </define>
+  <define name="dl2-ppc-iso-fr">
+    <a href="http://www3.geexbox.org/releases/0.98.6/geexbox-0.98.6-fr.ppc.iso">Mirror 2</a>
+  </define>
+  <define name="dl3-ppc-iso-fr">
+    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.6/geexbox-0.98.6-fr.ppc.iso">Mirror 3 (Unofficial)</a>
   </define>
 
   <define name="dl-old-en">
@@ -47,17 +73,30 @@
     <a href="http://ftp.fr.freesbie.org/geexbox/releases/"><b>Mirror 3 (Unofficial)</b></a>
   </define>
 
-  <define name="dl-gen">
-    <a href="../releases/0.98.5/geexbox-generator-0.98.5.tar.gz">GeeXboX 0.98.5 ISO generator</a>
+  <define name="dl-x86-gen">
+    <a href="../releases/0.98.6/geexbox-generator-0.98.6.i386.tar.gz">GeeXboX 0.98.6 ISO generator (for x86)</a>
   </define>
-  <define name="dl1-gen">
-    <a href="http://www2.geexbox.org/releases/0.98.5/geexbox-generator-0.98.5.tar.gz">Mirror 1</a>
+  <define name="dl1-x86-gen">
+    <a href="http://www2.geexbox.org/releases/0.98.6/geexbox-generator-0.98.6.i386.tar.gz">Mirror 1</a>
   </define>
-  <define name="dl2-gen">
-    <a href="http://www3.geexbox.org/releases/0.98.5/geexbox-generator-0.98.5.tar.gz">Mirror 2</a>
+  <define name="dl2-x86-gen">
+    <a href="http://www3.geexbox.org/releases/0.98.6/geexbox-generator-0.98.6.i386.tar.gz">Mirror 2</a>
   </define>
-  <define name="dl3-gen">
-    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.5/geexbox-generator-0.98.5.tar.gz">Mirror 3 (Unofficial)</a>
+  <define name="dl3-x86-gen">
+    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.6/geexbox-generator-0.98.6.i386.tar.gz">Mirror 3 (Unofficial)</a>
+  </define>
+
+  <define name="dl-ppc-gen">
+    <a href="../releases/0.98.6/geexbox-generator-0.98.6.ppc.tar.gz">GeeXboX 0.98.6 ISO generator (for PPC)</a>
+  </define>
+  <define name="dl1-ppc-gen">
+    <a href="http://www2.geexbox.org/releases/0.98.6/geexbox-generator-0.98.6.ppc.tar.gz">Mirror 1</a>
+  </define>
+  <define name="dl2-ppc-gen">
+    <a href="http://www3.geexbox.org/releases/0.98.6/geexbox-generator-0.98.6.ppc.tar.gz">Mirror 2</a>
+  </define>
+  <define name="dl3-ppc-gen">
+    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.6/geexbox-generator-0.98.6.ppc.tar.gz">Mirror 3 (Unofficial)</a>
   </define>
 
   <define name="deb-gen">
@@ -68,33 +107,33 @@
   </define>
 
   <define name="dl-src-lite">
-    <a href="../releases/0.98.5/geexbox-0.98.5.tar.bz2">GeeXboX 0.98.5 Sources</a>
+    <a href="../releases/0.98.6/geexbox-0.98.6.tar.bz2">GeeXboX 0.98.6 Sources</a>
   </define>
   <define name="dl1-src-lite">
-    <a href="http://www2.geexbox.org/releases/0.98.5/geexbox-0.98.5.tar.bz2">Mirror 1</a>
+    <a href="http://www2.geexbox.org/releases/0.98.6/geexbox-0.98.6.tar.bz2">Mirror 1</a>
   </define>
   <define name="dl2-src-lite">
-    <a href="http://www3.geexbox.org/releases/0.98.5/geexbox-0.98.5.tar.bz2">Mirror 2</a>
+    <a href="http://www3.geexbox.org/releases/0.98.6/geexbox-0.98.6.tar.bz2">Mirror 2</a>
   </define>
   <define name="dl3-src-lite">
-    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.5/geexbox-0.98.5.tar.bz2">Mirror 3 (Unofficial)</a>
+    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.6/geexbox-0.98.6.tar.bz2">Mirror 3 (Unofficial)</a>
   </define>
 
   <define name="dl-src-full">
-    <a href="../releases/0.98.5/geexbox-0.98.5-full.tar">GeeXboX 0.98.5 Sources</a>
+    <a href="../releases/0.98.6/geexbox-0.98.6-full.tar">GeeXboX 0.98.6 Sources</a>
   </define>
   <define name="dl1-src-full">
-    <a href="http://www2.geexbox.org/releases/0.98.5/geexbox-0.98.5-full.tar">Mirror 1</a>
+    <a href="http://www2.geexbox.org/releases/0.98.6/geexbox-0.98.6-full.tar">Mirror 1</a>
   </define>
   <define name="dl2-src-full">
-    <a href="http://www3.geexbox.org/releases/0.98.5/geexbox-0.98.5-full.tar">Mirror 2</a>
+    <a href="http://www3.geexbox.org/releases/0.98.6/geexbox-0.98.6-full.tar">Mirror 2</a>
   </define>
   <define name="dl3-src-full">
-    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.5/geexbox-0.98.5-full.tar">Mirror 3 (Unofficial)</a>
+    <a href="http://ftp.fr.freesbie.org/geexbox/releases/0.98.6/geexbox-0.98.6-full.tar">Mirror 3 (Unofficial)</a>
   </define>
 
   <define name="dl-md5">
-    <a href="../releases/0.98.5/geexbox-0.98.5.md5sum">GeeXboX 0.98.5 MD5SUM</a>
+    <a href="../releases/0.98.6/geexbox-0.98.6.md5sum">GeeXboX 0.98.6 MD5SUM</a>
   </define>
 
   <define name="codecs-nonfree">
@@ -108,8 +147,11 @@
     <subsection label="iso">
       <content lang="en" title="GeeXboX ISO">
         We're currently releasing 2 versions of the GeeXboX : French and English. The installer software includes the original ISO, increasing the size slightly. It's now up to you to choose the menu's language that fits you best :<br/><br/>
-          * <b><use name="dl-iso-en"/> - <use name="dl1-iso-en"/> - <use name="dl2-iso-en"/> - <use name="dl3-iso-en"/> - 6.2 MB</b><br/>
-          * <b><use name="dl-iso-fr"/> - <use name="dl1-iso-fr"/> - <use name="dl2-iso-fr"/> - <use name="dl3-iso-fr"/> - 6.2 MB</b><br/>
+          * <b><use name="dl-x86-iso-en"/> - <use name="dl1-x86-iso-en"/> - <use name="dl2-x86-iso-en"/> - <use name="dl3-x86-iso-en"/> - 6.2 MB</b><br/>
+          * <b><use name="dl-x86-iso-fr"/> - <use name="dl1-x86-iso-fr"/> - <use name="dl2-x86-iso-fr"/> - <use name="dl3-x86-iso-fr"/> - 6.2 MB</b><br/>
+          <br/>
+          * <b><use name="dl-ppc-iso-en"/> - <use name="dl1-ppc-iso-en"/> - <use name="dl2-ppc-iso-en"/> - <use name="dl3-ppc-iso-en"/> - 6.2 MB</b><br/>
+          * <b><use name="dl-ppc-iso-fr"/> - <use name="dl1-ppc-iso-fr"/> - <use name="dl2-ppc-iso-fr"/> - <use name="dl3-ppc-iso-fr"/> - 6.2 MB</b><br/>
           <br/>
 
           * <use name="dl-old-en"/> - <use name="dl1-old"/> - <use name="dl2-old"/> - <use name="dl3-old"/><br/>
@@ -117,8 +159,11 @@
       </content>
       <content lang="fr" title="Images ISO de la GeeXboX">
         Nous fournissons actuellement 2 versions de la GeeXboX : Française et Anglaise. Le logiciel d'installation a été inclus dans les ISO proposées, augmentant légèrement leur taille. Il ne vous reste plus qu'à choisir la langue de menu qui vous convient le mieux.<br/><br/>
-          * <b><use name="dl-iso-en"/> - <use name="dl1-iso-en"/> - <use name="dl2-iso-en"/> - <use name="dl3-iso-en"/> - 6,2 Mo</b><br/>
-          * <b><use name="dl-iso-fr"/> - <use name="dl1-iso-fr"/> - <use name="dl2-iso-fr"/> - <use name="dl3-iso-fr"/> - 6,2 Mo</b><br/>
+          * <b><use name="dl-x86-iso-en"/> - <use name="dl1-x86-iso-en"/> - <use name="dl2-x86-iso-en"/> - <use name="dl3-x86-iso-en"/> - 6.2 MB</b><br/>
+          * <b><use name="dl-x86-iso-fr"/> - <use name="dl1-x86-iso-fr"/> - <use name="dl2-x86-iso-fr"/> - <use name="dl3-x86-iso-fr"/> - 6.2 MB</b><br/>
+          <br/>
+          * <b><use name="dl-ppc-iso-en"/> - <use name="dl1-ppc-iso-en"/> - <use name="dl2-ppc-iso-en"/> - <use name="dl3-ppc-iso-en"/> - 6.2 MB</b><br/>
+          * <b><use name="dl-ppc-iso-fr"/> - <use name="dl1-ppc-iso-fr"/> - <use name="dl2-ppc-iso-fr"/> - <use name="dl3-ppc-iso-fr"/> - 6.2 MB</b><br/>
           <br/>
 
           * <use name="dl-old-fr"/> - <use name="dl1-old"/> - <use name="dl2-old"/> - <use name="dl3-old"/><br/>
@@ -126,8 +171,11 @@
       </content>
       <content lang="de" title="GeeXboX ISO">
         Zur Zeit gibt es 2 Versionen der GeeXboX : Französisch und Englisch. Die Installer-Software enthält das original ISO (und ist daher etwas größer im Download). Bitte wählen Sie hier nun die für Sie am besten geeignete Menüsprache :<br/><br/>
-          * <b><use name="dl-iso-en"/> - <use name="dl1-iso-en"/> - <use name="dl2-iso-en"/> - <use name="dl3-iso-en"/> - 6.2 MB</b><br/>
-          * <b><use name="dl-iso-fr"/> - <use name="dl1-iso-fr"/> - <use name="dl2-iso-fr"/> - <use name="dl3-iso-fr"/> - 6.2 MB</b><br/>
+          * <b><use name="dl-x86-iso-en"/> - <use name="dl1-x86-iso-en"/> - <use name="dl2-x86-iso-en"/> - <use name="dl3-x86-iso-en"/> - 6.2 MB</b><br/>
+          * <b><use name="dl-x86-iso-fr"/> - <use name="dl1-x86-iso-fr"/> - <use name="dl2-x86-iso-fr"/> - <use name="dl3-x86-iso-fr"/> - 6.2 MB</b><br/>
+          <br/>
+          * <b><use name="dl-ppc-iso-en"/> - <use name="dl1-ppc-iso-en"/> - <use name="dl2-ppc-iso-en"/> - <use name="dl3-ppc-iso-en"/> - 6.2 MB</b><br/>
+          * <b><use name="dl-ppc-iso-fr"/> - <use name="dl1-ppc-iso-fr"/> - <use name="dl2-ppc-iso-fr"/> - <use name="dl3-ppc-iso-fr"/> - 6.2 MB</b><br/>
           <br/>
 
           * <use name="dl-old-de"/> - <use name="dl1-old"/> - <use name="dl2-old"/> - <use name="dl3-old"/><br/>
@@ -137,15 +185,21 @@
     <subsection label="generator">
       <content lang="en" title="GeeXboX ISO Generator">
         With this package, it is easy to modify the GeeXboX in a few seconds without having to build the sources. The generator produces an ISO image of the GeeXboX, ready to be burned on disc. This piece of software currently works under both GNU/Linux and Microsoft Windows 9x/NT/2k/XP systems.<br/><br/>
-          <b><use name="dl-gen"/> - <use name="dl1-gen"/> - <use name="dl2-gen"/> - <use name="dl3-gen"/> - 7.0 MB</b>
+          <b><use name="dl-x86-gen"/> - <use name="dl1-x86-gen"/> - <use name="dl2-x86-gen"/> - <use name="dl3-x86-gen"/> - 7.0 MB</b>
+          <br/>
+          <b><use name="dl-ppc-gen"/> - <use name="dl1-ppc-gen"/> - <use name="dl2-ppc-gen"/> - <use name="dl3-ppc-gen"/> - 7.0 MB</b>
       </content>
       <content lang="fr" title="Générateur d'ISO GeeXboX">
         Avec ce paquetage, il vous sera facile de modifier la GeeXboX en quelques instants sans avoir à recompiler toutes les sources. Le générateur produit une image ISO de la GeeXboX prête à être gravée sur CD. Ce logiciel fonctionne sur les systèmes GNU/Linux et Microsoft Windows 9x/NT/2k/XP.<br/><br/>
-          <b><use name="dl-gen"/> - <use name="dl1-gen"/> - <use name="dl2-gen"/> - <use name="dl3-gen"/> - 7,0 Mo</b>
+          <b><use name="dl-x86-gen"/> - <use name="dl1-x86-gen"/> - <use name="dl2-x86-gen"/> - <use name="dl3-x86-gen"/> - 7.0 MB</b>
+          <br/>
+          <b><use name="dl-ppc-gen"/> - <use name="dl1-ppc-gen"/> - <use name="dl2-ppc-gen"/> - <use name="dl3-ppc-gen"/> - 7.0 MB</b>
       </content>
       <content lang="de" title="GeeXboX ISO Generator">
         Mit diesem Paket ist es ein Einfaches, die GeeXboX zu modifizieren, ohne die Neuübersetzung des Quellcodes. Der Generator ertsellt ein ISO-Image der GeeXboX, das gleich auf CD gebrannt werden kann. Diese Software können Sie sowohl unter GNU/Linux als auch mit Microsoft Windows 9x/NT/2k/XP Systemen nutzen.<br/><br/>
-          <b><use name="dl-gen"/> - <use name="dl1-gen"/> - <use name="dl2-gen"/> - <use name="dl3-gen"/> - 7.0 MB</b>
+          <b><use name="dl-x86-gen"/> - <use name="dl1-x86-gen"/> - <use name="dl2-x86-gen"/> - <use name="dl3-x86-gen"/> - 7.0 MB</b>
+          <br/>
+          <b><use name="dl-ppc-gen"/> - <use name="dl1-ppc-gen"/> - <use name="dl2-ppc-gen"/> - <use name="dl3-ppc-gen"/> - 7.0 MB</b>
       </content>
     </subsection>
 
