@@ -16,7 +16,7 @@
       <th align="center"><a href="http://www.gnu.org/software/binutils/">Binutils</a></th>
       <td align="center">*</td>
       <td align="center">2.15</td>
-      <td align="center">2.16-1</td>
+      <td align="center">2.16.1</td>
     </tr>
   </define>
   <define name="ccache">
@@ -89,7 +89,7 @@
       <th align="center"><b><a href="http://www.alsa-project.org/">alsa-utils</a></b></th>
       <td align="center">1.0.5</td>
       <td align="center">1.0.7</td>
-      <td align="center">1.0.9a</td>
+      <td align="center">1.0.9</td>
     </tr>
   </define>
   <define name="at76c503">
@@ -329,7 +329,7 @@
       <th align="center"><b><a href="http://www.lirc.org/">lirc</a></b></th>
       <td align="center">0.7.0pre4</td>
       <td align="center">0.7.0</td>
-      <td align="center">0.7.2pre1</td>
+      <td align="center">0.7.2</td>
     </tr>
   </define>
   <define name="lrmi">
@@ -345,7 +345,7 @@
       <th align="center"><b><a href="http://www.7-zip.org/sdk.html">lzma</a></b></th>
       <td align="center">*</td>
       <td align="center">*</td>
-      <td align="center">4.22</td>
+      <td align="center">4.26</td>
     </tr>
   </define>
   <define name="module-init-tools">
@@ -449,7 +449,7 @@
       <th align="center"><b><a href="http://freshmeat.net/projects/util-linux/">util-linux</a></b></th>
       <td align="center">2.11z</td>
       <td align="center">2.12j</td>
-      <td align="center">2.12p</td>
+      <td align="center">2.12q</td>
     </tr>
   </define>
   <define name="wireless_tools">
