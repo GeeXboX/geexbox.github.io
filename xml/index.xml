@@ -27,8 +27,6 @@
       <content lang="en" title="GeeXboX 0.98.6 : Bigger, Longer, Uncuted ... (08/xx/05)">
         Long time folks since latest release, but now, things will change a bit. Today, the GeeXboX team is proud to introduce you its new release : the 0.98.6 edition. Even if it looks the same, the changes are numerous (see the list above). This release also introduces the opening to new architectures, with the first support of <b>GeeXboX for PowerPC</b> architecture. Yes, you've read well, you're now able to use GeeXboX on both your PC and Macintosh. This latest is still in beta stages so we need you all to test it.<br/>
 <br/>
-        The 0.98.6 edition also figures the introduction of a <b>new release cycle</b>. We've decided to bring you a new version of GeeXbox much oftener that we did for previous monthes. It means much more releases but with of course fewer changes. The reason is quite simple though. Most of our users never test development releases and so, the reported bugs usually already are fixed at the time they come or the internals of GeeXboX as changed that much that most of problems are completely deprecated. And of course, it let you all of up to date versions of the player and the codecs.<br/>
-<br/>
         A lot of work still need to be done on GeeXboX on we're working hard each days to compete with the best proprietary solutions to give you the most we can. Interested developers and translators are fully welcomed to help us with this task. Anyhow, spoken enough, lets show you what this 0.98.6 edition features :<br/>
 <br/>
 <b>Detailled Changelog (relative to 0.98.5 release) :</b><br/>
@@ -36,8 +34,6 @@
 <b>System :</b><br/>
 - Support for the PowerPC (MAC) architecture.<br/>
 - Linux updated to 2.6.12.3 version.<br/>
-- BusyBox updated to 08/06/2005 CVS.<br/>
-- uClibc updated to 08/06/2005 CVS.<br/>
 - Use of UDEV to automatically populate the /dev directory.<br/>
 - Remove of the now useless SuperMount patch.<br/>
 - Use IDE CD driver instead of the old ide-scsi emulation layer.<br/>
@@ -108,17 +104,13 @@ GeeXboX 0.98.6 is available <a href="downloads.html">here</a> and right now.<br/
       <content lang="fr" title="GeeXboX 0.98.6 : Bigger, Longer, Uncuted ... (xx/08/05)">
         Bien du temps s'est passé depuis la dernière version, mais désormais, les choses vont changer quelques peu. Aujourd'hui, l'ensemble de l'équipe GeeXboX est heureux de vous présenter sa dernière sortie : l'édition 0.98.6. Si d'apparence rien n'a changé, vous constaterez en lisant la liste ci-dessous qu'il n'en est rien. Cette version est un peu spéciale car elle introduit l'ouverture de la GeeXboX vers de nouvelles architectures, avec le premier support officiel pour l'<b>architecture PowerPC</b>. Oui, vous avez vien lu, il est désormais possible d'utiliser la GeeXboX aussi bien sur son PC que sur son Macintosh. Le support PPC reste néanmoins encore expérimental (première version oblige) et nous auront besoin de votre aide à tous pour le tester et nous aider à l'améliorer.<br/>
 <br/>
-        Cette édition 0.98.6 préfigure également un <b>nouveau cycle de sorties</b>. Nous avons décidé de sortir une nouvelle édition de la GeeXboX bien plus souvent que cela n'a été le cas par le passé. Cela implique donc plus de sorties mais nécessairement avec moins de changements. La raison à cela est fort simple. La plupart des utilisateurs ne testent jamais les versions de développement et, de ce fait, la plupart des bugs rapportés, le sont par rapport à de très anciennes versions, et ont du coup, déjà été corrigés. Cela nous permettra également de vous proposer des versions plus à jour du lecteur et des différents codecs.<br/>
-<br/>
         De gros changements sont encore à venir et nous continuons de travailler chaque jour très dur pour vous proposer un Media Center à même de concurrencer les meilleurs solutions commerciales propriétaires. Les éventuels dévelopeurs et traducteurs intéressés par l'aventure GeeXboX sont pour cela toujours les bienvenus pour nous aider dans cette tâche. Assez parlé, voici donc ce qui se cache derrière cette édition 0.98.6, tant attendue :<br/>
 <br/>
 <b>Liste détaillée des modifications (depuis la version 0.98.5) :</b><br/>
 <br/>
 <b>Composants systèmes :</b><br/>
 - Support de l'architecture PowerPC (MAC).<br/>
-- Migration vers Linux 2.6.12.3..<br/>
-- Migration vers BusyBox 08/06/2005 CVS.<br/>
-- Migration vers la uClibc 08/06/2005 CVS.<br/>
+- Migration vers Linux 2.6.12.3.<br/>
 - Utlisation de UDEV pour une création dynamique du répertoire /dev.<br/>
 - Suppression du désormais inutile patch SuperMount.<br/>
 - Utilisation du driver CD IDE à la place de la couche d'émulation IDE-SCSI.<br/>
@@ -189,8 +181,6 @@ La GeeXboX 0.98.6 est disponible dès maintenant sur notre <a href="downloads.htm
       <content lang="de" title="GeeXboX 0.98.6 : Bigger, Longer, Uncuted ... (xx.08.05)">
         Lange Zeit ist vergangen seit dem letzten Release, aber ab jetzt werden sich die Dinge ändern. Das Geexbox Team ist stolz darauf, Ihnen heute die neue Version vorzustellen: Die 0.98.6 Edition. Auch wenn sich auf den ersten Blick wenig geändert hat, gibt es doch zahllose Veränderungen (siehe Liste weiter unten). Diese Version unterstützt ab sofort auch andere Architekturen als nur x86 PC. Den Anfang macht dabei <b>GeeXboX für PowerPC</b>. Ja, Sie haben richtig gelesen, Sie können Geexbox nun mit beidem, Ihrem PC und Ihrem Macintosh, nutzen. Letztere Version ist noch im Betastadium, daher brauchen wir Sie, um diese zu testen.<br/>
 <br/>
-        Die 0.98.6 Edition bringt auch eine Neuerung in Bezug auf den <b>Release-Zyklus</b>. Wir haben uns dazu entschlossen, Ihnen neue Versionen häufiger anzubieten, als wir dies in den letzten Monaten getan haben. Das bedeutet öfter neue Versionen, allerdings auch weniger Änderungen pro Version. Der Grund dafür ist recht einfach. Die meisten unserer Benutzer testen keine Entwicklerversionen, und daher sind die meisten Fehler, die uns mitgeteilt werden, schon längst behoben, oder die internen Änderungen der GeeXboX sind so groß, dass die Fehlermeldung gar nicht mehr zutreffend ist. Und für Sie bringt es den Vorteil, stets aktuelle Codecs und Player zu haben.<br/>
-<br/>
         Es gibt noch eine Menge zu tun an der GeeXbox. Wir arbeiten daher jeden Tag hart daran, um uns mit den propritären Lösungen messen zu können. Interessierte Entwickler und Übersetzer sind herzlich willkommen, um uns dabei zu helfen. So, genug geredet. Schauen wir uns die Highlights der 0.98.6 Edition einmal genauer an:<br/>
 <br/>
 <b>Detaillierte Änderungen (im Vergleich zur 0.98.5 Version) :</b><br/>
@@ -198,8 +188,6 @@ La GeeXboX 0.98.6 est disponible dès maintenant sur notre <a href="downloads.htm
 <b>System :</b><br/>
 - Unterstützung für die PowerPC (MAC) Architektur.<br/>
 - Update auf Linux Version 2.6.12.3.<br/>
-- Update auf BusyBox 08/06/2005 CVS.<br/>
-- Update auf uClibc 08/06/2005 CVS.<br/>
 - Nutzung von UDEV zur Erstellung des /dev Verzeichnisses.<br/>
 - Entfernung des nun nutzlosen SuperMount Patches.<br/>
 - Nutzung des IDE CD Treibers anstelle der alten ide-scsi Emulation.<br/>
