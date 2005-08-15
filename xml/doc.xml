@@ -186,6 +186,49 @@
       </content>       
     </subsection>
 
+    <subsection label="mac-boot">
+      <content lang="en" title="Booting on Mac ...">
+        Booting from CD on a Mac is very easy: just hold the 'c' key at boot time. Same goes for network boot, but with the 'n' key instead.<br/><br/>
+
+        Now, if you want to use a Mac as a GeeXboX only computer, it's a pain to have to hold a key at every boot. The solution is then to setup the boot-device open-firmware variable. There's at least two easy ways to do it:<br/><br/>
+
+         * from a MacOSX shell, you can use the following command:<br/>
+           <b>sudo nvram boot-device='cd:,\\:tbxi'</b><br/>
+           note that you can also display variables content with:<br/>
+           <b>nvram -p</b><br/><br/>
+
+         * directly from the open-firmware prompt (by pressing command-option-O-F at boot time):<br/>
+           <b>setenv boot-device cd:,\\:tbxi</b><br/>
+           note that you can also display variables content with:<br/>
+           <b>printenv</b><br/><br/>
+
+        Some of the possible boot-devices are :<br/>
+         * <b>cd:,\\:tbxi</b>  for CDROM boot<br/>
+         * <b>hd:,\\:tbxi</b>  for harddisk boot<br/>
+         * <b>enet:,</b>       for network boot<br/>
+      </content>      
+      <content lang="fr" title="Booter sur Mac ...">
+        Booter depuis un CD sur un Mac est particulièrement simple: il suffit de tenir la touche 'c' enfoncée pendant le boot. Cela marche aussi pour le boot réseau avec la touche 'n'.<br/><br/>
+
+        Mais si vous souhaitez utiliser un Mac uniquement avec la GeeXboX, c'est gênant de devoir tenir une touche enfoncée à chaque boot. La solution est alors de configurer la variable boot-device de l'open-firmware. Il y a au moins deux manière de le faire :<br/><br/>
+
+         * depuis un shell MacOSX, vous pouvez utiliser la commande suivante :<br/>
+           <b>sudo nvram boot-device='cd:,\\:tbxi'</b><br/>
+           vous pouvez aussi afficher le contenu des variables avec :<br/>
+           <b>nvram -p</b><br/><br/>
+
+         * directement depuis le prompt de l' open-firmware (en pressant command-option-O-F au boot) :<br/>
+           <b>setenv boot-device cd:,\\:tbxi</b><br/>
+           vous pouvez aussi afficher le contenu des variables avec :<br/>
+           <b>printenv</b><br/><br/>
+
+        Quelques-un des périphériques de boot possibles :<br/>
+         * <b>cd:,\\:tbxi</b>  pour un boot sur CDROM<br/>
+         * <b>hd:,\\:tbxi</b>  pour un boot sur disque dur<br/>
+         * <b>enet:,</b>       pour un boot depuis le réseau<br/>
+      </content>
+    </subsection>
+
     <subsection label="post-process">
       <content lang="en" title="Enabling Post-Processing Effects ...">
         Post-Processing is a software way to get a smoother and more accurate render of your videos. It however consumes a lot of CPU time to magnify pictures but, as a result, it looks far better. Using MPlayer internal filters, GeeXboX lets you make horizontal and vertical deblocking, deringing and auto luminance to  enhance your image. By default, post-processing is disabled to avoid lagging on small configurations. You can enable it simply by editing the <i>/etc/mplayer/mplayer.conf</i> file :<br/><br/>
