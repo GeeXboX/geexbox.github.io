@@ -235,17 +235,17 @@
 
     <subsection label="sources">
       <content lang="en" title="GeeXboX Sources">
-        Here are the GeeXboX 0.98 sources. You need both the wget package and a connection to the Internet to compile your own GeeXboX. Most of the packages are directly downloaded from the web while compiling the GeeXboX. So, here are the sources :<br/><br/>
+        Here are the GeeXboX sources. You need both the wget package and a connection to the Internet to compile your own GeeXboX. Most of the packages are directly downloaded from the web while compiling the GeeXboX. So, here are the sources :<br/><br/>
           <b><use name="dl-src-lite"/> - <use name="dl1-src-lite"/> - <use name="dl2-src-lite"/> - <use name="dl3-src-lite"/> (Lite Package - 304 kB)</b><br/>
           <b><use name="dl-src-full"/> - <use name="dl1-src-full"/> - <use name="dl2-src-full"/> - <use name="dl3-src-full"/> (Full Package - faster connection to the Internet needed - 113 MB)</b>
       </content>
       <content lang="fr" title="Sources de la GeeXboX">
-        Voici les sources de la version 0.98 de la GeeXboX. Vous nécessitez à la fois le programme wget et une connection à Internet lors de la compilation de la première version des sources. En effet, la plupart des packages seront téléchargés à la volée au cours de la compilation. Voici donc les sources :<br/><br/>
+        Voici les sources de la GeeXboX. Vous nécessitez à la fois le programme wget et une connection à Internet lors de la compilation de la première version des sources. En effet, la plupart des packages seront téléchargés à la volée au cours de la compilation. Voici donc les sources :<br/><br/>
           <b><use name="dl-src-lite"/> - <use name="dl1-src-lite"/> - <use name="dl2-src-lite"/> - <use name="dl3-src-lite"/> (Paquetage Allégé - 304 kB)</b><br/>
           <b><use name="dl-src-full"/> - <use name="dl1-src-full"/> - <use name="dl2-src-full"/> - <use name="dl3-src-full"/> (Paquetage Complet - aucune connexion à Internet supplémentaire n'est requise - 113 MB)</b>
       </content>
       <content lang="de" title="GeeXboX Sourcecode">
-        Hier finden Sie den GeeXboX 0.98 Sourcecode. Sie benötigen zwei Dinge : Das wget Programm und eine Internetverbindung, um Ihre eigene GeeXboX zu erstellen. Die meisten Pakete werden während des Kompilierens direkt aus dem Internet geladen. Also hier gibt es den Sourcecode :<br/><br/>
+        Hier finden Sie den GeeXboX Sourcecode. Sie benötigen zwei Dinge : Das wget Programm und eine Internetverbindung, um Ihre eigene GeeXboX zu erstellen. Die meisten Pakete werden während des Kompilierens direkt aus dem Internet geladen. Also hier gibt es den Sourcecode :<br/><br/>
           <b><use name="dl-src-lite"/> - <use name="dl1-src-lite"/> - <use name="dl2-src-lite"/> - <use name="dl3-src-lite"/> (Kleines Installationspaket - 304 kB)</b><br/>
           <b><use name="dl-src-full"/> - <use name="dl1-src-full"/> - <use name="dl2-src-full"/> - <use name="dl3-src-full"/> (Gesamtpaket - eine schnelle Internetverbindung wird benötigt - 113 MB)</b>
       </content>
