@@ -227,6 +227,26 @@
          * <b>hd:,\\:tbxi</b>  pour un boot sur disque dur<br/>
          * <b>enet:,</b>       pour un boot depuis le réseau<br/>
       </content>
+      <content lang="de" title="Starten auf dem Mac ...">
+        Das Starten der GeeXboX auf dem Mac ist wirklich einfach: Halten Sie dazu einfach die 'c' Taste während des Startvorganges gedrückt. Das Gleiche gilt für den Start über Netzwerk, dazu halten Sie bitte einfach die 'n' Taste gedrückt.<br/><br/>
+
+        Wenn Sie Ihren Mac nur für die GeeXboX nutzen, ist es sehr umständlich jedesmal eine Taste beim Starten gedrückt zu halten. Die Lösung für dieses Problem ist das Konfigurieren der "boot-device" Open-Firmware Variablen. Es gibt mind. zwei einfache Wege dies zu tun:<br/><br/>
+
+         * In einer MacOSX Shell (Eingabeaufforderung), benutzen Sie das folgende Kommando:<br/>
+           <b>sudo nvram boot-device='cd:,\\:tbxi'</b><br/>
+           Hinweis: Sie können sich den Inhalt der Variablen ausgeben lassen durch die Eingabe von:<br/>
+           <b>nvram -p</b><br/><br/>
+
+         * Direkt über den Open-Firmware Prompt (durch Drücken von command-option-O-F beim Starvorgang):<br/>
+           <b>setenv boot-device cd:,\\:tbxi</b><br/>
+           Hinweis: Sie können sich den Inhalt der Variablen ausgeben lassen durch die Eingabe von:<br/>
+           <b>printenv</b><br/><br/>
+
+        Einige der möglichen Geräte zum Start sind:<br/>
+         * <b>cd:,\\:tbxi</b>  für den Start von CDROM <br/>
+         * <b>hd:,\\:tbxi</b>  für den Start von Festplatte<br/>
+         * <b>enet:,</b>       für den Start über Netzwerk<br/>
+      </content>  
     </subsection>
 
     <subsection label="post-process">
