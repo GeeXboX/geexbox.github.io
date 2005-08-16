@@ -111,12 +111,12 @@ GeeXboX 0.98.6 is available <a href="downloads.html">here</a> and right now.<br/
 <b>Composants systèmes :</b><br/>
 - Support de l'architecture PowerPC (MAC).<br/>
 - Migration vers Linux 2.6.12.3.<br/>
-- Utlisation de UDEV pour une création dynamique du répertoire /dev.<br/>
+- Utilisation de UDEV pour une création dynamique du répertoire /dev.<br/>
 - Suppression du désormais inutile patch SuperMount.<br/>
 - Utilisation du driver CD IDE à la place de la couche d'émulation IDE-SCSI.<br/>
-- Support de l'ajustement de fréquence CPU pour les processeurs le supportant (générallement les portables) afin de minimiser les besoins en consommation éléctrique.<br/>
+- Support de l'ajustement de fréquence CPU pour les processeurs le supportant (généralement les portables) afin de minimiser les besoins en consommation électrique.<br/>
 - Utilisation de l'algorithme de compression LZMA à la place de gZip afin de minimiser la taille de l'ISO.<br/>
-- Nouveau script HotPlug : découverte à chaud et montage/suppresion automoatisée des périphériques externes.<br/>
+- Nouveau script HotPlug : découverte à chaud et montage/suppression automatisée des périphériques externes.<br/>
 - Réduction de la vitesse de rotation des lecteurs CD à 8x à chaque insertion d'un nouveau disque (les versions précédentes ne le faisait que pour le premier CD inséré).<br/>
 <br/>
 <b>Chaîne de compilation :</b><br/>
