@@ -119,7 +119,7 @@
     <content lang="de" title="Downloads ..."/>
     <subsection label="iso">
       <content lang="en" title="GeeXboX ISO">
-        We're currently releasing 2 versions of the GeeXboX : French and English. The installer software includes the original ISO, increasing the size slightly. It's now up to you to choose the menu's language that fits you best :<br/><br/>
+        We're currently releasing 2 versions of the GeeXboX : French and English. Other languages are available with the ISO generator. The installer software is included in the ISO. It's now up to you to choose the menu's language that fits you best :<br/><br/>
           * <b><use name="dl-x86-iso-en"/> - <use name="dl1-x86-iso-en"/> - <use name="dl2-x86-iso-en"/> - 5.8 MB</b><br/>
           * <b><use name="dl-x86-iso-fr"/> - <use name="dl1-x86-iso-fr"/> - <use name="dl2-x86-iso-fr"/> - 5.8 MB</b><br/>
           <br/>
@@ -131,7 +131,7 @@
           * <b><use name="dl-md5"/></b><br/>
       </content>
       <content lang="fr" title="Images ISO de la GeeXboX">
-        Nous fournissons actuellement 2 versions de la GeeXboX : Française et Anglaise. Le logiciel d'installation a été inclus dans les ISO proposées, augmentant légèrement leur taille. Il ne vous reste plus qu'à choisir la langue de menu qui vous convient le mieux.<br/><br/>
+        Nous fournissons actuellement 2 versions de la GeeXboX : Française et Anglaise. Les autres langues sont disponibles avec le générateur d'ISO. Le logiciel d'installation est inclus dans les ISO proposées. Il ne vous reste plus qu'à choisir la langue de menu qui vous convient le mieux.<br/><br/>
           * <b><use name="dl-x86-iso-en"/> - <use name="dl1-x86-iso-en"/> - <use name="dl2-x86-iso-en"/> - 5.8 MB</b><br/>
           * <b><use name="dl-x86-iso-fr"/> - <use name="dl1-x86-iso-fr"/> - <use name="dl2-x86-iso-fr"/> - 5.8 MB</b><br/>
           <br/>
