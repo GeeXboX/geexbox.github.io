@@ -6,6 +6,10 @@
     <a href="http://bugs.geexbox.org/">BugZilla</a>
   </define>
 
+  <define name="wiki-todo">
+    <a href="http://www.geexbox.org/wiki/index.php/Development_TODO_List"><b>TODO</b></a>
+  </define>
+
   <section label="bugs_todo">
     <content lang="en" title="Bugs Report / TODO ..."/>
     <content lang="fr" title="Rapport de Bugs / Fonctionnalités à venir ..."/>
@@ -46,7 +50,9 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
 * Display ID3 Tags (Albums, Artist, Track Name and Number) and CDDB info when playing audio-only streams (WAVs, MP3, Ogg ...).<br/>
 * Add a DVD navigation menu.<br/>
 * Add support for multimedia keyboards.<br/>
-* Add support for karaoke playback.
+* Add support for karaoke playback.<br/>
+      <br/>
+      A complete <use name="wiki-todo"/> list is available on GeeXboX Wiki. There you'll find what exactly is intended to be coming to GeeXboX one day or another. It doesn't necessarly means that someone's currently working on a particular listed feature but at least it may give you ideas where to start with development ;-)
       </content>
       <content lang="fr" title="Fonctionnalités Futures de la GeeXboX ...">
         Vous trouverez ci-dessous quelques fonctionnalités que la prochaine version de la GeeXboX sera susceptible de proposer. Cela pourra prendre un certain temps, en fonction de la nécessité de chaque fonctionnalité :<br/><br/>
@@ -59,7 +65,9 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
 * Affichage des ID3 Tags (Nom de l'album, de l'artiste, du numéro et nom de piste) et informations CDDB lors de la lecture de flux exclusivement audio (WAV, MP3, Ogg ...).<br/>
 * Ajout d'un véritable menu de navigation pour les DVD.<br/>
 * Support des claviers multimédia.<br/>
-* Support de fonctionnalités karaoké.
+* Support de fonctionnalités karaoké.<br/>
+      <br/>
+      Une liste complète des <use name="wiki-todo"/> a réaliser est disponible sur le Wiki GeeXboX. Vous y trouverez une description complète des fonctionnalités que l'équipe de développement souhaite ajouter à la GeeXboX un jour ou l'autre. Pour chaque point, cela ne signifie pas nécessairement que quelqu'un est actuellement en train de travailler activement dessus mais au moins, cela peut vous donner des idées de fonctionnalités à ajouter (patchs à soumettre) pour contribuer à l'amélioration de la distribution.
       </content>
       <content lang="de" title="GeeXboX TODO Liste ...">
         Hier finden Sie eine Liste von geplanten Verbesserungen, die in zukünftigen Versionen von GeeXbox zu finden sein werden. Dies kann je nach Gewichtung einige Zeit in Anspruch nehmen:<br/><br/>
