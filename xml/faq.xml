@@ -122,7 +122,12 @@
         Some users reported to us problems with burning the image and booting GeeXboX. Most are Windows users. Be aware that WinRAR seems to recognize the .iso files as archives and tries to extract the files from it. IT'S A BAD IDEA TO DO THAT ! The provided ISO is a ready-to-burn file. It's already bootable. You just have to burn it with "File/Burn Image..." under Ahead Nero in DAO MODE or with cdrecord under Linux. If you can, please finalize the writing session.
       </content>
       <content lang="fr" title="Comment graver l'image ?">
-        Certains utilisateurs nous ont rapporté des problèmes pour graver l'image ou pour booter sur la GeeXboX. La plupart sont des utilisateurs de Windows. Soyez attentifs au fait que WinRAR semble reconnaître les fichiers .iso comme des archives et essaye d'en extraire les fichiers. C'EST UNE TRES MAUVAISE IDEE DE FAIRE CELA ! Les ISO disponibles sont des fichiers prêt à être gravés. Elles sont déjà amorçables. Vous n'avez qu'à les graver en faisant "Fichier/Graver l'Image..." sous Ahead Nero EN MODE DAO ou directement avec cdrecord sous Linux. Si vous le pouvez, finaliser la gravure.
+        Certains utilisateurs nous ont rapporté des problèmes pour graver l'image ou pour booter sur la GeeXboX. Les ISO disponibles sont des fichiers prêt à être gravés. Elles sont déjà amorçables. Vous n'avez qu'à les graver en faisant "Fichier/Graver l'Image..." EN MODE DAO. Le choix de ce mode est important, sans quoi vous pourriez connaître des difficultés lors du démarrage de GeeXboX (lors de la décompression du noyau par exemple).<br/>
+        <br/>
+        Sous GNU/Linux, vous pouvez graver l'image à l'aide de <i>cdrecord</i>.<br/>
+        Sous Windows, vous pouvez graver l'image à l'aide d'<i>Ahead Nero</i>.<br/>
+        <br/>
+        Soyez attentifs au fait que WinRAR semble reconnaître les fichiers .iso comme des archives et essaye d'en extraire les fichiers. C'EST UNE TRES MAUVAISE IDEE DE FAIRE CELA !
       </content>
       <content lang="de" title="Wie brenne ich ein Image ?">
         Einige Benutzer haben von Problemen beim Brennen des Images oder beim Starten von GeeXboX berichtet. Die meisten von Ihnen sind Windows Benutzer. Seien Sie gewarnt. Es scheint, als erkenne WinRAR die .iso Dateien als Archiv und versucht, diese zu entpacken. ES IST EINE SEHR SCHLECHTE IDEE, DIES ZU TUN ! Das bereitgestellte ISO ist bereit zum Brennen und bereits bootfähig. Sie brauchen es nur mit "Datei/Image brennen ..." bei Verwendung von Ahead Nero im DAO MODE oder mit cdrecord unter Linux auf ein Medium zu brennen. Wenn möglich, finalisieren Sie bitte die Sitzung.
