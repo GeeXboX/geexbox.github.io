@@ -42,10 +42,31 @@
     <a href="http://opensource.franz.com/nfs/"><i>Allegro NFS server</i></a>
   </define>
 
+  <define name="wiki-url">
+    <a href="http://www.geexbox.org/wiki/index.php/Main_Page"><i>Wiki</i></a>
+  </define>
+
   <section label="doc">
     <content lang="en" title="Documentation ..."/>
     <content lang="fr" title="Documentation ..."/>
     <content lang="de" title="Dokumentation ..."/>
+
+    <subsection label="wiki">
+      <content lang="en" title="GeeXboX Wiki Documentation Base ...">
+        The GeeXboX team provides you a wiki (collaborative documentation web space) in order to help you using the GeeXboX distribution. The overall goal of this Wiki is to provide to the newcomers the necessary help to start dealing with GeeXboX. There you can find many tips for optimizing your GeeXboX system or even some special configuration needed for reluctant hardware stuff.<br/>
+        <br/>
+        The GeeXboX <use name="wiki-url"/> also features a developer section that will help everyone who intend to add new packages to the distribution, explaining how to create patches and help the core team with development issues.<br/>
+        <br/>
+        As every wiki in the world, it depends on user feedback to be fullfilled. Save and share your knowledge.
+      </content>
+      <content lang="fr" title="Base de documentation Wiki GeeXboX ...">
+        L'équipe GeeXboX met à disposition de ses utilisateurs un Wiki (espace web collaboratif de documentation) dans le but de les aider à utiliser la distribution GeeXboX. Le but premier de ce Wiki est de fournir aux nouveaux utilisateurs toute l'aide dont ils pourraient avoir besoin pour débuter avec la GeeXboX. Vous y trouverez donc de nombreux conseils et astuces vous permettant d'optimiser votre système ou encore des informations de configuration permettant de faire fonctionner du matériel capricieux.<br/>
+        <br/>
+        Le <use name="wiki-url"/> GeeXboX propose également une section pour dévelppeurs qui a pour but d'aider ceux qui désireraient ajouter de nouvelles fonctionnalités à leur système, expliquant également la procédure de création de patchs ainsi que la meilleure manière d'aider l'équipe de développement.<br/>
+        <br/>
+        Comme tout Wiki sur Internet, son contenu ne dépend que des utilisateurs qui voudront bien le remplir. Stockez-y et partagez-y votre savoir.
+      </content>
+    </subsection>
 
     <subsection label="osd_menu">
       <content lang="en" title="How to use OSD menu ...">
