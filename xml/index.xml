@@ -23,7 +23,7 @@
     <content lang="fr" title="Dernières Nouvelles ..."/>
     <content lang="de" title="Aktuelle Nachrichten ..."/>
 
-    <subsection label="releaqe_0.98.6">
+    <subsection label="release_0.98.6">
       <content lang="en" title="GeeXboX 0.98.6 : Bigger, Longer, Uncut ... (08/15/05)">
         Long time folks since latest release, but now, things will change a bit. Today, the GeeXboX team is proud to introduce you its new release : the 0.98.6 edition. Even if it looks the same, the changes are numerous (see the list above). This release also introduces the opening to new architectures, with the first support of <b>GeeXboX for PowerPC</b> architecture. Yes, you've read well, you're now able to use GeeXboX on both your PC and Macintosh. This latest is still in beta stages so we need you all to test it.<br/>
 <br/>
