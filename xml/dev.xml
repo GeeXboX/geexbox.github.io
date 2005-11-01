@@ -39,6 +39,10 @@
     tla update
   </define>
 
+  <define name="wiki-url">
+    <a href="http://www.geexbox.org/wiki/index.php/Main_Page"><b>Wiki</b></a>
+  </define>
+
   <section label="dev">
     <content lang="en" title="Developers ..."/>
     <content lang="fr" title="Developpeurs ..."/>
@@ -59,6 +63,8 @@ We've decided to provide you with Web-Arch access. It will help developers to ea
 <b>* <use name="ct-tla-register"/></b><i> - To register with the GeeXboX's Arch repository.</i><br/>
 <b>* <use name="ct-tla-get"/></b><i> - To fetch all the files from the directory geexbox.</i><br/>
 <b>* <use name="ct-tla-update"/></b><i> - To update your local copy of the Arch, synchronizing with our server.</i>
+      <br/><br/>
+      Please refer to the GeeXboX <use name="wiki-url"/> <i>Developers Section</i> for an easy understanding of GeeXboX toolchain internals. There you'll understand how to report bugs, add new packages to the distribution, support new remote controllers, submit a patch and so on ...
       </content>
 
       <content lang="fr" title="GeeXboX Arch">
@@ -75,6 +81,8 @@ We've decided to provide you with Web-Arch access. It will help developers to ea
 <b>* <use name="ct-tla-register"/></b><i> - Pour enregistrer le dépositoire Arch utilisé par l'équipe GeeXboX.</i><br/>
 <b>* <use name="ct-tla-get"/></b><i> - Pour rappatrier tous les fichiers depuis le répertoire geexbox.</i><br/>
 <b>* <use name="ct-tla-update"/></b><i> - Pour mettre à jour votre copie locale du CVS, en la synchronisant avec le version sur notre serveur.</i>
+      <br/><br/>
+      Veuillez vous référer à la partie <i>Developers Section</i> du <use name="wiki-url"/> GeeXboX pour une entrée en matière sur le fonctionnement interne de la chaîne de compilation de la GeeXboX. Vous y trouverez également tosu les conseils nécessaires pour rapporter des problèmes à l'équipe de développement, mais également pour ajouter de nouveaux programmes, ajouter le support de nouvelles télécommandes, soumettre un patch, et bien d'autres choses ...
       </content>
 
       <content lang="de" title="GeeXboX Archiv">
