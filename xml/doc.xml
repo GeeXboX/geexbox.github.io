@@ -1099,5 +1099,26 @@ Vergessen Sie nicht auch die Datei : <b>C:\tftp32\GEEXBOX\boot\pxelinux.cfg\defa
 Starten Sie nun den Geexbox Computer und alles sollte wie gewünscht funktionieren.<br/>
       </content>
     </subsection>
+
+    <subsection label="firmware_loader">
+      <content lang="en" title="Firmware auto-loader ...">
+      GeeXboX supports many free drivers but unfortunately some of them may require an additionnal proprietary firmware (non-free and so not included in GeeXboX ISO) to work properly. The firmware is a binary file that is uploaded to the device (PCI or USB) when the driver is loaded. For each driver, the firmware has to be a specific file with a pre-determined name.<br/>
+      <br/>
+      If you have reluctant hardware that require additionnal firmware (in most of the cases, it only concerns WiFi and DVB cards), you'll need to check on the Internet for your Linux driver page to see how to check the firmware file. Most of the time, you'll get a direct download link. Sometimes, you'll need to extract it from your Windows drivers archive that was shipped with your hardware.<br/>
+      <br/> 
+      Once you get the firmware file, simply put it into the <b>/firmwares</b> directory. You can put in as many firmwares as you want, and GeeXboX will automatically find them and use them with the right drivers if needed. The only thing you then have to take care is to have the good firmwares file and to generate a new ISO.<br/>
+      <br/>
+      Please note that you can also use the GeeXboX ISO generator to automatically grab firmwares for you. You can select all of the extra binary firmware files you want the generator to add for you. Simply note that this feature will require you to have an Internet access when using the GeeXboX generator.<br/>
+      </content>
+      <content lang="fr" title="Chargement des firmwares ...">
+      La GeeXboX supporte de nombreux pilotes de périphériques mais malheureusement, certains d'entre eux requierent un firmware binaire additionnel propriétaire (i.e. non-libre et donc non-inclus dans la GeeXboX). Le firmware est un fichier binaire qui est envoyé au périphérique (PCI ou USB) lorsque le pilote se charge. Pour chaque pilote, le firmware se doit d'être un fichier spécifique avec un nom pré-déterminé.<br/>
+      <br/>
+      Si vous disposez de matériel à problème qui peut nécessiter la présence d'un firmware additionnel (dans la plupart des cas, il s'agit de cartes WiFi ou DVB), vous devrez chercher sur Internet une page concernant le support de périphérique sous Linux et l'utilisation du firmware. La plupart du temps, vous tomberez sur un lien de téléchargement direct. Des fois, il vous sera nécessaire d'extraire ce firmware depuis une archive de pilotes pour Windows qui ont été fourni par le fabricant du périphérique.<br/>
+      <br/>
+      Une fois que vous disposerez du fichier de firmware pour votre carte, déposez le simplement dans le répertoire <b>/firmwares</b>. Vous pouvez y stocker autant de firmwares que vous voudrez, la GeeXboX essaiera d'elle même de les charger lorsqu'un pilote en aura besoin. La seule chose dont vous ayez à vous soucier et de disposer des bons fichiers de firmwares avec les bons noms avant de regénérer une nouvelle ISO.<br/>
+      <br/>
+      Veuillez noter que vous pouvez également utiliser le générateur d'ISO de la GeeXboX qui vous permettra de récupérer les firmwares pour vous. Vous pouvez l'utiliser pour sélectionner tous les fichiers de firmware que vous souhaiter et le générateur les téléchargera et ajoutera pour vous. Assurez vous juste de disposer d'une connexion à Internet lors de l'utilisation du générateur.<br/>
+      </content>
+    </subsection>
   </section>
 </article>
