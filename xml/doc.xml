@@ -46,6 +46,10 @@
     <a href="http://www.geexbox.org/wiki/index.php/Main_Page"><i>Wiki</i></a>
   </define>
 
+  <define name="wiki-upnp">
+    <a href="http://www.geexbox.org/wiki/index.php/Accessing_to_UPnP_Contents">Wiki UPnP</a>
+  </define>
+
   <section label="doc">
     <content lang="en" title="Documentation ..."/>
     <content lang="fr" title="Documentation ..."/>
@@ -1120,5 +1124,23 @@ Starten Sie nun den Geexbox Computer und alles sollte wie gewünscht funktioniere
       Veuillez noter que vous pouvez également utiliser le générateur d'ISO de la GeeXboX qui vous permettra de récupérer les firmwares pour vous. Vous pouvez l'utiliser pour sélectionner tous les fichiers de firmware que vous souhaiter et le générateur les téléchargera et ajoutera pour vous. Assurez vous juste de disposer d'une connexion à Internet lors de l'utilisation du générateur.<br/>
       </content>
     </subsection>
+
+    <subsection label="upnp_share">
+      <content lang="en" title="UPnP File Sharing ...">
+      UPnP stands for Universal Plug And Play and is a network protocol aiming at providing the autodiscovery of devices and services of your Home Network. The UPnP A/V (for Audio/Video) norms defines several profiles for devices to easily share multimedia files and lets them being played. The UPnP Media Server profiles represent all of the devices that are able to share files to devices implementing the UPnP Media Player or UPnP Media Renderer profiles.<br/>
+      <br/>
+      The GeeXboX embeds a UPnP Control Point software that is able to auto-discover all UPnP Media Servers from your Home network and it simply mounts their contents to a dedicated mount point (<i>/mnt/UPnP</i>).<br/>
+      <br/>
+      This way, you just have to share contents using a compliant UPnP Media Server software and they'll be automatically accessible from GeeXboX. For more info about UPnP and some media servers usage, please go to our <use name="wiki-upnp"/> page.<br/>
+      </content>
+      <content lang="fr" title="Partage de fichiers via UPnP ...">
+      UPnP est l'acronyme de Universal Plug And Play et peut se décrire comme un protocole réseau permettant l'auto-découverte de périphériques ainsi que des services qui leur sont associés au sein de votre réseau domestique. La norme UPnP A/V (pour Audio/Video) définit un certains nombre de profiles pour des périphériques permettant le partage et la lecture de fichiers multimédias au sein d'un réseau. Le profile UPnP Media Server permet regroupe tous les périphériques capables de partager des fichiers à des périphériques de type UPnP Media Player ou UPnP Media Renderer, qui sont en mesure de les restituer.<br/>
+      <br/>
+      La GeeXboX embarque un logiciel de contrôle UPnP (UPnP Control Point) qui permet l'auto-découverte de tous les périphériques de type Media Server de votre réseau local et qui s'occupe de monter leur contenu en toute transparence dans un point de montage dédié (<i>/mnt/UPnP</i>).<br/>
+      <br/>
+      De cette manière, il vous suffit de disposer d'un PC ou autre périphérique possédant un logiciel compatible avec le profile UPnP Media Server pour que son contenu soit accessible depuis la GeeXboX. Pour plus d'infos sur l'UPnP ainsi que l'utilsiation de quelques serveurs, veuillez vous référer à la page <use name="wiki-upnp"/>.<br/>
+      </content>
+    </subsection>
+
   </section>
 </article>
