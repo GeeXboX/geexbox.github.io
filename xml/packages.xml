@@ -166,6 +166,15 @@
       <td align="center">1.0-20051030</td>
     </tr>
   </define>
+  <define name="djmount">
+    <tr>
+      <th align="center"><b><a href="http://djmount.sourceforge.net/">djmount</a></b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.40</td>
+    </tr>
+  </define>
   <define name="cpufreqd">
     <tr>
       <th align="center"><b><a href="http://cpufreqd.sourceforge.net/">CPU Freqd</a></b></th>
@@ -191,6 +200,15 @@
       <td align="center">2.10</td>
       <td align="center">2.11</td>
       <td align="center">2.11</td>
+    </tr>
+  </define>
+  <define name="dvb-apps">
+    <tr>
+      <th align="center"><b><a href="http://www.linuxtv.org/">dvb-apps</a></b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">cvs 28.10.2005</td>
     </tr>
   </define>
   <define name="eject">
@@ -245,6 +263,15 @@
       <td align="center">0.10.4</td>
       <td align="center">0.10.5</td>
       <td align="center">0.10.7</td>
+    </tr>
+  </define>
+  <define name="fuse">
+    <tr>
+      <th align="center"><b><a href="http://fuse.sourceforge.net/">fuse</a></b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.4.1</td>
     </tr>
   </define>
   <define name="grub">
@@ -344,6 +371,15 @@
       <td align="center">4.1.3</td>
       <td align="center">4.1.3</td>
       <td align="center">4.1.4</td>
+    </tr>
+  </define>
+  <define name="libupnp">
+    <tr>
+      <th align="center"><b><a href="http://upnp.sourceforge.net/">libupnp</a></b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">included in djmount package</td>
     </tr>
   </define>
   <define name="libvorbis">
@@ -480,6 +516,15 @@
       <td align="center">3.11</td>
     </tr>
   </define>
+  <define name="talloc">
+    <tr>
+      <th align="center"><b><a href="http://talloc.samba.org/">talloc</a></b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">svn r11479</td>
+    </tr>
+  </define>
   <define name="uClibc">
     <tr>
       <th align="center"><b><a href="http://www.uclibc.org/">uClibc</a></b></th>
@@ -596,13 +641,16 @@
            <use name="cpufreqd"/>
            <use name="dialog"/>
            <use name="DirectFB"/>
+           <use name="djmount"/>
            <use name="dosfstools"/>
+           <use name="dvb-apps"/>
            <use name="eject"/>
            <use name="em8300"/>
            <use name="fbi"/>
            <use name="fmio"/>
            <use name="freetype"/>
            <use name="fribidi"/>
+           <use name="fuse"/>
            <use name="grub"/>
            <use name="iscd"/>
            <use name="jpeg"/>
@@ -615,6 +663,7 @@
            <use name="libpng"/>
            <use name="libtheora"/>
            <use name="libungif"/>
+           <use name="libupnp"/>
            <use name="libvorbis"/>
            <use name="linux"/>
            <use name="lirc"/>
@@ -630,6 +679,7 @@
            <use name="samba"/>
            <use name="setcd"/>
            <use name="syslinux"/>
+           <use name="talloc"/>
            <use name="uClibc"/>
            <use name="udev"/>
            <use name="util-linux"/>
@@ -655,13 +705,16 @@
            <use name="cpufreqd"/>
            <use name="dialog"/>
            <use name="DirectFB"/>
+           <use name="djmount"/>
            <use name="dosfstools"/>
+           <use name="dvb-apps"/>
            <use name="eject"/>
            <use name="em8300"/>
            <use name="fbi"/>
            <use name="fmio"/>
            <use name="freetype"/>
            <use name="fribidi"/>
+           <use name="fuse"/>
            <use name="grub"/>
            <use name="iscd"/>
            <use name="jpeg"/>
@@ -674,6 +727,7 @@
            <use name="libpng"/>
            <use name="libtheora"/>
            <use name="libungif"/>
+           <use name="libupnp"/>
            <use name="libvorbis"/>
            <use name="linux"/>
            <use name="lirc"/>
@@ -689,6 +743,7 @@
            <use name="samba"/>
            <use name="setcd"/>
            <use name="syslinux"/>
+           <use name="talloc"/>
            <use name="uClibc"/>
            <use name="udev"/>
            <use name="util-linux"/>
@@ -714,13 +769,16 @@
            <use name="cpufreqd"/>
            <use name="dialog"/>
            <use name="DirectFB"/>
+           <use name="djmount"/>
            <use name="dosfstools"/>
+           <use name="dvb-apps"/>
            <use name="eject"/>
            <use name="em8300"/>
            <use name="fbi"/>
            <use name="fmio"/>
            <use name="freetype"/>
            <use name="fribidi"/>
+           <use name="fuse"/>
            <use name="grub"/>
            <use name="iscd"/>
            <use name="jpeg"/>
@@ -733,6 +791,7 @@
            <use name="libpng"/>
            <use name="libtheora"/>
            <use name="libungif"/>
+           <use name="libupnp"/>
            <use name="libvorbis"/>
            <use name="linux"/>
            <use name="lirc"/>
@@ -748,6 +807,7 @@
            <use name="samba"/>
            <use name="setcd"/>
            <use name="syslinux"/>
+           <use name="talloc"/>
            <use name="uClibc"/>
            <use name="udev"/>
            <use name="util-linux"/>
