@@ -97,6 +97,12 @@
       <text lang="de">FAQ</text>
     </subitem>
 
+    <subitem name="wiki" url="http://www.geexbox.org/wiki/index.php/Main_Page">
+      <text lang="en">Wiki</text>
+      <text lang="fr">Wiki</text>
+      <text lang="de">Wiki</text>
+    </subitem>
+
     <subitem name="links" url="links.html">
       <text lang="en">Links</text>
       <text lang="fr">Liens</text>
