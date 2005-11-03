@@ -35,57 +35,57 @@
 
     <subsection label="release_0.98.7">
       <content lang="en" title="GeeXboX 0.98.7 : Digital Edition (11/xx/05) ...">
-      This may be the first a new GeeXboX comes without a player update but hey, enhancements were huge enough to bring you a fresh new 0.98.7 release. GeeXboX now enters the digital era with a feature waited for so long : the <b>DVB cards support</b>. Basically you're now able to use any kind (PCI or USB) DVB device (either Cable, Terrestrial or Satellite) that is support under Linux (see <use name="linutv-url"/> website for more info) under this release of GeeXboX. Due to the i802.11 official stack inclusion in Linux 2.6.14, we've also decided to bring you up a better WiFi chipsets support with the introduction of Prism54G and Centrino drivers.<br/>
+      This may be the first time that a GeeXboX release has been made without a player update... but hey, the enhancements were significant enough and so we bring you the new, fresh, version 0.98.7. GeeXboX now enters the "digital era" with a feature that many users have been waiting for : the <b>DVB cards support</b>. Basically you're now able to use any kind (PCI or USB) DVB device (either Cable, Terrestrial or Satellite) that is support under Linux (see <use name="linutv-url"/> website for more info) with this release of GeeXboX. Due to the i802.11 official stack inclusion in Linux 2.6.14, we've also decided to bring you better WiFi chipset support with the introduction of Prism54G and Centrino drivers.<br/>
       <br/>
-      Unfortunately many of DVB devices and WiFi chips require those nasty proprietary firmwares to work correctly. Whatever, GeeXboX now comes with its brand new firmware auto-loader. You're even able to use the FLTK generator grab them for you and build an ISO that fit your needs. You can also use it to grabs some more fonts or non-free codecs.<br/>
+      Unfortunately, many of the DVB devices and WiFi chips require those nasty proprietary firmwares in order to work correctly. That is of no concern however, as GeeXboX now comes with its own brand new firmware auto-loader. You're even able to use the FLTK generator to grab them from the web for you and build an ISO that fits your needs. You can also use it to grab some more fonts or non-free codecs.<br/>
       <br/>
-      Last but not least, we've added the new industry trend network sharing protocol : UPnP. With its support, the GeeXboX is now able to auto-discover UPnP Media Server devices from your Home Network and plays media content from there. So, waiting for next MPlayer release, just sit down your seat and enjoy the digital show ;-)<br/>
+      Last, but not least, we've added the latest trend in network sharing protocols that is being supported in many new consumer devices : UPnP. With its support, the GeeXboX is now able to auto-discover UPnP Media Server devices on your Home Network and play media content from them. So, while waiting for the next MPlayer release, just sit back in your seats and enjoy the digital show ;-)<br/>
       <br/>
-      <b>Detailled Changelog (relative to 0.98.6 release) : </b><br/>
+      <b>Detailed Changelog (relative to 0.98.6 release) : </b><br/>
       <br/>
       <b>System :</b><br/>
       - Linux updated to 2.6.14 version.<br/>
       - Updated uClibc to 0.9.28.<br/>
       - Support for FUSE (Filesystem In Userland) 2.4.1<br/>
-      - Support for drivers firmware auto-load. You can now use drivers that require an external proprietary firmware.<br/>
+      - Support for driver firmware auto-loading. You can now use drivers that require an external proprietary firmware.<br/>
       - Updated Syslinux to v3.11.<br/>
       - Support for DVB cards.<br/>
-      - Added a DVB FreeToAir channels scanner (boot time for LiveCD or using installator).<br/>
+      - Added a DVB Free-To-Air channel scanner (at boot time for LiveCD, or when using installator).<br/>
       <br/>
       <b>Toolchain :</b><br/>
-      - New DEVTOOLS option at compilation, that add many useful debugging tools for easier development.<br/>
-      - New UPNP option at compilation to determine whether or not to add UPnP support.<br/>
+      - New DEVTOOLS option at compilation, that adds many useful debugging tools for easier development.<br/>
+      - New UPNP option at compilation time to enable/disable building UPnP support.<br/>
       <br/>
       <b>Audio :</b><br/>
-      - Updated ALSA librairies and utilities to 1.0.10rc2.<br/>
+      - Updated ALSA libraries and utilities to 1.0.10rc2.<br/>
       - Fixes some PPC sound issues.<br/>
       <br/>
       <b>Video :</b><br/>
-      - Support for VESA with Intel i855 chips <br/>
+      - Support for VESA with Intel i855 chips.<br/>
       - Updated EM8300 (DXR3) drivers to v0.15.1.<br/>
       <br/>
       <b>Drivers :</b><br/>
-      - Added support for WiFi Prism54G cards (require proprietary firmware).<br/>
-      - Added support for Centrino (ipw2x00) WiFi chipsets (require proprietary firmware). <br/>
-      - Support for PCI and USB DVB cards (Sattelite, Cable, Terrestrial) based on BT8x8 / CX88 / SAA7136 (AV7110) chipsets (some may require proprietary firmware).<br/>
+      - Added support for WiFi Prism54G cards (requires proprietary firmware).<br/>
+      - Added support for Centrino (ipw2x00) WiFi chipsets (requires proprietary firmware). <br/>
+      - Support for PCI and USB DVB cards (Satellite, Cable, Terrestrial) based on BT8x8 / CX88 / SAA7136 (AV7110) chipsets (some may require proprietary firmware).<br/>
       <br/>
       <b>Networking :</b><br/>
       - Updated Samba to 3.0.20b.<br/>
-      - Added autodiscovery of UPnP A/V Media Server compliant devices<br/>
+      - Added auto-discovery of UPnP A/V Media Server compliant devices.<br/>
       - Added djmount 0.40 that uses FUSE to mount UPnP Media Server contents filesystem.<br/>
       <br/>
       <b>Generator :</b><br/>
       - New MacOSX generator binary.<br/>
       - Generator is now able to download extra firmwares/fonts/codecs for you (with MD5 sum check).<br/>
-      - Added an option to activate or not the UPnP support.<br/>
+      - Added an option to enable/disable UPnP support.<br/>
       <br/>
       <b>Miscellaneous :</b><br/>
       - Updated LIRC to 0.7.3pre1.<br/>
-      - GeeXboX <use name="ushare-url"/> UPnP A/V Media Server (for Linux only) is available to share contents to GeeXboX through UPnP.<br/>
+      - GeeXboX <use name="ushare-url"/> UPnP A/V Media Server (for Linux only) is available to share content to GeeXboX through UPnP.<br/>
       - Support for multiple gateways and DNS servers in network configuration file.<br/>
-      - Add sleep timer to automatically shutdown GeeXboX after a while.<br/>
+      - Add sleep timer to automatically shutdown GeeXboX after a specified time.<br/>
       <br/>
-      GeeXboX 0.98.7 is available <a href="downloads.html">here</a> and right now.
+      GeeXboX 0.98.7 is available <a href="downloads.html">here</a> and right now!
       </content>
       <content lang="fr" title="GeeXboX 0.98.7 : Digital Edition (xx/11/05) ...">
       Il s'agit très probablement de la première mise à jour de la GeeXboX qui ne comporte pas une mis à jour du lecteur multimédia mais les changements étaient suffisamment conséquents pour vous fournir cette nouvelle version 0.98.7. La GeeXboX entre désormais dans l'ère numérique avec une fonctionnalité attendue depuis très longtemps : le <b>support des cartes DVB</b>. Vous pouvez maintenant utiliser n'importe quel type de périphérique DVB (PCI ou USB), qu'ils soient pour Cable, la TNT ou le Satellite, du moment qu'il est supporté sous Linux (cf. le site <use name="linutv-url"/> pour de plus amples informations). Et avec l'ajout officiel de la pile i802.11 dans le noyau Linux 2.6.14, nous avons également décidé d'ajouter le support de davantage de cartes WiFi, telles que celles basées sur chipsets Prism54G et Centrino.<br/>
