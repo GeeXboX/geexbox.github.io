@@ -75,6 +75,10 @@
     BrookTree BT848/BT878, Philips SAA7134, Conexant 2388x.
   </define>
 
+  <define name="dvb_supported">
+    All devices based on BT8x8, SAA7136 (a.k.a AV7110) and CX88 chipsets like : Fujitsu-Siemens, Galaxis PCTV-SAT, Technisat SkyStar 1, Hauppauge WinTV Nexus-s, Hauppauge WinTV NOVA-s, Technotrend PCline budget DVB-S, Technisat Skystar 2, Hercules Smart TV Satellite, DVICO FusionHDTV DVB-S, Technotrend TT-DVB-T 1200, Technotrend TT-DVB-T 1500, Technotrend TT-DVB-T 1300, Lorenzen SL DVB-T PCI, Hauppauge WinTV-NOVA-T PCI, Technotrend TT-PCline Budget3 TA1000, AVerMedia AverTV DVB-T 761 PCI, AVerMedia AverTV DVB-T 771 PCI, Technisat Airstar2/Air2PC DVB, TwinHan VisionDTV Ter PCI, Hama DVB-T PCI-Karte, K-World V-Stream Xpert DVB-T PCI, ChainTech DTT 1000 PCI, Nebula DigiTV PCI, Satelco PCI, Pinnacle PCTV MediaCenter 300i, Terratec Cinergy 1200 DVB-T, Terratec Cinergy 1400 DVB-T, LifeView, FlyDVB-T Duo, LifeView FlyDVB-T, GDI Black Gold, Technotrend DVB-C 1.0 Budget, Twinhan VisionDTV Mini Cab DVB-C, Terratec Cinergy 1200 DVB-C PCI, Fujitsu-Siemens DVB-C PCI, Technotrend PCLine Premium DVB-C Rev. 2.1 (C2100), Technotrend Premium DVB-C 2300 OT, Hauppauge WinTV DVB-C Rev. 2.1, Hauppauge WinTV-Nexus-CA, AVerMedia AverTV A800, DiBcom USB1.1 DVB-T devices (based on the DiB3000M-B), DiBcom USB2.0 DVB-T devices (based on the DiB3000M-C/P), HanfTek UMT-010, Hauppauge WinTV-NOVA-T USB2, Nebula DigiTV USB version - DVB-T, TerraTec Cinergy T², Twinhan DVB-T USB2.0, WideView/Yakumo/Hama/Typhoon/Yuan Boxes and Pens, TwinhanDTV StarBox - DVB-S.
+  </define>
+
   <define name="fs_supported">
     EXT2/3, ReseirFS, ISO9660, Joliet, UDF, VFAT, NTFS (RO), xBSD UFS (RO), NFS, Samba SMB, CIFS, FUSE
   </define>
@@ -86,7 +90,11 @@
     USB Joysticks, XboX GamePad, Cards readers, ATI Remote Wonder, Radio adapters.
   </define>
   <define name="misc_unsupported">
-    Mouse, RAID controllers, PCMCIA cards, DVB cards.
+    Mouse, RAID controllers, PCMCIA cards.
+  </define>
+
+  <define name="linuxtv-wiki">
+    <a href="http://linuxtv.org/wiki/index.php/Main_Page">LinuxTV Wiki</a>
   </define>
 
   <section label="hard">
@@ -275,6 +283,22 @@ Noch ein Hinweis zum Schluss. Viele der hier gelisteten Hardware wurde nach dem 
       </content>
       <content lang="de" title="TV - Karten ...">
       - <b>Unterstützte Chipsätze</b> : <use name="tv_supported"/><br/><br/>
+      </content>
+    </subsection>
+
+    <subsection label="hard_dvb">
+      <content lang="en" title="DVB Cards ...">
+      - <b>Supported chipsets</b> : <use name="dvb_supported"/><br/>
+        <br/>
+        Always check on <use name="linuxtv-wiki"/> for precise card support.<br/>
+      </content>
+      <content lang="fr" title="Cartes DVB ...">
+      - <b>Chipsets supportés</b> : <use name="dvb_supported"/><br/>
+        <br/>
+        Vérifiez toujours sur le <use name="linuxtv-wiki"/> pour un support précis.<br/>
+      </content>
+      <content lang="de" title="DVB - Karten ...">
+      - <b>Unterstützte Chipsätze</b> : <use name="dvb_supported"/><br/><br/>
       </content>
     </subsection>
 
