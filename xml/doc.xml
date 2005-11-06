@@ -102,7 +102,7 @@
     <subsection label="faq-list">
       <content lang="en" title="Documents List ...">
         <a href="#wiki">GeeXboX Wiki Documentation Base ...</a><br/>
-        <a href="#osd_menu">How to use OSD menu ...</a><br/>
+        <a href="#osd_menu">How to use the OSD menu ...</a><br/>
         <a href="#remote-scheme">Using a supported remote ...</a><br/>
         <a href="#mac-boot">Booting on Mac ...</a><br/>
         <a href="#post-process">Enabling Post-Processing Effects ...</a><br/>
@@ -114,7 +114,7 @@
         <a href="#tv">Editing TV Configuration ...</a><br/>
         <a href="#network">Editing Network Configuration ...</a><br/>
         <a href="#wifi">Editing WiFi configuration ...</a><br/>
-        <a href="#gateway">Using a gateway to access to the Internet and play streaming ...</a><br/>
+        <a href="#gateway">Using a gateway to access to the Internet and play streaming media ...</a><br/>
         <a href="#pxe">Booting from PXE using NFS shares ...</a><br/>
         <a href="#firmware_loader">Firmware auto-loader ...</a><br/>
         <a href="#upnp_share">UPnP File Sharing ...</a><br/>
