@@ -24,7 +24,7 @@ At the time of the first development releases (Dec. 2002), it was only capable o
    * Matroska streams<br/>
    * Audio streams like : MP3, Ogg/Vorbis, WAV (AudioCD), AC3, MusePack (MPC), FLAC ...<br/>
    * Network streams : WebRadio and WebTV<br/>
-   * Watching TV<br/>
+   * Watching analog TV and digital DVB<br/>
       </content>
       <content lang="fr" title="Qu'est ce que la GeeXboX ...">
         La question que vous êtes surement à même de vous poser est probablement : "Mais qu'est donc exactement le projet GeeXboX dont on arrête pas de me parler ?" ;-) Si tel est le cas, vous êtes au bon endroit !<br/><br/>
@@ -43,7 +43,7 @@ A l'époque des premières phases de développement (Dec. 2002), il était uniquemen
    * Les flux Matroska<br/>
    * Les flux exclusivement Audio tels que le MP3, Ogg/Vorbis, WAV (AudioCD), AC3, MusePack (MPC), FLAC ...<br/>
    * Les flux réseaux comme les WebRadios ou WebTVs.<br/>
-   * La télévision analogique.<br/>
+   * La télévision analogique et numérique (DVB).<br/>
       </content>
       <content lang="de" title="Was genau ist die GeeXboX ...">
         Die Frage, die Sie sich wahrscheinlich stellen, ist : "Junge, was genau ist eingentlich dieses GeeXboX Projekt, über das ich schon so viel gehört habe ?" ;-)<br/> Hier finden Sie die Antwort !<br/><br/>
