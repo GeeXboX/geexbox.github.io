@@ -65,10 +65,10 @@
     <a href="http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Wireless.html">Jean Tourrilhes' Page</a>
   </define>
   <define name="wifi_supported">
-    Hermes (Orinoco), Intersil HFA384x (Prism 2), Prism 2.5, Ralinktech RT2400, Ralinktech RT2500, Cisco 34X, Cisco 35X, Aironet 4500, Aironet 4800(B), Atmel at76c50x.
+    Hermes (Orinoco), Intersil HFA384x (Prism 2), Prism 2.5, Ralinktech RT2400, Ralinktech RT2500, Cisco 34X, Cisco 35X, Aironet 4500, Aironet 4800(B), Atmel at76c50x, Intel Centrino IPW2100/IPW2200, Prism54/GT.
   </define>
   <define name="wifi_unsupported">
-    Centrino, Prism54/GT, Texas Instruments ACX100, RealTek 8180, Admteck ADM 8211, Atheros, USB Prism3, PCMCIA cards.
+    Texas Instruments ACX100, RealTek 8180, Admteck ADM 8211, Atheros, USB Prism3, PCMCIA cards.
   </define>
 
   <define name="tv_supported">
