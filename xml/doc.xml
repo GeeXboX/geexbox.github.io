@@ -99,6 +99,65 @@
     <content lang="fr" title="Documentation ..."/>
     <content lang="de" title="Dokumentation ..."/>
 
+    <subsection label="faq-list">
+      <content lang="en" title="Documents List ...">
+        <a href="#wiki">GeeXboX Wiki Documentation Base ...</a><br/>
+        <a href="#osd_menu">How to use OSD menu ...</a><br/>
+        <a href="#remote-scheme">Using a supported remote ...</a><br/>
+        <a href="#mac-boot">Booting on Mac ...</a><br/>
+        <a href="#post-process">Enabling Post-Processing Effects ...</a><br/>
+        <a href="#building">Building the GeeXboX ...</a><br/>
+        <a href="#config">GeeXboX Config Files ...</a><br/>
+        <a href="#mplayer">MPlayer Documentation ...</a><br/>
+        <a href="#generator">Using the ISO generator ...</a><br/>
+        <a href="#installator">Using the installer ...</a><br/>
+        <a href="#tv">Editing TV Configuration ...</a><br/>
+        <a href="#network">Editing Network Configuration ...</a><br/>
+        <a href="#wifi">Editing WiFi configuration ...</a><br/>
+        <a href="#gateway">Using a gateway to access to the Internet and play streaming ...</a><br/>
+        <a href="#pxe">Booting from PXE using NFS shares ...</a><br/>
+        <a href="#firmware_loader">Firmware auto-loader ...</a><br/>
+        <a href="#upnp_share">UPnP File Sharing ...</a><br/>
+        <a href="#dvb_cards">DVB cards Support ...</a><br/>
+      </content>
+      <content lang="fr" title="Liste des documents ...">
+        <a href="#wiki">Base de documentation Wiki GeeXboX ...</a><br/>
+        <a href="#osd_menu">Guide d'utilisation du menu OSD ...</a><br/>
+        <a href="#remote-scheme">Utiliser une télécommande supportée ...</a><br/>
+        <a href="#mac-boot">Booter sur Mac ...</a><br/>
+        <a href="#post-process">Activer les effets de traitement d'image (Post-Processing) ...</a><br/>
+        <a href="#building">Construire la GeeXboX ...</a><br/>
+        <a href="#config">Fichiers de Configuration ...</a><br/>
+        <a href="#mplayer">Documentation de MPlayer ...</a><br/>
+        <a href="#generator">Utilisation du générateur d'ISO ...</a><br/>
+        <a href="#installator">Utilisation de l'installator ...</a><br/>
+        <a href="#tv">Modifier la configuration TV ...</a><br/>
+        <a href="#network">Modifier la configuration du réseau ...</a><br/>
+        <a href="#wifi">Modifier la configuration WiFi ...</a><br/>
+        <a href="#gateway">Utiliser une passerelle pour accéder à Internet et lire du contenu streaming en direct ...</a><br/>
+        <a href="#pxe">Booting depuis le réseau via PXE en utilisant les partages NFS ...</a><br/>
+        <a href="#firmware_loader">Chargement des firmwares ...</a><br/>
+        <a href="#upnp_share">Partage de fichiers via UPnP ...</a><br/>
+        <a href="#dvb_cards">Support des cartes DVB ...</a><br/>
+      </content>
+      <content lang="de" title="Dokument Liste ...">
+        <a href="#osd_menu">Benutzen des OSD Menüs ...</a><br/>
+        <a href="#remote-scheme">Eine unterstützte Fernbedienung verwenden ...</a><br/>
+        <a href="#mac-boot">Starten auf dem Mac ...</a><br/>
+        <a href="#post-process">Aktivieren von Effekten zur Nachbearbeitung (Post-Processing) ...</a><br/>
+        <a href="#building">Erstellen der GeeXboX ...</a><br/>
+        <a href="#config">GeeXboX Konfigurations Dateien ...</a><br/>
+        <a href="#mplayer">MPlayer Dokumentation ...</a><br/>
+        <a href="#generator">Verwenden des ISO Generators ...</a><br/>
+        <a href="#installator">Verwenden des Installers ...</a><br/>
+        <a href="#tv">TV Konfiguration ...</a><br/>
+        <a href="#network">Netzwerk Konfiguration ...</a><br/>
+        <a href="#wifi">WiFi Konfiguration ...</a><br/>
+        <a href="#gateway">Nutzen eines Gateways, um Streams aus dem Internet abzuspielen ...</a><br/>
+        <a href="#pxe">Booten mittels PXE über NFS Freigaben ...</a><br/>
+      </content>
+    </subsection>
+
     <subsection label="wiki">
       <content lang="en" title="GeeXboX Wiki Documentation Base ...">
         The GeeXboX team provides you a wiki (collaborative documentation web space) in order to help you using the GeeXboX distribution. The overall goal of this Wiki is to provide to the newcomers the necessary help to start dealing with GeeXboX. There you can find many tips for optimizing your GeeXboX system or even some special configuration needed for reluctant hardware stuff.<br/>
