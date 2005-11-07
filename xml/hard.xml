@@ -80,7 +80,7 @@
   </define>
 
   <define name="fs_supported">
-    EXT2/3, ReseirFS, ISO9660, Joliet, UDF, VFAT, NTFS (RO), xBSD UFS (RO), NFS, Samba SMB, CIFS, FUSE
+    EXT2/3, ReseirFS, ISO9660, Joliet, UDF, VFAT, NTFS (RO), xBSD UFS (RO), NFS, Samba SMB, CIFS
   </define>
   <define name="fs_unsupported">
     JFS, XFS, Minix, ROMfs, NTFS (RW), ADFS, Amiga FFS, Apple HFS, BeOS BeFS, BFS, EFS, Comrpessed ROM CramFS, FreeVxFS, OS/2 HPFS, QNX4 FS, xBSD UFS (RW), NFS 3/4, NCP, AFS.
