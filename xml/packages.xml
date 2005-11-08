@@ -91,7 +91,7 @@
       <td align="center">1.0.5</td>
       <td align="center">1.0.7</td>
       <td align="center">1.0.9</td>
-      <td align="center">1.0.10rc2</td>
+      <td align="center">1.0.10rc3</td>
     </tr>
   </define>
   <define name="alsa-utils">
@@ -100,7 +100,7 @@
       <td align="center">1.0.5</td>
       <td align="center">1.0.7</td>
       <td align="center">1.0.9</td>
-      <td align="center">1.0.10rc2</td>
+      <td align="center">1.0.10rc3</td>
     </tr>
   </define>
   <define name="at76c503">
