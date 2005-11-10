@@ -18,7 +18,7 @@
       <content lang="en" title="Sending a Bug Report ...">
         Unfortunately, GeeXboX is not bug-free :-( Reporting new bugs can be done through our bug tracking system, which is using <use name="link-bugzilla"/>. If you encounter a bug with GeeXboX you can now do a bug report through this interface.<br/><br/>
 
-<b>PLEASE use it as a bug report tools only and not for describing your problems, your life, your hardware, or asking dumb questions such as "Why does my system not work ? How do I burn a CD ... I can't boot ...".</b><br/><br/>
+<b>PLEASE use it as a bug report tool only and not for describing your problems, your life, your hardware, or asking dumb questions such as "Why does my system not work ? How do I burn a CD ... I can't boot ...".</b><br/><br/>
 
 It's a real bug report tool, not a new forum. There will be no answer to reported bugs, only bug fixes. And remember that useless reports will be trashed.<br/><br/>
       </content>
@@ -46,7 +46,6 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
 * Add encoding/recording capabilities.<br/>
 * Add TimeShifting capabilities.<br/>
 * Add Pan/Scan feature.<br/>
-* Add support for DVB cards (Digital TV : Satellite, Cable, Terrestrial).<br/>
 * Display ID3 Tags (Albums, Artist, Track Name and Number) and CDDB info when playing audio-only streams (WAVs, MP3, Ogg ...).<br/>
 * Add a DVD navigation menu.<br/>
 * Add support for multimedia keyboards.<br/>
@@ -61,7 +60,6 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
 * Support des possibilités d'enregistrement.<br/>
 * Support des fonctionnalités de TimeShifting.<br/>
 * Support du mode Pan/Scan.<br/>
-* Support des cartes TV numériques (DVB : Cable, Satellite, TNT).<br/>
 * Affichage des ID3 Tags (Nom de l'album, de l'artiste, du numéro et nom de piste) et informations CDDB lors de la lecture de flux exclusivement audio (WAV, MP3, Ogg ...).<br/>
 * Ajout d'un véritable menu de navigation pour les DVD.<br/>
 * Support des claviers multimédia.<br/>
@@ -75,7 +73,6 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
 * Implementierung von Dekodier- und Aufnahmemöglichkeiten.<br/>
 * Implementierung von TimeShifting (Zeitversetztes Fernsehen)<br/>
 * Implementierung von Pan/Scan (Automatischer Sendersuchlauf).<br/>
-* Unterstützung von DVB Karten (Digital TV: Satellit, Kabel, Terrestrisch).<br/>
 * Anzeigen von ID3 und CDDB Informationen (Album, Künstler, Titelname und -nummer) bei der Wiedergabe von Audiodateien (WAVs, MP3, Ogg ...).<br/>
 * Implemetnierung eines DVD Navigations-Menüs.<br/>
 * Unterstützung von Multimedia-Tastaturen.<br/>

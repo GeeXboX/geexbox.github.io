@@ -8,6 +8,7 @@
       <td align="center"><b>0.98</b></td>
       <td align="center"><b>0.98.5</b></td>
       <td align="center"><b>0.98.6</b></td>
+      <td align="center"><b>0.98.7</b></td>
     </tr>
   </define>
 
@@ -17,12 +18,14 @@
       <td align="center">*</td>
       <td align="center">2.15</td>
       <td align="center">2.16.1</td>
+      <td align="center">2.16.1</td>
     </tr>
   </define>
   <define name="ccache">
     <tr>
       <th align="center"><a href="http://ccache.samba.org/">Ccache</a></th>
       <td align="center">*</td>
+      <td align="center">2.4</td>
       <td align="center">2.4</td>
       <td align="center">2.4</td>
     </tr>
@@ -33,11 +36,13 @@
       <td align="center">*</td>
       <td align="center">3.3.4</td>
       <td align="center">3.4.4</td>
+      <td align="center">3.4.4</td>
     </tr>
   </define>
   <define name="genext2fs">
     <tr>
       <th align="center"><a href="http://packages.debian.org/unstable/admin/genext2fs">genext2fs</a></th>
+      <td align="center">1.3</td>
       <td align="center">1.3</td>
       <td align="center">1.3</td>
       <td align="center">1.3</td>
@@ -49,6 +54,7 @@
       <td align="center">*</td>
       <td align="center">3.80</td>
       <td align="center">3.80</td>
+      <td align="center">3.80</td>
     </tr>
   </define>
   <define name="sed">
@@ -56,6 +62,7 @@
       <th align="center"><a href="http://sed.sourceforge.net/">sed</a></th>
       <td align="center">*</td>
       <td align="center">4.1.2</td>
+      <td align="center">4.1.4</td>
       <td align="center">4.1.4</td>
     </tr>
   </define>
@@ -66,6 +73,7 @@
       <td align="center">0.2.0pre8</td>
       <td align="center">*</td>
       <td align="center">*</td>
+      <td align="center">*</td>
     </tr>
   </define>
   <define name="alsa-driver">
@@ -73,7 +81,8 @@
       <th align="center"><b><a href="http://www.alsa-project.org/">alsa-drivers</a></b></th>
       <td align="center">1.0.5a</td>
       <td align="center">included in linux kernel</td>
-      <td align="center">1.0.9b</td>
+      <td align="center">included in linux kernel</td>
+      <td align="center">included in linux kernel</td>
     </tr>
   </define>
   <define name="alsa-lib">
@@ -82,6 +91,7 @@
       <td align="center">1.0.5</td>
       <td align="center">1.0.7</td>
       <td align="center">1.0.9</td>
+      <td align="center">1.0.10rc3</td>
     </tr>
   </define>
   <define name="alsa-utils">
@@ -90,12 +100,14 @@
       <td align="center">1.0.5</td>
       <td align="center">1.0.7</td>
       <td align="center">1.0.9</td>
+      <td align="center">1.0.10rc3</td>
     </tr>
   </define>
   <define name="at76c503">
     <tr>
       <th align="center"><b><a href="http://at76c503a.berlios.de/">at76c503</a></b></th>
       <td align="center">0.11</td>
+      <td align="center">included in linux kernel</td>
       <td align="center">included in linux kernel</td>
       <td align="center">included in linux kernel</td>
     </tr>
@@ -106,11 +118,13 @@
       <td align="center">0.4</td>
       <td align="center">0.4</td>
       <td align="center">0.4 + fixes</td>
+      <td align="center">0.4 + fixes</td>
     </tr>
   </define>
   <define name="bftpd">
     <tr>
       <th align="center"><b><a href="http://www.bftpd.org/">bftpd</a></b></th>
+      <td align="center">1.0.24</td>
       <td align="center">1.0.24</td>
       <td align="center">1.0.24</td>
       <td align="center">1.0.24</td>
@@ -122,6 +136,7 @@
       <td align="center">*</td>
       <td align="center">3.1</td>
       <td align="center">3.1</td>
+      <td align="center">3.1</td>
     </tr>
   </define>
   <define name="busybox">
@@ -130,11 +145,13 @@
       <td align="center">1.00rc2</td>
       <td align="center">1.00</td>
       <td align="center">1.00-20050806</td>
+      <td align="center">1.1.0-pre1</td>
     </tr>
   </define>
   <define name="cdparanoia">
     <tr>
       <th align="center"><b><a href="http://www.xiph.org/paranoia/">CDparanoia III</a></b></th>
+      <td align="center">alpha 9.8</td>
       <td align="center">alpha 9.8</td>
       <td align="center">alpha 9.8</td>
       <td align="center">alpha 9.8</td>
@@ -146,6 +163,16 @@
       <td align="center">0.9b-20031002</td>
       <td align="center">1.0-20041118</td>
       <td align="center">1.0-20050206</td>
+      <td align="center">1.0-20051030</td>
+    </tr>
+  </define>
+  <define name="djmount">
+    <tr>
+      <th align="center"><b><a href="http://djmount.sourceforge.net/">djmount</a></b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.31</td>
     </tr>
   </define>
   <define name="cpufreqd">
@@ -154,12 +181,14 @@
       <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">1.2.3</td>
+      <td align="center">1.2.3</td>
     </tr>
   </define>
   <define name="DirectFB">
     <tr>
       <th align="center"><b><a href="http://www.directfb.org/">DirectFB</a></b></th>
       <td align="center">0.9.20</td>
+      <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">*</td>
     </tr>
@@ -170,6 +199,16 @@
       <td align="center">2.10</td>
       <td align="center">2.10</td>
       <td align="center">2.11</td>
+      <td align="center">2.11</td>
+    </tr>
+  </define>
+  <define name="dvb-apps">
+    <tr>
+      <th align="center"><b><a href="http://www.linuxtv.org/">dvb-apps</a></b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">cvs 28.10.2005</td>
     </tr>
   </define>
   <define name="eject">
@@ -177,6 +216,7 @@
       <th align="center"><b><a href="http://ca.geocities.com/jefftranter@rogers.com/eject.html">eject</a></b></th>
       <td align="center">2.0.13</td>
       <td align="center">2.0.13</td>
+      <td align="center">*</td>
       <td align="center">*</td>
     </tr>
   </define>
@@ -186,11 +226,13 @@
       <td align="center">0.14.0</td>
       <td align="center">0.15.0.cvs</td>
       <td align="center">0.15.0</td>
+      <td align="center">0.15.1</td>
     </tr>
   </define>
   <define name="fbi">
     <tr>
       <th align="center"><b><a href="http://linux.bytesex.org/fbida/">fbi</a></b></th>
+      <td align="center">1.31</td>
       <td align="center">1.31</td>
       <td align="center">1.31</td>
       <td align="center">1.31</td>
@@ -202,6 +244,7 @@
       <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">2.0.8</td>
+      <td align="center">2.0.8</td>
     </tr>
   </define>
   <define name="freetype">
@@ -209,6 +252,7 @@
       <th align="center"><b><a href="http://www.freetype.org/">freetype</a></b></th>
       <td align="center">2.1.4</td>
       <td align="center">2.1.9</td>
+      <td align="center">2.1.10</td>
       <td align="center">2.1.10</td>
     </tr>
   </define>
@@ -218,6 +262,16 @@
       <td align="center">*</td>
       <td align="center">0.10.4</td>
       <td align="center">0.10.5</td>
+      <td align="center">0.10.7</td>
+    </tr>
+  </define>
+  <define name="fuse">
+    <tr>
+      <th align="center"><b><a href="http://fuse.sourceforge.net/">fuse</a></b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.4.1</td>
     </tr>
   </define>
   <define name="grub">
@@ -226,11 +280,13 @@
       <td align="center">*</td>
       <td align="center">0.95+cvs20040624</td>
       <td align="center">0.97</td>
+      <td align="center">0.97</td>
     </tr>
   </define>
   <define name="jpeg">
     <tr>
       <th align="center"><b><a href="http://freshmeat.net/projects/libjpeg/">jpeg</a></b></th>
+      <td align="center">6b</td>
       <td align="center">6b</td>
       <td align="center">6b</td>
       <td align="center">6b</td>
@@ -242,11 +298,13 @@
       <td align="center">0.0.2</td>
       <td align="center">0.0.2</td>
       <td align="center">0.0.2</td>
+      <td align="center">0.0.2</td>
     </tr>
   </define>
   <define name="libexif">
     <tr>
       <th align="center"><b><a href="http://sourceforge.net/projects/libexif">libexif</a></b></th>
+      <td align="center">0.5.12</td>
       <td align="center">0.5.12</td>
       <td align="center">0.5.12</td>
       <td align="center">0.5.12</td>
@@ -258,6 +316,7 @@
       <td align="center">0.4.3</td>
       <td align="center">0.4.3</td>
       <td align="center">0.4.3</td>
+      <td align="center">0.4.3</td>
     </tr>
   </define>
   <define name="libmpcdec">
@@ -266,6 +325,7 @@
       <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">1.2</td>
+      <td align="center">1.2.1</td>
     </tr>
   </define>
   <define name="libogg">
@@ -274,11 +334,13 @@
       <td align="center">1.1</td>
       <td align="center">1.1.2</td>
       <td align="center">1.1.2</td>
+      <td align="center">1.1.2</td>
     </tr>
   </define>
   <define name="libpcd">
     <tr>
       <th align="center"><b><a href="http://linux.bytesex.org/fbida/libpcd.html">libpcd</a></b></th>
+      <td align="center">1.0.1</td>
       <td align="center">1.0.1</td>
       <td align="center">1.0.1</td>
       <td align="center">1.0.1</td>
@@ -290,6 +352,7 @@
       <td align="center">1.2.6rc5</td>
       <td align="center">1.2.8</td>
       <td align="center">1.2.8</td>
+      <td align="center">1.2.8</td>
     </tr>
   </define>
   <define name="libtheora">
@@ -298,6 +361,7 @@
       <td align="center">*</td>
       <td align="center">1.0alpha3</td>
       <td align="center">1.0alpha4</td>
+      <td align="center">1.0alpha5</td>
     </tr>
   </define>
   <define name="libungif">
@@ -306,6 +370,16 @@
       <td align="center">4.1.1</td>
       <td align="center">4.1.3</td>
       <td align="center">4.1.3</td>
+      <td align="center">4.1.4</td>
+    </tr>
+  </define>
+  <define name="libupnp">
+    <tr>
+      <th align="center"><b><a href="http://upnp.sourceforge.net/">libupnp</a></b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">included in djmount package</td>
     </tr>
   </define>
   <define name="libvorbis">
@@ -313,6 +387,7 @@
       <th align="center"><b><a href="http://www.xiph.org/ogg/">libvorbis</a></b></th>
       <td align="center">1.0.1</td>
       <td align="center">1.1.0</td>
+      <td align="center">1.1.1</td>
       <td align="center">1.1.1</td>
     </tr>
   </define>
@@ -322,6 +397,7 @@
       <td align="center">2.4.26</td>
       <td align="center">2.6.9</td>
       <td align="center">2.6.12.3</td>
+      <td align="center">2.6.14</td>
     </tr>
   </define>
   <define name="lirc">
@@ -330,6 +406,7 @@
       <td align="center">0.7.0pre4</td>
       <td align="center">0.7.0</td>
       <td align="center">0.7.2</td>
+      <td align="center">0.7.3pre1</td>
     </tr>
   </define>
   <define name="lrmi">
@@ -338,6 +415,7 @@
       <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">0.8</td>
+      <td align="center">0.9</td>
     </tr>
   </define>
   <define name="lzma">
@@ -345,6 +423,7 @@
       <th align="center"><b><a href="http://www.7-zip.org/sdk.html">lzma</a></b></th>
       <td align="center">*</td>
       <td align="center">*</td>
+      <td align="center">4.26</td>
       <td align="center">4.26</td>
     </tr>
   </define>
@@ -354,6 +433,7 @@
       <td align="center">*</td>
       <td align="center">3.0</td>
       <td align="center">3.2-pre8</td>
+      <td align="center">3.2-pre8</td>
     </tr>
   </define>
   <define name="MPlayer">
@@ -361,6 +441,7 @@
       <th align="center"><b><a href="http://www.mplayerhq.hu/">MPlayer</a></b></th>
       <td align="center">1.0pre5</td>
       <td align="center">1.0pre6</td>
+      <td align="center">1.0pre7</td>
       <td align="center">1.0pre7</td>
     </tr>
   </define>
@@ -370,11 +451,13 @@
       <td align="center">5.3</td>
       <td align="center">5.4</td>
       <td align="center">5.4</td>
+      <td align="center">5.5</td>
     </tr>
   </define>
   <define name="nvtv">
     <tr>
       <th align="center"><b><a href="http://sourceforge.net/projects/nv-tv-out/">nvtv</a></b></th>
+      <td align="center">0.4.7</td>
       <td align="center">0.4.7</td>
       <td align="center">0.4.7</td>
       <td align="center">0.4.7</td>
@@ -386,6 +469,7 @@
       <td align="center">2.1.11</td>
       <td align="center">2.1.11</td>
       <td align="center">2.1.11</td>
+      <td align="center">2.2.0</td>
     </tr>
   </define>
   <define name="rt2400">
@@ -393,6 +477,7 @@
       <th align="center"><b><a href="http://rt2400.sourceforge.net/">rt2400</a></b></th>
       <td align="center">1.2.0</td>
       <td align="center">1.2.1</td>
+      <td align="center">1.2.2-beta3</td>
       <td align="center">1.2.2-beta3</td>
     </tr>
   </define>
@@ -410,6 +495,7 @@
       <td align="center">3.0.5</td>
       <td align="center">3.0.10</td>
       <td align="center">3.0.14a</td>
+      <td align="center">3.0.20b</td>
     </tr>
   </define>
   <define name="setcd">
@@ -417,6 +503,7 @@
       <th align="center"><b><a href="http://packages.debian.org/stable/utils/setcd">setcd</a></b></th>
       <td align="center">1.4-2</td>
       <td align="center">1.5</td>
+      <td align="center">*</td>
       <td align="center">*</td>
     </tr>
   </define>
@@ -426,6 +513,16 @@
       <td align="center">2.10</td>
       <td align="center">2.11</td>
       <td align="center">2.13</td>
+      <td align="center">3.11</td>
+    </tr>
+  </define>
+  <define name="talloc">
+    <tr>
+      <th align="center"><b><a href="http://talloc.samba.org/">talloc</a></b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">svn r11479</td>
     </tr>
   </define>
   <define name="uClibc">
@@ -434,6 +531,7 @@
       <td align="center">0.9.26</td>
       <td align="center">cvs 20040825</td>
       <td align="center">cvs 20050806</td>
+      <td align="center">0.9.28</td>
     </tr>
   </define>
   <define name="udev">
@@ -441,7 +539,8 @@
       <th align="center"><b><a href="http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html">uDev</a></b></th>
       <td align="center">*</td>
       <td align="center">*</td>
-      <td align="center">0.65</td>
+      <td align="center">065</td>
+      <td align="center">071</td>
     </tr>
   </define>
   <define name="util-linux">
@@ -450,6 +549,7 @@
       <td align="center">2.11z</td>
       <td align="center">2.12j</td>
       <td align="center">2.12q</td>
+      <td align="center">2.12r</td>
     </tr>
   </define>
   <define name="wireless_tools">
@@ -458,6 +558,7 @@
       <td align="center">26</td>
       <td align="center">27</td>
       <td align="center">27</td>
+      <td align="center">28pre10</td>
     </tr>
   </define>
   <define name="yaboot">
@@ -466,6 +567,7 @@
       <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">1.3.13</td>
+      <td align="center">1.3.13</td>
     </tr>
   </define>
   <define name="zlib">
@@ -473,6 +575,7 @@
       <th align="center"><b><a href="http://www.gzip.org/zlib/">zlib</a></b></th>
       <td align="center">1.1.4</td>
       <td align="center">1.2.2</td>
+      <td align="center">1.2.3</td>
       <td align="center">1.2.3</td>
     </tr>
   </define>
@@ -538,13 +641,16 @@
            <use name="cpufreqd"/>
            <use name="dialog"/>
            <use name="DirectFB"/>
+           <use name="djmount"/>
            <use name="dosfstools"/>
+           <use name="dvb-apps"/>
            <use name="eject"/>
            <use name="em8300"/>
            <use name="fbi"/>
            <use name="fmio"/>
            <use name="freetype"/>
            <use name="fribidi"/>
+           <use name="fuse"/>
            <use name="grub"/>
            <use name="iscd"/>
            <use name="jpeg"/>
@@ -557,6 +663,7 @@
            <use name="libpng"/>
            <use name="libtheora"/>
            <use name="libungif"/>
+           <use name="libupnp"/>
            <use name="libvorbis"/>
            <use name="linux"/>
            <use name="lirc"/>
@@ -572,6 +679,7 @@
            <use name="samba"/>
            <use name="setcd"/>
            <use name="syslinux"/>
+           <use name="talloc"/>
            <use name="uClibc"/>
            <use name="udev"/>
            <use name="util-linux"/>
@@ -597,13 +705,16 @@
            <use name="cpufreqd"/>
            <use name="dialog"/>
            <use name="DirectFB"/>
+           <use name="djmount"/>
            <use name="dosfstools"/>
+           <use name="dvb-apps"/>
            <use name="eject"/>
            <use name="em8300"/>
            <use name="fbi"/>
            <use name="fmio"/>
            <use name="freetype"/>
            <use name="fribidi"/>
+           <use name="fuse"/>
            <use name="grub"/>
            <use name="iscd"/>
            <use name="jpeg"/>
@@ -616,6 +727,7 @@
            <use name="libpng"/>
            <use name="libtheora"/>
            <use name="libungif"/>
+           <use name="libupnp"/>
            <use name="libvorbis"/>
            <use name="linux"/>
            <use name="lirc"/>
@@ -631,6 +743,7 @@
            <use name="samba"/>
            <use name="setcd"/>
            <use name="syslinux"/>
+           <use name="talloc"/>
            <use name="uClibc"/>
            <use name="udev"/>
            <use name="util-linux"/>
@@ -656,13 +769,16 @@
            <use name="cpufreqd"/>
            <use name="dialog"/>
            <use name="DirectFB"/>
+           <use name="djmount"/>
            <use name="dosfstools"/>
+           <use name="dvb-apps"/>
            <use name="eject"/>
            <use name="em8300"/>
            <use name="fbi"/>
            <use name="fmio"/>
            <use name="freetype"/>
            <use name="fribidi"/>
+           <use name="fuse"/>
            <use name="grub"/>
            <use name="iscd"/>
            <use name="jpeg"/>
@@ -675,6 +791,7 @@
            <use name="libpng"/>
            <use name="libtheora"/>
            <use name="libungif"/>
+           <use name="libupnp"/>
            <use name="libvorbis"/>
            <use name="linux"/>
            <use name="lirc"/>
@@ -690,6 +807,7 @@
            <use name="samba"/>
            <use name="setcd"/>
            <use name="syslinux"/>
+           <use name="talloc"/>
            <use name="uClibc"/>
            <use name="udev"/>
            <use name="util-linux"/>

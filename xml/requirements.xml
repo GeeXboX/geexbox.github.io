@@ -20,9 +20,6 @@
   <define name="req-nasm">
     <b><a href="http://freshmeat.net/projects/nasm/?topic_id=48">nasm</a></b>
   </define>
-  <define name="req-dosfstools">
-    <b><a href="ftp://ftp.uni-erlangen.de/pub/Linux/LOCAL/dosfstools/">dosfstools</a></b>
-  </define>
   <define name="req-mkisofs">
     <b><a href="http://www.fokus.gmd.de/research/cc/glone/employees/joerg.schilling/private/mkisofs.html">mkisofs</a></b>
   </define>
@@ -83,7 +80,6 @@ Die folgende Liste stellt die Mindestanforderungen an die Hardware dar :<br/>
 * <use name="req-patch"/> : this package is needed to patch some official programs sources to customize them to be GeeXboX compliant or simply to add some features.<br/>
 * <use name="req-wget"/> : Wget is a network utility to retrieve files from the Web using http and ftp, the two most widely-used Internet protocols.<br/>
 * <use name="req-nasm"/> : This is an x86 assembler which will flat-form binary files, a.out, COFF and ELF Unix object files, and Microsoft 16-bit DOS and Win32 object files. It is used to compile the uClibc of the GeeXboX.<br/>
-* <use name="req-dosfstools"/> : Utilities to create and check MS-DOS FAT filesystems.<br/>
 * <use name="req-mkisofs"/> : Creates ISO-9660 CD-ROM filesystem images.<br/>
 * <use name="req-mkzftree"/> : this program is available from the zisofs-tools package and let you create compressed iso images.<br/>
 * <use name="req-cdrecord"/> : A command line CD writing tool cdrecord allows you to create CDs.<br/><br/>
@@ -97,7 +93,6 @@ Die folgende Liste stellt die Mindestanforderungen an die Hardware dar :<br/>
 * <use name="req-patch"/> : ce paquetage est utilisé pour effectuer des modifications aux sources officielles des logiciels et ce, afin de les personnaliser pour être compatibles avec la GeeXboX ou simplement pour leur rajouter des fonctionnalités.<br/>
 * <use name="req-wget"/> : Wget est un utilitaire réseau chargé de rappatrier des fichiers depuis Internet en utilisant les protocoles HTTP et FTP, les 2 plus couramment utilisés.<br/>
 * <use name="req-nasm"/> : C'est un assembleur de code x86, permettant de générer des fichiers binaires de type a.out, COFF et des fichiers objets Unix ELF, ainsi que des binaires Microsoft 16-bit pour DOS et Win32. Il sera utilisé pour bâtir la uClibc de la GeeXboX.<br/>
-* <use name="req-dosfstools"/> : Utilitaires permettant la création et vérification de systèmes de fichiers MS-DOS FAT.<br/>
 * <use name="req-mkisofs"/> : Génère des images ISO-9660 (système de fichier des CD-ROM).<br/>
 * <use name="req-mkzftree"/> : ce programme est disponible dans le paquetage zisofs-tools et permet des créer des images iso compressées.<br/>
 * <use name="req-cdrecord"/> : Un logiciel de gravure de CD en ligne de commande.<br/><br/>
@@ -111,7 +106,6 @@ Die folgende Liste stellt die Mindestanforderungen an die Hardware dar :<br/>
 * <use name="req-patch"/> : Dies Programm wird benötigt, um Programme zu "Patchen", damit diese mit GeeXboX funktionieren, oder einfach auch nur, um neue Funktionen zur GeeXboX hinzuzufügen.<br/>
 * <use name="req-wget"/> : Wget ist ein Programm zum Herunterladen von Dateien aus dem Internet über das HTTP oder das FTP Protokoll, den beiden meistverbreiteten im Internet.<br/>
 * <use name="req-nasm"/> : Nasm ist ein "x86 assembler" zur Erstellung von "flat-form" Binärdateien, a.out, COFF und ELF Unix Objektdateien, und auch Microsoft 16-bit DOS und Win32 Objektdateien. Es wird genutzt, um die uClibc der GeeXboX zu kompilieren.<br/>
-* <use name="req-dosfstools"/> : Hilfsprogramm zum Testen und Erstellen von MS-DOS FAT Dateisystemen.<br/>
 * <use name="req-mkisofs"/> : Erstellt ISO-9660 CD-ROM Dateisystem Images.<br/>
 * <use name="req-mkzftree"/> : Dieses Programm gehört zu den "zisofs-tools" Programmen und hilft Ihnen bei der Erstellung von komprimierten ISO Images.<br/>
 * <use name="req-cdrecord"/> : Ein Kommandozeilenprogramm zum Erstellen von CDs.<br/><br/>

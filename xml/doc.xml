@@ -46,10 +46,117 @@
     <a href="http://www.geexbox.org/wiki/index.php/Main_Page"><i>Wiki</i></a>
   </define>
 
+  <define name="wiki-upnp">
+    <a href="http://www.geexbox.org/wiki/index.php/Accessing_to_UPnP_Contents">Wiki UPnP</a>
+  </define>
+
+  <define name="wiki-linuxtv">
+    <a href="http://linuxtv.org/wiki/index.php/Main_Page">LinuxTV DVB Wiki</a>
+  </define>
+  <define name="linuxtv-firmware">
+    <a href="http://linuxtv.org/download/firmware/">LinuxTV</a>
+  </define>
+  <define name="linuxtv-dvb-apps">
+    <a href="http://www.linuxtv.org/download/dvb/">linuxtv-dvb-apps</a>
+  </define>
+  <define name="linuxtv-cvs">
+    <a href="http://linuxtv.org/cgi-bin/viewcvs.cgi/dvb-apps/util/scan/">LinuxTV CVS</a>
+  </define>
+
+  <define name="generator-interface">
+    <center>
+      <img src="../img/Generator_Interface.png" alt="Generator Interface Tab"/>
+    </center>
+  </define>
+  <define name="generator-audio">
+    <center>
+      <img src="../img/Generator_Audio.png" alt="Generator Audio Tab"/>
+    </center>
+  </define>
+  <define name="generator-remote">
+    <center>
+      <img src="../img/Generator_Remote.png" alt="Generator Remote Tab"/>
+    </center>
+  </define>
+  <define name="generator-network">
+    <center>
+      <img src="../img/Generator_Network.png" alt="Generator Network Tab"/>
+    </center>
+  </define>
+  <define name="generator-services">
+    <center>
+      <img src="../img/Generator_Services.png" alt="Generator Services Tab"/>
+    </center>
+  </define>
+  <define name="generator-packages">
+    <center>
+      <img src="../img/Generator_Packages.png" alt="Generator Packages Tab"/>
+    </center>
+  </define>
+
   <section label="doc">
     <content lang="en" title="Documentation ..."/>
     <content lang="fr" title="Documentation ..."/>
     <content lang="de" title="Dokumentation ..."/>
+
+    <subsection label="faq-list">
+      <content lang="en" title="Documents List ...">
+        <a href="#wiki">GeeXboX Wiki Documentation Base ...</a><br/>
+        <a href="#osd_menu">How to use the OSD menu ...</a><br/>
+        <a href="#remote-scheme">Using a supported remote ...</a><br/>
+        <a href="#mac-boot">Booting on Mac ...</a><br/>
+        <a href="#post-process">Enabling Post-Processing Effects ...</a><br/>
+        <a href="#building">Building the GeeXboX ...</a><br/>
+        <a href="#config">GeeXboX Config Files ...</a><br/>
+        <a href="#mplayer">MPlayer Documentation ...</a><br/>
+        <a href="#generator">Using the ISO generator ...</a><br/>
+        <a href="#installator">Using the installer ...</a><br/>
+        <a href="#tv">Editing TV Configuration ...</a><br/>
+        <a href="#network">Editing Network Configuration ...</a><br/>
+        <a href="#wifi">Editing WiFi configuration ...</a><br/>
+        <a href="#gateway">Using a gateway to access to the Internet and play streaming media ...</a><br/>
+        <a href="#pxe">Booting from PXE using NFS shares ...</a><br/>
+        <a href="#firmware_loader">Firmware auto-loader ...</a><br/>
+        <a href="#upnp_share">UPnP File Sharing ...</a><br/>
+        <a href="#dvb_cards">DVB cards Support ...</a><br/>
+      </content>
+      <content lang="fr" title="Liste des documents ...">
+        <a href="#wiki">Base de documentation Wiki GeeXboX ...</a><br/>
+        <a href="#osd_menu">Guide d'utilisation du menu OSD ...</a><br/>
+        <a href="#remote-scheme">Utiliser une télécommande supportée ...</a><br/>
+        <a href="#mac-boot">Booter sur Mac ...</a><br/>
+        <a href="#post-process">Activer les effets de traitement d'image (Post-Processing) ...</a><br/>
+        <a href="#building">Construire la GeeXboX ...</a><br/>
+        <a href="#config">Fichiers de Configuration ...</a><br/>
+        <a href="#mplayer">Documentation de MPlayer ...</a><br/>
+        <a href="#generator">Utilisation du générateur d'ISO ...</a><br/>
+        <a href="#installator">Utilisation de l'installator ...</a><br/>
+        <a href="#tv">Modifier la configuration TV ...</a><br/>
+        <a href="#network">Modifier la configuration du réseau ...</a><br/>
+        <a href="#wifi">Modifier la configuration WiFi ...</a><br/>
+        <a href="#gateway">Utiliser une passerelle pour accéder à Internet et lire du contenu streaming en direct ...</a><br/>
+        <a href="#pxe">Booting depuis le réseau via PXE en utilisant les partages NFS ...</a><br/>
+        <a href="#firmware_loader">Chargement des firmwares ...</a><br/>
+        <a href="#upnp_share">Partage de fichiers via UPnP ...</a><br/>
+        <a href="#dvb_cards">Support des cartes DVB ...</a><br/>
+      </content>
+      <content lang="de" title="Dokument Liste ...">
+        <a href="#osd_menu">Benutzen des OSD Menüs ...</a><br/>
+        <a href="#remote-scheme">Eine unterstützte Fernbedienung verwenden ...</a><br/>
+        <a href="#mac-boot">Starten auf dem Mac ...</a><br/>
+        <a href="#post-process">Aktivieren von Effekten zur Nachbearbeitung (Post-Processing) ...</a><br/>
+        <a href="#building">Erstellen der GeeXboX ...</a><br/>
+        <a href="#config">GeeXboX Konfigurations Dateien ...</a><br/>
+        <a href="#mplayer">MPlayer Dokumentation ...</a><br/>
+        <a href="#generator">Verwenden des ISO Generators ...</a><br/>
+        <a href="#installator">Verwenden des Installers ...</a><br/>
+        <a href="#tv">TV Konfiguration ...</a><br/>
+        <a href="#network">Netzwerk Konfiguration ...</a><br/>
+        <a href="#wifi">WiFi Konfiguration ...</a><br/>
+        <a href="#gateway">Nutzen eines Gateways, um Streams aus dem Internet abzuspielen ...</a><br/>
+        <a href="#pxe">Booten mittels PXE über NFS Freigaben ...</a><br/>
+      </content>
+    </subsection>
 
     <subsection label="wiki">
       <content lang="en" title="GeeXboX Wiki Documentation Base ...">
@@ -521,37 +628,125 @@ oder aber eine installationsfähige Linux GeeXboX Version erstellen, durch : <br/
     </subsection>
     <subsection label="generator">
       <content lang="en" title="Using the ISO generator ...">
-        Thanks to this generator, it's now possible to build a bootable image of the GeeXboX from the binaries. This lets you build the GeeXboX after slight changes in the configuration files, for example, with no need to build the full sources. Besides, the generation process can be done both under Linux and Windows. Just execute the ./generator.sh (under Linux) script or generator.exe (under Windows) and watch the magic ;-)<br/><br/>
-
-          GeeXboX's customization is interesting in many ways, such as :<br/><br/>
-
-* <b>Include a movie</b> : You just have to put your movie or sound files and the playlist into the <b>iso</b> directory of the generator and regenerate the image. The GeeXboX will then boot off the CD and will automatically play the provided list/file.<br/><br/>
-
-* <b>Add extra codecs</b> : Even though GeeXboX has now support for RealMedia and Windows Media 9 codecs, these are not rights-free and we do not get authorization to provide them in the released ISO :-( So, you'll have to add them and regenerate the ISO if you want them to be included. Don't worry, we could hardly make it easier !!<br/><br/>
-
-Simply download the GeeXboX extra non-free codecs archive on our download page which contains the RealMedia 8/9/10 (used to read the RV9/10-encoded movies for example) and Windows Media 9 (WMV9/WMA9) codecs add copy the contained files to the <b>iso/GEEXBOX/codecs</b> generator's directory.<br/><br/>
-
-* <b>Modify MPlayer's launch options</b> :<br/>
- You just have to edit the contents fo the file <b>iso/GEEXBOX/etc/mplayer/mplayer.conf</b> and to generate the new ISO.<br/><br/>
-
-Of course, many other changes are available, such as changing the supported remote, using another background video ... but we'll let you study the README.txt file carefully to see the possibilities ;-)
+      Thanks to the GeeXboX ISO generator, it is possible to build a bootable image of the GeeXboX that will fit your needs, just from the binaries, without need to compile the whole distribution from sources. This lets you build the GeeXboX after slight changes in the configuration files, for example, with no need to build the full sources. The GeeXboX ISO FLTK generator works under both Microsoft Windows, GNU/Linux distributions and Apple MacOS X. It can be used to generated both x86 and PPC versions of GeeXboX.<br/>
+      <br/>
+      GeeXboX's customization is interesting in many ways, such as :<br/>
+      <br/>
+      <b>* Include a movie</b> : You just have to put your movie or sound files and the playlist into the <b>iso</b> directory of the generator and regenerate the image. The GeeXboX will then boot off the CD and will automatically play the provided list/file.<br/>
+      <b>* Add non-free extra codecs.</b><br/>
+      <b>* Add non-free firmwares for your drivers.</b><br/>
+      <b>* Add extra fonts for Asian users.</b><br/>
+      <b>* Configure the network settings.</b><br/>
+      <b>* Change theme, fonts and charset encoding.</b><br/>
+      <b>* Configure audio related options.</b><br/>
+      <b>* Configure the remote control and receiver to be used.</b><br/>
+      <b>* Choose the services to be started with GeeXboX.</b><br/>
+      <b>* Modify MPlayer's startup options</b> : You just have to edit the contents fo the file <i>iso/GEEXBOX/etc/mplayer/mplayer.conf</i> and to generate the new ISO. <br/>
+      <br/>
+      For now, just start the FLTK generator binary :<br/>
+      <br/>
+      <b>* generator.exe</b> under <i>Windows</i>.<br/>
+      <b>* linux-i386-generator</b> under <i>GNU/Linux</i>.<br/>
+      <b>* macosx-generator.dmg</b> under <i>Mac OS X</i> (needs to be unpacked into generator main directory).<br/>
+      <br/>
+      <use name="generator-interface"/>
+      <br/>
+      There you can select the main options like the theme you want to use and the language of the GeeXboX menu.<br/>
+      Just make your selection between the different combo boxes.<br/>
+      You can also force the subtitle charset according to your own localization and can force the use of another font that the ones included by default in GeeXboX (both for the menu and the subtitles on movies).<br/>
+      <br/>
+      <use name="generator-audio"/>
+      <br/>
+      There you can configure some of the audio related options.<br/>
+      <br/>
+      First is the ALSA souncard ID. Your computer may have more than one sound card (for example a PCI and integrated one). This let you choose which one you want to use. So just fill in the ID of the card you want to use (considering <b>"0"</b> is the master one, which is usually the onboard one in case of multiple cards).<br/>
+      <br/>
+      You can also select the output mode, to specify whether you want to use analog or digital output of your sound card. When choosing digital output, you can force the AC3/DTS passthrough which will result in a direct transmission of AC3/DTS streams to your external amplifier/decoder. You can also specify the number of output channels (<i>Stereo</i>, <i>Surround</i> or <i>5.1 Surround</i>).<br/>
+      <br/>
+      <use name="generator-remote"/>
+      <br/>
+      There you can simply choose which remote control and receiver you want to use to control GeeXboX. Please note that you can use more than one remote and receiver at a time.<br/>
+      <br/>
+      <use name="generator-network"/>
+      <br/>
+      This menu provides you the same informations that the one from the <i>/etc/network</i> file. You just have to select whether you want GeeXboX to use your <i>Ethernet</i> or <i>Wireless</i> (or <i>Autodetection</i>) network interface. In case of a wireless device use, you have the possibility to set some settings like the connection mode (<i>managed</i> or <i>ad-hoc</i>) and the optional SSID and WEP key (no WPA support for now).<br/>
+      <br/>
+      Then, you can also determine if you want to use a DHCP autoconfiguration or a static declaration. In case of static mode, you can define the IP address, DNS server and gateway addresses you want GeeXboX to use with your network adapter. Please note that only one network interface can be used at a time.<br/>
+      <br/>
+      <use name="generator-services"/>
+      <br/>
+      This tab lets you determines some configuration about network services.<br/>
+      There you can provide the username and password you want GeeXboX to use to access to your network Samba contents (Windows shares).<br/>
+      You can also select the network services (<i>HTTP / FTP / Telnet</i>) to be started on GeeXboX (default is none, as it may result in anonymous root access to unauthorized people).<br/>
+      You can also activate or deactivate the use of the UPnP devices auto-discovery, if you're not interested in this features or simply do not want to waste CPU time for this.<br/>
+      <br/>
+      <use name="generator-packages"/>
+      <br/>
+      This tab is particularly usefull to add non-free components or fonts to GeeXboX. There you can select all of the extra non-free firmwares your drivers may require. You can also add non-free audio/video codecs or asian fonts that were too big to be included in regular GeeXboX ISO. Just select the files you need and click on the <b>Download</b> button. Then, the generator will go on the Internet, grab the files you need and add them to the ISO.<br/>
+      <br/>
+      All you have to do now, is to hit the <b>Compile</b> button.<br/>
+      That's it, the generator will produce a new GeeXboX bootable ISO that is ready to be burned on a CD. 
       </content>
       <content lang="fr" title="Utilisation du générateur d'ISO ...">
-        Grâce à ce générateur d'ISO, il est désormais possible de reconstruire une image bootable de la GeeXboX à partir des binaires. Cela permet par exemple de reconstruire la GeeXboX suite à de petites modifications des fichiers de configuration, sans pour autant avoir à recompiler toutes les sources. De plus, la génération est possible aussi bien sous Linux que sous Windows. Exécutez simplement ./generator.sh (sous Linux) ou generator.bat (sous Windows) et laisser la magie apparaître ;-)<br/><br/>
-
-          La personnalisation de la GeeXboX est intéressante sur plusieurs aspects :<br/><br/>
-
-* <b>Inclure un film</b> : Il vous suffit de mettre votre film ou vos fichiers sons ainsi que leur liste de lecture dans le répertoire <b>iso</b> du générateur et de régénérer l'image ISO. La GeeXboX bootera alors sur le CD et lancera directement la lecture.<br/><br/>
-
-* <b>Rajouter des codecs supplémentaires</b> : Si la GeeXboX supporte désormais les codecs RealMedia et Windows Media 9, ces derniers ne sont pas libres de droit pour autant et nous ne disposons pas de l'autorisation permettant leur diffusion au sein de nos ISO pré compilées. Aussi, vous devrez les ajouter et régénérer l'ISO si votre souhait est de les voir inclus. Ne vous inquiétez pas, il n'y a rien de plus simple !!<br/><br/>
-
-Il vous suffit de télécharger l'archive de codecs additionnels non-libres disponibles sur le page de téléchargements, qui contient les codecs RealMedia 8/9/10 (utilisés pour lire le format RV9/10 par exemple) et Windows Media 9 (WMV9/WMA9). Ajoutez simplement les fichiers contenus dans l'archive au répertoire <b>iso/GEEXBOX/codecs</b> du générateur.<br/><br/>
-
-* <b>Modifier les options de lancement de MPlayer</b> : Il vous suffira pour cela de simplement modifier le contenu du fichier <b>iso/GEEXBOX/etc/mplayer/mplayer.conf</b> et à nouveau de regénérer l'ISO.<br/><br/>
-
-De nombreuses autres modifications sont bien entendu possibles, comme le changement de télécommande, d'image de fond ... mais nous vous laissons parcourir en détail le fichier README.txt fourni en conséquence ;-)
+      Grâce au générateur d'ISO de la GeeXboX, il est possible de constituer une image auto-amorçable de la GeeXboX qui correspondra exactement à vos besoins et ce, simplement à partir des binaires, sans avoir recourt à une compilation complète des sources. Ceci vous permet donc de procéder à de nombreux changements dans les fichiers de configuration, sans besoin de tout recompiler. Le générateur d'ISO FLTK de la GeeXboX fonctionne aussi bien sous Microsoft Windows, les distributions GNU/Linux que les systèmes Apple MacOS X. Il peut être utilisé pour produire des versions x86 et PPC de la GeeXboX.<br/>
+      <br/>
+      La personnalisation de la GeeXboX est intéressante à plus d'un point, comme par exemple :<br/>
+      <br/>
+      <b>* Inclure une film</b> : Vous n'avez simplement qu'à déposer votre films ou vos musiques ou listes de lectures dans le répertoire <b>iso</b> du générateur et relancer la procédure de génération d'image. La GeeXboX démarrera alors immédiatement sur la lecture des fichiers entreposés.<br/>
+      <b>* Ajout de codecs supplémentaires non-libres.</b><br/>
+      <b>* Ajout de firmwares non-libres pour vos pilotes de périphériques.</b><br/>
+      <b>* Ajout de polices de caractères asiatiques.</b><br/>
+      <b>* Configuration des paramètres réseau.</b><br/>
+      <b>* Modifications du thème, des fontes et encodage des textes.</b><br/>
+      <b>* Configuration des paramètres sonores.</b><br/>
+      <b>* Configuration de la télécommande et du récepteur à utiliser.</b><br/>
+      <b>* Choix des services à lancer au démarrage de la GeeXboX.</b><br/>
+      <b>* Modification des paramètres d'éxécution de MPlayer</b> : pour ce faire, vous n'avez qu'à modifier le contenu du fichier <i>iso/GEEXBOX/etc/mplayer/mplayer.conf</i> et regénérer une ISO.<br/>
+      <br/>
+      Pour ce faire, démarrez simplement le binaire FLTK du générateur :<br/>
+      <br/>
+      <b>* generator.exe</b> sous <i>Windows</i>.<br/>
+      <b>* linux-i386-generator</b> sous <i>GNU/Linux</i>.<br/>
+      <b>* macosx-generator.dmg</b> sous <i>Mac OS X</i> (il est nécessaire d'extraire le fichier dans le répertoire principal du générateur au préalable).<br/>
+      <br/>
+      <use name="generator-interface"/>
+      <br/>
+      Dans ce menu, vous pouvez choisir les options relatives à l'aspect graphique, comme par exemple le thème que vous souhaitez utiliser ou encore la langue du menu.<br/>
+      Faites simplement votre choix au travers des boîtes de sélection proposées<br/>
+      Vous pouvez également forcer l'utilisation d'un certain type d'encodage des textes selon votre localisation géographique et pouvez forcer l'utilisation d'une fonte pour le menu et les sous-titres des films autre que celles proposées apr défaut par la GeeXboX.<br/>
+      <br/>
+      <use name="generator-audio"/>
+      <br/>
+      Ce menu permet la configurations des paramètres sonores.<br/>
+      <br/>
+      En premier lieu vient l'identifiant ALSA de carte son. Votre ordinateur pouvant être équipé de plus d'une carte son (une carte PCI et une carte intégrée par exemple), ceci vous permettra de choisir laquelle utiliser. Indiquez donc simplement l'identifiant de la carte que vous souhaitez utiliser (en considérant que <b>"0"</b> correspond à la carte principale, ce qui est généralement le cas de la carte intégrée dans le cas de cartes multiples).<br/>
+      <br/>
+      Vous pouvez également choisir le mode de restitution audio, en précisant si vous souhaitez un son analogique ou numérique. Si vous optez pour une restitution numérique, il est possible d'activer la sortie direct AC3/DTS ce qui résulte en une transmission brute du flux AC3/DTS (donc sans décodage préalable) vers votre décodeur/amplificateur externe. Vous pouvez également spécifier le nombre de canaux de restitution (<i>Stereo</i>, <i>Surround</i> ou <i>5.1 Surround</i>).<br/>
+      <br/>
+      <use name="generator-remote"/>
+      <br/>
+      Ce menu vous permet de choisir lequel des modèles de télécommande et de récepteur vous souhaitez utiliser pour contrôler la GeeXboX. Veuillez noter qu'un seul type de télécommande/récepteur peut être utilisé à la fois.<br/>
+      <br/>
+      <use name="generator-network"/>
+      <br/>
+      Ce menu vous permet de configurer un certain nombre de paramètres réseau, comme c'est le cas via une édition manuelle du fichier <i>/etc/network</i>. Vous n'avez qu'à choisir si vous désirez que la GeeXboX utilise votre interface réseau <i>Ethernet</i> ou <i>Wireless</i> (sans-fil) (ou optez pour l'<i>Autodetection</i>). Dans le cas d'une utilisation d'une interface sans-fil (WiFi), vous avez en outre la possibilité de régler certains paramètres de connectivité, tels que le mode de connection (<i>managed</i> ou <i>ad-hoc</i>) ainsi que les paramètres optionnels comme le SSID ou la clé WEP (il n'y a pas de support WPA à l'heure actuelle).<br/>
+      <br/>
+      Ensuite, vous pouvez choisir d'attribuer une configuration réseau via DHCP ou par déclaration manuelle. Dans ce dernier cas, vous pouvez définir l'adresse IP qui sera ffectée à la GeeXboX, mais également les serveurs DNS et passerelles qu'elle devra utiliser. Veuillez noter que seule une interface réseau peut être utilisée à la fois.<br/>
+      <br/>
+      <use name="generator-services"/>
+      <br/>
+      Ce menu vous permet de séléctionner quels seront les services réseaux qui devront être lancés au démarrage de la GeeXboX.<br/>
+      Il est ainsi possible de spécifier le nom d'utilisateur et mot de passe associé aux comptes Samba (partages Windows), afin que la GeeXboX puisse s'y connecter.<br/>
+      Vous pouvez également choisir quels services réseaux activer au démarrage (<i>HTTP / FTP / Telnet</i>). Par défaut, pour des raisons de sécurité (accès administrateur anonyme), tous sont désactivés.<br/>
+      Enfin vous pouvez choisir d'activer ou non l'auto-découverte de périphériques UPnP, selon que vous êtes ou non attiré par cette fonctionnalité ou que vous ne voulez pas perdre de temps CPU pour ce service.<br/>
+      <br/>
+      <use name="generator-packages"/>
+      <br/>
+      Ce menu est particulièrement utile pour ajouter des composantes non-libres (propriétaires) ou des polices de caractères à la GeeXboX. Il vous est ainsi possible de choisir les firmwares non-libres pour vos pilotes de périphériques ou encore les codecs audio/vidéos non-libres ou les polices asiatiques qu'il n'était pas possible d'inclure à la GeeXboX pour des raisons de taille ou simplement de copyright. Vous n'avez alors qu'à sélectionner ce dont vous avez besoin et cliquer sur le bouton <b>Download</b>. Le générateur se chargera alors pour vous de récupérer ces fichiers sur Internet et de les inclure à l'ISO produite.<br/>
+      <br/>
+      Tout ce qu'il vous reste à faire maintenant, c'est de cliquer sur le bouton <b>Compile</b>.<br/>
+      C'est terminé, le générateur vient maintenant de générer une ISO personnalisée de la GeeXboX qu'il ne vous reste plus qu'à graver sur CD pour être utilisable.       
       </content>
-
       <content lang="de" title="Verwenden des ISO Generators ...">
         Dank dieses Generators ist es nun möglich, ein bootfähiges Image der GeeXboX aus den Binärdateien zu erstellen.  So können Sie z.B. nach kleinen Änderungen in den Konfigurationsdateien ein neues Image erstellen, ohne die gesamten Quellen neu zu übersetzen. Außerdem kann dieser Vorgang sowohl unter Linux als auch unter Windows durchgeführt werden. Starten Sie dazu das ./generator.sh Skript (unter Linux) oder generator.exe (unter Windows) und schauen Sie gespannt zu, was passiert ;-)<br/><br/>
 
@@ -569,91 +764,6 @@ Laden Sie dazu bitte diese <use name="dl-codecs"/>, welches die benötigten Codec
 Natürlich gibt es noch jede Menge anderer verfügbarer Optionen für Dinge wie das Anpassen an die eigene Fernbedienung, das Ändern des Standard Hintergrundvideos ... aber dazu lassen wir Sie lieber die Datei README.txt sorgsam studieren, damit Sie alle Möglichkeiten entdecken ;-)
       </content>
     </subsection>
-
-    <subsection label="extra-fonts">
-      <content lang="en" title="Adding extra subtitle fonts ...">
-First make sure your font is not included in the official GeeXboX package, by using the generator and looking up your font in the section above. Most fonts are already included in official package, some are supported but not included because of their size (Chinese fonts for example).<br/><br/>
-
-<b>* General support :</b> To add support for new fonts you should extract your font into font directory and add your font name to <i>language/lang.conf</i> FONTS variable.<br/><br/>
-
-<b>* Chinese support :</b> To include Chinese fonts in your generated geexbox iso you should get either the big5 or the gb2312 font from MPlayer contributed fonts :<br/><br/>
-
-     <use name="extra-fonts-url"/><br/><br/>
-
-and unpack and copy into generator ./font/big5 or ./font/gb2312 the directory which ends with `24` (font size 24).<br/><br/>
-
-For example if you wish to use the 'gb2312 kai' font :<br/><br/>
-
-<b>- GNU/Linux users :</b>
-<br/><i>
-wget <use name="gb2312-url"/><br/>
-tar -jxf gb2312-kai.tar.bz2<br/>
-mv gb2312-kai/gkai00mp24 ../path/to/generator/font/gb2312<br/>
-</i><br/>
-
-<b>- Windows users :</b>
-<br/><i>
-Download <use name="gb2312-url"/><br/>
-Open it up with WinZip.<br/>
-And extract gb2312-kai\gkai00mp24 directory from the archive into ..\path\to\generator\font\gb2312<br/>
-</i>
-      </content>
-      <content lang="fr" title="Ajout de polices de caractères additionelles pour les sous-titres ...">
-Vous pouvez être amenés à vouloir rajouter un jeu de caractère différent de celui proposé par défaut (iso8859-1) pour les sous-titres. La première étape est de s'assurer que la fonte n'est pas déjà inclus dans l'archive officielle de la GeeXboX. Pour cela, utilisez le generator et regardez si la fonte ne s'y trouve pas déjà. La plupart des jeus de caractères sont déjà présents dans l'archive officielle mais certains n'ont pas pu l'être en raison de leur taille excessive (les
-polices asiatiques en particulier).<br/><br/>
-
-<b>* Fontes génériques :</b> Pour rajouter le support de nouvelles fontes, vous n'avez qu'à extraire votre police dans le répertoire font et ajouter le nom de votre fonte à la variable FONT du fichier <i>language/lang.conf</i>.<br/><br/>
-
-<b>* Support du Chinois :</b> Pour inclure les fontes Chinoise dans l'ISO, vous devez au préalable récupérer l'archive big5 ou gb2312 utilisée par MPlayer :<br/><br/>
-
-     <use name="extra-fonts-url"/><br/><br/>
-
-et la décompresser et copier dans le répertoire ./font/big5 ou ./font/gb2312 du generator le contenu du répertoire se terminant par `24` (taille de fonte valant 24).<br/><br/>
-
-Par exemple, si vous souhaitez utiliser la police 'gb2312 kai' :<br/><br/>
-
-<b>- Pour les utilisateurs de systèmes GNU/Linux :</b>
-<br/><i>
-wget <use name="gb2312-url"/><br/>
-tar -jxf gb2312-kai.tar.bz2<br/>
-mv gb2312-kai/gkai00mp24 ../path/to/generator/font/gb2312<br/>
-</i><br/>
-
-<b>- Pour les utilisateurs de Windows :</b>
-<br/><i>Téléchargez le fichier à l'adresse <use name="gb2312-url"/><br/>
-Ouvrez le avec WinZip ou équivalent.<br/>
-Extrayez le contenu du répertoire gb2312-kai\gkai00mp24 de l'archive vers le répertoire ..\path\to\generator\font\gb2312 du generator.<br/>
-</i>
-      </content>
-      <content lang="de" title="Zusäztliche Schriftarten für Untertitel hinzufügen ...">
-Stellen Sie bitte zuerst sicher, dass die gewünschte Schriftart nicht bereits in der offiziellen Version des Generators vorhanden ist. Die meisten Schriftarten sind nämlich schon mit dabei. Es gibt andere Schriftarten die zwar unterstützt, aber aufgrund Ihrer Größe nicht mit dabei sind (z.B. chinesische Schriftarten).
-<br/><br/>
-
-<b>* Allgemeine Unterstützung :</b> Um neue Schriftarten hinzuzufügen, sollten Sie Ihre Schriftart in das "font" Verzeichnis kopieren. Anschließend editieren Sie bitte die Datei <i>language/lang.conf</i> und fügen den Namen der neuen Schriftart bitte an die Variable FONTS an.<br/><br/>
-
-<b>* Unterstützung für Chinesisch :</b> Um Ihrem GeeXboX ISO-Image chinesische Schriftarten hinzuzufügen, sollten Sie entweder die big5 oder die gb2312 Schriftart des MPlayers verwenden :<br/><br/>
-
-     <use name="extra-fonts-url"/><br/><br/>
-
-Entpacken Sie diese und kopieren sie nach ./font/big5 oder ./font/gb2312 aus dem Verzeichnis, welches mit `24` (Schriftgröße 24) endet.<br/><br/>
-
-Als Beispiel, wenn Sie die 'gb2312 kai' Schriftart verwenden möchten :<br/><br/>
-
-<b>- GNU/Linux Benutzer :</b>
-<br/><i>
-wget <use name="gb2312-url"/><br/>
-tar -jxf gb2312-kai.tar.bz2<br/>
-mv gb2312-kai/gkai00mp24 ../Pfad/zum/generator/font/gb2312<br/>
-</i><br/>
-
-<b>- Windows Benutzer :</b>
-<br/><i>
-Laden Sie <use name="gb2312-url"/><br/>
-Öffnen Sie das Archiv mit WinZip.<br/>
-Extrahieren Sie das gb2312-kai\gkai00mp24 Verzeichnis aus dem Archiv in ..\Pfad\zum\generator\font\gb2312<br/>
-</i>
-      </content>
-    </subsection>        
 
     <subsection label="installator">
       <content lang="en" title="Using the installer ...">
@@ -1099,5 +1209,132 @@ Vergessen Sie nicht auch die Datei : <b>C:\tftp32\GEEXBOX\boot\pxelinux.cfg\defa
 Starten Sie nun den Geexbox Computer und alles sollte wie gewünscht funktionieren.<br/>
       </content>
     </subsection>
+
+    <subsection label="firmware_loader">
+      <content lang="en" title="Firmware auto-loader ...">
+      GeeXboX supports many free drivers but unfortunately some of them may require an additionnal proprietary firmware (non-free and so not included in GeeXboX ISO) to work properly. The firmware is a binary file that is uploaded to the device (PCI or USB) when the driver is loaded. For each driver, the firmware has to be a specific file with a pre-determined name.<br/>
+      <br/>
+      If you have reluctant hardware that require additionnal firmware (in most of the cases, it only concerns WiFi and DVB cards), you'll need to check on the Internet for your Linux driver page to see how to check the firmware file. Most of the time, you'll get a direct download link. Sometimes, you'll need to extract it from your Windows drivers archive that was shipped with your hardware.<br/>
+      <br/> 
+      Once you get the firmware file, simply put it into the <b>/firmwares</b> directory. You can put in as many firmwares as you want, and GeeXboX will automatically find them and use them with the right drivers if needed. The only thing you then have to take care is to have the good firmwares file and to generate a new ISO.<br/>
+      <br/>
+      Please note that you can also use the GeeXboX ISO generator to automatically grab firmwares for you. You can select all of the extra binary firmware files you want the generator to add for you. Simply note that this feature will require you to have an Internet access when using the GeeXboX generator.<br/>
+      </content>
+      <content lang="fr" title="Chargement des firmwares ...">
+      La GeeXboX supporte de nombreux pilotes de périphériques mais malheureusement, certains d'entre eux requierent un firmware binaire additionnel propriétaire (i.e. non-libre et donc non-inclus dans la GeeXboX). Le firmware est un fichier binaire qui est envoyé au périphérique (PCI ou USB) lorsque le pilote se charge. Pour chaque pilote, le firmware se doit d'être un fichier spécifique avec un nom pré-déterminé.<br/>
+      <br/>
+      Si vous disposez de matériel à problème qui peut nécessiter la présence d'un firmware additionnel (dans la plupart des cas, il s'agit de cartes WiFi ou DVB), vous devrez chercher sur Internet une page concernant le support de périphérique sous Linux et l'utilisation du firmware. La plupart du temps, vous tomberez sur un lien de téléchargement direct. Des fois, il vous sera nécessaire d'extraire ce firmware depuis une archive de pilotes pour Windows qui ont été fourni par le fabricant du périphérique.<br/>
+      <br/>
+      Une fois que vous disposerez du fichier de firmware pour votre carte, déposez le simplement dans le répertoire <b>/firmwares</b>. Vous pouvez y stocker autant de firmwares que vous voudrez, la GeeXboX essaiera d'elle même de les charger lorsqu'un pilote en aura besoin. La seule chose dont vous ayez à vous soucier et de disposer des bons fichiers de firmwares avec les bons noms avant de regénérer une nouvelle ISO.<br/>
+      <br/>
+      Veuillez noter que vous pouvez également utiliser le générateur d'ISO de la GeeXboX qui vous permettra de récupérer les firmwares pour vous. Vous pouvez l'utiliser pour sélectionner tous les fichiers de firmware que vous souhaiter et le générateur les téléchargera et ajoutera pour vous. Assurez vous juste de disposer d'une connexion à Internet lors de l'utilisation du générateur.<br/>
+      </content>
+    </subsection>
+
+    <subsection label="upnp_share">
+      <content lang="en" title="UPnP File Sharing ...">
+      UPnP stands for Universal Plug And Play and is a network protocol aiming at providing the autodiscovery of devices and services of your Home Network. The UPnP A/V (for Audio/Video) norms defines several profiles for devices to easily share multimedia files and lets them being played. The UPnP Media Server profiles represent all of the devices that are able to share files to devices implementing the UPnP Media Player or UPnP Media Renderer profiles.<br/>
+      <br/>
+      The GeeXboX embeds a UPnP Control Point software that is able to auto-discover all UPnP Media Servers from your Home network and it simply mounts their contents to a dedicated mount point (<i>/mnt/UPnP</i>).<br/>
+      <br/>
+      This way, you just have to share contents using a compliant UPnP Media Server software and they'll be automatically accessible from GeeXboX. For more info about UPnP and some media servers usage, please go to our <use name="wiki-upnp"/> page.<br/>
+      </content>
+      <content lang="fr" title="Partage de fichiers via UPnP ...">
+      UPnP est l'acronyme de Universal Plug And Play et peut se décrire comme un protocole réseau permettant l'auto-découverte de périphériques ainsi que des services qui leur sont associés au sein de votre réseau domestique. La norme UPnP A/V (pour Audio/Video) définit un certains nombre de profiles pour des périphériques permettant le partage et la lecture de fichiers multimédias au sein d'un réseau. Le profile UPnP Media Server permet regroupe tous les périphériques capables de partager des fichiers à des périphériques de type UPnP Media Player ou UPnP Media Renderer, qui sont en mesure de les restituer.<br/>
+      <br/>
+      La GeeXboX embarque un logiciel de contrôle UPnP (UPnP Control Point) qui permet l'auto-découverte de tous les périphériques de type Media Server de votre réseau local et qui s'occupe de monter leur contenu en toute transparence dans un point de montage dédié (<i>/mnt/UPnP</i>).<br/>
+      <br/>
+      De cette manière, il vous suffit de disposer d'un PC ou autre périphérique possédant un logiciel compatible avec le profile UPnP Media Server pour que son contenu soit accessible depuis la GeeXboX. Pour plus d'infos sur l'UPnP ainsi que l'utilsiation de quelques serveurs, veuillez vous référer à la page <use name="wiki-upnp"/>.<br/>
+      </content>
+    </subsection>
+
+    <subsection label="dvb_cards">
+      <content lang="en" title="DVB cards Support ...">
+      GeeXboX has a support for various types of DVB cards (Terrestrial, Cable, ATSC and Satellite) either in PCI or USB. Please note that for now, only one DVB adapter is usable at a time.<br/>
+      <br/>
+      Some DVB devices (especially USB ones) may require an external proprietary firmware to be loaded in the mean time as the driver to be usable. You may have a look at the <use name="wiki-linuxtv"/> to see if your card requires one or not and if so, which one it is.<br/>
+      <br/>
+      Some firmwares can be fetched directly from the <use name="linuxtv-firmware"/> website, otherwise may be included in the Windows drivers archive. See the GeeXboX firmware loader documentation to see how to get them loaded for you.<br/>
+      <br/>
+      For each card, the list of channels is available through the MPlayer's open menu. Nevertheless, there's no way to auto-discover these channels.<br/>
+      <br/>
+      Thus, adding the list of DVB channels to GeeXboX can be done in several ways :<br/>
+      <br/>
+      <b>- using an existing channel list</b> : MPlayer needs to have a working <i>channels.conf</i> file to use DVB. This file can be generated through the tilities provided by the <i>dvb-apps</i> package. Simply use a Linux box that has a DVB card configured, download the <use name="linuxtv-dvb-apps"/> tarball, compile it and create the config file using the <b>scan</b> executable, in <b>zap</b> format (which is the default as of dvb-apps 1.1.0). For example, for a DVB-S (Satellite) card using <i>Astra-19.2E</i> as the provider :<br/>
+      <br/>
+      <b>
+      wget http://www.linuxtv.org/download/dvb/linuxtv-dvb-apps-1.1.0.tar.bz2<br/>
+      tar jxvf linuxtv-dvb-apps-1.1.0.tar.bz2<br/>
+      cd linuxtv-dvb-apps-1.1.0/util/scan<br/>
+      make<br/>
+      ./scan -x 0 dvb-s/Astra-19.2E > channels.conf<br/>
+      </b>
+      <br/>
+      The <b>-x 0</b> flag is here to restrict the scan to Free To Air channels only. Please always do so, as MPlayer do not support encrypted DVB channels.<br/>
+      <br/>
+      According to your type of DVB card, choose either a file from the <b>dvb-s</b>, <b>dvb-c</b>, <b>dvb-t</b> or <b>atsc</b> directories and ask for a scan.<br/>
+      <br/>
+      Then, simply copy the channels.conf file you've just created to the <i>/etc/mplayer</i> directory in the GeeXboX generator tree, and rebuild away.<br/>
+      <br/>
+      <b>- using an existing transponder list</b> : the procedure is highly similar to the one defined just before but with no scan. This time, the scan will be done at GeeXboX boot but this way, you do no more require another Linux system to generate the <i>channels.conf</i> file.<br/>
+      <br/>
+      To do so, you simpy have to check at the <use name="linuxtv-cvs"/>.<br/>
+      <br/>
+      According to your DVB card type (S/T/C/ATSC), check for the good directory and grab the transponder frequency list that fit your needs. Then simply rename the file to <i>dvb.conf</i> and copy it to <i>/etc</i>. Then, rebuild a new ISO using the generator.<br/>
+      <br/>
+      At bootup, if GeeXboX detects a valid transponder file in <i>/etc/dvb.conf</i>, it will be used to scan for DVB channels and will generate the <i>/etc/mplayer/channels.conf</i> file by itself.<br/>
+      <br/>
+      <b>WARNING</b> : Scanning can be slow according to the number of devices to be scanned and will be done each time you boot GeeXboX if using it as a LiveCD. It is highly recommended that you do it once only, then copy the generated <i>/etc/mplayer/channels.conf</i> file somewhere else and rebuild an ISO using generator, following the first method or to install it on disk.<br/>
+      <br/>
+      <b>- using installator</b> : this is for sure the easiest solution but requires you to install GeeXboX to disk. During the installation process, if a valid DVB device is recognized by the system, the installator script will ask you if you want to scan for DVB channels.<br/>
+      <br/>
+      The installator contains the complete list of transponders frequencies. That way, you just have to select your DVB device type and the transponder file you want to use for GeeXboX to scan. The <i>channels.conf</i> file will then be automatically generated.<br/>
+      </content>
+      <content lang="fr" title="Support des cartes DVB ...">
+      La GeeXboX supporte un grand nombre de cartes DVB (Terrestre i.e. TNT, Cable, ATSC et Satellite) et ce, aussi bien en PCI qu'en USB. Veuillez cependant noter qu'il n'est pour l'instant possible d'utiliser qu'un unique adaptateur DVB à la fois.<br/>
+      <br/>
+      Certains péripéhriques DVB (particulièrement ceux en USB) peuvent nécessiter un firmware propriétaire additionnel pour fonctionner correctement. Il vous sera peut être utile de jeter un oeil au <use name="wiki-linuxtv"/> pour vous assurer que votre carte nécessite un tel firmware ou non. Dans ce cas, le générateur d'ISO pourra le télécharger pour vous.<br/>
+      <br/>
+      Certains firmwares peuvent être récupérés directement depuis le site Web
+    de <use name="linuxtv-firmware"/>, d'autres peuvent être inclus dans l'archive de drivers Windows du constructeur de la carte. Veuillez vous référer à la documentation sur le chargement des firmwares dans la GeeXboX pour de plus amples informations.<br/>
+      <br/>
+      Pour chaque carte, la liste des chaînes disponibles est disponible au sein du menu de MPlayer. Il n'est cependant pas possible d'auto-découvrir ces chaînes automatiquement.<br/>
+      <br/>
+      De ce fait, la déclaration de chaînes accessibles par DVB dans la GeeXboX peut être fait de différentes manières :<br/>
+      <br/>
+      <b>- utiliser une liste de chaîne existante</b> : MPlayer a besoin d'un fichier <i>channels.conf</i> valide et fonctionnel pour faire fonctionner la DVB. Ce fichier peut être généré à l'aide d'utilitaire fournis par le paquetage <i>dvb-apps</i>. Utilisez simplement une distribution Linux classique où votre carte DVB a déjà été configurée, téléchargez l'archive <use name="linuxtv-dvb-apps"/>, compilez le tout et créez le fichier de configuration via l'utilitaire <b>scan</b>, dans le format <b>zap</b> (qui est le format par défaut).<br/>
+      <br/>
+      Par exemple, pour une carte DVB-S (Satellite) utilisant le fournisseur d'accès Astra-19.2E :<br/>
+      <br/>
+      <b>
+      wget http://www.linuxtv.org/download/dvb/linuxtv-dvb-apps-1.1.0.tar.bz2<br/>
+      tar jxvf linuxtv-dvb-apps-1.1.0.tar.bz2<br/>
+      cd linuxtv-dvb-apps-1.1.0/util/scan<br/>
+      make<br/>
+      ./scan -x 0 dvb-s/Astra-19.2E > channels.conf<br/>
+      </b>
+      <br/>
+      Le drapeau <b>-x 0</b> indique que le scan ne tentera pas de se connecter aux chaînes cryptées (généralement payantes). Veuillez tout le temps procéder de la sorte, MPlayer ne gérant de toutes façons pas les chaînes DVB cryptées.<br/>
+      <br/>
+      Selon votre type de carte DVB, choisissez un fichier de transponders (fournisseur) depuis les répertoires <b>dvb-s</b>, <b>dvb-c</b>, <b>dvb-t</b> ou <b>atsc</b>.<br/>
+      <br/>
+      Ensuite, copiez simplement le fichier channels.conf que vous venez de générer au sein du répertoire <i>/etc/mplayer</i> de l'arborescence GeeXboX du générateur and recompilez une ISO.<br/>
+      <br/>
+      <b>- utiliser une liste de transpondeur existante</b> : cette procédure est relativement similaire à la précédente à la différence qu'il s'agit cette fois de la GeeXboX qui va s'occuper de scanner les chaînes pour vous et ce, à chaque démarrage. Vous n'aurez ainsi plus besoin d'une autre distribution Linux pour générer le fichier <i>channels.conf</i>.<br/>
+      <br/>
+      Pour ce faire, rendez-vous simplement sur le <use name="linuxtv-cvs"/>.<br/>
+      <br/>
+      Selon votre type de carte DVB (S/T/C/ATSC), sélectionnez le bon répertoire et choisissez le fichier de liste de fréquences de transpondeurs qui correspond à vos besoins ou votre localisation géographique. Renommez ensuite simplement ce fichier en <i>dvb.conf</i> et copiez le dans le répertoire <i>/etc</i>. Puis, reconstruisez une ISO via le générateur.<br/>
+      <br/>
+      Au démarrage, si la GeeXboX détecte un fichier de transpondeur valide dans le fichier <i>/etc/dvb.conf</i>, elle l'utilisera pour scanner les chaînes DVB disponibles et générera le fichier <i>/etc/mplayer/channels.conf</i> d'elle-même.<br/>
+      <br/>
+      <b>ATTENTION</b> : Le scan de chaînes peut être relativement lent selon le type d'émetteur et le nombre de chaînes à découvrir. Ce processus est de plus effectué à chaque démarrage de la GeeXboX si vous l'utilisez en tant que LiveCD. Il est alors hautement recommandé qu'une fois le scan effectué, vous copiez manuellement le fichier <i>/etc/mplayer/channels.conf</i> qui aura été généré quelque part afin de pouvoir le ré-utiliser dans le générateur d'ISO en suivant la première méthode, ou de faire une installation sur disque dur.<br/>
+      <br/>
+      <b>- utiliser l'installator</b> : il s'agit probablement là de la méthode la plus simple mais recquiert une installation sur disque de la GeeXboX. Au cours du processus d'installation, si un périphérique compatible DVB est reconnu sur votre système, le script d'installation vous demandera de lui-même si vous souhaitez rechercher les chaînes disponibles pour votre carte DVB.<br/>
+      <br/>
+      L'installator contient la liste complète des fréquences des transpondeurs du site LinuxTV. De ce fait, vous n'aurez qu'à sélectionner votre type de carte ainsi que le transpondeur à utiliser et la GeeXboX s'occupera de scanner le tout et de générer le fichier <i>/etc/mplayer/channels.conf</i> adéquat.
+      </content>
+    </subsection>
+
   </section>
 </article>

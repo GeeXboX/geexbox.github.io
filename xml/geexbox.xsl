@@ -39,6 +39,9 @@
       <script type="text/javascript" src="../style/styleswitcher.js">
         <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
       </script>
+      <script type="text/javascript" src="../style/pngfix.js">
+        <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
+      </script>
     </head>
 
     <body>
