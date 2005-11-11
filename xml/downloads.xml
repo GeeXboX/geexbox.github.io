@@ -123,8 +123,8 @@
           * <b><use name="dl-x86-iso-en"/> - <use name="dl1-x86-iso-en"/> - <use name="dl2-x86-iso-en"/> - 6.3 MB</b><br/>
           * <b><use name="dl-x86-iso-fr"/> - <use name="dl1-x86-iso-fr"/> - <use name="dl2-x86-iso-fr"/> - 6.3 MB</b><br/>
           <br/>
-          * <b><use name="dl-ppc-iso-en"/> - <use name="dl1-ppc-iso-en"/> - <use name="dl2-ppc-iso-en"/> - 12 MB</b><br/>
-          * <b><use name="dl-ppc-iso-fr"/> - <use name="dl1-ppc-iso-fr"/> - <use name="dl2-ppc-iso-fr"/> - 12 MB</b><br/>
+          * <b><use name="dl-ppc-iso-en"/> - <use name="dl1-ppc-iso-en"/> - <use name="dl2-ppc-iso-en"/> - 11 MB</b><br/>
+          * <b><use name="dl-ppc-iso-fr"/> - <use name="dl1-ppc-iso-fr"/> - <use name="dl2-ppc-iso-fr"/> - 11 MB</b><br/>
           <br/>
 
           * <use name="dl-old-en"/> - <use name="dl1-old"/> - <use name="dl2-old"/><br/>
@@ -135,8 +135,8 @@
           * <b><use name="dl-x86-iso-en"/> - <use name="dl1-x86-iso-en"/> - <use name="dl2-x86-iso-en"/> - 6,3 Mo</b><br/>
           * <b><use name="dl-x86-iso-fr"/> - <use name="dl1-x86-iso-fr"/> - <use name="dl2-x86-iso-fr"/> - 6,3 Mo</b><br/>
           <br/>
-          * <b><use name="dl-ppc-iso-en"/> - <use name="dl1-ppc-iso-en"/> - <use name="dl2-ppc-iso-en"/> - 12 Mo</b><br/>
-          * <b><use name="dl-ppc-iso-fr"/> - <use name="dl1-ppc-iso-fr"/> - <use name="dl2-ppc-iso-fr"/> - 12 Mo</b><br/>
+          * <b><use name="dl-ppc-iso-en"/> - <use name="dl1-ppc-iso-en"/> - <use name="dl2-ppc-iso-en"/> - 11 Mo</b><br/>
+          * <b><use name="dl-ppc-iso-fr"/> - <use name="dl1-ppc-iso-fr"/> - <use name="dl2-ppc-iso-fr"/> - 11 Mo</b><br/>
           <br/>
 
           * <use name="dl-old-fr"/> - <use name="dl1-old"/> - <use name="dl2-old"/><br/>
@@ -147,8 +147,8 @@
           * <b><use name="dl-x86-iso-en"/> - <use name="dl1-x86-iso-en"/> - <use name="dl2-x86-iso-en"/> - 6,3 MB</b><br/>
           * <b><use name="dl-x86-iso-fr"/> - <use name="dl1-x86-iso-fr"/> - <use name="dl2-x86-iso-fr"/> - 6,3 MB</b><br/>
           <br/>
-          * <b><use name="dl-ppc-iso-en"/> - <use name="dl1-ppc-iso-en"/> - <use name="dl2-ppc-iso-en"/> - 12 MB</b><br/>
-          * <b><use name="dl-ppc-iso-fr"/> - <use name="dl1-ppc-iso-fr"/> - <use name="dl2-ppc-iso-fr"/> - 12 MB</b><br/>
+          * <b><use name="dl-ppc-iso-en"/> - <use name="dl1-ppc-iso-en"/> - <use name="dl2-ppc-iso-en"/> - 11 MB</b><br/>
+          * <b><use name="dl-ppc-iso-fr"/> - <use name="dl1-ppc-iso-fr"/> - <use name="dl2-ppc-iso-fr"/> - 11 MB</b><br/>
           <br/>
 
           * <use name="dl-old-de"/> - <use name="dl1-old"/> - <use name="dl2-old"/><br/>
@@ -160,19 +160,19 @@
         With this package, it is easy to modify the GeeXboX in a few seconds without having to build the sources. The generator produces an ISO image of the GeeXboX, ready to be burned on disc. This piece of software currently works under both GNU/Linux and Microsoft Windows 9x/NT/2k/XP systems.<br/><br/>
           <b><use name="dl-x86-gen"/> - <use name="dl1-x86-gen"/> - <use name="dl2-x86-gen"/> - 8.2 MB</b>
           <br/>
-          <b><use name="dl-ppc-gen"/> - <use name="dl1-ppc-gen"/> - <use name="dl2-ppc-gen"/> - 8.6 MB</b>
+          <b><use name="dl-ppc-gen"/> - <use name="dl1-ppc-gen"/> - <use name="dl2-ppc-gen"/> - 8.5 MB</b>
       </content>
       <content lang="fr" title="Générateur d'ISO GeeXboX">
         Avec ce paquetage, il vous sera facile de modifier la GeeXboX en quelques instants sans avoir à recompiler toutes les sources. Le générateur produit une image ISO de la GeeXboX prête à être gravée sur CD. Ce logiciel fonctionne sur les systèmes GNU/Linux et Microsoft Windows 9x/NT/2k/XP.<br/><br/>
           <b><use name="dl-x86-gen"/> - <use name="dl1-x86-gen"/> - <use name="dl2-x86-gen"/> - 8,2 Mo</b>
           <br/>
-          <b><use name="dl-ppc-gen"/> - <use name="dl1-ppc-gen"/> - <use name="dl2-ppc-gen"/> - 8,6 Mo</b>
+          <b><use name="dl-ppc-gen"/> - <use name="dl1-ppc-gen"/> - <use name="dl2-ppc-gen"/> - 8,5 Mo</b>
       </content>
       <content lang="de" title="GeeXboX ISO Generator">
         Mit diesem Paket ist es ein Einfaches, die GeeXboX zu modifizieren, ohne die Neuübersetzung des Quellcodes. Der Generator ertsellt ein ISO-Image der GeeXboX, das gleich auf CD gebrannt werden kann. Diese Software können Sie sowohl unter GNU/Linux als auch mit Microsoft Windows 9x/NT/2k/XP Systemen nutzen.<br/><br/>
           <b><use name="dl-x86-gen"/> - <use name="dl1-x86-gen"/> - <use name="dl2-x86-gen"/> - 8,2 MB</b>
           <br/>
-          <b><use name="dl-ppc-gen"/> - <use name="dl1-ppc-gen"/> - <use name="dl2-ppc-gen"/> - 8,6 MB</b>
+          <b><use name="dl-ppc-gen"/> - <use name="dl1-ppc-gen"/> - <use name="dl2-ppc-gen"/> - 8,5 MB</b>
       </content>
     </subsection>
 
@@ -202,12 +202,12 @@
       </content>
       <content lang="fr" title="Sources de la GeeXboX">
         Voici les sources de la GeeXboX. Vous nécessitez à la fois le programme wget et une connection à Internet lors de la compilation de la première version des sources. En effet, la plupart des packages seront téléchargés à la volée au cours de la compilation. Voici donc les sources :<br/><br/>
-          <b><use name="dl-src-lite"/> - <use name="dl1-src-lite"/> - <use name="dl2-src-lite"/> - <use name="dl3-src-lite"/> (Paquetage Allégé - 320 ko)</b><br/>
+          <b><use name="dl-src-lite"/> - <use name="dl1-src-lite"/> - <use name="dl2-src-lite"/> - <use name="dl3-src-lite"/> (Paquetage Allégé - 313 ko)</b><br/>
           <b><use name="dl-src-full"/> - <use name="dl1-src-full"/> - <use name="dl2-src-full"/> - <use name="dl3-src-full"/> (Paquetage Complet - aucune connexion à Internet supplémentaire n'est requise - 117 Mo)</b>
       </content>
       <content lang="de" title="GeeXboX Sourcecode">
         Hier finden Sie den GeeXboX Sourcecode. Sie benötigen zwei Dinge : Das wget Programm und eine Internetverbindung, um Ihre eigene GeeXboX zu erstellen. Die meisten Pakete werden während des Kompilierens direkt aus dem Internet geladen. Also hier gibt es den Sourcecode :<br/><br/>
-          <b><use name="dl-src-lite"/> - <use name="dl1-src-lite"/> - <use name="dl2-src-lite"/> - <use name="dl3-src-lite"/> (Kleines Installationspaket - 320 kB)</b><br/>
+          <b><use name="dl-src-lite"/> - <use name="dl1-src-lite"/> - <use name="dl2-src-lite"/> - <use name="dl3-src-lite"/> (Kleines Installationspaket - 313 kB)</b><br/>
           <b><use name="dl-src-full"/> - <use name="dl1-src-full"/> - <use name="dl2-src-full"/> - <use name="dl3-src-full"/> (Gesamtpaket - eine schnelle Internetverbindung wird benötigt - 117 MB)</b>
       </content>
     </subsection>
