@@ -73,7 +73,7 @@
       <b>Networking :</b><br/>
       - Updated Samba to 3.0.20b.<br/>
       - Added auto-discovery of UPnP A/V Media Server compliant devices.<br/>
-      - Added djmount 0.40 that uses FUSE to mount UPnP Media Server contents filesystem.<br/>
+      - Added djmount 0.31 that uses FUSE to mount UPnP Media Server contents filesystem.<br/>
       <br/>
       <b>Generator :</b><br/>
       - New MacOSX generator binary.<br/>
@@ -128,7 +128,7 @@
       <b>Réseau :</b><br/>
       - Mise à jour de Samba vers la version 3.0.20b.<br/>
       - Ajout de l'auto-découverte de périphériques compatibles avec la norme UPnP A/V Media Server.<br/>
-      - Ajout de djmount 0.40 qui utilise FUSE pour monter les contenus de périphériques UPnP Media Server.<br/>
+      - Ajout de djmount 0.31 qui utilise FUSE pour monter les contenus de périphériques UPnP Media Server.<br/>
       <br/>
       <b>Générateur :</b><br/>
       - Nouveau binaire MacOSX pour le générateur d'ISO.<br/>

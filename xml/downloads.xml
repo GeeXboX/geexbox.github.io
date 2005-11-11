@@ -197,7 +197,7 @@
     <subsection label="sources">
       <content lang="en" title="GeeXboX Sources">
         Here are the GeeXboX sources. You need both the wget package and a connection to the Internet to compile your own GeeXboX. Most of the packages are directly downloaded from the web while compiling the GeeXboX. So, here are the sources :<br/><br/>
-          <b><use name="dl-src-lite"/> - <use name="dl1-src-lite"/> - <use name="dl2-src-lite"/> - <use name="dl3-src-lite"/> (Lite Package - 320 kB)</b><br/>
+          <b><use name="dl-src-lite"/> - <use name="dl1-src-lite"/> - <use name="dl2-src-lite"/> - <use name="dl3-src-lite"/> (Lite Package - 313 kB)</b><br/>
           <b><use name="dl-src-full"/> - <use name="dl1-src-full"/> - <use name="dl2-src-full"/> - <use name="dl3-src-full"/> (Full Package - faster connection to the Internet needed - 117 MB)</b>
       </content>
       <content lang="fr" title="Sources de la GeeXboX">
