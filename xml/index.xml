@@ -34,7 +34,7 @@
     <content lang="de" title="Aktuelle Nachrichten ..."/>
 
     <subsection label="release_0.98.7">
-      <content lang="en" title="GeeXboX 0.98.7 : Digital Edition (11/xx/05) ...">
+      <content lang="en" title="GeeXboX 0.98.7 : Digital Edition (11/11/05) ...">
       This may be the first time that a GeeXboX release has been made without a player update... but hey, the enhancements were significant enough and so we bring you the new, fresh, version 0.98.7. GeeXboX now enters the "digital era" with a feature that many users have been waiting for : the <b>DVB cards support</b>. Basically you're now able to use any kind (PCI or USB) DVB device (either Cable, Terrestrial or Satellite) that is support under Linux (see <use name="linutv-url"/> website for more info) with this release of GeeXboX. Due to the i802.11 official stack inclusion in Linux 2.6.14, we've also decided to bring you better WiFi chipset support with the introduction of Prism54G and Centrino drivers.<br/>
       <br/>
       Unfortunately, many of the DVB devices and WiFi chips require those nasty proprietary firmwares in order to work correctly. That is of no concern however, as GeeXboX now comes with its own brand new firmware auto-loader. You're even able to use the FLTK generator to grab them from the web for you and build an ISO that fits your needs. You can also use it to grab some more fonts or non-free codecs.<br/>
@@ -88,7 +88,7 @@
       <br/>
       GeeXboX 0.98.7 is available <a href="downloads.html">here</a> and right now!
       </content>
-      <content lang="fr" title="GeeXboX 0.98.7 : Digital Edition (xx/11/05) ...">
+      <content lang="fr" title="GeeXboX 0.98.7 : Digital Edition (11/11/05) ...">
       Il s'agit très probablement de la première mise à jour de la GeeXboX qui ne comporte pas une mis à jour du lecteur multimédia mais les changements étaient suffisamment conséquents pour vous fournir cette nouvelle version 0.98.7. La GeeXboX entre désormais dans l'ère numérique avec une fonctionnalité attendue depuis très longtemps : le <b>support des cartes DVB</b>. Vous pouvez maintenant utiliser n'importe quel type de périphérique DVB (PCI ou USB), qu'ils soient pour Cable, la TNT ou le Satellite, du moment qu'il est supporté sous Linux (cf. le site <use name="linutv-url"/> pour de plus amples informations). Et avec l'ajout officiel de la pile i802.11 dans le noyau Linux 2.6.14, nous avons également décidé d'ajouter le support de davantage de cartes WiFi, telles que celles basées sur chipsets Prism54G et Centrino.<br/>
       <br/>
       Malheureusement de nombreux périphériques DVB et WiFi recquièrent la présence de maudits firmwares propriétaires pour fonctionner correctement. Quoi qu'il en soit, la GeeXboX dispose désormais d'un chargeur automatique de firmwares. Il vous est même possible d'utiliser le générateur FLTK pour les récupérer pour vous et construire l'image ISO qui correspondra à vos besoins. Vous pouvez également l'utiliser pour récupérer des fontes ou codecs non libres.<br/>
