@@ -19,12 +19,14 @@
       <td align="center">2.15</td>
       <td align="center">2.16.1</td>
       <td align="center">2.16.1</td>
+      <td align="center">2.16.1</td>
     </tr>
   </define>
   <define name="ccache">
     <tr>
       <th align="center"><a href="http://ccache.samba.org/">Ccache</a></th>
       <td align="center">*</td>
+      <td align="center">2.4</td>
       <td align="center">2.4</td>
       <td align="center">2.4</td>
       <td align="center">2.4</td>
@@ -37,11 +39,13 @@
       <td align="center">3.3.4</td>
       <td align="center">3.4.4</td>
       <td align="center">3.4.4</td>
+      <td align="center">3.4.4</td>
     </tr>
   </define>
   <define name="genext2fs">
     <tr>
       <th align="center"><a href="http://packages.debian.org/unstable/admin/genext2fs">genext2fs</a></th>
+      <td align="center">1.3</td>
       <td align="center">1.3</td>
       <td align="center">1.3</td>
       <td align="center">1.3</td>
@@ -55,6 +59,7 @@
       <td align="center">3.80</td>
       <td align="center">3.80</td>
       <td align="center">3.80</td>
+      <td align="center">3.80</td>
     </tr>
   </define>
   <define name="sed">
@@ -64,6 +69,7 @@
       <td align="center">4.1.2</td>
       <td align="center">4.1.4</td>
       <td align="center">4.1.4</td>
+      <td align="center">4.1.4</td>
     </tr>
   </define>
 
@@ -71,6 +77,7 @@
     <tr>
       <th align="center"><b><a href="http://acx100.sourceforge.net/">acx100</a></b></th>
       <td align="center">0.2.0pre8</td>
+      <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">*</td>
@@ -110,6 +117,7 @@
       <td align="center">included in linux kernel</td>
       <td align="center">included in linux kernel</td>
       <td align="center">included in linux kernel</td>
+      <td align="center">included in linux kernel</td>
     </tr>
   </define>
   <define name="atitvout">
@@ -117,6 +125,7 @@
       <th align="center"><b><a href="http://www.stud.uni-hamburg.de/users/lennart/projects/atitvout/">atitvout</a></b></th>
       <td align="center">0.4</td>
       <td align="center">0.4</td>
+      <td align="center">0.4 + fixes</td>
       <td align="center">0.4 + fixes</td>
       <td align="center">0.4 + fixes</td>
     </tr>
@@ -128,12 +137,14 @@
       <td align="center">1.0.24</td>
       <td align="center">1.0.24</td>
       <td align="center">1.0.24</td>
+      <td align="center">1.0.24</td>
     </tr>
   </define>
   <define name="bootsplash">
     <tr>
       <th align="center"><b><a href="http://www.bootsplash.org/">bootsplash</a></b></th>
       <td align="center">*</td>
+      <td align="center">3.1</td>
       <td align="center">3.1</td>
       <td align="center">3.1</td>
       <td align="center">3.1</td>
@@ -151,6 +162,7 @@
   <define name="cdparanoia">
     <tr>
       <th align="center"><b><a href="http://www.xiph.org/paranoia/">CDparanoia III</a></b></th>
+      <td align="center">alpha 9.8</td>
       <td align="center">alpha 9.8</td>
       <td align="center">alpha 9.8</td>
       <td align="center">alpha 9.8</td>
@@ -182,12 +194,14 @@
       <td align="center">*</td>
       <td align="center">1.2.3</td>
       <td align="center">1.2.3</td>
+      <td align="center">1.2.3</td>
     </tr>
   </define>
   <define name="DirectFB">
     <tr>
       <th align="center"><b><a href="http://www.directfb.org/">DirectFB</a></b></th>
       <td align="center">0.9.20</td>
+      <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">*</td>
@@ -200,6 +214,16 @@
       <td align="center">2.10</td>
       <td align="center">2.11</td>
       <td align="center">2.11</td>
+      <td align="center">2.11</td>
+    </tr>
+  </define>
+  <define name="dvb-apps">
+    <tr>
+      <th align="center"><b><a href="http://www.linuxtv.org/">dvb-apps</a></b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">cvs 28.10.2005</td>
     </tr>
   </define>
   <define name="dvb-apps">
@@ -216,6 +240,7 @@
       <th align="center"><b><a href="http://ca.geocities.com/jefftranter@rogers.com/eject.html">eject</a></b></th>
       <td align="center">2.0.13</td>
       <td align="center">2.0.13</td>
+      <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">*</td>
     </tr>
@@ -236,6 +261,7 @@
       <td align="center">1.31</td>
       <td align="center">1.31</td>
       <td align="center">1.31</td>
+      <td align="center">1.31</td>
     </tr>
   </define>
   <define name="fmio">
@@ -245,6 +271,7 @@
       <td align="center">*</td>
       <td align="center">2.0.8</td>
       <td align="center">2.0.8</td>
+      <td align="center">2.0.8</td>
     </tr>
   </define>
   <define name="freetype">
@@ -252,6 +279,7 @@
       <th align="center"><b><a href="http://www.freetype.org/">freetype</a></b></th>
       <td align="center">2.1.4</td>
       <td align="center">2.1.9</td>
+      <td align="center">2.1.10</td>
       <td align="center">2.1.10</td>
       <td align="center">2.1.10</td>
     </tr>
@@ -281,11 +309,13 @@
       <td align="center">0.95+cvs20040624</td>
       <td align="center">0.97</td>
       <td align="center">0.97</td>
+      <td align="center">0.97</td>
     </tr>
   </define>
   <define name="jpeg">
     <tr>
       <th align="center"><b><a href="http://freshmeat.net/projects/libjpeg/">jpeg</a></b></th>
+      <td align="center">6b</td>
       <td align="center">6b</td>
       <td align="center">6b</td>
       <td align="center">6b</td>
@@ -299,6 +329,7 @@
       <td align="center">0.0.2</td>
       <td align="center">0.0.2</td>
       <td align="center">0.0.2</td>
+      <td align="center">0.0.2</td>
     </tr>
   </define>
   <define name="libexif">
@@ -308,11 +339,13 @@
       <td align="center">0.5.12</td>
       <td align="center">0.5.12</td>
       <td align="center">0.5.12</td>
+      <td align="center">0.5.12</td>
     </tr>
   </define>
   <define name="libirman">
     <tr>
       <th align="center"><b><a href="http://www.evation.com/libirman/libirman.html">libirman</a></b></th>
+      <td align="center">0.4.3</td>
       <td align="center">0.4.3</td>
       <td align="center">0.4.3</td>
       <td align="center">0.4.3</td>
@@ -335,11 +368,13 @@
       <td align="center">1.1.2</td>
       <td align="center">1.1.2</td>
       <td align="center">1.1.2</td>
+      <td align="center">1.1.2</td>
     </tr>
   </define>
   <define name="libpcd">
     <tr>
       <th align="center"><b><a href="http://linux.bytesex.org/fbida/libpcd.html">libpcd</a></b></th>
+      <td align="center">1.0.1</td>
       <td align="center">1.0.1</td>
       <td align="center">1.0.1</td>
       <td align="center">1.0.1</td>
@@ -350,6 +385,7 @@
     <tr>
       <th align="center"><b><a href="http://www.libpng.org/pub/png/libpng.html">libpng</a></b></th>
       <td align="center">1.2.6rc5</td>
+      <td align="center">1.2.8</td>
       <td align="center">1.2.8</td>
       <td align="center">1.2.8</td>
       <td align="center">1.2.8</td>
@@ -389,6 +425,7 @@
       <td align="center">1.1.0</td>
       <td align="center">1.1.1</td>
       <td align="center">1.1.1</td>
+      <td align="center">1.1.1</td>
     </tr>
   </define>
   <define name="linux">
@@ -425,6 +462,7 @@
       <td align="center">*</td>
       <td align="center">4.26</td>
       <td align="center">4.26</td>
+      <td align="center">4.26</td>
     </tr>
   </define>
   <define name="module-init-tools">
@@ -434,6 +472,7 @@
       <td align="center">3.0</td>
       <td align="center">3.2-pre8</td>
       <td align="center">3.2-pre8</td>
+      <td align="center">3.2-pre8</td>
     </tr>
   </define>
   <define name="MPlayer">
@@ -441,6 +480,7 @@
       <th align="center"><b><a href="http://www.mplayerhq.hu/">MPlayer</a></b></th>
       <td align="center">1.0pre5</td>
       <td align="center">1.0pre6</td>
+      <td align="center">1.0pre7</td>
       <td align="center">1.0pre7</td>
       <td align="center">1.0pre7</td>
     </tr>
@@ -461,6 +501,7 @@
       <td align="center">0.4.7</td>
       <td align="center">0.4.7</td>
       <td align="center">0.4.7</td>
+      <td align="center">0.4.7</td>
     </tr>
   </define>
   <define name="pciutils">
@@ -477,6 +518,7 @@
       <th align="center"><b><a href="http://rt2400.sourceforge.net/">rt2400</a></b></th>
       <td align="center">1.2.0</td>
       <td align="center">1.2.1</td>
+      <td align="center">1.2.2-beta3</td>
       <td align="center">1.2.2-beta3</td>
       <td align="center">1.2.2-beta3</td>
     </tr>
@@ -503,6 +545,7 @@
       <th align="center"><b><a href="http://packages.debian.org/stable/utils/setcd">setcd</a></b></th>
       <td align="center">1.4-2</td>
       <td align="center">1.5</td>
+      <td align="center">*</td>
       <td align="center">*</td>
       <td align="center">*</td>
     </tr>
@@ -568,6 +611,7 @@
       <td align="center">*</td>
       <td align="center">1.3.13</td>
       <td align="center">1.3.13</td>
+      <td align="center">1.3.13</td>
     </tr>
   </define>
   <define name="zlib">
@@ -575,6 +619,7 @@
       <th align="center"><b><a href="http://www.gzip.org/zlib/">zlib</a></b></th>
       <td align="center">1.1.4</td>
       <td align="center">1.2.2</td>
+      <td align="center">1.2.3</td>
       <td align="center">1.2.3</td>
       <td align="center">1.2.3</td>
     </tr>
