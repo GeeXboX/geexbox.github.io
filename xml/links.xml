@@ -39,10 +39,36 @@
     <a href="http://www.uclibc.org"><b>uClibc</b></a>
   </define>
 
+  <define name="lnk-ushare">
+    <a href="http://ushare.geexbox.org/"><b>uShare</b></a>
+  </define>
+  <define name="lnk-i810tvout">
+    <a href="http://i810tvout.geexbox.org/"><b>i810tvout</b></a>
+  </define>
+
   <section label="links">
     <content lang="en" title="Links ..."/>
     <content lang="fr" title="Liens ..."/>
     <content lang="de" title="Links ..."/>
+
+    <subsection label="subproject">
+      <content lang="en" title="GeeXboX Sub-Projects ...">
+      Below is a short list of GeeXboX-related projects. They've totally independant from the GeeXboX operating system and so, can be used without it. They just have been develop at some moment by one of the GeeXboX project members and are used or can be used with our distribution. All are of course free software.<br/>
+      <br/>
+      * <use name="lnk-ushare"/> : uShare is a UPnP A/V Media Server. It implements the server component that provides UPnP media devices with information on available multimedia files. GeeXboX uShare is able to provide access to both images, videos, music or playlists files. It is designed to provide access to multimedia contents to GeeXboX but can of course be used by any other UPnP client device.<br/>
+      <br/>
+      * <use name="lnk-i810tvout"/> : Intel released i810tvout some times ago. This utility allows you to enable the tvout of i810 motherboards under Linux. But the intel version used one closed source file to achieve this. Here is a new version based on the intel one, but without any closed source part. This version is totally free.<br/>
+      <br/>
+      </content>
+      <content lang="fr" title="Sous-projets GeeXboX ...">
+      Vous trouverez ci-dessous une courte liste de projets relatifs à la GeeXboX ou développés dans son cadre. Ils sont cependant complètement indépendant de la distribution GeeXboX et de ce fait, peuvent être utilisés sans elle. Ces projets ont été développés à un moment ou un autre par les des membres du projet et sont utilisés au sein (ou à côté) de la distribution. Il sont bien entendus tous libres.<br/>
+      <br/>
+      * <use name="lnk-ushare"/> : uShare est un MediaServer UPnP A/V. Il implémente une composante serveur, permettant à des périphériques UPnP de récupérer des contenus multimédia. GeeXboX uShare est en mesure de fournir l'accès à des images, des vidéos, de la musique ou des listes de diffusion au sein du réseau. Il a été conçu pour fournir des contenus multimédias à la GeeXboX mais peut, bien évidemment, être utilisé avec d'autres périphériques.<br/>
+      <br/>
+      * <use name="lnk-i810tvout"/> : Intel a mis à disposition un projet i810tvout il y a quelques années. Cet utilitaire vous permet d'activer la sortie TV des cartes-mères à base de chipset i810 sous Linux. Néanmoins, la version d'Intel utilise un fichier de sources non libre pour arriver à ce résultat. La présente version, basée sur l'original d'Intel, permet le même résultat mais sans aucun code source propriétaire. Cette version est totalement libre.<br/>
+      <br/>
+      </content>
+    </subsection>
 
     <subsection label="projects">
       <content lang="en" title="Related Projects ...">
@@ -79,7 +105,6 @@
         * <use name="lnk-lirc"/> : is a package that allows you to decode and send infra-red signals using many (but not all) types of remote controls.<br/>
         * <use name="lnk-syslinux"/> is an easy-to-use Linux Bootloader.<br/>
         * <use name="lnk-uclibc"/> : uClibc is a C library for developing embedded Linux systems. It is much smaller then the GNU C Library, but nearly all applications supported by glibc also work perfectly with uClibc.
-        <br/><br/><br/><br/><br/>
       </content>
       <content lang="fr" title="Logiciels Embarqués ...">
         La GeeXboX est un lecteur multimédia autonome. La version stable actuelle est basée sur l'utilisation des programmes suivants :<br/><br/>
@@ -89,7 +114,6 @@
         * <use name="lnk-lirc"/> : c'est un paquetage permettant de décoder et d'envoyer des signaux infra-rouge sur de nombreux (mais pas tous) récepteurs et télécommandes.<br/>
         * <use name="lnk-syslinux"/> est chargeur de noyau Linux très facile d'utilisation.<br/>
         * <use name="lnk-uclibc"/> : la uClibc est une librairie C utilisée pour le développement de systèmes Linux embarqués. Elle est de bien plus petite taille que sa grande soeur, la librairie C GNU, mais presque toutes les applications supportées par la glibc fonctionnent parfaitement avec la uClibc.
-        <br/><br/><br/><br/><br/>
       </content>
       <content lang="de" title="Verwendete Programme in GeeXboX...">
         GeeXboX ist ein vollständiger Medien Player. Die aktuelle stabile Version nutzt die folgenden wichtigen Programme :<br/><br/>
@@ -99,7 +123,6 @@
         * <use name="lnk-lirc"/> : Ist ein Programm zum Dekodieren und Senden von IR-Signalen, wie sie nahezu von jeder Fernbedienung genutzt werden.<br/>
         * <use name="lnk-syslinux"/> Ist ein einfach zu nutzender Linux Bootloader.<br/>
         * <use name="lnk-uclibc"/> : uClibc ist eine C Library zur Entwicklung von Embedded-Systems. Sie ist viel kleiner als die GNU C Library, aber nahezu alle, von der glibc unterstützten, Programme arbeiten auch perfekt mit der uClibc.
-        <br/><br/><br/><br/><br/>
       </content>
     </subsection>
   </section>
