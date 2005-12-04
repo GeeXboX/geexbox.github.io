@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<article>
+  <define name="lnk-hosting365">
+    <center>
+      <a href="http://www.hosting365.ie/">
+        <img src="../img/logo-hosting365.gif" alt="Hosting365.ie"/>
+      </a>
+    </center>
+  </define>
+
+  <define name="lnk-intouch">
+    <center>
+      <a href="http://www.intouch.net/">
+        <img src="../img/logo-intouch.gif" alt="InTouch.Net"/>
+      </a>
+    </center>
+  </define>
+
+  <define name="mirror_list">
+  * <a href="http://www.free.fr/"><b>Free / ProXad</b></a> - Paris, France<br/>
+  * <a href="http://www.reloufr.net"><b>RelouFR Networks</b></a> - Paris, France<br/>
+  * <a href="http://www.metalforen.org/"><b>MetalForen</b></a> - Berlin, Germany<br/>
+  * <a href="http://www.zyrianes.net/"><b>Zyrianes</b></a> - Brest, France<br/>
+  * <a href="http://www.mirrorgeek.com/"><b>MirrorGeek</b></a> - Austin, Texas, USA<br/>
+  </define>
+
+  <define name="webmaster">
+    <a href="mailto:webmaster@geexbox.org">WebMaster</a>
+  </define>
+
+  <section label="sponsors">
+    <content lang="en" title="Sponsors ..."/>
+    <content lang="fr" title="Sponsors ..."/>
+    <content lang="de" title="Sponsors ..."/>
+
+    <subsection label="webserver">
+      <content lang="en" title="GeeXboX.org Host ...">
+        We'd like to give special thanks to the <b>Hosting365.ie</b> and <b>InTouch.Net</b> companies. They've provided us with solutions to freely host <i>geexbox.org</i> and provide great services. Besides provisionning us with free unlimited bandwidth, they've granted us a dedicated web server. We owe them everything.<br/>
+        <br/>
+        <table border="2" cellpadding="2" cellspacing="1" width="100%">
+          <tr>
+            <td align="left"><use name="lnk-hosting365"/></td>
+            <td align="center">Hosting365.ie is dedicated to providing the highest levels of quality and service in the highly specialized area of Internet hosting. They provide a full range of services from shared hosting to dedicated servers and enterprise solutions and have been providing hosting services in Dublin, Ireland since 1997. Hosting365 is the current host of the GeeXboX project since December 2005.</td>
+          </tr>
+          <tr>
+            <td align="left"><use name="lnk-intouch"/></td>
+            <td align="center">InTouch N.V. is an independent Communication Service Provider based in Amsterdam, the Netherlands. Established in 1994, InTouch concerns itself with providing tailor-made communication solutions for specific customer requirements, guiding and supporting their customers from the initial stages of design to implementation and operational management of network infrastructures and systems. In close conjunction with their business partners, they provide global communication services to their customers. InTouch was the host of the GeeXboX project for 2003 to the end of 2005.</td>
+          </tr>
+        </table>
+      </content>               
+      <content lang="fr" title="Hébergement de GeeXboX.org ...">
+        Nous souhaitons adresser des remerciements particuliers aux compagnies <b>Hosting365.ie</b> et <b>InTouch.Net</b>. Elles nous fournissent (ou ont fournit) une solution gratuite d'hébergement pour <i>geexbox.org</i> et ce, avec une grande qualité de services. En plus de nous ouvrir un hébergement à bande passante illimitées, elles ont généreusement mis à notre disposition un serveur dédié. Nous leur devons énormement.<br/>
+        <br/>
+        <table border="2" cellpadding="2" cellspacing="1" width="100%">
+          <tr>
+            <td align="left"><use name="lnk-hosting365"/></td>
+            <td align="center">Hosting365.ie est spécialisé dans l'approvisionnement et l'hébergement de services Internet à un très haut niveau de qualité. Ils mettent à disposition une large variété de services, allant de l'hébergement mutualisé aux solutions d'hébergements dédiés et de serveurs d'entreprises et proposent leur services à Dublin, en Irlande, depuis 1997. Hosting365 est actuellement l'hébergeur du projet GeeXboX depuis le mois de Decembre 2005.</td>
+          </tr>
+          <tr>
+            <td align="left"><use name="lnk-intouch"/></td>
+            <td align="center">InTouch N.V. est un fournisseur de services de communication indépendant, basé à Amsterdam, aux Pays-Bas. Fondé en 1994, InTouch se focalise sur l'approvisionnement de solutions aux besoins de communication spécifiques de ses clients, les guidant de la phase d'évaluation des besoins, au design, en passant par la phase d'implémentation et de gestion des infrastructures réseau et des systèmes. En étroite relation avec ses partenaires, la companie fournit des services de communication à ses clients. InTouch a été l'hébergeur du projet GeeXboX de 2003 à fin 2005.</td>
+          </tr>
+        </table>
+      </content>               
+      <content lang="de" title="Besonderer Dank ...">
+        Unser besonderer Dank gilt der Firma <b>InTouch.Net</b>. Sie bieten uns großartigen Service und hosten <i>geexbox.org</i> kostenlos!.
+        <use name="lnk-intouch"/>
+        InTouch N.V. ist ein in Amsterdam (Niederlande) ansässiger unabhängiger Kommunikationsanbieter. Seit der Gründung 1994 beschäftigt sich InTouch mit dem Zurverfügungstellen von maßgeschneiderten Kommunikationslösungen für spezifische Kundenanforderungen. Sie führen und unterstützen ihre Kunden vom Design bis zur Implementierung und hin zum funktionsfähigen Management der Netzinfrastrukturen. Im engen Zusammenspiel mit ihren Teilhabern stellen sie globale Kommunikationsdienstleistungen für ihre Kunden zur Verfügung.
+      </content>               
+    </subsection>
+
+    <subsection label="mirrors">
+      <content lang="en" title="GeeXboX.org Mirror List ...">
+        Besides these 2 companies, a great number of people, associations or companies are helping us providing you the GeeXboX project by mirroring our main server to provide local copies of GeeXboX.org web server. We'd like to thank evry one from the following list from helping us sharing GeeXboX.<br/>
+        <br/>
+        <use name="mirror_list"/>
+        <br/>
+        If you have access to high-speed and quality hosting facilities and are interested in mirroring our project, please feel free to contact the <use name="webmaster"/>.
+        <br/><br/><br/>
+      </content>
+      <content lang="fr" title="Liste des miroirs GeeXboX.org ...">
+        En plus des 2 compagnies ci-dessus, un grand nombre de personnes, associations ou compagnies nous aident à vous proposer le projet GeeXboX en proposant un miroir local de notre serveur web principal. Nous souhaitons remercier toutes les personnes qui nous ont permis de mettre la GeeXboX à votre disposition.<br/>
+        <br/>
+        <use name="mirror_list"/>
+        <br/>
+        Si vous avez accès à un réseau d'hébergement de qualité et à très haut-débit et que vous souhaitez également proposer un miroir du projet GeeXboX, n'hésitez pas à contacter le <use name="webmaster"/>.
+        <br/><br/><br/>
+      </content>
+    </subsection>
+
+  </section>
+</article>

@@ -121,6 +121,12 @@
       <text lang="de">Spenden</text>
     </subitem>
 
+    <subitem name="sponsors" url="sponsors.html">
+      <text lang="en">Sponsors</text>
+      <text lang="fr">Sponsors</text>
+      <text lang="de">Sponsors</text>
+    </subitem>
+
     <subitem name="contact" url="contact.html">
       <text lang="en">Contact</text>
       <text lang="fr">Contact</text>
