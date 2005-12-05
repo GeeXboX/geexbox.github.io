@@ -28,10 +28,36 @@
     <a href="http://ushare.geexbox.org/"><i>uShare</i></a>
   </define>
 
+  <define name="lnk-hosting365">
+    <a href="http://www.hosting365.ie/"><b>Hosting365.ie</b></a>
+  </define>
+
+  <define name="mirror_list">
+  * <a href="ftp://ftp.free.fr/pub/Distributions_Linux/GeeXboX/"><b>Free / ProXad</b></a> - Paris, France<br/>
+  * <a href="http://mirror1.finix.eu.org/geexbox/"><b>Zyrianes</b></a> - Brest, France<br/>
+  * <a href="http://geexbox.reloumirrors.net"><b>RelouFR Networks</b></a> - Paris, France<br/>
+  * <a href="http://geexbox.mirrorgeek.com/"><b>MirrorGeek</b></a> - Austin, Texas, USA<br/>
+  * <a href="http://geexbox.mirror.intouch.nl/"><b>InTouch</b></a> - Amsterdam, Netherlands<br/>
+  * <a href="http://geexbox.metalforen.org/"><b>MetalForen</b></a> - Berlin, Germany<br/>
+  </define>
+
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
     <content lang="de" title="Aktuelle Nachrichten ..."/>
+
+    <subsection label="webserver_setup">
+      <content lang="en" title="WebServer Migration (12/05/05) ...">
+      As you may have seen last month, we were encountering some hosting issues. Fortunately, many of you have helped us getting out of this problem. We now have a new sponsor (special thanks to <use name="lnk-hosting365"/>) who granted us with a new dedicated webserver with unlimited bandwidth which will host the GeeXboX project for at least the complete 2006 year to come. The new server is now up and running pretty fine. We also have received a lot of mirroring proposals which will let us provide your more ways to get GeeXboX (you can still be a mirror if you're interested in, please check the requested web page). Thank you very much to the following hosts that currently mirror our website :<br/>
+      <br/>
+      <use name="mirror_list"/>
+      </content>
+      <content lang="fr" title="Migration du serveur Web (05/12/05) ...">
+      Comme vous avez pu vous en rendre compte le mois dernier, nous allions très prochainement rencontrer des problèmes d'hébergement de la distribution. Heureusement, cette situation appartient désormais au passé. Vos avez été très nombreux à nous proposer différentes offres d'hébergement pour résoudre ce problème. Nous avons désormais un nouveau sponsor, à savoir <use name="lnk-hosting365"/>) que nous remercions vivement, et qui a généreusement mis à notre disposition un serveur web dédié, à bande passante illimitée, et qui hébergera le projet GeeXboX au moins tout au long de l'année de 2006 à venir. La migration vers ce nouveau serveur vient juste de se terminer et le tout est désormais opérationnel. Nous avons également reçu un grand nombre de proposition de miroirs, ce qui va nous permettre de vous proposer la GeeXboX depuis un bien plus grand nombre de sources (si vous êtes intéressés pour faire un miroir GeeXboX, n'hésitez pas à nous contacter via la page web adéquate). Un très grand merci donc aux hôtes suivants qui nous ont proposé leurs services :<br/>
+      <br/>
+      <use name="mirror_list"/>
+      </content>
+    </subsection>
 
     <subsection label="release_0.98.7">
       <content lang="en" title="GeeXboX 0.98.7 : Digital Edition (11/11/05) ...">
