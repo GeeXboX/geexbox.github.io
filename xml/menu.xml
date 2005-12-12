@@ -19,6 +19,12 @@
       <text lang="de">Zu Anfang</text>
     </subitem>
 
+    <subitem name="require" url="requirements.html">
+      <text lang="en">Requirements</text>
+      <text lang="fr">Pré-requis</text>
+      <text lang="de">Voraussetzungen</text>
+    </subitem>
+
     <subitem name="license" url="license.html">
       <text lang="en">License</text>
       <text lang="fr">Licence</text>
@@ -29,24 +35,6 @@
       <text lang="en">Screenshots</text>
       <text lang="fr">Captures d'écrans</text>
       <text lang="de">Screenshots</text>
-    </subitem>
-
-    <subitem name="bugs" url="bugs.html">
-      <text lang="en">Bugs / TODO</text>
-      <text lang="fr">Bugs / A venir</text>
-      <text lang="de">Bugs / TODO</text>
-    </subitem>
-  </item>
-
-  <item name="ressources" id="ressources">
-    <text lang="en">Resources</text>
-    <text lang="fr">Ressources</text>
-    <text lang="de">Ressourcen</text>
-
-    <subitem name="require" url="requirements.html">
-      <text lang="en">Requirements</text>
-      <text lang="fr">Pré-requis</text>
-      <text lang="de">Voraussetzungen</text>
     </subitem>
 
     <subitem name="download" url="downloads.html">
@@ -60,6 +48,12 @@
       <text lang="fr">Obtenir un CD</text>
       <text lang="de">CD kaufen</text>
     </subitem>
+  </item>
+
+  <item name="ressources" id="ressources">
+    <text lang="en">Resources</text>
+    <text lang="fr">Ressources</text>
+    <text lang="de">Ressourcen</text>
 
     <subitem name="doc" url="doc.html">
       <text lang="en">Documentation</text>
@@ -67,39 +61,16 @@
       <text lang="de">Dokumentation</text>
     </subitem>
 
-    <subitem name="hard" url="hard.html">
-      <text lang="en">Hardware</text>
-      <text lang="fr">Matériel</text>
-      <text lang="de">Hardware</text>
-    </subitem>
-
-    <subitem name="dev" url="dev.html">
-      <text lang="en">Developers</text>
-      <text lang="fr">Developpeurs</text>
-      <text lang="de">Entwickler</text>
-    </subitem>
-
-    <subitem name="lists" url="mailing.html">
-      <text lang="en">Mailing Lists</text>
-      <text lang="fr">Listes de diffusion</text>
-    </subitem>
-
-    <subitem name="packages" url="packages.html">
-      <text lang="en">Packages</text>
-      <text lang="fr">Paquetages</text>
-      <text lang="de">Softwarepakete</text>
-    </subitem>
-  </item>
-
-  <item name="feedback" id="feedback">
-    <text lang="en">FeedBack</text>
-    <text lang="fr">En Savoir Plus</text>
-    <text lang="de">FeedBack</text>
-
     <subitem name="faq" url="faq.html">
       <text lang="en">FAQ</text>
       <text lang="fr">FAQ</text>
       <text lang="de">FAQ</text>
+    </subitem>
+
+    <subitem name="forum" url="http://www.geexbox.org/forum/">
+      <text lang="en">Forum</text>
+      <text lang="fr">Forum</text>
+      <text lang="de">Forum</text>
     </subitem>
 
     <subitem name="wiki" url="http://www.geexbox.org/wiki/index.php/Main_Page">
@@ -108,28 +79,45 @@
       <text lang="de">Wiki</text>
     </subitem>
 
-    <subitem name="links" url="links.html">
-      <text lang="en">Links</text>
-      <text lang="fr">Liens</text>
-      <text lang="de">Links</text>
+    <subitem name="bugs" url="bugs.html">
+      <text lang="en">Bugs / TODO</text>
+      <text lang="fr">Bugs / A venir</text>
+      <text lang="de">Bugs / TODO</text>
     </subitem>
 
-    <subitem name="press" url="press.html">
-      <text lang="en">Press</text>
-      <text lang="fr">Presse</text>
-      <text lang="de">Presse</text>
+    <subitem name="hard" url="hard.html">
+      <text lang="en">Hardware</text>
+      <text lang="fr">Matériel</text>
+      <text lang="de">Hardware</text>
     </subitem>
 
-    <subitem name="donate" url="donate.html">
-      <text lang="en">Donate</text>
-      <text lang="fr">Donations</text>
-      <text lang="de">Spenden</text>
+    <subitem name="packages" url="packages.html">
+      <text lang="en">Built-in Packages</text>
+      <text lang="fr">Paquetages inclus</text>
+      <text lang="de">Softwarepakete</text>
     </subitem>
+
+    <subitem name="dev" url="dev.html">
+      <text lang="en">Developers</text>
+      <text lang="fr">Developpeurs</text>
+      <text lang="de">Entwickler</text>
+    </subitem>
+  </item>
+
+  <item name="feedback" id="feedback">
+    <text lang="en">FeedBack</text>
+    <text lang="fr">En Savoir Plus</text>
+    <text lang="de">FeedBack</text>
 
     <subitem name="sponsors" url="sponsors.html">
-      <text lang="en">Sponsors</text>
-      <text lang="fr">Sponsors</text>
+      <text lang="en">Sponsors &amp; Mirrors</text>
+      <text lang="fr">Sponsors &amp; Miroirs</text>
       <text lang="de">Sponsors</text>
+    </subitem>
+
+    <subitem name="lists" url="mailing.html">
+      <text lang="en">Mailing Lists</text>
+      <text lang="fr">Listes de diffusion</text>
     </subitem>
 
     <subitem name="contact" url="contact.html">
@@ -138,12 +126,22 @@
       <text lang="de">Kontakt</text>
     </subitem>
 
-    <subitem name="forum" url="http://www.geexbox.org/forum/">
-      <text lang="en">Forum</text>
-      <text lang="fr">Forum</text>
-      <text lang="de">Forum</text>
+   <subitem name="donate" url="donate.html">
+      <text lang="en">Donate</text>
+      <text lang="fr">Donations</text>
+      <text lang="de">Spenden</text>
+    </subitem>
+
+    <subitem name="press" url="press.html">
+      <text lang="en">Press</text>
+      <text lang="fr">Presse</text>
+      <text lang="de">Presse</text>
+    </subitem>
+
+    <subitem name="links" url="links.html">
+      <text lang="en">Links</text>
+      <text lang="fr">Liens</text>
+      <text lang="de">Links</text>
     </subitem>
   </item>
-
-  test
 </menu>
