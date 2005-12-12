@@ -115,15 +115,15 @@
       <text lang="de">Sponsors</text>
     </subitem>
 
+    <subitem name="contact" url="contact.html">
+      <text lang="en">Contact &amp; People</text>
+      <text lang="fr">Contacts &amp; Auteurs</text>
+      <text lang="de">Kontakt</text>
+    </subitem>
+
     <subitem name="lists" url="mailing.html">
       <text lang="en">Mailing Lists</text>
       <text lang="fr">Listes de diffusion</text>
-    </subitem>
-
-    <subitem name="contact" url="contact.html">
-      <text lang="en">Contact</text>
-      <text lang="fr">Contact</text>
-      <text lang="de">Kontakt</text>
     </subitem>
 
    <subitem name="donate" url="donate.html">
