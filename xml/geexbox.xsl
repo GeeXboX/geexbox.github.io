@@ -124,6 +124,7 @@
       <xsl:value-of select="$menu/item/subitem[@name=$page]/@url"/>
     </xsl:attribute>
     <xsl:value-of select="$menu/item/subitem[@name=$page]/text[@lang=$lang]"/>
+    <xsl:value-of select="$menu"/>
   </xsl:element>
 </xsl:template>
 
