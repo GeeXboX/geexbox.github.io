@@ -79,6 +79,11 @@
       <text lang="de">Entwickler</text>
     </subitem>
 
+    <subitem name="lists" url="mailing.html">
+      <text lang="en">Mailing Lists</text>
+      <text lang="fr">Listes de diffusion</text>
+    </subitem>
+
     <subitem name="packages" url="packages.html">
       <text lang="en">Packages</text>
       <text lang="fr">Paquetages</text>
