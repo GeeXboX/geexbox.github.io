@@ -8,15 +8,15 @@
     <text lang="de">GeeXboX</text>
 
     <subitem name="news" url="index.html">
-      <text lang="en">News ...</text>
-      <text lang="fr">Nouvelles ...</text>
-      <text lang="de">News ...</text>
+      <text lang="en">News</text>
+      <text lang="fr">Nouvelles</text>
+      <text lang="de">News</text>
     </subitem>
 
     <subitem name="get_started" url="start.html">
-      <text lang="en">Get Started ...</text>
-      <text lang="fr">Par où commencer ...</text>
-      <text lang="de">Zu Anfang ...</text>
+      <text lang="en">Get Started</text>
+      <text lang="fr">Par où commencer</text>
+      <text lang="de">Zu Anfang</text>
     </subitem>
 
     <subitem name="license" url="license.html">
