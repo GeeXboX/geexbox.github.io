@@ -2,26 +2,6 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
-  <define name="ct-devel-en">
-    <a href="http://www.geexbox.org/sympa/info/devel"><b>GeeXboX's DevList</b></a>
-  </define>
-  <define name="ct-devel-fr">
-    <a href="http://www.geexbox.org/sympa/info/devel"><b>page d'administration</b></a>
-  </define>
-  <define name="ct-devel-de">
-    <a href="http://www.geexbox.org/sympa/info/devel"><b>GeeXboX Developer Liste</b></a>
-  </define>
-
-  <define name="ct-devel-archive-en">
-    <a href="http://www.geexbox.org/sympa/arc/devel/"><b>here</b></a>
-  </define>
-  <define name="ct-devel-archive-fr">
-    <a href="http://www.geexbox.org/sympa/arc/devel/"><b>cette page</b></a>
-  </define>
-  <define name="ct-devel-archive-de">
-    <a href="http://www.geexbox.org/sympa/arc/devel/"><b>hier</b></a>
-  </define>
-
   <define name="ct-gnu-arch">
     <a href="http://www.gnu.org/software/gnu-arch/">GNU Arch</a>
   </define>
@@ -105,23 +85,13 @@ Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Archiv zu geben. Damit 
 
     <subsection label="devel">
       <content lang="en" title="Developers Mailing List">
-        If you have any interest in GeeXboX's development, you may want to subscribe to our developer mailing list. There you can send your patches, and code fixes but also learn about the daily developement progress. You have to subscribe to the mailing list to post on it. Please note that only ENGLISH will be used on this list (posts in other languages won't receive an answer, nor will questions, suggestions or bug reports). You can post at this address :
-        <center><devel/></center>
-        You can (un)subscribe to the mailing list, registering on <use name="ct-devel-en"/><br/><br/> 
-
-        Please remember that only the subscribed email accounts can be used to post on the mailing list.<br/><br/>
-
-        You can easily access to the developer mailing list archives <use name="ct-devel-archive-en"/>.
+        If you have any interest in GeeXboX's development, you may want to subscribe to our developer mailing list. There you can send your patches, and code fixes but also learn about the daily developement progress. You have to subscribe to the mailing list to post on it. Please note that only ENGLISH will be used on this list (posts in other languages won't receive an answer, nor will questions, suggestions or bug reports). Have a look at the mailing list dedicated section for more information on it.
+      <br/><br/><br/><br/><br/><br/><br/><br/>
       </content>
 
       <content lang="fr" title="Liste de Diffusion pour Développeurs">
-        Si vous portez un quelconque intérêt au développement de la GeeXboX et que vous souhaitez y contribuer, vous pouvez souscrire à notre liste de diffusion pour développeurs. Vous pourrez alors nous envoyer vos patchs et autres correctifs, mais également y apprendre sur l'évolution de la GeeXboX au jour le jour. Ceci nécessite néanmoins de souscrire à la liste de diffusion pour pouvoir poster un mail. Veuillez noter que seul l'ANGLAIS est utilisé pour y correspondre (des messages dans d'autres langues, français y compris, ne recevront aucune réponse, pas plus que les questions sur des problèmes d'utilisation, suggestions et autres rapports de bug). Vous pourrez envoyer vos messages à cette adresse :
-        <center><devel/></center>
-        Vous pouvez souscrire à la liste de diffusion ou vous en désabonner, via la <use name="ct-devel-fr"/><br/><br/>
-
-        Souvenez vous que seuls les comptes mails valides et qui auront été enregistré peuvent être utilisés pour poster des messages sur le liste de diffusion.<br/><br/>
-
-        Il est cependant possible d'accéder rapidement aux archives de cette liste de diffusion via <use name="ct-devel-archive-fr"/>.
+        Si vous portez un quelconque intérêt au développement de la GeeXboX et que vous souhaitez y contribuer, vous pouvez souscrire à notre liste de diffusion pour développeurs. Vous pourrez alors nous envoyer vos patchs et autres correctifs, mais également y apprendre sur l'évolution de la GeeXboX au jour le jour. Ceci nécessite néanmoins de souscrire à la liste de diffusion pour pouvoir poster un mail. Veuillez noter que seul l'ANGLAIS est utilisé pour y correspondre (des messages dans d'autres langues, français y compris, ne recevront aucune réponse, pas plus que les questions sur des problèmes d'utilisation, suggestions et autres rapports de bug). Jetez un oeil à la section du site consacrée aux listes de diffusion pour de plus amples détails à ce sujet.
+      <br/><br/><br/><br/><br/><br/><br/><br/>
       </content>
 
       <content lang="de" title="Mailing Liste für Entwickler">
