@@ -202,15 +202,6 @@
       <td align="center">2.11</td>
     </tr>
   </define>
-  <define name="dvb-apps">
-    <tr>
-      <th align="center"><b><a href="http://www.linuxtv.org/">dvb-apps</a></b></th>
-      <td align="center">*</td>
-      <td align="center">*</td>
-      <td align="center">*</td>
-      <td align="center">cvs 28.10.2005</td>
-    </tr>
-  </define>
   <define name="eject">
     <tr>
       <th align="center"><b><a href="http://ca.geocities.com/jefftranter@rogers.com/eject.html">eject</a></b></th>
