@@ -302,22 +302,6 @@ Noch ein Hinweis zum Schluss. Viele der hier gelisteten Hardware wurde nach dem 
       </content>
     </subsection>
 
-    <subsection label="hard_dvb">
-      <content lang="en" title="DVB Cards ...">
-      - <b>Supported chipsets</b> : <use name="dvb_supported"/><br/>
-        <br/>
-        Always check on <use name="linuxtv-wiki"/> for precise card support.<br/>
-      </content>
-      <content lang="fr" title="Cartes DVB ...">
-      - <b>Chipsets supportés</b> : <use name="dvb_supported"/><br/>
-        <br/>
-        Vérifiez toujours sur le <use name="linuxtv-wiki"/> pour un support précis.<br/>
-      </content>
-      <content lang="de" title="DVB - Karten ...">
-      - <b>Unterstützte Chipsätze</b> : <use name="dvb_supported"/><br/><br/>
-      </content>
-    </subsection>
-
     <subsection label="hard_fs">
       <content lang="en" title="FileSystems ...">
       - <b>Supported file systems</b> : <use name="fs_supported"/><br/><br/>

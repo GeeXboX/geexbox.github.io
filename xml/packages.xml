@@ -141,7 +141,7 @@
   </define>
   <define name="busybox">
     <tr>
-      <th align="center"><b><a href="http://www.busybox.net/">busyBox</a></b></th>
+      <th align="center"><b><a href="http://www.busybox.net/">BusyBox</a></b></th>
       <td align="center">1.00rc2</td>
       <td align="center">1.00</td>
       <td align="center">1.00-20050806</td>
