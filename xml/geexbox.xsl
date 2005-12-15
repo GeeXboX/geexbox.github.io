@@ -42,6 +42,9 @@
       <script type="text/javascript" src="../style/pngfix.js">
         <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
       </script>
+      <script type="text/javascript" src="../style/toggle.js">
+        <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
+      </script>
     </head>
 
     <body>
@@ -107,7 +110,175 @@
       <xsl:apply-templates select="./content[@lang=$lang]/node()"/>
     </div>
   </xsl:if>
+  <xsl:apply-templates select="description"/>
+  <xsl:apply-templates select="download"/>
   <xsl:apply-templates select="use"/>
+</xsl:template>
+
+<xsl:template match="description">
+  <table border="0" cellpadding="3" cellspacing="0" width="100%">
+    <tr>
+      <td valign="top">
+        <xsl:element name="img">
+          <xsl:attribute name="src">
+            <xsl:value-of select="@img"/>
+          </xsl:attribute>
+          <xsl:attribute name="border">0</xsl:attribute>
+        </xsl:element>
+       </td>
+       <td valign="top">
+         <xsl:apply-templates select="./node()"/>
+       </td>
+     </tr>
+   </table>
+</xsl:template>
+
+<xsl:template match="download">
+  <div id="download">
+  <table border="0" cellpadding="5" cellspacing="0" width="100%">
+    <tr>
+      <td bgcolor="#efefef" valign="top" width="5">
+        <xsl:element name="a">
+          <xsl:attribute name="id">plus_<xsl:value-of select="@id"/></xsl:attribute>
+          <xsl:attribute name="href">javascript:toggle('<xsl:value-of select="@id"/>','plus_<xsl:value-of select="@id"/>','minus_<xsl:value-of select="@id"/>')</xsl:attribute>
+            <xsl:element name="img">
+              <xsl:attribute name="src">
+                <xsl:value-of select="@plus"/>
+              </xsl:attribute>
+              <xsl:attribute name="alt">plus</xsl:attribute>
+              <xsl:attribute name="border">0</xsl:attribute>
+            </xsl:element> 
+        </xsl:element>
+
+        <xsl:element name="a">
+          <xsl:attribute name="id">minus_<xsl:value-of select="@id"/></xsl:attribute>
+          <xsl:attribute name="style">display: none</xsl:attribute>
+          <xsl:attribute name="href">javascript:toggle('<xsl:value-of select="@id"/>','minus_<xsl:value-of select="@id"/>','plus_<xsl:value-of select="@id"/>')</xsl:attribute>
+            <xsl:element name="img">
+              <xsl:attribute name="src">
+                <xsl:value-of select="@minus"/>
+              </xsl:attribute>
+              <xsl:attribute name="alt">minus</xsl:attribute>
+              <xsl:attribute name="border">0</xsl:attribute>
+            </xsl:element> 
+        </xsl:element>
+      </td>
+      <td bgcolor="#efefef">
+        <b><xsl:value-of select="@title"/></b>
+        
+        <xsl:element name="div">
+          <xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute>
+          <xsl:attribute name="align">justify</xsl:attribute>
+          <xsl:attribute name="style">display: none</xsl:attribute>
+          <xsl:apply-templates select="./node()"/>
+          <xsl:call-template name="mirror"/>
+        </xsl:element>
+      </td>
+    </tr>
+  </table>
+  </div>
+</xsl:template>
+
+<xsl:template name="mirror">
+  <table bgcolor="#e5e5e5" border="0" cellpadding="3" cellspacing="1" width="100%">
+  
+    <tr>
+      <td width="30" bgcolor="#e5e5e5">
+        <img src="../img/flag-ie.png" alt="ie"/>
+      </td>
+      <td bgcolor="#e5e5e5">
+        <xsl:element name="a">
+          <xsl:attribute name="href">http://www1.geexbox.org/releases/<xsl:value-of select="@file"/></xsl:attribute>
+          GeeXboX.org, Dublin (Ireland, HTTP) 
+        </xsl:element>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="30" bgcolor="#efefef">
+        <img src="../img/flag-fr.png" alt="fr"/>
+      </td>
+      <td bgcolor="#efefef">
+        <xsl:element name="a">
+          <xsl:attribute name="href">ftp://ftp.proxad.net/pub/Distributions_Linux/GeeXboX/releases/<xsl:value-of select="@file"/></xsl:attribute>
+          Free / ProXad.net, Paris (France, FTP) 
+        </xsl:element>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="30" bgcolor="#e5e5e5">
+        <img src="../img/flag-fr.png" alt="fr"/>
+      </td>
+      <td bgcolor="#e5e5e5">
+        <xsl:element name="a">
+          <xsl:attribute name="href">http://www2.geexbox.org/releases/<xsl:value-of select="@file"/></xsl:attribute>
+          Zyrianes.net, Paris (France, HTTP) 
+        </xsl:element>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="30" bgcolor="#efefef">
+        <img src="../img/flag-fr.png" alt="fr"/>
+      </td>
+      <td bgcolor="#efefef">
+        <xsl:element name="a">
+          <xsl:attribute name="href">http://geexbox.reloumirrors.net/releases/<xsl:value-of select="@file"/></xsl:attribute>
+          RelouFR Networks, Paris (France, HTTP) 
+        </xsl:element>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="30" bgcolor="#e5e5e5">
+        <img src="../img/flag-us.png" alt="us"/>
+      </td>
+      <td bgcolor="#e5e5e5">
+        <xsl:element name="a">
+          <xsl:attribute name="href">http://geexbox.mirrorgeek.com/releases/<xsl:value-of select="@file"/></xsl:attribute>
+          Mirrorgeek.com, Austin (Texas, USA, HTTP) 
+        </xsl:element>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="30" bgcolor="#efefef">
+        <img src="../img/flag-nl.png" alt="nl"/>
+      </td>
+      <td bgcolor="#efefef">
+        <xsl:element name="a">
+          <xsl:attribute name="href">http://www5.geexbox.org/releases/<xsl:value-of select="@file"/></xsl:attribute>
+          InTouch.net, Amsterdam (Netherlands, HTTP) 
+        </xsl:element>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="30" bgcolor="#e5e5e5">
+        <img src="../img/flag-nl.png" alt="nl"/>
+      </td>
+      <td bgcolor="#e5e5e5">
+        <xsl:element name="a">
+          <xsl:attribute name="href">http://mirror.intouch.nl/geexbox/releases/<xsl:value-of select="@file"/></xsl:attribute>
+          InTouch.net, Amsterdam (Netherlands, HTTP) 
+        </xsl:element>
+      </td>
+    </tr>
+
+   <tr>
+      <td width="30" bgcolor="#efefef">
+        <img src="../img/flag-de.png" alt="de"/>
+      </td>
+      <td bgcolor="#efefef">
+        <xsl:element name="a">
+          <xsl:attribute name="href">http://geexbox.metalforen.org/releases/<xsl:value-of select="@file"/></xsl:attribute>
+          MetalForen.org, Berlin (Germany, HTTP) 
+        </xsl:element>
+      </td>
+    </tr>
+
+  </table>
 </xsl:template>
 
 <xsl:template match="center">
