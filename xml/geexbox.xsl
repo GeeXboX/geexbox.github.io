@@ -248,18 +248,6 @@
       </td>
       <td bgcolor="#efefef">
         <xsl:element name="a">
-          <xsl:attribute name="href">http://www5.geexbox.org/releases/<xsl:value-of select="@file"/></xsl:attribute>
-          InTouch.net, Amsterdam (Netherlands, HTTP) 
-        </xsl:element>
-      </td>
-    </tr>
-
-    <tr>
-      <td width="30" bgcolor="#e5e5e5">
-        <img src="../img/flag-nl.png" alt="nl"/>
-      </td>
-      <td bgcolor="#e5e5e5">
-        <xsl:element name="a">
           <xsl:attribute name="href">http://mirror.intouch.nl/geexbox/releases/<xsl:value-of select="@file"/></xsl:attribute>
           InTouch.net, Amsterdam (Netherlands, HTTP) 
         </xsl:element>
@@ -267,10 +255,10 @@
     </tr>
 
    <tr>
-      <td width="30" bgcolor="#efefef">
+      <td width="30" bgcolor="#e5e5e5">
         <img src="../img/flag-de.png" alt="de"/>
       </td>
-      <td bgcolor="#efefef">
+      <td bgcolor="#e5e5e5">
         <xsl:element name="a">
           <xsl:attribute name="href">http://geexbox.metalforen.org/releases/<xsl:value-of select="@file"/></xsl:attribute>
           MetalForen.org, Berlin (Germany, HTTP) 
