@@ -225,7 +225,7 @@
         <description img="../img/old.png">
         If the current GeeXboX version doesn't work on your computer for any kind of reasons, we of course provide you an easy way to fetch the previous releases to give them a try.
         </description>
-        <download id="dl_releases" file=""
+        <download id="dl_releases" file="" full="yes"
                   title="GeeXboX Old Releases"
                   plus="../img/plus.png" minus="../img/minus.png">
           GeeXboX old releases are available from the following locations :
@@ -235,7 +235,7 @@
         <description img="../img/old.png">
         Si la version courante de la GeeXboX ne fonctionne pas sur votre ordinateur pour tout type de raison, nous mettons bien évidemment à votre disposition les précédentes versions de notre distribution pour que vous puissiez les essayer.
         </description>
-        <download id="dl_releases" file=""
+        <download id="dl_releases" file="" full="yes"
                   title="Anciennes versions de la GeeXboX"
                   plus="../img/plus.png" minus="../img/minus.png">
           Les versions précédentes de la GeeXboX sont disponibles depuis les emplacements suivants :

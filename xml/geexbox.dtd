@@ -47,6 +47,13 @@
                   url  CDATA   #REQUIRED>
 
 
+<!ELEMENT mirrors (mirror*)>
+<!ELEMENT mirror (country, description, url)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT description (text*)>
+<!ELEMENT url (#PCDATA)>
+
+
 <!ELEMENT ours (content)*>
 
 

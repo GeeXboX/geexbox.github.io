@@ -173,43 +173,21 @@
 </xsl:template>
 
 <xsl:template name="mirror">
+  <xsl:variable name="full" select="@full"/>
+  <xsl:variable name="file" select="@file"/>
+  <xsl:variable name="mirrors" select="document('mirrors.xml')/mirrors"/>
+
   <div id="dltable">
-
-    <div id="row0">
-      <img src="../img/flag-ie.png" alt="ie"/>
-      <xsl:element name="a"><xsl:attribute name="href">http://www1.geexbox.org/releases/<xsl:value-of select="@file"/></xsl:attribute>GeeXboX.org, Dublin (Ireland, HTTP)</xsl:element>
-    </div>
-
-    <div id="row1">
-      <img src="../img/flag-fr.png" alt="fr"/>
-      <xsl:element name="a"><xsl:attribute name="href">ftp://ftp.proxad.net/pub/Distributions_Linux/GeeXboX/releases/<xsl:value-of select="@file"/></xsl:attribute>Free / ProXad.net, Paris (France, FTP)</xsl:element>
-    </div>
-
-    <div id="row0">
-      <img src="../img/flag-fr.png" alt="fr"/>
-      <xsl:element name="a"><xsl:attribute name="href">http://www2.geexbox.org/releases/<xsl:value-of select="@file"/></xsl:attribute>Zyrianes.net, Paris (France, HTTP)</xsl:element>
-    </div>
-
-    <div id="row1">
-      <img src="../img/flag-fr.png" alt="fr"/>
-      <xsl:element name="a"><xsl:attribute name="href">http://geexbox.reloumirrors.net/releases/<xsl:value-of select="@file"/></xsl:attribute>RelouFR Networks, Paris (France, HTTP)</xsl:element>
-    </div>
-
-    <div id="row0">
-      <img src="../img/flag-us.png" alt="us"/>
-      <xsl:element name="a"><xsl:attribute name="href">http://geexbox.mirrorgeek.com/releases/<xsl:value-of select="@file"/></xsl:attribute>Mirrorgeek.com, Austin (Texas, USA, HTTP)</xsl:element>
-    </div>
-
-    <div id="row1">
-      <img src="../img/flag-nl.png" alt="nl"/>
-      <xsl:element name="a"><xsl:attribute name="href">http://mirror.intouch.nl/geexbox/releases/<xsl:value-of select="@file"/></xsl:attribute>InTouch.net, Amsterdam (Netherlands, HTTP)</xsl:element>
-    </div>
-
-    <div id="row0">
-      <img src="../img/flag-de.png" alt="de"/>
-      <xsl:element name="a"><xsl:attribute name="href">http://geexbox.metalforen.org/releases/<xsl:value-of select="@file"/></xsl:attribute>MetalForen.org, Berlin (Germany, HTTP)</xsl:element>
-    </div>
-
+    <xsl:for-each select="$mirrors/mirror[not($full) or $full != 'yes' or not(@partial) or @partial != 'yes']">
+      <div>
+        <xsl:attribute name="id">row<xsl:value-of select="(position()+1) mod 2"/></xsl:attribute>
+        <xsl:element name="img">
+          <xsl:attribute name="src">../img/flag-<xsl:value-of select="./country"/>.png</xsl:attribute>
+          <xsl:attribute name="alt"><xsl:value-of select="./country"/></xsl:attribute>
+        </xsl:element>
+        <xsl:element name="a"><xsl:attribute name="href"><xsl:value-of select="./url"/>releases/<xsl:value-of select="$file"/></xsl:attribute><xsl:value-of select="./description"/></xsl:element>
+      </div>
+    </xsl:for-each>
   </div>
 </xsl:template>
 
