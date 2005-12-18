@@ -13,36 +13,60 @@
   <define name="iso-x86-en-md5">
     <b>MD5sum</b> : 52a8c72d9402583a8ebec62e436a2bac
   </define>
+  <define name="iso-x86-en-sha1">
+    fb67b683e465ab9f358560b76efc20b127bdee6f
+  </define>
   <define name="iso-x86-fr-size">6.3</define>
   <define name="iso-x86-fr-md5">
     <b>MD5sum</b> : 805f6f712e2139233f021fceb3eeda1a
+  </define>
+  <define name="iso-x86-fr-sha1">
+    7cc5611da6703cc306139990802380113a0451a8
   </define>
 
   <define name="iso-ppc-en-size">11</define>
   <define name="iso-ppc-en-md5">
     <b>MD5sum</b> : a30d32610efabb00358e147b01c2e386
   </define>
+  <define name="iso-ppc-en-sha1">
+    74c013b111cdf45257941b109eb21a4db3503485
+  </define>
   <define name="iso-ppc-fr-size">11</define>
   <define name="iso-ppc-fr-md5">
     <b>MD5sum</b> : d7452a907f48d7538ad990f1c51b6e17
+  </define>
+  <define name="iso-ppc-fr-sha1">
+    f149d34c474863c24408ff2ad8fbb13f290f4131
   </define>
 
   <define name="gen-x86-size">8.2</define>
   <define name="gen-x86-md5">
     <b>MD5sum</b> : 5717aa88be36c7f46d08b9468dc652ad
   </define>
+  <define name="gen-x86-sha1">
+    bc1df8dbbfd5d454280640452215b45d952e300a
+  </define>
   <define name="gen-ppc-size">8.5</define>
   <define name="gen-ppc-md5">
     <b>MD5sum</b> : b73d16a51c48d366210193d72bf75fd6
+  </define>
+  <define name="gen-ppc-sha1">
+    07973e3c2d4270ea5108a1b25c315588dc82ee35
   </define>
 
   <define name="src-lite-size">313</define>
   <define name="src-lite-md5">
     <b>MD5sum</b> : fcaf3986b6dc3f1e4f43a22412894b43
   </define>
+  <define name="src-lite-sha1">
+    56345fa8eec41714498636f74655506f36f79b4a
+  </define>
   <define name="src-full-size">117</define>
   <define name="src-full-md5">
     <b>MD5sum</b> : dd3b1e60018994636f6805694a3e84d8
+  </define>
+  <define name="src-full-sha1">
+    3ca203008d1668fae52363fcc7779ba619feddd3
   </define>
 
  <section label="download">
@@ -60,28 +84,28 @@
                  title="GeeXboX 0.98.7 English Edition (for i386)"
                  plus="../img/plus.png" minus="../img/minus.png">
          GeeXboX 0.98.7 English ISO for i386 computers is available from the following locations :<br/>
-         <b>Size</b> : <use name="iso-x86-en-size"/> MB - <use name="iso-x86-en-md5"/>
+         <b>Size</b> : <use name="iso-x86-en-size"/> MB - <use name="iso-x86-en-md5"/> - <b>sha1sum</b> <use name="iso-x86-en-sha1"/>
        </download>
        <download id="dl_iso_x86_fr"
                  file="0.98.7/geexbox-0.98.7-fr.i386.iso"
                  title="GeeXboX 0.98.7 French Edition (for i386)"
                  plus="../img/plus.png" minus="../img/minus.png">
          GeeXboX 0.98.7 French ISO for i386 computers is available from the following locations :<br/>
-         <b>Size</b> : <use name="iso-x86-fr-size"/> MB - <use name="iso-x86-fr-md5"/>
+         <b>Size</b> : <use name="iso-x86-fr-size"/> MB - <use name="iso-x86-fr-md5"/> - <b>sha1sum</b> <use name="iso-x86-fr-sha1"/>
        </download>
        <download id="dl_iso_ppc_en"
                  file="0.98.7/geexbox-0.98.7-en.ppc.iso"
                  title="GeeXboX 0.98.7 English Edition (for PowerPC)"
                  plus="../img/plus.png" minus="../img/minus.png">
          GeeXboX 0.98.7 English ISO for PowerPC (Macintosh) computers is available from the following locations :<br/>
-         <b>Size</b> : <use name="iso-ppc-en-size"/> MB - <use name="iso-ppc-en-md5"/>
+         <b>Size</b> : <use name="iso-ppc-en-size"/> MB - <use name="iso-ppc-en-md5"/> - <b>sha1sum</b> <use name="iso-ppc-en-sha1"/>
        </download>
        <download id="dl_iso_ppc_fr"
                  file="0.98.7/geexbox-0.98.7-fr.ppc.iso"
                  title="GeeXboX 0.98.7 French Edition (for PowerPC)"
                  plus="../img/plus.png" minus="../img/minus.png">
          GeeXboX 0.98.7 French ISO for PowerPC computers is available from the following locations :<br/>
-         <b>Size</b> : <use name="iso-ppc-fr-size"/> MB - <use name="iso-ppc-fr-md5"/>
+         <b>Size</b> : <use name="iso-ppc-fr-size"/> MB - <use name="iso-ppc-fr-md5"/> - <b>sha1sum</b> <use name="iso-ppc-fr-sha1"/>
        </download>
      </content>
      <content lang="fr" title="Images ISO GeeXboX">
@@ -93,28 +117,28 @@
                  title="GeeXboX 0.98.7 édition anglaise (pour i386)"
                  plus="../img/plus.png" minus="../img/minus.png">
          L'image ISO anglaise de la GeeXboX 0.98.7 pour PC i386 est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="iso-x86-en-size"/> Mo - <use name="iso-x86-en-md5"/>
+         <b>Taille</b> : <use name="iso-x86-en-size"/> Mo - <use name="iso-x86-en-md5"/> - <b>sha1sum</b> <use name="iso-x86-en-sha1"/>
        </download>
        <download id="dl_iso_x86_fr"
                  file="0.98.7/geexbox-0.98.7-fr.i386.iso"
                  title="GeeXboX 0.98.7 édition française (pour i386)"
                  plus="../img/plus.png" minus="../img/minus.png">
          L'image ISO française de la GeeXboX 0.98.7 pour PC i386 est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="iso-x86-fr-size"/> Mo - <use name="iso-x86-fr-md5"/>
+         <b>Taille</b> : <use name="iso-x86-fr-size"/> Mo - <use name="iso-x86-fr-md5"/> - <b>sha1sum</b> <use name="iso-x86-fr-sha1"/>
        </download>
        <download id="dl_iso_ppc_en"
                  file="0.98.7/geexbox-0.98.7-en.ppc.iso"
                  title="GeeXboX 0.98.7 édition anglaise (pour PowerPC)"
                  plus="../img/plus.png" minus="../img/minus.png">
          L'image ISO anglaise de la GeeXboX 0.98.7 pour PowerPC Macintosh est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="iso-ppc-en-size"/> Mo - <use name="iso-ppc-en-md5"/>
+         <b>Taille</b> : <use name="iso-ppc-en-size"/> Mo - <use name="iso-ppc-en-md5"/> - <b>sha1sum</b> <use name="iso-ppc-en-sha1"/>
        </download>
        <download id="dl_iso_ppc_fr"
                  file="0.98.7/geexbox-0.98.7-fr.ppc.iso"
                  title="GeeXboX 0.98.7 édition française (pour PowerPC)"
                  plus="../img/plus.png" minus="../img/minus.png">
          L'image ISO française de la GeeXboX 0.98.7 pour PowerPC Macintosh est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="iso-ppc-fr-size"/> Mo - <use name="iso-ppc-fr-md5"/>
+         <b>Taille</b> : <use name="iso-ppc-fr-size"/> Mo - <use name="iso-ppc-fr-md5"/> - <b>sha1sum</b> <use name="iso-ppc-fr-sha1"/>
        </download>
      </content>
    </subsection>
@@ -129,14 +153,14 @@
                  title="GeeXboX 0.98.7 ISO Generator (i386 Target)"
                  plus="../img/plus.png" minus="../img/minus.png">
          GeeXboX 0.98.7 ISO Generator for i386 (PC) targets is available from the following locations :<br/>
-         <b>Size</b> : <use name="gen-x86-size"/> MB - <use name="gen-x86-md5"/>
+         <b>Size</b> : <use name="gen-x86-size"/> MB - <use name="gen-x86-md5"/> - <b>sha1sum</b> <use name="gen-x86-sha1"/>
        </download>
        <download id="dl_gen_ppc"
                  file="0.98.7/geexbox-generator-0.98.7.ppc.tar.gz"
                  title="GeeXboX 0.98.7 ISO Generator (PowerPC Target)"
                  plus="../img/plus.png" minus="../img/minus.png">
          GeeXboX 0.98.7 ISO Generator for PowerPC (Macintosh) targets is available from the following locations :<br/>
-         <b>Size</b> : <use name="gen-ppc-size"/> MB - <use name="gen-ppc-md5"/>
+         <b>Size</b> : <use name="gen-ppc-size"/> MB - <use name="gen-ppc-md5"/> - <b>sha1sum</b> <use name="gen-ppc-sha1"/>
        </download>
      </content>
      <content lang="fr" title="Générateur d'ISO GeeXboX">
@@ -148,14 +172,14 @@
                  title="Générateur d'ISO GeeXboX 0.98.7 (Cible : i386)"
                  plus="../img/plus.png" minus="../img/minus.png">
          Le générateur d'ISO GeeXboX 0.98.7 ISO pour cible i386 (PC) est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="gen-x86-size"/> Mo - <use name="gen-x86-md5"/>
+         <b>Taille</b> : <use name="gen-x86-size"/> Mo - <use name="gen-x86-md5"/> - <b>sha1sum</b> <use name="gen-x86-sha1"/>
        </download>
        <download id="dl_gen_ppc"
                  file="0.98.7/geexbox-generator-0.98.7.ppc.tar.gz"
                  title="Générateur d'ISO GeeXboX 0.98.7 (Cible : PowerPC)"
                  plus="../img/plus.png" minus="../img/minus.png">
          Le générateur d'ISO GeeXboX 0.98.7 ISO pour cible PowerPC (Macintosh) est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="gen-ppc-size"/> Mo - <use name="gen-ppc-md5"/>
+         <b>Taille</b> : <use name="gen-ppc-size"/> Mo - <use name="gen-ppc-md5"/> - <b>sha1sum</b> <use name="gen-ppc-sha1"/>
        </download>
      </content>
    </subsection>
@@ -170,14 +194,14 @@
                  title="GeeXboX 0.98.7 Sources (Lite Package)"
                  plus="../img/plus.png" minus="../img/minus.png">
          GeeXboX 0.98.7 Sources Lite package is available from the following locations :<br/>
-         <b>Size</b> : <use name="src-lite-size"/> kB - <use name="src-lite-md5"/>
+         <b>Size</b> : <use name="src-lite-size"/> kB - <use name="src-lite-md5"/> - <b>sha1sum</b> <use name="src-lite-sha1"/>
        </download>
        <download id="dl_src_full"
                  file="0.98.7/geexbox-0.98.7-full.tar"
                  title="GeeXboX 0.98.7 Sources (Full Package)"
                  plus="../img/plus.png" minus="../img/minus.png">
          GeeXboX 0.98.7 Sources Full package is available from the following locations :<br/>
-         <b>Size</b> : <use name="src-full-size"/> MB - <use name="src-full-md5"/>
+         <b>Size</b> : <use name="src-full-size"/> MB - <use name="src-full-md5"/> - <b>sha1sum</b> <use name="src-full-sha1"/>
        </download>
      </content>
      <content lang="fr" title="Sources de la GeeXboX">
@@ -189,14 +213,14 @@
                  title="Sources de la GeeXboX 0.98.7 (Paquetage allégé)"
                  plus="../img/plus.png" minus="../img/minus.png">
          Le paquetage allégé des sources de la GeeXboX 0.98.7 est disponibles depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="src-lite-size"/> ko - <use name="src-lite-md5"/>
+         <b>Taille</b> : <use name="src-lite-size"/> ko - <use name="src-lite-md5"/> - <b>sha1sum</b> <use name="src-lite-sha1"/>
        </download>
        <download id="dl_src_full"
                  file="0.98.7/geexbox-0.98.7-full.tar"
                  title="Sources de la GeeXboX 0.98.7 (Paquetage complet)"
                  plus="../img/plus.png" minus="../img/minus.png">
          Le paquetage complet des sources de la GeeXboX 0.98.7 est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="src-full-size"/> Mo - <use name="src-full-md5"/>
+         <b>Taille</b> : <use name="src-full-size"/> Mo - <use name="src-full-md5"/> - <b>sha1sum</b> <use name="src-full-sha1"/>
        </download>
      </content>
    </subsection>
