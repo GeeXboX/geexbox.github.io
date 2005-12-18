@@ -91,6 +91,52 @@ body {
 	background-color: transparent;
 }
 
+#dldesc {
+	display: table;
+	width: 100%;
+}
+
+#dldescicon {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+
+#dldesctext {
+	display: table-cell;
+	width: 100%;
+	padding: 3px;
+}
+
+#download {
+	display: table;
+	width: 100%;
+	background-color: #efefef;
+}
+
+#dlplusminus {
+	display: table-cell;
+	padding: 5px 1em 5px 5px;
+}
+
+#dlfile {
+	display: table-cell;
+	width: 100%;
+}
+
+#dltable img {
+	margin: 5px 1em 5px 5px;
+	vertical-align: middle;
+}
+
+#row0 {
+	background-color: #e5e5e5;
+}
+
+#row1 {
+	background-color: #efefef;
+}
+
 #menu {
 	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
         width: 16%;
