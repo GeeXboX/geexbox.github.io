@@ -9,223 +9,118 @@
     <b>deb-src http://www.geexbox.org/debian/ unstable main</b>
   </define>
 
-  <define name="iso-x86-en-size">6.3</define>
-  <define name="iso-x86-en-md5">
-    <b>MD5sum</b> : 52a8c72d9402583a8ebec62e436a2bac
-  </define>
-  <define name="iso-x86-en-sha1">
-    fb67b683e465ab9f358560b76efc20b127bdee6f
-  </define>
-  <define name="iso-x86-fr-size">6.3</define>
-  <define name="iso-x86-fr-md5">
-    <b>MD5sum</b> : 805f6f712e2139233f021fceb3eeda1a
-  </define>
-  <define name="iso-x86-fr-sha1">
-    7cc5611da6703cc306139990802380113a0451a8
-  </define>
+  <lang-names lang="en">
+    <lang-name code="en">English</lang-name>
+    <lang-name code="fr">French</lang-name>
+  </lang-names>
+  <lang-names lang="fr">
+    <lang-name code="en">anglaise</lang-name>
+    <lang-name code="fr">française</lang-name>
+  </lang-names>
 
-  <define name="iso-ppc-en-size">11</define>
-  <define name="iso-ppc-en-md5">
-    <b>MD5sum</b> : a30d32610efabb00358e147b01c2e386
-  </define>
-  <define name="iso-ppc-en-sha1">
-    74c013b111cdf45257941b109eb21a4db3503485
-  </define>
-  <define name="iso-ppc-fr-size">11</define>
-  <define name="iso-ppc-fr-md5">
-    <b>MD5sum</b> : d7452a907f48d7538ad990f1c51b6e17
-  </define>
-  <define name="iso-ppc-fr-sha1">
-    f149d34c474863c24408ff2ad8fbb13f290f4131
-  </define>
+  <arch-names>
+    <arch-name code="i386">i386 (PC)</arch-name>
+    <arch-name code="ppc">PowerPC</arch-name>
+  </arch-names>
 
-  <define name="gen-x86-size">8.2</define>
-  <define name="gen-x86-md5">
-    <b>MD5sum</b> : 5717aa88be36c7f46d08b9468dc652ad
-  </define>
-  <define name="gen-x86-sha1">
-    bc1df8dbbfd5d454280640452215b45d952e300a
-  </define>
-  <define name="gen-ppc-size">8.5</define>
-  <define name="gen-ppc-md5">
-    <b>MD5sum</b> : b73d16a51c48d366210193d72bf75fd6
-  </define>
-  <define name="gen-ppc-sha1">
-    07973e3c2d4270ea5108a1b25c315588dc82ee35
-  </define>
+  <size-names lang="en">
+    <size-name code="K">KB</size-name>
+    <size-name code="M">MB</size-name>
+    <size-name code="B">B</size-name>
+  </size-names>
+  <size-names lang="fr">
+    <size-name code="K">Ko</size-name>
+    <size-name code="M">Mo</size-name>
+    <size-name code="B">o</size-name>
+  </size-names>
 
-  <define name="src-lite-size">313</define>
-  <define name="src-lite-md5">
-    <b>MD5sum</b> : fcaf3986b6dc3f1e4f43a22412894b43
-  </define>
-  <define name="src-lite-sha1">
-    56345fa8eec41714498636f74655506f36f79b4a
-  </define>
-  <define name="src-full-size">117</define>
-  <define name="src-full-md5">
-    <b>MD5sum</b> : dd3b1e60018994636f6805694a3e84d8
-  </define>
-  <define name="src-full-sha1">
-    3ca203008d1668fae52363fcc7779ba619feddd3
-  </define>
+  <src-type-names lang="en">
+    <src-type-name code="lite">Lite</src-type-name>
+    <src-type-name code="full">Full</src-type-name>
+  </src-type-names>
+  <src-type-names lang="fr">
+    <src-type-name code="lite">allégé</src-type-name>
+    <src-type-name code="full">complet</src-type-name>
+  </src-type-names>
 
- <section label="download">
-   <content lang="en" title="Downloads ..."/>
-   <content lang="fr" title="Téléchargements ..."/>
-   <content lang="de" title="Downloads ..."/>
-    
-   <subsection label="iso">
-     <content lang="en" title="GeeXboX ISO">
-       <description img="../img/dl.png">
-         GeeXboX ISOs are ready-to-burn disc images containing the bootable GeeXboX Operating System for multimedia entertainment. Pre-made ISO images are currently available in English or French for both i386 (PC) and PowerPC (Macinstosh) computers. Other languages are available with the ISO generator. The installer software is included in the ISO.
-       </description>
-       <download id="dl_iso_x86_en"
-                 file="0.98.7/geexbox-0.98.7-en.i386.iso"
-                 title="GeeXboX 0.98.7 English Edition (for i386)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         GeeXboX 0.98.7 English ISO for i386 computers is available from the following locations :<br/>
-         <b>Size</b> : <use name="iso-x86-en-size"/> MB - <use name="iso-x86-en-md5"/> - <b>sha1sum</b> <use name="iso-x86-en-sha1"/>
-       </download>
-       <download id="dl_iso_x86_fr"
-                 file="0.98.7/geexbox-0.98.7-fr.i386.iso"
-                 title="GeeXboX 0.98.7 French Edition (for i386)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         GeeXboX 0.98.7 French ISO for i386 computers is available from the following locations :<br/>
-         <b>Size</b> : <use name="iso-x86-fr-size"/> MB - <use name="iso-x86-fr-md5"/> - <b>sha1sum</b> <use name="iso-x86-fr-sha1"/>
-       </download>
-       <download id="dl_iso_ppc_en"
-                 file="0.98.7/geexbox-0.98.7-en.ppc.iso"
-                 title="GeeXboX 0.98.7 English Edition (for PowerPC)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         GeeXboX 0.98.7 English ISO for PowerPC (Macintosh) computers is available from the following locations :<br/>
-         <b>Size</b> : <use name="iso-ppc-en-size"/> MB - <use name="iso-ppc-en-md5"/> - <b>sha1sum</b> <use name="iso-ppc-en-sha1"/>
-       </download>
-       <download id="dl_iso_ppc_fr"
-                 file="0.98.7/geexbox-0.98.7-fr.ppc.iso"
-                 title="GeeXboX 0.98.7 French Edition (for PowerPC)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         GeeXboX 0.98.7 French ISO for PowerPC computers is available from the following locations :<br/>
-         <b>Size</b> : <use name="iso-ppc-fr-size"/> MB - <use name="iso-ppc-fr-md5"/> - <b>sha1sum</b> <use name="iso-ppc-fr-sha1"/>
-       </download>
-     </content>
-     <content lang="fr" title="Images ISO GeeXboX">
-       <description img="../img/dl.png">
-         Les images ISO GeeXboX sont prêtes à être gravées sur disque et contiennent une version auto-amorçable du système d'exploitation GeeXboX, apte à satisfaire vos attentes multimédias. Les images ISO pré-construites sont actuellement disponibles aussi bien en Anglais que Français, pour les ordinateurs à architecture i386 (PC) et PowerPC (Macinstosh). D'autres langues sont disponibles par le biais du générateur d'ISO. L'application d'installation sur disque est incluse dans l'image ISO.
-       </description>
-       <download id="dl_iso_x86_en"
-                 file="0.98.7/geexbox-0.98.7-en.i386.iso"
-                 title="GeeXboX 0.98.7 édition anglaise (pour i386)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         L'image ISO anglaise de la GeeXboX 0.98.7 pour PC i386 est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="iso-x86-en-size"/> Mo - <use name="iso-x86-en-md5"/> - <b>sha1sum</b> <use name="iso-x86-en-sha1"/>
-       </download>
-       <download id="dl_iso_x86_fr"
-                 file="0.98.7/geexbox-0.98.7-fr.i386.iso"
-                 title="GeeXboX 0.98.7 édition française (pour i386)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         L'image ISO française de la GeeXboX 0.98.7 pour PC i386 est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="iso-x86-fr-size"/> Mo - <use name="iso-x86-fr-md5"/> - <b>sha1sum</b> <use name="iso-x86-fr-sha1"/>
-       </download>
-       <download id="dl_iso_ppc_en"
-                 file="0.98.7/geexbox-0.98.7-en.ppc.iso"
-                 title="GeeXboX 0.98.7 édition anglaise (pour PowerPC)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         L'image ISO anglaise de la GeeXboX 0.98.7 pour PowerPC Macintosh est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="iso-ppc-en-size"/> Mo - <use name="iso-ppc-en-md5"/> - <b>sha1sum</b> <use name="iso-ppc-en-sha1"/>
-       </download>
-       <download id="dl_iso_ppc_fr"
-                 file="0.98.7/geexbox-0.98.7-fr.ppc.iso"
-                 title="GeeXboX 0.98.7 édition française (pour PowerPC)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         L'image ISO française de la GeeXboX 0.98.7 pour PowerPC Macintosh est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="iso-ppc-fr-size"/> Mo - <use name="iso-ppc-fr-md5"/> - <b>sha1sum</b> <use name="iso-ppc-fr-sha1"/>
-       </download>
-     </content>
-   </subsection>
+  <section label="download">
+    <content lang="en" title="Downloads ..."/>
+    <content lang="fr" title="Téléchargements ..."/>
+    <content lang="de" title="Downloads ..."/>
 
-   <subsection label="generator">
-     <content lang="en" title="GeeXboX ISO Generator">
-       <description img="../img/gen.png">
-       With this package, it is easy to modify GeeXboX in a few seconds without having to build the sources. The generator produces an ISO image of the GeeXboX, ready to be burned on disc, that you may have customized to fit your needs. The software is multi-platforms, working currently under both GNU/Linux, Mac OS X and Microsoft Windows 9x/NT/2k/XP systems. It is able to produce ISO images for both i386 and PowerPC targets.
-       </description>
-       <download id="dl_gen_x86"
-                 file="0.98.7/geexbox-generator-0.98.7.i386.tar.gz"
-                 title="GeeXboX 0.98.7 ISO Generator (i386 Target)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         GeeXboX 0.98.7 ISO Generator for i386 (PC) targets is available from the following locations :<br/>
-         <b>Size</b> : <use name="gen-x86-size"/> MB - <use name="gen-x86-md5"/> - <b>sha1sum</b> <use name="gen-x86-sha1"/>
-       </download>
-       <download id="dl_gen_ppc"
-                 file="0.98.7/geexbox-generator-0.98.7.ppc.tar.gz"
-                 title="GeeXboX 0.98.7 ISO Generator (PowerPC Target)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         GeeXboX 0.98.7 ISO Generator for PowerPC (Macintosh) targets is available from the following locations :<br/>
-         <b>Size</b> : <use name="gen-ppc-size"/> MB - <use name="gen-ppc-md5"/> - <b>sha1sum</b> <use name="gen-ppc-sha1"/>
-       </download>
-     </content>
-     <content lang="fr" title="Générateur d'ISO GeeXboX">
-       <description img="../img/gen.png">
-       Avec ce paquetage, il vous est possible de modifier la GeeXboX en quelques secondes sans avoir recours aux sources et à une recompilation complète. Le générateur produit une image ISO de la GeeXboX, prête à être gravée sur un disque, et que vous aurez personnaliser pour convenir à vos besoins. L'application est multi-platformes, et fonctionne actuellement aussi bien sous les systèmes GNU/Linux, Mac OS X et Microsoft Windows 9x/NT/2k/XP. Elle est en mesure de générer des images ISO à la fois pour architectures i386 et PowerPC.
-       </description>
-       <download id="dl_gen_x86"
-                 file="0.98.7/geexbox-generator-0.98.7.i386.tar.gz"
-                 title="Générateur d'ISO GeeXboX 0.98.7 (Cible : i386)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         Le générateur d'ISO GeeXboX 0.98.7 ISO pour cible i386 (PC) est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="gen-x86-size"/> Mo - <use name="gen-x86-md5"/> - <b>sha1sum</b> <use name="gen-x86-sha1"/>
-       </download>
-       <download id="dl_gen_ppc"
-                 file="0.98.7/geexbox-generator-0.98.7.ppc.tar.gz"
-                 title="Générateur d'ISO GeeXboX 0.98.7 (Cible : PowerPC)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         Le générateur d'ISO GeeXboX 0.98.7 ISO pour cible PowerPC (Macintosh) est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="gen-ppc-size"/> Mo - <use name="gen-ppc-md5"/> - <b>sha1sum</b> <use name="gen-ppc-sha1"/>
-       </download>
-     </content>
-   </subsection>
+    <subsection label="iso">
+      <content lang="en" title="GeeXboX ISO">
+        <description img="../img/dl.png">
+          GeeXboX ISOs are ready-to-burn disc images containing the bootable GeeXboX Operating System for multimedia entertainment. Pre-made ISO images are currently available in English or French for both i386 (PC) and PowerPC (Macinstosh) computers. Other languages are available with the ISO generator. The installer software is included in the ISO.
+        </description>
+        <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
+          <title>GeeXboX <version/> <lang/> Edition for <arch/></title>
+          <description><lang/> ISO for <arch/> computers is available from the following locations :<br/><b>Size:</b> <size/> - <b>md5sum:</b> <md5/> - <b>sha1sum:</b> <sha1/></description>
+          <file><version/>/geexbox-<version/>-<lang/>.<arch/>.iso</file>
+        </download>
+      </content>
 
-   <subsection label="sources">
-     <content lang="en" title="GeeXboX Sources">
-       <description img="../img/src.png">
-       Here are the GeeXboX sources. If you choose the Lite package, you'll need both the wget package and a connection to the Internet to compile your own GeeXboX as most of the packages will be directly downloaded from the web while compiling the GeeXboX. If you don't want to bother, just grab full source package.
-       </description>
-       <download id="dl_src_lite"
-                 file="0.98.7/geexbox-0.98.7.tar.bz2"
-                 title="GeeXboX 0.98.7 Sources (Lite Package)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         GeeXboX 0.98.7 Sources Lite package is available from the following locations :<br/>
-         <b>Size</b> : <use name="src-lite-size"/> kB - <use name="src-lite-md5"/> - <b>sha1sum</b> <use name="src-lite-sha1"/>
-       </download>
-       <download id="dl_src_full"
-                 file="0.98.7/geexbox-0.98.7-full.tar"
-                 title="GeeXboX 0.98.7 Sources (Full Package)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         GeeXboX 0.98.7 Sources Full package is available from the following locations :<br/>
-         <b>Size</b> : <use name="src-full-size"/> MB - <use name="src-full-md5"/> - <b>sha1sum</b> <use name="src-full-sha1"/>
-       </download>
-     </content>
-     <content lang="fr" title="Sources de la GeeXboX">
-       <description img="../img/src.png">
-       Voici les sources de la distribution GeeXboX. si vous choisissez le paquetage allégé, vous aurez besoin de l'utilitaire wget ainsi que d'une connection à Internet pour compiler votre propre GeeXboX car la majorité des paquetages requis seront téléchargés à la volée. Si vous ne souhaitez pas vous embêter, téléchargez simplement l'archive complète.
-       </description>
-       <download id="dl_src_lite"
-                 file="0.98.7/geexbox-0.98.7.tar.bz2"
-                 title="Sources de la GeeXboX 0.98.7 (Paquetage allégé)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         Le paquetage allégé des sources de la GeeXboX 0.98.7 est disponibles depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="src-lite-size"/> ko - <use name="src-lite-md5"/> - <b>sha1sum</b> <use name="src-lite-sha1"/>
-       </download>
-       <download id="dl_src_full"
-                 file="0.98.7/geexbox-0.98.7-full.tar"
-                 title="Sources de la GeeXboX 0.98.7 (Paquetage complet)"
-                 plus="../img/plus.png" minus="../img/minus.png">
-         Le paquetage complet des sources de la GeeXboX 0.98.7 est disponible depuis les emplacements suivants :<br/>
-         <b>Taille</b> : <use name="src-full-size"/> Mo - <use name="src-full-md5"/> - <b>sha1sum</b> <use name="src-full-sha1"/>
-       </download>
-     </content>
-   </subsection>
+      <content lang="fr" title="GeeXboX ISO">
+        <description img="../img/dl.png">
+          Les images ISO GeeXboX sont prêtes à être gravées sur disque et contiennent une version auto-amorçable du système d'exploitation GeeXboX, apte à satisfaire vos attentes multimédias. Les images ISO pré-construites sont actuellement disponibles aussi bien en Anglais que Français, pour les ordinateurs à architecture i386 (PC) et PowerPC (Macinstosh). D'autres langues sont disponibles par le biais du générateur d'ISO. L'application d'installation sur disque est incluse dans l'image ISO.
+        </description>
+        <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
+          <title>GeeXboX <version/> édition <lang/> pour <arch/></title>
+          <description>L'image ISO <lang/> de la GeeXboX <version/> pour <arch/> est disponible depuis les emplacements suivants :<br/><b>Taille :</b> <size/> - <b>md5sum :</b> <md5/> - <b>sha1sum :</b> <sha1/></description>
+          <file><version/>/geexbox-<version/>-<lang/>.<arch/>.iso</file>
+        </download>
+      </content>
+    </subsection>
 
-   <subsection label="debian">
+    <subsection label="generator">
+      <content lang="en" title="GeeXboX ISO Generator">
+        <description img="../img/gen.png">
+          With this package, it is easy to modify GeeXboX in a few seconds without having to build the sources. The generator produces an ISO image of the GeeXboX, ready to be burned on disc, that you may have customized to fit your needs. The software is multi-platforms, working currently under both GNU/Linux, Mac OS X and Microsoft Windows 9x/NT/2k/XP systems. It is able to produce ISO images for both i386 and PowerPC targets.
+        </description>
+        <download type="gen" plus="../img/plus.png" minus="../img/minus.png">
+          <title>GeeXboX <version/> ISO Generator (<arch/> Target)</title>
+          <description>GeeXboX <version/> ISO Generator for <arch/> targets is available from the following locations :<br/><b>Size:</b> <size/> - <b>md5sum:</b> <md5/> - <b>sha1sum:</b> <sha1/></description>
+          <file><version/>/geexbox-generator-<version/>.<arch/>.tar.gz</file>
+        </download>
+      </content>
+
+      <content lang="fr" title="Générateur d'ISO GeeXboX">
+        <description img="../img/gen.png">
+          Avec ce paquetage, il vous est possible de modifier la GeeXboX en quelques secondes sans avoir recours aux sources et à une recompilation complète. Le générateur produit une image ISO de la GeeXboX, prête à être gravée sur un disque, et que vous aurez personnaliser pour convenir à vos besoins. L'application est multi-platformes, et fonctionne actuellement aussi bien sous les systèmes GNU/Linux, Mac OS X et Microsoft Windows 9x/NT/2k/XP. Elle est en mesure de générer des images ISO à la fois pour architectures i386 et PowerPC.
+        </description>
+        <download type="gen" plus="../img/plus.png" minus="../img/minus.png">
+          <title>Générateur d'ISO GeeXboX <version/> (Cible : <arch/>)</title>
+          <description>Le générateur d'ISO GeeXboX <version/> pour cible <arch/> est disponible depuis les emplacements suivants :<br/><b>Taille :</b> <size/> - <b>md5sum :</b> <md5/> - <b>sha1sum :</b> <sha1/></description>
+          <file><version/>/geexbox-generator-<version/>.<arch/>.tar.gz</file>
+        </download>
+      </content>
+    </subsection>
+
+    <subsection label="sources">
+      <content lang="en" title="GeeXboX Sources">
+        <description img="../img/src.png">
+          Here are the GeeXboX sources. If you choose the Lite package, you'll need both the wget package and a connection to the Internet to compile your own GeeXboX as most of the packages will be directly downloaded from the web while compiling the GeeXboX. If you don't want to bother, just grab full source package.
+        </description>
+        <download type="src" plus="../img/plus.png" minus="../img/minus.png">
+          <title>GeeXboX <version/> Sources (<src-type/> Package)</title>
+          <description>GeeXboX <version/> Sources <src-type/> package is available from the following locations :<br/><b>Size:</b> <size/> - <b>md5sum:</b> <md5/> - <b>sha1sum:</b> <sha1/></description>
+          <file><version/>/geexbox-<version/>-<src-type/>.<src-ext/></file>
+        </download>
+      </content>
+
+      <content lang="fr" title="Sources de la GeeXboX">
+        <description img="../img/src.png">
+          Voici les sources de la distribution GeeXboX. si vous choisissez le paquetage allégé, vous aurez besoin de l'utilitaire wget ainsi que d'une connection à Internet pour compiler votre propre GeeXboX car la majorité des paquetages requis seront téléchargés à la volée. Si vous ne souhaitez pas vous embêter, téléchargez simplement l'archive complète.
+        </description>
+        <download type="src" plus="../img/plus.png" minus="../img/minus.png">
+          <title>Sources de la GeeXboX <version/> (Paquetage <src-type/>)</title>
+          <description>Le paquetage <src-type/> des sources de la GeeXboX <version/> est disponibles depuis les emplacements suivants :<br/><b>Taille :</b> <size/> - <b>md5sum :</b> <md5/> - <b>sha1sum :</b> <sha1/></description>
+          <file><version/>/geexbox-<version/>-<src-type/>.<src-ext/></file>
+        </download>
+      </content>
+    </subsection>
+
+    <subsection label="debian">
       <content lang="en" title="GeeXboX Debian Repository">
         <description img="../img/deb.png">
           The GeeXboX ISO generator is also available through <b>apt-get</b> for GNU/Linux Debian users. Simply add the following lines to your <i>/etc/apt/sources.list</i> file :<br/>
@@ -247,22 +142,22 @@
     <subsection label="releases">
       <content lang="en" title="GeeXboX Old Releases">
         <description img="../img/old.png">
-        If the current GeeXboX version doesn't work on your computer for any kind of reasons, we of course provide you an easy way to fetch the previous releases to give them a try.
+          If the current GeeXboX version doesn't work on your computer for any kind of reasons, we of course provide you an easy way to fetch the previous releases to give them a try.
         </description>
-        <download id="dl_releases" file="" full="yes"
-                  title="GeeXboX Old Releases"
-                  plus="../img/plus.png" minus="../img/minus.png">
-          GeeXboX old releases are available from the following locations :
+        <download type="old" plus="../img/plus.png" minus="../img/minus.png" full="yes">
+          <title>GeeXboX Old Releases</title>
+          <description>GeeXboX old releases are available from the following locations :</description>
+          <file></file>
         </download>
       </content>
       <content lang="fr" title="Anciennes versions de la GeeXboX">
         <description img="../img/old.png">
-        Si la version courante de la GeeXboX ne fonctionne pas sur votre ordinateur pour tout type de raison, nous mettons bien évidemment à votre disposition les précédentes versions de notre distribution pour que vous puissiez les essayer.
+          Si la version courante de la GeeXboX ne fonctionne pas sur votre ordinateur pour tout type de raison, nous mettons bien évidemment à votre disposition les précédentes versions de notre distribution pour que vous puissiez les essayer.
         </description>
-        <download id="dl_releases" file="" full="yes"
-                  title="Anciennes versions de la GeeXboX"
-                  plus="../img/plus.png" minus="../img/minus.png">
-          Les versions précédentes de la GeeXboX sont disponibles depuis les emplacements suivants :
+        <download type="old" plus="../img/plus.png" minus="../img/minus.png" full="yes">
+          <title>Anciennes versions de la GeeXboX</title>
+          <description>Les versions précédentes de la GeeXboX sont disponibles depuis les emplacements suivants :</description>
+          <file></file>
         </download>
       </content>
     </subsection>

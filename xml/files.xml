@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<files current_version="0.98.7">
+  <file type="iso">
+    <arch>i386</arch>
+    <lang>en</lang>
+    <size>6559744</size>
+    <md5>52a8c72d9402583a8ebec62e436a2bac</md5>
+    <sha1>fb67b683e465ab9f358560b76efc20b127bdee6f</sha1>
+  </file>
+
+  <file type="iso">
+    <arch>i386</arch>
+    <lang>fr</lang>
+    <size>6561792</size>
+    <md5>805f6f712e2139233f021fceb3eeda1a</md5>
+    <sha1>7cc5611da6703cc306139990802380113a0451a8</sha1>
+  </file>
+
+  <file type="iso">
+    <arch>ppc</arch>
+    <lang>en</lang>
+    <size>11649024</size>
+    <md5>a30d32610efabb00358e147b01c2e386</md5>
+    <sha1>74c013b111cdf45257941b109eb21a4db3503485</sha1>
+  </file>
+
+  <file type="iso">
+    <arch>ppc</arch>
+    <lang>fr</lang>
+    <size>11646976</size>
+    <md5>d7452a907f48d7538ad990f1c51b6e17</md5>
+    <sha1>f149d34c474863c24408ff2ad8fbb13f290f4131</sha1>
+  </file>
+
+  <file type="gen">
+    <arch>i386</arch>
+    <size>8558452</size>
+    <md5>5717aa88be36c7f46d08b9468dc652ad</md5>
+    <sha1>bc1df8dbbfd5d454280640452215b45d952e300a</sha1>
+  </file>
+
+  <file type="gen">
+    <arch>ppc</arch>
+    <size>8926753</size>
+    <md5>b73d16a51c48d366210193d72bf75fd6</md5>
+    <sha1>07973e3c2d4270ea5108a1b25c315588dc82ee35</sha1>
+  </file>
+
+  <file type="src">
+    <src-type>lite</src-type>
+    <src-ext>tar.bz2</src-ext>
+    <size>320208</size>
+    <md5>fcaf3986b6dc3f1e4f43a22412894b43</md5>
+    <sha1>56345fa8eec41714498636f74655506f36f79b4a</sha1>
+  </file>
+
+  <file type="src">
+    <src-type>full</src-type>
+    <src-ext>tar</src-ext>
+    <size>122480640</size>
+    <md5>dd3b1e60018994636f6805694a3e84d8</md5>
+    <sha1>3ca203008d1668fae52363fcc7779ba619feddd3</sha1>
+  </file>
+
+  <file type="old"/>
+</files>

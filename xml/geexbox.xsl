@@ -131,50 +131,163 @@
    </div>
 </xsl:template>
 
+<xsl:template match="version">
+  <xsl:param name="version"/>
+  <xsl:value-of select="$version"/>
+</xsl:template>
+<xsl:template match="version" mode="raw">
+  <xsl:param name="version"/>
+  <xsl:value-of select="$version"/>
+</xsl:template>
+
+<xsl:template match="lang-names"></xsl:template>
+<xsl:template match="lang">
+  <xsl:param name="file"/>
+  <xsl:apply-templates select="/article/lang-names[@lang=$lang]/lang-name[@code=$file/lang]/node()"/>
+</xsl:template>
+<xsl:template match="lang" mode="raw">
+  <xsl:param name="file"/>
+  <xsl:value-of select="$file/lang"/>
+</xsl:template>
+
+<xsl:template match="arch-names"></xsl:template>
+<xsl:template match="arch">
+  <xsl:param name="file"/>
+  <xsl:apply-templates select="/article/arch-names/arch-name[@code=$file/arch]/node()"/>
+</xsl:template>
+<xsl:template match="arch" mode="raw">
+  <xsl:param name="file"/>
+  <xsl:value-of select="$file/arch"/>
+</xsl:template>
+
+<xsl:template match="size-names"></xsl:template>
+<xsl:template match="size">
+  <xsl:param name="file"/>
+  <xsl:choose>
+    <xsl:when test="$file/size &lt; 1024">
+      <xsl:value-of select="$file/size"/>
+      <xsl:text> </xsl:text>
+      <xsl:apply-templates select="/article/size-names[@lang=$lang]/size-name[@code='B']/node()"/>
+    </xsl:when>
+    <xsl:when test="$file/size &lt; 1024*1024">
+      <xsl:value-of select="round($file/size div 1024)"/>
+      <xsl:text> </xsl:text>
+      <xsl:apply-templates select="/article/size-names[@lang=$lang]/size-name[@code='K']/node()"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="round($file/size * 10 div (1024*1024)) div 10"/>
+      <xsl:text> </xsl:text>
+      <xsl:apply-templates select="/article/size-names[@lang=$lang]/size-name[@code='M']/node()"/>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+
+<xsl:template match="md5">
+  <xsl:param name="file"/>
+  <xsl:value-of select="$file/md5"/>
+</xsl:template>
+
+<xsl:template match="sha1">
+  <xsl:param name="file"/>
+  <xsl:value-of select="$file/sha1"/>
+</xsl:template>
+
+<xsl:template match="src-type-names"></xsl:template>
+<xsl:template match="src-type">
+  <xsl:param name="file"/>
+  <xsl:apply-templates select="/article/src-type-names[@lang=$lang]/src-type-name[@code=$file/src-type]/node()"/>
+</xsl:template>
+<xsl:template match="src-type" mode="raw">
+  <xsl:param name="file"/>
+  <xsl:value-of select="$file/src-type"/>
+</xsl:template>
+
+<xsl:template match="src-ext">
+  <xsl:param name="file"/>
+  <xsl:value-of select="$file/src-ext"/>
+</xsl:template>
+<xsl:template match="src-ext" mode="raw">
+  <xsl:param name="file"/>
+  <xsl:value-of select="$file/src-ext"/>
+</xsl:template>
+
 <xsl:template match="download">
-  <div id="download">
-    <div id="dlplusminus">
-      <xsl:element name="a">
-        <xsl:attribute name="id">plus_<xsl:value-of select="@id"/></xsl:attribute>
-        <xsl:attribute name="href">javascript:toggle('<xsl:value-of select="@id"/>','plus_<xsl:value-of select="@id"/>','minus_<xsl:value-of select="@id"/>')</xsl:attribute>
-        <xsl:element name="img">
-          <xsl:attribute name="src">
-            <xsl:value-of select="@plus"/>
-          </xsl:attribute>
-          <xsl:attribute name="alt">plus</xsl:attribute>
-          <xsl:attribute name="border">0</xsl:attribute>
-        </xsl:element> 
-      </xsl:element>
+  <xsl:variable name="type" select="@type"/>
+  <xsl:variable name="full" select="@full"/>
+  <xsl:variable name="title" select="./title"/>
+  <xsl:variable name="description" select="./description"/>
+  <xsl:variable name="file" select="./file"/>
+  <xsl:variable name="plus" select="@plus"/>
+  <xsl:variable name="minus" select="@minus"/>
+  <xsl:variable name="files" select="document('files.xml')/files"/>
+  <xsl:variable name="version" select="$files/@current_version"/>
+  <xsl:for-each select="$files/file[@type = $type]">
+    <xsl:variable name="id">
+      <xsl:if test="./lang"><xsl:value-of select="./lang"/>.</xsl:if>
+      <xsl:if test="./arch"><xsl:value-of select="./arch"/>.</xsl:if>
+      <xsl:if test="./src-type"><xsl:value-of select="./src-type"/>.</xsl:if>
+      <xsl:value-of select="$type"/>
+    </xsl:variable>
+    <div id="download">
+      <div id="dlplusminus">
+        <xsl:element name="a">
+          <xsl:attribute name="id">plus.<xsl:value-of select="$id"/></xsl:attribute>
+          <xsl:attribute name="href">javascript:toggle('<xsl:value-of select="$id"/>','plus.<xsl:value-of select="$id"/>','minus.<xsl:value-of select="$id"/>')</xsl:attribute>
+          <xsl:element name="img">
+            <xsl:attribute name="src">
+              <xsl:value-of select="$plus"/>
+            </xsl:attribute>
+            <xsl:attribute name="alt">plus</xsl:attribute>
+            <xsl:attribute name="border">0</xsl:attribute>
+          </xsl:element>
+        </xsl:element>
 
-      <xsl:element name="a">
-        <xsl:attribute name="id">minus_<xsl:value-of select="@id"/></xsl:attribute>
-        <xsl:attribute name="style">display: none</xsl:attribute>
-        <xsl:attribute name="href">javascript:toggle('<xsl:value-of select="@id"/>','minus_<xsl:value-of select="@id"/>','plus_<xsl:value-of select="@id"/>')</xsl:attribute>
-        <xsl:element name="img">
-          <xsl:attribute name="src">
-            <xsl:value-of select="@minus"/>
-          </xsl:attribute>
-          <xsl:attribute name="alt">minus</xsl:attribute>
-          <xsl:attribute name="border">0</xsl:attribute>
-        </xsl:element> 
-      </xsl:element>
-    </div>
-    <div id="dlfile">
-      <b><xsl:value-of select="@title"/></b>
+        <xsl:element name="a">
+          <xsl:attribute name="id">minus.<xsl:value-of select="$id"/></xsl:attribute>
+          <xsl:attribute name="style">display: none</xsl:attribute>
+          <xsl:attribute name="href">javascript:toggle('<xsl:value-of select="$id"/>','minus.<xsl:value-of select="$id"/>','plus.<xsl:value-of select="$id"/>')</xsl:attribute>
+          <xsl:element name="img">
+            <xsl:attribute name="src">
+              <xsl:value-of select="$minus"/>
+            </xsl:attribute>
+            <xsl:attribute name="alt">minus</xsl:attribute>
+            <xsl:attribute name="border">0</xsl:attribute>
+          </xsl:element> 
+        </xsl:element>
+      </div>
+      <div id="dlfile">
+        <b>
+          <xsl:apply-templates select="$title/node()">
+            <xsl:with-param name="version" select="$version"/>
+            <xsl:with-param name="file" select="."/>
+          </xsl:apply-templates>
+        </b>
 
-      <xsl:element name="div">
-        <xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute>
-        <xsl:attribute name="style">display: none</xsl:attribute>
-        <xsl:apply-templates select="./node()"/>
-        <xsl:call-template name="mirror"/>
-      </xsl:element>
+        <xsl:element name="div">
+          <xsl:attribute name="id"><xsl:value-of select="$id"/></xsl:attribute>
+          <xsl:attribute name="style">display: none</xsl:attribute>
+          <xsl:apply-templates select="$description/node()">
+            <xsl:with-param name="version" select="$version"/>
+            <xsl:with-param name="file" select="."/>
+          </xsl:apply-templates>
+          <xsl:call-template name="mirror">
+            <xsl:with-param name="file">
+              <xsl:apply-templates select="$file/node()" mode="raw">
+                <xsl:with-param name="version" select="$version"/>
+                <xsl:with-param name="file" select="."/>
+              </xsl:apply-templates>
+            </xsl:with-param>
+            <xsl:with-param name="full" select="$full"/>
+          </xsl:call-template>
+        </xsl:element>
+      </div>
     </div>
-  </div>
+  </xsl:for-each>
 </xsl:template>
 
 <xsl:template name="mirror">
-  <xsl:variable name="full" select="@full"/>
-  <xsl:variable name="file" select="@file"/>
+  <xsl:param name="file"/>
+  <xsl:param name="full"/>
   <xsl:variable name="mirrors" select="document('mirrors.xml')/mirrors"/>
 
   <div id="dltable">
