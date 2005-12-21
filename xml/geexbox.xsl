@@ -104,6 +104,20 @@
       </xsl:element>
     </xsl:if>
     <xsl:value-of select="./content[@lang=$lang]/@title"/>
+    <xsl:if test="@date">
+      <xsl:choose>
+        <xsl:when test="$lang='en'">
+          (<xsl:value-of select="substring(@date,5,2)"/>/<xsl:value-of select="substring(@date,9,2)"/>/<xsl:value-of select="substring(@date,1,4)"/>)
+        </xsl:when>
+        <xsl:when test="$lang='fr'">
+          (<xsl:value-of select="substring(@date,9,2)"/>/<xsl:value-of select="substring(@date,6,2)"/>/<xsl:value-of select="substring(@date,1,4)"/>)
+        </xsl:when>
+        <xsl:when test="$lang='de'">
+          (<xsl:value-of select="substring(@date,6,2)"/>/<xsl:value-of select="substring(@date,9,2)"/>/<xsl:value-of select="substring(@date,1,4)"/>)
+        </xsl:when>
+      </xsl:choose>
+    </xsl:if>
+    ...
   </h4>
   <xsl:if test="./content[@lang=$lang]/node()">
     <div class="p">

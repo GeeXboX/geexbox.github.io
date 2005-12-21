@@ -17,7 +17,8 @@
 <!ATTLIST section label NMTOKEN #IMPLIED>
 <!ATTLIST subsection label NMTOKEN #IMPLIED>
 <!ATTLIST content lang NMTOKEN "en"
-                  title CDATA #IMPLIED>
+                  title CDATA #IMPLIED
+                  date  CDATA #IMPLIED>
 <!ATTLIST page name NMTOKEN #REQUIRED>
 <!ATTLIST xhml title CDATA #IMPLIED>
 <!ATTLIST css title CDATA #IMPLIED>
