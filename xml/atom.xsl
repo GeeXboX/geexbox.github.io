@@ -40,6 +40,7 @@
       <xsl:attribute name="rel">self</xsl:attribute>
       <xsl:attribute name="href"><xsl:call-template name="uri"/></xsl:attribute>
     </xsl:element>
+    <subtitle type="text"><xsl:value-of select="./content[@lang=$lang]/@title"/></subtitle>
     <icon>http://geexbox.org/img/geexbox-icon.png</icon>
     <logo>http://geexbox.org/img/logo-gx-small.png</logo>
     <rights> © 2005 GeeXboX Team </rights>
