@@ -568,22 +568,22 @@ Wir hoffen, Sie haben Spaß mit der neuen Version, wünschen hiermit ein frohes ne
       </content>
     </subsection>
 
-    <subsection label="pre_0.99" date="20--">
-      <content lang="en" title="">    
+    <subsection label="pre_0.99" date="2004-10-17">
+      <content lang="en" title="Help with GeeXboX development : try devel releases">
         Almost 2 months have passed since GeeXboX 0.98 was released. Lots of work has been done since then. For example, we're now supporting the Linux 2.6 kernel series and many improvements have been made to the video output. It now fully supports the VESA 3.0 specification, adding a new support for all 3Dfx and Intel i845/i855/i865 cards and chipsets. Also, pictures are now rendered using 24 bit depth.<br/><br/>
 
         We're now almost finished with the architecture changes we've planned to do for 0.99 release, and we can finally start to work on a complete rework of the menu interface. To give you a taste of the future of GeeXboX, you can simply have a look at our <i>Work In Progress</i><use name="drafts"/>. Currently it's only a snapshot of the coming 0.99 and to provide you with such a perfect release as soon as possible, we need you to test our development release and report to us as many bugs as possible.<br/><br/>
 
         We'll try to release as many development versions as we can. In each release we would add significant changes. So, if you want to help us, please try our development release here <use name="devel"/>. Please understand that they are snapshots of a work in progress, meaning that they can not be considered as stable. If you want to be sure to use a stable release, keep using the 0.98 release.
       </content>
-      <content lang="fr" title="">    
+      <content lang="fr" title="Contribuer au développement de la GeeXboX : testez les versions de développements.">
         Presque 2 mois se sont écoulés depuis la sortie de la version 0.98 de la GeeXboX. De nombreuses améliorations ont été apportées depuis et, pour ne citer que les principales, la distribution supporte désormais la série 2.6 du noyau Linux et de gros efforts ont été portés sur l'amélioration de la qualité d'affichage. La GeeXboX supporte désormais une profondeur de rendu d'image de 24 bits et respecte les spécifications de la norme VESA 3.0, ce qui nous permet (enfin) de supporter les cartes graphiques et chipsets 3Dfx et Intel i845/i855/i865.<br/><br/>
 
         Nous en avons maintenant quasiment fini avec les changements d'architecture que nous avions prévu d'apporter à la future version 0.99 et nous sommes désormais en mesure de concentrer nos efforts sur une refonte complète de l'interface du menu. Pour vous donner un aperçu du futur de la GeeXboX, vous pouvez simplement jetter un oeil sur notre page <use name="drafts"/> d'ébauche de l'interface. A l'heure actuelle il ne s'agit que d'un simple aperçu de la future version 0.99 et, afin de la distribuer au plus tôt, nous avons besoin de votre aide pour tester nos versions de développement et pour nous rapporter tous les bugs que vous pourrez rencontrer.<br/><br/>
 
         Nous essaierons de mettre à votre disposition de nouvelles versions de développement aussi souvent que possible, dès que des changements significatifs auront été apportés. Ainsi, si vous souhaitez contribuer au développement, vous êtes invités à tester nos versions de développement sur cette <use name="devel"/>. Comprenez bien cependant qu'il ne s'agit que de versions unstables, en cours de développement, et qui ne peuvent être considérées comme stable. Si vous souhaitez utiliser une version certifiée stable de la GeeXboX, la 0.98 est faite pour vous.
       </content>
-      <content lang="de" title="">    
+      <content lang="de" title="Helfen Sie bei der GeeXboX Entwicklung : Testen Sie Entwicklerversionen">
         Nahezu 2 Monate sind seit der Veröffentlichung der GeeXboX Version 0.98 vergangen. Eine Menge Arbeit wurde seitdem erledigt. Zum Beispiel gibt es jetzt Unterstützung für den Linux 2.6 Kernel, und es wurden viele Verbesserungen bei der Grafikausgabe gemacht. Die VESA 3.0 Spezifikation wird nun voll unterstützt und es gibt verbesserte Unterstützung für alle 3Dfx und Intel i845/i855/i865 Karten und Chipsätze. Außerdem werden nun alle Bilder mit einer Farbtiefe von 24 bit dargestellt.<br/><br/>
 
         Wir haben nun nahzu alle Änderungen an der Architektur (nötig für die 0.99 Version) abgeschlossen und können nun mit der Überarbeitung der Menüdarstellung beginnen. Um einen Vorgeschmack zukünftiger GeeXboX Versionen zu bekommen, sehen Sie einfach auf unserer <i>Work In Progress</i><use name="drafts"/> nach. Zur Zeit handelt es sich um eine Testversion der kommenden 0.99 Version und wir bitten Sie, diese Version schon jetzt zu testen und uns alle bugs mitzuteilen, damit wir so schnell wie möglich diese Version fertigstellen können.<br/><br/>
