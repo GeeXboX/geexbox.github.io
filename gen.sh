@@ -8,4 +8,5 @@ for l in $LANGS; do
   for p in $PAGES; do
     xsltproc --stringparam filename $p.html --stringparam lang $l xml/geexbox.xsl xml/$p.xml > $l/$p.html
   done
+  xsltproc --stringparam date "`date "+%Y-%m-%d %H:%M:%S"`" --stringparam lang $l xml/atom.xsl xml/index.xml > $l/news.xml
 done
