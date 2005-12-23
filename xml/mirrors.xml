@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE menu SYSTEM "geexbox.dtd">
+
+<mirrors>
+  <mirror>
+    <country>ie</country>
+    <description>GeeXboX.org, Dublin (Ireland, HTTP)</description>
+    <url>http://www1.geexbox.org/</url>
+  </mirror>
+
+  <mirror partial="yes">
+    <country>fr</country>
+    <description>Free / ProXad.net, Paris (France, FTP)</description>
+    <url>ftp://ftp.proxad.net/pub/Distributions_Linux/GeeXboX/</url>
+  </mirror>
+
+  <mirror>
+    <country>fr</country>
+    <description>Zyrianes.net, Paris (France, HTTP)</description>
+    <url>http://www2.geexbox.org/</url>
+  </mirror>
+
+  <mirror>
+    <country>fr</country>
+    <description>RelouFR Networks, Paris (France, HTTP)</description>
+    <url>http://geexbox.reloumirrors.net/</url>
+  </mirror>
+
+  <mirror>
+    <country>us</country>
+    <description>Mirrorgeek.com, Austin (Texas, USA, HTTP)</description>
+    <url>http://geexbox.mirrorgeek.com/</url>
+  </mirror>
+
+  <mirror>
+    <country>nl</country>
+    <description>InTouch.net, Amsterdam (Netherlands, HTTP)</description>
+    <url>http://www5.geexbox.org/</url>
+  </mirror>
+
+  <mirror>
+    <country>de</country>
+    <description>MetalForen.org, Berlin (Germany, HTTP)</description>
+    <url>http://geexbox.metalforen.org/</url>
+  </mirror>
+</mirrors>

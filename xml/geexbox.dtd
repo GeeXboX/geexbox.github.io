@@ -48,6 +48,28 @@
                   url  CDATA   #REQUIRED>
 
 
+<!ELEMENT mirrors (mirror*)>
+<!ELEMENT mirror (country, description, url)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT description (text*)>
+<!ELEMENT url (#PCDATA)>
+
+
+<!ELEMENT files (file*)>
+<!ATTLIST files current_version CDATA #REQUIRED>
+
+<!ELEMENT file (arch|lang|size|md5|sha1|src-type|src-ext)*>
+<!ATTLIST file type NMTOKEN #REQUIRED>
+
+<!ELEMENT arch (#PCDATA)>
+<!ELEMENT lang (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT md5  (#PCDATA)>
+<!ELEMENT sha1 (#PCDATA)>
+<!ELEMENT src-type (#PCDATA)>
+<!ELEMENT src-ext  (#PCDATA)>
+
+
 <!ELEMENT ours (content)*>
 
 
