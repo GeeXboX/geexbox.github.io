@@ -48,6 +48,7 @@
 * Pinnacle Studio PCTV Pro BT848<br/>
 * 3COM 10Mbps LAN PC-Card<br/>
 * US Robotics PCMCIA V.34 Modem<br/>
+* Hauppauge PVR 350<br/>
   </define>
 
   <define name="computer">
@@ -67,7 +68,7 @@
   </define>
 
   <define name="donators-hard">
-    Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac, Andrew Florence
+    Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac, Andrew Florence, Guy C. McNeill
   </define>
 
   <section label="donate">
