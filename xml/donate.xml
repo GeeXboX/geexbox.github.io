@@ -63,12 +63,16 @@
     <a href="http://www.responsecomputing.co.uk">Response Computing</a>
   </define>
 
+  <define name="westminster-url">
+    <a href="http://www.wg-plc.com/">IT Manager, Westminster Group PLC</a>
+  </define>
+
   <define name="donators">
     <i>Romain Perea, Luigi Bortolani, Sam Huffman, Clint Brothers, Paul François, Lobo Martinez, Olivier Cochard, Laurent Peltier.</i>
   </define>
 
   <define name="donators-hard">
-    Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac, Andrew Florence, Guy C. McNeill
+    Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac, Andrew Florence (<use name="response-computing-url"/>), Guy C. McNeill (<use name="westminster-url"/>)
   </define>
 
   <section label="donate">
@@ -105,7 +109,7 @@ At the moment, we're really looking for specific help :<br/><br/>
 So, if you want to help us, just mail us at <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. And, on behalf of all the developers and users, thank you for your help.<br/>
 Here's a description of all of our generous donators, each of them have give us a slight money income to thank us from our work and which will be used to add a better support for hardware stuff into GeeXboX. Many thanks to <use name="donators"/><br/><br/>
 
-Our development team already has received the following piece of hardware. Special thanks to <i><use name="donators-hard"/></i> (from <use name="response-computing-url"/>) for their hardware donations.<br/><br/>
+Our development team already has received the following piece of hardware. Special thanks to <i><use name="donators-hard"/></i> for their hardware donations.<br/><br/>
 
 <b>Display adapters :</b><br/>
 <use name="vboard"/><br/>
@@ -134,7 +138,7 @@ A l'heure actuelle, nous avons des besoins particuliers :<br/><br/>
 Donc, si vous souhaitez nous aider, envoyez simplement un mail à <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. Et, de la part de tous les développeurs et utilisateurs, merci de tout coeur pour votre aide.<br/>
 Vous trouverez ci-dessous la liste de tous les généreux donateurs qui ont contribué financièrement au projet GeeXboX en nous apportant un soutien financier. Chacun d'entre eux à apporter un petit quelque chose qui nous permet de supporter un nombre de composants de plus en plus varié. Un grand merci donc à <use name="donators"/><br/><br/>
 
-Notre équipe de développement à déjà reçu la liste suivante de matériel et autres pièces détachées. Un grand merci à <i><use name="donators-hard"/></i> (de la société <use name="response-computing-url"/>) pour leurs dons de matériel.<br/><br/>
+Notre équipe de développement à déjà reçu la liste suivante de matériel et autres pièces détachées. Un grand merci à <i><use name="donators-hard"/></i> pour leurs dons de matériel.<br/><br/>
 
 <b>Cartes graphiques :</b><br/>
 <use name="vboard"/><br/>
@@ -163,7 +167,7 @@ Z.Zt. suchen wir gezielt nach folgenden Dingen :<br/><br/>
 Wenn Sie uns also helfen möchten, schreiben Sie einfach an <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. In Vertretung aller Entwickler und Benutzer vielen Dank für Ihre Hilfe.<br/>
 Hier ist eine Liste unserer grosszügigen Spender. Jeder von Ihnen hat uns ein kleines Einkommen als Lohn für unsere Arbeit beschert. Wir werden das Geld verwenden, um noch mehr Hardware mit GeeXboX zu unterstützen. Vielen Dank an <use name="donators"/><br/><br/>
 
-Unser Entwicklerteam hat bereits die folgenden Hardwarespenden erhalten. Besonder Dank an <i><use name="donators-hard"/></i> (von <use name="response-computing-url"/>) für Ihre Hardwarespenden.<br/><br/>
+Unser Entwicklerteam hat bereits die folgenden Hardwarespenden erhalten. Besonder Dank an <i><use name="donators-hard"/></i> für Ihre Hardwarespenden.<br/><br/>
 
 <b>Grafikkarten :</b><br/>
 <use name="vboard"/><br/>
