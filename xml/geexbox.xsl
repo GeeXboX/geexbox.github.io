@@ -136,8 +136,8 @@
 </xsl:template>
 
 <xsl:template match="description">
-  <div id="dldesc">
-    <div id="dldescicon">
+  <div class="dldesc">
+    <div class="dldescicon">
       <xsl:element name="img">
         <xsl:attribute name="src">
           <xsl:value-of select="@img"/>
@@ -145,7 +145,7 @@
         <xsl:attribute name="alt">illustration of this download section</xsl:attribute>
       </xsl:element>
      </div>
-     <div id="dldesctext">
+     <div class="dldesctext">
        <xsl:apply-templates select="./node()"/>
      </div>
    </div>
@@ -248,8 +248,8 @@
       <xsl:if test="./src-type"><xsl:value-of select="./src-type"/>.</xsl:if>
       <xsl:value-of select="$type"/>
     </xsl:variable>
-    <div id="download">
-      <div id="dlplusminus">
+    <div class="download">
+      <div class="dlplusminus">
         <xsl:element name="a">
           <xsl:attribute name="id">plus.<xsl:value-of select="$id"/></xsl:attribute>
           <xsl:attribute name="href">javascript:toggle('<xsl:value-of select="$id"/>','plus.<xsl:value-of select="$id"/>','minus.<xsl:value-of select="$id"/>')</xsl:attribute>
@@ -273,7 +273,7 @@
           </xsl:element> 
         </xsl:element>
       </div>
-      <div id="dlfile">
+      <div class="dlfile">
         <b>
           <xsl:apply-templates select="$title/node()">
             <xsl:with-param name="version" select="$version"/>
@@ -308,10 +308,10 @@
   <xsl:param name="full"/>
   <xsl:variable name="mirrors" select="document('mirrors.xml')/mirrors"/>
 
-  <div id="dltable">
+  <div class="dltable">
     <xsl:for-each select="$mirrors/mirror[not($full) or $full != 'yes' or not(@partial) or @partial != 'yes']">
       <div>
-        <xsl:attribute name="id">row<xsl:value-of select="(position()+1) mod 2"/></xsl:attribute>
+        <xsl:attribute name="class">row<xsl:value-of select="(position()+1) mod 2"/></xsl:attribute>
         <xsl:element name="img">
           <xsl:attribute name="src">../img/flag-<xsl:value-of select="./country"/>.png</xsl:attribute>
           <xsl:attribute name="alt"><xsl:value-of select="./country"/></xsl:attribute>

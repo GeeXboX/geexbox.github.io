@@ -91,53 +91,53 @@ body {
 	background-color: transparent;
 }
 
-#dldesc {
+.dldesc {
 	display: table;
 	width: 100%;
 }
 
-#dldescicon {
+.dldescicon {
 	display: table-cell;
 	vertical-align: top;
 	padding: 3px;
 }
 
-#dldesctext {
+.dldesctext {
 	display: table-cell;
 	width: 100%;
 	padding: 3px;
 }
 
-#download {
+.download {
 	display: table;
 	width: 100%;
 	background-color: #efefef;
 }
 
-#download img {
+.download img {
 	border: 0;
 }
 
-#dlplusminus {
+.dlplusminus {
 	display: table-cell;
 	padding: 5px 1em 5px 5px;
 }
 
-#dlfile {
+.dlfile {
 	display: table-cell;
 	width: 100%;
 }
 
-#dltable img {
+.dltable img {
 	margin: 5px 1em 5px 5px;
 	vertical-align: middle;
 }
 
-#row0 {
+.row0 {
 	background-color: #e5e5e5;
 }
 
-#row1 {
+.row1 {
 	background-color: #efefef;
 }
 
