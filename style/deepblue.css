@@ -114,6 +114,10 @@ body {
 	background-color: #efefef;
 }
 
+#download img {
+	border: 0;
+}
+
 #dlplusminus {
 	display: table-cell;
 	padding: 5px 1em 5px 5px;

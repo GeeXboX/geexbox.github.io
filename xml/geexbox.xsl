@@ -142,7 +142,7 @@
         <xsl:attribute name="src">
           <xsl:value-of select="@img"/>
         </xsl:attribute>
-        <xsl:attribute name="border">0</xsl:attribute>
+        <xsl:attribute name="alt">illustration of this download section</xsl:attribute>
       </xsl:element>
      </div>
      <div id="dldesctext">
@@ -258,7 +258,6 @@
               <xsl:value-of select="$plus"/>
             </xsl:attribute>
             <xsl:attribute name="alt">plus</xsl:attribute>
-            <xsl:attribute name="border">0</xsl:attribute>
           </xsl:element>
         </xsl:element>
 
@@ -271,7 +270,6 @@
               <xsl:value-of select="$minus"/>
             </xsl:attribute>
             <xsl:attribute name="alt">minus</xsl:attribute>
-            <xsl:attribute name="border">0</xsl:attribute>
           </xsl:element> 
         </xsl:element>
       </div>
