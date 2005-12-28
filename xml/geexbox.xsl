@@ -11,7 +11,11 @@
 
 <xsl:template match="/article">
 
-  <html>
+  <xsl:element name="html">
+    <xsl:attribute name="xmlns">http://www.w3.org/1999/xhtml</xsl:attribute>
+    <xsl:attribute name="xml:lang"><xsl:value-of select="$lang"/></xsl:attribute>
+    <xsl:attribute name="lang"><xsl:value-of select="$lang"/></xsl:attribute>
+
     <xsl:comment>
       This web site is (c) 2003 Zores Benjamin
       HomePage for the GeeXboX Project (http://www.geexbox.org/)
@@ -64,7 +68,7 @@
 
       </div>
     </body>
-  </html>
+  </xsl:element>
 
 </xsl:template>
 
