@@ -14,7 +14,6 @@
   <xsl:element name="html">
     <xsl:attribute name="xmlns">http://www.w3.org/1999/xhtml</xsl:attribute>
     <xsl:attribute name="xml:lang"><xsl:value-of select="$lang"/></xsl:attribute>
-    <xsl:attribute name="lang"><xsl:value-of select="$lang"/></xsl:attribute>
 
     <xsl:comment>
       This web site is (c) 2003 Zores Benjamin
