@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
@@ -61,11 +61,11 @@
       <br/>
       </content>
       <content lang="fr" title="Sous-projets GeeXboX ...">
-      Vous trouverez ci-dessous une courte liste de projets relatifs à la GeeXboX ou développés dans son cadre. Ils sont cependant complètement indépendant de la distribution GeeXboX et de ce fait, peuvent être utilisés sans elle. Ces projets ont été développés à un moment ou un autre par les des membres du projet et sont utilisés au sein (ou à côté) de la distribution. Il sont bien entendus tous libres.<br/>
+      Vous trouverez ci-dessous une courte liste de projets relatifs Ã  la GeeXboX ou dÃ©veloppÃ©s dans son cadre. Ils sont cependant complÃ¨tement indÃ©pendant de la distribution GeeXboX et de ce fait, peuvent Ãªtre utilisÃ©s sans elle. Ces projets ont Ã©tÃ© dÃ©veloppÃ©s Ã  un moment ou un autre par les des membres du projet et sont utilisÃ©s au sein (ou Ã  cÃ´tÃ©) de la distribution. Il sont bien entendus tous libres.<br/>
       <br/>
-      * <use name="lnk-ushare"/> : uShare est un MediaServer UPnP A/V. Il implémente une composante serveur, permettant à des périphériques UPnP de récupérer des contenus multimédia. GeeXboX uShare est en mesure de fournir l'accès à des images, des vidéos, de la musique ou des listes de diffusion au sein du réseau. Il a été conçu pour fournir des contenus multimédias à la GeeXboX mais peut, bien évidemment, être utilisé avec d'autres périphériques.<br/>
+      * <use name="lnk-ushare"/> : uShare est un MediaServer UPnP A/V. Il implÃ©mente une composante serveur, permettant Ã  des pÃ©riphÃ©riques UPnP de rÃ©cupÃ©rer des contenus multimÃ©dia. GeeXboX uShare est en mesure de fournir l'accÃ¨s Ã  des images, des vidÃ©os, de la musique ou des listes de diffusion au sein du rÃ©seau. Il a Ã©tÃ© conÃ§u pour fournir des contenus multimÃ©dias Ã  la GeeXboX mais peut, bien Ã©videmment, Ãªtre utilisÃ© avec d'autres pÃ©riphÃ©riques.<br/>
       <br/>
-      * <use name="lnk-i810tvout"/> : Intel a mis à disposition un projet i810tvout il y a quelques années. Cet utilitaire vous permet d'activer la sortie TV des cartes-mères à base de chipset i810 sous Linux. Néanmoins, la version d'Intel utilise un fichier de sources non libre pour arriver à ce résultat. La présente version, basée sur l'original d'Intel, permet le même résultat mais sans aucun code source propriétaire. Cette version est totalement libre.<br/>
+      * <use name="lnk-i810tvout"/> : Intel a mis Ã  disposition un projet i810tvout il y a quelques annÃ©es. Cet utilitaire vous permet d'activer la sortie TV des cartes-mÃ¨res Ã  base de chipset i810 sous Linux. NÃ©anmoins, la version d'Intel utilise un fichier de sources non libre pour arriver Ã  ce rÃ©sultat. La prÃ©sente version, basÃ©e sur l'original d'Intel, permet le mÃªme rÃ©sultat mais sans aucun code source propriÃ©taire. Cette version est totalement libre.<br/>
       <br/>
       </content>
     </subsection>
@@ -79,21 +79,21 @@
         * <use name="lnk-freepia"/> is small GNU/Linux distribution designed to run on  Via Epia-M Mainboards. At present it only runs on the M-9000 but with some modifications like kernel and X11 modules it should be able to run on others too. The main motivation behind this project is to build a full featured, low noise media box to play movies/mp3s/images etc.<br/><br/>
         * <use name="lnk-vdrlive"/> is a multimedia distro, which is a fork from the GeeXboX project itself. Its main advantage is support of DVB-s cards through <i>Video Disk Recorder</i> (VDR).
       </content>
-      <content lang="fr" title="Projects Liés ...">
-        * <use name="lnk-movix"/> : MoviX une une distribution Linux de petite taille qui transforme votre PC en plateforme multimédia. Après avoir allumé votre PC sous MoviX, un menu convivial vous permettra d'utiliser MPlayer pour lire tout type de DVD/VCD, fichiers audio/vidéo (comme par exemple les DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, and OGG/VORBIS), la TV (en supposant que vous ayez une carte TV), et les stations de radio sur Internet (en supposant que vous soyiez connectés). Comme l'intégralité du système est chargé en mémoire vive, vous n'avez pas besoin de disque dur pour utiliser MoviX.<br/><br/>
-        * <use name="lnk-freevo"/> : Freevo est un système Linux transformant votre PC équipé d'une carte TV et/ou d'une sortie TV en un jukebox multimédia autonome, aux fonctions VCR/PVR/HTPC/DVR. Il se base sur MPlayer et autres applications pour lire et enregistrer à la fois sons et vidéos. Il est optimisé pour l'utilisation avec une TV ainsi qu'une télécommande, mais supporte bien entendu les moniteurs et claviers.<br/><br/>
-        * <use name="lnk-freevix"/> est une distribution GNU/Linux fournissant un environnement simple mais complet pour les lecteurs basés sur le projet Freevo.<br/><br/>
-        * <use name="lnk-womp"/> est une micro-distribution Linux multimédia. Elle prend entre 13 et 18 Mo sur un CD auto-amorçable, et permet la lecture de fichiers multimédia (vidéo/audio/image) sans aucune installation nécessaire sur le disque dur.<br/><br/>
-        * <use name="lnk-freepia"/> est une distribution GNU/Linux légère conçue pour fonctionner sur les plateformes Via Epia-M. A l'heure actuelle, elle fonctionne uniquement sur la M-9000 mais quelques modifications du noyau et des modules X11 devraient permettre de la faire fonctionner sur d'autres plateformes. La motivation principale de ce projet est de permettre la construction d'un lecteur complet, silencieux permettant de lire films/mp3s/images etc ...<br/><br/>
-        * <use name="lnk-vdrlive"/> est une distribution multimédia, issue du projet GeeXboX lui-même. Son avantage principal est de supporter les cartes DVB-s au travers de <i>Video Disk Recorder</i> (VDR).
+      <content lang="fr" title="Projects LiÃ©s ...">
+        * <use name="lnk-movix"/> : MoviX une une distribution Linux de petite taille qui transforme votre PC en plateforme multimÃ©dia. AprÃ¨s avoir allumÃ© votre PC sous MoviX, un menu convivial vous permettra d'utiliser MPlayer pour lire tout type de DVD/VCD, fichiers audio/vidÃ©o (comme par exemple les DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, and OGG/VORBIS), la TV (en supposant que vous ayez une carte TV), et les stations de radio sur Internet (en supposant que vous soyiez connectÃ©s). Comme l'intÃ©gralitÃ© du systÃ¨me est chargÃ© en mÃ©moire vive, vous n'avez pas besoin de disque dur pour utiliser MoviX.<br/><br/>
+        * <use name="lnk-freevo"/> : Freevo est un systÃ¨me Linux transformant votre PC Ã©quipÃ© d'une carte TV et/ou d'une sortie TV en un jukebox multimÃ©dia autonome, aux fonctions VCR/PVR/HTPC/DVR. Il se base sur MPlayer et autres applications pour lire et enregistrer Ã  la fois sons et vidÃ©os. Il est optimisÃ© pour l'utilisation avec une TV ainsi qu'une tÃ©lÃ©commande, mais supporte bien entendu les moniteurs et claviers.<br/><br/>
+        * <use name="lnk-freevix"/> est une distribution GNU/Linux fournissant un environnement simple mais complet pour les lecteurs basÃ©s sur le projet Freevo.<br/><br/>
+        * <use name="lnk-womp"/> est une micro-distribution Linux multimÃ©dia. Elle prend entre 13 et 18 Mo sur un CD auto-amorÃ§able, et permet la lecture de fichiers multimÃ©dia (vidÃ©o/audio/image) sans aucune installation nÃ©cessaire sur le disque dur.<br/><br/>
+        * <use name="lnk-freepia"/> est une distribution GNU/Linux lÃ©gÃ¨re conÃ§ue pour fonctionner sur les plateformes Via Epia-M. A l'heure actuelle, elle fonctionne uniquement sur la M-9000 mais quelques modifications du noyau et des modules X11 devraient permettre de la faire fonctionner sur d'autres plateformes. La motivation principale de ce projet est de permettre la construction d'un lecteur complet, silencieux permettant de lire films/mp3s/images etc ...<br/><br/>
+        * <use name="lnk-vdrlive"/> est une distribution multimÃ©dia, issue du projet GeeXboX lui-mÃªme. Son avantage principal est de supporter les cartes DVB-s au travers de <i>Video Disk Recorder</i> (VDR).
       </content>
-      <content lang="de" title="Ähnliche Projekte ...">
-        * <use name="lnk-movix"/> : MoviX ist eine kleine Linux Distribution, die Ihren PC in eine Multimedia Maschine verwandelt. Nach dem Start von CD begrüßt Sie MoviX mit einem benutzerfreundlichen Menü, über das Sie mittels MPlayer jede DVD/VCD, Video/Audio Dateien (z.B. DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, und OGG/VORBIS), TV (Wenn Sie eine TV-Karte besitzen) und Radio über Internet (wenn Sie einen Zugang über LAN besitzen), abspielen können. Da das gesamte Betriebssystem in den Arbeitsspeicher geladen wird, brauchen Sie nicht einmal eine Festplatte.<br/><br/>
-        * <use name="lnk-freevo"/> : Freevo ist eine Linux Applikation, die einen PC mit TV Capture Karte und/oder TV-out in eine Multimedia Jukebox/VCR/PVR/HTPC/DVR/set-top verwandelt. Freevo verwendet MPlayer und andere Applikationen, um Video und Audio aufzunehmen und abzuspielen. Freevo ist für die Bedienung mittels Fernbedienung und der Ausgabe auf Fernseher optimiert, kann aber auch mit PC-Monitor und Tastatur genutzt werden. Die Installation ist sehr einfach, da es sich um eine Binärdatei handelt, die keine weiteren Abhängigkeiten besitzt.<br/><br/>
-        * <use name="lnk-freevix"/> ist eine GNU/Linux basierte Distribution im Miniformat und ist optimal als Basis für Freevo.<br/><br/>
-        * <use name="lnk-womp"/> ist eine winzige Linux Distribution mit Fokus auf Multimedia. Es werden nur etwa 13 bis 18 MB auf einer startfähigen CD belegt, aber man kann verschiedenste Multimediadateien (video/audio/image) ohne Installation auf der Festplatte damit wiedergeben.<br/><br/>
+      <content lang="de" title="Ã„hnliche Projekte ...">
+        * <use name="lnk-movix"/> : MoviX ist eine kleine Linux Distribution, die Ihren PC in eine Multimedia Maschine verwandelt. Nach dem Start von CD begrÃ¼ÃŸt Sie MoviX mit einem benutzerfreundlichen MenÃ¼, Ã¼ber das Sie mittels MPlayer jede DVD/VCD, Video/Audio Dateien (z.B. DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, und OGG/VORBIS), TV (Wenn Sie eine TV-Karte besitzen) und Radio Ã¼ber Internet (wenn Sie einen Zugang Ã¼ber LAN besitzen), abspielen kÃ¶nnen. Da das gesamte Betriebssystem in den Arbeitsspeicher geladen wird, brauchen Sie nicht einmal eine Festplatte.<br/><br/>
+        * <use name="lnk-freevo"/> : Freevo ist eine Linux Applikation, die einen PC mit TV Capture Karte und/oder TV-out in eine Multimedia Jukebox/VCR/PVR/HTPC/DVR/set-top verwandelt. Freevo verwendet MPlayer und andere Applikationen, um Video und Audio aufzunehmen und abzuspielen. Freevo ist fÃ¼r die Bedienung mittels Fernbedienung und der Ausgabe auf Fernseher optimiert, kann aber auch mit PC-Monitor und Tastatur genutzt werden. Die Installation ist sehr einfach, da es sich um eine BinÃ¤rdatei handelt, die keine weiteren AbhÃ¤ngigkeiten besitzt.<br/><br/>
+        * <use name="lnk-freevix"/> ist eine GNU/Linux basierte Distribution im Miniformat und ist optimal als Basis fÃ¼r Freevo.<br/><br/>
+        * <use name="lnk-womp"/> ist eine winzige Linux Distribution mit Fokus auf Multimedia. Es werden nur etwa 13 bis 18 MB auf einer startfÃ¤higen CD belegt, aber man kann verschiedenste Multimediadateien (video/audio/image) ohne Installation auf der Festplatte damit wiedergeben.<br/><br/>
         * <use name="lnk-freepia"/> ist eine kleine GNU/Linux Distribution. Entwickelt, um mit Via Epia-M Mainboards zu arbeiten. Z. Zt. funktioniert sie nur mit der M-9000 Serie, aber mit einigen Modifizierungen an Kernel und X11 Modulen sollte es auch mit anderen Boards funktionieren. Das eigentliche Anliegen dieses Projektes soll ein leiser Multimedia PC zur Wiedergaben von Filmen/mp3s/Bildern u.s.w. sein<br/><br/>
-        * <use name="lnk-vdrlive"/> ist eine Multimedia Distribution, welche aus der GeeXboX hervorgegangen ist. Der große Vorteil ist die Unterstützung von DVB-S Karten durch den  <i>Video Disk Recorder</i> (VDR).
+        * <use name="lnk-vdrlive"/> ist eine Multimedia Distribution, welche aus der GeeXboX hervorgegangen ist. Der groÃŸe Vorteil ist die UnterstÃ¼tzung von DVB-S Karten durch den  <i>Video Disk Recorder</i> (VDR).
       </content>
     </subsection>
     <subsection label="programs">
@@ -106,23 +106,23 @@
         * <use name="lnk-syslinux"/> is an easy-to-use Linux Bootloader.<br/>
         * <use name="lnk-uclibc"/> : uClibc is a C library for developing embedded Linux systems. It is much smaller then the GNU C Library, but nearly all applications supported by glibc also work perfectly with uClibc.
       </content>
-      <content lang="fr" title="Logiciels Embarqués ...">
-        La GeeXboX est un lecteur multimédia autonome. La version stable actuelle est basée sur l'utilisation des programmes suivants :<br/><br/>
-        * <use name="lnk-linux"/> : Linux est un système d'exploitation de type UNIX libre, crée à l'origine par Linus Torvalds avec l'assistance de développeurs de l'ensemble du globe.<br/>
-        * <use name="lnk-mplayer"/> : probablement le meilleur lecteur multimédia, supportant la quasi totalité des codecs audio et vidéo existants.<br/>
-        * <use name="lnk-busybox"/> : BusyBox fournit un environement POSIX presque complet, pour les systèmes embarqués ou de petite taille. Il associe des versions allégées de la plupart des utilitaires UNIX à un unique éxécutable de taille réduite.<br/>
-        * <use name="lnk-lirc"/> : c'est un paquetage permettant de décoder et d'envoyer des signaux infra-rouge sur de nombreux (mais pas tous) récepteurs et télécommandes.<br/>
-        * <use name="lnk-syslinux"/> est chargeur de noyau Linux très facile d'utilisation.<br/>
-        * <use name="lnk-uclibc"/> : la uClibc est une librairie C utilisée pour le développement de systèmes Linux embarqués. Elle est de bien plus petite taille que sa grande soeur, la librairie C GNU, mais presque toutes les applications supportées par la glibc fonctionnent parfaitement avec la uClibc.
+      <content lang="fr" title="Logiciels EmbarquÃ©s ...">
+        La GeeXboX est un lecteur multimÃ©dia autonome. La version stable actuelle est basÃ©e sur l'utilisation des programmes suivants :<br/><br/>
+        * <use name="lnk-linux"/> : Linux est un systÃ¨me d'exploitation de type UNIX libre, crÃ©e Ã  l'origine par Linus Torvalds avec l'assistance de dÃ©veloppeurs de l'ensemble du globe.<br/>
+        * <use name="lnk-mplayer"/> : probablement le meilleur lecteur multimÃ©dia, supportant la quasi totalitÃ© des codecs audio et vidÃ©o existants.<br/>
+        * <use name="lnk-busybox"/> : BusyBox fournit un environement POSIX presque complet, pour les systÃ¨mes embarquÃ©s ou de petite taille. Il associe des versions allÃ©gÃ©es de la plupart des utilitaires UNIX Ã  un unique Ã©xÃ©cutable de taille rÃ©duite.<br/>
+        * <use name="lnk-lirc"/> : c'est un paquetage permettant de dÃ©coder et d'envoyer des signaux infra-rouge sur de nombreux (mais pas tous) rÃ©cepteurs et tÃ©lÃ©commandes.<br/>
+        * <use name="lnk-syslinux"/> est chargeur de noyau Linux trÃ¨s facile d'utilisation.<br/>
+        * <use name="lnk-uclibc"/> : la uClibc est une librairie C utilisÃ©e pour le dÃ©veloppement de systÃ¨mes Linux embarquÃ©s. Elle est de bien plus petite taille que sa grande soeur, la librairie C GNU, mais presque toutes les applications supportÃ©es par la glibc fonctionnent parfaitement avec la uClibc.
       </content>
       <content lang="de" title="Verwendete Programme in GeeXboX...">
-        GeeXboX ist ein vollständiger Medien Player. Die aktuelle stabile Version nutzt die folgenden wichtigen Programme :<br/><br/>
-        * <use name="lnk-linux"/> : Linux ist ein freies UNIX ähnliches Betriebsystem, entwickelt von Linus Thorvalds mit der Unterstützung von tausenden Entwicklern auf der ganzen Welt.<br/>
-        * <use name="lnk-mplayer"/> : Wahrscheinlich der beste Medien Player, unterstützt die meisten verfügbaren Audio/Video Codecs.<br/>
-        * <use name="lnk-busybox"/> : BusyBox bietet eine nahezu vollständige POSIX Umgebung für jedes mini oder embedded System. Es verbindet "abgespeckte" Versionen bekannter UNIX Utilities in nur einer einzigen ausführbaren Datei.<br/>
+        GeeXboX ist ein vollstÃ¤ndiger Medien Player. Die aktuelle stabile Version nutzt die folgenden wichtigen Programme :<br/><br/>
+        * <use name="lnk-linux"/> : Linux ist ein freies UNIX Ã¤hnliches Betriebsystem, entwickelt von Linus Thorvalds mit der UnterstÃ¼tzung von tausenden Entwicklern auf der ganzen Welt.<br/>
+        * <use name="lnk-mplayer"/> : Wahrscheinlich der beste Medien Player, unterstÃ¼tzt die meisten verfÃ¼gbaren Audio/Video Codecs.<br/>
+        * <use name="lnk-busybox"/> : BusyBox bietet eine nahezu vollstÃ¤ndige POSIX Umgebung fÃ¼r jedes mini oder embedded System. Es verbindet "abgespeckte" Versionen bekannter UNIX Utilities in nur einer einzigen ausfÃ¼hrbaren Datei.<br/>
         * <use name="lnk-lirc"/> : Ist ein Programm zum Dekodieren und Senden von IR-Signalen, wie sie nahezu von jeder Fernbedienung genutzt werden.<br/>
         * <use name="lnk-syslinux"/> Ist ein einfach zu nutzender Linux Bootloader.<br/>
-        * <use name="lnk-uclibc"/> : uClibc ist eine C Library zur Entwicklung von Embedded-Systems. Sie ist viel kleiner als die GNU C Library, aber nahezu alle, von der glibc unterstützten, Programme arbeiten auch perfekt mit der uClibc.
+        * <use name="lnk-uclibc"/> : uClibc ist eine C Library zur Entwicklung von Embedded-Systems. Sie ist viel kleiner als die GNU C Library, aber nahezu alle, von der glibc unterstÃ¼tzten, Programme arbeiten auch perfekt mit der uClibc.
       </content>
     </subsection>
   </section>

@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
   <define name="prs-internet">
     <b>GeeXboX 0.90-1 :</b><br/>
-    * <a href = "http://www.pcinpact.com/actu/news/9549.htm"><b>PC Inpact : <i>GeeXboX : LE lecteur multimédia ?</i></b></a><br/>
-    * <a href = "http://www.clubic.com/n/n8601.html"><b>Clubic : <i>Moviebox à partir d'un simple CD Linux bootable</i></b></a><br/>
-    * <a href = "http://linuxfr.org/2003/05/18/12478.html"><b>Da Linux French Page : <i>Lecteur multimédia autonome: GeeXboX</i></b></a><br/>
+    * <a href = "http://www.pcinpact.com/actu/news/9549.htm"><b>PC Inpact : <i>GeeXboX : LE lecteur multimÃ©dia ?</i></b></a><br/>
+    * <a href = "http://www.clubic.com/n/n8601.html"><b>Clubic : <i>Moviebox Ã  partir d'un simple CD Linux bootable</i></b></a><br/>
+    * <a href = "http://linuxfr.org/2003/05/18/12478.html"><b>Da Linux French Page : <i>Lecteur multimÃ©dia autonome: GeeXboX</i></b></a><br/>
    
     <br/><b>GeeXboX 0.90-2 :</b><br/>
     * <a href = "http://www.pcinpact.com/actu/news/9673.htm"><b>PC Inpact : <i>GeeXboX : Nouvelle Version</i></b></a><br/>
 
     <br/><b>GeeXboX 0.90-3 :</b><br/>
-    * <a href = "http://www.pcinpact.com/actu/news/10000.htm"><b>PC Inpact : <i>Lecteur multimédia GeeXbox version 0.90-3</i></b></a><br/>
+    * <a href = "http://www.pcinpact.com/actu/news/10000.htm"><b>PC Inpact : <i>Lecteur multimÃ©dia GeeXbox version 0.90-3</i></b></a><br/>
 
     <br/><b>GeeXboX 0.90-4 :</b><br/>
     * <a href = "http://www.pcinpact.com/actu/news/10442.htm"><b>PC Inpact : <i>Nouvelle version de la GeeXboX</i></b></a><br/>
@@ -35,7 +35,7 @@
     * <a href = "http://linuxfr.org/2004/05/18/16268.html"><b>De Linux French Page : <i>Sortie de la GeeXboX 0.97 : Birthday Edition</i></b></a><br/>
 
     <br/><b>GeeXboX 0.98 :</b><br/>
-    * <a href = "http://www.pcinpact.com/actu/news/Mon_Linux_Multimedia_GeeXboX_098.htm"><b>PC Inpact : <i>Lecteur Linux Multimédia : GeeXboX 0.98 en français</i></b></a><br/>
+    * <a href = "http://www.pcinpact.com/actu/news/Mon_Linux_Multimedia_GeeXboX_098.htm"><b>PC Inpact : <i>Lecteur Linux MultimÃ©dia : GeeXboX 0.98 en franÃ§ais</i></b></a><br/>
     * <a href = "http://www.ppcnerds.org/Article246.html"><b>PPC Nerds : <i>Be geek, watch a movie</i></b></a><br/>
     * <a href = "http://www.tuxme.com/node/173"><b>TuxMe : <i>GeeXboX - Linux Media Center</i></b></a><br/>
     * <a href = "http://diariored.com/blog/000984.php"><b>DiarioRed : <i>GeexBox, o como convertir tu ordenador en un reproductor multimedia sin esfuerzo y gracias a Linux</i></b></a><br/>
@@ -44,31 +44,31 @@
     * <a href = "http://www.pcinpact.com/actu/news/Media_Center_Sortie_de_la_GeeXboX_0985.htm"><b>PC Inpact : <i>Media Center : Sortie de la GeeXboX 0.98.5</i></b></a><br/>
     * <a href = "http://homemedia.fr/w/news229-GeeXboX-passe-en-version-0985.html"><b>HomeMedia : <i>GeeXboX passe en version 0.98.5</i></b></a><br/>
     * <a href = "http://www.homemedia.fr/w/Comparatif_de_7_logiciels_Media_Center_19_25.html"><b>HomeMedia : <i>Comparatifs de 7 logiciels Media Center</i></b></a><br/>
-    * <a href = "http://www.toolinux.com/news/logiciels/mise_a_jour_mineure_de_la_geexbox_avant_revision_majeure_ar5706.html"><b>TooLinux : <i>Mise à jour mineure de la GeeXboX avant révision majeure</i></b></a><br/>
-    * <a href = "http://www.generation-nt.com/dossiers/lire/87/GeeXboX-transformer-son-PC-en-platine-multimedia/"><b>GenerationNT : <i>GeeXboX, transformer son PC en platine multimédia</i></b></a><br/>
+    * <a href = "http://www.toolinux.com/news/logiciels/mise_a_jour_mineure_de_la_geexbox_avant_revision_majeure_ar5706.html"><b>TooLinux : <i>Mise Ã  jour mineure de la GeeXboX avant rÃ©vision majeure</i></b></a><br/>
+    * <a href = "http://www.generation-nt.com/dossiers/lire/87/GeeXboX-transformer-son-PC-en-platine-multimedia/"><b>GenerationNT : <i>GeeXboX, transformer son PC en platine multimÃ©dia</i></b></a><br/>
 
     <br/><b>GeeXboX 0.98.6 :</b><br/>
-    * <a href="http://www.pcinpact.com/actu/news/GeeXboX_0986_MediaCenter_Linux_francais.htm"><b>PC Inpact : <i>GeeXboX 0.98.6 : MediaCenter Linux français</i></b></a><br/>
+    * <a href="http://www.pcinpact.com/actu/news/GeeXboX_0986_MediaCenter_Linux_francais.htm"><b>PC Inpact : <i>GeeXboX 0.98.6 : MediaCenter Linux franÃ§ais</i></b></a><br/>
     * <a href="http://homemedia.fr/actualites/699-Sortie-de-la-GeeXboX-en-version-0986.html"><b>HomeMedia : <i>Sortie de la GeeXboX en version 0.98.6</i></b></a><br/>
     * <a href="http://linuxfr.org/2005/09/24/19615.html"><b>Da Linux French Page : <i>GeeXboX 0.98.6 : Bigger, Longer, Uncut !</i></b></a><br/>
-    * <a href="http://www.toolinux.com/news/materiels/la_geexbox_le_linux_media_center_s_installe_desormais_aussi_sur_mac_ar6546.html"><b>TooLinux : <i>La GeeXboX, le Linux Media Center, s'installe désormais aussi sur Mac</i></b></a><br/>
-    * <a href="http://www.mac-essentials.de/index.php/mac/article/15501/"><b>Mac Essentials : <i>GeeXboX: Linux-Mediencenter für den Mac</i></b></a><br/>
+    * <a href="http://www.toolinux.com/news/materiels/la_geexbox_le_linux_media_center_s_installe_desormais_aussi_sur_mac_ar6546.html"><b>TooLinux : <i>La GeeXboX, le Linux Media Center, s'installe dÃ©sormais aussi sur Mac</i></b></a><br/>
+    * <a href="http://www.mac-essentials.de/index.php/mac/article/15501/"><b>Mac Essentials : <i>GeeXboX: Linux-Mediencenter fÃ¼r den Mac</i></b></a><br/>
     * <a href="http://linux.softpedia.com/get/Multimedia/Audio/GeeXboX-353.shtml"><b>SoftPedia : <i>GeeXboX 0.98.6</i></b></a><br/>
     * <a href="http://www.clubic.com/article-23456-6-live-cd-linux-a-emporter.html"><b>Clubic : <i>GeeXboX : un media center sous Linux</i></b></a><br/>
 
    <br/><b>GeeXboX 0.98.7 :</b><br/>
-   * <a href="http://www.pcinpact.com/actu/news/La_nouvelle_GeexBox_digitale_0987_est_arrivee_.htm"><b>PC Inpact : <i>La nouvelle GeexBox numérique (0.98.7) est arrivée !</i></b></a><br/>
+   * <a href="http://www.pcinpact.com/actu/news/La_nouvelle_GeexBox_digitale_0987_est_arrivee_.htm"><b>PC Inpact : <i>La nouvelle GeexBox numÃ©rique (0.98.7) est arrivÃ©e !</i></b></a><br/>
    * <a href="http://homemedia.fr/actualites/875-Nouvelle-version-de-Geexbox.html"><b>HomeMedia : <i>Nouvelle version de Geexbox</i></b></a><br/>
    * <a href="http://linuxfr.org/2005/11/11/19884.html"><b>Da Linux French Page : <i>Distribution : GeeXboX 0.98.7</i></b></a><br/>
-   * <a href="http://www.toolinux.com/news/logiciels/la_geexbox_est_desormais_compatible_tnt_ar6895.html"><b>TooLinux : <i>La GeeXboX est désormais compatible TNT</i></b></a><br/>
-   * <a href="http://www.clubic.com/actualite-29317-linux-geexbox-s-ouvre-a-la-television-numerique.html"><b>Clubic : <i>Linux : GeeXboX s'ouvre à la télévision numérique</i></b></a><br/>
+   * <a href="http://www.toolinux.com/news/logiciels/la_geexbox_est_desormais_compatible_tnt_ar6895.html"><b>TooLinux : <i>La GeeXboX est dÃ©sormais compatible TNT</i></b></a><br/>
+   * <a href="http://www.clubic.com/actualite-29317-linux-geexbox-s-ouvre-a-la-television-numerique.html"><b>Clubic : <i>Linux : GeeXboX s'ouvre Ã  la tÃ©lÃ©vision numÃ©rique</i></b></a><br/>
    * <a href="http://www.clubic.com/article-30244-5-les-indispensables-de-la-logitheque.html"><b>Clubic : <i>Les indispensables de la logitheque (Video : profitez de vos films partout)</i></b></a><br/>
   </define>
 
   <define name="prs-paper">
     * <a href = "../img/press-linuxpratique18.jpeg"><b>Linux Pratique, Issue 18 (0.90-1)</b></a><br/>
     * <b>Linux Loader, Issue 18 with pages </b><a href = "../img/press-linuxloader18-1.jpeg">1</a> and <a href = "../img/press-linuxloader18-2.jpeg">2</a> <b>(0.90-2)</b>.<br/>
-    * <b>Planète Linux, Issue 27 with pages </b><a href = "../img/press-linuxplanet27-1.jpeg">1</a> and <a href = "../img/press-linuxplanet27-2.jpeg">2</a> <b>(0.95)</b>.<br/>
+    * <b>PlanÃ¨te Linux, Issue 27 with pages </b><a href = "../img/press-linuxplanet27-1.jpeg">1</a> and <a href = "../img/press-linuxplanet27-2.jpeg">2</a> <b>(0.95)</b>.<br/>
     * <b>Hardware Magazine, Issue 8 with pages </b><a href = "../img/press-hardwaremag8-1.jpeg">1</a> and <a href = "../img/press-hardwaremag8-2.jpeg">2</a> <b>(0.95)</b>.<br/>
     * <b>Linux Loader, Issue 20 with pages </b><a href = "../img/press-linuxloader20-1.jpeg">1</a>, <a href = "../img/press-linuxloader20-2.jpeg">2</a>,  <a href = "../img/press-linuxloader20-3.jpeg">3</a> and <a href = "../img/press-linuxloader20-4.jpeg">4</a><b>(0.96)</b>.<br/>
     * <a href = "../img/press-login118.jpeg"><b>Login, Issue 118 (0.97)</b></a><br/>
@@ -83,10 +83,10 @@
       Here is a list of news and articles that have been published that talk about the GeeXboX project. If you have heard about others, we'll be glad to have a look at them. If so, just contact the <webmaster/>.
     </content>
     <content lang="fr" title="Presse ...">
-      Voici une courte liste de quelques nouvelles ou articles qui ont été publiés, et traitant de la GeeXboX. Si vous avez entendu parler d'autres, nous serions ravis d'y jeter un oeil. Si tel est votre cas, veuillez contacter le <webmaster/>.
+      Voici une courte liste de quelques nouvelles ou articles qui ont Ã©tÃ© publiÃ©s, et traitant de la GeeXboX. Si vous avez entendu parler d'autres, nous serions ravis d'y jeter un oeil. Si tel est votre cas, veuillez contacter le <webmaster/>.
     </content>
     <content lang="de" title="Presse ...">
-      Hier finden Sie eine Liste von Nachrichten und Artikeln, die über das GeeXboX Projekt berichten. Wenn Sie von anderen Artikeln wissen, würde es uns freuen, wenn Sie uns dies mitteilen würden. Wenden Sie sich dazu bitte an den <webmaster/>.
+      Hier finden Sie eine Liste von Nachrichten und Artikeln, die Ã¼ber das GeeXboX Projekt berichten. Wenn Sie von anderen Artikeln wissen, wÃ¼rde es uns freuen, wenn Sie uns dies mitteilen wÃ¼rden. Wenden Sie sich dazu bitte an den <webmaster/>.
     </content>
     <subsection label="internet">
       <content lang="en" title="Internet News and articles">
@@ -94,11 +94,11 @@
         <use name="prs-internet"/><br/><br/>
       </content>
       <content lang="fr" title="Nouvelles et Articles parus sur Internet">
-        La liste ci-dessous couvre tous les sites qui ont posté une news ou un article relatif à la GeeXboX. Nous tenons à les remercier, car le succès de la GeeXboX n'aurait pas été tel sans leur contribution.<br/><br/>
+        La liste ci-dessous couvre tous les sites qui ont postÃ© une news ou un article relatif Ã  la GeeXboX. Nous tenons Ã  les remercier, car le succÃ¨s de la GeeXboX n'aurait pas Ã©tÃ© tel sans leur contribution.<br/><br/>
         <use name="prs-internet"/><br/><br/>
       </content>
       <content lang="de" title="Internet Nachrichten und Artikel">
-        Die folgende Liste enthält alle Webseiten, die entweder Nachrichten oder Artikel zu GeeXboX veröffentlicht haben. Wir möchten Ihnen dafür unseren Dank aussprechen, denn ohne Sie hätte die GeeXboX niemals diesen Bekanntheitsgrad erreichen können.<br/><br/>
+        Die folgende Liste enthÃ¤lt alle Webseiten, die entweder Nachrichten oder Artikel zu GeeXboX verÃ¶ffentlicht haben. Wir mÃ¶chten Ihnen dafÃ¼r unseren Dank aussprechen, denn ohne Sie hÃ¤tte die GeeXboX niemals diesen Bekanntheitsgrad erreichen kÃ¶nnen.<br/><br/>
         <use name="prs-internet"/><br/><br/>
       </content>
     </subsection>
@@ -107,12 +107,12 @@
         Some computer-related newspapers also honoured us by publishing some news or articles about the GeeXboX. Here you can have a look at these, thanks to the follwing links :<br/><br/>
         <use name="prs-paper"/>
       </content>
-      <content lang="fr" title="Nouvelles et Articles parus en revues spécialisées">
-        Quelques journaux spécialisés nous ont égalment fait l'honneur de nous consacrer une petite news ou un article, comme vous pouvez le voir grâce aux liens suivants :<br/><br/>
+      <content lang="fr" title="Nouvelles et Articles parus en revues spÃ©cialisÃ©es">
+        Quelques journaux spÃ©cialisÃ©s nous ont Ã©galment fait l'honneur de nous consacrer une petite news ou un article, comme vous pouvez le voir grÃ¢ce aux liens suivants :<br/><br/>
         <use name="prs-paper"/>
       </content>
       <content lang="de" title="Zeitungsartikel">
-        Einige Computerzeitschriften haben uns gewürdigt, indem Sie über die GeeXboX in Artikeln oder News berichtet haben. Hier können Sie diese nachlesen. Folgen Sie dazu bitte einfach diesen "links" :<br/><br/>
+        Einige Computerzeitschriften haben uns gewÃ¼rdigt, indem Sie Ã¼ber die GeeXboX in Artikeln oder News berichtet haben. Hier kÃ¶nnen Sie diese nachlesen. Folgen Sie dazu bitte einfach diesen "links" :<br/><br/>
         <use name="prs-paper"/>
       </content>
     </subsection>

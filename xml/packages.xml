@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
@@ -599,7 +599,7 @@
          </table>
       </content>
       <content lang="fr" title="Paquetages constituant l'outil de compilation de la GeeXboX">
-         Vous trouverez ci-dessous la liste de tous les paquetages utilisés et compilés par notre outil de création de système GeeXboX.<br/><br/>
+         Vous trouverez ci-dessous la liste de tous les paquetages utilisÃ©s et compilÃ©s par notre outil de crÃ©ation de systÃ¨me GeeXboX.<br/><br/>
          <table border="2" cellpadding="2" cellspacing="1" width="100%">
            <use name="headers"/>
            <use name="binutils"/>
@@ -690,7 +690,7 @@
          </table>
       </content>
       <content lang="fr" title="Paquetages contenus dans la GeeXboX">
-         Et voici la liste des différents paquetages systèmes contenus dans la GeeXboX. Chacun d'entre eux est essentiel au bon fonctionnement de l'ensemble.<br/><br/>
+         Et voici la liste des diffÃ©rents paquetages systÃ¨mes contenus dans la GeeXboX. Chacun d'entre eux est essentiel au bon fonctionnement de l'ensemble.<br/><br/>
          <table border="2" cellpadding="2" cellspacing="1" width="100%">
            <use name="headers"/>
            <use name="acx100"/>

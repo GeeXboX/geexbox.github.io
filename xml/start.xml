@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
   <section label="starting">
     <content lang="en" title="Get Started ..."/>
-    <content lang="fr" title="Par Où Commencer ..."/>
+    <content lang="fr" title="Par OÃ¹ Commencer ..."/>
     <content lang="de" title="Starten Sie durch ..."/>
     <subsection label="what">
       <content lang="en" title="What is the GeeXboX ...">
@@ -27,32 +27,32 @@ At the time of the first development releases (Dec. 2002), it was only capable o
    * Watching analog TV and digital DVB<br/>
       </content>
       <content lang="fr" title="Qu'est ce que la GeeXboX ...">
-        La question que vous êtes surement à même de vous poser est probablement : "Mais qu'est donc exactement le projet GeeXboX dont on arrête pas de me parler ?" ;-) Si tel est le cas, vous êtes au bon endroit !<br/><br/>
+        La question que vous Ãªtes surement Ã  mÃªme de vous poser est probablement : "Mais qu'est donc exactement le projet GeeXboX dont on arrÃªte pas de me parler ?" ;-) Si tel est le cas, vous Ãªtes au bon endroit !<br/><br/>
 
-Ok, essayons de faire au plus simple. La GeeXboX n'est rien de plus qu'un formidable lecteur multimedia autonome. D'où vient ce nom ? Et bien, son but original étant la lecture de vidéos au format DivX et, comme tout le monde appelle générallement ce genre de projet des Divxbox, nous avons simplement préfixé son nom par le terme évocateur "GeeX", car, après tout, c'est bien pour les 'geeks' que vous êtes tous ;-)<br/><br/>
+Ok, essayons de faire au plus simple. La GeeXboX n'est rien de plus qu'un formidable lecteur multimedia autonome. D'oÃ¹ vient ce nom ? Et bien, son but original Ã©tant la lecture de vidÃ©os au format DivX et, comme tout le monde appelle gÃ©nÃ©rallement ce genre de projet des Divxbox, nous avons simplement prÃ©fixÃ© son nom par le terme Ã©vocateur "GeeX", car, aprÃ¨s tout, c'est bien pour les 'geeks' que vous Ãªtes tous ;-)<br/><br/>
 
-La GeeXboX est donc un système d'exploitation complet, basé sur un noyau Linux et sur l'excellent lecteur multimédia qu'est MPlayer. Pas besoin de disque dur, vous n'avez qu'à insérer le CD auto-amorçable de la GeeXboX dans le lecteur de n'importe quel PC de type Pentium et supérieur pour l'utiliser. De plus, la GeeXboX est un logiciel libre, crée à l'aide de très nombreux programmes libres. Cela sous-entend que n'importe qui est autorisé à la modifier et à reconstruire sa propre version.<br/><br/>
+La GeeXboX est donc un systÃ¨me d'exploitation complet, basÃ© sur un noyau Linux et sur l'excellent lecteur multimÃ©dia qu'est MPlayer. Pas besoin de disque dur, vous n'avez qu'Ã  insÃ©rer le CD auto-amorÃ§able de la GeeXboX dans le lecteur de n'importe quel PC de type Pentium et supÃ©rieur pour l'utiliser. De plus, la GeeXboX est un logiciel libre, crÃ©e Ã  l'aide de trÃ¨s nombreux programmes libres. Cela sous-entend que n'importe qui est autorisÃ© Ã  la modifier et Ã  reconstruire sa propre version.<br/><br/>
 
-Vous êtes en mesure de vous interroger quant à l'intérêt de redémarrer votre ordinateur pour utiliser la GeeXboX pour faire ce qu'il vous était déjà possible de faire, mais pensez quelques instants à l'emploi possible sur des mini-PC tels que les plateformes Mini-ITX Epia/Eden de VIA ou de Shuttle. Il est désormais possible et abordable de ramener les DivX dans votre salon, en branchant simplement ce type de PC directement sur votre TV et ensemble hifi !!<br/><br/>
+Vous Ãªtes en mesure de vous interroger quant Ã  l'intÃ©rÃªt de redÃ©marrer votre ordinateur pour utiliser la GeeXboX pour faire ce qu'il vous Ã©tait dÃ©jÃ  possible de faire, mais pensez quelques instants Ã  l'emploi possible sur des mini-PC tels que les plateformes Mini-ITX Epia/Eden de VIA ou de Shuttle. Il est dÃ©sormais possible et abordable de ramener les DivX dans votre salon, en branchant simplement ce type de PC directement sur votre TV et ensemble hifi !!<br/><br/>
 
-A l'époque des premières phases de développement (Dec. 2002), il était uniquement possible de lire des vidéos encodées en DivX, mais désormais, presque tous les formats audio/vidéo sont compatibles avec la GeeXboX. Notre système supporte par exemple :<br/><br/>
-   * Les vidéos de type MPEG 1/2 (fichiers .MPG, VCDs, DVDs ...)<br/>
-   * Les vidéos de type MPEG 4 (DivX, XviD, H.264 ...)<br/>
-   * Les vidéos de type RealMedia et Windows Media.<br/>
+A l'Ã©poque des premiÃ¨res phases de dÃ©veloppement (Dec. 2002), il Ã©tait uniquement possible de lire des vidÃ©os encodÃ©es en DivX, mais dÃ©sormais, presque tous les formats audio/vidÃ©o sont compatibles avec la GeeXboX. Notre systÃ¨me supporte par exemple :<br/><br/>
+   * Les vidÃ©os de type MPEG 1/2 (fichiers .MPG, VCDs, DVDs ...)<br/>
+   * Les vidÃ©os de type MPEG 4 (DivX, XviD, H.264 ...)<br/>
+   * Les vidÃ©os de type RealMedia et Windows Media.<br/>
    * Les flux OggMedia<br/>
    * Les flux Matroska<br/>
    * Les flux exclusivement Audio tels que le MP3, Ogg/Vorbis, WAV (AudioCD), AC3, MusePack (MPC), FLAC ...<br/>
-   * Les flux réseaux comme les WebRadios ou WebTVs.<br/>
-   * La télévision analogique et numérique (DVB).<br/>
+   * Les flux rÃ©seaux comme les WebRadios ou WebTVs.<br/>
+   * La tÃ©lÃ©vision analogique et numÃ©rique (DVB).<br/>
       </content>
       <content lang="de" title="Was genau ist die GeeXboX ...">
-        Die Frage, die Sie sich wahrscheinlich stellen, ist : "Junge, was genau ist eingentlich dieses GeeXboX Projekt, über das ich schon so viel gehört habe ?" ;-)<br/> Hier finden Sie die Antwort !<br/><br/>
+        Die Frage, die Sie sich wahrscheinlich stellen, ist : "Junge, was genau ist eingentlich dieses GeeXboX Projekt, Ã¼ber das ich schon so viel gehÃ¶rt habe ?" ;-)<br/> Hier finden Sie die Antwort !<br/><br/>
 
-Ok, versuchen wir es so einfach wie möglich zu halten. Die GeeXboX ist eigentlich nichts anderes als ein wahnsinnig guter Media Player. Aber warum solch ein Name ? Also, die Hauptanforderung ist es, DivX Filme wiederzugeben.  Da normalerweise jedermann diese Art von Playern "boxes" nennt, haben wir einfach noch ein "GeeX" für all euch "geeks" vorangestellt ;-)<br/><br/>
+Ok, versuchen wir es so einfach wie mÃ¶glich zu halten. Die GeeXboX ist eigentlich nichts anderes als ein wahnsinnig guter Media Player. Aber warum solch ein Name ? Also, die Hauptanforderung ist es, DivX Filme wiederzugeben.  Da normalerweise jedermann diese Art von Playern "boxes" nennt, haben wir einfach noch ein "GeeX" fÃ¼r all euch "geeks" vorangestellt ;-)<br/><br/>
 
-GeeXboX ist also ein vollständiges Betriebssystem, das auf Linux und dem excellenten MPlayer basiert. Sie benötigen keine Festplatte. Legen Sie einfach die startbare GeeXboX-CD in Ihr Laufwerk und starten Sie Ihren Pentium - Klasse PC. Mehr noch, GeeXboX ist freie Software, erstellt als "open-source" Software. Dies bedeutet, dass jedermann die GeeXboX ändern und so seine eigene Version erstellen kann.<br/><br/>
+GeeXboX ist also ein vollstÃ¤ndiges Betriebssystem, das auf Linux und dem excellenten MPlayer basiert. Sie benÃ¶tigen keine Festplatte. Legen Sie einfach die startbare GeeXboX-CD in Ihr Laufwerk und starten Sie Ihren Pentium - Klasse PC. Mehr noch, GeeXboX ist freie Software, erstellt als "open-source" Software. Dies bedeutet, dass jedermann die GeeXboX Ã¤ndern und so seine eigene Version erstellen kann.<br/><br/>
 
-Sie mögen sich fragen, wozu Sie ein eigenes Betriebssystem starten sollten, nur um Ihre Multimediadateien abzuspielen. Aber denken Sie doch auch einmal an die Mini-ITX Plattformen wie VIA Epia/Eden oder Shuttle Barebones. Damit haben Sie nämlich zu erschwinglichen Preisen die Möglichkeit, DivX in Ihr Wohnzimmerkino mit direkter Ausgabe auf Ihrem TV zu bekommen !!<br/><br/>
+Sie mÃ¶gen sich fragen, wozu Sie ein eigenes Betriebssystem starten sollten, nur um Ihre Multimediadateien abzuspielen. Aber denken Sie doch auch einmal an die Mini-ITX Plattformen wie VIA Epia/Eden oder Shuttle Barebones. Damit haben Sie nÃ¤mlich zu erschwinglichen Preisen die MÃ¶glichkeit, DivX in Ihr Wohnzimmerkino mit direkter Ausgabe auf Ihrem TV zu bekommen !!<br/><br/>
 
 Z.Zt. der ersten Entwicklerversion (Dez. 2002) konnte die GeeXboX nur DivX Filme abspielen, aber jetzt kann nahezu jede Art von Mediadateien damit wiedergegeben werden, z.B. :<br/><br/>
    * MPEG 1/2 Filme (MPG Dateien, VCDs, DVDs ...)<br/>
@@ -72,15 +72,15 @@ Just go to the <page name="download"/> section and enjoy ;-)<br/><br/><br/>
 <b>The GeeXboX's Team</b><br/>
       </content>
       <content lang="fr" title="Vous en voulez davantage ?">
-        Assuremment, vous devez penser qu'un tel système requiert un ordinateur de dernière génération ;-) C'est bien là que vous faites erreur !! D'une part, un "vieux" P2-400 doté de 64 Mo de mémoire devrait être suffisamment puissant pour laisser la magie opérer. D'autre part, l'image ISO de la GeeXboX ne requiert que 6 Mo sur le CD. Et, bien entendu, le tout peut être intégralement controllé au moyen d'un clavier, d'une télécommande à infra-rouge (ou hertzienne) ou encore d'une manette de jeu, tout cela grâce à son menu OSD complet.<br/>             
+        Assuremment, vous devez penser qu'un tel systÃ¨me requiert un ordinateur de derniÃ¨re gÃ©nÃ©ration ;-) C'est bien lÃ  que vous faites erreur !! D'une part, un "vieux" P2-400 dotÃ© de 64 Mo de mÃ©moire devrait Ãªtre suffisamment puissant pour laisser la magie opÃ©rer. D'autre part, l'image ISO de la GeeXboX ne requiert que 6 Mo sur le CD. Et, bien entendu, le tout peut Ãªtre intÃ©gralement controllÃ© au moyen d'un clavier, d'une tÃ©lÃ©commande Ã  infra-rouge (ou hertzienne) ou encore d'une manette de jeu, tout cela grÃ¢ce Ã  son menu OSD complet.<br/>             
 Alors, qu'attendez vous encore ?? <br/><br/>
 Rendez vous tout simplement dans la section <page name="download"/> et rejouissez vous ;-)<br/><br/><br/>
-<b>L'équipe GeeXboX</b><br/>
+<b>L'Ã©quipe GeeXboX</b><br/>
       </content>
       <content lang="de" title="Sie wollen mehr ?">
-        Sie werden nun glauben, eine solche Geschichte benötige einen Computer der neuesten Version ;-) Und genau da liegen Sie ganz falsch !! Schon ein alter PII-400 mit 64 MB Arbeitsspeicher ist schnell genug. Außerdem benötigt das GeeXboX ISO auch nur rund 6 MB auf der CD. Und natürlich läßt sich das Ganze durch ein OSD (On Screen Display) bequem per Fernbedienung, Keyboard oder Joystick steuern.<br/>
+        Sie werden nun glauben, eine solche Geschichte benÃ¶tige einen Computer der neuesten Version ;-) Und genau da liegen Sie ganz falsch !! Schon ein alter PII-400 mit 64 MB Arbeitsspeicher ist schnell genug. AuÃŸerdem benÃ¶tigt das GeeXboX ISO auch nur rund 6 MB auf der CD. Und natÃ¼rlich lÃ¤ÃŸt sich das Ganze durch ein OSD (On Screen Display) bequem per Fernbedienung, Keyboard oder Joystick steuern.<br/>
 Auf was warten Sie also noch ?? Weihnachten ?<br/><br/>
-Wechseln Sie einfach zur <page name="download"/> Seite und genießen Sie die GeeXboX ;-)<br/><br/><br/>
+Wechseln Sie einfach zur <page name="download"/> Seite und genieÃŸen Sie die GeeXboX ;-)<br/><br/><br/>
 <b>Das GeeXboX Team</b><br/>
       </content>
     </subsection>

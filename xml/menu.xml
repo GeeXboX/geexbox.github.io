@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE menu SYSTEM "geexbox.dtd">
 
 <menu>
@@ -15,13 +15,13 @@
 
     <subitem name="get_started" url="start.html">
       <text lang="en">Get Started</text>
-      <text lang="fr">Par où commencer</text>
+      <text lang="fr">Par oÃ¹ commencer</text>
       <text lang="de">Zu Anfang</text>
     </subitem>
 
     <subitem name="require" url="requirements.html">
       <text lang="en">Requirements</text>
-      <text lang="fr">Pré-requis</text>
+      <text lang="fr">PrÃ©-requis</text>
       <text lang="de">Voraussetzungen</text>
     </subitem>
 
@@ -33,13 +33,13 @@
 
     <subitem name="screenshots" url="screenshot.html">
       <text lang="en">Screenshots</text>
-      <text lang="fr">Captures d'écrans</text>
+      <text lang="fr">Captures d'Ã©crans</text>
       <text lang="de">Screenshots</text>
     </subitem>
 
     <subitem name="download" url="downloads.html">
       <text lang="en">Downloads</text>
-      <text lang="fr">Téléchargements</text>
+      <text lang="fr">TÃ©lÃ©chargements</text>
       <text lang="de">Downloads</text>
     </subitem>
 
@@ -87,7 +87,7 @@
 
     <subitem name="hard" url="hard.html">
       <text lang="en">Hardware</text>
-      <text lang="fr">Matériel</text>
+      <text lang="fr">MatÃ©riel</text>
       <text lang="de">Hardware</text>
     </subitem>
 

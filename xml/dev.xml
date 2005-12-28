@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
@@ -48,33 +48,33 @@ We've decided to provide you with Web-Arch access. It will help developers to ea
       </content>
 
       <content lang="fr" title="GeeXboX Arch">
-      <use name="ct-gnu-arch"/> est un système de gestion de versions, similaire dans le principe à des outils tels que CVS, SCCS et Subversion. Il est utilisé pour conserver une trace des changements effectués à un arbre de sources et ainsi pour aider les programmeurs à combiner les modifications faites par différentes personnes à différents moments.<br/><br/>
+      <use name="ct-gnu-arch"/> est un systÃ¨me de gestion de versions, similaire dans le principe Ã  des outils tels que CVS, SCCS et Subversion. Il est utilisÃ© pour conserver une trace des changements effectuÃ©s Ã  un arbre de sources et ainsi pour aider les programmeurs Ã  combiner les modifications faites par diffÃ©rentes personnes Ã  diffÃ©rents moments.<br/><br/>
 
-        Nous avons décidé de vous fournir un accès au Web-Arch. Cela permettra d'aider les contributeurs à réaliser des patchs et correctifs plus facilement pour le système. De plus, vous pourrez également essayer les pré-versions de la GeeXboX et nous aider à repérer et corriger des bugs. Soyez attentifs au fait que le contenu de l'Arch peut être modifié fréquemment et DOIT être considéré comme une version INSTABLE. Nous ne fournirons aucun support pour cette version et ne pouvons être tenus pour responsables pour toute pertes de données ou problèmes engendré.<br/><br/>
+        Nous avons dÃ©cidÃ© de vous fournir un accÃ¨s au Web-Arch. Cela permettra d'aider les contributeurs Ã  rÃ©aliser des patchs et correctifs plus facilement pour le systÃ¨me. De plus, vous pourrez Ã©galement essayer les prÃ©-versions de la GeeXboX et nous aider Ã  repÃ©rer et corriger des bugs. Soyez attentifs au fait que le contenu de l'Arch peut Ãªtre modifiÃ© frÃ©quemment et DOIT Ãªtre considÃ©rÃ© comme une version INSTABLE. Nous ne fournirons aucun support pour cette version et ne pouvons Ãªtre tenus pour responsables pour toute pertes de donnÃ©es ou problÃ¨mes engendrÃ©.<br/><br/>
 
-          Il existe actuellement 2 façons d'accéder à notre arbre Arch : par ligne de commande ou interface Web (pour simplement constater les changements apportés à un fichier en particulier par exemple). Vous pouvez accéder directement au Web-Arch depuis votre navigateur via :<br/><br/>
+          Il existe actuellement 2 faÃ§ons d'accÃ©der Ã  notre arbre Arch : par ligne de commande ou interface Web (pour simplement constater les changements apportÃ©s Ã  un fichier en particulier par exemple). Vous pouvez accÃ©der directement au Web-Arch depuis votre navigateur via :<br/><br/>
 
 <b><use name="ct-geexbox-arch"/></b><br/><br/>
 
-          Pour accéder à notre Arch en ligne de commande, créez et déplacez vous dans un nouveau répertoire puis faites comme suit (prenez garde à avoir le paquetage TLA) :<br/><br/> 
+          Pour accÃ©der Ã  notre Arch en ligne de commande, crÃ©ez et dÃ©placez vous dans un nouveau rÃ©pertoire puis faites comme suit (prenez garde Ã  avoir le paquetage TLA) :<br/><br/> 
 
-<b>* <use name="ct-tla-register"/></b><i> - Pour enregistrer le dépositoire Arch utilisé par l'équipe GeeXboX.</i><br/>
-<b>* <use name="ct-tla-get"/></b><i> - Pour rappatrier tous les fichiers depuis le répertoire geexbox.</i><br/>
-<b>* <use name="ct-tla-update"/></b><i> - Pour mettre à jour votre copie locale du CVS, en la synchronisant avec le version sur notre serveur.</i>
+<b>* <use name="ct-tla-register"/></b><i> - Pour enregistrer le dÃ©positoire Arch utilisÃ© par l'Ã©quipe GeeXboX.</i><br/>
+<b>* <use name="ct-tla-get"/></b><i> - Pour rappatrier tous les fichiers depuis le rÃ©pertoire geexbox.</i><br/>
+<b>* <use name="ct-tla-update"/></b><i> - Pour mettre Ã  jour votre copie locale du CVS, en la synchronisant avec le version sur notre serveur.</i>
       <br/><br/>
-      Veuillez vous référer à la partie <i>Developers Section</i> du <use name="wiki-url"/> GeeXboX pour une entrée en matière sur le fonctionnement interne de la chaîne de compilation de la GeeXboX. Vous y trouverez également tosu les conseils nécessaires pour rapporter des problèmes à l'équipe de développement, mais également pour ajouter de nouveaux programmes, ajouter le support de nouvelles télécommandes, soumettre un patch, et bien d'autres choses ...
+      Veuillez vous rÃ©fÃ©rer Ã  la partie <i>Developers Section</i> du <use name="wiki-url"/> GeeXboX pour une entrÃ©e en matiÃ¨re sur le fonctionnement interne de la chaÃ®ne de compilation de la GeeXboX. Vous y trouverez Ã©galement tosu les conseils nÃ©cessaires pour rapporter des problÃ¨mes Ã  l'Ã©quipe de dÃ©veloppement, mais Ã©galement pour ajouter de nouveaux programmes, ajouter le support de nouvelles tÃ©lÃ©commandes, soumettre un patch, et bien d'autres choses ...
       </content>
 
       <content lang="de" title="GeeXboX Archiv">
-        <use name="ct-gnu-arch"/> ist ein Revisions-Kontroll-System, ähnlich CVS, SCCS und Subversion. Es wird genutzt, um Änderungen in den Quelltexten zu verfolgen und gleichzeitig den Entwicklern die Möglichkeit zu geben, alle gemachten Änderungen der einzelnen Entwickler am Projekt zusammenzuführen.<br/><br/>
+        <use name="ct-gnu-arch"/> ist ein Revisions-Kontroll-System, Ã¤hnlich CVS, SCCS und Subversion. Es wird genutzt, um Ã„nderungen in den Quelltexten zu verfolgen und gleichzeitig den Entwicklern die MÃ¶glichkeit zu geben, alle gemachten Ã„nderungen der einzelnen Entwickler am Projekt zusammenzufÃ¼hren.<br/><br/>
 
-Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Archiv zu geben. Damit haben Sie als Entwickler die Möglichkeit, auf einfache Weise "Patches" oder "Fixes" für die Distribution zu erstellen. Zusätzlich dazu können Sie die jeweils aktuellen Betaversionen von GeeXboX austesten und uns so helfen, Fehler frühzeitig zu erkennen und zu beseitigen! Bitte beachten Sie, dass diese Versionen oft geändert und daher als "nicht stabil" angesehen werden sollten. Wir bieten daher keine Hilfe zu diesen Versionen und sind damit nicht verantwortlich für eventuelle Beschädigungen oder Datenverlust.<br/><br/>
+Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Archiv zu geben. Damit haben Sie als Entwickler die MÃ¶glichkeit, auf einfache Weise "Patches" oder "Fixes" fÃ¼r die Distribution zu erstellen. ZusÃ¤tzlich dazu kÃ¶nnen Sie die jeweils aktuellen Betaversionen von GeeXboX austesten und uns so helfen, Fehler frÃ¼hzeitig zu erkennen und zu beseitigen! Bitte beachten Sie, dass diese Versionen oft geÃ¤ndert und daher als "nicht stabil" angesehen werden sollten. Wir bieten daher keine Hilfe zu diesen Versionen und sind damit nicht verantwortlich fÃ¼r eventuelle BeschÃ¤digungen oder Datenverlust.<br/><br/>
 
-          Zur Zeit gibt es zwei Möglichkeiten des Zugriffes auf unser Archiv: Über Kommandozeile oder Web-Arch (um z.B. schnell eine Änderung in einer Datei nachzusehen). Das Webarchiv können Sie direkt per Browser erreichen, über:<br/><br/>
+          Zur Zeit gibt es zwei MÃ¶glichkeiten des Zugriffes auf unser Archiv: Ãœber Kommandozeile oder Web-Arch (um z.B. schnell eine Ã„nderung in einer Datei nachzusehen). Das Webarchiv kÃ¶nnen Sie direkt per Browser erreichen, Ã¼ber:<br/><br/>
 
 <b><use name="ct-geexbox-arch"/></b><br/><br/>
 
-          Um unser Archiv über die Kommandozeile zu erreichen, erstellen Sie bitte zunächst ein neues Verzeichnis und wechseln dann in dieses. Dann führen Sie bitte die folgenden Befehle aus (Stellen Sie zunächst sicher, dass das TLA Paket installiert ist) :<br/><br/> 
+          Um unser Archiv Ã¼ber die Kommandozeile zu erreichen, erstellen Sie bitte zunÃ¤chst ein neues Verzeichnis und wechseln dann in dieses. Dann fÃ¼hren Sie bitte die folgenden Befehle aus (Stellen Sie zunÃ¤chst sicher, dass das TLA Paket installiert ist) :<br/><br/> 
 
 <b>* <use name="ct-tla-register"/></b><i> - Um das GeeXboX Archiv zu registrieren.</i><br/>
 <b>* <use name="ct-tla-get"/></b><i> - Um alle Dateien des GeeXBox Archives herunter zu laden.</i><br/>
@@ -89,17 +89,17 @@ Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Archiv zu geben. Damit 
       <br/><br/><br/><br/><br/><br/><br/><br/>
       </content>
 
-      <content lang="fr" title="Liste de Diffusion pour Développeurs">
-        Si vous portez un quelconque intérêt au développement de la GeeXboX et que vous souhaitez y contribuer, vous pouvez souscrire à notre liste de diffusion pour développeurs. Vous pourrez alors nous envoyer vos patchs et autres correctifs, mais également y apprendre sur l'évolution de la GeeXboX au jour le jour. Ceci nécessite néanmoins de souscrire à la liste de diffusion pour pouvoir poster un mail. Veuillez noter que seul l'ANGLAIS est utilisé pour y correspondre (des messages dans d'autres langues, français y compris, ne recevront aucune réponse, pas plus que les questions sur des problèmes d'utilisation, suggestions et autres rapports de bug). Jetez un oeil à la section du site consacrée aux listes de diffusion pour de plus amples détails à ce sujet.
+      <content lang="fr" title="Liste de Diffusion pour DÃ©veloppeurs">
+        Si vous portez un quelconque intÃ©rÃªt au dÃ©veloppement de la GeeXboX et que vous souhaitez y contribuer, vous pouvez souscrire Ã  notre liste de diffusion pour dÃ©veloppeurs. Vous pourrez alors nous envoyer vos patchs et autres correctifs, mais Ã©galement y apprendre sur l'Ã©volution de la GeeXboX au jour le jour. Ceci nÃ©cessite nÃ©anmoins de souscrire Ã  la liste de diffusion pour pouvoir poster un mail. Veuillez noter que seul l'ANGLAIS est utilisÃ© pour y correspondre (des messages dans d'autres langues, franÃ§ais y compris, ne recevront aucune rÃ©ponse, pas plus que les questions sur des problÃ¨mes d'utilisation, suggestions et autres rapports de bug). Jetez un oeil Ã  la section du site consacrÃ©e aux listes de diffusion pour de plus amples dÃ©tails Ã  ce sujet.
       <br/><br/><br/><br/><br/><br/><br/><br/>
       </content>
 
-      <content lang="de" title="Mailing Liste für Entwickler">
-        Wenn Sie Interesse an der Entwicklung von GeeXboX haben, sollten Sie unsere Mailingliste für Entwickler abonnieren. Dort können Sie "Patches" oder "Fixes" einsenden oder aber auch nur den täglichen Fortschritt bei der Entwicklung beobachten. Sie müssen die Liste erst abonnieren, bevor Sie Beiträge einsenden können. Bitte beachten Sie auch, dass nur englischsprachige Beiträge akzepiert werden können. Beiträge in anderen Sprachen werden nicht beantwortet, genauso wenig wie Fragen, Anregungen oder Fehlermeldungen. Senden Sie Ihre Beiträge bitte an diese Adresse :
+      <content lang="de" title="Mailing Liste fÃ¼r Entwickler">
+        Wenn Sie Interesse an der Entwicklung von GeeXboX haben, sollten Sie unsere Mailingliste fÃ¼r Entwickler abonnieren. Dort kÃ¶nnen Sie "Patches" oder "Fixes" einsenden oder aber auch nur den tÃ¤glichen Fortschritt bei der Entwicklung beobachten. Sie mÃ¼ssen die Liste erst abonnieren, bevor Sie BeitrÃ¤ge einsenden kÃ¶nnen. Bitte beachten Sie auch, dass nur englischsprachige BeitrÃ¤ge akzepiert werden kÃ¶nnen. BeitrÃ¤ge in anderen Sprachen werden nicht beantwortet, genauso wenig wie Fragen, Anregungen oder Fehlermeldungen. Senden Sie Ihre BeitrÃ¤ge bitte an diese Adresse :
         <center><devel/></center>
-        Sie können die Mailing Liste hier abonnieren oder abbestellen <use name="ct-devel-de"/><br/><br/> 
+        Sie kÃ¶nnen die Mailing Liste hier abonnieren oder abbestellen <use name="ct-devel-de"/><br/><br/> 
 
-        Bitte beachten Sie, dass nur registrierte Email-Adressen genutzt werden können, um Beiträge zu senden!<br/><br/>
+        Bitte beachten Sie, dass nur registrierte Email-Adressen genutzt werden kÃ¶nnen, um BeitrÃ¤ge zu senden!<br/><br/>
 
         Das Archiv der Entwickler-Mailing-Liste finden Sie <use name="ct-devel-archive-de"/>.
       </content>
