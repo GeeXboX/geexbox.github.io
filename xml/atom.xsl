@@ -20,7 +20,7 @@
 
       THIS PAGE WAS AUTOMATICALY GENERATED FROM TEMPLATES,
       USING AN XSLT PROCESSOR.
-      VALID ATOM 1.0.
+      VALID ATOM 1.0 (See link below).
   </xsl:comment>
 
   <xsl:element name="feed">
@@ -44,6 +44,12 @@
       <xsl:attribute name="rel">alternate</xsl:attribute>
       <xsl:attribute name="hreflang"><xsl:value-of select="$lang"/></xsl:attribute>
       <xsl:attribute name="href"><xsl:call-template name="uri"/></xsl:attribute>
+    </xsl:element>
+    <xsl:element name="link">
+      <xsl:attribute name="rel">related</xsl:attribute>
+      <xsl:attribute name="title">Atom Feed Validator</xsl:attribute>
+      <xsl:attribute name="hreflang">en</xsl:attribute>
+      <xsl:attribute name="href">http://www.feedvalidator.org/check.cgi?url=<xsl:call-template name="uri"/>news.xml</xsl:attribute>
     </xsl:element>
     <subtitle type="text"><xsl:value-of select="./content[@lang=$lang]/@title"/></subtitle>
     <icon>http://geexbox.org/img/geexbox-icon.png</icon>
