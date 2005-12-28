@@ -36,7 +36,7 @@
       <meta name="dc.title" content="GeeXboX Homepage"/>
       <meta name="author" content="Aurelien Jacobs, Benjamin Zores"/>
       <meta name="robots" content="index, follow"/>
-      <meta name="keywords" content="computer, OS, Linux, distribution, embedded, multimedia, HTPC, home, theater, LiveCD, movie, audio, video, media, center, MPlayer, standalone, player, free, software, open, source, mpeg, mp3, divx, xvid, matroska, ogg, vorbis, AC3, DTS, VCD, DVD, CD, TV, tuner, TVOut, ATI, nVidia, DXR3, WiFi, PC, computer, buysbox, uClibc, geexbox, geexbox.org"/>
+      <meta name="keywords" content="computer, OS, Linux, distribution, embedded, multimedia, HTPC, home, theater, LiveCD, movie, audio, video, media, center, MPlayer, standalone, player, free, software, open, source, mpeg, mp3, divx, xvid, matroska, ogg, vorbis, AC3, DTS, VCD, DVD, CD, TV, tuner, TVOut, ATI, nVidia, DXR3, WiFi, PC, buysbox, uClibc, geexbox, geexbox.org"/>
       <xsl:element name="link">
         <xsl:attribute name="rel">alternate</xsl:attribute>
         <xsl:attribute name="type">application/atom+xml</xsl:attribute>
