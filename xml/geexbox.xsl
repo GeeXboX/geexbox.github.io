@@ -452,9 +452,26 @@
 <xsl:template name="ours">
   <div id="ours">
     <xsl:apply-templates select="document('ours.xml')/ours/content[@lang=$lang]/node()"/>
+    <xsl:call-template name="atom"/>
   </div>
 </xsl:template>
 
+<xsl:template name="atom">
+  &#160;
+  <xsl:variable name="atom" select="document('atom.xml')/atom"/>
+  <xsl:element name="a">
+    <xsl:attribute name="href">http://geexbox.org/<xsl:value-of select="$lang"/>/news.xml</xsl:attribute>
+      <xsl:attribute name="title">
+        <xsl:value-of select="$atom/langs/text[@lang=$lang]"/>
+      </xsl:attribute>
+    <xsl:element name="img">
+      <xsl:attribute name="src"><xsl:value-of select="$atom/logo/@src"/></xsl:attribute>
+      <xsl:attribute name="alt"><xsl:value-of select="$atom/logo/@alt"/></xsl:attribute>
+      <xsl:attribute name="width"><xsl:value-of select="$atom/logo/@width"/></xsl:attribute>
+      <xsl:attribute name="heigth"><xsl:value-of select="$atom/logo/@heigth"/></xsl:attribute>
+    </xsl:element>
+  </xsl:element>
+</xsl:template>
 
 <xsl:template match="webmaster">
   <a href="mailto:webmaster@geexbox.org">Webmaster</a>
