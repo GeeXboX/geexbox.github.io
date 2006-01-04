@@ -13,7 +13,7 @@
 <xsl:template match="section">
 
   <xsl:comment>
-      This web site is (c) 2005 Alexis Saettler
+      This web site is (c) 2005-2006 Alexis Saettler
       HomePage for the GeeXboX Project (http://www.geexbox.org/)
       Feel free to get inspiration from this site, as long as you leave
       this comment here.
