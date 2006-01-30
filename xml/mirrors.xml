@@ -43,4 +43,10 @@
     <description>MetalForen.org, Berlin (Germany, HTTP)</description>
     <url>http://geexbox.metalforen.org/</url>
   </mirror>
+
+  <mirror>
+    <country>de</country>
+    <description>Raystream.de, Kiel (Germany, HTTP)</description>
+    <url>http://geexbox.raystream.de/</url>
+  </mirror>
 </mirrors>
