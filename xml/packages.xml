@@ -584,6 +584,7 @@
   <section label="packages">
     <content lang="en" title="List of GeeXboX packages ..."/>
     <content lang="fr" title="Liste des paquetages composant GeeXboX ..."/>
+    <content lang="de" title="Liste der Softwarepakete von GeeXboX ..."/>
 
     <subsection label="toolkit">
       <content lang="en" title="Toolkit Packages">

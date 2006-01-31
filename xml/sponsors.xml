@@ -24,7 +24,7 @@
   * <a href="http://www.metalforen.org/"><b>MetalForen</b></a> - Berlin, Germany<br/>
   * <a href="http://www.zyrianes.net/"><b>Zyrianes</b></a> - Brest, France<br/>
   * <a href="http://www.mirrorgeek.com/"><b>MirrorGeek</b></a> - Austin, Texas, USA<br/>
-  * <a href="http://www.raystream.de/"><b>Raystream</b></a> - Kiel, Germany<br/>
+  * <a href="http://www.raystream.de/"><b>Raystream - Media</b></a> - Kiel, Germany<br/>
   </define>
 
   <define name="webmaster">
@@ -66,9 +66,18 @@
         </table>
       </content>               
       <content lang="de" title="Besonderer Dank ...">
-        Unser besonderer Dank gilt der Firma <b>InTouch.Net</b>. Sie bieten uns großartigen Service und hosten <i>geexbox.org</i> kostenlos!.
-        <use name="lnk-intouch"/>
-        InTouch N.V. ist ein in Amsterdam (Niederlande) ansässiger unabhängiger Kommunikationsanbieter. Seit der Gründung 1994 beschäftigt sich InTouch mit dem Zurverfügungstellen von maßgeschneiderten Kommunikationslösungen für spezifische Kundenanforderungen. Sie führen und unterstützen ihre Kunden vom Design bis zur Implementierung und hin zum funktionsfähigen Management der Netzinfrastrukturen. Im engen Zusammenspiel mit ihren Teilhabern stellen sie globale Kommunikationsdienstleistungen für ihre Kunden zur Verfügung.
+        Wir möchten uns ganz herzlich bei <b>Hosting365.ie</b> unnd <b>InTouch.Net</b> bedanken. Sie haben uns die Möglichkeit gegeben GeeXboX.org frei zu hosten und haben einen super Service. Neben der uns gewährleisteten freien unlimitierten bandbreite, haben Sie uns einen dedizierten Webserver zur Verfügung gestellt. Wir verdanken Ihnen alles.<br/>
+        <br/>
+        <table border="2" cellpadding="2" cellspacing="1" width="100%">
+          <tr>
+            <td align="left"><use name="lnk-hosting365"/></td>
+            <td align="center">Hosting365.ie ist ein reiner Hostinganbieter. So kann das Unternehmen hochqualitativen Service rund um das HostingAngebot liefern. Das Unternhemen bietet ein breites Angebot von virtuellen bis dedizierten Servern sowie Enterprise Lösungen an. Hosting365.io bietet in Dublin, Ireland diesen Service bereits seid 1997 an. Hosting365 ist seid dem Dezemenver 2005 der derzeitige Hoster von GeeXboX.org.</td>
+          </tr>
+          <tr>
+	    <td align="left"><use name="lnk-intouch"/></td>
+            <td>InTouch N.V. ist ein in Amsterdam (Niederlande) ansässiger unabhängiger Kommunikationsanbieter. Seit der Gründung 1994 beschäftigt sich InTouch mit dem Zurverfügungstellen von maßgeschneiderten Kommunikationslösungen für spezifische Kundenanforderungen. Sie führen und unterstützen ihre Kunden vom Design bis zur Implementierung und hin zum funktionsfähigen Management der Netzinfrastrukturen. Im engen Zusammenspiel mit ihren Teilhabern stellen sie globale Kommunikationsdienstleistungen für ihre Kunden zur Verfügung. InTouch war der Hoster von GeeXboX.org von 2003 bis Ende 2005.</td>	  
+          </tr>
+        </table>
       </content>               
     </subsection>
 
@@ -87,6 +96,14 @@
         <use name="mirror_list"/>
         <br/>
         Si vous avez accès à un réseau d'hébergement de qualité et à très haut-débit et que vous souhaitez également proposer un miroir du projet GeeXboX, n'hésitez pas à contacter le <use name="webmaster"/>.
+        <br/><br/><br/>
+      </content>
+      <content lang="de" title="GeeXboX.org Mirror Liste ...">
+        Neben diesen beiden Unternehmen, helfen uns viele Personen, Verbünde oder Firmen Ihnen das GeeXboX Projekt verfügbar zu machen. Diese Hilfe findet in Form von Mirror Webseiten statt. Wir möchten uns herzlich bei allen in der folgenden Liste bedanken:<br/>
+        <br/>
+        <use name="mirror_list"/>
+        <br/>
+        Falls Sie Zugang zu Hochgeschwindigkeits und ualitativ hochwertigen Hosting-Lösungen haben und auch interessiert sind unser Projekt zu spiegeln, kontaktieren Sie bitte den <use name="webmaster"/>.
         <br/><br/><br/>
       </content>
     </subsection>

@@ -74,9 +74,11 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
 * Implementierung von TimeShifting (Zeitversetztes Fernsehen)<br/>
 * Implementierung von Pan/Scan (Automatischer Sendersuchlauf).<br/>
 * Anzeigen von ID3 und CDDB Informationen (Album, Künstler, Titelname und -nummer) bei der Wiedergabe von Audiodateien (WAVs, MP3, Ogg ...).<br/>
-* Implemetnierung eines DVD Navigations-Menüs.<br/>
+* Implementierung eines DVD Navigations-Menüs.<br/>
 * Unterstützung von Multimedia-Tastaturen.<br/>
-* Unterstützung von Karaoke Wiedergabe.
+* Unterstützung von Karaoke Wiedergabe.<br/>
+      <br/>
+      Eine komplette <use name="wiki-todo"/> Liste ist im GeeXboX Wiki abrufbar. Dort finden Sie was genau angedacht wurde in naher oder ferner Zukunft in GeeXboX zu implementieren. Damit ist nicht gemeint, das jemand gerade an einem aufgelisteten Punkt arbeitet, aber es gibt Ihnen eine Idee wo man mit der Weiterentwicklung beginnen kann.
       </content>
 
     </subsection>

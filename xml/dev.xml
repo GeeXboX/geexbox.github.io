@@ -78,7 +78,9 @@ Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Archiv zu geben. Damit 
 
 <b>* <use name="ct-tla-register"/></b><i> - Um das GeeXboX Archiv zu registrieren.</i><br/>
 <b>* <use name="ct-tla-get"/></b><i> - Um alle Dateien des GeeXBox Archives herunter zu laden.</i><br/>
-<b>* <use name="ct-tla-update"/></b><i> - Um Ihre lokale Kopie mit unserem Server zu synchronisieren.</i>
+<b>* <use name="ct-tla-update"/></b><i> - Um Ihre lokale Kopie mit unserem Server zu synchronisieren.</i><br/>
+         
+          Bitte lesen Sie im GeeXboX <use name="wiki-url"/> Entwickler Bereich nach, um die Internas zu verstehen. Dort wird erklärt wie Sie Fehler melden, neue Paketei, eine neue Fernbedienung oder Patches hinzufügen können.<br/>
       </content>
 
     </subsection>
@@ -95,13 +97,7 @@ Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Archiv zu geben. Damit 
       </content>
 
       <content lang="de" title="Mailing Liste für Entwickler">
-        Wenn Sie Interesse an der Entwicklung von GeeXboX haben, sollten Sie unsere Mailingliste für Entwickler abonnieren. Dort können Sie "Patches" oder "Fixes" einsenden oder aber auch nur den täglichen Fortschritt bei der Entwicklung beobachten. Sie müssen die Liste erst abonnieren, bevor Sie Beiträge einsenden können. Bitte beachten Sie auch, dass nur englischsprachige Beiträge akzepiert werden können. Beiträge in anderen Sprachen werden nicht beantwortet, genauso wenig wie Fragen, Anregungen oder Fehlermeldungen. Senden Sie Ihre Beiträge bitte an diese Adresse :
-        <center><devel/></center>
-        Sie können die Mailing Liste hier abonnieren oder abbestellen <use name="ct-devel-de"/><br/><br/> 
-
-        Bitte beachten Sie, dass nur registrierte Email-Adressen genutzt werden können, um Beiträge zu senden!<br/><br/>
-
-        Das Archiv der Entwickler-Mailing-Liste finden Sie <use name="ct-devel-archive-de"/>.
+        Wenn Sie Interesse an der Entwicklung von GeeXboX haben, sollten Sie unsere Mailingliste für Entwickler abonnieren. Dort können Sie "Patches" oder "Fixes" einsenden oder aber auch nur den täglichen Fortschritt bei der Entwicklung beobachten. Sie müssen die Liste erst abonnieren, bevor Sie Beiträge einsenden können. Bitte beachten Sie auch, dass nur englischsprachige Beiträge akzepiert werden können. Beiträge in anderen Sprachen werden nicht beantwortet, genauso wenig wie Fragen, Anregungen oder Fehlermeldungen.  Schauene Sie einfach unter den Punkt Mailing Liste nach.<br/>
       </content>
     </subsection>
   </section>
