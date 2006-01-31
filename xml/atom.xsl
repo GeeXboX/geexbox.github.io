@@ -1,36 +1,35 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="xml"
-            encoding="iso-8859-1"
+            encoding="UTF-8"
             indent="yes"/>
 
 <xsl:param name="lang">en</xsl:param>
 <xsl:param name="date"/>
 
-<xsl:template name="uri">http://geexbox.org/<xsl:value-of select="$lang"/>/news.xml</xsl:template>
+<xsl:template name="uri">http://geexbox.org/<xsl:value-of select="$lang"/>/</xsl:template>
 
 <xsl:template match="section">
 
   <xsl:comment>
-      This web site is (c) 2005 Alexis Saettler
+      This web site is (c) 2005-2006 Alexis Saettler
       HomePage for the GeeXboX Project (http://www.geexbox.org/)
       Feel free to get inspiration from this site, as long as you leave
       this comment here.
 
       THIS PAGE WAS AUTOMATICALY GENERATED FROM TEMPLATES,
       USING AN XSLT PROCESSOR.
-      VALID ATOM 1.0.
+      VALID ATOM 1.0 (See link below).
   </xsl:comment>
 
   <xsl:element name="feed">
     <xsl:attribute name="xmlns">http://www.w3.org/2005/Atom</xsl:attribute>
-    <xsl:attribute name="version">1.0</xsl:attribute>
     <xsl:attribute name="xml:lang"><xsl:value-of select="$lang"/></xsl:attribute>
 
     <title type="text">GeeXboX</title>
     <updated><xsl:value-of select="$date"/></updated>
-    <id><xsl:call-template name="uri"/></id>
+    <id><xsl:call-template name="uri"/>news.xml</id>
     <author>
       <name>GeeXboX Team</name>
       <email>webmaster@geexbox.org</email>
@@ -38,7 +37,19 @@
     </author>
     <xsl:element name="link">
       <xsl:attribute name="rel">self</xsl:attribute>
+      <xsl:attribute name="type">application/atom+xml</xsl:attribute>
+      <xsl:attribute name="href"><xsl:call-template name="uri"/>news.xml</xsl:attribute>
+    </xsl:element>
+    <xsl:element name="link">
+      <xsl:attribute name="rel">alternate</xsl:attribute>
+      <xsl:attribute name="hreflang"><xsl:value-of select="$lang"/></xsl:attribute>
       <xsl:attribute name="href"><xsl:call-template name="uri"/></xsl:attribute>
+    </xsl:element>
+    <xsl:element name="link">
+      <xsl:attribute name="rel">related</xsl:attribute>
+      <xsl:attribute name="title">Atom Feed Validator</xsl:attribute>
+      <xsl:attribute name="hreflang">en</xsl:attribute>
+      <xsl:attribute name="href">http://www.feedvalidator.org/check.cgi?url=<xsl:call-template name="uri"/>news.xml</xsl:attribute>
     </xsl:element>
     <subtitle type="text"><xsl:value-of select="./content[@lang=$lang]/@title"/></subtitle>
     <icon>http://geexbox.org/img/geexbox-icon.png</icon>
@@ -56,9 +67,12 @@
     <title><xsl:value-of select="./content[@lang=$lang]/@title"/></title>
     <id>tag:geexbox.org,<xsl:value-of select="@date"/>:/<xsl:value-of select="$lang"/>/<xsl:value-of select="@label"/></id>
     <xsl:element name="link">
-      <xsl:attribute name="href">http://geexbox.org/<xsl:value-of select="$lang"/>/index.html#<xsl:value-of select="@label"/></xsl:attribute>
+      <xsl:attribute name="rel">alternate</xsl:attribute>
+      <xsl:attribute name="href"><xsl:call-template name="uri"/>index.html#<xsl:value-of select="@label"/></xsl:attribute>
+      <xsl:attribute name="type">text/html</xsl:attribute>
+      <xsl:attribute name="title"><xsl:value-of select="./content[@lang=$lang]/@title"/></xsl:attribute>
     </xsl:element>
-    <updated><xsl:value-of select="@date"/></updated>
+    <updated><xsl:value-of select="@date"/>T00:00:00Z</updated>
     <xsl:apply-templates select="./content[@lang=$lang]"/>
   </entry>
 </xsl:template>
@@ -67,8 +81,9 @@
   <xsl:element name="content">
     <xsl:attribute name="type">xhtml</xsl:attribute>
     <xsl:attribute name="xml:lang"><xsl:value-of select="@lang"/></xsl:attribute>
-    <xsl:attribute name="xml:base">http://geexbox.org/<xsl:value-of select="@lang"/>/index.html#<xsl:value-of select="../@label"/></xsl:attribute>
-    <xsl:apply-templates/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml">
+      <xsl:apply-templates/>
+    </xhtml:div>
   </xsl:element>
 </xsl:template>
 

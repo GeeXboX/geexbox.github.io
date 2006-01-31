@@ -72,49 +72,53 @@ a:visited {
 	color: #eee;
 }
 
-#dldesc {
+.dldesc {
 	display: table;
 	width: 100%;
 }
 
-#dldescicon {
+.dldescicon {
 	display: table-cell;
 	vertical-align: top;
 	padding: 3px;
 }
 
-#dldesctext {
+.dldesctext {
 	display: table-cell;
 	width: 100%;
 	padding: 3px;
 }
 
-#download {
+.download {
 	display: table;
 	width: 100%;
 	background-color: #444;
 }
 
-#dlplusminus {
+.download img {
+	border: 0;
+}
+
+.dlplusminus {
 	display: table-cell;
 	padding: 5px 1em 5px 5px;
 }
 
-#dlfile {
+.dlfile {
 	display: table-cell;
 	width: 100%;
 }
 
-#dltable img {
+.dltable img {
 	margin: 5px 1em 5px 5px;
 	vertical-align: middle;
 }
 
-#row0 {
+.row0 {
 	background-color: #333;
 }
 
-#row1 {
+.row1 {
 	background-color: #444;
 }
 
@@ -182,6 +186,11 @@ a:visited {
 #ours {
 	background-color: #555;
         text-align: right;
+}
+
+#ours img {
+	border: 0;
+	margin: -3px;
 }
 
 .center {

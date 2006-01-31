@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE menu SYSTEM "geexbox.dtd">
 
 <mirrors>
@@ -35,12 +35,18 @@
   <mirror>
     <country>nl</country>
     <description>InTouch.net, Amsterdam (Netherlands, HTTP)</description>
-    <url>http://www5.geexbox.org/</url>
+    <url>http://geexbox.mirror.intouch.nl/</url>
   </mirror>
 
   <mirror>
     <country>de</country>
     <description>MetalForen.org, Berlin (Germany, HTTP)</description>
     <url>http://geexbox.metalforen.org/</url>
+  </mirror>
+
+  <mirror>
+    <country>de</country>
+    <description>Raystream.de, Kiel (Germany, HTTP)</description>
+    <url>http://geexbox.raystream.de/</url>
   </mirror>
 </mirrors>

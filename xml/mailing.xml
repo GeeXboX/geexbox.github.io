@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
@@ -63,25 +63,25 @@
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </content>
     <content lang="fr" title="Listes de diffusion GeeXboX">
-    Il existe de nombreuses listes de diffusion relatives au développement de la GeeXboX ou au support de ses utilisateurs et qui sont ouvertes au public. En raison de problèmes évidents de spams, vous ne pourrez écrire sur ces listes qu'après vous être préalablement enregistrés. A titre informatif, veuillez prendre en compte que les mails au format HTML, le top-posting ainsi que l'écriture de nouveaux messages ou de messages non-liés au fil de discussion courant ne sont pas les bienvenus et sont autant de raison possible de ne pas obtenir de réponse. Jouer selon les règles du jeu rendra la vie beaucoup plus facile des personnes qui lisent vos mails et augmentera fortement votre potentiel à obtenir une réponse. A moins qu'il ne soit précisé autrement, veuillez noter que ces listes de diffusion ne doivent comporter que des messages en <b>Anglais</b>. De plus si vous envoyez une pièce jointe trop conséquente et que votre message vous est retournée, veuillez fournir une URL à la place.<br/>
+    Il existe de nombreuses listes de diffusion relatives au dÃ©veloppement de la GeeXboX ou au support de ses utilisateurs et qui sont ouvertes au public. En raison de problÃ¨mes Ã©vidents de spams, vous ne pourrez Ã©crire sur ces listes qu'aprÃ¨s vous Ãªtre prÃ©alablement enregistrÃ©s. A titre informatif, veuillez prendre en compte que les mails au format HTML, le top-posting ainsi que l'Ã©criture de nouveaux messages ou de messages non-liÃ©s au fil de discussion courant ne sont pas les bienvenus et sont autant de raison possible de ne pas obtenir de rÃ©ponse. Jouer selon les rÃ¨gles du jeu rendra la vie beaucoup plus facile des personnes qui lisent vos mails et augmentera fortement votre potentiel Ã  obtenir une rÃ©ponse. A moins qu'il ne soit prÃ©cisÃ© autrement, veuillez noter que ces listes de diffusion ne doivent comporter que des messages en <b>Anglais</b>. De plus si vous envoyez une piÃ¨ce jointe trop consÃ©quente et que votre message vous est retournÃ©e, veuillez fournir une URL Ã  la place.<br/>
     <br/>
-    Souvenez vous que vous n'êtes autorisés à envoyé un message qu'à partir de l'adresse email que vous avez utilisé à votre inscription.<br/>
+    Souvenez vous que vous n'Ãªtes autorisÃ©s Ã  envoyÃ© un message qu'Ã  partir de l'adresse email que vous avez utilisÃ© Ã  votre inscription.<br/>
     <br/>
     <b><u>Pour les utilisateurs :</u></b><br/>
     <br/>
     * <b>GeeXboX-News</b> : <use name="news-subscribe"/> - <use name="news-archives"/><br/>
-    Il s'agit d'une liste en lecture seule, à très faible traffic, utilisée par les développeurs du projet pour notifier aux utilisateurs la sortie de nouvelles versions publiques ou de développement de la GeeXboX. Vous n'êtes pas autorisés à écrire sur cette liste.<br/>
+    Il s'agit d'une liste en lecture seule, Ã  trÃ¨s faible traffic, utilisÃ©e par les dÃ©veloppeurs du projet pour notifier aux utilisateurs la sortie de nouvelles versions publiques ou de dÃ©veloppement de la GeeXboX. Vous n'Ãªtes pas autorisÃ©s Ã  Ã©crire sur cette liste.<br/>
     <br/>
     * <b>GeeXboX-Users</b> : <use name="users-subscribe"/> - <use name="users-archives"/> - <use name="users-mail"/><br/>
-    Cette liste est utilisée pour apporter un support utilisateurs. Elle est donc la cible parfaite pour toute question à propos de l'utilisation, la configuration, l'installation ou autres de la GeeXboX. Toutes les questions d'ordre utilisateurs appartiennent à cette liste et n'importe qui (ayant souscrits à la liste ou non) est autorisé à écrire dessus (et ce en Français ou Anglais).<br/>
+    Cette liste est utilisÃ©e pour apporter un support utilisateurs. Elle est donc la cible parfaite pour toute question Ã  propos de l'utilisation, la configuration, l'installation ou autres de la GeeXboX. Toutes les questions d'ordre utilisateurs appartiennent Ã  cette liste et n'importe qui (ayant souscrits Ã  la liste ou non) est autorisÃ© Ã  Ã©crire dessus (et ce en FranÃ§ais ou Anglais).<br/>
     <br/>
-    <b><u>Pour les développeurs :</u></b><br/>
+    <b><u>Pour les dÃ©veloppeurs :</u></b><br/>
     <br/>
     * <b>GeeXboX-Devel</b> : <use name="devel-subscribe"/> - <use name="devel-archives"/> - <use name="devel-mail"/><br/>
-    Cette liste est utilisée pour toutes les questions relatives au développement de la GeeXboX. C'est là que sont décidées l'évolution et les nouvelles fonctionnalités des prochaines versions à venir. Il s'agit donc de l'endroit rêvé pour en apprendre plus sur les rouages internes de la GeeXboX, participer à son développement ou encore y soumettre des patches. Il ne s'agit cependant pas d'une liste pour les requêtes de nouvelles fonctionnalités ou pour le rapport de bugs.<br/>
+    Cette liste est utilisÃ©e pour toutes les questions relatives au dÃ©veloppement de la GeeXboX. C'est lÃ  que sont dÃ©cidÃ©es l'Ã©volution et les nouvelles fonctionnalitÃ©s des prochaines versions Ã  venir. Il s'agit donc de l'endroit rÃªvÃ© pour en apprendre plus sur les rouages internes de la GeeXboX, participer Ã  son dÃ©veloppement ou encore y soumettre des patches. Il ne s'agit cependant pas d'une liste pour les requÃªtes de nouvelles fonctionnalitÃ©s ou pour le rapport de bugs.<br/>
     <br/>
     * <b>GeeXboX-Commits</b> : <use name="commits-subscribe"/> - <use name="commits-archives"/> - <use name="commits-mail"/><br/>
-    A chaque fois qu'un patch est validé sur l'une des branches de développement du projet GeeXboX, une copie de ce dernier est envoyé vers cette liste afin que les autres développeurs ou personnes ayant souscrits à cette liste puissent le revoir, exprimer leur avis, ou simplement être notifiés de son existence. Toute personne est invitée à faire des commentaires sur un patch qui pourrait bloquer ou désactiver une fonctionnalité qui jusqu'alors fonctionnait parfaitement.
+    A chaque fois qu'un patch est validÃ© sur l'une des branches de dÃ©veloppement du projet GeeXboX, une copie de ce dernier est envoyÃ© vers cette liste afin que les autres dÃ©veloppeurs ou personnes ayant souscrits Ã  cette liste puissent le revoir, exprimer leur avis, ou simplement Ãªtre notifiÃ©s de son existence. Toute personne est invitÃ©e Ã  faire des commentaires sur un patch qui pourrait bloquer ou dÃ©sactiver une fonctionnalitÃ© qui jusqu'alors fonctionnait parfaitement.
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </content>
   </section>

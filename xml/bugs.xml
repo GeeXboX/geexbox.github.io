@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
@@ -12,7 +12,7 @@
 
   <section label="bugs_todo">
     <content lang="en" title="Bugs Report / TODO ..."/>
-    <content lang="fr" title="Rapport de Bugs / Fonctionnalités à venir ..."/>
+    <content lang="fr" title="Rapport de Bugs / FonctionnalitÃ©s Ã  venir ..."/>
     <content lang="de" title="Bug Report / TODO ..."/>
     <subsection label="bugs">
       <content lang="en" title="Sending a Bug Report ...">
@@ -23,19 +23,19 @@
 It's a real bug report tool, not a new forum. There will be no answer to reported bugs, only bug fixes. And remember that useless reports will be trashed.<br/><br/>
       </content>
       <content lang="fr" title="Envoyer un rapport de bug ...">
-        Malheureusement, la GeeXboX n'est pas dépourvue de bugs :-( Si vous souhaitez signaler un bug lors de l'utilisation de la GeeXboX, vous pouvez le faire via notre système de suivi de bugs (en anglais uniquement) qui utilise <use name="link-bugzilla"/>. Si vous rencontrez un problème ou bug génant dans l'utilisation de la GeeXboX, n'hésitez pas à le signaler via cette interface.<br/><br/>
+        Malheureusement, la GeeXboX n'est pas dÃ©pourvue de bugs :-( Si vous souhaitez signaler un bug lors de l'utilisation de la GeeXboX, vous pouvez le faire via notre systÃ¨me de suivi de bugs (en anglais uniquement) qui utilise <use name="link-bugzilla"/>. Si vous rencontrez un problÃ¨me ou bug gÃ©nant dans l'utilisation de la GeeXboX, n'hÃ©sitez pas Ã  le signaler via cette interface.<br/><br/>
 
-<b>ATTENTION à ne pas utiliser cette interface pour y décrire vos problèmes personnels, votre incompétence à lire une FAQ, votre nouveau matériel ou à y poser des questions récurrentes du genre "Pourquoi mon système ne fonctionne pas ? Comment graver un CD etc ...".</b><br/><br/>
+<b>ATTENTION Ã  ne pas utiliser cette interface pour y dÃ©crire vos problÃ¨mes personnels, votre incompÃ©tence Ã  lire une FAQ, votre nouveau matÃ©riel ou Ã  y poser des questions rÃ©currentes du genre "Pourquoi mon systÃ¨me ne fonctionne pas ? Comment graver un CD etc ...".</b><br/><br/>
 
-Il s'agit d'un véritable outil d'aide au développement par rapport de bugs et non pas d'un second forum prêt à être pollué. Il n'y aura aucune réponse aux bugs rapportés, simplement une résolution. Les rapports sans intérêt ou du genre décrit plus haut seront immédiatement supprimés.<br/><br/>
+Il s'agit d'un vÃ©ritable outil d'aide au dÃ©veloppement par rapport de bugs et non pas d'un second forum prÃªt Ã  Ãªtre polluÃ©. Il n'y aura aucune rÃ©ponse aux bugs rapportÃ©s, simplement une rÃ©solution. Les rapports sans intÃ©rÃªt ou du genre dÃ©crit plus haut seront immÃ©diatement supprimÃ©s.<br/><br/>
       </content>
       <content lang="de" title="Bekannte Fehler ...">
-        Natürlich ist auch GeeXboX nicht fehlerfrei :-( Unbekannte Fehler können Sie uns über das neue Bug-Tracking-System, auf Basis von <use name="link-bugzilla"/>, an uns melden. Wenn Sie also einen Fehler bei der Verwendung von GeexBoX entdecken, benutzen Sie bitte das genannte System.<br/><br/>
+        NatÃ¼rlich ist auch GeeXboX nicht fehlerfrei :-( Unbekannte Fehler kÃ¶nnen Sie uns Ã¼ber das neue Bug-Tracking-System, auf Basis von <use name="link-bugzilla"/>, an uns melden. Wenn Sie also einen Fehler bei der Verwendung von GeexBoX entdecken, benutzen Sie bitte das genannte System.<br/><br/>
 
-<b>BITTE nutzen Sie dieses System ausschließlich zur Mitteilung von Fehlern, nicht für Problembeschreibungen, Ihr Leben, Ihre Hardware oder zum stellen "unnötiger" Fragen wie 
+<b>BITTE nutzen Sie dieses System ausschlieÃŸlich zur Mitteilung von Fehlern, nicht fÃ¼r Problembeschreibungen, Ihr Leben, Ihre Hardware oder zum stellen "unnÃ¶tiger" Fragen wie 
 "Warum funktioniert mein System nicht ? Wie brenne ich eine CD... Mein System startet nicht ...".</b><br/><br/>
 
-Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum. Sie werden keine Bestätigung über den Eingang Ihrer Fehlermeldungen erhalten. Erst wenn der Fehler behoben ist, erhalten Sie eine Nachricht. Und bitte bedenken Sie: Nutzlose Fehlermeldungen werden gelöscht.<br/><br/>
+Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum. Sie werden keine BestÃ¤tigung Ã¼ber den Eingang Ihrer Fehlermeldungen erhalten. Erst wenn der Fehler behoben ist, erhalten Sie eine Nachricht. Und bitte bedenken Sie: Nutzlose Fehlermeldungen werden gelÃ¶scht.<br/><br/>
       </content>
 
     </subsection>
@@ -53,30 +53,30 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
       <br/>
       A complete <use name="wiki-todo"/> list is available on GeeXboX Wiki. There you'll find what exactly is intended to be coming to GeeXboX one day or another. It doesn't necessarly means that someone's currently working on a particular listed feature but at least it may give you ideas where to start with development ;-)
       </content>
-      <content lang="fr" title="Fonctionnalités Futures de la GeeXboX ...">
-        Vous trouverez ci-dessous quelques fonctionnalités que la prochaine version de la GeeXboX sera susceptible de proposer. Cela pourra prendre un certain temps, en fonction de la nécessité de chaque fonctionnalité :<br/><br/>
+      <content lang="fr" title="FonctionnalitÃ©s Futures de la GeeXboX ...">
+        Vous trouverez ci-dessous quelques fonctionnalitÃ©s que la prochaine version de la GeeXboX sera susceptible de proposer. Cela pourra prendre un certain temps, en fonction de la nÃ©cessitÃ© de chaque fonctionnalitÃ© :<br/><br/>
 
 * Ajout d'une nouvelle interface graphique.<br/>
-* Support des possibilités d'enregistrement.<br/>
-* Support des fonctionnalités de TimeShifting.<br/>
+* Support des possibilitÃ©s d'enregistrement.<br/>
+* Support des fonctionnalitÃ©s de TimeShifting.<br/>
 * Support du mode Pan/Scan.<br/>
-* Affichage des ID3 Tags (Nom de l'album, de l'artiste, du numéro et nom de piste) et informations CDDB lors de la lecture de flux exclusivement audio (WAV, MP3, Ogg ...).<br/>
-* Ajout d'un véritable menu de navigation pour les DVD.<br/>
-* Support des claviers multimédia.<br/>
-* Support de fonctionnalités karaoké.<br/>
+* Affichage des ID3 Tags (Nom de l'album, de l'artiste, du numÃ©ro et nom de piste) et informations CDDB lors de la lecture de flux exclusivement audio (WAV, MP3, Ogg ...).<br/>
+* Ajout d'un vÃ©ritable menu de navigation pour les DVD.<br/>
+* Support des claviers multimÃ©dia.<br/>
+* Support de fonctionnalitÃ©s karaokÃ©.<br/>
       <br/>
-      Une liste complète des <use name="wiki-todo"/> a réaliser est disponible sur le Wiki GeeXboX. Vous y trouverez une description complète des fonctionnalités que l'équipe de développement souhaite ajouter à la GeeXboX un jour ou l'autre. Pour chaque point, cela ne signifie pas nécessairement que quelqu'un est actuellement en train de travailler activement dessus mais au moins, cela peut vous donner des idées de fonctionnalités à ajouter (patchs à soumettre) pour contribuer à l'amélioration de la distribution.
+      Une liste complÃ¨te des <use name="wiki-todo"/> a rÃ©aliser est disponible sur le Wiki GeeXboX. Vous y trouverez une description complÃ¨te des fonctionnalitÃ©s que l'Ã©quipe de dÃ©veloppement souhaite ajouter Ã  la GeeXboX un jour ou l'autre. Pour chaque point, cela ne signifie pas nÃ©cessairement que quelqu'un est actuellement en train de travailler activement dessus mais au moins, cela peut vous donner des idÃ©es de fonctionnalitÃ©s Ã  ajouter (patchs Ã  soumettre) pour contribuer Ã  l'amÃ©lioration de la distribution.
       </content>
       <content lang="de" title="GeeXboX TODO Liste ...">
-        Hier finden Sie eine Liste von geplanten Verbesserungen, die in zukünftigen Versionen von GeeXbox zu finden sein werden. Dies kann je nach Gewichtung einige Zeit in Anspruch nehmen:<br/><br/>
-* Entwicklung einer neuen Menüoberfläche.<br/>
-* Implementierung von Dekodier- und Aufnahmemöglichkeiten.<br/>
+        Hier finden Sie eine Liste von geplanten Verbesserungen, die in zukÃ¼nftigen Versionen von GeeXbox zu finden sein werden. Dies kann je nach Gewichtung einige Zeit in Anspruch nehmen:<br/><br/>
+* Entwicklung einer neuen MenÃ¼oberflÃ¤che.<br/>
+* Implementierung von Dekodier- und AufnahmemÃ¶glichkeiten.<br/>
 * Implementierung von TimeShifting (Zeitversetztes Fernsehen)<br/>
 * Implementierung von Pan/Scan (Automatischer Sendersuchlauf).<br/>
-* Anzeigen von ID3 und CDDB Informationen (Album, Künstler, Titelname und -nummer) bei der Wiedergabe von Audiodateien (WAVs, MP3, Ogg ...).<br/>
-* Implemetnierung eines DVD Navigations-Menüs.<br/>
-* Unterstützung von Multimedia-Tastaturen.<br/>
-* Unterstützung von Karaoke Wiedergabe.
+* Anzeigen von ID3 und CDDB Informationen (Album, KÃ¼nstler, Titelname und -nummer) bei der Wiedergabe von Audiodateien (WAVs, MP3, Ogg ...).<br/>
+* Implemetnierung eines DVD Navigations-MenÃ¼s.<br/>
+* UnterstÃ¼tzung von Multimedia-Tastaturen.<br/>
+* UnterstÃ¼tzung von Karaoke Wiedergabe.
       </content>
 
     </subsection>

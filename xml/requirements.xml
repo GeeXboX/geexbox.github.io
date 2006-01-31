@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
@@ -32,7 +32,7 @@
 
   <section label="requirements">
     <content lang="en" title="Requirements ..."/>
-    <content lang="fr" title="Pré-Requis ..."/>
+    <content lang="fr" title="PrÃ©-Requis ..."/>
     <content lang="de" title="Voraussetzungen ..."/>
 
     <subsection label="hardware">
@@ -48,27 +48,27 @@ So, here's what can be considered as a typical / minimal config :<br/>
 * Keyboard, Joystick or Remote Controller, using a Lirc-compatible IR (InfraRed) receiver
   (check <use name="req-lirc"/> to build yours), e.g. Miro PcTV's one or ATI Remote Wonder.
       </content>
-      <content lang="fr" title="Besoins Matériel">
-        La GeeXboX a beau être un système d'exploitation, elle ne nécessite pas moins quelque chose sur quoi démarrer ;-) Vous avez de la chance, elle est basée sur MPlayer, qui peut être considéré comme l'un des lecteurs multimédia les moins dépendant de puissance CPU, de par l'utilisation de la librairie FFMpeg pour décoder les vidéos par exemple.<br/><br/>
-Voici donc ce qui peut être considéré comme une configuration typique / minimale :<br/>
-* CPU x86 de type Pentium ou Supérieur (un P2-400 devrait parfaitement convenir) ou Macintosh G3 (G4 recommandé).<br/>
+      <content lang="fr" title="Besoins MatÃ©riel">
+        La GeeXboX a beau Ãªtre un systÃ¨me d'exploitation, elle ne nÃ©cessite pas moins quelque chose sur quoi dÃ©marrer ;-) Vous avez de la chance, elle est basÃ©e sur MPlayer, qui peut Ãªtre considÃ©rÃ© comme l'un des lecteurs multimÃ©dia les moins dÃ©pendant de puissance CPU, de par l'utilisation de la librairie FFMpeg pour dÃ©coder les vidÃ©os par exemple.<br/><br/>
+Voici donc ce qui peut Ãªtre considÃ©rÃ© comme une configuration typique / minimale :<br/>
+* CPU x86 de type Pentium ou SupÃ©rieur (un P2-400 devrait parfaitement convenir) ou Macintosh G3 (G4 recommandÃ©).<br/>
 * une carte graphique compatible VESA 2.0 (pour PC x86 uniquement)<br/>
 * une carte son compatible ALSA.<br/>
-* environ 64 Mo de mémoire vive<br/>
+* environ 64 Mo de mÃ©moire vive<br/>
 * un lecteur CD-ROM ou DVD-ROM<br/>
-* une carte-mère supportant le démarrage sur CD (cela devrait être bon dans 99% des cas ;-)<br/>
-* un clavier, un joystick ou une télécommande (utilisant un récepteur infra-rouge compatible avec Lirc - vérifiez le sur <use name="req-lirc"/> pour construire le votre), comme par exemple celui fourni avec la carte Miro PcTV ou encore l'ATI Remote Wonder.
+* une carte-mÃ¨re supportant le dÃ©marrage sur CD (cela devrait Ãªtre bon dans 99% des cas ;-)<br/>
+* un clavier, un joystick ou une tÃ©lÃ©commande (utilisant un rÃ©cepteur infra-rouge compatible avec Lirc - vÃ©rifiez le sur <use name="req-lirc"/> pour construire le votre), comme par exemple celui fourni avec la carte Miro PcTV ou encore l'ATI Remote Wonder.
       </content>
       <content lang="de" title="Hardware Voraussetzungen">
-        GeeXboX ist ein Betriebssystem, aber trotzdem brauchen Sie etwas, um es irgendwie zu starten ;-) Sie können sich freuen, denn GeeXboX basiert auf MPlayer, der durch die Nutzung von FFMpeg für die Dekodierung von Filmen als einer der ressourcenschonendsten Player gilt.<br/><br/>
+        GeeXboX ist ein Betriebssystem, aber trotzdem brauchen Sie etwas, um es irgendwie zu starten ;-) Sie kÃ¶nnen sich freuen, denn GeeXboX basiert auf MPlayer, der durch die Nutzung von FFMpeg fÃ¼r die Dekodierung von Filmen als einer der ressourcenschonendsten Player gilt.<br/><br/>
 Die folgende Liste stellt die Mindestanforderungen an die Hardware dar :<br/>
 * Pentium basierte CPU oder besser (P2-400 sollte ausreichend sein) oder ein Power Macintosh G3 (G4 empfohlen)<br/>
-* eine VESA 2.0 kompatible Grafikkarte (gilt nur für x86 PC's).<br/>
+* eine VESA 2.0 kompatible Grafikkarte (gilt nur fÃ¼r x86 PC's).<br/>
 * eine ALSA kompatible Soundkarte.<br/>
 * wenigstens 64 MB Arbeitsspeicher<br/>
 * CD-ROM oder DVD-ROM Laufwerk<br/>
-* Motherboard mit Unterstützung für das Starten von CD-ROM.<br/>
-* Tastatur, Joystick oder Fernbedienung, mittels Lirc-kompatiblen IR (InfraRed) Empfänger
+* Motherboard mit UnterstÃ¼tzung fÃ¼r das Starten von CD-ROM.<br/>
+* Tastatur, Joystick oder Fernbedienung, mittels Lirc-kompatiblen IR (InfraRed) EmpfÃ¤nger
   (s.h. <use name="req-lirc"/>), z-B. Miro PcTV's oder ATI Remote Wonder.
       </content>
     </subsection>
@@ -87,30 +87,30 @@ Die folgende Liste stellt die Mindestanforderungen an die Hardware dar :<br/>
           You also need to have at least 1.2 GB of free disk space in order to build the GeeXboX properly.<br/><br/>
       </content>
       <content lang="fr" title="Besoins Logiciel">
-        Ceci n'est nécessaire que dans le cas où vous souhaiteriez construire ou personnaliser votre propre version de la GeeXboX. Avant toute chose, il vous faut savoir que la construction nécessite d'être faite sous un système GNU/Linux. De plus, certains paquetages sont requis, tels que : <br/><br/>
-* <use name="req-gcc"/> : Le Compilateur GNU, utilisé pour construire l'intégralité du projet. Veuillez éviter d'utiliser la version 2.96 (disponible sur les anciennes versions des distributions Redhat et Mandrake) en raison de sa non compatibilité réelle avec MPlayer.<br/>
-* <use name="req-make"/> : GNU Make est un programme qui détermine quels parties d'un logiciel nécessitent réellement d'êtres reconstruites.<br/>
-* <use name="req-patch"/> : ce paquetage est utilisé pour effectuer des modifications aux sources officielles des logiciels et ce, afin de les personnaliser pour être compatibles avec la GeeXboX ou simplement pour leur rajouter des fonctionnalités.<br/>
-* <use name="req-wget"/> : Wget est un utilitaire réseau chargé de rappatrier des fichiers depuis Internet en utilisant les protocoles HTTP et FTP, les 2 plus couramment utilisés.<br/>
-* <use name="req-nasm"/> : C'est un assembleur de code x86, permettant de générer des fichiers binaires de type a.out, COFF et des fichiers objets Unix ELF, ainsi que des binaires Microsoft 16-bit pour DOS et Win32. Il sera utilisé pour bâtir la uClibc de la GeeXboX.<br/>
-* <use name="req-mkisofs"/> : Génère des images ISO-9660 (système de fichier des CD-ROM).<br/>
-* <use name="req-mkzftree"/> : ce programme est disponible dans le paquetage zisofs-tools et permet des créer des images iso compressées.<br/>
+        Ceci n'est nÃ©cessaire que dans le cas oÃ¹ vous souhaiteriez construire ou personnaliser votre propre version de la GeeXboX. Avant toute chose, il vous faut savoir que la construction nÃ©cessite d'Ãªtre faite sous un systÃ¨me GNU/Linux. De plus, certains paquetages sont requis, tels que : <br/><br/>
+* <use name="req-gcc"/> : Le Compilateur GNU, utilisÃ© pour construire l'intÃ©gralitÃ© du projet. Veuillez Ã©viter d'utiliser la version 2.96 (disponible sur les anciennes versions des distributions Redhat et Mandrake) en raison de sa non compatibilitÃ© rÃ©elle avec MPlayer.<br/>
+* <use name="req-make"/> : GNU Make est un programme qui dÃ©termine quels parties d'un logiciel nÃ©cessitent rÃ©ellement d'Ãªtres reconstruites.<br/>
+* <use name="req-patch"/> : ce paquetage est utilisÃ© pour effectuer des modifications aux sources officielles des logiciels et ce, afin de les personnaliser pour Ãªtre compatibles avec la GeeXboX ou simplement pour leur rajouter des fonctionnalitÃ©s.<br/>
+* <use name="req-wget"/> : Wget est un utilitaire rÃ©seau chargÃ© de rappatrier des fichiers depuis Internet en utilisant les protocoles HTTP et FTP, les 2 plus couramment utilisÃ©s.<br/>
+* <use name="req-nasm"/> : C'est un assembleur de code x86, permettant de gÃ©nÃ©rer des fichiers binaires de type a.out, COFF et des fichiers objets Unix ELF, ainsi que des binaires Microsoft 16-bit pour DOS et Win32. Il sera utilisÃ© pour bÃ¢tir la uClibc de la GeeXboX.<br/>
+* <use name="req-mkisofs"/> : GÃ©nÃ¨re des images ISO-9660 (systÃ¨me de fichier des CD-ROM).<br/>
+* <use name="req-mkzftree"/> : ce programme est disponible dans le paquetage zisofs-tools et permet des crÃ©er des images iso compressÃ©es.<br/>
 * <use name="req-cdrecord"/> : Un logiciel de gravure de CD en ligne de commande.<br/><br/>
 
           Vous devez en outre disposer d'un minimum de 1.2 Go d'espace disque disponible afin de construire la GeeXboX correctement.<br/><br/>
       </content>
       <content lang="de" title="Software Voraussetzungen">
-        Sie benötigen die folgende Sofware nur, wenn Sie planen, die GeeXboX selbst zu kompilieren oder anzupassen. Dabei gilt, die GeeXboX muss unter GNU/Linux erstellt werden. Zusätzlich benötigen Sie evtl. einige dieser Softwarepakete : <br/><br/>
+        Sie benÃ¶tigen die folgende Sofware nur, wenn Sie planen, die GeeXboX selbst zu kompilieren oder anzupassen. Dabei gilt, die GeeXboX muss unter GNU/Linux erstellt werden. ZusÃ¤tzlich benÃ¶tigen Sie evtl. einige dieser Softwarepakete : <br/><br/>
 * <use name="req-gcc"/> : Die GNU Compiler Collection wird genutzt, um das Projekt zu erstellen. Bitte nutzen Sie nicht die Version 2.96 des GCC (meist auf alten Redhat oder Mandrake Distributionen enthalten), diese ist nicht mit MPlayer kompatibel.<br/>
-* <use name="req-make"/> : GNU Make wird genutzt, um zu bestimmen, welche Teile eines Programmes kompiliert werden müssen und führt dann die entsprechenden Befehle durch.<br/>
-* <use name="req-patch"/> : Dies Programm wird benötigt, um Programme zu "Patchen", damit diese mit GeeXboX funktionieren, oder einfach auch nur, um neue Funktionen zur GeeXboX hinzuzufügen.<br/>
-* <use name="req-wget"/> : Wget ist ein Programm zum Herunterladen von Dateien aus dem Internet über das HTTP oder das FTP Protokoll, den beiden meistverbreiteten im Internet.<br/>
-* <use name="req-nasm"/> : Nasm ist ein "x86 assembler" zur Erstellung von "flat-form" Binärdateien, a.out, COFF und ELF Unix Objektdateien, und auch Microsoft 16-bit DOS und Win32 Objektdateien. Es wird genutzt, um die uClibc der GeeXboX zu kompilieren.<br/>
+* <use name="req-make"/> : GNU Make wird genutzt, um zu bestimmen, welche Teile eines Programmes kompiliert werden mÃ¼ssen und fÃ¼hrt dann die entsprechenden Befehle durch.<br/>
+* <use name="req-patch"/> : Dies Programm wird benÃ¶tigt, um Programme zu "Patchen", damit diese mit GeeXboX funktionieren, oder einfach auch nur, um neue Funktionen zur GeeXboX hinzuzufÃ¼gen.<br/>
+* <use name="req-wget"/> : Wget ist ein Programm zum Herunterladen von Dateien aus dem Internet Ã¼ber das HTTP oder das FTP Protokoll, den beiden meistverbreiteten im Internet.<br/>
+* <use name="req-nasm"/> : Nasm ist ein "x86 assembler" zur Erstellung von "flat-form" BinÃ¤rdateien, a.out, COFF und ELF Unix Objektdateien, und auch Microsoft 16-bit DOS und Win32 Objektdateien. Es wird genutzt, um die uClibc der GeeXboX zu kompilieren.<br/>
 * <use name="req-mkisofs"/> : Erstellt ISO-9660 CD-ROM Dateisystem Images.<br/>
-* <use name="req-mkzftree"/> : Dieses Programm gehört zu den "zisofs-tools" Programmen und hilft Ihnen bei der Erstellung von komprimierten ISO Images.<br/>
+* <use name="req-mkzftree"/> : Dieses Programm gehÃ¶rt zu den "zisofs-tools" Programmen und hilft Ihnen bei der Erstellung von komprimierten ISO Images.<br/>
 * <use name="req-cdrecord"/> : Ein Kommandozeilenprogramm zum Erstellen von CDs.<br/><br/>
 
-          Ausserdem benötigen Sie als Minimum 1.2 GB freien Speicherplatz auf Ihrer Festplatte, um die GeeXboX zu erstellen.<br/><br/>
+          Ausserdem benÃ¶tigen Sie als Minimum 1.2 GB freien Speicherplatz auf Ihrer Festplatte, um die GeeXboX zu erstellen.<br/><br/>
       </content>
     </subsection>
   </section>

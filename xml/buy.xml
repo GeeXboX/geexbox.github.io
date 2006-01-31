@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
@@ -54,45 +54,45 @@ If you want to get an official GeeXboX CD, contribute to the project's developme
       </content>
 
       <content lang="fr" title="Obtenir GeeXboX sur CD">   
-      GeeXboX est un micro-système d'exploitation, conçu pour être le plus petit possible. Néanmoins, les sources permettant de reconstruire son propre OS occupent plus de 100 Mo. Si vous n'êtes pas en moyen de télécharger une telle quantité de données, il est possible d'obtenir un CD de la GeeXboX par voie postale.<br/><br/>
+      GeeXboX est un micro-systÃ¨me d'exploitation, conÃ§u pour Ãªtre le plus petit possible. NÃ©anmoins, les sources permettant de reconstruire son propre OS occupent plus de 100 Mo. Si vous n'Ãªtes pas en moyen de tÃ©lÃ©charger une telle quantitÃ© de donnÃ©es, il est possible d'obtenir un CD de la GeeXboX par voie postale.<br/><br/>
 
-      Nous avons ainsi maintenu un accord avec la société française <use name="ikarios-fr"/>, qui propose à la vente des CD de la GeeXboX. Ces derniers sont proposés au prix attractif de <b>2.99 Euros l'unité</b> et dispose du contenu suivant :<br/>
+      Nous avons ainsi maintenu un accord avec la sociÃ©tÃ© franÃ§aise <use name="ikarios-fr"/>, qui propose Ã  la vente des CD de la GeeXboX. Ces derniers sont proposÃ©s au prix attractif de <b>2.99 Euros l'unitÃ©</b> et dispose du contenu suivant :<br/>
 
 <br/><b>
-- auto-amorçable sur dernière version disponible de la GeeXboX.<br/>
-- l'ensemble des ISO et sources complètes des versions précédentes.<br/>
+- auto-amorÃ§able sur derniÃ¨re version disponible de la GeeXboX.<br/>
+- l'ensemble des ISO et sources complÃ¨tes des versions prÃ©cÃ©dentes.<br/>
 - une copie du site Internet.<br/>
-- un répertoire avec les images des pochettes pour CD.<br/>
+- un rÃ©pertoire avec les images des pochettes pour CD.<br/>
 </b><br/>
 
-Ikarios est une société qui vend, exclusivement par correspondance et depuis 1997, des articles relatifs au logiciel libre/open source (Linux, BSD ...). Une importante part des gains réalisés par Ikarios permettait de régler les factures de la Free Software Foundation, l'un des principaux organismes créés en faveur du logiciel libre.<br/><br/>
+Ikarios est une sociÃ©tÃ© qui vend, exclusivement par correspondance et depuis 1997, des articles relatifs au logiciel libre/open source (Linux, BSD ...). Une importante part des gains rÃ©alisÃ©s par Ikarios permettait de rÃ©gler les factures de la Free Software Foundation, l'un des principaux organismes crÃ©Ã©s en faveur du logiciel libre.<br/><br/>
 
-Un bénéfice de <b>1 Euro est également reversé à l'équipe de développement</b> de la GeeXboX pour chaque CD vendu par Ikarios. De plus, les CD proposés sont pressés (et non gravés dits 'CD-R'), et fournis avec une pochette.<br/><br/>
+Un bÃ©nÃ©fice de <b>1 Euro est Ã©galement reversÃ© Ã  l'Ã©quipe de dÃ©veloppement</b> de la GeeXboX pour chaque CD vendu par Ikarios. De plus, les CD proposÃ©s sont pressÃ©s (et non gravÃ©s dits 'CD-R'), et fournis avec une pochette.<br/><br/>
 
-Si vous souhaitez donc obtenir un CD officiel de la GeeXboX, contribuer à son développement, aider le logiciel libre ou plus simplement si vous n'avez pas la connectivité Internet nécessaire pour vous procurer la GeeXboX, vous pouvez donc passer commande sur la page suivante :<br/><br/>
+Si vous souhaitez donc obtenir un CD officiel de la GeeXboX, contribuer Ã  son dÃ©veloppement, aider le logiciel libre ou plus simplement si vous n'avez pas la connectivitÃ© Internet nÃ©cessaire pour vous procurer la GeeXboX, vous pouvez donc passer commande sur la page suivante :<br/><br/>
 <use name="ikarios-cd-fr"/><br/><br/><br/>
       </content>
 
       <content lang="de" title="GeeXboX CD kaufen">  
-      GeeXboX ist ein Embedded-Micro-System mit dem Ziel, so "klein" wie möglich zu sein. Trotzdem, die Dateien, die benötigt werden, um das Betriebssystem zu erstellen, belegen mehr als 100 MB Speicher auf der Festplatte. Wenn Sie keine Möglichkeit, haben diese Menge an Daten aus dem Internet zu laden, können Sie alternativ eine GeeXboX CD über den Postweg bestellen.<br/><br/>
+      GeeXboX ist ein Embedded-Micro-System mit dem Ziel, so "klein" wie mÃ¶glich zu sein. Trotzdem, die Dateien, die benÃ¶tigt werden, um das Betriebssystem zu erstellen, belegen mehr als 100 MB Speicher auf der Festplatte. Wenn Sie keine MÃ¶glichkeit, haben diese Menge an Daten aus dem Internet zu laden, kÃ¶nnen Sie alternativ eine GeeXboX CD Ã¼ber den Postweg bestellen.<br/><br/>
 
-      Wir haben einen Vertrag mit einem französischen Händler namens <use name="ikarios-de"/>, über den Sie Ihre GeeXboX CD bestellen können. Jede CD kostet einheitlich <b>2.99 Euro pro
-Stück</b> und hat den folgenden Inhalt :<br/>
+      Wir haben einen Vertrag mit einem franzÃ¶sischen HÃ¤ndler namens <use name="ikarios-de"/>, Ã¼ber den Sie Ihre GeeXboX CD bestellen kÃ¶nnen. Jede CD kostet einheitlich <b>2.99 Euro pro
+StÃ¼ck</b> und hat den folgenden Inhalt :<br/>
 
 <br/><b>
 - bootbare Version der aktuellsten GeeXboX Distribution.<br/>
-- alle Quellen und ISOs älterer Versionen.<br/>
+- alle Quellen und ISOs Ã¤lterer Versionen.<br/>
 - aktuelle Kopie der Webseite (Zum Offline-Browsen).<br/>
-- ein Verzeichnis mit Bildern zum Erstellen von CD-Hüllen.<br/>
+- ein Verzeichnis mit Bildern zum Erstellen von CD-HÃ¼llen.<br/>
 </b><br/>
 
-Als Firma unterstützt IKARIOS die Verbreitung freier Software durch hochwertige Produkte zu 
+Als Firma unterstÃ¼tzt IKARIOS die Verbreitung freier Software durch hochwertige Produkte zu 
 Niedrigstpreisen, freie Informationen und Geldspenden an die Welt der freien Software.
-Ein nicht unerheblicher Teil des Einkommens wird an die Free Software Foundation (FSF) geleitet, eine der größten Organisationen zur Förderung von Open-Source-Software.<br/><br/>
+Ein nicht unerheblicher Teil des Einkommens wird an die Free Software Foundation (FSF) geleitet, eine der grÃ¶ÃŸten Organisationen zur FÃ¶rderung von Open-Source-Software.<br/><br/>
 
-Für jede verkaufte CD erhält das GeeXboX-Entwicklerteam <b>eine Gutschrift über 1 Euro.</b>. Diese CDs sind nicht etwa "gebrannt" wie herkömmliche CDRs, sondern professionell "gepresst" und werden inkl. Hülle verkauft.<br/><br/>
+FÃ¼r jede verkaufte CD erhÃ¤lt das GeeXboX-Entwicklerteam <b>eine Gutschrift Ã¼ber 1 Euro.</b>. Diese CDs sind nicht etwa "gebrannt" wie herkÃ¶mmliche CDRs, sondern professionell "gepresst" und werden inkl. HÃ¼lle verkauft.<br/><br/>
 
-Wenn Sie eine offizielle GeeXboX CD erwerben möchten, das Entwicklerteam unterstützen, Freier-Software helfen, oder einfach keinen Zugang zu einer schnellen Internetverbindung haben, können Sie die CD auf folgender Seite bestellen :<br/><br/>
+Wenn Sie eine offizielle GeeXboX CD erwerben mÃ¶chten, das Entwicklerteam unterstÃ¼tzen, Freier-Software helfen, oder einfach keinen Zugang zu einer schnellen Internetverbindung haben, kÃ¶nnen Sie die CD auf folgender Seite bestellen :<br/><br/>
 <use name="ikarios-cd-de"/><br/><br/><br/>
       </content>
 

@@ -3,10 +3,7 @@ function getElement (id)
   if (!document.getElementById)
     return;
 
-  if (document.all)
-    return eval ("document.all." + id)
-  else
-    return document.getElementById (id)
+  return document.getElementById (id)
 }
 
 function DisplayS (id)

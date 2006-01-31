@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:output method="xml" encoding="iso-8859-1"
+<xsl:output method="xml" encoding="UTF-8"
             doctype-public="-//W3C//DTD XHTML 1.1//EN"
             doctype-system="http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"
             indent="yes"/>
@@ -11,9 +11,12 @@
 
 <xsl:template match="/article">
 
-  <html>
+  <xsl:element name="html">
+    <xsl:attribute name="xmlns">http://www.w3.org/1999/xhtml</xsl:attribute>
+    <xsl:attribute name="xml:lang"><xsl:value-of select="$lang"/></xsl:attribute>
+
     <xsl:comment>
-      This web site is (c) 2003 Zores Benjamin
+      This web site is (c) 2003-2006 Zores Benjamin
       HomePage for the GeeXboX Project (http://www.geexbox.org/)
       Feel free to get inspiration from this site, as long as you leave
       this comment here.
@@ -26,14 +29,14 @@
     <head>
       <title>GeeXboX HomePage</title>
       <meta http-equiv="Content-language" content="en"/>
-      <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1"/>
+      <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/>
       <meta name="description" content="GeeXboX Homepage : a free software media center for Linux"/>
       <meta name="dc.description" content="GeeXboX Homepage : a free software media center for Linux"/>
       <meta name="dc.subject" content="GeeXboX Homepage : a free software media center for Linux"/>
       <meta name="dc.title" content="GeeXboX Homepage"/>
       <meta name="author" content="Aurelien Jacobs, Benjamin Zores"/>
       <meta name="robots" content="index, follow"/>
-      <meta name="keywords" content="computer, OS, Linux, distribution, embedded, multimedia, HTPC, home, theater, LiveCD, movie, audio, video, media, center, MPlayer, standalone, player, free, software, open, source, mpeg, mp3, divx, xvid, matroska, ogg, vorbis, AC3, DTS, VCD, DVD, CD, TV, tuner, TVOut, ATI, nVidia, DXR3, WiFi, PC, computer, buysbox, uClibc, geexbox, geexbox.org"/>
+      <meta name="keywords" content="computer, OS, Linux, distribution, embedded, multimedia, HTPC, home, theater, LiveCD, movie, audio, video, media, center, MPlayer, standalone, player, free, software, open, source, mpeg, mp3, divx, xvid, matroska, ogg, vorbis, AC3, DTS, VCD, DVD, CD, TV, tuner, TVOut, ATI, nVidia, DXR3, WiFi, PC, buysbox, uClibc, geexbox, geexbox.org"/>
       <xsl:element name="link">
         <xsl:attribute name="rel">alternate</xsl:attribute>
         <xsl:attribute name="type">application/atom+xml</xsl:attribute>
@@ -64,7 +67,7 @@
 
       </div>
     </body>
-  </html>
+  </xsl:element>
 
 </xsl:template>
 
@@ -113,7 +116,7 @@
     <xsl:if test="@date">
       <xsl:choose>
         <xsl:when test="$lang='en'">
-          (<xsl:value-of select="substring(@date,5,2)"/>/<xsl:value-of select="substring(@date,9,2)"/>/<xsl:value-of select="substring(@date,1,4)"/>)
+          (<xsl:value-of select="substring(@date,6,2)"/>/<xsl:value-of select="substring(@date,9,2)"/>/<xsl:value-of select="substring(@date,1,4)"/>)
         </xsl:when>
         <xsl:when test="$lang='fr'">
           (<xsl:value-of select="substring(@date,9,2)"/>/<xsl:value-of select="substring(@date,6,2)"/>/<xsl:value-of select="substring(@date,1,4)"/>)
@@ -136,16 +139,16 @@
 </xsl:template>
 
 <xsl:template match="description">
-  <div id="dldesc">
-    <div id="dldescicon">
+  <div class="dldesc">
+    <div class="dldescicon">
       <xsl:element name="img">
         <xsl:attribute name="src">
           <xsl:value-of select="@img"/>
         </xsl:attribute>
-        <xsl:attribute name="border">0</xsl:attribute>
+        <xsl:attribute name="alt">illustration of this download section</xsl:attribute>
       </xsl:element>
      </div>
-     <div id="dldesctext">
+     <div class="dldesctext">
        <xsl:apply-templates select="./node()"/>
      </div>
    </div>
@@ -248,8 +251,8 @@
       <xsl:if test="./src-type"><xsl:value-of select="./src-type"/>.</xsl:if>
       <xsl:value-of select="$type"/>
     </xsl:variable>
-    <div id="download">
-      <div id="dlplusminus">
+    <div class="download">
+      <div class="dlplusminus">
         <xsl:element name="a">
           <xsl:attribute name="id">plus.<xsl:value-of select="$id"/></xsl:attribute>
           <xsl:attribute name="href">javascript:toggle('<xsl:value-of select="$id"/>','plus.<xsl:value-of select="$id"/>','minus.<xsl:value-of select="$id"/>')</xsl:attribute>
@@ -258,7 +261,6 @@
               <xsl:value-of select="$plus"/>
             </xsl:attribute>
             <xsl:attribute name="alt">plus</xsl:attribute>
-            <xsl:attribute name="border">0</xsl:attribute>
           </xsl:element>
         </xsl:element>
 
@@ -271,11 +273,10 @@
               <xsl:value-of select="$minus"/>
             </xsl:attribute>
             <xsl:attribute name="alt">minus</xsl:attribute>
-            <xsl:attribute name="border">0</xsl:attribute>
           </xsl:element> 
         </xsl:element>
       </div>
-      <div id="dlfile">
+      <div class="dlfile">
         <b>
           <xsl:apply-templates select="$title/node()">
             <xsl:with-param name="version" select="$version"/>
@@ -310,10 +311,10 @@
   <xsl:param name="full"/>
   <xsl:variable name="mirrors" select="document('mirrors.xml')/mirrors"/>
 
-  <div id="dltable">
+  <div class="dltable">
     <xsl:for-each select="$mirrors/mirror[not($full) or $full != 'yes' or not(@partial) or @partial != 'yes']">
       <div>
-        <xsl:attribute name="id">row<xsl:value-of select="(position()+1) mod 2"/></xsl:attribute>
+        <xsl:attribute name="class">row<xsl:value-of select="(position()+1) mod 2"/></xsl:attribute>
         <xsl:element name="img">
           <xsl:attribute name="src">../img/flag-<xsl:value-of select="./country"/>.png</xsl:attribute>
           <xsl:attribute name="alt"><xsl:value-of select="./country"/></xsl:attribute>
@@ -451,9 +452,26 @@
 <xsl:template name="ours">
   <div id="ours">
     <xsl:apply-templates select="document('ours.xml')/ours/content[@lang=$lang]/node()"/>
+    <xsl:call-template name="atom"/>
   </div>
 </xsl:template>
 
+<xsl:template name="atom">
+  &#160;
+  <xsl:variable name="atom" select="document('atom.xml')/atom"/>
+  <xsl:element name="a">
+    <xsl:attribute name="href">http://geexbox.org/<xsl:value-of select="$lang"/>/news.xml</xsl:attribute>
+      <xsl:attribute name="title">
+        <xsl:value-of select="$atom/langs/text[@lang=$lang]"/>
+      </xsl:attribute>
+    <xsl:element name="img">
+      <xsl:attribute name="src"><xsl:value-of select="$atom/logo/@src"/></xsl:attribute>
+      <xsl:attribute name="alt"><xsl:value-of select="$atom/logo/@alt"/></xsl:attribute>
+      <xsl:attribute name="width"><xsl:value-of select="$atom/logo/@width"/></xsl:attribute>
+      <xsl:attribute name="heigth"><xsl:value-of select="$atom/logo/@heigth"/></xsl:attribute>
+    </xsl:element>
+  </xsl:element>
+</xsl:template>
 
 <xsl:template match="webmaster">
   <a href="mailto:webmaster@geexbox.org">Webmaster</a>
