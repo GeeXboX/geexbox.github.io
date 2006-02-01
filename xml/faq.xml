@@ -258,10 +258,10 @@
       <content lang="fr" title="Ma carte graphique Matrox ne semble pas accepter les vidéos en haute résolution ...">
         Il s'agit malheureusement là d'un bug connu rencontré sous GeeXboX avec des cartes de marque Matrox. Ces dernières semblent en effet incapables de comprendre un signal vidéo dont la largeur dépasse 1024 pixels de long.
       </content>
-    </subsection>
       <content lang="de" title="Darstellungsfehler von Matrox Karten in hoher Auflösung ...">
 	Matrox Karten scheinen keine Videos in Auflösungen größer als 1024 richtig darzustellen.
       </content>
+    </subsection>
 
     <subsection label="dxr3">
       <content lang="en" title="How can I use my DXR3/Hollywood+ card ?">

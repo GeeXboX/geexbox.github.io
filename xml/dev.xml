@@ -79,7 +79,7 @@ Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Archiv zu geben. Damit 
 <b>* <use name="ct-tla-register"/></b><i> - Um das GeeXboX Archiv zu registrieren.</i><br/>
 <b>* <use name="ct-tla-get"/></b><i> - Um alle Dateien des GeeXBox Archives herunter zu laden.</i><br/>
 <b>* <use name="ct-tla-update"/></b><i> - Um Ihre lokale Kopie mit unserem Server zu synchronisieren.</i><br/>
-         
+<br/>         
           Bitte lesen Sie im GeeXboX <use name="wiki-url"/> Entwickler Bereich nach, um die Internas zu verstehen. Dort wird erklärt wie Sie Fehler melden, neue Paketei, eine neue Fernbedienung oder Patches hinzufügen können.<br/>
       </content>
 

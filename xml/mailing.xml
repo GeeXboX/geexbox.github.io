@@ -84,5 +84,27 @@
     A chaque fois qu'un patch est validé sur l'une des branches de développement du projet GeeXboX, une copie de ce dernier est envoyé vers cette liste afin que les autres développeurs ou personnes ayant souscrits à cette liste puissent le revoir, exprimer leur avis, ou simplement être notifiés de son existence. Toute personne est invitée à faire des commentaires sur un patch qui pourrait bloquer ou désactiver une fonctionnalité qui jusqu'alors fonctionnait parfaitement.
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </content>
+     <content lang="de" title="GeeXboX Mailing Listen">
+    Es gibt öffentliche GeeXboX Entwicklungs und Nutzerunterstützungs Mailing Listen. Aufgrund des Spam Problems können Sie jedoch nur bei einigen Listen nach der Anmeldung posten. Als Grundregeln seien festgehalten auf HTML Mails, Top-Postings und nicht dazugehörige Mails als Antowrt auf bestehende Mails zu verzichten. Wenn alle nach diesen Regeln spielen, macht es denen die diese Mails lesen das Lesen wesentlich einfacher und es erhöht die Chance eine Antwort auf Ihre Frage zu bekommen. Solange nicht gesondert angegeben ist die normaler Sprache in allen Listen ausschließlich <b>Englisch</b>. Sollten Sie eine sehr große Datei als Anhang senden und diese Mail wird abgewiesen, so stellen Sie den Anhang bitte irgendwo zum herunterladen bereit.<br/>
+    <br/>
+    Sie können nur mit der Mail Adresse die Sie bei der Anmeldung genutzt haben an diese Listen schreiben.<br/>
+    <br/>
+    <b><u>Für Nutzer :</u></b><br/>
+    <br/>
+    * <b>GeeXboX-News</b> : <use name="news-subscribe"/> - <use name="news-archives"/><br/>
+    Diese Liste kann nur gelesen werden. Es ist eine Liste die von den Entwicklern genutzt wird um Sie über Neuentwicklungen oder neue GeeXboX Versionen zu informieren. Sie können nicht an diese Liste schreiben.<br/>
+    <br/>
+    * <b>GeeXboX-Users</b> : <use name="users-subscribe"/> - <use name="users-archives"/> - <use name="users-mail"/><br/>
+    Diese Liste stellt Nutzerunterstützung im Bereich GeeXboX Nutzen, Konfiguration, Installation und so weiter bereit. Alle nutzungsspezifischen Fragen gehören in diese Liste. Jeder (angemeldet oder nicht) darf an diese Liste schreiben (in englisch oder französisch).<br/>
+    <br/>
+    <b><u>Für Entwickler :</u></b><br/>
+    <br/>
+    * <b>GeeXboX-Devel</b> : <use name="devel-subscribe"/> - <use name="devel-archives"/> - <use name="devel-mail"/><br/>
+    Diese Liste ist für alle GeeXboX Entwicklungs Fragen und Angelegenheiten. Hier wird über die Zukunft von GeeXboX entschieden. Es ist der pefekte Platz um sich über die GeeXboX Internas zu informieren und um neue Patches zu mailen. Diese Liste ist keine Liste um neue Funktionen anzufordern oder Fehler zu melden.<br/>
+    <br/>
+    * <b>GeeXboX-Commits</b> : <use name="commits-subscribe"/> - <use name="commits-archives"/> - <use name="commits-mail"/><br/>
+    Jedesmal wenn ein neuer Patch für eine GeeXboX Komponente verfügbar ist, wird dieser an diese Liste gesendet. So kann jeder Angemeldete und Entwickle diesen Patch testen. Jeder ist eingeladen Kommentare zu den Patches abzugeben.
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    </content>
   </section>
 </article>

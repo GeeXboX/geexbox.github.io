@@ -49,14 +49,10 @@
         <b>Contributeurs occasionnels :</b> <use name="author-contrib"/>
       </content>
       <content lang="de" title="Autoren ...">
-        <b>Hauptentwickler :</b><br/><br/>
-        <use name="author-core"/><br/>
-        <b>Entwickler :</b><br/><br/>
-        <use name="author-dev"/><br/>
-        <b>Designer :</b><br/><br/>
-        <use name="author-design"/><br/>
-        <b>Unterstützer :</b><br/><br/>
-        <use name="author-contrib"/>
+        <b>Hauptentwickler :</b> <use name="author-core"/><br/>
+        <b>Entwickler :</b> <use name="author-dev"/><br/>
+        <b>Designer :</b> <use name="author-design"/><br/>
+        <b>Unterstützer :</b> <use name="author-contrib"/>
       </content>
     </subsection>
 

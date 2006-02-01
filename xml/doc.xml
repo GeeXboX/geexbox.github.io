@@ -141,6 +141,7 @@
         <a href="#dvb_cards">Support des cartes DVB ...</a><br/>
       </content>
       <content lang="de" title="Dokument Liste ...">
+        <a href="#wiki">GeeXboX Wiki Dokumentation ...</a><br/>
         <a href="#osd_menu">Benutzen des OSD Menüs ...</a><br/>
         <a href="#remote-scheme">Eine unterstützte Fernbedienung verwenden ...</a><br/>
         <a href="#mac-boot">Starten auf dem Mac ...</a><br/>
@@ -172,6 +173,13 @@
         Le <use name="wiki-url"/> GeeXboX propose également une section pour dévelppeurs qui a pour but d'aider ceux qui désireraient ajouter de nouvelles fonctionnalités à leur système, expliquant également la procédure de création de patchs ainsi que la meilleure manière d'aider l'équipe de développement.<br/>
         <br/>
         Comme tout Wiki sur Internet, son contenu ne dépend que des utilisateurs qui voudront bien le remplir. Stockez-y et partagez-y votre savoir.
+      </content>
+      <content lang="de" title="GeeXboX Wiki Dokumentation ...">
+        Das GeeXboX Team stellt Ihnen ein Wiki Systen zur Vefügung um Ihnen bei der Nutzung der GeeXboX Distribution zu helfen. Das eigentliche Ziel des Wiki Systems ist es Neueinsteigern die nötige Hilfe zu geben, um GeeXboX nutzen zu können. Im Wiki System können Sie viele Tips für die Optimierung des GeeXboX Systems, spezielle Konfigurationsanpassungen und alles zur Hardware erfahren.<br/>
+        <br/>
+        Das GeeXboX <use name="wiki-url"/> System beinhaltet zudem ein Bereich für Entwickler, welches Hilfe für alle diejenigen bietet, die neue Pakete der Distribution hinzufügen, Patches erstellen wollen oder dem Hauptentwicklerteam mit der Entwicklung helfen wollen.<br/>
+        <br/>
+        Wie jedes Wiki System hängt die Güte von den Nutzern ab. Also sichern und teilen Sie Ihr Wissen.
       </content>
     </subsection>
 
