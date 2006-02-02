@@ -156,6 +156,9 @@
         <a href="#wifi">WiFi Konfiguration ...</a><br/>
         <a href="#gateway">Nutzen eines Gateways, um Streams aus dem Internet abzuspielen ...</a><br/>
         <a href="#pxe">Booten mittels PXE über NFS Freigaben ...</a><br/>
+        <a href="#firmware_loader">Firmware auto-loader ...</a><br/>
+        <a href="#upnp_share">UPnP Datei Freigabe ...</a><br/>
+        <a href="#dvb_cards">DVB Karten Unterstuetzung ...</a><br/>
       </content>
     </subsection>
 
@@ -1237,6 +1240,15 @@ Starten Sie nun den Geexbox Computer und alles sollte wie gewünscht funktionier
       <br/>
       Veuillez noter que vous pouvez également utiliser le générateur d'ISO de la GeeXboX qui vous permettra de récupérer les firmwares pour vous. Vous pouvez l'utiliser pour sélectionner tous les fichiers de firmware que vous souhaiter et le générateur les téléchargera et ajoutera pour vous. Assurez vous juste de disposer d'une connexion à Internet lors de l'utilisation du générateur.<br/>
       </content>
+      <content lang="de" title="Firmware auto-loader ...">
+      GeeXboX unterstuetzt viele Treiber nur benoetigen einige dieser Treiber eine zusaetzliche proprietaere Firmware (nicht frei verfuegbar und deshalb nicht Teil des GeeXboX ISO Systems) um einwandfrei zu funktionieren. Diese Firmware ist eine binaere Datei die auf die entprechende Hardware gealden wird sobald der Treiber initialisiert wird. Fuer jeden Treiber muss eine spezielle Firmwaredatei mit einem bekannten Namen vorliegen.<br/>
+      <br/>
+      Falls Sie Hardware besitzen die so eine zusaetzliche Firmware benoetigt (in den meisten Faellen sind dies WiFi oder DVB Karten) muessen Sie im Internet nach der Linux Treiber Seite suchen um die Firmware zu erhalten. Meist bekommen Sie es durch einen direkten Downloadverweis. Manchmal muessen Sie es aus Ihren Windowstreiber extrahieren.<br/>
+      <br/>
+      Wenn Sie die Firmware Datei haben, kopieren Sie diese einfach in das <b>/firmwares</b> Verzeichnis. Sie koennen hier so viele Firmware Dateien ablegen wie Sie wollen. GeeXboX findet diese automatisch und nutzt sie mit den richtigen Treibern. Die einzige Sache auf die Sie acht geben muessen ist, das sie funktionierende Firmware Dateien haben und ein neues ISO erzeugen muessen.<br/>
+      <br/>
+      Bitte beachten Sie, dass Sie auch den GeeXboX ISO Generator nutzen koennen um die Firmware Dateien herunterzuladen. Sie koennen einfach alle Firmware Dateien die Sie benoetigen auswaehlen, der Generator fuegt Sie automatisch fuer Sie hinzu. Hierfuer ist natuerlich eine Vebindung mit dem Internet Voraussetzung.<br/>
+      </content>
     </subsection>
 
     <subsection label="upnp_share">
@@ -1253,6 +1265,13 @@ Starten Sie nun den Geexbox Computer und alles sollte wie gewünscht funktionier
       La GeeXboX embarque un logiciel de contrôle UPnP (UPnP Control Point) qui permet l'auto-découverte de tous les périphériques de type Media Server de votre réseau local et qui s'occupe de monter leur contenu en toute transparence dans un point de montage dédié (<i>/mnt/UPnP</i>).<br/>
       <br/>
       De cette manière, il vous suffit de disposer d'un PC ou autre périphérique possédant un logiciel compatible avec le profile UPnP Media Server pour que son contenu soit accessible depuis la GeeXboX. Pour plus d'infos sur l'UPnP ainsi que l'utilsiation de quelques serveurs, veuillez vous référer à la page <use name="wiki-upnp"/>.<br/>
+      </content>
+      <content lang="de" title="UPnP Datei Freigabe ...">
+      UPnP steht fuer Universelles Plug und Play und stellt ein Netzwerk Protokoll da, es ermoeglicht das automatische Finden von Geraeten und Diensten innerhalb Ihres Netzwerkes. Die UPnP A/V Norm (fuer Audio/Video) definiert verschiedene Profile fuer Geraete um das Verteilen und Abspielen von Multimedia Dateien so einfach wie moeglich zu machen. Die UPnP Media Server Profile definieren alle Geraete die Dateien und Dienste freigegeben haben.<br/>
+      <br/>
+      GeeXboX enthaelt eine UPnP Kontroll Punkt Software die es ermoeglicht alle UPnP Media Server inerhalb Ihres Netzwerkes automatisch zu finden und deren Dateien direkt unter einen speziellen Mount Punkt abzulegen (<i>/mnt/UPnP</i>).<br/>
+      <br/>
+      So koenne Sie ganz einfach mit einem kompatiblen UPnP Media Server Ihre Dateien freigeben und GeeXboX kann automatisch auf diese zugreifen. Fuer mehr Informationen ueber UPnP und ueber die Nutzung des Media Servers, gehen Sie doch bitte auf unsere <use name="wiki-upnp"/> Seite.<br/> 
       </content>
     </subsection>
 
@@ -1341,6 +1360,47 @@ Starten Sie nun den Geexbox Computer und alles sollte wie gewünscht funktionier
       <b>- utiliser l'installator</b> : il s'agit probablement là de la méthode la plus simple mais recquiert une installation sur disque de la GeeXboX. Au cours du processus d'installation, si un périphérique compatible DVB est reconnu sur votre système, le script d'installation vous demandera de lui-même si vous souhaitez rechercher les chaînes disponibles pour votre carte DVB.<br/>
       <br/>
       L'installator contient la liste complète des fréquences des transpondeurs du site LinuxTV. De ce fait, vous n'aurez qu'à sélectionner votre type de carte ainsi que le transpondeur à utiliser et la GeeXboX s'occupera de scanner le tout et de générer le fichier <i>/etc/mplayer/channels.conf</i> adéquat.
+      </content>
+      <content lang="de" title="DVB karten Unterstuetzung ...">
+      GeeXboX unterstuetzt verschiedene Typen von DVB Karten(terrestrisch, Kabel, ATSC und Satellit) entweder als PCI oder USB VErsion. Derzeit ist jedoch nur immer ein DVB Adapter zur ZEit nutzbar.<br/>
+      <br/>
+      Einige DVB Geraete (speziell USB Versionen) benoetigen eine externe proprietaere Firmware die mit dem Trieber geladen werden muss. Sie koennen unter <use name="wiki-linuxtv"/> nachsehen, ob und wenn ja welche Firmware Ihre Karte benoetigt.<br/>
+      <br/>
+      Einige Firmware Dateien koennen direkt von der <use name="linuxtv-firmware"/> Seite heruntergeladen werden, falls nicht sind die vielleicht in den WIndows Treiber Archiven enthalten. Bitte lesen Sie in der GeeXboX Firmware Loader Dokumentation nach, wie diese geladen werden.<br/>
+      <br/>
+      Fuer jede Karte ist die Liste aller Kanaele durch das MPlayer open Menue zugaenglich. Leider gibt es derzeit noch keine Funktion diese Kanaele automatisch zu finden.<br/>
+      <br/>
+      Das Hinzufuegen von DVB Kanaelen zu GeeXboX kann auf verschiedene Weise geschehen :<br/>
+      <br/>
+      <b>- Nutzung einer existierenden Kanal-Liste:</b> : MPlayer benoetigt eine funktionierende <i>channels.conf</i> Datei um DVB zu nutzen. Diese Datei kann durch ein Tool welches im <i>dvb-apps</i> Paket enthalten ist erstellt werden. Benutzen Sie einen Linux Rechner mit DVB Karte, laden Sie sich das <use name="linuxtv-dvb-apps"/> Archiv herunter, compilieren es und erstellen die Konfigurationsdatei mit Hilfe des <b>scan</b> Tools im <b>zap</b> FOrmat (standard ab dvb-apps Version 1.1.0). Als Beispiel fuer eine DVB-S (Satellit) Karte mit <i>Astra-19.2E</i>:<br/>
+      <br/>
+      <b>
+      wget http://www.linuxtv.org/download/dvb/linuxtv-dvb-apps-1.1.0.tar.bz2<br/>
+      tar jxvf linuxtv-dvb-apps-1.1.0.tar.bz2<br/>
+      cd linuxtv-dvb-apps-1.1.0/util/scan<br/>
+      make<br/>
+      ./scan -x 0 dvb-s/Astra-19.2E > channels.conf<br/>
+      </b>
+      <br/>
+      Die <b>-x 0</b> Option laesst das Programm nur nach Free To Air (frei verfuegbaere Programme) suchen. Bitte nutzen Sie immer diese Option, da MPlayer keine verschluesselten DVB Kanaele unterstuetzt.<br/>
+      <br/>
+      Je nach benutztem Typ von DVB Karte waehlen Sie eine Datei aus den <b>dvb-s</b>, <b>dvb-c</b>, <b>dvb-t</b> oder <b>atsc</b> Verzeichnissen aus und bestaetigen das Sie nach neuen Kanaelen suchen wollen.<br/>
+      <br/>
+      Kopieren Sie einfach die channels.conf Datei, die Sie soeben erstellt haben, in das <i>/etc/mplayer</i> Verzeichnis unterhalb des GeeXboX Generator Verzeichnisses und erstellen ein neues ISO.<br/>
+      <br/>
+      <b>- Nutzung einer existierenden Transponder Liste</b> : Die Prozedur ist der vorhergegangenen sehr aehnlich nur ohne den Scan. Hier wird der Scan beim Start von GeeXboX ausgefuehrt, Sie benoetigen also keinen extra Linux Rechner mehr um die <i>channels.conf</i> Datei zu erstellen.<br/>
+      <br/>
+      Schauen Sie einfach bei <use name="linuxtv-cvs"/> nach.<br/>
+      <br/>
+      Je nach verwendetem DVB Karten Typ (S/T/C/ATSC) schauen Sie in das richtige Verzeichnis und laden sich die Transponder Liste die Sie benoetigen herunter. Danach muessen Sie diese Datei in <i>dvb.conf</i> umbenennen und in das <i>/etc</i> Verzeichnis kopieren. Jetzt nur noch ein neues ISO mit dem Generator erzeugen.<br/>
+      <br/>
+      Wenn GeeXboX beim Starten eine gueltige Transponder Liste in <i>/etc/dvb.conf</i> vorfindet, wird nun nach den DVB Kanaelen gesucht und die <i>/etc/mplayer/channels.conf</i> Datei automatisch erstellt.<br/>
+      <br/>
+      <b>WARNUNG</b> : Der Suchlauf kann sehr langsam sein je nach Anzahl der Geraete und wird bei jedem Start von GeeXbox ausgefuehrt, wenn Sie es als LiveCD nutzen. Es wird empfohlen den Suchlauf nur einmalig durchzufuehren und dann die erstellte <i>/etc/mplayer/channels.conf</i> Datei zu kopieren und dann das ISO neuzuerstellen oder GeeXboX auf Festplatte zu installieren.<br/>
+      <br/>
+      <b>- Nutzung des Intallationstools</b> : Dies ist die einfachste Art und Weise aber hierfuer muessen Sie GeeXboX auf Festplatte installieren, Waehrend des Installationsablaufes werden Sie, falls ein DVB Geraet gefunden wurde, gefragt, ob Sie einen Suchlauf starten moechten.<br/>
+      <br/>
+      Das Installationstool beinhaltet eine komplette Liste aller Transponder Frequenzen. Sie muessen nur Ihren Typ von DVB Karte und die geuenschte Transponder Liste auswaehlen. Die <i>channels.conf</i> datei wird dann automatisch erstellt.<br/>
       </content>
     </subsection>
 

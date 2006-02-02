@@ -82,7 +82,8 @@
       </content>
       <content lang="de" title="FAQ Liste ...">
         <a href="#burning">Wie brenne ich ein Image ?</a><br/>
-        <a href="#generator">Wie erstelle ich ein eigenes ISO Image?</a><br/>
+        <a href="#generator">Wie erstelle ich ein eigenes ISO Image ?</a><br/>
+        <a href="#ftp">Wie kann ich Dateien auf GeeXboX kopieren ?</a><br/>
         <a href="#display">Wie kann ich meine Display-Ausgabe optimal konfigurieren ?</a><br/>
         <a href="#disable_vidix">Wie kann ich VidiX deaktivieren ?</a><br/>
         <a href="#nvidia_vidix">Wie kann ich VidiX für nVidia Karten aktivieren ?</a><br/>
@@ -152,6 +153,10 @@
       </content>
       <content lang="fr" title="Comment rajouter des fichiers multimédias sur ma GeeXboX distante ?">
         Si vous utilisez votre GeeXboX comme PC dédié au sein de votre réseau personnel, il vous est possible d'y copier des fichiers depuis votre ordinateur principal. Comme la GeeXboX ne dispose pas de serveur Samba, elle n'est pas directement accessible via les classiques <i>"partages Windows"</i>. Néanmoins, il est possible d'accéder à ses disques durs distants depuis n'importe quel client FTPFTP.<br/>Connectez vous simplement en FTP à l'addresse IP de la GeeXboX en mode anonyme (pas d'identifiant ni de mot de passe). Soyiez conscients que la GeeXboX partage son système de fichier en lecture seule uniquement et que donc, tout ce que vous pourrez copier dans le répertoire racine ne sera en fait que copié en mémoire (RAM). Si vous souhaitez conservez les fichiers copiés sur un disque dur, pensez à les copier plutôt dans le répertoire <i>"/mnt/disk X part X"</i>.<br/><br/> Il existe également pour les utilisateurs de Windows un utilitaire qui vous permet de déclarer un serveur FTP comme un disque dur local et qui se nomme <use name="WebDrive"/>. Il vous est également possible d'utiliser directement l'assistant d'<i>Ajout de voisinnage réseau</i> de Windows pour vous permettre d'explorer un contenu FTP au travers de l'option "Mon voisinnage réseau" de l'explorateur de fichiers.
+      </content>
+      <content lang="de" title="Wie kann ich Dateien auf meine GeeXboX kopieren ?">
+        Falls Sie GeeXbox als dediziertes Media Center innerhalb Ihres Netzwerkes nutzen, koennen Sie Dateien von Ihrem normalen Computer kopieren. Da auf der GeeXboX kein Samba Server laeuft, kann es nicht als Netzwerklaufwerk unter Windows eingebunden werden. Aber Sie koennen auf die GeeXboX Festplatten mit jeder FTP-Software zugreifen.<br/>
+        Verbinden Sie sich einfach durch ein FTP-Programm mit der GeeXboX IP: es existiert kein Nutzername oder Passwort (nur anonymous). Bitte seien Sie sich bewusst dass GeeXbox die Festplatte nur zum lesen eingebunden hat. Ihre kopierten Dateien werden also nur im RAM-Speicher abgelegt nicht aber auf der Festplatte. Wenn Sie Dateien auf die Festplatte kopieren wollen, kopieren Sie diese bitte ind das <i>"/mnt/disk X part X"</i> Verzeichnis.<br/><br/>Es gibt ein Windows Programm dass FTP-Verbindungen als lokale Laufwerke einbindet, dieses Programm nennt sich <use name="WebDrive"/>. Sie koennen aber auch direkt mit dem Windows <i>Netzwerk Laufwerk hinzufuegen</i> Hilfsprogramm die FTP-Verbindung einrichten, diese wird dann unter "Meine Netzwerk Verbindungen" im Explorer angezeigt.        
       </content>
     </subsection>
 

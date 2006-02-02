@@ -49,6 +49,8 @@
         <b>Contributeurs occasionnels :</b> <use name="author-contrib"/>
       </content>
       <content lang="de" title="Autoren ...">
+        Die Personen die hier gelistet sind, sind order waren beteiligt an der Entwicklung von GeeXboX. Vielen Dank an alle hier.<br/>
+        <br/>
         <b>Hauptentwickler :</b> <use name="author-core"/><br/>
         <b>Entwickler :</b> <use name="author-dev"/><br/>
         <b>Designer :</b> <use name="author-design"/><br/>
