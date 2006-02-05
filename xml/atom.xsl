@@ -7,7 +7,6 @@
             doctype-public="" doctype-system=""
             indent="yes"/>
 
-<xsl:param name="lang">en</xsl:param>
 <xsl:param name="date"/>
 
 <xsl:template name="uri">http://geexbox.org/<xsl:value-of select="$lang"/>/</xsl:template>
