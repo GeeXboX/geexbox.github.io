@@ -2,7 +2,7 @@
 <!DOCTYPE ours SYSTEM "geexbox.dtd">
 
 <ours>
-  <content lang="en">&#169; 2002 - 2006, GeeXboX Team : <email id="aurel"/> and <email id="ben"/> - Valid <xhtml title="Check page validity"/> and <css title="Check CSS Style Validity"/> Page.</content>
-  <content lang="fr">&#169; 2002 - 2006, GeeXboX Team : <email id="aurel"/> et <email id="ben"/> - Page conforme aux spécifications <xhtml title="Check page validity"/> et <css title="Check CSS Style Validity"/>.</content>
-  <content lang="de">&#169; 2002 - 2006, GeeXboX Team : <email id="aurel"/> und <email id="ben"/> - Seite ist <xhtml title="Check page validity"/> und <css title="Check CSS Style Validity"/> konform.</content>
+  <content lang="en">&#169; 2002 - 2006, GeeXboX Team : <a href="mailto:aurel_REMOVE_THE_TEXT_BETWEEN_THE_UNDERSCORES_@geexbox.org">Aurelien Jacobs</a> and <a href="mailto:ben_REMOVE_THE_TEXT_BETWEEN_THE_UNDERSCORES_@geexbox.org">Benjamin Zores</a> - Valid <xhtml title="Check page validity"/> and <css title="Check CSS Style Validity"/> Page.</content>
+  <content lang="fr">&#169; 2002 - 2006, GeeXboX Team : <a href="mailto:aurel_REMOVE_THE_TEXT_BETWEEN_THE_UNDERSCORES_@geexbox.org">Aurelien Jacobs</a> et <a href="mailto:ben_REMOVE_THE_TEXT_BETWEEN_THE_UNDERSCORES_@geexbox.org">Benjamin Zores</a> - Page conforme aux spécifications <xhtml title="Check page validity"/> et <css title="Check CSS Style Validity"/>.</content>
+  <content lang="de">&#169; 2002 - 2006, GeeXboX Team : <a href="mailto:aurel_REMOVE_THE_TEXT_BETWEEN_THE_UNDERSCORES_@geexbox.org">Aurelien Jacobs</a> und <a href="mailto:ben_REMOVE_THE_TEXT_BETWEEN_THE_UNDERSCORES_@geexbox.org">Benjamin Zores</a> - Seite ist <xhtml title="Check page validity"/> und <css title="Check CSS Style Validity"/> konform.</content>
 </ours>

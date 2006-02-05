@@ -135,7 +135,6 @@
   <xsl:apply-templates select="description"/>
   <xsl:apply-templates select="download"/>
   <xsl:apply-templates select="use"/>
-  <xsl:apply-templates select="email"/>
 </xsl:template>
 
 <xsl:template match="description">
@@ -467,60 +466,16 @@
   </a>
 </xsl:template>
 
-<xsl:template match="email">
-  <xsl:call-template name="email">
-    <xsl:with-param name="id" select="@id"/>
-    <xsl:with-param name="title" select="node()"/>
-  </xsl:call-template>
-</xsl:template>
-<xsl:template name="email">
-  <xsl:variable name="emails" select="document('emails.xml')/emails"/>
-  <xsl:param name="id"/>
-  <xsl:param name="title"/>
-  <xsl:choose>
-    <xsl:when test="$emails/email[@id=$id]">
-      <!-- The <a> tag is made in hand, to keep real format of address mail -->
-      <xsl:text disable-output-escaping="yes"><![CDATA[<a href="mailto:]]></xsl:text>
-      <xsl:value-of select="$emails/email[@id=$id]/address/node()" disable-output-escaping="yes"/>
-      <xsl:text disable-output-escaping="yes"><![CDATA[">]]></xsl:text>
-      <!-- <a> -->
-        <xsl:choose>
-          <xsl:when test="$title">
-            <xsl:value-of select="$title"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:apply-templates select="$emails/email[@id=$id]/content"/>
-          </xsl:otherwise>
-        </xsl:choose>
-      <!-- </a> -->
-      <xsl:text disable-output-escaping="yes"><![CDATA[</a>]]></xsl:text>
-    </xsl:when>
-    <xsl:otherwise>
-      <xsl:value-of select="$title"/>
-    </xsl:otherwise>
-  </xsl:choose>
-</xsl:template>
-
 <xsl:template match="webmaster">
-  <xsl:call-template name="email">
-    <xsl:with-param name="id">webmaster</xsl:with-param>
-  </xsl:call-template>
+  <a href="mailto:webmaster@geexbox.org">Webmaster</a>
 </xsl:template>
 
 <xsl:template match="users">
-  <b>
-  <xsl:call-template name="email">
-    <xsl:with-param name="id">users</xsl:with-param>
-  </xsl:call-template>
-  </b>
+  <a href="mailto:users@geexbox.org"><b>users@geexbox.org</b></a>
 </xsl:template>
 
 <xsl:template match="devel">
-  <b>
-  <xsl:call-template name="email">
-    <xsl:with-param name="id">devel</xsl:with-param>
-  </xsl:call-template>
-  </b>
+  <a href="mailto:devel@geexbox.org"><b>devel@geexbox.org</b></a>
 </xsl:template>
 
 <xsl:template match="xhtml">
