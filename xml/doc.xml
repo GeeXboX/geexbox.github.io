@@ -1007,7 +1007,7 @@ Besitzen Sie einen DHCP Server in Ihrem Netzwerk, brauchen Sie diese Einstellung
 * a NFS server<br/>
 * a PXE capable station :-)<br/><br/>
 </b>
-<b><u>Using a GNU/Linux system :</u></b><br/><br/>
+<h5>Using a GNU/Linux system :</h5><br/>
 First, configure your DHCP server to send PXE boot information. Here is an example using ISC DHCP :<br/><br/>
 <b>
 allow booting;<br/>
@@ -1028,7 +1028,7 @@ Then you should edit the file <b>/tftpboot/GEEXBOX/boot/pxelinux.cfg/default</b>
 and a <b>/etc/hosts.allow</b> which contains something like :<br/><br/>
 <b>ALL: ALL</b><br/><br/>
 That should do the trick. Boot your PXE station and see what happens ...<br/><br/>
-<b><u>Using a Microsoft Windows system :</u></b><br/><br/>
+<h5>Using a Microsoft Windows system :</h5><br/>
 In order to boot in PXE mode from a Windows host, you'll need the following software :<br/>
 <br/>
 * An <b>TFTP</b> and a <b>DHCP Server</b> (for example <use name="tftpd32-url"/>).<br/>
@@ -1080,7 +1080,7 @@ Just start the client computer and now GeeXboX should be running fine.<br/>
 * un serveur NFS<br/>
 * une machine supportant le PXE :-)<br/>
 </b><br/>
-<b><u>Depuis un poste GNU/Linux :</u></b><br/><br/>
+<h5>Depuis un poste GNU/Linux :</h5><br/>
 Il faut tout d'abord configurer le serveur <b>DHCP</b> pour qu'il envoie les informations de boot PXE. Voici un exemple de configuration avec ISC DHCP :<br/><br/>
 <b>
 allow booting;<br/>
@@ -1102,7 +1102,7 @@ et un <b>/etc/hosts.allow</b> ressemblant à :<br/>
 <b>ALL: ALL</b><br/><br/>
 Le tout devrait maintenant fonctionner. Il ne vous reste plus qu'à booter la machine PXE et a voir ce qu'il se passe.<br/>
 <br/>
-<b><u>Depuis un poste Microsoft Windows :</u></b><br/>
+<h5>Depuis un poste Microsoft Windows :</h5>
 <br/>
 Pour démarrer en mode PXE depuis un système Microsoft Windows, il vous faudra les logiciels suivants :<br/>
 <br/>
@@ -1156,7 +1156,7 @@ Il suffit maintenant de démarrer la machine cliente pour amorçer la GeeXboX pa
 * einen NFS Server<br/>
 * eine PXE fähigen Rechner :-)<br/><br/>
 </b>
-<b><u>Nutzen eines GNU/Linux Systemes :</u></b><br/><br/>
+<h5>Nutzen eines GNU/Linux Systemes :</h5><br/>
 Zuerst müssen Sie Ihren DHCP Server so konfigurieren, dass dieser PXE Boot-Information sendet. Hier ein Bsp. für ISC DHCP :<br/><br/>
 <b>
 allow booting;<br/>
@@ -1177,7 +1177,7 @@ Nun editieren Sie die Datei <b>/tftpboot/GEEXBOX/boot/pxelinux.cfg/default</b> u
 jetzt noch die <b>/etc/hosts.allow</b> so editieren, dass diese folgende Zeile enthält :<br/><br/>
 <b>ALL: ALL</b><br/><br/>
 Damit sollte nun alles funktionieren. Starten Sie Ihre PXE Station und sehen zu, was passiert ...<br/><br/>
-<b><u>Nutzen eines Microsoft Windows Systemes :</u></b><br/><br/>
+<h5>Nutzen eines Microsoft Windows Systemes :</h5><br/>
 Um im PXE Mode von einem Windowsrechner zu booten, brauchen Sie die folgende Software :<br/>
 <br/>
 * Einen <b>TFTP</b> und einen <b>DHCP Server</b> (z.B. <use name="tftpd32-url"/>).<br/>

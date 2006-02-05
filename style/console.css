@@ -59,6 +59,12 @@ body {
 	font-size:110%;
 }
 
+#text h5 {
+	text-decoration: underline;
+	margin: 0em;
+	font-size:100%;
+}
+
 a {
 	color: white;
 }
