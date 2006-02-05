@@ -16,7 +16,7 @@
     <a href="http://www.geexbox.org/sympa/arc/users">archives</a>
   </define>
   <define name="users-mail">
-    <a href="mailto:users@geexbox.org">mail</a>
+    <email id="users">mail</email>
   </define>
 
   <define name="devel-subscribe">
@@ -26,7 +26,7 @@
     <a href="http://www.geexbox.org/sympa/arc/devel">archives</a>
   </define>
   <define name="devel-mail">
-    <a href="mailto:devel@geexbox.org">mail</a>
+    <email id="devel">mail</email>
   </define>
 
   <define name="commits-subscribe">
@@ -36,7 +36,7 @@
     <a href="http://www.geexbox.org/sympa/arc/commits">archives</a>
   </define>
   <define name="commits-mail">
-    <a href="mailto:commits@geexbox.org">mail</a>
+    <email id="commits">mail</email>
   </define>
 
   <section label="contact">
