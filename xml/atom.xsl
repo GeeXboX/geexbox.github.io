@@ -12,6 +12,7 @@
 <xsl:template name="uri">http://geexbox.org/<xsl:value-of select="$lang"/>/</xsl:template>
 
 <xsl:template match="article">
+  <xsl:processing-instruction name="xml-stylesheet">type="text/css" href="http://www.atomenabled.org/css/atom.css"</xsl:processing-instruction>
   <xsl:comment>
       This web site is (c) 2005-2006 Alexis Saettler
       HomePage for the GeeXboX Project (http://www.geexbox.org/)
@@ -53,6 +54,9 @@
   <icon>http://geexbox.org/img/geexbox-icon.png</icon>
   <logo>http://geexbox.org/img/logo-gx-small.png</logo>
   <rights> © 2005 GeeXboX Team </rights>
+  <info mode="xml" type="text/html">
+    <div xmlns="http://www.w3.org/1999/xhtml">This is an Atom formatted XML site feed. It is intended to be viewed in a Newsreader or syndicated to another site.</div>
+  </info>
   <xsl:apply-templates select="subsection"/>
 </xsl:template>
 
@@ -72,9 +76,10 @@
 <xsl:template match="content">
   <content type="xhtml">
     <xsl:attribute name="xml:lang"><xsl:value-of select="@lang"/></xsl:attribute>
-    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <div>
+      <xsl:attribute name="xmlns">http://www.w3.org/1999/xhtml</xsl:attribute>
       <xsl:apply-templates/>
-    </xhtml:div>
+    </div>
   </content>
 </xsl:template>
 </xsl:stylesheet>
