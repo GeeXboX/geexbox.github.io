@@ -32,22 +32,22 @@
   </email>
   <email id="aurel">
     <content>Aurelien Jacobs</content>
-    <!-- aurel@geexbox.org -->
+    <!-- aurel AT geexbox DOT org -->
     <address><![CDATA[&#097;&#117;&#114;&#101;&#108;&#064;&#103;&#101;&#101;&#120;&#098;&#111;&#120;&#046;&#111;&#114;&#103;]]></address>
   </email>
   <email id="ben">
     <content>Benjamin Zores</content>
-    <!-- ben@geexbox.org -->
+    <!-- ben AT geexbox DOT org -->
     <address><![CDATA[&#098;&#101;&#110;&#064;&#103;&#101;&#101;&#120;&#098;&#111;&#120;&#046;&#111;&#114;&#103;]]></address>
   </email>
   <email id="amir">
     <content>Amir Shalem</content>
-    <!-- amir@geexbox.org -->
+    <!-- amir AT geexbox DOT org -->
     <address><![CDATA[&#097;&#109;&#105;&#114;&#064;&#103;&#101;&#101;&#120;&#098;&#111;&#120;&#046;&#111;&#114;&#103;]]></address>
   </email>
   <email id="asbin">
     <content>Alexis Saettler</content>
-    <!-- asbin+geexbox@asbin.org -->
+    <!-- asbin+geexbox AT asbin DOT org -->
     <address><![CDATA[&#097;&#115;&#098;&#105;&#110;+&#103;&#101;&#101;&#120;&#098;&#111;&#120;&#064;&#097;&#115;&#098;&#105;&#110;&#046;&#111;&#114;&#103;]]></address>
   </email>
 </emails>
