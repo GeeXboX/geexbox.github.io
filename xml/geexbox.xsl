@@ -151,30 +151,37 @@
 </xsl:template>
 
 <xsl:template match="version">
+  <xsl:param name="version"/>
   <xsl:value-of select="$version"/>
 </xsl:template>
 <xsl:template match="version" mode="raw">
+  <xsl:param name="version"/>
   <xsl:value-of select="$version"/>
 </xsl:template>
 
 <xsl:template match="lang-names"/>
 <xsl:template match="lang">
+  <xsl:param name="file"/>
   <xsl:apply-templates select="/article/lang-names[@lang=$lang]/lang-name[@code=$file/lang]"/>
 </xsl:template>
 <xsl:template match="lang" mode="raw">
+  <xsl:param name="file"/>
   <xsl:value-of select="$file/lang"/>
 </xsl:template>
 
 <xsl:template match="arch-names"/>
 <xsl:template match="arch">
+  <xsl:param name="file"/>
   <xsl:apply-templates select="/article/arch-names/arch-name[@code=$file/arch]"/>
 </xsl:template>
 <xsl:template match="arch" mode="raw">
+  <xsl:param name="file"/>
   <xsl:value-of select="$file/arch"/>
 </xsl:template>
 
 <xsl:template match="size-names"/>
 <xsl:template match="size">
+  <xsl:param name="file"/>
   <xsl:choose>
     <xsl:when test="$file/size &lt; 1024">
       <xsl:value-of select="$file/size"/>
@@ -195,24 +202,30 @@
 </xsl:template>
 
 <xsl:template match="md5">
+  <xsl:param name="file"/>
   <xsl:value-of select="$file/md5"/>
 </xsl:template>
 <xsl:template match="sha1">
+  <xsl:param name="file"/>
   <xsl:value-of select="$file/sha1"/>
 </xsl:template>
 
 <xsl:template match="src-type-names"/>
 <xsl:template match="src-type">
+  <xsl:param name="file"/>
   <xsl:apply-templates select="/article/src-type-names[@lang=$lang]/src-type-name[@code=$file/src-type]"/>
 </xsl:template>
 <xsl:template match="src-type" mode="raw">
+  <xsl:param name="file"/>
   <xsl:value-of select="$file/src-type"/>
 </xsl:template>
 
 <xsl:template match="src-ext">
+  <xsl:param name="file"/>
   <xsl:value-of select="$file/src-ext"/>
 </xsl:template>
 <xsl:template match="src-ext" mode="raw">
+  <xsl:param name="file"/>
   <xsl:value-of select="$file/src-ext"/>
 </xsl:template>
 
