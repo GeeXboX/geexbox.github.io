@@ -7,6 +7,6 @@
   <langs>
     <text lang="en" flag="../img/flag-en.png">english</text>
     <text lang="fr" flag="../img/flag-fr.png">français</text>
-    <text lang="de" flag="../img/flag-de.png">german</text>
+    <text lang="de" flag="../img/flag-de.png">deutsch</text>
   </langs>
 </banner>
