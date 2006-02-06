@@ -309,6 +309,7 @@
   </div>
 </xsl:template>
 <xsl:template match="mirror">
+  <xsl:param name="file"/>
   <div>
     <xsl:attribute name="class">row<xsl:value-of select="(position()+1) mod 2"/></xsl:attribute>
     <img>
