@@ -1,3 +1,4 @@
 AddType application/octet-stream .iso
 ErrorDocument 403 /php/404.php
 ErrorDocument 404 /php/404.php
+DirectoryIndex index
