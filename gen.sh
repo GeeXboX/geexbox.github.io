@@ -7,11 +7,9 @@ for l in $LANGS; do
   mkdir -p $l
   if [ -n `which sabcmd` ]; then
 
-    pagelist=""
     for p in $PAGES; do
-      pagelist=$pagelist" xml/$p.xml $l/$p.html"
+      sabcmd --batch-xsl xml/geexbox.xsl xml/$p.xml $l/$p.html \$filename=$p.html \$lang=$l
     done
-    sabcmd --batch-xsl xml/geexbox.xsl $pagelist \$filename=$p.html \$lang=$l
     sabcmd --batch-xsl xml/atom.xsl xml/index.xml $l/news.xml \$date=`date "+%Y-%m-%dT%H:%M:%SZ"` \$lang=$l
 
   else
