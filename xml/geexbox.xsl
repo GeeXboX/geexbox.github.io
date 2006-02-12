@@ -403,8 +403,7 @@
                 <xsl:value-of select="@flag"/>
               </xsl:attribute>
               <xsl:attribute name="alt">(<xsl:value-of select="@lang"/>)</xsl:attribute>
-            </img>
-          </a>
+            </img>&#160;</a>
         </li>
       </xsl:for-each>
     </ul>
