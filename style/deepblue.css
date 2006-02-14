@@ -65,14 +65,14 @@ body {
 	background-color: transparent;
 	color: #369;
 	font-weight: 700;
-	font-size:small;
+	font-size: small;
 	border-bottom: 1px dotted #369;
 	margin: 0 3em 1em 3em;
 }
 
 #text h5 {
 	text-decoration: underline;
-	margin: 0em;
+	margin: 0;
 	font-size:100%;
 }
 
@@ -159,7 +159,7 @@ body {
 	border-style: solid;
 	border-color: black;
 	background-color: #4060A0;
-	margin: 0 0 1em 0;
+	margin-bottom: 1em;
 	float: left;
 	background-image: url("../img/back-menu.jpeg");
 	background-repeat: repeat;
@@ -176,7 +176,7 @@ body {
 #geexbox h2, #ressources h2, #feedback h2 {
 	border-color: #006;
 	border-bottom-style: dotted;
-	border-width: 0px 0px 2px 0px;
+	border-width: 0 0 2px 0;
 	background-color: #a1c2e1;
 	margin: 0;
 	padding: 2px 0 2px 0;
