@@ -7,7 +7,7 @@
 body {
 	font-family : Verdana,Arial,Helvetica,sans-serif;
 	margin-top: 6px;
-	font-size: 11px;
+	font-size: 0.69em;
 	color: black;
 	background: #656567;
 	text-decoration: none;
@@ -32,7 +32,8 @@ body {
 #textbox {
 	border: 2px solid black;
 	background-color: #4060A0;
-	margin: 0 0 1em 16%;
+	margin-bottom: 1em;
+	margin-left: 16em; /* #textbox margin-left = #menu width + #menu padding-left */
 	padding: 1em;
 	background-image: url("../img/back-text.jpeg");
 	background-repeat: repeat;
@@ -154,12 +155,14 @@ body {
 
 #menu {
 	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
-	width: 16%;
+	width: 15em;  /* #textbox margin-left = #menu width + #menu padding-left */
 	border-width: 2px 0 2px 2px;
 	border-style: solid;
 	border-color: black;
 	background-color: #4060A0;
 	margin-bottom: 1em;
+	padding-top: 1em;
+	padding-left: 1em;
 	float: left;
 	background-image: url("../img/back-menu.jpeg");
 	background-repeat: repeat;
@@ -170,7 +173,7 @@ body {
 	color: black;
 	background-color: #e8e6f0;
 	border: 2px solid #006;
-	margin: 1em 0 1em 6%;
+	margin-bottom: 1em;
 }
 
 #geexbox h2, #ressources h2, #feedback h2 {
@@ -222,7 +225,8 @@ body {
 #styles h4 {
 	float: right;
 	text-transform: uppercase;
-	margin-left: 2em;
+	margin: 0 0 0 2em;
+	font-size: small;
 }
 
 #styles ul {
@@ -233,6 +237,7 @@ body {
 	display: inline;
 	list-style: none;
 	font-size: 110%;
+	margin: 0;
 }
 
 #styles li + li:before {
