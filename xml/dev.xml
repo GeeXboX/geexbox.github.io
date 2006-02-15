@@ -79,7 +79,7 @@ Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Archiv zu geben. Damit 
 <b>* <use name="ct-tla-register"/></b><i> - Um das GeeXboX Archiv zu registrieren.</i><br/>
 <b>* <use name="ct-tla-get"/></b><i> - Um alle Dateien des GeeXBox Archives herunter zu laden.</i><br/>
 <b>* <use name="ct-tla-update"/></b><i> - Um Ihre lokale Kopie mit unserem Server zu synchronisieren.</i><br/>
-<br/>         
+<br/>
           Bitte lesen Sie im GeeXboX <use name="wiki-url"/> Entwickler Bereich nach, um die Internas zu verstehen. Dort wird erklärt wie Sie Fehler melden, neue Paketei, eine neue Fernbedienung oder Patches hinzufügen können.<br/>
       </content>
 
@@ -88,16 +88,14 @@ Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Archiv zu geben. Damit 
     <subsection label="devel">
       <content lang="en" title="Developers Mailing List">
         If you have any interest in GeeXboX's development, you may want to subscribe to our developer mailing list. There you can send your patches, and code fixes but also learn about the daily developement progress. You have to subscribe to the mailing list to post on it. Please note that only ENGLISH will be used on this list (posts in other languages won't receive an answer, nor will questions, suggestions or bug reports). Have a look at the mailing list dedicated section for more information on it.
-      <br/><br/><br/><br/><br/><br/><br/><br/>
       </content>
 
       <content lang="fr" title="Liste de Diffusion pour Développeurs">
         Si vous portez un quelconque intérêt au développement de la GeeXboX et que vous souhaitez y contribuer, vous pouvez souscrire à notre liste de diffusion pour développeurs. Vous pourrez alors nous envoyer vos patchs et autres correctifs, mais également y apprendre sur l'évolution de la GeeXboX au jour le jour. Ceci nécessite néanmoins de souscrire à la liste de diffusion pour pouvoir poster un mail. Veuillez noter que seul l'ANGLAIS est utilisé pour y correspondre (des messages dans d'autres langues, français y compris, ne recevront aucune réponse, pas plus que les questions sur des problèmes d'utilisation, suggestions et autres rapports de bug). Jetez un oeil à la section du site consacrée aux listes de diffusion pour de plus amples détails à ce sujet.
-      <br/><br/><br/><br/><br/><br/><br/><br/>
       </content>
 
       <content lang="de" title="Mailing Liste für Entwickler">
-        Wenn Sie Interesse an der Entwicklung von GeeXboX haben, sollten Sie unsere Mailingliste für Entwickler abonnieren. Dort können Sie "Patches" oder "Fixes" einsenden oder aber auch nur den täglichen Fortschritt bei der Entwicklung beobachten. Sie müssen die Liste erst abonnieren, bevor Sie Beiträge einsenden können. Bitte beachten Sie auch, dass nur englischsprachige Beiträge akzepiert werden können. Beiträge in anderen Sprachen werden nicht beantwortet, genauso wenig wie Fragen, Anregungen oder Fehlermeldungen.  Schauene Sie einfach unter den Punkt Mailing Liste nach.<br/>
+        Wenn Sie Interesse an der Entwicklung von GeeXboX haben, sollten Sie unsere Mailingliste für Entwickler abonnieren. Dort können Sie "Patches" oder "Fixes" einsenden oder aber auch nur den täglichen Fortschritt bei der Entwicklung beobachten. Sie müssen die Liste erst abonnieren, bevor Sie Beiträge einsenden können. Bitte beachten Sie auch, dass nur englischsprachige Beiträge akzepiert werden können. Beiträge in anderen Sprachen werden nicht beantwortet, genauso wenig wie Fragen, Anregungen oder Fehlermeldungen.  Schauene Sie einfach unter den Punkt Mailing Liste nach.
       </content>
     </subsection>
   </section>

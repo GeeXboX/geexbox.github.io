@@ -78,7 +78,7 @@
             <td>InTouch N.V. ist ein in Amsterdam (Niederlande) ansässiger unabhängiger Kommunikationsanbieter. Seit der Gründung 1994 beschäftigt sich InTouch mit dem Zurverfügungstellen von maßgeschneiderten Kommunikationslösungen für spezifische Kundenanforderungen. Sie führen und unterstützen ihre Kunden vom Design bis zur Implementierung und hin zum funktionsfähigen Management der Netzinfrastrukturen. Im engen Zusammenspiel mit ihren Teilhabern stellen sie globale Kommunikationsdienstleistungen für ihre Kunden zur Verfügung. InTouch war der Hoster von GeeXboX.org von 2003 bis Ende 2005.</td>	  
           </tr>
         </table>
-      </content>               
+      </content>
     </subsection>
 
     <subsection label="mirrors">
@@ -88,7 +88,6 @@
         <use name="mirror_list"/>
         <br/>
         If you have access to high-speed and quality hosting facilities and are interested in mirroring our project, please feel free to contact the <use name="webmaster"/>.
-        <br/><br/><br/>
       </content>
       <content lang="fr" title="Liste des miroirs GeeXboX.org ...">
         En plus des 2 compagnies ci-dessus, un grand nombre de personnes, associations ou compagnies nous aident à vous proposer le projet GeeXboX en proposant un miroir local de notre serveur web principal. Nous souhaitons remercier toutes les personnes qui nous ont permis de mettre la GeeXboX à votre disposition.<br/>
@@ -96,7 +95,6 @@
         <use name="mirror_list"/>
         <br/>
         Si vous avez accès à un réseau d'hébergement de qualité et à très haut-débit et que vous souhaitez également proposer un miroir du projet GeeXboX, n'hésitez pas à contacter le <use name="webmaster"/>.
-        <br/><br/><br/>
       </content>
       <content lang="de" title="GeeXboX.org Mirror Liste ...">
         Neben diesen beiden Unternehmen, helfen uns viele Personen, Verbünde oder Firmen Ihnen das GeeXboX Projekt verfügbar zu machen. Diese Hilfe findet in Form von Mirror Webseiten statt. Wir möchten uns herzlich bei allen in der folgenden Liste bedanken:<br/>
@@ -104,7 +102,6 @@
         <use name="mirror_list"/>
         <br/>
         Falls Sie Zugang zu Hochgeschwindigkeits und ualitativ hochwertigen Hosting-Lösungen haben und auch interessiert sind unser Projekt zu spiegeln, kontaktieren Sie bitte den <use name="webmaster"/>.
-        <br/><br/><br/>
       </content>
     </subsection>
 

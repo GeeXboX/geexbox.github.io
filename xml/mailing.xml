@@ -60,7 +60,6 @@
     <br/>
     * <b>GeeXboX-Commits</b> : <use name="commits-subscribe"/> - <use name="commits-archives"/> - <use name="commits-mail"/><br/>
     Each time a patch is commited on one of the GeeXboX component, it is sent to this mailing list for all subscribers and developers to have a review and be notified of it. Everyone's invited to make comments about some patch that might break common usage.
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </content>
     <content lang="fr" title="Listes de diffusion GeeXboX">
     Il existe de nombreuses listes de diffusion relatives au développement de la GeeXboX ou au support de ses utilisateurs et qui sont ouvertes au public. En raison de problèmes évidents de spams, vous ne pourrez écrire sur ces listes qu'après vous être préalablement enregistrés. A titre informatif, veuillez prendre en compte que les mails au format HTML, le top-posting ainsi que l'écriture de nouveaux messages ou de messages non-liés au fil de discussion courant ne sont pas les bienvenus et sont autant de raison possible de ne pas obtenir de réponse. Jouer selon les règles du jeu rendra la vie beaucoup plus facile des personnes qui lisent vos mails et augmentera fortement votre potentiel à obtenir une réponse. A moins qu'il ne soit précisé autrement, veuillez noter que ces listes de diffusion ne doivent comporter que des messages en <b>Anglais</b>. De plus si vous envoyez une pièce jointe trop conséquente et que votre message vous est retournée, veuillez fournir une URL à la place.<br/>
@@ -82,7 +81,6 @@
     <br/>
     * <b>GeeXboX-Commits</b> : <use name="commits-subscribe"/> - <use name="commits-archives"/> - <use name="commits-mail"/><br/>
     A chaque fois qu'un patch est validé sur l'une des branches de développement du projet GeeXboX, une copie de ce dernier est envoyé vers cette liste afin que les autres développeurs ou personnes ayant souscrits à cette liste puissent le revoir, exprimer leur avis, ou simplement être notifiés de son existence. Toute personne est invitée à faire des commentaires sur un patch qui pourrait bloquer ou désactiver une fonctionnalité qui jusqu'alors fonctionnait parfaitement.
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </content>
      <content lang="de" title="GeeXboX Mailing Listen">
     Es gibt öffentliche GeeXboX Entwicklungs und Nutzerunterstützungs Mailing Listen. Aufgrund des Spam Problems können Sie jedoch nur bei einigen Listen nach der Anmeldung posten. Als Grundregeln seien festgehalten auf HTML Mails, Top-Postings und nicht dazugehörige Mails als Antowrt auf bestehende Mails zu verzichten. Wenn alle nach diesen Regeln spielen, macht es denen die diese Mails lesen das Lesen wesentlich einfacher und es erhöht die Chance eine Antwort auf Ihre Frage zu bekommen. Solange nicht gesondert angegeben ist die normaler Sprache in allen Listen ausschließlich <b>Englisch</b>. Sollten Sie eine sehr große Datei als Anhang senden und diese Mail wird abgewiesen, so stellen Sie den Anhang bitte irgendwo zum herunterladen bereit.<br/>
@@ -104,7 +102,6 @@
     <br/>
     * <b>GeeXboX-Commits</b> : <use name="commits-subscribe"/> - <use name="commits-archives"/> - <use name="commits-mail"/><br/>
     Jedesmal wenn ein neuer Patch für eine GeeXboX Komponente verfügbar ist, wird dieser an diese Liste gesendet. So kann jeder Angemeldete und Entwickle diesen Patch testen. Jeder ist eingeladen Kommentare zu den Patches abzugeben.
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </content>
   </section>
 </article>
