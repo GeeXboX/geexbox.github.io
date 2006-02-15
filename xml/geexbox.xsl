@@ -42,10 +42,17 @@
       </link>
       <xsl:call-template name="stylesheet"/>
       <link rel="icon" type="images/png" href="../img/geexbox-icon.png"/>
+
+      <!-- compliance patch for microsoft browsers - http://dean.edwards.name/IE7 -->
+      <xsl:text disable-output-escaping="yes"><![CDATA[
+        <!--[if lt IE 7]>
+          <script src="../style/ie7/ie7-standard-p.js" type="text/javascript">
+            IE7_PNG_SUFFIX = "-trans.png";
+          </script>
+        <![endif]-->]]>
+      </xsl:text>
+
       <script type="text/javascript" src="../style/styleswitcher.js">
-        <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
-      </script>
-      <script type="text/javascript" src="../style/pngfix.js">
         <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
       </script>
       <script type="text/javascript" src="../style/toggle.js">
@@ -97,6 +104,7 @@
         </div>
       </xsl:if>
       <xsl:apply-templates select="subsection"/>
+      <div class="spacer"><xsl:comment>spacer</xsl:comment></div>
     </div>
   </div>
 </xsl:template>
@@ -249,19 +257,15 @@
     <div class="download">
       <div class="dlplusminus">
         <a>
-          <xsl:attribute name="id">plus.<xsl:value-of select="$id"/></xsl:attribute>
           <xsl:attribute name="href">javascript:toggle('<xsl:value-of select="$id"/>','plus.<xsl:value-of select="$id"/>','minus.<xsl:value-of select="$id"/>')</xsl:attribute>
           <img alt="[+]">
+            <xsl:attribute name="id">plus.<xsl:value-of select="$id"/></xsl:attribute>
             <xsl:attribute name="src">
               <xsl:value-of select="$plus"/>
             </xsl:attribute>
           </img>
-        </a>
-
-        <a style="display: none">
-          <xsl:attribute name="id">minus.<xsl:value-of select="$id"/></xsl:attribute>
-          <xsl:attribute name="href">javascript:toggle('<xsl:value-of select="$id"/>','minus.<xsl:value-of select="$id"/>','plus.<xsl:value-of select="$id"/>')</xsl:attribute>
-          <img alt="[-]">
+          <img alt="[-]" style="display: none">
+            <xsl:attribute name="id">minus.<xsl:value-of select="$id"/></xsl:attribute>
             <xsl:attribute name="src">
               <xsl:value-of select="$minus"/>
             </xsl:attribute>

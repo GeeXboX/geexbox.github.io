@@ -101,24 +101,24 @@ body {
 }
 
 .dldesc {
-	display: table;
 	width: 100%;
 }
 
 .dldescicon {
-	display: table-cell;
+	float: left;
 	vertical-align: top;
 	padding: 3px;
 }
 
 .dldesctext {
-	display: table-cell;
 	width: 100%;
 	padding: 3px;
 }
 
 .download {
-	display: table;
+	display: block;
+	float: left !important;
+	float: none;
 	width: 100%;
 	background-color: #efefef;
 	color: inherit;
@@ -129,13 +129,13 @@ body {
 }
 
 .dlplusminus {
-	display: table-cell;
+	float: left;
 	padding: 5px 1em 5px 5px;
 }
 
 .dlfile {
-	display: table-cell;
-	width: 100%;
+	float: left;
+	margin-top: 4px;
 }
 
 .dltable img {
@@ -240,7 +240,7 @@ body {
 	margin: 0;
 }
 
-#styles li + li:before {
+#styles li + li::before {
 	content: "-";
 }
 
@@ -307,4 +307,8 @@ body {
 .center {
 	text-align: center;
 	margin: 1em 0 2em 0;
+}
+
+.spacer {
+	clear: both;
 }
