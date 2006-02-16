@@ -138,6 +138,10 @@ body {
 	margin-top: 4px;
 }
 
+.p div.download:last-child {
+	margin-bottom: 3em;
+}
+
 .dltable img {
 	margin: 5px 1em 5px 5px;
 	vertical-align: middle;
