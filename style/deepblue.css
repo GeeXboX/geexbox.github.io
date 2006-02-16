@@ -240,7 +240,7 @@ body {
 	margin: 0;
 }
 
-#styles li + li::before {
+#styles li + li:before {
 	content: "-";
 }
 
