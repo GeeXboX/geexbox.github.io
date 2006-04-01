@@ -121,6 +121,7 @@
         <a href="#dvb_cards">DVB cards Support ...</a><br/>
         <a href="#dvdnav">DVD Navigation Menus ...</a><br/>
         <a href="#recorder">Recording Capabilities ...</a><br/>
+        <a href="#netstreams">Network streaming ...</a><br/>
       </content>
       <content lang="fr" title="Liste des documents ...">
         <a href="#wiki">Base de documentation Wiki GeeXboX ...</a><br/>
@@ -143,6 +144,7 @@
         <a href="#dvb_cards">Support des cartes DVB ...</a><br/>
         <a href="#dvdnav">Menus de Navigation DVD ...</a><br/>
         <a href="#recorder">Capacités d'enregistrement ...</a><br/>
+        <a href="#netstreams">Streaming réseau ...</a><br/>
       </content>
       <content lang="de" title="Dokument Liste ...">
         <a href="#wiki">GeeXboX Wiki Dokumentation ...</a><br/>
@@ -1509,6 +1511,35 @@ Lorsque vous regardez un flux TV et que vous débutez son enregistrement, l'image
 - utilisez un profil d'encodage plus rapide (i.e. de moindre qualité).<br/>
 <br/>
 Lorsque vous mettez fin au processus d'enregistrement, la GeeXboX arrêtera MEncoder et va relancer la lecture du flux vidéo original.<br/>
+      </content>
+    </subsection>
+
+    <subsection label="netstreams">
+      <content lang="en" title="Network streaming ...">
+      GeeXboX now gives you the possibility to add some SHOUTcast Radio/TV official playlist as easily as personal playlists (local and remote).<br/>
+<br/>
+SHOUTcast activation is set in <i>"GEEXBOX/etc/network"</i> config file. As SHOUTcast TV sometimes may contain pornographic and subscription-only streams, you can define a "black list" and a "white list" to allow/deny any streams you choose (default keywords for "black  list" are : "adult xxx porn ESS SWCTV SWPTV Subscription"). The black/white lists are case-insensitive.<br/>
+<br/>
+The <i>"GEEXBOX/etc/netstream"</i> config file can be set to create local and remote playlists (some examples are located in this file). "Remote playlists" refer to "Extended M3U" files.<br/>
+<br/>
+For French users only:<br/>
+You can get <b>"FreeboxTV"</b> thanks to this file, using the following process:<br/>
+<br/>
+- uncomment EXTM3U ad hoc entry.<br/>
+- use a GeeXboX version that have to be compiled with <b>"LIVE555 library"</b> support (otherwise you won't be able to decode the stream).<br/>
+      </content>
+      <content lang="fr" title="Streaming réseau ...">
+      La GeeXboX permet de rajouter les listes de streams SHOUTcast Radio et TV tout autant que vos propres listes de lecture. (locales et distantes.)<br/>
+<br/>
+L'activation de SHOUTcast se déclare dans le fichier de configuration <i>"GEEXBOX/etc/network"</i>. SHOUTcast TV étant succeptible de diffuser des streams à caractère pornographique, une liste noire et une liste blanche peuvent être complétées afin de filtrer le contenu selon vos critères (par défaut, les mots clefs définis pour la liste noire sont "adult xxx porn").<br/>
+<br/>
+Vous pouvez créer vos listes de lecture locales et distantes dans le fichier de configuration <i>"GEEXBOX/etc/netstream"</i> (des exemples sont contenus dans ce fichier). Les listes de lecture distantes concernent uniquement les fichiers M3U Etendus.<br/>
+<br/>
+Note aux utilisateurs (Français uniquement) :<br/>
+Il est possible de receptionner un flux <b>"FreeboxTV"</b> grâce à ce fichier. Pour y parvenir, veuillez suivre la procédure suivante :<br/>
+<br/>
+- dé-commentez l'entrée EXTM3U ad-hoc.<br/>
+- utilisez une version de GeeXboX compilée avec le support de la librairie <b>"LIVE555"</b> (ces deux conditions étant nécessaires à la visualisation du flux) .<br/>
       </content>
     </subsection>
 
