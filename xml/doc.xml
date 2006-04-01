@@ -119,6 +119,7 @@
         <a href="#firmware_loader">Firmware auto-loader ...</a><br/>
         <a href="#upnp_share">UPnP File Sharing ...</a><br/>
         <a href="#dvb_cards">DVB cards Support ...</a><br/>
+        <a href="#dvdnav">DVD Navigation Menus ...</a><br/>
       </content>
       <content lang="fr" title="Liste des documents ...">
         <a href="#wiki">Base de documentation Wiki GeeXboX ...</a><br/>
@@ -139,6 +140,7 @@
         <a href="#firmware_loader">Chargement des firmwares ...</a><br/>
         <a href="#upnp_share">Partage de fichiers via UPnP ...</a><br/>
         <a href="#dvb_cards">Support des cartes DVB ...</a><br/>
+        <a href="#dvdnav">Menus de Navigation DVD ...</a><br/>
       </content>
       <content lang="de" title="Dokument Liste ...">
         <a href="#wiki">GeeXboX Wiki Dokumentation ...</a><br/>
@@ -1401,6 +1403,37 @@ Starten Sie nun den Geexbox Computer und alles sollte wie gewÃ¼nscht funktionier
       <b>- Nutzung des Intallationstools</b> : Dies ist die einfachste Art und Weise aber hierfuer muessen Sie GeeXboX auf Festplatte installieren, Waehrend des Installationsablaufes werden Sie, falls ein DVB Geraet gefunden wurde, gefragt, ob Sie einen Suchlauf starten moechten.<br/>
       <br/>
       Das Installationstool beinhaltet eine komplette Liste aller Transponder Frequenzen. Sie muessen nur Ihren Typ von DVB Karte und die geuenschte Transponder Liste auswaehlen. Die <i>channels.conf</i> datei wird dann automatisch erstellt.<br/>
+      </content>
+    </subsection>
+
+    <subsection label="dvdnav">
+      <content lang="en" title="DVD Navigation Menus ...">
+      GeeXboX allows 2 DVD playback mode:<br/>
+<br/>
+- Direct movie playback (default).<br/>
+- DVD Navigation Menu support (fairly experimental).<br/>
+<br/>
+The first one can be safely trusted for playing any kind of DVD. Once inserted, the disc is automatically detected and MPlayer tries to play the title it consider as the movie one. The major advantage is that all copyright, advertisement and menu parts are skipped to allow a direct playback. However, in some situations (like DVDs with enhanced menus or most of the series DVD, containing multiple titles to be played) this method is inaccurate and you'll not be able to watch your DVD correctly.<br/>
+<br/>
+The second one, while still experimental (but has really good chances to works fine) supports the regular DVD Navigation Menus and let you control your DVD the same way you'll do it using a regular commercial DVD player.<br/>
+<br/>
+You can use the GeeXboX options menu to switch between the DVD playback methods, according to the DVD disc you're trying to watch.<br/>
+<br/>
+You can also make use of the GeeXboX ISO generator to select the default  DVD playback method you want.<br/>
+      </content>
+      <content lang="fr" title="Menus de Navigation DVD ...">
+      La GeeXboX propose 2 méthodes de lecture des DVD :<br/>
+<br/>
+- Lecture directe du film (defaut).<br/>
+- Lecture avec support des menus de Navigation DVD (expérimental).<br/>
+<br/>
+La première permet une lecture quasi-assurée de la plupart des DVDs. Une fois inséré, le disque est automatiquement détecté et MPlayer va essayer de lire le chapitre qu'il jugera correspondre au film. Le principal avantage réside dans le fait que toutes les scènes de droit d'auteur, publicités ou menus seront sautées pour permettre une lecture instantannée du film. Néanmoins, dans certaines situations (comme les DVD avec des menus très sophistiqués ou encore les DVD de séries TV, contenant de multiples épisodes et donc chapitres), cette méthode n'est pas précise et vous pourriez ne pas être en mesure de lire votre film correctement.<br/>
+<br/>
+La seconde, bien qu'encore expérimentale avec MPlayer (mais qui a néanmoins de très fortes chances de fonctionner), apporte le support des menus de navigation DVD, vous permettant donc de le lire comme vous le feriez avec n'importe quel lecteur DVD du commerce, avec les avantages et inconvénients qui en découlent.<br/>
+<br/>
+Il vous est bien entendu possible de basculer d'un mode de lecture DVD à un autre au moyen du menu d'options de la GeeXboX, selon le DVD que vous êtes amener à visionner.<br/>
+<br/>
+Il vous est également possible de spécifier la méthode de lecture par défaut au moyen du générateur d'ISO de la GeeXboX.<br/>
       </content>
     </subsection>
 
