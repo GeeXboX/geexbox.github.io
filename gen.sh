@@ -5,7 +5,7 @@ LANGS="en fr de"
 
 for l in $LANGS; do
   mkdir -p $l
-  if [ -n `which sabcmd` ]; then
+  if [ -n "`which sabcmd`" ]; then
 
     for p in $PAGES; do
       sabcmd --batch-xsl xml/geexbox.xsl xml/$p.xml $l/$p.html \$filename=$p.html \$lang=$l
