@@ -143,8 +143,8 @@
         <a href="#upnp_share">Partage de fichiers via UPnP ...</a><br/>
         <a href="#dvb_cards">Support des cartes DVB ...</a><br/>
         <a href="#dvdnav">Menus de Navigation DVD ...</a><br/>
-        <a href="#recorder">Capacités d'enregistrement ...</a><br/>
-        <a href="#netstreams">Streaming réseau ...</a><br/>
+        <a href="#recorder">CapacitÃ©s d'enregistrement ...</a><br/>
+        <a href="#netstreams">Streaming rÃ©seau ...</a><br/>
       </content>
       <content lang="de" title="Dokument Liste ...">
         <a href="#wiki">GeeXboX Wiki Dokumentation ...</a><br/>
@@ -1426,18 +1426,18 @@ You can use the GeeXboX options menu to switch between the DVD playback methods,
 You can also make use of the GeeXboX ISO generator to select the default  DVD playback method you want.<br/>
       </content>
       <content lang="fr" title="Menus de Navigation DVD ...">
-      La GeeXboX propose 2 méthodes de lecture des DVD :<br/>
+      La GeeXboX propose 2 mÃ©thodes de lecture des DVD :<br/>
 <br/>
 - Lecture directe du film (defaut).<br/>
-- Lecture avec support des menus de Navigation DVD (expérimental).<br/>
+- Lecture avec support des menus de Navigation DVD (expÃ©rimental).<br/>
 <br/>
-La première permet une lecture quasi-assurée de la plupart des DVDs. Une fois inséré, le disque est automatiquement détecté et MPlayer va essayer de lire le chapitre qu'il jugera correspondre au film. Le principal avantage réside dans le fait que toutes les scènes de droit d'auteur, publicités ou menus seront sautées pour permettre une lecture instantannée du film. Néanmoins, dans certaines situations (comme les DVD avec des menus très sophistiqués ou encore les DVD de séries TV, contenant de multiples épisodes et donc chapitres), cette méthode n'est pas précise et vous pourriez ne pas être en mesure de lire votre film correctement.<br/>
+La premiÃ¨re permet une lecture quasi-assurÃ©e de la plupart des DVDs. Une fois insÃ©rÃ©, le disque est automatiquement dÃ©tectÃ© et MPlayer va essayer de lire le chapitre qu'il jugera correspondre au film. Le principal avantage rÃ©side dans le fait que toutes les scÃ¨nes de droit d'auteur, publicitÃ©s ou menus seront sautÃ©es pour permettre une lecture instantannÃ©e du film. NÃ©anmoins, dans certaines situations (comme les DVD avec des menus trÃ¨s sophistiquÃ©s ou encore les DVD de sÃ©ries TV, contenant de multiples Ã©pisodes et donc chapitres), cette mÃ©thode n'est pas prÃ©cise et vous pourriez ne pas Ãªtre en mesure de lire votre film correctement.<br/>
 <br/>
-La seconde, bien qu'encore expérimentale avec MPlayer (mais qui a néanmoins de très fortes chances de fonctionner), apporte le support des menus de navigation DVD, vous permettant donc de le lire comme vous le feriez avec n'importe quel lecteur DVD du commerce, avec les avantages et inconvénients qui en découlent.<br/>
+La seconde, bien qu'encore expÃ©rimentale avec MPlayer (mais qui a nÃ©anmoins de trÃ¨s fortes chances de fonctionner), apporte le support des menus de navigation DVD, vous permettant donc de le lire comme vous le feriez avec n'importe quel lecteur DVD du commerce, avec les avantages et inconvÃ©nients qui en dÃ©coulent.<br/>
 <br/>
-Il vous est bien entendu possible de basculer d'un mode de lecture DVD à un autre au moyen du menu d'options de la GeeXboX, selon le DVD que vous êtes amener à visionner.<br/>
+Il vous est bien entendu possible de basculer d'un mode de lecture DVD Ã  un autre au moyen du menu d'options de la GeeXboX, selon le DVD que vous Ãªtes amener Ã  visionner.<br/>
 <br/>
-Il vous est également possible de spécifier la méthode de lecture par défaut au moyen du générateur d'ISO de la GeeXboX.<br/>
+Il vous est Ã©galement possible de spÃ©cifier la mÃ©thode de lecture par dÃ©faut au moyen du gÃ©nÃ©rateur d'ISO de la GeeXboX.<br/>
       </content>
     </subsection>
 
@@ -1464,7 +1464,7 @@ In the same way, you can also specify the default encoding profile to be used wh
 - <b>DVD Video (PAL/NTSC)</b><br/>
 - <b>Stream Dump</b> (can be safely used on DVB MPEG-TS streams for example to avoid a re-encoding process).<br/>
 <br/>
-The default encoding profile has to be specified in the <i>/etc/recorder<i> configuration file, as below:<br/>
+The default encoding profile has to be specified in the <i>/etc/recorder</i> configuration file, as below:<br/>
 <br/>
 <b>RECORD_PROFILE="mpeg1"</b><br/>
 <br/>
@@ -1477,40 +1477,40 @@ When watching a TV stream and starting the record process, GeeXboX image might f
 <br/>
 When stopping the recording process, GeeXboX will stop MEncoder and will reload the original input stream.<br/>
       </content>
-      <content lang="fr" title="Capacités d'enregistrement ...">
-      La GeeXboX permet l'enregistrement en cours de lecture, de même que la fonctionnalité de "pause en direct" (également connue sous le nom anglais de Time-Shifting). Malheureusement, cette opération est extrêmement consommatrice de temps CPU (encodage en temps-réel et lecture simultannée d'un flux vidéo) et, de ce fait, il se peut que vous nécessitiez un ordinateur relativement récent pour être à même de tirer partie de cette fonctionnalité.<br/>
+      <content lang="fr" title="CapacitÃ©s d'enregistrement ...">
+      La GeeXboX permet l'enregistrement en cours de lecture, de mÃªme que la fonctionnalitÃ© de "pause en direct" (Ã©galement connue sous le nom anglais de Time-Shifting). Malheureusement, cette opÃ©ration est extrÃªmement consommatrice de temps CPU (encodage en temps-rÃ©el et lecture simultannÃ©e d'un flux vidÃ©o) et, de ce fait, il se peut que vous nÃ©cessitiez un ordinateur relativement rÃ©cent pour Ãªtre Ã  mÃªme de tirer partie de cette fonctionnalitÃ©.<br/>
 <br/>
-Le menu de contrôle comporte un sous-menu dédié à cette fonctionnalité d'enregistrement, qui vous permet de vérifier le statut de l'enregistrement (actif/inactif), vérifier le chemin de destination des fichiers enregistrés, mais également démarrer et/ou arrêter le processus d'enregistrement, ou encore de sélectionner le profil d'encodage que vous désirez utiliser. Le processus d'enregistrement peut également être appelé (ou interrompu) au moyen du clavier (via la touche "i") ou au moyen d'une télécommande.<br/>
+Le menu de contrÃ´le comporte un sous-menu dÃ©diÃ© Ã  cette fonctionnalitÃ© d'enregistrement, qui vous permet de vÃ©rifier le statut de l'enregistrement (actif/inactif), vÃ©rifier le chemin de destination des fichiers enregistrÃ©s, mais Ã©galement dÃ©marrer et/ou arrÃªter le processus d'enregistrement, ou encore de sÃ©lectionner le profil d'encodage que vous dÃ©sirez utiliser. Le processus d'enregistrement peut Ã©galement Ãªtre appelÃ© (ou interrompu) au moyen du clavier (via la touche "i") ou au moyen d'une tÃ©lÃ©commande.<br/>
 <br/>
-Une condition est néanmoins requise pour profiter de la fonctionnalité, à savoir que vous devez disposer d'un espace de stockage des fichiers. Ce dernier peut tout aussi bien être un disque dur interne ou externe qu'un lecteur réseau, connecté par NFS ou Samba. La seule contrainte à considérer réside dans le fait que Linux doit supporter l'accès en écriture au système de fichiers (autrement dit, les partitions NTFS ne sont pas utilisables). Prenez garde lors de l'enregistrement de fichiers au fait que votre disque dur sera remonté en R/W pour permettre le stockage. Une fois l'enregistrement terminé, la GeeXboX tentera de remonter votre disque en R/O, par mesure de sécurité, mais il y a toujours un risque que cela ne soit pas fait. Il est alors vivement recommandé, lors de l'utilisation de cette fonctionnalité, que vous procédiez à une extinction "propre" de l'ordinateur pour éviter toute corruption potentielle de données ou du système de fichiers. Nous n'assumons en aucun cas une éventuelle perte de données sensibles.<br/>
+Une condition est nÃ©anmoins requise pour profiter de la fonctionnalitÃ©, Ã  savoir que vous devez disposer d'un espace de stockage des fichiers. Ce dernier peut tout aussi bien Ãªtre un disque dur interne ou externe qu'un lecteur rÃ©seau, connectÃ© par NFS ou Samba. La seule contrainte Ã  considÃ©rer rÃ©side dans le fait que Linux doit supporter l'accÃ¨s en Ã©criture au systÃ¨me de fichiers (autrement dit, les partitions NTFS ne sont pas utilisables). Prenez garde lors de l'enregistrement de fichiers au fait que votre disque dur sera remontÃ© en R/W pour permettre le stockage. Une fois l'enregistrement terminÃ©, la GeeXboX tentera de remonter votre disque en R/O, par mesure de sÃ©curitÃ©, mais il y a toujours un risque que cela ne soit pas fait. Il est alors vivement recommandÃ©, lors de l'utilisation de cette fonctionnalitÃ©, que vous procÃ©diez Ã  une extinction "propre" de l'ordinateur pour Ã©viter toute corruption potentielle de donnÃ©es ou du systÃ¨me de fichiers. Nous n'assumons en aucun cas une Ã©ventuelle perte de donnÃ©es sensibles.<br/>
 <br/>
-Le répertoire de destination des fichiers enregistrés doit également être renseigné lors de l'installation ou de la génération de l'image ISO par le générateur. Il s'agit ici de modifier la variable suivante au sein du fichier <i>/etc/recorder</i> :<br/>
+Le rÃ©pertoire de destination des fichiers enregistrÃ©s doit Ã©galement Ãªtre renseignÃ© lors de l'installation ou de la gÃ©nÃ©ration de l'image ISO par le gÃ©nÃ©rateur. Il s'agit ici de modifier la variable suivante au sein du fichier <i>/etc/recorder</i> :<br/>
 <br/>
 <b>SAVE_PATH="/tmp"</b><br/>
 <br/>
-Le comportement par défaut consiste à enregistrer les vidéos dans le répertoire <i>/tmp</i>, mais dans la mesure où il s'agit d'un RAMdisk, la GeeXboX est suffisamment intelligente pour refuser cette action. Partant de ce point, il n'y aucune chance que la GeeXboX tente d'enregistrer des fichiers sur votre disque dur à moins que vous n'aillez personnellement spécifié un répertoire de destination valide.<br/>
+Le comportement par dÃ©faut consiste Ã  enregistrer les vidÃ©os dans le rÃ©pertoire <i>/tmp</i>, mais dans la mesure oÃ¹ il s'agit d'un RAMdisk, la GeeXboX est suffisamment intelligente pour refuser cette action. Partant de ce point, il n'y aucune chance que la GeeXboX tente d'enregistrer des fichiers sur votre disque dur Ã  moins que vous n'aillez personnellement spÃ©cifiÃ© un rÃ©pertoire de destination valide.<br/>
 <br/>
-De la même façon, il est également possible de choisir le profil d'encodage qui sera utilisé par défaut. Il vous sera toujours possible de le changer en cours d'éxécution, par le biais du menu dédié à l'enregistrement. De nombreux profils sont disponibles (consultez le fichier de configuration <i>/etc/mplayer/mencoder.conf</i> pour une liste exhaustive et les détails de chacun) et proposent chacun différents niveaux de qualité et de vitesse d'encodage. Vous serez amenés à en choisir l'un par rapport à l'autre selon votre puissance CPU. Selon le flux d'entrée (WebTV de faible résolution, TV analogique standard, TV numérique en haute résolution ...), un type de profil peut correspondre mieux qu'un autre. Vous trouverez ci-dessous une liste non-exhaustive des différents profils d'encodages disponibles :<br/>
+De la mÃªme faÃ§on, il est Ã©galement possible de choisir le profil d'encodage qui sera utilisÃ© par dÃ©faut. Il vous sera toujours possible de le changer en cours d'Ã©xÃ©cution, par le biais du menu dÃ©diÃ© Ã  l'enregistrement. De nombreux profils sont disponibles (consultez le fichier de configuration <i>/etc/mplayer/mencoder.conf</i> pour une liste exhaustive et les dÃ©tails de chacun) et proposent chacun diffÃ©rents niveaux de qualitÃ© et de vitesse d'encodage. Vous serez amenÃ©s Ã  en choisir l'un par rapport Ã  l'autre selon votre puissance CPU. Selon le flux d'entrÃ©e (WebTV de faible rÃ©solution, TV analogique standard, TV numÃ©rique en haute rÃ©solution ...), un type de profil peut correspondre mieux qu'un autre. Vous trouverez ci-dessous une liste non-exhaustive des diffÃ©rents profils d'encodages disponibles :<br/>
 <br/>
 - <b>MPEG 1</b><br/>
 - <b>MPEG 2</b><br/>
 - <b>Video CD (PAL/NTSC)</b><br/>
 - <b>Super Video CD (PAL/NTSC)</b><br/>
 - <b>DVD Video (PAL/NTSC)</b><br/>
-- <b>Stream Dump</b> (peut être utilisé sur des flux DVB de type MPEG-TS par exemple pour éviter un processus de ré-encodage).<br/>
+- <b>Stream Dump</b> (peut Ãªtre utilisÃ© sur des flux DVB de type MPEG-TS par exemple pour Ã©viter un processus de rÃ©-encodage).<br/>
 <br/>
-Le profil d'encodage par défaut doit être renseigné au sein du fichier de configuration <i>/etc/recorder</i> de la manière suivante :<br/>
+Le profil d'encodage par dÃ©faut doit Ãªtre renseignÃ© au sein du fichier de configuration <i>/etc/recorder</i> de la maniÃ¨re suivante :<br/>
 <br/>
 <b>RECORD_PROFILE="mpeg1"</b><br/>
 <br/>
-A moins que vous ne sachiez exactement ce que vous faites, il est grandement recommandé que vous utilisiez le générateur d'images ISO pour choisir le profil par défaut.<br/>
+A moins que vous ne sachiez exactement ce que vous faites, il est grandement recommandÃ© que vous utilisiez le gÃ©nÃ©rateur d'images ISO pour choisir le profil par dÃ©faut.<br/>
 <br/>
-Lorsque vous regardez un flux TV et que vous débutez son enregistrement, l'image va se bloquer quelques secondes, le temps pour MEncoder de démarrer l'enregistrement, et la GeeXboX va procéder à la lecture en différé du fichier en cours d'enregistrement. Si votre CPU est trop lent, la lecture apparaîtra de manière saccadée, attendant que les images soient encodées. Si cela se produit, il existe 2 cas de figures :<br/>
+Lorsque vous regardez un flux TV et que vous dÃ©butez son enregistrement, l'image va se bloquer quelques secondes, le temps pour MEncoder de dÃ©marrer l'enregistrement, et la GeeXboX va procÃ©der Ã  la lecture en diffÃ©rÃ© du fichier en cours d'enregistrement. Si votre CPU est trop lent, la lecture apparaÃ®tra de maniÃ¨re saccadÃ©e, attendant que les images soient encodÃ©es. Si cela se produit, il existe 2 cas de figures :<br/>
 <br/>
-- utilisez un PC multimédia plus puissant.<br/>
-- utilisez un profil d'encodage plus rapide (i.e. de moindre qualité).<br/>
+- utilisez un PC multimÃ©dia plus puissant.<br/>
+- utilisez un profil d'encodage plus rapide (i.e. de moindre qualitÃ©).<br/>
 <br/>
-Lorsque vous mettez fin au processus d'enregistrement, la GeeXboX arrêtera MEncoder et va relancer la lecture du flux vidéo original.<br/>
+Lorsque vous mettez fin au processus d'enregistrement, la GeeXboX arrÃªtera MEncoder et va relancer la lecture du flux vidÃ©o original.<br/>
       </content>
     </subsection>
 
@@ -1528,18 +1528,18 @@ You can get <b>"FreeboxTV"</b> thanks to this file, using the following process:
 - uncomment EXTM3U ad hoc entry.<br/>
 - use a GeeXboX version that have to be compiled with <b>"LIVE555 library"</b> support (otherwise you won't be able to decode the stream).<br/>
       </content>
-      <content lang="fr" title="Streaming réseau ...">
+      <content lang="fr" title="Streaming rÃ©seau ...">
       La GeeXboX permet de rajouter les listes de streams SHOUTcast Radio et TV tout autant que vos propres listes de lecture. (locales et distantes.)<br/>
 <br/>
-L'activation de SHOUTcast se déclare dans le fichier de configuration <i>"GEEXBOX/etc/network"</i>. SHOUTcast TV étant succeptible de diffuser des streams à caractère pornographique, une liste noire et une liste blanche peuvent être complétées afin de filtrer le contenu selon vos critères (par défaut, les mots clefs définis pour la liste noire sont "adult xxx porn").<br/>
+L'activation de SHOUTcast se dÃ©clare dans le fichier de configuration <i>"GEEXBOX/etc/network"</i>. SHOUTcast TV Ã©tant succeptible de diffuser des streams Ã  caractÃ¨re pornographique, une liste noire et une liste blanche peuvent Ãªtre complÃ©tÃ©es afin de filtrer le contenu selon vos critÃ¨res (par dÃ©faut, les mots clefs dÃ©finis pour la liste noire sont "adult xxx porn").<br/>
 <br/>
-Vous pouvez créer vos listes de lecture locales et distantes dans le fichier de configuration <i>"GEEXBOX/etc/netstream"</i> (des exemples sont contenus dans ce fichier). Les listes de lecture distantes concernent uniquement les fichiers M3U Etendus.<br/>
+Vous pouvez crÃ©er vos listes de lecture locales et distantes dans le fichier de configuration <i>"GEEXBOX/etc/netstream"</i> (des exemples sont contenus dans ce fichier). Les listes de lecture distantes concernent uniquement les fichiers M3U Etendus.<br/>
 <br/>
-Note aux utilisateurs (Français uniquement) :<br/>
-Il est possible de receptionner un flux <b>"FreeboxTV"</b> grâce à ce fichier. Pour y parvenir, veuillez suivre la procédure suivante :<br/>
+Note aux utilisateurs (FranÃ§ais uniquement) :<br/>
+Il est possible de receptionner un flux <b>"FreeboxTV"</b> grÃ¢ce Ã  ce fichier. Pour y parvenir, veuillez suivre la procÃ©dure suivante :<br/>
 <br/>
-- dé-commentez l'entrée EXTM3U ad-hoc.<br/>
-- utilisez une version de GeeXboX compilée avec le support de la librairie <b>"LIVE555"</b> (ces deux conditions étant nécessaires à la visualisation du flux) .<br/>
+- dÃ©-commentez l'entrÃ©e EXTM3U ad-hoc.<br/>
+- utilisez une version de GeeXboX compilÃ©e avec le support de la librairie <b>"LIVE555"</b> (ces deux conditions Ã©tant nÃ©cessaires Ã  la visualisation du flux) .<br/>
       </content>
     </subsection>
 
