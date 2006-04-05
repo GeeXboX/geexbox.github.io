@@ -126,7 +126,6 @@
         </xsl:when>
       </xsl:choose>
     </xsl:if>
-    ...
   </h4>
   <xsl:if test="content[@lang=$lang]/node()">
     <div class="p">
