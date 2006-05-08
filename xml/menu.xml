@@ -73,6 +73,12 @@
       <text lang="de">Keys &amp; Controls</text>
     </subitem>
 
+    <subitem name="generator" url="generator.html">
+      <text lang="en">ISO Generator</text>
+      <text lang="fr">Générateur d'ISO</text>
+      <text lang="de">ISO Generator</text>
+    </subitem>
+
     <subitem name="faq" url="faq.html">
       <text lang="en">FAQ</text>
       <text lang="fr">FAQ</text>

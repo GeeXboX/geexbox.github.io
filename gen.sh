@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PAGES="index old start license screenshot bugs requirements downloads buy doc controls hard faq links sponsors press mailing contact dev donate packages 404"
+PAGES="index old start license screenshot bugs requirements downloads buy doc controls generator hard faq links sponsors press mailing contact dev donate packages 404"
 LANGS="en fr de"
 
 for l in $LANGS; do
