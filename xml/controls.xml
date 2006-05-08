@@ -64,24 +64,6 @@
     <content lang="fr" title="Touches &amp; Contrôles ..."/>
     <content lang="de" title="Keys &amp; Controls ..."/>
 
-    <subsection label="controls-list">
-      <content lang="en" title="Controls List ...">
-        <a href="#osd_menu">How to use the OSD menu ...</a><br/>
-        <a href="#keyboard-scheme">Using the keyboard ...</a><br/>
-        <a href="#remote-scheme">Using a supported remote ...</a><br/>
-      </content>
-      <content lang="fr" title="Liste des contrôles ...">
-        <a href="#osd_menu">Guide d'utilisation du menu OSD ...</a><br/>
-        <a href="#keyboard-scheme">Utiliser le clavier ...</a><br/>
-        <a href="#remote-scheme">Utiliser une télécommande supportée ...</a><br/>
-      </content>
-      <content lang="de" title="Kontrols Liste ...">
-        <a href="#osd_menu">Benutzen des OSD Menüs ...</a><br/>
-        <a href="#keyboard-scheme">Using the keyboard ...</a><br/>
-        <a href="#remote-scheme">Eine unterstützte Fernbedienung verwenden ...</a><br/>
-      </content>
-    </subsection>
-
     <subsection label="osd_menu">
       <content lang="en" title="How to use OSD menu ...">
         The GeeXboX's OSD Menu can easily be controlled using either a single keyboard or a remote controller. Use the up and down arrows keys to switch between the main menu options. The right arrow is used to go to a specific submenu (i.e "Ok") and the left one is for coming back (i.e "Cancel").<br/><br/>
