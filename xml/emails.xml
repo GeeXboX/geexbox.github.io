@@ -50,4 +50,14 @@
     <!-- asbin+geexbox AT asbin DOT org -->
     <address><![CDATA[&#097;&#115;&#098;&#105;&#110;+&#103;&#101;&#101;&#120;&#098;&#111;&#120;&#064;&#097;&#115;&#098;&#105;&#110;&#046;&#111;&#114;&#103;]]></address>
   </email>
+  <email id="andrew">
+    <content>Andrew Calkin</content>
+    <!-- calkina AT geexbox DOT org -->
+    <address><![CDATA[&#099;&#097;&#108;&#107;&#105;&#110;&#097;&#064;&#103;&#101;&#101;&#120;&#098;&#111;&#120;&#046;&#111;&#114;&#103;]]></address>
+  </email>
+  <email id="mathieu">
+    <content>Mathieu Schroeter</content>
+    <!-- mathieu DOT schroeter AT mycable DOT ch -->
+    <address><![CDATA[&#109;&#097;&#116;&#104;&#105;&#101;&#117;&#046;&#115;&#099;&#104;&#114;&#111;&#101;&#116;&#101;&#114;&#064;&#109;&#121;&#099;&#097;&#098;&#108;&#101;&#046;&#099;&#104;]]></address>
+  </email>
 </emails>

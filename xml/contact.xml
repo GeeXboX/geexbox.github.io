@@ -10,7 +10,7 @@
 
   <define name="author-dev">
     <i>
-      <email id="amir"/>, <email id="asbin"/>, Andrew Calkin<br/>
+      <email id="amir"/>, <email id="asbin"/>, <email id="andrew"/>, <email id="mathieu"/><br/>
     </i>
   </define>
 
@@ -22,7 +22,7 @@
 
   <define name="author-contrib">
     <i>
-      Serge Gebhardt, Dennis Roos, Ville Skytta, Heiko Rutenbeck (bzrudi), Dennis Roos, Herve Urbain, Mathieu Velten, Kevin Foss, Arne Graesser, Cedric Chaissac, Jean Flinois, Laurent Peltier, Mathieu Schroeter<br/>
+      Serge Gebhardt, Dennis Roos, Ville Skytta, Heiko Rutenbeck (bzrudi), Dennis Roos, Herve Urbain, Mathieu Velten, Kevin Foss, Arne Graesser, Cedric Chaissac, Jean Flinois, Laurent Peltier<br/>
     </i>
   </define>
 
