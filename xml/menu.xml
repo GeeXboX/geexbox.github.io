@@ -13,6 +13,12 @@
       <text lang="de">News</text>
     </subitem>
 
+    <subitem name="old" url="old.html">
+      <text lang="en">Archives</text>
+      <text lang="fr">Archives</text>
+      <text lang="de">Archives</text>
+    </subitem>
+
     <subitem name="get_started" url="start.html">
       <text lang="en">Get Started</text>
       <text lang="fr">Par où commencer</text>
