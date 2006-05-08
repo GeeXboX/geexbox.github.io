@@ -23,8 +23,11 @@ At the time of the first development releases (Dec. 2002), it was only capable o
    * OggMedia streams<br/>
    * Matroska streams<br/>
    * Audio streams like : MP3, Ogg/Vorbis, WAV (AudioCD), AC3, MusePack (MPC), FLAC ...<br/>
-   * Network streams : WebRadio and WebTV<br/>
+   * Network streams : WebRadio and WebTV through SHOUTcast.<br/>
    * Watching analog TV and digital DVB<br/>
+   * Playing analog Radio streams.<br/>
+   * Playing files from your local network (LAN) through remote NFS, Samba (i.e. Windows) or UPnP shares.<br/>
+   * Recording TV streams while watching them and performing Time-Shifting (live pause). 
       </content>
       <content lang="fr" title="Qu'est ce que la GeeXboX ...">
         La question que vous êtes surement à même de vous poser est probablement : "Mais qu'est donc exactement le projet GeeXboX dont on arrête pas de me parler ?" ;-) Si tel est le cas, vous êtes au bon endroit !<br/><br/>
@@ -42,8 +45,11 @@ A l'époque des premières phases de développement (Dec. 2002), il était uniqu
    * Les flux OggMedia<br/>
    * Les flux Matroska<br/>
    * Les flux exclusivement Audio tels que le MP3, Ogg/Vorbis, WAV (AudioCD), AC3, MusePack (MPC), FLAC ...<br/>
-   * Les flux réseaux comme les WebRadios ou WebTVs.<br/>
+   * Les flux réseaux comme les WebRadios ou WebTVs via SHOUTcast.<br/>
    * La télévision analogique et numérique (DVB).<br/>
+   * L'écoute de flux analogiques de la radio.<br/>
+   * La lecture de fichiers depuis votre réseau local via les partages NFS, Samba (i.e. Windows) ou UPnP.<br/>
+   * L'enregistrement de flux TV lors de leur lecture et la possibilité de réaliser une pause en direct (autrement appelé Time-Shifting).
       </content>
       <content lang="de" title="Was genau ist die GeeXboX ...">
         Die Frage, die Sie sich wahrscheinlich stellen, ist : "Junge, was genau ist eingentlich dieses GeeXboX Projekt, über das ich schon so viel gehört habe ?" ;-)<br/> Hier finden Sie die Antwort !<br/><br/>
@@ -61,7 +67,10 @@ Z.Zt. der ersten Entwicklerversion (Dez. 2002) konnte die GeeXboX nur DivX Filme
    * OggMedia Streams<br/>
    * Matroska Streams<br/>
    * Audio Streams wie : MP3, Ogg/Vorbis, WAV (AudioCD), AC3, MusePack (MPC), FLAC ...<br/>
-   * Network streams : Webradio and WebTV<br/>
+   * Network streams : Webradio and WebTV through SHOUTcast.<br/>
+   * Playing analog Radio streams.<br/>
+   * Playing files from your local network (LAN) through remote NFS, Samba (i.e. Windows) or UPnP shares.<br/>
+   * Recording TV streams while watching them and performing Time-Shifting (live pause).
       </content>
     </subsection>
     <subsection label="more">
