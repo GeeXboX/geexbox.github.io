@@ -41,7 +41,7 @@
   </define>
 
   <define name="sata_supported">
-    Promise SX8, ServerWorks Frodo, Apple K2, Intel PIIX/ICH, nVidia, Promise TX2/TX4, Promise SX4, Silicon Image, SiS 964/180, VIA, VITESSE VASC-7174, QStor.
+    Promise SX8, AHCI, ServerWorks Frodo / Apple K2, Intel PIIX/ICH, Marvell, nVidia, Pacific Digital ADMA / Qstro, Promise TX2/TX4, Promise SX4, Silicon Image 3124 / 3132, SiS 964/180, ULi Electronics, VIA, VITESSE VASC-7174.
   </define>
   <define name="sata_unsupported">
     None.
@@ -55,20 +55,20 @@
   </define>
 
   <define name="eth_supported">
-    3COM 3c50x (EtherLink serie), 3COM 3c590/900/990 series (Vortex/Boomerang/Typhoon), WD/SMC Ultra ISA, AMD PCnet32, AMD 8111, Adaptec Starfire/DuraLAN, Broadcom 4400, nForce, Intel EtherExpress Pro, National Semiconductor DP8381x, NE2000 PCI, RealTek 8139(C+), RealTek 8129/8130, SiS 900/7016, SMC EtherPower, VIA Rhine, VIA Velocity (Giga), Alteon AceNIC/3Com 3C958 (Giga), NetGear GA620 (Giga), Intel Pro 1000, RealTek 8169 (Giga), Marvell Yukon (Giga), SysKonnect SK-98xx (Giga), Broadcom Tigon3 (Giga), Tulip.
+    3COM 3c50x (EtherLink serie), 3COM 3c590/900/990 series (Vortex/Boomerang/Typhoon), WD/SMC Ultra ISA, AMD PCnet32, AMD 8111, Adaptec Starfire/DuraLAN, Broadcom 4400, nForce, Intel EtherExpress Pro, National Semiconductor DP8381x, NE2000 PCI, RealTek 8139(C+), RealTek 8129/8130, SiS 900/7016, SMC EtherPower, VIA Rhine, VIA Velocity (Giga), Alteon AceNIC/3Com 3C958 (Giga), NetGear GA620 (Giga), Intel Pro 1000, RealTek 8169 (Giga), Marvell Yukon (Giga), SysKonnect SK-98xx (Giga), Broadcom Tigon3 (Giga), Tulip, D-Link DL2000 (Giga), National Semiconduct DP83820 (Giga), Hmachi GNIc-II (Giga), Yellowfin (Giga), SiS 190/191 (Giga), Broadcom NeXtreme II.
   </define>
   <define name="eth_unsupported">
-    3COM 3c525 ISA, AMD Lance ISA, SMC 9194, ATxxx, DExxx, HPxxx, other ISA cards, D-Link DL2000 (Giga), National Semiconductor DP83820. All PCMCIA cards.
+    3COM 3c525 ISA, AMD Lance ISA, SMC 9194, ATxxx, DExxx, HPxxx, other ISA cards. All PCMCIA 16bits cards.
   </define>
  
   <define name="link-wifi">
     <a href="http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Wireless.html">Jean Tourrilhes' Page</a>
   </define>
   <define name="wifi_supported">
-    Hermes (Orinoco), Intersil HFA384x (Prism 2), Prism 2.5, Ralinktech RT2400, Ralinktech RT2500, Cisco 34X, Cisco 35X, Aironet 4500, Aironet 4800(B), Atmel at76c50x, Intel Centrino IPW2100/IPW2200, Prism54/GT.
+    Hermes (Orinoco), Intersil HFA384x (Prism 2), Prism 2.5, Ralinktech RT2400, Ralinktech RT2500, Cisco 34X, Cisco 35X, Aironet 4500, Aironet 4800(B), Atmel at76c50x, Intel Centrino IPW2100/IPW2200, Prism54/GT, PcCard 32 bits cards.
   </define>
   <define name="wifi_unsupported">
-    Texas Instruments ACX100, RealTek 8180, Admteck ADM 8211, Atheros, USB Prism3, PCMCIA cards.
+    Texas Instruments ACX100, RealTek 8180, Admteck ADM 8211, Atheros, USB Prism3, PCMCIA 16 bits cards.
   </define>
 
   <define name="tv_supported">
@@ -87,10 +87,10 @@
   </define>
 
   <define name="misc_supported">
-    USB Joysticks, XboX GamePad, Cards readers, ATI Remote Wonder, Radio adapters.
+    USB Joysticks, XboX GamePad, Cards readers, ATI Remote Wonder, Radio adapters, PcCard 32 bits cards.
   </define>
   <define name="misc_unsupported">
-    Mouse, RAID controllers, PCMCIA cards.
+    Mouse, RAID controllers, old 16bits PCMCIA cards.
   </define>
 
   <define name="linuxtv-wiki">
