@@ -79,14 +79,6 @@
           </tr>
         </table>
       </content>
-      <content lang="de" title="GeeXboX.org Mirror Liste ...">
-        Neben diesen beiden Unternehmen, helfen uns viele Personen, Verbünde oder Firmen Ihnen das GeeXboX Projekt verfügbar zu machen. Diese Hilfe findet in Form von Mirror Webseiten statt. Wir möchten uns herzlich bei allen in der folgenden Liste bedanken:<br/>
-        <br/>
-        <use name="mirror_list"/>
-        <br/>
-        Falls Sie Zugang zu Hochgeschwindigkeits und ualitativ hochwertigen Hosting-Lösungen haben und auch interessiert sind unser Projekt zu spiegeln, kontaktieren Sie bitte den <use name="webmaster"/>.
-        <br/><br/><br/>
-      </content>
     </subsection>
 
     <subsection label="mirrors">
