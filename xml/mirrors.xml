@@ -33,12 +33,6 @@
   </mirror>
 
   <mirror>
-    <country>nl</country>
-    <description>InTouch.net, Amsterdam (Netherlands, HTTP)</description>
-    <url>http://geexbox.mirror.intouch.nl/</url>
-  </mirror>
-
-  <mirror>
     <country>de</country>
     <description>MetalForen.org, Berlin (Germany, HTTP)</description>
     <url>http://geexbox.metalforen.org/</url>
