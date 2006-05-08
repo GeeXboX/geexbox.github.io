@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ours SYSTEM "geexbox.dtd">
+<!DOCTYPE atom SYSTEM "geexbox.dtd">
 
 <atom>
-  <logo src="../img/atompixel2.png" alt="Atom Feed" width="80" heigth="15"/>
+  <!-- icon from http://feedicons.com/ -->
+  <logo src="../img/feed-icon-16x16.png" alt="Atom Feed" width="16" height="16"/>
   <langs>
     <text lang="en">News with Atom 1.0 Feed</text>
     <text lang="fr">Nouvelles avec Atom 1.0 Feed</text>
+    <text lang="de">Atom 1.0 Feed</text>
   </langs>
 </atom>

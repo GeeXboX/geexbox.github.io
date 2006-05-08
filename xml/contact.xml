@@ -4,13 +4,13 @@
 <article>
   <define name="author-core">
     <i>
-      <a href="mailto:__aurel__at__geexbox__dot__org__">Aurelien Jacobs</a>, <a href="mailto:__ben__at__geexbox__dot__org__">Benjamin Zores</a><br/>
+      <email id="aurel"/>, <email id="ben"/><br/>
     </i>
   </define>
 
   <define name="author-dev">
     <i>
-      <a href="mailto:__amir__at__geexbox__dot__org__">Amir Shalem</a><br/>
+      <email id="amir"/>, <email id="asbin"/>, Andrew Calkin<br/>
     </i>
   </define>
 
@@ -22,7 +22,7 @@
 
   <define name="author-contrib">
     <i>
-      Serge Gebhardt, Dennis Roos, Alexis Saettler, Ville Skytta, Heiko Rutenbeck (bzrudi), Andrew Calkin<br/>
+      Serge Gebhardt, Dennis Roos, Ville Skytta, Heiko Rutenbeck (bzrudi), Dennis Roos, Herve Urbain, Mathieu Velten, Kevin Foss, Arne Graesser, Cedric Chaissac, Jean Flinois, Laurent Peltier, Mathieu Schroeter<br/>
     </i>
   </define>
 
@@ -62,32 +62,29 @@
       <content lang="en" title="Contact the GeeXboX team ...">
         Any suggestions, remarks, questions, bug report, thanks ? We'll be glad to hear and answer to what you'll have to tell us. According to your needs, please contact us from the following way.<br/>
         <br/>
-        * <a href="mailto:users@geexbox.org"><u>User issues</u></a> : For any questions you may have about GeeXboX ... If you have a bug report, please supply your hardware configuration and the GeeXboX release you're using. Some developer or other user may have the answer to your question. Please note that this is a publicly archived mailing list.<br/>
+        * <email id="users">User issues</email> : For any questions you may have about GeeXboX ... If you have a bug report, please supply your hardware configuration and the GeeXboX release you're using. Some developer or other user may have the answer to your question. Please note that this is a publicly archived mailing list.<br/>
         <br/>
-        * <a href="mailto:webmaster@geexbox.org"><u>Website issues</u></a> : For any questions or problems with the website display or content, please contact the webmaster.<br/>
+        * <email id="webmaster">Website issues</email> : For any questions or problems with the website display or content, please contact the webmaster.<br/>
         <br/>
-        * <a href="mailto:team@geexbox.org"><u>Contact the team</u></a> : If you don't want your mail to be publicly archieved and visible by others or if you just want to personnaly contact the main GeeXboX developers team for thanks, private questions, contractual jobs or other issues, please feel free to ask for us here.
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        * <email id="team">Contact the team</email> : If you don't want your mail to be publicly archieved and visible by others or if you just want to personnaly contact the main GeeXboX developers team for thanks, private questions, contractual jobs or other issues, please feel free to ask for us here.
       </content>
       <content lang="fr" title="Contactez l'équipe GeeXboX ...">
       Une suggestion quelconque à faire ? Une remarque ou question, un rapport de bug, ou encore des remerciements ? Nous serions heureux d'entendre ce que vous avez à nous dire à ce sujet. Selon vos besoins, veuillez donc prendre contact de la façon la plus appropriée qu'il soit.<br/>
         <br/>
-        * <a href="mailto:users@geexbox.org"><u>Un problème d'ordre utilisateur ?</u></a> : Pour toute question que vous vous poseriez à propos de la GeeXboX ... Si vous avez un rapport de bug à faire, veuillez prendre soin de décrire votre configuration matérielle ainsi que la version de la GeeXboX que vous utilisez. Un développeur du projet ou un autre utilisateur prendra très surement le soin de vous répondre. Veuillez noter qu'il s'agit ici d'une liste de diffusion pour utilisateurs et que votre message et ses réponses seront archivées publiquement.<br/>
+        * <email id="users">Un problème d'ordre utilisateur ?</email> : Pour toute question que vous vous poseriez à propos de la GeeXboX ... Si vous avez un rapport de bug à faire, veuillez prendre soin de décrire votre configuration matérielle ainsi que la version de la GeeXboX que vous utilisez. Un développeur du projet ou un autre utilisateur prendra très surement le soin de vous répondre. Veuillez noter qu'il s'agit ici d'une liste de diffusion pour utilisateurs et que votre message et ses réponses seront archivées publiquement.<br/>
         <br/>
-        * <a href="mailto:webmaster@geexbox.org"><u>Un problème avec le site ?</u></a> : Pour toute question ou problème d'affichage ou de contenu de ce site Internet, veuillez contacter le webmaster.<br/>
+        * <email id="webmaster">Un problème avec le site ?</email> : Pour toute question ou problème d'affichage ou de contenu de ce site Internet, veuillez contacter le webmaster.<br/>
         <br/>
-        * <a href="mailto:team@geexbox.org"><u>Prendre contact avec l'équipe</u></a> : Si vous ne souhaitez pas que votre mail soit archivé publiquement et visible par d'autres personnes que les développeurs, ou si vous souhaitez simplement contacter l'équipe complète de développement pour la remercier, pour des questions d'ordre privé, des demances de travaux ou de contrat ponctuel ou tout autre question, n'hésitez pas à venir nous en parler.
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        * <email id="team">Prendre contact avec l'équipe</email> : Si vous ne souhaitez pas que votre mail soit archivé publiquement et visible par d'autres personnes que les développeurs, ou si vous souhaitez simplement contacter l'équipe complète de développement pour la remercier, pour des questions d'ordre privé, des demances de travaux ou de contrat ponctuel ou tout autre question, n'hésitez pas à venir nous en parler.
       </content>
       <content lang="de" title="Kontakt ...">
         Vorschläge / Anregungen ? Wir freuen uns, jede Frage, die Sie vielleicht zu GeeXboX haben, zu beantworten. Haben Sie einen Bug gefunden, teilen Sie uns bitte Details über Ihre Hardwarekonfiguration und die verwendete GeeXboX Version mit. Für Anregungen/Vorschläge/Danksagungen ;-), oder jede andere Art von Frage schreiben Sie bitte an:<br/>
         <br/>
-        * <a href="mailto:users@geexbox.org"><u>Nutzerangelegenheuten</u></a> : Für alle Fragen rund um GeeXboX ... Falls Sie ein Bug melden, fügen Sie bitte Ihre Hardware-Konfiguration und die GeeXboX Version mit an. Einer der Entwickler oder jemand anders hat vielleicht die Antwort auf Ihre Frage. Bitte beachten Sie, das dies eine frei zugängliche Mailing-Liste ist.<br/>
+        * <email id="users">Nutzerangelegenheuten</email> : Für alle Fragen rund um GeeXboX ... Falls Sie ein Bug melden, fügen Sie bitte Ihre Hardware-Konfiguration und die GeeXboX Version mit an. Einer der Entwickler oder jemand anders hat vielleicht die Antwort auf Ihre Frage. Bitte beachten Sie, das dies eine frei zugängliche Mailing-Liste ist.<br/>
         <br/>
-        * <a href="mailto:webmaster@geexbox.org"><u>Webseitenangelegenheiten</u></a> : Für alle Fragen oder Probleme mit der Webseite ist der Webmaster zuständig.<br/>
+        * <email id="webmaster">Webseitenangelegenheiten</email> : Für alle Fragen oder Probleme mit der Webseite ist der Webmaster zuständig.<br/>
         <br/>
-        * <a href="mailto:team@geexbox.org"><u>Kontakt zum Team</u></a> : Falls Sie es nicht wünschen, das Ihre eMail öffentlich archiviert wird und für andere sichtbar ist, oder falls Sie einfach die Hauptentwickler con GeeXboX für Danksagungen, Fragen oder ähnliches kontaktieren wollen, schreiben Sie einfach an diese eMail.<br/>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        * <email id="team">Kontakt zum Team</email> : Falls Sie es nicht wünschen, das Ihre eMail öffentlich archiviert wird und für andere sichtbar ist, oder falls Sie einfach die Hauptentwickler con GeeXboX für Danksagungen, Fragen oder ähnliches kontaktieren wollen, schreiben Sie einfach an diese eMail.
       </content>
     </subsection>
 

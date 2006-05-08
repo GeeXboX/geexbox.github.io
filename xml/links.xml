@@ -76,6 +76,14 @@
       * <use name="lnk-i810tvout"/> : Intel veröffentliche vor einiger Zeit i810tvout. Dieses Tool erlaubt Ihnen den TV-Ausgang von i810 Mainboards unter Linux zu aktivieren. Leider benutzt die Intel Version eine nicht freizugängliche Quellcode-Datei. Hier finden Sie eine neue Version basierend auf der Intel version, nur ist diese freie Software.<br/>
       <br/>
       </content>
+      <content lang="de" title="GeeXboX Unterprojekte ...">
+      Hier ist eine kurze Liste von GeeXboX-bezogenen Projekten. Diese sind unabhängig vom GeeXboX Betriebssystem und können so auch ohne es genutzt werden. Diese wurden irgendwann von einem GeeXboX-Entwickler entwickelt und werden oder können mit unserer Distribution genutzt werden. Alle sind natürlich freie Software.<br/>
+      <br/>
+      * <use name="lnk-ushare"/> : uShare ist ein UPnP A/V Media Server. Er bindet die Server Kompenente ein, die die UPnP Media Geräte mit Informationen über verfügbare Medien-Dateien versorgt. GeeXboY uShare kann Zugriff auf Bilder, Videos oder Musik freigeben. Es wurde erstellt um Multimedia Dateien GeeXboX zur Verfügung zu stellen, kann aber auch mit jedem anderen UPnP Gerät genutzt werden.<br/>
+      <br/>
+      * <use name="lnk-i810tvout"/> : Intel veröffentliche vor einiger Zeit i810tvout. Dieses Tool erlaubt Ihnen den TV-Ausgang von i810 Mainboards unter Linux zu aktivieren. Leider benutzt die Intel Version eine nicht freizugängliche Quellcode-Datei. Hier finden Sie eine neue Version basierend auf der Intel version, nur ist diese freie Software.<br/>
+      <br/>
+      </content>
     </subsection>
 
     <subsection label="projects">

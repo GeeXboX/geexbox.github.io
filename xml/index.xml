@@ -63,6 +63,11 @@
       <br/>
       <use name="mirror_list"/>
       </content>
+      <content lang="de" title="WebServer Migration">
+      Wie Ihr vieleicht in den letzten Monaten bemerkt habt, haten wir Probleme mit dem Hosting unserer Seite. Viele von Euch haben und geholfen dieses Problem in den Griff zu bekommen. Wir haben nun einen neuen Sponsor (vielen Dank an <use name="lnk-hosting365"/>), der uns einen neuen dedizierten Webserver mit ungebrenzter Bandbreite zur Verfügung gestellt. Dieser wird das GeeXboX Project zumindestens für das ganze Jahr 2006 hosten. Der neue Server ist nun fertig und online. Wir haben ebenso eine Vielzahl von Angeboten für das Spiegeln unsere Seite erhalten. Das erlaubt uns Euch mehrere Wege anzubieten GeeXboX zu bekommen (Ihr könnt euch immer noch mit einem Mirror am Projekt beteiliegen, schaut einfach mal auf die Spenden Seite). Vielen Dank an die folgenden Hoster für die Spiegelung unserer Seite:<br/>
+      <br/>
+      <use name="mirror_list"/>
+      </content>
     </subsection>
 
     <subsection label="release_0.98.7" date="2005-11-11">
@@ -242,6 +247,73 @@
       <br/>
       GeeXboX 0.98.7 ist <a href="downloads.html">hier</a> verfügbar!
       </content>
+      <content lang="de" title="GeeXboX 0.98.7 : Digital Edition">
+      Dies war das erste mal das ein GeeXboX Release ohne Player Update herausgegeben wurde ... aber die Weiterentwicklung war entscheident genug und hier ist sie due neue version 0.98.7. GeeXboX stößt nun in das "digitale Zeitalter" vor und das mit einer Funktion die schon viele erwartet haben: die <b>DVB Karten Unterstützung</b>. Nun kannst du jegliche (PCI oder USB) DVB Geräte (egal ob Kabel, Terrestrisch oder Satellit) welches unter Linux läuft (schaut auf der Webseite nach für mehr Infos) nutzen. Durch die offizielle Implementierung des i802.11 Stacks in den Linux 2.6.14 Kernel können wir Euch auch einen besseren WiFi Support durch Treiber für Prism54G und Centrino Chipsätze geben.<br/>
+      <br/>
+      Leider benötigen viele DVB und WiFi Chipsätze proprietäre Firmware um richtig zu funktionieren. Dies ist aber kein Problem für GeeXboX, da es mit seienm eigenen brand neuem Firmware Auto-Loader daherkommt. Du kannst sogar den FLTK Generator nutzen, um mit diesem die Firmware aus dem Web zu laden und ein eigenes Deinen Wünschen angepasstet ISO zu erstellen. Du kannst den Generator auch nutzen um weitere Schriftarten oder weitere Codecs herunterzuladen.<br/>
+      Aber es gibt auch schlechte Nachrichten, die in naher Zukunft große Probleme bereiten werden. Aus verschiedenen Gründen wird InTouch, unserer derzeiter Sponsor, der uns einen Webserver mti freiem Hosting zur Verfügung gestellt hat, dieses Sponsoring zum 1 Januar zurückziehen. Zur Lösung des Problems suche wir derzeit nach Personen die unsere Seiet spiegeln würden. Also wenn Ihr uns einen Server oder das Hosting kostenlos zur Vefügung stellen könnt, meldet Euch bitte.<br/>
+      <br/>
+      Zum Schluß noch eine positive Nachricht, wir haben den letzten Trend bei den Netzwerk Sharing Protokollen in vielen Consumer Geräten implementiert: UPnP. Mit diesem AddOn kann GeeXbox nun UpnP Media Server autmatisch entdecken und Dateien von diesen abspielen. Also genießt die digitale Show und lehnt Euch in Euren Sesseln zurück solange wir noch auf die nächste Version des MPlayers warten ;-)<br/>
+      <br/>
+      <b>Detailiertes Changelog (relativ zur 0.98.6 Version) : </b>
+            <br/>
+      <br/>
+      <b>System :</b>
+            <br/>
+      - Linux Update auf Version 2.6.14.<br/>
+      - Update von uClibc auf 0.9.28.<br/>
+      - Support für FUSE (Filesystem In Userland) 2.4.1<br/>
+      - Support für Treiber Firmware auto-loading. Sie können nun Treiber nutzen, die eine externe propietäre Firmware benötigen.<br/>
+      - Update von Syslinux auf v3.11.<br/>
+      - Support für DVB Karten.<br/>
+      - Ein DVB Free-To-Air Kanal Suchlauf wurde hinzugefügt (bei der Live-CD beim Bootvorgang, oder bei der Nutzung des Installationstools).<br/>
+      <br/>
+      <b>Toolchain :</b>
+            <br/>
+      - Neue DEVTOOLS Option bei der Compilierung, fügt viele nützliche Debugging Tools für einfache Entwicklung hinzu.<br/>
+      - Neue UPNP Option bei der Compilierung um UPnP Unterstützgung zu aktivieren/deaktivieren.<br/>
+      <br/>
+      <b>Audio :</b>
+            <br/>
+      - Update der ALSA Bibliotheken und Software auf 1.0.10rc2.<br/>
+      - Korrektur von einigen PPC Sound Problemen.<br/>
+      <br/>
+      <b>Video :</b>
+            <br/>
+      - Unterstützung von VESA für Intel i855 Chipsätzen.<br/>
+      - Update der EM8300 (DXR3) Treiber auf v0.15.1.<br/>
+      <br/>
+      <b>Treiber :</b>
+      <br/>
+      - Unterstützung von WiFi Prism54G Karten (benötigt proprietäre Firmware).<br/>
+      - Unterstützung von Cenntrino (ipw2x00) WiFi Chipsätzen (benötigt proprietäre Firmware). <br/>
+      - Unterstützung vonr PCI und USB DVB Karten (Satellit, Kabel, Terrestrisch) basierend auf BT8x8 / CX88 / SAA7136 (AV7110) Chipsätzen (einige benötigen proprietäre Firmware).<br/>
+      <br/>
+      <b>Netwerk :</b>
+            <br/>
+      - Update von Samba auf 3.0.20b.<br/>
+      - automatisches finden von UPnP A/V Media Servern hinzugefügt.<br/>
+      - djmount 0.31 welches FUSE nutzt um UPnP Media Server Dateisysteme zu mounten hinzugefügt.<br/>
+      <br/>
+      <b>Generator :</b>
+            <br/>
+      - Neuer MacOSX Generator.<br/>
+      - Generator kann nun extra Firmware/Schriftarten/Codecs herunterladen (mit MD5 Summen Check).<br/>
+      - Option um UPnP Unterstützung zu aktivieren/deaktivieren hunzugefügt.<br/>
+      <br/>
+      <b>Verschiedenes :</b>
+            <br/>
+      - Update von LIRC auf 0.7.3pre1.<br/>
+      - GeeXboX
+    <a href="http://ushare.geexbox.org/">
+              <i>uShare</i>
+            </a>
+   UPnP A/V Media Server (nur für Linux) ist nun nutzbar um Dateien mit GeeXboX via UPnP auszutauschen.<br/>
+      - Unterstützunh von mehreren Gateways und DNS Servern in der Netzwerk Konfigurations Datei.<br/>
+      - Sleep Timer hinzugefügt um GeeXboX nach einer bestimmten Zeit automatisch herunterzufahren.<br/>
+      <br/>
+      GeeXboX 0.98.7 ist <a href="downloads.html">hier</a> verfügbar!
+      </content>
     </subsection>
 
     <subsection label="wiki_opening" date="2005-11-01">
@@ -260,6 +332,13 @@
         <br/>
         Comme tout Wiki sur Internet, son contenu ne dépend que des utilisateurs qui voudront bien le remplir. Stockez-y et partagez-y votre savoir.<br/>
         En attendant la prochaine version ... ;-)
+      </content>
+      <content lang="de" title="GeeXboX Wiki Documentation Base">
+      Keine wirklich großartige oder revolutionäre Erweiterung, aber GeeXboX hat nun ein Wiki System, um Ihnen bei der Nutzung von GeeXboX zu helfen. Das eiegtnliche Ziel des Wiki Systems ist es Neueinsteigern die nötige Hilfe zum Umgang mit GeeXboX zu geben. Dort finden Sie viele Tipps um GeeXboX zu optimieren oder spezielle Konfigurationen vorzunehmen.<br/>
+      <br/>
+      Das GeeXboX <use name="wiki-url"/>-System beinhaltet auch einen Abschnitt für Entwickler, die neue Pakete der Distribution hinzufügen möchten. Er erklärt auch wie man Patches erstellt und dem Hauptentwicklerteam helfen kann.<br/>
+      <br/>
+      Wie jedes Wiki-System auf der Welt, basiert es auf den Nutzern. Also halten Sie Ihr Wissen fest und teilen Sie es mit anderen.<br/> 
       </content>
       <content lang="de" title="GeeXboX Wiki Documentation Base">
       Keine wirklich großartige oder revolutionäre Erweiterung, aber GeeXboX hat nun ein Wiki System, um Ihnen bei der Nutzung von GeeXboX zu helfen. Das eiegtnliche Ziel des Wiki Systems ist es Neueinsteigern die nötige Hilfe zum Umgang mit GeeXboX zu geben. Dort finden Sie viele Tipps um GeeXboX zu optimieren oder spezielle Konfigurationen vorzunehmen.<br/>
@@ -346,7 +425,7 @@
 - Added HTTP server for remote Web management of GeeXboX : web designers are fully welcomed to build the Web interface ;-).<br/>
 - Non-free codecs package is now directly available on our server.<br/>
 <br/>
-GeeXboX 0.98.6 is available <a href="downloads.html">here</a> and right now.<br/>
+GeeXboX 0.98.6 kann <a href="downloads.html">hier</a> heruntergeladen werden.<br/>
       </content>
       <content lang="fr" title="GeeXboX 0.98.6 : Bigger, Longer, Uncut ...">
         Bien du temps s'est passé depuis la dernière version, mais désormais, les choses vont changer quelques peu. Aujourd'hui, l'ensemble de l'équipe GeeXboX est heureux de vous présenter sa dernière sortie : l'édition 0.98.6. Si d'apparence rien n'a changé, vous constaterez en lisant la liste ci-dessous qu'il n'en est rien. Cette version est un peu spéciale car elle introduit l'ouverture de la GeeXboX vers de nouvelles architectures, avec le premier support officiel pour l'<b>architecture PowerPC</b>. Oui, vous avez vien lu, il est désormais possible d'utiliser la GeeXboX aussi bien sur son PC que sur son Macintosh. Le support PPC reste néanmoins encore expérimental (première version oblige) et nous auront besoin de votre aide à tous pour le tester et nous aider à l'améliorer.<br/>

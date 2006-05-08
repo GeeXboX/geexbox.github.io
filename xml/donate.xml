@@ -7,20 +7,21 @@
     <center>
       <p>
         <object>
-          <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-            <p><input type="hidden" name="cmd" value="_xclick"/></p>
-            <p><input type="hidden" name="business" value="donate@geexbox.org"/></p>
-            <p><input type="hidden" name="item_name" value="Contribution to a free software"/></p>
-            <p><input type="hidden" name="return" value="http://www.geexbox.org/"/></p>
-            <p><input type="hidden" name="currency_code" value="EUR"/></p>
-            <p><input type="hidden" name="lc" value="US"/></p>
-            <p><input type="image" src="http://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"/></p>
-</form>
-
+          <form id="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <p>
+              <input type="hidden" name="cmd" value="_xclick"/>
+              <input type="hidden" name="business" value="donate@geexbox.org"/>
+              <input type="hidden" name="item_name" value="Contribution to a free software"/>
+              <input type="hidden" name="return" value="http://www.geexbox.org/"/>
+              <input type="hidden" name="currency_code" value="EUR"/>
+              <input type="hidden" name="lc" value="US"/>
+              <input type="image" src="http://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" name="submit" alt="Donate" title="Make payments with PayPal - it's fast, free and secure!"/>
+            </p>
+          </form>
         </object>
       </p>
     </center>
-  </define>        
+  </define>
 
   <define name="vboard">
 * ATI Rage 128 Ultra 32M AGP TV<br/>
@@ -68,7 +69,7 @@
   </define>
 
   <define name="donators">
-    <i>Romain Perea, Luigi Bortolani, Sam Huffman, Clint Brothers, Paul François, Lobo Martinez, Olivier Cochard, Laurent Peltier.</i>
+    <i>Romain Perea, Luigi Bortolani, Sam Huffman, Clint Brothers, Paul François, Lobo Martinez, Olivier Cochard, Laurent Peltier, Jonathan Davis, Michaël Berlioz-Arthaud.</i>
   </define>
 
   <define name="donators-hard">
@@ -119,7 +120,6 @@ Our development team already has received the following piece of hardware. Speci
 <use name="misc"/><br/>
 <b>Complete Systems :</b><br/>
 <use name="computer"/>
-        <br/><br/>
 
       </content>
       <content lang="fr" title="Comment puis-je aider ou faire un don ?">
@@ -148,7 +148,7 @@ Notre équipe de développement à déjà reçu la liste suivante de matériel e
 <use name="misc"/><br/>
 <b>Systèmes complets :</b><br/>
 <use name="computer"/>
-        <br/><br/>
+
       </content>
       <content lang="de" title="Wie kann ich helfen oder spenden ?">
       Ihre Spenden müssen nicht immer Geldspenden sein. Wenn Sie GeeXboX aber wirklich mögen und der Meinung sind, unsere Zeit für die Entwicklung sollte entsprechend vergütet werden, sind Ihre Geldspenden natürlich sehr willkommen. (Wir verwenden diese, um die gewünschten Verbesserungen der Benutzer zu verwirklichen, indem wir uns bessere Möglichkeiten zur Entwicklung von GeeXboX schaffen, etwa durch den Kauf von neuer Hardware, damit diese dann später unterstützt wird ...). Wenn Sie das GeeXBox Projekt unterstützen möchten, können Sie Ihre Spende mittels <b>PayPal</b> tätigen: Paypal ist einfach in der Handhabung und Sie können damit jeden Betrag spenden. Das gesamte Entwicklerteam bedankt sich hiermit für Ihre Spende!<br/><br/>
@@ -177,7 +177,6 @@ Unser Entwicklerteam hat bereits die folgenden Hardwarespenden erhalten. Besonde
 <use name="misc"/><br/>
 <b>Komplettsysteme :</b><br/>
 <use name="computer"/>
-        <br/><br/>
 
       </content>
 

@@ -43,11 +43,7 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
       <content lang="en" title="GeeXboX TODO List ...">
         Below are some features that are to be included in future releases of the GeeXboX. They may take some time, according to the feature's importance :<br/><br/>
 * Add a new fancy interface.<br/>
-* Add encoding/recording capabilities.<br/>
-* Add TimeShifting capabilities.<br/>
 * Add Pan/Scan feature.<br/>
-* Display ID3 Tags (Albums, Artist, Track Name and Number) and CDDB info when playing audio-only streams (WAVs, MP3, Ogg ...).<br/>
-* Add a DVD navigation menu.<br/>
 * Add support for multimedia keyboards.<br/>
 * Add support for karaoke playback.<br/>
       <br/>
@@ -57,11 +53,7 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
         Vous trouverez ci-dessous quelques fonctionnalités que la prochaine version de la GeeXboX sera susceptible de proposer. Cela pourra prendre un certain temps, en fonction de la nécessité de chaque fonctionnalité :<br/><br/>
 
 * Ajout d'une nouvelle interface graphique.<br/>
-* Support des possibilités d'enregistrement.<br/>
-* Support des fonctionnalités de TimeShifting.<br/>
 * Support du mode Pan/Scan.<br/>
-* Affichage des ID3 Tags (Nom de l'album, de l'artiste, du numéro et nom de piste) et informations CDDB lors de la lecture de flux exclusivement audio (WAV, MP3, Ogg ...).<br/>
-* Ajout d'un véritable menu de navigation pour les DVD.<br/>
 * Support des claviers multimédia.<br/>
 * Support de fonctionnalités karaoké.<br/>
       <br/>
@@ -70,11 +62,7 @@ Es ist wirklich nur ein Hilfsmittel zur Mitteilung von Fehlern, kein neues Forum
       <content lang="de" title="GeeXboX TODO Liste ...">
         Hier finden Sie eine Liste von geplanten Verbesserungen, die in zukünftigen Versionen von GeeXbox zu finden sein werden. Dies kann je nach Gewichtung einige Zeit in Anspruch nehmen:<br/><br/>
 * Entwicklung einer neuen Menüoberfläche.<br/>
-* Implementierung von Dekodier- und Aufnahmemöglichkeiten.<br/>
-* Implementierung von TimeShifting (Zeitversetztes Fernsehen)<br/>
 * Implementierung von Pan/Scan (Automatischer Sendersuchlauf).<br/>
-* Anzeigen von ID3 und CDDB Informationen (Album, Künstler, Titelname und -nummer) bei der Wiedergabe von Audiodateien (WAVs, MP3, Ogg ...).<br/>
-* Implementierung eines DVD Navigations-Menüs.<br/>
 * Unterstützung von Multimedia-Tastaturen.<br/>
 * Unterstützung von Karaoke Wiedergabe.<br/>
       <br/>

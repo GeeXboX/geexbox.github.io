@@ -28,7 +28,7 @@ body {
 
 #language a {
 	text-decoration: none;
-	margin: 0 0.3em 0 0.3em;
+	margin: 0;
 }
 
 #language img {
@@ -57,6 +57,12 @@ body {
 #text h4 {
 	background-color: #333;
 	font-size:110%;
+}
+
+#text h5 {
+	text-decoration: underline;
+	margin: 0em;
+	font-size:100%;
 }
 
 a {

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE emails SYSTEM "geexbox.dtd">
+
+<!-- Encode email adress with http://www.nikhef.nl/pub/computing/MailSpamstop.php -->
+<!--
+    Add a new entry with this base empty entry :
+    <email id="">
+      <content></content>
+      <address><![CDATA[]]></address>
+    </email>
+-->
+<emails>
+  <email id="webmaster">
+    <content>Webmaster</content>
+    <address>webmaster@geexbox.org</address>
+  </email>
+  <email id="users">
+    <content>users@geexbox.org</content>
+    <address>users@geexbox.org</address>
+  </email>
+  <email id="devel">
+    <content>devel@geexbox.org</content>
+    <address>devel@geexbox.org</address>
+  </email>
+  <email id="commits">
+    <content>commits@geexbox.org</content>
+    <address>commits@geexbox.org</address>
+  </email>
+  <email id="team">
+    <content>team@geexbox.org</content>
+    <address>team@geexbox.org</address>
+  </email>
+  <email id="aurel">
+    <content>Aurelien Jacobs</content>
+    <!-- aurel AT geexbox DOT org -->
+    <address><![CDATA[&#097;&#117;&#114;&#101;&#108;&#064;&#103;&#101;&#101;&#120;&#098;&#111;&#120;&#046;&#111;&#114;&#103;]]></address>
+  </email>
+  <email id="ben">
+    <content>Benjamin Zores</content>
+    <!-- ben AT geexbox DOT org -->
+    <address><![CDATA[&#098;&#101;&#110;&#064;&#103;&#101;&#101;&#120;&#098;&#111;&#120;&#046;&#111;&#114;&#103;]]></address>
+  </email>
+  <email id="amir">
+    <content>Amir Shalem</content>
+    <!-- amir AT geexbox DOT org -->
+    <address><![CDATA[&#097;&#109;&#105;&#114;&#064;&#103;&#101;&#101;&#120;&#098;&#111;&#120;&#046;&#111;&#114;&#103;]]></address>
+  </email>
+  <email id="asbin">
+    <content>Alexis Saettler</content>
+    <!-- asbin+geexbox AT asbin DOT org -->
+    <address><![CDATA[&#097;&#115;&#098;&#105;&#110;+&#103;&#101;&#101;&#120;&#098;&#111;&#120;&#064;&#097;&#115;&#098;&#105;&#110;&#046;&#111;&#114;&#103;]]></address>
+  </email>
+</emails>

@@ -17,7 +17,7 @@
   <lang-names lang="fr">
     <lang-name code="en">anglaise</lang-name>
     <lang-name code="fr">française</lang-name>
-    <lang-name code="de">german</lang-name>
+    <lang-name code="de">allemande</lang-name>
   </lang-names>
   <lang-names lang="de">
     <lang-name code="en">Englisch</lang-name>
@@ -45,6 +45,11 @@
     <size-name code="M">MB</size-name>
     <size-name code="B">B</size-name>
   </size-names>
+  <size-names lang="de">
+    <size-name code="K">KB</size-name>
+    <size-name code="M">MB</size-name>
+    <size-name code="B">B</size-name>
+  </size-names>
 
   <src-type-names lang="en">
     <src-type-name code="lite">Lite</src-type-name>
@@ -58,6 +63,10 @@
     <src-type-name code="lite">Lite</src-type-name>
     <src-type-name code="full">Full</src-type-name>
   </src-type-names>
+  <src-type-names lang="de">
+    <src-type-name code="lite">Lite</src-type-name>
+    <src-type-name code="full">Full</src-type-name>
+  </src-type-names>
 
   <section label="download">
     <content lang="en" title="Downloads ..."/>
@@ -66,7 +75,7 @@
 
     <subsection label="iso">
       <content lang="en" title="GeeXboX ISO">
-        <description img="../img/dl.png">
+        <description img="../img/dl-trans.png">
           GeeXboX ISOs are ready-to-burn disc images containing the bootable GeeXboX Operating System for multimedia entertainment. Pre-made ISO images are currently available in English or French for both i386 (PC) and PowerPC (Macinstosh) computers. Other languages are available with the ISO generator. The installer software is included in the ISO.
         </description>
         <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
@@ -76,7 +85,7 @@
         </download>
       </content>
       <content lang="fr" title="GeeXboX ISO">
-        <description img="../img/dl.png">
+        <description img="../img/dl-trans.png">
           Les images ISO GeeXboX sont prêtes à être gravées sur disque et contiennent une version auto-amorçable du système d'exploitation GeeXboX, apte à satisfaire vos attentes multimédias. Les images ISO pré-construites sont actuellement disponibles aussi bien en Anglais que Français, pour les ordinateurs à architecture i386 (PC) et PowerPC (Macinstosh). D'autres langues sont disponibles par le biais du générateur d'ISO. L'application d'installation sur disque est incluse dans l'image ISO.
         </description>
         <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
@@ -86,7 +95,7 @@
         </download>
       </content>
       <content lang="de" title="GeeXboX ISO">
-        <description img="../img/dl.png">
+        <description img="../img/dl-trans.png">
           GeeXboX ISOs sind fertig zum brennen. Sie enthalten das bootfähige GeeXboX Betriebssystem für multimediales Entertainment. Vorgefertiget ISOs sind derzeit auf Englisch und Französisch jeweils für i386 (PC) und PowerPC (Macintosh) erhältlich. Andere Sprachen sind im ISO Generator enthalten. Auch die Installationssoftware ist im ISO enthalten.
         </description>
         <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
@@ -99,7 +108,7 @@
 
     <subsection label="generator">
       <content lang="en" title="GeeXboX ISO Generator">
-        <description img="../img/gen.png">
+        <description img="../img/gen-trans.png">
         With this package, it is easy to modify GeeXboX in a few seconds without having to build the sources. The generator produces ISO image of the GeeXboX, ready to be burned on disc, that you may have customized to fit your needs. The software is multi-platforms, working currently under both GNU/Linux, Mac OS X and Microsoft Windows 9x/NT/2k/XP systems. It is able to produce ISO images for both i386 and PowerPC targets.
         </description>
         <download type="gen" plus="../img/plus.png" minus="../img/minus.png">
@@ -110,7 +119,7 @@
         </download>
       </content>
       <content lang="de" title="GeeXboX ISO Generator">
-        <description img="../img/gen.png">
+        <description img="../img/gen-trans.png">
           Mit diesem Paket ist es sehr einfach innerhalb von Sekunden GeeXboX zu modifizieren ohne den Quellcode neu zu übersetzen. Der Generator erzeugt eine ISO-Datei, welche direkt gebrannt werden kann. Diese Software funktioniert unter dem GNU/Linux, Mac OS X und Microsoft Windows )x/NT/2k/XP Betriebssytemen. Es können ISO Dateien für i386 oder PowerPC Systeme erstellt werden.
         </description>
         <download type="gen" plus="../img/plus.png" minus="../img/minus.png">
@@ -120,7 +129,7 @@
         </download>
       </content>
       <content lang="fr" title="Générateur d'ISO GeeXboX">
-        <description img="../img/gen.png">
+        <description img="../img/gen-trans.png">
           Avec ce paquetage, il vous est possible de modifier la GeeXboX en quelques secondes sans avoir recours aux sources et à une recompilation complète. Le générateur produit une image ISO de la GeeXboX, prête à être gravée sur un disque, et que vous aurez personnaliser pour convenir à vos besoins. L'application est multi-platformes, et fonctionne actuellement aussi bien sous les systèmes GNU/Linux, Mac OS X et Microsoft Windows 9x/NT/2k/XP. Elle est en mesure de générer des images ISO à la fois pour architectures i386 et PowerPC.
         </description>
         <download type="gen" plus="../img/plus.png" minus="../img/minus.png">
@@ -133,7 +142,7 @@
 
     <subsection label="sources">
       <content lang="en" title="GeeXboX Sources">
-        <description img="../img/src.png">
+        <description img="../img/src-trans.png">
           Here are the GeeXboX sources. If you choose the Lite package, you'll need both the wget package and a connection to the Internet to compile your own GeeXboX as most of the packages will be directly downloaded from the web while compiling the GeeXboX. If you don't want to bother, just grab full source package.
         </description>
         <download type="src" plus="../img/plus.png" minus="../img/minus.png">
@@ -144,12 +153,22 @@
       </content>
 
       <content lang="fr" title="Sources de la GeeXboX">
-        <description img="../img/src.png">
+        <description img="../img/src-trans.png">
           Voici les sources de la distribution GeeXboX. si vous choisissez le paquetage allégé, vous aurez besoin de l'utilitaire wget ainsi que d'une connection à Internet pour compiler votre propre GeeXboX car la majorité des paquetages requis seront téléchargés à la volée. Si vous ne souhaitez pas vous embêter, téléchargez simplement l'archive complète.
         </description>
         <download type="src" plus="../img/plus.png" minus="../img/minus.png">
           <title>Sources de la GeeXboX <version/> (Paquetage <src-type/>)</title>
           <description>Le paquetage <src-type/> des sources de la GeeXboX <version/> est disponibles depuis les emplacements suivants :<br/><b>Taille :</b> <size/> - <b>md5sum :</b> <md5/> - <b>sha1sum :</b> <sha1/></description>
+          <file><version/>/geexbox-<version/>-<src-type/>.<src-ext/></file>
+        </download>
+      </content>
+      <content lang="de" title="GeeXboX Quellcode">
+        <description img="../img/src-trans.png">
+          Hier ist der GeeXboX Quellcode. Wenn Sie das Lite-Paket auswählen, benötigen Sie zusätzlich das wget-Paket und eine aktive Internetverbindung um GeeXboX zu erstellen, da die Pakete direkt beim compilieren heruntergeladen werden. Das Full-Source Paket beinhaltet alles was zum erstellen benötigt wird.
+        </description>
+        <download type="src" plus="../img/plus.png" minus="../img/minus.png">
+          <title>GeeXboX <version/> Sources (<src-type/> Package)</title>
+          <description>GeeXboX <version/> Quellcode <src-type/> Paket ist erhältlich unter folgenden Links :<br/><b>Size:</b> <size/> - <b>md5sum:</b> <md5/> - <b>sha1sum:</b> <sha1/></description>
           <file><version/>/geexbox-<version/>-<src-type/>.<src-ext/></file>
         </download>
       </content>
@@ -167,7 +186,7 @@
 
     <subsection label="debian">
       <content lang="en" title="GeeXboX Debian Repository">
-        <description img="../img/deb.png">
+        <description img="../img/deb-trans.png">
           The GeeXboX ISO generator is also available through <b>apt-get</b> for GNU/Linux Debian users. Simply add the following lines to your <i>/etc/apt/sources.list</i> file :<br/>
           <br/>
           <use name="deb-gen"/><br/>
@@ -175,8 +194,16 @@
         </description>
       </content>
       <content lang="fr" title="Dépositoire GeeXboX pour Debian">
-        <description img="../img/deb.png">
+        <description img="../img/deb-trans.png">
           Le générateur d'ISO de la GeeXboX est également disponible via l'outil <b>apt-get</b> pour les utilisateurs de distribution Debian GNU/Linux. Ajoutez simplement les lignes suivantes à la fin de votre fichier <i>/etc/apt/sources.list</i> :<br/>
+          <br/>
+          <use name="deb-gen"/><br/>
+          <use name="deb-gen-src"/><br/>
+        </description>
+      </content>
+      <content lang="de" title="GeeXboX Debian Repository">
+        <description img="../img/deb-trans.png">
+          Der GeeXboX ISO Generator ist auch mit <b>apt-get</b> erhältlich für alle GNU/Linux Debian Nutzer. Einfach die folgenden Zeilen der Datei <i>/etc/apt/sources.list</i> hinzufügen:<br/>
           <br/>
           <use name="deb-gen"/><br/>
           <use name="deb-gen-src"/><br/>
@@ -194,7 +221,7 @@
 
     <subsection label="releases">
       <content lang="en" title="GeeXboX Old Releases">
-        <description img="../img/old.png">
+        <description img="../img/old-trans.png">
           If the current GeeXboX version doesn't work on your computer for any kind of reasons, we of course provide you an easy way to fetch the previous releases to give them a try.
         </description>
         <download type="old" plus="../img/plus.png" minus="../img/minus.png" full="yes">
@@ -204,12 +231,22 @@
         </download>
       </content>
       <content lang="fr" title="Anciennes versions de la GeeXboX">
-        <description img="../img/old.png">
+        <description img="../img/old-trans.png">
           Si la version courante de la GeeXboX ne fonctionne pas sur votre ordinateur pour tout type de raison, nous mettons bien évidemment à votre disposition les précédentes versions de notre distribution pour que vous puissiez les essayer.
         </description>
         <download type="old" plus="../img/plus.png" minus="../img/minus.png" full="yes">
           <title>Anciennes versions de la GeeXboX</title>
           <description>Les versions précédentes de la GeeXboX sont disponibles depuis les emplacements suivants :</description>
+          <file></file>
+        </download>
+      </content>
+      <content lang="de" title="GeeXboX Old Releases">
+        <description img="../img/old-trans.png">
+          Falls die aktuelle GeeXboX Version aus irgendeinem Grund nicht auf Ihrem Computer laufen sollte, bieten wir hier alle älteren Versionen an.
+        </description>
+        <download type="old" plus="../img/plus.png" minus="../img/minus.png" full="yes">
+          <title>GeeXboX alte Versionen</title>
+          <description>GeeXboX alte Versione sind erhältlich unter folgenden Links :</description>
           <file></file>
         </download>
       </content>

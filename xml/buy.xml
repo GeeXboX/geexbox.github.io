@@ -50,7 +50,7 @@ As a company, IKARIOS contributes to the expansion of free software by offering 
 For each CD sold, a <b>1 Euro income is given to the GeeXboX development team</b>. These CDs are not burned (like traditional CDR) but are commercially pressed, and are sold with a sleeve.<br/><br/>
 
 If you want to get an official GeeXboX CD, contribute to the project's development, help free software, or if you do not have access to an high-speed Internet connection with which to get the full sources, you can order a CD at the following page :<br/><br/>
-<use name="ikarios-cd-en"/><br/><br/><br/>
+<use name="ikarios-cd-en"/>
       </content>
 
       <content lang="fr" title="Obtenir GeeXboX sur CD">   
@@ -70,7 +70,7 @@ Ikarios est une société qui vend, exclusivement par correspondance et depuis 1
 Un bénéfice de <b>1 Euro est également reversé à l'équipe de développement</b> de la GeeXboX pour chaque CD vendu par Ikarios. De plus, les CD proposés sont pressés (et non gravés dits 'CD-R'), et fournis avec une pochette.<br/><br/>
 
 Si vous souhaitez donc obtenir un CD officiel de la GeeXboX, contribuer à son développement, aider le logiciel libre ou plus simplement si vous n'avez pas la connectivité Internet nécessaire pour vous procurer la GeeXboX, vous pouvez donc passer commande sur la page suivante :<br/><br/>
-<use name="ikarios-cd-fr"/><br/><br/><br/>
+<use name="ikarios-cd-fr"/>
       </content>
 
       <content lang="de" title="GeeXboX CD kaufen">  
@@ -93,7 +93,7 @@ Ein nicht unerheblicher Teil des Einkommens wird an die Free Software Foundation
 Für jede verkaufte CD erhält das GeeXboX-Entwicklerteam <b>eine Gutschrift über 1 Euro.</b>. Diese CDs sind nicht etwa "gebrannt" wie herkömmliche CDRs, sondern professionell "gepresst" und werden inkl. Hülle verkauft.<br/><br/>
 
 Wenn Sie eine offizielle GeeXboX CD erwerben möchten, das Entwicklerteam unterstützen, Freier-Software helfen, oder einfach keinen Zugang zu einer schnellen Internetverbindung haben, können Sie die CD auf folgender Seite bestellen :<br/><br/>
-<use name="ikarios-cd-de"/><br/><br/><br/>
+<use name="ikarios-cd-de"/>
       </content>
 
 
