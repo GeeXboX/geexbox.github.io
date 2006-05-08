@@ -67,6 +67,12 @@
       <text lang="de">Dokumentation</text>
     </subitem>
 
+    <subitem name="controls" url="controls.html">
+      <text lang="en">Keys &amp; Controls</text>
+      <text lang="fr">Contrôles</text>
+      <text lang="de">Keys &amp; Controls</text>
+    </subitem>
+
     <subitem name="faq" url="faq.html">
       <text lang="en">FAQ</text>
       <text lang="fr">FAQ</text>

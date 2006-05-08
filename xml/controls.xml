@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<article>
+
+  <define name="keyboard-qwerty-en">
+    <center>
+      <img src="../img/keyboard_qwerty_en.png" alt="Qwerty Keyboard"/>
+    </center>
+  </define>
+  <define name="keyboard-azerty-en">
+    <center>
+      <img src="../img/keyboard_azerty_en.png" alt="Azerty Keyboard"/>
+    </center>
+  </define>
+  <define name="keyboard-qwerty-fr">
+    <center>
+      <img src="../img/keyboard_qwerty_fr.png" alt="Clavier Qwerty"/>
+    </center>
+  </define>
+  <define name="keyboard-azerty-fr">
+    <center>
+      <img src="../img/keyboard_azerty_fr.png" alt="Clavier Azerty"/>
+    </center>
+  </define>
+  <define name="keyboard-qwerty-de">
+    <center>
+      <img src="../img/keyboard_qwerty_de.png" alt="Qwerty Keyboard"/>
+    </center>
+  </define>
+  <define name="keyboard-azerty-de">
+    <center>
+      <img src="../img/keyboard_azerty_de.png" alt="Azerty Keyboard"/>
+    </center>
+  </define>
+
+
+  <define name="ati-remote">
+    <center>
+      <img src="../img/ati-remote-wonder.png" alt="ATI Remote Wonder"/>
+    </center>
+  </define>
+
+  <define name="pctv-remote-en">
+    <center>
+      <img src="../img/remote_pctv_en.png" alt="PcTV Remote"/>
+    </center>
+  </define>
+
+  <define name="pctv-remote-fr">
+    <center>
+      <img src="../img/remote_pctv_fr.png" alt="Télécommande PcTV"/>
+    </center>
+  </define>
+
+  <define name="pctv-remote-de">
+    <center>
+      <img src="../img/remote_pctv_en.png" alt="PcTV Fernbedienung"/>
+    </center>
+  </define>
+
+  <section label="doc">
+    <content lang="en" title="Keys &amp; Controls ..."/>
+    <content lang="fr" title="Touches &amp; Contrôles ..."/>
+    <content lang="de" title="Keys &amp; Controls ..."/>
+
+    <subsection label="controls-list">
+      <content lang="en" title="Controls List ...">
+        <a href="#osd_menu">How to use the OSD menu ...</a><br/>
+        <a href="#keyboard-scheme">Using the keyboard ...</a><br/>
+        <a href="#remote-scheme">Using a supported remote ...</a><br/>
+      </content>
+      <content lang="fr" title="Liste des contrôles ...">
+        <a href="#osd_menu">Guide d'utilisation du menu OSD ...</a><br/>
+        <a href="#keyboard-scheme">Utiliser le clavier ...</a><br/>
+        <a href="#remote-scheme">Utiliser une télécommande supportée ...</a><br/>
+      </content>
+      <content lang="de" title="Kontrols Liste ...">
+        <a href="#osd_menu">Benutzen des OSD Menüs ...</a><br/>
+        <a href="#keyboard-scheme">Using the keyboard ...</a><br/>
+        <a href="#remote-scheme">Eine unterstützte Fernbedienung verwenden ...</a><br/>
+      </content>
+    </subsection>
+
+    <subsection label="osd_menu">
+      <content lang="en" title="How to use OSD menu ...">
+        The GeeXboX's OSD Menu can easily be controlled using either a single keyboard or a remote controller. Use the up and down arrows keys to switch between the main menu options. The right arrow is used to go to a specific submenu (i.e "Ok") and the left one is for coming back (i.e "Cancel").<br/><br/>
+
+          Here are the main menu's items :<br/><br/>
+          * <b>Open</b><br/>
+          <b>+++ Open file ...</b><i> # Open a single media file (Audio or Video)</i><br/>
+          <b>+++ Open playlist</b><i> # Open a MPlayer compatible playlist (.m3u files are supported)</i><br/>
+          <b>+++ Play DVD</b><i> # Play the first DVD chapter and title</i><br/>
+          <b>+++ Play VCD</b><i> # Used to play (S)VCD ((Super) VideoCD) at the first track</i><br/> 
+          <b>+++ Play Audio CD</b><i> # Play an Audio CD</i><br/>
+          * <b>Controls</b><br/>
+          <b>+++ Pause</b><i> # Pause/Resume function</i><br/>
+          <b>+++ Stop</b><i> # Stop the media from playing.</i><br/>
+          <b>+++ Eject</b><i> # Eject the CD from the drive.</i><br/>
+          <b>+++ Chapter selection ...</b><i> # Let you dynamically change the chapter for DVDs and Matroska files.</i><br/>
+          <b>+++ Prev/Next</b><i> # Go to the Next/Previous loaded stream</i><br/>
+          <b>+++ Jump to</b><i> # Jump to another stream / vcd track / dvd title</i><br/>
+          * <b>Options</b><br/>
+          <b>+++ Aspect</b><i> # Lets you dynamically change image aspect ratio</i><br/>
+          <b>------ Original</b><i> # Reset ratio to its original value</i><br/>
+          <b>------ 4:3</b><i> # Switch video to a 4:3 (1.33) height/width ratio</i><br/>
+          <b>------ 16:9</b><i> # Switch video to a 16:9 (1.78) height/width ratio</i><br/>
+          <b>------ Cinemascope</b><i> # Switch video to a Cinemascope (2:35) height/width ratio</i><br/>
+          <b>+++ Audio Channel ...</b><i> # Lets you dynamically change the audio output channel</i><br/>
+          <b>+++ Subtitle Selection ...</b><i> # Lets you dynamically change the subtitle to be displayed</i><br/>
+
+          <b>+++ Switch TV-Out</b><i> # Switch from monitor's output to TV-Out</i><br/>
+          <b>+++ Switch Vertical Sync</b><i> # Switch On/Off the Vertical Synchronization (may be useful for nVidia cards)</i><br/>
+          * <b>Help</b><i> # Display OSD Help</i><br/>
+          * <b>Quit</b><i> # Shutdown the GeeXboX</i><br/>
+          <br/>
+
+          The GeeXboX has been compiled with support for the ATI Remote Wonder. It means that if you're using another kind of remote, you may have to build your own GeeXboX, using the ISO generator. If you would like to use another kind of remote that is not currently supported by the GeeXboX, you'll have to build the sources and modify <i>./packages/lirc/lircd.conf</i>. See the <a href="http://www.lirc.org">LIRC WebSite</a> for further details about how to modify this file.
+      </content>
+      <content lang="fr" title="Guide d'utilisation du menu OSD ...">
+        Le menu OSD de la GeeXboX peut être très facilement controlé en utilisant un traditionnel clavier ou une télécommande. Utilisez les flèches Haut et Bas pour vous déplacer entre les différentes options du menu. Les flèches de Droite et Gauche sont respectivement utilisées pour explorer un sous-menu (i.e "Ok") et en revenir (i.e "Annuler").<br/><br/>
+
+          Voici donc les options du menu principal :<br/><br/>
+          * <b>Ouvrir</b><br/>
+          <b>+++ Lire un fichier ...</b><i> # Ouvre un unique fichier multimédia (Audio ou Vidéo)</i><br/>
+          <b>+++ Lire une liste ...</b><i> # Ouvre une liste de lecture compatible avec MPlayer (les fichiers .m3u sont supportés)</i><br/>
+          <b>+++ Lire un DVD</b><i> # Lance le premier titre du premier chapitre d'un DVD</i><br/>
+          <b>+++ Lire un VCD</b><i> # Utilisé pour lire des (S)VCD ((Super) VidéoCD) à la première piste</i><br/> 
+          <b>+++ Lire un CD Audio</b><i> # Lecture d'un CD Audio</i><br/>
+          * <b>Controles</b><br/>
+          <b>+++ Pause</b><i> # Permet la Pause et le Retour de pause</i><br/>
+          <b>+++ Stop</b><i> # Stoppe la lecture du média </i><br/>
+          <b>+++ Sélection des chapitres ...</b><i> # Permet de changer dynamiquement de chapitre pour les DVD et fichiers Matroska.</i><br/>
+          <b>+++ Eject</b><i> # Ejecte le CD du lecteur.</i><br/>
+          <b>+++ Précédent/Suivant</b><i> # Charge le flux Suivant/Précédent qui a été chargé</i><br/>
+          <b>+++ Aller à ...</b><i> # Se déplace vers un autre flux / piste de VCD / Titre de DVD</i><br/>
+          * <b>Options</b><br/>
+          <b>+++ Aspect</b><i> # Permet de changer dynamiquement le ratio de l'image</i><br/>
+          <b>------ Original</b><i> # Restaure l'image à son aspect original</i><br/>
+          <b>------ 4:3</b><i> # Affiche l'image au format 4:3 (1,33)</i><br/>
+          <b>------ 16:9</b><i> # Affiche l'image au format 16:9 (1,78)</i><br/>
+          <b>------ Cinemascope</b><i> # Affiche l'image au format Cinemascope (2:35)</i><br/>
+          <b>+++ Canal Audio ...</b><i> # Permet de changer dynamiquement le canal audio de sortie</i><br/>
+          <b>+++ Sélection du sous-titre ...</b><i> # Permet de changer dynamiquement les sous-titres à afficher</i><br/>
+          <b>+++ Activer la Sortie TV</b><i> # Bascule de la sortie moniteur vers la sortie TV et réciproquement</i><br/>
+          <b>+++ Activer la Sync. Vert.</b><i> # Active ou désactive la synchronisation verticale (semble utile sur les cartes nVidia)</i><br/>
+          * <b>Aide</b><i> # Affichage le menu d'aide</i><br/>
+          * <b>Quitter</b><i> # Met l'ordinateur hors tension.</i><br/>
+          <br/>
+
+          La GeeXboX a été compilée pour supporter la télécommande ATI Remote Wonder. Cela signifie que, dans le cas où vous utiliseriez un autre type de télécommande, vous serez amener à reconstruire votre propre version de la GeeXboX, en modifiant utilisant le générateur d'ISO prévu à cet effet. Si vous souhaitez utiliser une télécommande non actuellement supportée par la GeeXboX, vous devrez reconstruire les sources et modifier le fichier <i>./packages/lirc/lircd.conf</i>. Consultez le <a href="http://www.lirc.org">Site Web LIRC</a> pour de plus amples détails sur la façon de modifier ce fichier.
+      </content>
+
+      <content lang="de" title="Benutzen des OSD Menüs ...">
+        Das GeeXboX OSD Menü kann auf einfache Art und Weise über eine Tastatur oder über eine Fernbedienung gesteuert werden. Benutzen Sie die "hoch" und "runter" Pfeiltasten, um zwischen den einzelnen Hauptpunkten im Menü zu wechseln. Die "rechts" Pfeiltaste wird genutzt, um in das jeweilige Untermenü zu wechseln (also "Ok") und die "links" Pfeiltaste dient dazu, das Untermenü wieder zu verlassen (also "Zurück").<br/><br/>
+
+          Hier eine Liste der Menüeinträge :<br/><br/>
+          * <b>Oeffnen</b><br/>
+          <b>+++ Oeffne Datei ...</b><i> # Öffnet eine einzelnen Datei (Audio oder Video)</i><br/>
+          <b>+++ Oeffne Playliste</b><i> # Öffnet eine MPlayer kompatible Playliste (.m3u wird unterstützt)</i><br/>
+          <b>+++ Lese DVD</b><i> # Spielt das erste DVD-Kapitel oder den ersten Titel</i><br/>
+          <b>+++ Lese VCD</b><i> # Zum Abspielen von (S)VCD ((Super) VideoCD) (Erste Spur)</i><br/> 
+          <b>+++ Lese Audio CD</b><i> # Spielt eine Audio CD</i><br/>
+          * <b>Steuerungen</b><br/>
+          <b>+++ Pause</b><i> # Pause/Weiter Funktion</i><br/>
+          <b>+++ Stop</b><i> # Beendet die Medienwiedergabe.</i><br/>
+          <b>+++ Auswerfen</b><i> # Auswerfen der CD/DVD aus dem Laufwerk.</i><br/>
+          <b>+++ Kapitelwahl ...</b><i> # Dynamische Kapitelwahl bei DVDs und "Matroska" Dateien.</i><br/>
+          <b>+++ Vorheriges/Naechstes</b><i> # Springe zum nächsten / vorherigen Kapitel </i><br/>
+          <b>+++ Gehe zu</b><i> # Springe zu anderer VCD-Spur oder anderem DVD Titel</i><br/>
+          * <b>Optionen</b><br/>
+          <b>+++ Aspekt</b><i> # Dynamische Anpassung des Seitenverhältnisses</i><br/>
+          <b>------ Original</b><i> # Wechsle zu Original Seitenverhältnis</i><br/>
+          <b>------ 4:3</b><i> # Wechsle zu 4:3 (1.33) Breite/Höhe Verhältnis</i><br/>
+          <b>------ 16:9</b><i> # Wechsle zu 16:9 (1.78) Breite/Höhe Verhältnis</i><br/>
+          <b>------ Cinemascope</b><i> # Wechsle zu Cinemascope (2:35) Breite/Höhe Verhältnis</i><br/>
+          <b>+++ Audio Kanal ...</b><i> # Dynamischer Wechsel des Audiokanals (z.B. EN/FR/DE Tonspur)</i><br/>
+          <b>+++ Untertitel Wahl ...</b><i> # Dynamischer Wechsel der Sprache für die Untertitel</i><br/>
+
+          <b>+++ Aktiviere TV-Ausgang</b><i> # Wechsel von Monitor zu TV-Ausgabe</i><br/>
+          <b>+++ Aendere Vertikale Synchronisation</b><i> # Ein-Auschalten der vertikalen Synchronisation (evtl. hilfreich bei nVidia Karten)</i><br/>
+          * <b>Hilfe</b><i> # OSD Hilfe Anzeigen</i><br/>
+          * <b>Beenden</b><i> # GeeXboX ausschalten</i><br/>
+          <br/>
+
+          Die GeeXboX wurde mit Unterstützung für die ATI Remote Wonder Fernbedienungen erstellt. D.h., wenn Sie eine andere Fernbedienung verwenden, müssen Sie sich eine eigene GeeXboX mittels des ISO-Generators erstellen. Wenn Sie eine Fernbedienung nutzen, die z. Zt. noch nicht von GeeXboX unterstützt wird, müssen Sie GeeXboX aus den Quellen erstellen (Kompilieren) und die Datei <i>./packages/lirc/lircd.conf</i> vorher anpassen. Besuchen Sie dazu bitte die <a href="http://www.lirc.org">LIRC WebSite</a> für weiterführende Informationen zum Anpassen der Datei.
+      </content>
+    </subsection>
+
+    <subsection label="keyboard-scheme">
+      <content lang="en" title="Using the keyboard ...">
+      GeeXboX can be controlled only using the keyboard. A lot of keys are bindded to many controls and the descriptions below will help you deal with it. Whatever your keyboard is (Qwerty, Azerty, Dvorak ...) it'll be seen by the GeeXboX as a qwerty keyboard and thus, the mapping may change a little bit.<br/>
+      <br/>
+      Below are the bindings for <b>Qwerty</b> keyboard:<br/><br/>
+      <use name="keyboard-qwerty-en"/>
+      and same applies for an <b>Azerty</b> keyboard:
+      <use name="keyboard-azerty-en"/>
+      </content>
+      <content lang="fr" title="Utiliser le clavier ...">
+      La GeeXboX peut être controllée au moyen du clavier. Un garnd nombre de touches ont été attribuées à de nombreuses actions et les descriptions ci-dessous devraient vous aider à vous y retrouver. Quelle que soit votre modèle de clavier (Qwerty, Azerty, Dvorak ...) il sera cependant vu par la GeeXboX comme un clavier de type Qwerty, et de ce fait, l'attribution des touches peut varier sensiblement.<br/>
+      <br/>
+      Vous trouverez ci-dessous l'attribution des touches pour un clavier de type <b>Qwerty</b> :<br/><br/>
+      <use name="keyboard-qwerty-fr"/>
+      et la même chose pour un clavier de type <b>Azerty</b> :
+      <use name="keyboard-azerty-fr"/>
+      </content>
+      <content lang="de" title="Using the keyboard ...">
+      GeeXboX can be controlled only using the keyboard. A lot of keys are bindded to many controls and the descriptions below will help you deal with it. Whatever your keyboard is (Qwerty, Azerty, Dvorak ...) it'll be seen by the GeeXboX as a qwerty keyboard and thus, the mapping may change a little bit.<br/>
+      <br/>
+      Below are the bindings for <b>Qwerty</b> keyboard:<br/><br/>
+      <use name="keyboard-qwerty-de"/>
+      and same applies for an <b>Azerty</b> keyboard:
+      <use name="keyboard-azerty-de"/>
+      </content>
+    </subsection>
+
+    <subsection label="remote-scheme">
+      <content lang="en" title="Using a supported remote ...">
+      GeeXboX can be controlled using a LIRC-compliant remote and receiver. The only officially supported remote is the <i>Remote Wonder</i>, provided by ATI. Many other brands sell exactly the same controller and if the one you bought looks like the one above, it means that it's supported.<br/><br/>
+
+      Even if the remote is user-friendly, here's the complete key bindings between the <i>Remote Wonder</i> and GeeXboX : <br/><br/>
+      <use name="ati-remote"/>
+
+      Here comes the same for the <i>Pinnacle PcTV</i> remote :<br/><br/>
+      <use name="pctv-remote-en"/>
+
+      </content>      
+      <content lang="fr" title="Utiliser une télécommande supportée ...">
+      La GeeXboX peut être controlée au moyen d'une télécommande et d'un récepteur compatible avec LIRC. La seule télécommande dont le support officiel est assurée est la <i>Remote Wonder</i>, produite par ATI. De nombreuses autres marques vendent exactement le même modèle et si la télécommande dont vous disposez ressemble à celle ci-dessous, cela signifie qu'elle est supportée.<br/><br/>
+
+      Même si l'usage de la télécommande semble implicite, voici un aperçu complet de l'association des touches de la <i>Remote Wonder</i> et des actions de la GeeXboX : <br/><br/>
+      <use name="ati-remote"/>
+
+      Et voici de même pour la télécommande <i>Pinnacle PcTV</i> : <br/><br/>
+      <use name="pctv-remote-fr"/>
+
+      </content>
+
+      <content lang="de" title="Eine unterstützte Fernbedienung verwenden ...">
+      GeeXboX kann mit einer LIRC kompatiblen Fernbedienung und Empfänger bedient werden. Die einzige offiziell unterstützte Fernbedienung ist die <i>Remote Wonder</i> des Herstellers ATI. Viele andere Hersteller vermarkten die exakt gleiche Fernbedienung nur unter anderem Namen. Wenn Sie also eine Fernbedienung besitzen, die der obigen ähnlich sieht, sollte diese auch unterstützt werden.<br/><br/>
+
+      Auch wenn die Fernbedienung sehr benutzerfreundlich ist, hier trotzdem noch einmal die komplette Tastenbelegung für die <i>Remote Wonder</i> und GeeXboX : <br/><br/>
+      <use name="ati-remote"/>
+
+      Here comes the same for the <i>Pinnacle PcTV</i> remote :<br/><br/>
+      <use name="pctv-remote-de"/>
+
+      </content>       
+    </subsection>
+
+  </section>
+</article>
