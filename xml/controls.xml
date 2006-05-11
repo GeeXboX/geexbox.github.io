@@ -35,9 +35,19 @@
   </define>
 
 
-  <define name="ati-remote">
+  <define name="ati-remote-en">
     <center>
-      <img src="../img/ati-remote-wonder.png" alt="ATI Remote Wonder"/>
+      <img src="../img/ati_remote_wonder_en.jpg" alt="ATI Remote Wonder"/>
+    </center>
+  </define>
+  <define name="ati-remote-fr">
+    <center>
+      <img src="../img/ati_remote_wonder_fr.jpg" alt="ATI Remote Wonder"/>
+    </center>
+  </define>
+  <define name="ati-remote-de">
+    <center>
+      <img src="../img/ati_remote_wonder_en.jpg" alt="ATI Remote Wonder"/>
     </center>
   </define>
 
@@ -46,16 +56,78 @@
       <img src="../img/remote_pctv_en.png" alt="PcTV Remote"/>
     </center>
   </define>
-
   <define name="pctv-remote-fr">
     <center>
       <img src="../img/remote_pctv_fr.png" alt="Télécommande PcTV"/>
     </center>
   </define>
-
   <define name="pctv-remote-de">
     <center>
       <img src="../img/remote_pctv_en.png" alt="PcTV Fernbedienung"/>
+    </center>
+  </define>
+
+  <define name="creative-remote-en">
+    <center>
+      <img src="../img/remote_creative_en.jpg" alt="Creative PC-DVD"/>
+    </center>
+  </define>
+  <define name="creative-remote-fr">
+    <center>
+      <img src="../img/remote_creative_fr.jpg" alt="Creative PC-DVD"/>
+    </center>
+  </define>
+  <define name="creative-remote-de">
+    <center>
+      <img src="../img/remote_creative_en.jpg" alt="Creative PC-DVD"/>
+    </center>
+  </define>
+
+  <define name="realmagic-remote-en">
+    <center>
+      <img src="../img/remote_realmagic_en.jpg" alt="RealMagic"/>
+    </center>
+  </define>
+  <define name="realmagic-remote-fr">
+    <center>
+      <img src="../img/remote_realmagic_fr.jpg" alt="RealMagic"/>
+    </center>
+  </define>
+  <define name="realmagic-remote-de">
+    <center>
+      <img src="../img/remote_realmagic_en.jpg" alt="RealMagic"/>
+    </center>
+  </define>
+
+  <define name="streamzap-remote-en">
+    <center>
+      <img src="../img/remote_streamzap_en.jpg" alt="StreamZap"/>
+    </center>
+  </define>
+  <define name="streamzap-remote-fr">
+    <center>
+      <img src="../img/remote_streamzap_fr.jpg" alt="StreamZap"/>
+    </center>
+  </define>
+  <define name="streamzap-remote-de">
+    <center>
+      <img src="../img/remote_streamzap_en.jpg" alt="StreamZap"/>
+    </center>
+  </define>
+
+  <define name="mceusb-remote-en">
+    <center>
+      <img src="../img/remote_mceusb_en.jpg" alt="Microsoft Media Center USB"/>
+    </center>
+  </define>
+  <define name="mceusb-remote-fr">
+    <center>
+      <img src="../img/remote_mceusb_fr.jpg" alt="Microsoft Media Center USB"/>
+    </center>
+  </define>
+  <define name="streamzap-mceusb-de">
+    <center>
+      <img src="../img/remote_mceusb_en.jpg" alt="Microsoft Media Center USB"/>
     </center>
   </define>
 
@@ -201,20 +273,44 @@
       GeeXboX can be controlled using a LIRC-compliant remote and receiver. The only officially supported remote is the <i>Remote Wonder</i>, provided by ATI. Many other brands sell exactly the same controller and if the one you bought looks like the one above, it means that it's supported.<br/><br/>
 
       Even if the remote is user-friendly, here's the complete key bindings between the <i>Remote Wonder</i> and GeeXboX : <br/><br/>
-      <use name="ati-remote"/>
+      <use name="ati-remote-en"/>
 
       Here comes the same for the <i>Pinnacle PcTV</i> remote :<br/><br/>
       <use name="pctv-remote-en"/>
+
+      Here comes the same for the <i>Creative PC-DVD</i> remote :<br/><br/>
+      <use name="creative-remote-en"/>
+
+      Here comes the same for the <i>RealMagic</i> remote :<br/><br/>
+      <use name="realmagic-remote-en"/>
+
+      Here comes the same for the <i>StreamZap</i> remote :<br/><br/>
+      <use name="streamzap-remote-en"/>
+
+      Here comes the same for the <i>Microsoft Media Center USB</i> remote :<br/><br/>
+      <use name="mceusb-remote-en"/>
 
       </content>      
       <content lang="fr" title="Utiliser une télécommande supportée ...">
       La GeeXboX peut être controlée au moyen d'une télécommande et d'un récepteur compatible avec LIRC. La seule télécommande dont le support officiel est assurée est la <i>Remote Wonder</i>, produite par ATI. De nombreuses autres marques vendent exactement le même modèle et si la télécommande dont vous disposez ressemble à celle ci-dessous, cela signifie qu'elle est supportée.<br/><br/>
 
       Même si l'usage de la télécommande semble implicite, voici un aperçu complet de l'association des touches de la <i>Remote Wonder</i> et des actions de la GeeXboX : <br/><br/>
-      <use name="ati-remote"/>
+      <use name="ati-remote-fr"/>
 
       Et voici de même pour la télécommande <i>Pinnacle PcTV</i> : <br/><br/>
       <use name="pctv-remote-fr"/>
+
+      Et voici de même pour la télécommande <i>Creative PC-DVD</i> : <br/><br/>
+      <use name="creative-remote-fr"/>
+
+      Et voici de même pour la télécommande <i>RealMagic</i> : <br/><br/>
+      <use name="realmagic-remote-fr"/>
+
+      Et voici de même pour la télécommande <i>StreamZap</i> : <br/><br/>
+      <use name="streamzap-remote-fr"/>
+
+      Et voici de même pour la télécommande <i>Microsoft Media Center USB</i> : <br/><br/>
+      <use name="mceusb-remote-fr"/>
 
       </content>
 
@@ -222,10 +318,22 @@
       GeeXboX kann mit einer LIRC kompatiblen Fernbedienung und Empfänger bedient werden. Die einzige offiziell unterstützte Fernbedienung ist die <i>Remote Wonder</i> des Herstellers ATI. Viele andere Hersteller vermarkten die exakt gleiche Fernbedienung nur unter anderem Namen. Wenn Sie also eine Fernbedienung besitzen, die der obigen ähnlich sieht, sollte diese auch unterstützt werden.<br/><br/>
 
       Auch wenn die Fernbedienung sehr benutzerfreundlich ist, hier trotzdem noch einmal die komplette Tastenbelegung für die <i>Remote Wonder</i> und GeeXboX : <br/><br/>
-      <use name="ati-remote"/>
+      <use name="ati-remote-de"/>
 
       Here comes the same for the <i>Pinnacle PcTV</i> remote :<br/><br/>
       <use name="pctv-remote-de"/>
+
+      Here comes the same for the <i>Creative PC-DVD</i> remote :<br/><br/>
+      <use name="creative-remote-en"/>
+
+      Here comes the same for the <i>RealMagic</i> remote :<br/><br/>
+      <use name="realmagic-remote-en"/>
+
+      Here comes the same for the <i>StreamZap</i> remote :<br/><br/>
+      <use name="streamzap-remote-en"/>
+
+      Here comes the same for the <i>Microsoft Media Center USB</i> remote :<br/><br/>
+      <use name="mceusb-remote-en"/>
 
       </content>       
     </subsection>
