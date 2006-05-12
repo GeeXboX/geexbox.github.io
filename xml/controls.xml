@@ -33,7 +33,21 @@
       <img src="../img/keyboard_azerty_de.png" alt="Azerty Keyboard"/>
     </center>
   </define>
-
+  <define name="numpad-en">
+    <center>
+      <img src="../img/numpad_en.png" alt="Numpad"/>
+    </center>
+  </define>
+  <define name="numpad-fr">
+    <center>
+      <img src="../img/numpad_fr.png" alt="Pavé Numérique"/>
+    </center>
+  </define>
+  <define name="numpad-de">
+    <center>
+      <img src="../img/numpad_de.png" alt="Numpad"/>
+    </center>
+  </define>
 
   <define name="ati-remote-en">
     <center>
@@ -249,6 +263,8 @@
       <use name="keyboard-qwerty-en"/>
       and same applies for an <b>Azerty</b> keyboard:
       <use name="keyboard-azerty-en"/>
+      and here comes the <b>numpad</b> bindings:
+      <use name="numpad-en"/>
       </content>
       <content lang="fr" title="Utiliser le clavier ...">
       La GeeXboX peut être controllée au moyen du clavier. Un garnd nombre de touches ont été attribuées à de nombreuses actions et les descriptions ci-dessous devraient vous aider à vous y retrouver. Quelle que soit votre modèle de clavier (Qwerty, Azerty, Dvorak ...) il sera cependant vu par la GeeXboX comme un clavier de type Qwerty, et de ce fait, l'attribution des touches peut varier sensiblement.<br/>
@@ -257,6 +273,8 @@
       <use name="keyboard-qwerty-fr"/>
       et la même chose pour un clavier de type <b>Azerty</b> :
       <use name="keyboard-azerty-fr"/>
+      ainsi que les touches associées au <b>pavé numérique</b> :
+      <use name="numpad-fr"/>
       </content>
       <content lang="de" title="Using the keyboard ...">
       GeeXboX can be controlled only using the keyboard. A lot of keys are bindded to many controls and the descriptions below will help you deal with it. Whatever your keyboard is (Qwerty, Azerty, Dvorak ...) it'll be seen by the GeeXboX as a qwerty keyboard and thus, the mapping may change a little bit.<br/>
@@ -265,6 +283,8 @@
       <use name="keyboard-qwerty-de"/>
       and same applies for an <b>Azerty</b> keyboard:
       <use name="keyboard-azerty-de"/>
+      and here comes the <b>numpad</b> bindings:
+      <use name="numpad-de"/>
       </content>
     </subsection>
 
