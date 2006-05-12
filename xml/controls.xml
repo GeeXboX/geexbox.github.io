@@ -37,17 +37,17 @@
 
   <define name="ati-remote-en">
     <center>
-      <img src="../img/ati_remote_wonder_en.jpg" alt="ATI Remote Wonder"/>
+      <img src="../img/remote_ati_en.png" alt="ATI Remote Wonder"/>
     </center>
   </define>
   <define name="ati-remote-fr">
     <center>
-      <img src="../img/ati_remote_wonder_fr.jpg" alt="ATI Remote Wonder"/>
+      <img src="../img/remote_ati_fr.png" alt="ATI Remote Wonder"/>
     </center>
   </define>
   <define name="ati-remote-de">
     <center>
-      <img src="../img/ati_remote_wonder_en.jpg" alt="ATI Remote Wonder"/>
+      <img src="../img/remote_ati_en.png" alt="ATI Remote Wonder"/>
     </center>
   </define>
 
@@ -69,65 +69,65 @@
 
   <define name="creative-remote-en">
     <center>
-      <img src="../img/remote_creative_en.jpg" alt="Creative PC-DVD"/>
+      <img src="../img/remote_creative_en.png" alt="Creative PC-DVD"/>
     </center>
   </define>
   <define name="creative-remote-fr">
     <center>
-      <img src="../img/remote_creative_fr.jpg" alt="Creative PC-DVD"/>
+      <img src="../img/remote_creative_fr.png" alt="Creative PC-DVD"/>
     </center>
   </define>
   <define name="creative-remote-de">
     <center>
-      <img src="../img/remote_creative_en.jpg" alt="Creative PC-DVD"/>
+      <img src="../img/remote_creative_en.png" alt="Creative PC-DVD"/>
     </center>
   </define>
 
   <define name="realmagic-remote-en">
     <center>
-      <img src="../img/remote_realmagic_en.jpg" alt="RealMagic"/>
+      <img src="../img/remote_realmagic_en.png" alt="RealMagic"/>
     </center>
   </define>
   <define name="realmagic-remote-fr">
     <center>
-      <img src="../img/remote_realmagic_fr.jpg" alt="RealMagic"/>
+      <img src="../img/remote_realmagic_fr.png" alt="RealMagic"/>
     </center>
   </define>
   <define name="realmagic-remote-de">
     <center>
-      <img src="../img/remote_realmagic_en.jpg" alt="RealMagic"/>
+      <img src="../img/remote_realmagic_en.png" alt="RealMagic"/>
     </center>
   </define>
 
   <define name="streamzap-remote-en">
     <center>
-      <img src="../img/remote_streamzap_en.jpg" alt="StreamZap"/>
+      <img src="../img/remote_streamzap_en.png" alt="StreamZap"/>
     </center>
   </define>
   <define name="streamzap-remote-fr">
     <center>
-      <img src="../img/remote_streamzap_fr.jpg" alt="StreamZap"/>
+      <img src="../img/remote_streamzap_fr.png" alt="StreamZap"/>
     </center>
   </define>
   <define name="streamzap-remote-de">
     <center>
-      <img src="../img/remote_streamzap_en.jpg" alt="StreamZap"/>
+      <img src="../img/remote_streamzap_en.png" alt="StreamZap"/>
     </center>
   </define>
 
   <define name="mceusb-remote-en">
     <center>
-      <img src="../img/remote_mceusb_en.jpg" alt="Microsoft Media Center USB"/>
+      <img src="../img/remote_mceusb_en.png" alt="Microsoft Media Center USB"/>
     </center>
   </define>
   <define name="mceusb-remote-fr">
     <center>
-      <img src="../img/remote_mceusb_fr.jpg" alt="Microsoft Media Center USB"/>
+      <img src="../img/remote_mceusb_fr.png" alt="Microsoft Media Center USB"/>
     </center>
   </define>
   <define name="streamzap-mceusb-de">
     <center>
-      <img src="../img/remote_mceusb_en.jpg" alt="Microsoft Media Center USB"/>
+      <img src="../img/remote_mceusb_en.png" alt="Microsoft Media Center USB"/>
     </center>
   </define>
 
