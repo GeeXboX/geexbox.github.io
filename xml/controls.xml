@@ -25,12 +25,12 @@
   </define>
   <define name="keyboard-qwerty-de">
     <center>
-      <img src="../img/keyboard_qwerty_de.png" alt="Qwerty Keyboard"/>
+      <img src="../img/keyboard_qwerty_en.png" alt="Qwerty Keyboard"/>
     </center>
   </define>
   <define name="keyboard-azerty-de">
     <center>
-      <img src="../img/keyboard_azerty_de.png" alt="Azerty Keyboard"/>
+      <img src="../img/keyboard_azerty_en.png" alt="Azerty Keyboard"/>
     </center>
   </define>
   <define name="numpad-en">
@@ -45,7 +45,7 @@
   </define>
   <define name="numpad-de">
     <center>
-      <img src="../img/numpad_de.png" alt="Numpad"/>
+      <img src="../img/numpad_en.png" alt="Numpad"/>
     </center>
   </define>
 
