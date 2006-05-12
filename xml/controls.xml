@@ -267,7 +267,7 @@
       <use name="numpad-en"/>
       </content>
       <content lang="fr" title="Utiliser le clavier ...">
-      La GeeXboX peut être controllée au moyen du clavier. Un garnd nombre de touches ont été attribuées à de nombreuses actions et les descriptions ci-dessous devraient vous aider à vous y retrouver. Quelle que soit votre modèle de clavier (Qwerty, Azerty, Dvorak ...) il sera cependant vu par la GeeXboX comme un clavier de type Qwerty, et de ce fait, l'attribution des touches peut varier sensiblement.<br/>
+      La GeeXboX peut être controllée au moyen du clavier. Un grand nombre de touches ont été attribuées à de nombreuses actions et les descriptions ci-dessous devraient vous aider à vous y retrouver. Quelle que soit votre modèle de clavier (Qwerty, Azerty, Dvorak ...) il sera cependant vu par la GeeXboX comme un clavier de type Qwerty, et de ce fait, l'attribution des touches peut varier sensiblement.<br/>
       <br/>
       Vous trouverez ci-dessous l'attribution des touches pour un clavier de type <b>Qwerty</b> :<br/><br/>
       <use name="keyboard-qwerty-fr"/>
