@@ -19,10 +19,44 @@
   * <a href="http://geexbox.raystream.de/"><b>RayStream - Media</b></a> - Kiel, Germany<br/>
   </define>
 
+  <define name="geexbox_release_1.0_rc1">
+    <a href="http://www.geexbox.org/releases/1.0-rc1/"><b>GeeXboX 1.0-rc1 Release (ISO + Generator)</b></a><br/>
+  </define>
+
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
     <content lang="de" title="Aktuelle Nachrichten ..."/>
+
+    <subsection label="release_1.0_rc1" date="2006-05-16">
+      <content lang="en" title="GeeXboX 1.0-rc1 'Happy Birthday' Development Release">
+      Today is just a special day. Thanks to you all, our baby boy now celebrates his 3 years old birthday. It's been quite a while since the first GeeXboX public release and for the few of you that use it since the 0.90-1 release, you can for sure see how much has been done and much more than just a media player GeeXboX now is. We've actually planned for quite a long time to make this day the special moment of the 1.0 major release but unfortunately you'll have to wait a couple of days more to discover this 1.0 final version. The reason is quite simple, first we aimed at featuring MPlayer 1.0pre8 which is not yet out and second we still have a couple of things to be tested out and maybe (probably ?) fixed in order to provide you a much better version of GeeXboX.<br/>
+      <br/>
+      Your goal now is quite simple, just try it out the most you can and help us hunting for these nasty bugs in order to fix the most of them. As an unofficial release, you won't get any ChangeLog but don't worry, you'll be provided a complete one with the incoming 1.0 release. Remember that it's just a matter of a couple of days before the final version and the more you'll help us testing this version, the sooner we'll be able to provide you the new version.<br/>
+      <br/>
+      Once again, happy birthday GeeXboX, thanks to you all for using it and we'll really hope you'll keep on doing it ;-)<br/>
+      <br/>
+      <use name="geexbox_release_1.0_rc1"/>
+      </content>
+      <content lang="fr" title="GeeXboX 1.0-rc1 'Happy Birthday' : Version de développement">
+      Aujourd'hui n'est pas un jour comme les autres. Grâce à vous tous c'est en effet aujourd'hui que notre bébé fête désormais ses 3 ans. Le temps désormais révolu de la toute première version publique 0.90-1 semble désormais tellement loin et le peu d'entre vous qui l'ont connu pourront juger des changements radicaux qui ont pu intervenir dans la vie de la GeeXboX, la transformant chaque jour en toujours plus qu'un simple lecteur multimédia. Nous avions prévu depuis maintenant bien longtemps de faire de cette journée le moment tant attendu de la version majeure 1.0 mais malheureusement cela va être partie remise et vous devrez attendre encore quelques jours avant de pouvoir profiter pleinement de la fête. La raison est très simple. En premier lieu nous avions prévu d'incorporer la version 1.0pre8 de MPlayer mais cette dernière se tarde également à pointer le bout de son nez. De plus, nous avons encore un certain nombre de fonctionnalités qui méritent d'être testées et revues davantage et très probablement corrigées afin de vous fournir la version la plus aboutie possible de la GeeXboX.<br/>
+      <br/>
+      Votre mission, si vous l'acceptez, est relativement simple. Il s'agit uniquement de tester cette version de développement autant que faire se peut afin de nous aider à erradiquer les derniers bugs qui se seraient échappés. Comme il s'agit là d'une version non définitive, vous n'aurez pas droit à l'extrêmement long ChangeLog mais ne vous inquiétez pas, vous le retrouverez dans quelques jours, associé à la version 1.0 finale. Gardez simplement à l'esprit que ce n'est plus qu'une question de jours avant que cette version ne soit complètement terminée et plus vous serez nombreux à la tester et plutôt elle verra le jour.<br/>
+      <br/>
+      Encore une fois, joyeux anniversaire à la GeeXboX, un grand merci à vous tous, fidèles utilisateurs, pour l'utilisation (quotidienne) que vous en faites et nous espérons vraiment que vous continuerez à en faire de même à l'avenir ;-)<br/>
+      <br/>
+      <use name="geexbox_release_1.0_rc1"/>
+      </content>
+      <content lang="de" title="GeeXboX 1.0-rc1 'Happy Birthday' Development Release">
+      Today is just a special day. Thanks to you all, our baby boy now celebrates his 3 years old birthday. It's been quite a while since the first GeeXboX public release and for the few of you that use it since the 0.90-1 release, you can for sure see how much has been done and much more than just a media player GeeXboX now is. We've actually planned for quite a long time to make this day the special moment of the 1.0 major release but unfortunately you'll have to wait a couple of days more to discover this 1.0 final version. The reason is quite simple, first we aimed at featuring MPlayer 1.0pre8 which is not yet out and second we still have a couple of things to be tested out and maybe (probably ?) fixed in order to provide you a much better version of GeeXboX.<br/>
+      <br/>
+      Your goal now is quite simple, just try it out the most you can and help us hunting for these nasty bugs in order to fix the most of them. As an unofficial release, you won't get any ChangeLog but don't worry, you'll be provided a complete one with the incoming 1.0 release. Remember that it's just a matter of a couple of days before the final version and the more you'll help us testing this version, the sooner we'll be able to provide you the new version.<br/>
+      <br/>
+      Once again, happy birthday GeeXboX, thanks to you all for using it and we'll really hope you'll keep on doing it ;-)<br/>
+      <br/>
+      <use name="geexbox_release_1.0_rc1"/>
+      </content>
+    </subsection>
 
     <subsection label="webserver_setup" date="2005-12-05">
       <content lang="en" title="WebServer Migration">
