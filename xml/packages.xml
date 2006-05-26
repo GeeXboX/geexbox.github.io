@@ -825,7 +825,7 @@
            <use name="nvtv"/>
            <use name="pciutils"/>
            <use name="rt2400"/>
-           <use name="RT2500"/>
+           <use name="rt2500"/>
            <use name="samba"/>
            <use name="setcd"/>
            <use name="strace"/>
@@ -896,7 +896,7 @@
            <use name="nvtv"/>
            <use name="pciutils"/>
            <use name="rt2400"/>
-           <use name="RT2500"/>
+           <use name="rt2500"/>
            <use name="samba"/>
            <use name="setcd"/>
            <use name="strace"/>
@@ -967,7 +967,7 @@
            <use name="nvtv"/>
            <use name="pciutils"/>
            <use name="rt2400"/>
-           <use name="RT2500"/>
+           <use name="rt2500"/>
            <use name="samba"/>
            <use name="setcd"/>
            <use name="strace"/>
