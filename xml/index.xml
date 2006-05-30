@@ -23,10 +23,32 @@
     <a href="http://www.geexbox.org/releases/1.0-rc1/"><b>GeeXboX 1.0-rc1 Release (ISO + Generator)</b></a><br/>
   </define>
 
+  <define name="geexbox_release_1.0_rc2">
+    <a href="http://www.geexbox.org/releases/1.0-rc2/"><b>GeeXboX 1.0-rc2 Release (ISO + Generator)</b></a><br/>
+  </define>
+
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
     <content lang="de" title="Aktuelle Nachrichten ..."/>
+
+    <subsection label="release_1.0_rc2" date="2006-05-30">
+      <content lang="en" title="GeeXboX 1.0-rc2 Development Release">
+      It's been exactly 2 weeks since previous GeeXboX development release. Thanks to your reports, a lot of bugs have been fixed and we're getting closer to the so waited for final 1.0 public release. It's just a matter of a couple of days now. It's now up to you to test this second release candidate in order to help us finalizing GeeXboX. Just remember it's the last chance to report nasty bugs to us.<br/>
+      <br/>
+      <use name="geexbox_release_1.0_rc2"/>
+      </content>
+      <content lang="fr" title="GeeXboX 1.0-rc2 : Version de Développement">
+      Exactement 2 semaines sont passées depuis la précédente version de développement de la GeeXboX. Grâce à vos remarques, un très grand nombre de bugs ont pu être identifiés et corrigés et nous nous approchons à grand pas de la tant attendue version 1.0. Ce n'est plus maintenant qu'une question de jours et vous êtes tous encouragés à essayer cette seconde version afin de nous aider à finaliser la GeeXboX. C'est votre dernière chance pour nous rapporter les bugs encore restant, il sera bientôt trop tard.<br/>
+      <br/>
+      <use name="geexbox_release_1.0_rc2"/>
+      </content>
+      <content lang="de" title="GeeXboX 1.0-rc2 Development Release">
+      It's been exactly 2 weeks since previous GeeXboX development release. Thanks to your reports, a lot of bugs have been fixed and we're getting closer to the final 1.0 public release. It's just a matter of a couple of days now. It's now up to you to test this second release candidate in order to help us finalizing GeeXboX. Just remember it's the last time to report us nasty bugs.<br/>
+      <br/>
+      <use name="geexbox_release_1.0_rc2"/>
+      </content>
+    </subsection>
 
     <subsection label="release_1.0_rc1" date="2006-05-16">
       <content lang="en" title="GeeXboX 1.0-rc1 'Happy Birthday' Development Release">
