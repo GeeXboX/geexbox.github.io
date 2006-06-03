@@ -145,6 +145,22 @@
     </center>
   </define>
 
+  <define name="cinergy1400-remote-en">
+    <center>
+      <img src="../img/remote_cinergy1400_en.png" alt="Cinergy 1400"/>
+    </center>
+  </define>
+  <define name="cinergy1400-remote-fr">
+    <center>
+      <img src="../img/remote_cinergy1400_fr.png" alt="Cinergy 1400"/>
+    </center>
+  </define>
+  <define name="cinergy1400-remote-de">
+    <center>
+      <img src="../img/remote_cinergy1400_en.png" alt="Cinergy 1400"/>
+    </center>
+  </define>
+
   <section label="doc">
     <content lang="en" title="Keys &amp; Controls ..."/>
     <content lang="fr" title="Touches &amp; Contrôles ..."/>
@@ -310,6 +326,9 @@
       Here comes the same for the <i>Microsoft Media Center USB</i> remote :<br/><br/>
       <use name="mceusb-remote-en"/>
 
+      Here comes the same for the <i>Cinergy 1400</i> remote :<br/><br/>
+      <use name="cinergy1400-remote-en"/>
+
       </content>      
       <content lang="fr" title="Utiliser une télécommande supportée ...">
       La GeeXboX peut être controlée au moyen d'une télécommande et d'un récepteur compatible avec LIRC. La seule télécommande dont le support officiel est assurée est la <i>Remote Wonder</i>, produite par ATI. De nombreuses autres marques vendent exactement le même modèle et si la télécommande dont vous disposez ressemble à celle ci-dessous, cela signifie qu'elle est supportée.<br/><br/>
@@ -331,6 +350,9 @@
 
       Et voici de même pour la télécommande <i>Microsoft Media Center USB</i> : <br/><br/>
       <use name="mceusb-remote-fr"/>
+
+      Et voici de même pour la télécommande <i>Cinergy 1400</i> : <br/><br/>
+      <use name="cinergy1400-remote-fr"/>
 
       </content>
 
@@ -354,6 +376,9 @@
 
       Here comes the same for the <i>Microsoft Media Center USB</i> remote :<br/><br/>
       <use name="mceusb-remote-en"/>
+
+      Here comes the same for the <i>Cinergy 1400</i> remote :<br/><br/>
+      <use name="cinergy1400-remote-en"/>
 
       </content>       
     </subsection>
