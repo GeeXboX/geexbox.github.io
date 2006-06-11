@@ -50,6 +50,7 @@
 * 3COM 10Mbps LAN PC-Card<br/>
 * US Robotics PCMCIA V.34 Modem<br/>
 * Hauppauge PVR 350<br/>
+* Hauppauge WinTV NOVA-S-Plus<br/>
   </define>
 
   <define name="computer">
@@ -74,7 +75,7 @@
   </define>
 
   <define name="donators-hard">
-    Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac, Andrew Florence (<use name="response-computing-url"/>), Guy C. McNeill (<use name="westminster-url"/>)
+    Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac, Andrew Florence (<use name="response-computing-url"/>), Guy C. McNeill (<use name="westminster-url"/>), Hervé Remigy
   </define>
 
   <section label="donate">
