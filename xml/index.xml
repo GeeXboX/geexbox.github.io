@@ -20,11 +20,11 @@
   </define>
 
   <define name="geexbox_release_1.0_rc1">
-    <a href="http://www.geexbox.org/releases/1.0-rc1/"><b>GeeXboX 1.0-rc1 Release (ISO + Generator)</b></a><br/>
+    <a href="../releases/1.0-rc1/"><b>GeeXboX 1.0-rc1 Release (ISO + Generator)</b></a><br/>
   </define>
 
   <define name="geexbox_release_1.0_rc2">
-    <a href="http://www.geexbox.org/releases/1.0-rc2/"><b>GeeXboX 1.0-rc2 Release (ISO + Generator)</b></a><br/>
+    <a href="../releases/1.0-rc2/"><b>GeeXboX 1.0-rc2 Release (ISO + Generator)</b></a><br/>
   </define>
 
   <section label="news">
