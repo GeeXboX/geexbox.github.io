@@ -27,10 +27,32 @@
     <a href="../releases/1.0-rc2/"><b>GeeXboX 1.0-rc2 Release (ISO + Generator)</b></a><br/>
   </define>
 
+  <define name="geexbox_release_1.0_rc3">
+    <a href="../releases/1.0-rc3/"><b>GeeXboX 1.0-rc3 Release (ISO + Generator)</b></a><br/>
+  </define>
+
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
     <content lang="de" title="Aktuelle Nachrichten ..."/>
+
+    <subsection label="release_1.0_rc3" date="2006-06-18">
+      <content lang="en" title="GeeXboX 1.0-rc3 Development Release">
+      On this sunny sunday, GeeXboX comes with its very latest development release. This one is the latest one before the final 1.0 which should be available in all FOSS stores for the end of the week. We're getting closer folks ... just have a last try at it.<br/>
+      <br/>
+      <use name="geexbox_release_1.0_rc3"/>
+      </content>
+      <content lang="fr" title="GeeXboX 1.0-rc3 : Version de Développement">
+      En ce dimanche ensolleillé, la GeeXboX est de retour dans sa toute dernière version de développement. Celle ci est bien la dernière avant la version finale 1.0, qui devrait être disponible pour la fin de semaine dans toutes les bonnes crèmeries open-source. On s'en rapproche les amis ... il ne vous reste plus qu'un dernier essai.<br/>
+      <br/>
+      <use name="geexbox_release_1.0_rc3"/>
+      </content>
+      <content lang="de" title="GeeXboX 1.0-rc3 Development Release">
+      On this sunny sunday, GeeXboX comes with its very latest development release. This one is the latest one before the final 1.0 which should be available in all FOSS stores for the end of the week. We're getting closer folks ... just have a last try at it.<br/>
+      <br/>
+      <use name="geexbox_release_1.0_rc3"/>
+      </content>
+    </subsection>
 
     <subsection label="release_1.0_rc2" date="2006-05-30">
       <content lang="en" title="GeeXboX 1.0-rc2 Development Release">
