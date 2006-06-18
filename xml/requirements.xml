@@ -39,7 +39,7 @@
       <content lang="en" title="Hardware Needs">
         'GeeXboX is an operating system but you still need something to boot on ;-) You're lucky, GeeXboX is based on MPlayer, which can be considered as one of the less cpu-dependent movie players, thanks to the use of FFMpeg for decoding movies.<br/><br/>
 So, here's what can be considered as a typical / minimal config :<br/>
-* x86 Pentium-Class CPU or above (P2-400 should be quite enough) or Macintosh G3 (G4 highly recommended) <br/>
+* x86 Pentium-Class CPU or above (P2-400 should be quite enough) or Macintosh NewWorld G3 (G4 highly recommended) <br/>
 * a VESA 2.0 compliant graphics card (for x86 PC only).<br/>
 * an ALSA compatible sound card.<br/>
 * at least 64 MB of RAM<br/>
@@ -51,7 +51,7 @@ So, here's what can be considered as a typical / minimal config :<br/>
       <content lang="fr" title="Besoins Matériel">
         La GeeXboX a beau être un système d'exploitation, elle ne nécessite pas moins quelque chose sur quoi démarrer ;-) Vous avez de la chance, elle est basée sur MPlayer, qui peut être considéré comme l'un des lecteurs multimédia les moins dépendant de puissance CPU, de par l'utilisation de la librairie FFMpeg pour décoder les vidéos par exemple.<br/><br/>
 Voici donc ce qui peut être considéré comme une configuration typique / minimale :<br/>
-* CPU x86 de type Pentium ou Supérieur (un P2-400 devrait parfaitement convenir) ou Macintosh G3 (G4 recommandé).<br/>
+* CPU x86 de type Pentium ou Supérieur (un P2-400 devrait parfaitement convenir) ou Macintosh NewWorld G3 (G4 recommandé).<br/>
 * une carte graphique compatible VESA 2.0 (pour PC x86 uniquement)<br/>
 * une carte son compatible ALSA.<br/>
 * environ 64 Mo de mémoire vive<br/>
@@ -62,7 +62,7 @@ Voici donc ce qui peut être considéré comme une configuration typique / minim
       <content lang="de" title="Hardware Voraussetzungen">
         GeeXboX ist ein Betriebssystem, aber trotzdem brauchen Sie etwas, um es irgendwie zu starten ;-) Sie können sich freuen, denn GeeXboX basiert auf MPlayer, der durch die Nutzung von FFMpeg für die Dekodierung von Filmen als einer der ressourcenschonendsten Player gilt.<br/><br/>
 Die folgende Liste stellt die Mindestanforderungen an die Hardware dar :<br/>
-* Pentium basierte CPU oder besser (P2-400 sollte ausreichend sein) oder ein Power Macintosh G3 (G4 empfohlen)<br/>
+* Pentium basierte CPU oder besser (P2-400 sollte ausreichend sein) oder ein Power Macintosh NewWorld G3 (G4 empfohlen)<br/>
 * eine VESA 2.0 kompatible Grafikkarte (gilt nur für x86 PC's).<br/>
 * eine ALSA kompatible Soundkarte.<br/>
 * wenigstens 64 MB Arbeitsspeicher<br/>
@@ -84,7 +84,7 @@ Die folgende Liste stellt die Mindestanforderungen an die Hardware dar :<br/>
 * <use name="req-mkzftree"/> : this program is available from the zisofs-tools package and let you create compressed iso images.<br/>
 * <use name="req-cdrecord"/> : A command line CD writing tool cdrecord allows you to create CDs.<br/><br/>
 
-          You also need to have at least 1.2 GB of free disk space in order to build the GeeXboX properly.
+          You also need to have at least 2 GB of free disk space in order to build the GeeXboX properly.
       </content>
       <content lang="fr" title="Besoins Logiciel">
         Ceci n'est nécessaire que dans le cas où vous souhaiteriez construire ou personnaliser votre propre version de la GeeXboX. Avant toute chose, il vous faut savoir que la construction nécessite d'être faite sous un système GNU/Linux. De plus, certains paquetages sont requis, tels que : <br/><br/>
@@ -97,7 +97,7 @@ Die folgende Liste stellt die Mindestanforderungen an die Hardware dar :<br/>
 * <use name="req-mkzftree"/> : ce programme est disponible dans le paquetage zisofs-tools et permet des créer des images iso compressées.<br/>
 * <use name="req-cdrecord"/> : Un logiciel de gravure de CD en ligne de commande.<br/><br/>
 
-          Vous devez en outre disposer d'un minimum de 1.2 Go d'espace disque disponible afin de construire la GeeXboX correctement.
+          Vous devez en outre disposer d'un minimum de 2 Go d'espace disque disponible afin de construire la GeeXboX correctement.
       </content>
       <content lang="de" title="Software Voraussetzungen">
         Sie benötigen die folgende Sofware nur, wenn Sie planen, die GeeXboX selbst zu kompilieren oder anzupassen. Dabei gilt, die GeeXboX muss unter GNU/Linux erstellt werden. Zusätzlich benötigen Sie evtl. einige dieser Softwarepakete : <br/><br/>
@@ -110,7 +110,7 @@ Die folgende Liste stellt die Mindestanforderungen an die Hardware dar :<br/>
 * <use name="req-mkzftree"/> : Dieses Programm gehört zu den "zisofs-tools" Programmen und hilft Ihnen bei der Erstellung von komprimierten ISO Images.<br/>
 * <use name="req-cdrecord"/> : Ein Kommandozeilenprogramm zum Erstellen von CDs.<br/><br/>
 
-          Ausserdem benötigen Sie als Minimum 1.2 GB freien Speicherplatz auf Ihrer Festplatte, um die GeeXboX zu erstellen.
+          Ausserdem benötigen Sie als Minimum 2 GB freien Speicherplatz auf Ihrer Festplatte, um die GeeXboX zu erstellen.
       </content>
     </subsection>
   </section>
