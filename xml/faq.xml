@@ -52,7 +52,6 @@
         <a href="#theme">How can I create my own GeeXboX's theme ?</a>
       </content>
       <content lang="fr" title="Liste des FAQ ...">
-        <a href="#tutorials">GeeXboX pas-à-pas : tutoriaux (non officiels)</a><br/>
         <a href="#burning">Comment graver l'image ?</a><br/>
         <a href="#ftp">Comment rajouter des fichiers multimédias sur ma GeeXboX distante ?</a><br/>
         <a href="#generator">Comment construire son ISO personnalisée ?</a><br/>
@@ -107,14 +106,6 @@
         <a href="#bootlogo">Wie kann ich das GeeXboX Bootlogo verändern ?</a><br/>
         <a href="#modify_menu">Wie kann ich die Menüeinträge anpassen ?</a><br/>
         <a href="#theme">Wie kann ich mein eigenes GeeXboX's Theme erstellen ?</a>
-      </content>
-    </subsection>
-
-    <subsection label="tutorials">
-      <content lang="fr" title="GeeXboX pas-à-pas : tutoriaux (non officiels)">
-        GeeXboX est un système qui nécessite très peu d'intervention de la part de l'utilisateur moyen. Néanmoins, si vous souhaitez vous lancer dans l'aventure, il est possible d'affiner un peu plus le système à sa propre configuration. Le site web <use name="tutorials-link"/> regroupe un ensemble d'astuces pour améliorer sa GeeXboX. Il comporte de nombreux tutoriaux expliquant étapes après étapes comment modifier son ISO à ses propres besoins, recompiler les sources, ou encore les adapter à son système. Ce site est un regroupement non-officiel de tutoriaux (à savoir qu'il est maintenu par des utilisateurs et non les développeurs). Mais il fonctionne surtout sur le principe du Wiki, une page web collaboratrice, où chacun peut contribuer pour ajouter son grain de sel.
-        <br/>
-        Vous trouverez également un bon tutoriel décrivant pas à pas la construction d'un système embarqué basé sur GeeXboX sur le site de <use name="yann-morere"/>.
       </content>
     </subsection>
 
@@ -214,13 +205,13 @@
 
     <subsection label="disable_vidix">
       <content lang="en" title="How to disable VidiX ?">
-      In some rare cases, your computer may not support the VidiX hardware acceleration of your display adapter. You can, of course disable it easily, resulting in a lack of performance, according to your configuration. To do so, simply replace the <b>vo=vesa:vidix,vesa</b> line in your <i>/etc/mplayer/mplayer.conf</i> file with the following one : <b>vo=vesa</b> and regenerate the ISO.
+      In some rare cases, your computer may not support the VidiX hardware acceleration of your display adapter. You can, of course disable it easily, resulting in a lack of performance, according to your configuration. To do so, simply replace the <b>vo=cvidix,vesa</b> line in your <i>/etc/mplayer/mplayer.conf</i> file with the following one : <b>vo=vesa</b> and regenerate the ISO.
       </content>
       <content lang="fr" title="Comment désactiver le support du VidiX ?">
-      Dans certains cas particuliers, votre ordinateur peut ne pas supporter l'accélération matérielle VidiX de votre carte graphique. Vous pouvez, dans ce cas, la désactiver, cela étant accompagné d'une perte de performances, en fonction de votre configuration. Pour cela, remplacez simplement la ligne <b>vo=vesa:vidix,vesa</b> de votre fichier <i>/etc/mplayer/mplayer.conf</i> par la suivante : <b>vo=vesa</b> et regénérez l'iso avec le generator.
+      Dans certains cas particuliers, votre ordinateur peut ne pas supporter l'accélération matérielle VidiX de votre carte graphique. Vous pouvez, dans ce cas, la désactiver, cela étant accompagné d'une perte de performances, en fonction de votre configuration. Pour cela, remplacez simplement la ligne <b>vo=cvidix,vesa</b> de votre fichier <i>/etc/mplayer/mplayer.conf</i> par la suivante : <b>vo=vesa</b> et regénérez l'iso avec le generator.
       </content>
       <content lang="de" title="Wie kann ich VidiX deaktivieren ?">
-      In einigen wenigen Fällen kann es vorkommen, dass Ihre Hardware keine VidiX Beschleunigung unterstützt. Natürlich können Sie diese auf einfache Weise deaktivieren (mit dem Resultat, dass Sie einiges an Performance einbüßen). Um VidiX zu deaktivieren, ändern Sie einfach die Zeile <b>vo=vesa:vidix,vesa</b> in der <i>/etc/mplayer/mplayer.conf</i> Datei nach : <b>vo=vesa</b> und erstellen ein neues ISO-Image.
+      In einigen wenigen Fällen kann es vorkommen, dass Ihre Hardware keine VidiX Beschleunigung unterstützt. Natürlich können Sie diese auf einfache Weise deaktivieren (mit dem Resultat, dass Sie einiges an Performance einbüßen). Um VidiX zu deaktivieren, ändern Sie einfach die Zeile <b>vo=cvidix,vesa</b> in der <i>/etc/mplayer/mplayer.conf</i> Datei nach : <b>vo=vesa</b> und erstellen ein neues ISO-Image.
       </content>
     </subsection>
 
