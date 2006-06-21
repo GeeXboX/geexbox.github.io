@@ -20,6 +20,273 @@
     <content lang="fr" title="Dernières Nouvelles ..."/>
     <content lang="de" title="Aktuelle Nachrichten ..."/>
 
+    <subsection label="release_1.0" date="2006-06-xx">
+      <content lang="en" title="GeeXboX 1.0: 'As foretold by Nostradamus' edition (posted by Ben)">
+      Here we finally are ... after more than 3 years of perpetual development, GeeXboX finally reaches its so long waited for 1.0 release number. Many of you were waiting for it and this is probably the best edition of GeeXboX you'll ever had. We've spent so much time in the last few monthes to fix the most bugs we can that you'll be forced to enjoy it ;-) At the time Aurel and myself started working on GeeXboX, none of us would have expected our software to become that famous. I'm really glad that this version finally came out and I really really want to thank from the deepest of my heart all the people of our development team who is getting involved in GeeXboX everyday. None of this would ever have been possible without the work you've all done on it. I'd also like to thank all users that trusted us and are now using our software in a daily manner. You are the ones who made it possible. So for now, I hope you'll all enjoy our 1.0 release, we all did our very best on it, and let's road to 2.0.<br/>
+      <br/>
+      So, what can you expect from this final 1.0 release ? Well, so many things have changed, been added or simply fixed. The most noticeable thing probably is the support for DVD menus, this feature that has been asked for so many people for so many times and that was unfortunately missing from MPlayer is now part of GeeXboX. A lot of work also has been done for playing back network streams from SHOUTcast WebRadios, WebTVs or even RTP/RTSP streaming that you should now be able to easily watch any kind of network or broadcasted stream from your GeeXboX media center. The overall hardware support for various DVB cards, sound cards and video display adapters also has been improved. You're now also able to see all metadata information and properties (like Codecs, resolution or ID3 tags) from your multimedia files. But the easier probably is for you to read out our shortened changelog.<br/>
+      <br/>
+<b>Detailed Changelog (relative to 0.98.7 release) :</b><br/>
+<br/>
+<b>System:</b><br/>
+- Updated linux to version 2.6.16.17.<br/>
+- Updated BusyBox to 1.1.3.<br/>
+- Updated uClibc to 2006.05.05 snapshot.<br/>
+- Updated udev to version 0.92.<br/>
+<br/>
+<b>Toolchain:</b><br/>
+- Introduced GCC 4.1.1 as the new compiler.<br/>
+- Support for C++ in the toolchain.<br/>
+- All packages are now built with big files support flag.<br/>
+- Added support for non-free binary firmwares at sources build.<br/>
+<br/>
+<b>Player:</b><br/>
+- Updated MPlayer to 1.0pre8.<br/>
+- DVD Navigation Menus support.<br/>
+- SHOUTcast and Netstream support (with content filtering on adult/subscription-only streams).<br/>
+- Support for LIVE555 library (RTP/RTSP/SIP streaming) which provides FreeboxTV support for French people using the Free ISP.<br/>
+- Use mp3-lib instead of FFMpeg to avoid audible glitches while seeking.<br/>
+- Fix MPlayer's bug which prevents AVI files with ODML index (99% of XviD files) to be read when idx=yes (default).<br/>
+- Fix sound/subtitles issues while playing MPEG-TS streams.<br/>
+- Support for multichannel AAC in MOV files.<br/>
+- Playback of IFO files (DVD disc ripped on HDD for example) now works as expected.<br/>
+- Set minimal cache size (5% of cache) to start playback of file very quickly.<br/>
+- Fixes on TV channels generation with spaces in their name.<br/>
+- Allows RTSP client's port forcing (for FreeboxTV users in router mode for example).<br/>
+- Added support for DVD-RAM MPEG files.<br/>
+<br/>
+<b>Menu:</b><br/>
+- Brand new menu item selection display (now with alpha layer).<br/>
+- Added new menu that displays streams A/V properties.<br/>
+- Allows metadata retrieval from MP3/OGG/FLAC audio files.<br/>
+- Properties menu auto-opens and updates on audio-only media.<br/>
+- Prevent user from browsing (and getting lost) in /<br/>
+- Display NIC's MAC address into information menu.<br/>
+- Display CDROM size.<br/>
+- Fixed display of disks partition size and freespace.<br/>
+- Added release number information.<br/>
+<br/>
+<b>Audio:</b><br/>
+- Update ALSA library and utilities to version v1.0.11.<br/>
+- Added a lot of fixes for audio playback.<br/>
+<br/>
+<b>Video:</b><br/>
+- Added support for different resolutions to be used through generator.<br/>
+- Support for VESA with Intel i865, i910 and i915 chipsets.<br/>
+<br/>
+<b>Drivers:</b><br/>
+- Added support for Serial ATA CDROM drives.<br/>
+- Added support for ATAPI/IDE ZIP/LS120 drives.<br/>
+- Added support for PcCard (32bits CardBus only, not 16bits PCMCIA).<br/>
+- Added LCD displays support through LCD4Linux.<br/>
+- Added support for most of Gigabit NICs.<br/>
+- Fix support of Nova DVB-S+ card.<br/>
+- Updated LIRC to v0.8.0.<br/>
+- Updated rt2400/rt2500 drivers to CVS 05.09.2006.<br/>
+- Fix em8300 driver and firmware loading issues.<br/>
+<br/>
+<b>Networking:</b><br/>
+- Updated djmount to version 0.53 (files are no more represented as playlist).<br/>
+- Fixed bftpd FTP server write access error.<br/>
+- Updated bftpd to version 1.4, and included fix for file transfers greater than 2GB.<br/>
+- Update wireless tools to version 28.<br/>
+<br/>
+<b>Generator:</b><br/>
+- Updated generator tools for MacOS X (support for MacIntel x86 OSX 10.4).<br/>
+- Allow you to choose between multiple themes.<br/>
+- Tab for DVD Navigation menus tab to select it as a default or not.<br/>
+- Tab for autoplay tab to select it as a default or not.<br/>
+- Tab for SHOUTcast (radio and tv netstreams).<br/>
+- Tab for video settings configuration (resolution, color depth and boot splash)<br/>
+- Tab for support of LCD displays.<br/>
+<br/>
+<b>Miscellaneous:</b><br/>
+- Fix zoomed scrolling in FBI image viewer.<br/>
+- Support for Microsoft Media Center Edition USB, StreamZap, Twinhan DTV, Toshiba VT76F and ATI Remote Wonder II remotes.<br/>
+- Implemented full Digimatrix hardware support.<br/>
+- Allow multiple resolutions in themes.<br/>
+- Support for VMware and QEMU (usefull for test purpose).<br/>
+<br/>
+      GeeXboX 1.0 is available <a href="downloads.html">here</a> and right now!
+      </content>
+      <content lang="fr" title="GeeXboX 1.0: 'As foretold by Nostradamus' edition (posté par Ben)">
+      Nous voici enfin arrivés à ce jour tant attendu ... après plus de 3 années de développement continu, la GeeXboX a finalement atteint sa version tant attendue, estampillée 1.0. Nombreux d'entre vous l'attendaient et il s'agit très probablement de la version la plus aboutie qu'il vous aura été donné de voir. Nous avons dépensé une telle énergie au cours des derniers mois à corriger les derniers bugs que vous serez forcés d'apprécier cette version ;-) Lorsque Aurelien et moi-même avons débutés l'aventure GeeXboX il y a quelques années, aucun de nous deux n'aurait pu s'attendre à une telle reconnaissance de notre produit et à une telle renommée. Je suis réellement heureux que cette version 1.0 ait finalement vue le jour et je souhaite réellement de tout mon coeur, remercier l'ensemble de notre équipe de développement, toutes ces personnes qui nous ont rejoint et fournissent tant d'efforts chaque jour pour maintenir la qualité de cette distribution. Rien de ce qu'il existe aujourd'hui n'aurait été rendu possible sans la participation de toutes ces personnes. J'aimerai également remercier tous les utilisateurs, qui nous ont soutenu et ont cru en nous depuis si longtemps et qui utilisent désormais la GeeXboX de manière quotidienne. C'est aussi grâce à vous que nous en sommes là aujourd'hui. Pour l'heure, j'espère que vous apprécierez tous cette version 1.0, nous avons réellement donné le meilleur de nous-mêmes et, en route pour la version 2.0 ;-)<br/>
+      <br/>
+      Revenons en à l'essentiel. Que pouvez vous attendre de cette version 1.0 ? Tellement de choses ont changé, été ajoutées ou tout simplement corrigées depuis la désormais désuette version 0.98.7 ... La fonctionnalité qui vous sautera aux yeux en premier sera sans nul doute le support des menus DVD, cette fonctionnalité qui a été attendue par tous depuis tellement longtemps et qui fait défaut à MPlayer, est désormais incluse dans la GeeXboX. Il s'agit donc là de la première version pré-compilée de MPlayer a proposer cette fonctionnalité. Beaucoup d'efforts ont également été apportés sur la gestion et lecture des flux réseaux tels que les WebRadios et WebTVs par le biais de SHOUTcast ou encore le support du streaming par RTP/RTSP qui devrait vous permettre de lire très facilement tout type de contenu broadcasté à destination de votre media center GeeXboX. Le support matériel a également été amélioré, avec la prise en charge de nombreux nouveaux adaptateurs DVB, cartes sons ou cartes vidéos. Il vous également désormais possible d'extraire les propriétés et informations contenues dans vos fichiers multimédias (comme le type de codec utilisé, la résolution ou encore les tags ID3). Mais le plus simple reste encore de lire ce rapide descriptif des changements apportés :<br/>
+      <br/>
+<b>Liste détaillée des modifications (depuis la version 0.98.7) : </b><br/>
+<br/>
+<b>Composants systèmes :</b><br/>
+- Mise à jour du noyau Linux en version 2.6.16.17.<br/>
+- Mise à jour de BusyBox en version 1.1.3.<br/>
+- Mise à jour de la uClibc vers la version de développement du 2006.05.05.<br/>
+- Mise à jour de udev en version 0.92.<br/>
+<br/>
+<b>Chaîne de compilation :</b><br/>
+- Introduction de GCC 4.1.1 comme nouveau compilateur.<br/>
+- Support du C++ au sein de la chaîne de compilation.<br/>
+- L'ensemble des paquetages est désormais compilé avec support des fichiers de plus de 2 Go.<br/>
+- Ajout du support pour les firmwares binaires non-libres au sein de la chaîne de compilation.<br/>
+<br/>
+<b>Lecteur multimédia :</b><br/>
+- Mise à jour de MPlayer vers la version 1.0pre8.<br/>
+- Support des menus de navigation DVD.<br/>
+- Support des contenus réseaux et SHOUTcast (avec filtrage de contenu parental ou pour adultes seulement).<br/>
+- Support de la librairie LIVE555 (streaming de contenu RTP/RTSP/SIP) qui permet par exemple la lecture des flux FreeboxTV du FAI français Free.<br/>
+- Utilisation de la librairie mp3-lib à la place de FFMpeg pour éviter les effets de saut de son lors de déplacement dans le flux audio ou vidéo (seeking).<br/>
+- Correction d'un bug dans MPlayer qui empêchait la lecture des fichiers avec index OpenDML (99% des fichiers XviD) lorsque le paramètre idx=yes était activé (defaut).<br/>
+- Correction des problèmes de son et sous-titres lors de la lecture de flux MPEG-TS (DVB par exemple).<br/>
+- Support du son multicanaux AAC au sein des fichiers MOV.<br/>
+- Le support de la lecture des fichiers IFO (i.e un disque DVD copié sur disque dur par exemple) fonctionne désormais de manière correcte.<br/>
+- Activation de la taille minimale du cache (à 5% de la valeur totale du cache) afin de permettre le démarrage plus rapide des fichiers.<br/>
+- Correction d'un bug dans la génération des noms de chaînes TV qui contenaient un espace dans leur nom.<br/>
+- Permet à l'utilisateur de fixer le port RTSP sur lequel les contenus devront être envoyés (pour les utilisateurs FreeboxTV fonctionnant en mode routeur par exemple).<br/>
+- Support des fichiers MPEG DVD-RAM.<br/>
+<br/>
+<b>Menu OSD :</b><br/>
+- Nouveau menu de séléction (avec support du canal alpha de transparence).<br/>
+- Ajout d'un nouveau menu permettant de visualiser les propriétés audio/vidéo d'un flux.<br/>
+- Allows metadata retrieval from MP3/OGG/FLAC audio files.<br/>
+- Le menu des propriétés du fichier s'ouvre automatiquement lors de la lecture de contenus audio uniquement.<br/>
+- Ajout d'une protection empêchant l'utilisateur d'aller dans le répertoire / (et de s'y perdre), en considérant le point de montage des disques (locaux et réseaux) comme point central.<br/>
+- Affichage de l'addresse MAC de la carte réseau au sein du menu d'informations systèmes.<br/>
+- Affichage de l'espace disque consommé par le CDROM.<br/>
+- Correction du bug d'affichage des valeurs d'espace disque libre et occupé pour les partitions des disques.<br/>
+- Ajout de l'affichage dans le menu du numéro de version de la GeeXboX.<br/>
+<br/>
+<b>Audio :</b><br/>
+- Mise à jour de la librairie ALSA et de ses utilitaires en version v1.0.11.<br/>
+- Correction de nombreux problèmes de lecture audio.<br/>
+<br/>
+<b>Vidéo :</b><br/>
+- Ajout du support de multiples résolutions par le biais du générateur.<br/>
+- Support VESA des chipsets Intel i865, i910 et i915.<br/>
+<br/>
+<b>Pilotes :</b><br/>
+- Support des lecteurs de CDROM au format Serial ATA.<br/>
+- Support des lecteurs ATAPI/IDE ZIP/LS120.<br/>
+- Support (tant attendu) des cartes d'extensions PcCard (CardBus en mode 32bits uniquement, les anciennes cartes PCMCIA 16bits ne sont toujours pas supportées).<br/>
+- Support des écrans d'affichage LCD au travers de LCD4Linux.<br/>
+- Support de nombreuses cartes réseau Gigabit.<br/>
+- Support étendu de la carte Nova DVB-S+.<br/>
+- Mise à jour de LIRC en version v0.8.0.<br/>
+- Mise à jour des pilotes rt2400/rt2500 vers la version CVS 05.09.2006.<br/>
+- Correction des problèmes de chargement de firmware pour le pilote em8300 (cartes RealMagic Hollywood+).<br/>
+<br/>
+<b>Réseau :</b><br/>
+- Mise à jour de djmount en version 0.53 (les fichiers ne sont désormais plus vus comme des listes de lecture).<br/>
+- Correction du problème d'accès en écriture du serveur FTP bftpd.<br/>
+- Mise à jour du serveur bftpd en version 1.4, permettant le transfert de fichiers supérieurs à 2 Go.<br/>
+- Mise à jour des wireless tools vers la version 28.<br/>
+<br/>
+<b>Générateur :</b><br/>
+- Mise à jour du générateur pour MacOS X (support pour les MacIntel x86 sous OSX 10.4).<br/>
+- Permet le choix entre différents thèmes de démarrage et de menu.<br/>
+- Nouvel onglet permettant l'activation ou non par défaut du menu de navigation DVD.<br/>
+- Nouvel onglet permettant lactivation ou non par défaut de la fonctionnalité de démarrage automatique des contenus sur CD.<br/>
+- Nouvel onglet de configuration des flux réseaux et SHOUTcast (radio et TV).<br/>
+- Nouvel onglet de configuration des paramètres vidéo (résolution, profondeur de couleur et écran de démarrage).<br/>
+- Nouvel onglet de configuration et d'activation des écrans LCD.<br/>
+<br/>
+<b>Divers :</b><br/>
+- Correction des problèmes de zooms et de déplacements au sein du visauliseur d'images FBI.<br/>
+- Support des télécommandes Microsoft Media Center Edition USB, StreamZap, Twinhan DTV, Toshiba VT76F et ATI Remote Wonder II.<br/>
+- Support complet du barebone ASUS Digimatrix.<br/>
+- Permet le choix entre de multiples résolutions pour les thèmes.<br/>
+- Support de la virtualisation via VMware et QEMU (très utile dans un contexte de développement).<br/>
+<br/>
+      La GeeXboX 1.0 est disponible dès à présent sur notre <a href="downloads.html">page de téléchargements</a>.
+      </content>
+      <content lang="de" title="GeeXboX 1.0: 'As foretold by Nostradamus' edition (posted by Ben)">
+      Here we finally are ... after more than 3 years of perpetual development, GeeXboX finally reaches its so long waited for 1.0 release number. Many of you were waiting for it and this is probably the best edition of GeeXboX you'll ever had. We've spent so much time in the last few monthes to fix the most bugs we can that you'll be forced to enjoy it ;-) At the time Aurel and myself started working on GeeXboX, none of us would have expected our software to become that famous. I'm really glad that this version finally came out and I really really want to thank from the deepest of my heart all the people of our development  team who is getting involved in GeeXboX everyday. None of this would ever have been possible without the work you've all done on it. I'd also like to thank all users that trusted us and are now using our software in a daily manner. You are the ones who made it possible. So for now, I hope you'll all enjoy our 1.0 release, we all did our very best and let's road to 2.0.<br/>
+      <br/>
+      So, what can you expect from this final 1.0 release ? Well, so many things have changed, been added or simply fixed. The most noticeable thing probably is the support for DVD menus, this feature that has been asked for so many people for so many times and that was unfortunately missing from MPlayer is now part of GeeXboX. A lot of work also has been done for playing back network streams from SHOUTcast WebRadios, WebTVs or even RTP/RTSP streaming that you should now be able to easily watch any kind of network or broadcasted stream from your GeeXboX media center. The overall hardware support for various DVB cards, sound cards and video display adapters also has been improved. You're now also able to see all metadata information and properties (like Codecs, resolution or ID3 tags) from your multimedia files. But the easier probably is for you to read out our shortened changelog.<br/>
+      <br/>
+<b>Detailed Changelog (relative to 0.98.7 release) :</b><br/>
+<br/>
+<b>System:</b><br/>
+- Updated linux to version 2.6.16.17.<br/>
+- Updated BusyBox to 1.1.3.<br/>
+- Updated uClibc to 2006.05.05 snapshot.<br/>
+- Updated udev to version 0.92.<br/>
+<br/>
+<b>Toolchain:</b><br/>
+- Introduced GCC 4.1.1 as the new compiler.<br/>
+- Support for C++ in the toolchain.<br/>
+- All packages are now built with big files support flag.<br/>
+- Added support for non-free binary firmwares at sources build.<br/>
+<br/>
+<b>Player:</b><br/>
+- Updated MPlayer to 1.0pre8.<br/>
+- DVD Navigation Menus support.<br/>
+- SHOUTcast and Netstream support (with content filtering on adult/subscription-only streams).<br/>
+- Support for LIVE555 library (RTP/RTSP/SIP streaming) which provides FreeboxTV support for French people using the Free ISP.<br/>
+- Use mp3-lib instead of FFMpeg to avoid audible glitches while seeking.<br/>
+- Fix MPlayer's bug which prevents AVI files with ODML index (99% of XviD files) to be read when idx=yes (default).<br/>
+- Fix sound/subtitles issues while playing MPEG-TS streams.<br/>
+- Support for multichannel AAC in MOV files.<br/>
+- Playback of IFO files (DVD disc ripped on HDD for example) now works as expected.<br/>
+- Set minimal cache size (5% of cache) to start playback of file very quickly.<br/>
+- Fixes on TV channels generation with spaces in their name.<br/>
+- Allows RTSP client's port forcing (for FreeboxTV users in router mode for example).<br/>
+- Added support for DVD-RAM MPEG files.<br/>
+<br/>
+<b>Menu:</b><br/>
+- Brand new menu item selection display (now with alpha layer).<br/>
+- Added new menu that displays streams A/V properties.<br/>
+- Allows metadata retrieval from MP3/OGG/FLAC audio files.<br/>
+- Properties menu auto-opens and updates on audio-only media.<br/>
+- Prevent user from browsing (and getting lost) in /<br/>
+- Display NIC's MAC address into information menu.<br/>
+- Display CDROM size.<br/>
+- Fixed display of disks partition size and freespace.<br/>
+- Added release number information.<br/>
+<br/>
+<b>Audio:</b><br/>
+- Update ALSA library and utilities to version v1.0.11.<br/>
+- Added a lot of fixes for audio playback.<br/>
+<br/>
+<b>Video:</b><br/>
+- Added support for different resolutions to be used through generator.<br/>
+- Support for VESA with Intel i865, i910 and i915 chipsets.<br/>
+<br/>
+<b>Drivers:</b><br/>
+- Added support for Serial ATA CDROM drives.<br/>
+- Added support for ATAPI/IDE ZIP/LS120 drives.<br/>
+- Added support for PcCard (32bits CardBus only, not 16bits PCMCIA).<br/>
+- Added LCD displays support through LCD4Linux.<br/>
+- Added support for most of Gigabit NICs.<br/>
+- Fix support of Nova DVB-S+ card.<br/>
+- Updated LIRC to v0.8.0.<br/>
+- Updated rt2400/rt2500 drivers to CVS 05.09.2006.<br/>
+- Fix em8300 driver and firmware loading issues.<br/>
+<br/>
+<b>Networking:</b><br/>
+- Updated djmount to version 0.53 (files are no more represented as playlist).<br/>
+- Fixed bftpd FTP server write access error.<br/>
+- Updated bftpd to version 1.4, and included fix for file transfers greater than 2GB.<br/>
+- Update wireless tools to version 28.<br/>
+<br/>
+<b>Generator:</b><br/>
+- Updated generator tools for MacOS X (support for MacIntel x86 OSX 10.4).<br/>
+- Allow you to choose between multiple themes.<br/>
+- Tab for DVD Navigation menus tab to select it as a default or not.<br/>
+- Tab for autoplay tab to select it as a default or not.<br/>
+- Tab for SHOUTcast (radio and tv netstreams).<br/>
+- Tab for video settings configuration (resolution, color depth and boot splash)<br/>
+- Tab for support of LCD displays.<br/>
+<br/>
+<b>Miscellaneous:</b><br/>
+- Fix zoomed scrolling in FBI image viewer.<br/>
+- Support for Microsoft Media Center Edition USB, StreamZap, Twinhan DTV, Toshiba VT76F and ATI Remote Wonder II remotes.<br/>
+- Implemented full Digimatrix hardware support.<br/>
+- Allow multiple resolutions in themes.<br/>
+- Support for VMware and QEMU (usefull for test purpose).<br/>
+<br/>
+      GeeXboX 1.0 is available <a href="downloads.html">here</a> and right now!
+      </content>
+    </subsection>
+
     <subsection label="release_1.0_rc3" date="2006-06-18">
       <content lang="en" title="GeeXboX 1.0-rc3 Development Release">
       On this sunny sunday, GeeXboX comes with its very latest development release. This one is the latest one before the final 1.0 which should be available in all FOSS stores for the end of the week. We're getting closer folks ... just have a last try at it.<br/>
