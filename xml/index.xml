@@ -22,9 +22,9 @@
 
     <subsection label="release_1.0" date="2006-06-22">
       <content lang="en" title="GeeXboX 1.0: 'As foretold by Nostradamus' edition (posted by Ben)">
-      Here we finally are ... after more than 3 years of perpetual development, GeeXboX finally reaches its so long waited for 1.0 release number. Many of you were waiting for it and this is probably the best edition of GeeXboX you'll ever had. We've spent so much time in the last few monthes to fix the most bugs we can that you'll be forced to enjoy it ;-) At the time Aurel and myself started working on GeeXboX, none of us would have expected our software to become that famous. I'm really glad that this version finally came out and I really really want to thank from the deepest of my heart all the people of our development team who is getting involved in GeeXboX everyday. None of this would ever have been possible without the work you've all done on it. I'd also like to thank all users that trusted us and are now using our software in a daily manner. You are the ones who made it possible. So for now, I hope you'll all enjoy our 1.0 release, we all did our very best on it, and let's road to 2.0.<br/>
+      Here we finally are ... after more than 3 years of perpetual development, GeeXboX finally reaches its so long awaited 1.0 release. Many of you were waiting for it and this is probably the best edition of GeeXboX that you've ever had. We've spent so much time in the last few months to fix all the bugs that we can, so that you'll be forced to enjoy it ;-) At the time Aurel and myself started working on GeeXboX, none of us would have expected our software to become that famous. I'm really glad that this version finally came out and I really really want to thank from the depths of my heart all the people of our development team who are getting involved in GeeXboX everyday. None of this would ever have been possible without the work you've all done on it. I'd also like to thank all users that trusted us and are now using our software in a daily manner. You are the ones who made it possible. So for now, I hope you'll all enjoy our 1.0 release, we all did our very best on it, and we're on the road to 2.0.<br/>
       <br/>
-      So, what can you expect from this final 1.0 release ? Well, so many things have changed, been added or simply fixed. The most noticeable thing probably is the support for DVD menus, this feature that has been asked for so many people for so many times and that was unfortunately missing from MPlayer is now part of GeeXboX. A lot of work also has been done for playing back network streams from SHOUTcast WebRadios, WebTVs or even RTP/RTSP streaming that you should now be able to easily watch any kind of network or broadcasted stream from your GeeXboX media center. The overall hardware support for various DVB cards, sound cards and video display adapters also has been improved. You're now also able to see all metadata information and properties (like Codecs, resolution or ID3 tags) from your multimedia files. But the easier probably is for you to read out our shortened changelog.<br/>
+      So, what can you expect from this final 1.0 release ? Well, so many things have changed, been added or simply fixed. The most noticeable thing probably is the support for DVD menus, this feature that had been requested so many times by so many people and that was unfortunately missing from MPlayer is now part of GeeXboX. A lot of work also has been done for playing back network streams from SHOUTcast WebRadios, WebTVs or even RTP/RTSP streaming so that you should now be able to easily watch any kind of network or broadcasted stream from your GeeXboX media center. The overall hardware support for various DVB cards, sound cards and video display adapters has also been improved. You're now also able to see all metadata information and properties (like Codecs, resolution or ID3 tags) from your multimedia files. The easiest way to tell you the changes is probably for you to read the concise version of our changelog.<br/>
       <br/>
 <b>Detailed Changelog (relative to 0.98.7 release) :</b><br/>
 <br/>
@@ -51,7 +51,7 @@
 - Support for multichannel AAC in MOV files.<br/>
 - Playback of IFO files (DVD disc ripped on HDD for example) now works as expected.<br/>
 - Set minimal cache size (5% of cache) to start playback of file very quickly.<br/>
-- Fixes on TV channels generation with spaces in their name.<br/>
+- Fix TV channel OSD name generation with spaces in their name.<br/>
 - Allows RTSP client's port forcing (for FreeboxTV users in router mode for example).<br/>
 - Added support for DVD-RAM MPEG files.<br/>
 <br/>
@@ -79,7 +79,7 @@
 - Added support for ATAPI/IDE ZIP/LS120 drives.<br/>
 - Added support for PcCard (32bits CardBus only, not 16bits PCMCIA).<br/>
 - Added LCD displays support through LCD4Linux.<br/>
-- Added support for most of Gigabit NICs.<br/>
+- Added support for most of the Gigabit NICs.<br/>
 - Fix support of Nova DVB-S+ card.<br/>
 - Updated LIRC to v0.8.0.<br/>
 - Updated rt2400/rt2500 drivers to CVS 05.09.2006.<br/>
@@ -94,16 +94,16 @@
 <b>Generator:</b><br/>
 - Updated generator tools for MacOS X (support for MacIntel x86 OSX 10.4).<br/>
 - Allow you to choose between multiple themes.<br/>
-- Tab for DVD Navigation menus tab to select it as a default or not.<br/>
-- Tab for autoplay tab to select it as a default or not.<br/>
-- Tab for SHOUTcast (radio and tv netstreams).<br/>
+- Option for DVD Navigation menus to select it as a default or not.<br/>
+- Option for autoplay to select it as a default or not.<br/>
+- Option for SHOUTcast (radio and tv netstreams).<br/>
 - Tab for video settings configuration (resolution, color depth and boot splash)<br/>
 - Tab for support of LCD displays.<br/>
 <br/>
 <b>Miscellaneous:</b><br/>
-- Fix zoomed scrolling in FBI image viewer.<br/>
+- Fixed zoomed scrolling in FBI image viewer.<br/>
 - Support for Microsoft Media Center Edition USB, StreamZap, Twinhan DTV, Toshiba VT76F and ATI Remote Wonder II remotes.<br/>
-- Implemented full Digimatrix hardware support.<br/>
+- Implemented full Digimatrix hardware support (apart from panel buttons).<br/>
 - Allow multiple resolutions in themes.<br/>
 - Support for VMware and QEMU (usefull for test purpose).<br/>
 <br/>
