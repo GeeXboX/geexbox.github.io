@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
-<files current_version="0.98.7">
+<files current_version="1.0">
   <file type="iso">
     <arch>i386</arch>
     <lang>en</lang>
-    <size>6559744</size>
-    <md5>52a8c72d9402583a8ebec62e436a2bac</md5>
-    <sha1>fb67b683e465ab9f358560b76efc20b127bdee6f</sha1>
+    <size>7112704</size>
+    <md5>b72c0bc20ec3dacf058e9f4e9e9b9eff</md5>
+    <sha1>cc6d8cd7e448e4dd482e78768f77bbe258474c73</sha1>
   </file>
 
   <file type="iso">
     <arch>i386</arch>
     <lang>fr</lang>
-    <size>6561792</size>
-    <md5>805f6f712e2139233f021fceb3eeda1a</md5>
-    <sha1>7cc5611da6703cc306139990802380113a0451a8</sha1>
+    <size>7114752</size>
+    <md5>c103ee461f37a448c89ebc8aeb8d5839</md5>
+    <sha1>362e2ab0ccb3eee83b28a2531eabccdd055094be</sha1>
   </file>
 
   <file type="iso">
     <arch>ppc</arch>
     <lang>en</lang>
-    <size>11649024</size>
-    <md5>a30d32610efabb00358e147b01c2e386</md5>
-    <sha1>74c013b111cdf45257941b109eb21a4db3503485</sha1>
+    <size>12181504</size>
+    <md5>ed9845e6893866e8eb778d86e099381e</md5>
+    <sha1>666b259410e026edbde57fe1c8ccf7e7fb4e51ba</sha1>
   </file>
 
   <file type="iso">
     <arch>ppc</arch>
     <lang>fr</lang>
-    <size>11646976</size>
-    <md5>d7452a907f48d7538ad990f1c51b6e17</md5>
-    <sha1>f149d34c474863c24408ff2ad8fbb13f290f4131</sha1>
+    <size>12185600</size>
+    <md5>3b570cb18691880c558c54fe6fc4e881</md5>
+    <sha1>de118e7820e9135ca6e34655254544292bd450d6</sha1>
   </file>
 
   <file type="gen">
     <arch>i386</arch>
-    <size>8558452</size>
-    <md5>5717aa88be36c7f46d08b9468dc652ad</md5>
-    <sha1>bc1df8dbbfd5d454280640452215b45d952e300a</sha1>
+    <size>8789636</size>
+    <md5>452456d19e770776948a4590f6c9b839</md5>
+    <sha1>af394e58305b7bc9ab265d6cf2a96b8309846cf7</sha1>
   </file>
 
   <file type="gen">
     <arch>ppc</arch>
-    <size>8926753</size>
-    <md5>b73d16a51c48d366210193d72bf75fd6</md5>
-    <sha1>07973e3c2d4270ea5108a1b25c315588dc82ee35</sha1>
+    <size>9003389</size>
+    <md5>c049e0e91006d3d2828dd631f295e988</md5>
+    <sha1>13aed03a2c0377b2c67fc4e418eb3b09e1384fc7</sha1>
   </file>
 
   <file type="src">
     <src-type>lite</src-type>
     <src-ext>tar.bz2</src-ext>
-    <size>320208</size>
-    <md5>fcaf3986b6dc3f1e4f43a22412894b43</md5>
-    <sha1>56345fa8eec41714498636f74655506f36f79b4a</sha1>
+    <size>505621</size>
+    <md5>1a911c5492bad3fbbf8df842b3c2c704</md5>
+    <sha1>a35fc50fb40b1bb634c5f24dca61f87190efe84a</sha1>
   </file>
 
   <file type="src">
     <src-type>full</src-type>
     <src-ext>tar</src-ext>
-    <size>122480640</size>
-    <md5>dd3b1e60018994636f6805694a3e84d8</md5>
-    <sha1>3ca203008d1668fae52363fcc7779ba619feddd3</sha1>
+    <size>139683840</size>
+    <md5>c33af7c6651ad4ca9aa70438502e3485</md5>
+    <sha1>7393ba783d1c92c64c3ab6db3ec65c1707edf13e</sha1>
   </file>
 
   <file type="old"/>
