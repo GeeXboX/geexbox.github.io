@@ -191,7 +191,7 @@
 <b>Divers :</b><br/>
 - Correction des problèmes de zooms et de déplacements au sein du visauliseur d'images FBI.<br/>
 - Support des télécommandes Microsoft Media Center Edition USB, StreamZap, Twinhan DTV, Toshiba VT76F et ATI Remote Wonder II.<br/>
-- Support complet du barebone ASUS Digimatrix.<br/>
+- Support complet du barebone ASUS Digimatrix (excepté le boutons frontaux).<br/>
 - Permet le choix entre de multiples résolutions pour les thèmes.<br/>
 - Support de la virtualisation via VMware et QEMU (très utile dans un contexte de développement).<br/>
 <br/>
