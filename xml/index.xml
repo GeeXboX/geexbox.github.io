@@ -182,8 +182,8 @@
 <b>Générateur :</b><br/>
 - Mise à jour du générateur pour MacOS X (support pour les MacIntel x86 sous OSX 10.4).<br/>
 - Permet le choix entre différents thèmes de démarrage et de menu.<br/>
-- Nouvel onglet permettant l'activation ou non par défaut du menu de navigation DVD.<br/>
-- Nouvel onglet permettant lactivation ou non par défaut de la fonctionnalité de démarrage automatique des contenus sur CD.<br/>
+- Ajout d'une option permettant l'activation ou non par défaut du menu de navigation DVD.<br/>
+- Ajout d'une option permettant l'activation ou non par défaut de la fonctionnalité de démarrage automatique des contenus sur CD.<br/>
 - Nouvel onglet de configuration des flux réseaux et SHOUTcast (radio et TV).<br/>
 - Nouvel onglet de configuration des paramètres vidéo (résolution, profondeur de couleur et écran de démarrage).<br/>
 - Nouvel onglet de configuration et d'activation des écrans LCD.<br/>
