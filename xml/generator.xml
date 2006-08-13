@@ -13,6 +13,11 @@
       <img src="../img/Generator_Audio.png" alt="Generator Audio Tab"/>
     </center>
   </define>
+  <define name="generator-video">
+    <center>
+      <img src="../img/Generator_Video.png" alt="Generator Video Tab"/>
+    </center>
+  </define>
   <define name="generator-remote">
     <center>
       <img src="../img/Generator_Remote.png" alt="Generator Remote Tab"/>
@@ -28,10 +33,89 @@
       <img src="../img/Generator_Services.png" alt="Generator Services Tab"/>
     </center>
   </define>
+  <define name="generator-lcd">
+    <center>
+      <img src="../img/Generator_LCD.png" alt="Generator LCD Display Tab"/>
+    </center>
+  </define>
   <define name="generator-packages">
     <center>
       <img src="../img/Generator_Packages.png" alt="Generator Packages Tab"/>
     </center>
+  </define>
+  <define name="table-vesa">
+    <table border="2" cellpadding="2" cellspacing="1" width="100%">
+      <tr>
+        <th align="center"></th>
+        <td align="center"><b>640x400</b></td>
+        <td align="center"><b>640x480</b></td>
+        <td align="center"><b>800x600</b></td>
+        <td align="center"><b>1024x768</b></td>
+        <td align="center"><b>1152x864</b></td>
+        <td align="center"><b>1280x1024</b></td>
+        <td align="center"><b>1600x1200</b></td>
+      </tr>
+      <tr>
+        <th align="center">16 (4 bits)</th>
+        <td align="center">?</td>
+        <td align="center">?</td>
+        <td align="center">770</td>
+        <td align="center">?</td>
+        <td align="center">?</td>
+        <td align="center">?</td>
+        <td align="center">?</td>
+      </tr>
+      <tr>
+        <th align="center">256 (8 bits)</th>
+        <td align="center">768</td>
+        <td align="center">769</td>
+        <td align="center">771</td>
+        <td align="center">773</td>
+        <td align="center">353</td>
+        <td align="center">775</td>
+        <td align="center">796</td>
+      </tr>
+      <tr>
+        <th align="center">32768 (15 bits)</th>
+        <td align="center">?</td>
+        <td align="center">784</td>
+        <td align="center">787</td>
+        <td align="center">790</td>
+        <td align="center">354</td>
+        <td align="center">793</td>
+        <td align="center">797</td>
+      </tr>
+      <tr>
+        <th align="center">65536 (16 bits)</th>
+        <td align="center">?</td>
+        <td align="center">785</td>
+        <td align="center">788</td>
+        <td align="center">791</td>
+        <td align="center">355</td>
+        <td align="center">794</td>
+        <td align="center">798</td>
+      </tr>
+      <tr>
+        <th align="center">16.8M (24 bits)</th>
+        <td align="center">?</td>
+        <td align="center">786</td>
+        <td align="center">789</td>
+        <td align="center">792</td>
+        <td align="center">?</td>
+        <td align="center">795</td>
+        <td align="center">799</td>
+      </tr>
+      <tr>
+        <th align="center">4.3G (32 bits)</th>
+        <td align="center">?</td>
+        <td align="center">?</td>
+        <td align="center">?</td>
+        <td align="center">?</td>
+        <td align="center">356</td>
+        <td align="center">?</td>
+        <td align="center">?</td>
+      </tr>
+    </table>
   </define>
 
   <section label="doc">
@@ -40,139 +124,357 @@
       <br/>
       GeeXboX's customization is interesting in many ways, such as :<br/>
       <br/>
-      <b>* Include a movie</b> : You just have to put your movie or sound files and the playlist into the <b>iso</b> directory of the generator and regenerate the image. The GeeXboX will then boot off the CD and will automatically play the provided list/file.<br/>
+      <b>* Include a movie :</b> You just have to put your movie or sound files and the playlist into the iso directory of the generator and regenerate the image. The GeeXboX will then boot off the CD and will automatically play the provided list/file.<br/>
       <b>* Add non-free extra codecs.</b><br/>
       <b>* Add non-free firmwares for your drivers.</b><br/>
       <b>* Add extra fonts for Asian users.</b><br/>
+      <b>* Add extra themes.</b><br/>
       <b>* Configure the network settings.</b><br/>
-      <b>* Change theme, fonts and charset encoding.</b><br/>
       <b>* Configure audio related options.</b><br/>
+      <b>* Configure video related options.</b><br/>
       <b>* Configure the remote control and receiver to be used.</b><br/>
-      <b>* Choose the services to be started with GeeXboX.</b><br/>
-      <b>* Modify MPlayer's startup options</b> : You just have to edit the contents fo the file <i>iso/GEEXBOX/etc/mplayer/mplayer.conf</i> and to generate the new ISO. <br/>
+      <b>* Configure a LCD display.</b><br/>
+      <b>* Change theme, fonts and charset encoding.</b><br/>
+      <b>* Choose the services to be started with GeeXboX (like UPnP and SHOUTcast).</b><br/>
+      <b>* Modify MPlayer's startup options :</b> You just have to edit the contents fo the file iso/GEEXBOX/etc/mplayer/mplayer.conf and to generate the new ISO.<br/>
       <br/>
       For now, just start the FLTK generator binary :<br/>
       <br/>
-      <b>* generator.exe</b> under <i>Windows</i>.<br/>
-      <b>* linux-i386-generator</b> under <i>GNU/Linux</i>.<br/>
-      <b>* macosx-generator.dmg</b> under <i>Mac OS X</i> (needs to be unpacked into generator main directory).<br/>
-      <br/>
-      <use name="generator-interface"/>
-      <br/>
-      There you can select the main options like the theme you want to use and the language of the GeeXboX menu.<br/>
-      Just make your selection between the different combo boxes.<br/>
-      You can also force the subtitle charset according to your own localization and can force the use of another font that the ones included by default in GeeXboX (both for the menu and the subtitles on movies).<br/>
-      <br/>
-      <use name="generator-audio"/>
-      <br/>
-      There you can configure some of the audio related options.<br/>
-      <br/>
-      First is the ALSA souncard ID. Your computer may have more than one sound card (for example a PCI and integrated one). This let you choose which one you want to use. So just fill in the ID of the card you want to use (considering <b>"0"</b> is the master one, which is usually the onboard one in case of multiple cards).<br/>
-      <br/>
-      You can also select the output mode, to specify whether you want to use analog or digital output of your sound card. When choosing digital output, you can force the AC3/DTS passthrough which will result in a direct transmission of AC3/DTS streams to your external amplifier/decoder. You can also specify the number of output channels (<i>Stereo</i>, <i>Surround</i> or <i>5.1 Surround</i>).<br/>
-      <br/>
-      <use name="generator-remote"/>
-      <br/>
-      There you can simply choose which remote control and receiver you want to use to control GeeXboX. Please note that you can use more than one remote and receiver at a time.<br/>
-      <br/>
-      <use name="generator-network"/>
-      <br/>
-      This menu provides you the same informations that the one from the <i>/etc/network</i> file. You just have to select whether you want GeeXboX to use your <i>Ethernet</i> or <i>Wireless</i> (or <i>Autodetection</i>) network interface. In case of a wireless device use, you have the possibility to set some settings like the connection mode (<i>managed</i> or <i>ad-hoc</i>) and the optional SSID and WEP key (no WPA support for now).<br/>
-      <br/>
-      Then, you can also determine if you want to use a DHCP autoconfiguration or a static declaration. In case of static mode, you can define the IP address, DNS server and gateway addresses you want GeeXboX to use with your network adapter. Please note that only one network interface can be used at a time.<br/>
-      <br/>
-      <use name="generator-services"/>
-      <br/>
-      This tab lets you determines some configuration about network services.<br/>
-      There you can provide the username and password you want GeeXboX to use to access to your network Samba contents (Windows shares).<br/>
-      You can also select the network services (<i>HTTP / FTP / Telnet</i>) to be started on GeeXboX (default is none, as it may result in anonymous root access to unauthorized people).<br/>
-      You can also activate or deactivate the use of the UPnP devices auto-discovery, if you're not interested in this features or simply do not want to waste CPU time for this.<br/>
-      <br/>
-      <use name="generator-packages"/>
-      <br/>
-      This tab is particularly usefull to add non-free components or fonts to GeeXboX. There you can select all of the extra non-free firmwares your drivers may require. You can also add non-free audio/video codecs or asian fonts that were too big to be included in regular GeeXboX ISO. Just select the files you need and click on the <b>Download</b> button. Then, the generator will go on the Internet, grab the files you need and add them to the ISO.<br/>
-      <br/>
-      All you have to do now, is to hit the <b>Compile</b> button.<br/>
-      That's it, the generator will produce a new GeeXboX bootable ISO that is ready to be burned on a CD. 
+      <b>* generator.exe</b> under Windows 9x/Me/2000/XP<br/>
+      <b>* linux-i386-generator</b> under GNU/Linux<br/>
+      <b>* macosx-generator</b> under MacOS X
     </content>
-
     <content lang="fr" title="Utilisation du générateur d'ISO ...">
-      Grâce au générateur d'ISO de la GeeXboX, il est possible de constituer une image auto-amorçable de la GeeXboX qui correspondra exactement à vos besoins et ce, simplement à partir des binaires, sans avoir recourt à une compilation complète des sources. Ceci vous permet donc de procéder à de nombreux changements dans les fichiers de configuration, sans besoin de tout recompiler. Le générateur d'ISO FLTK de la GeeXboX fonctionne aussi bien sous Microsoft Windows, les distributions GNU/Linux que les systèmes Apple MacOS X. Il peut être utilisé pour produire des versions x86 et PPC de la GeeXboX.<br/>
+      A l'aide du générateur d'ISO de GeeXboX, il vous est possible de créer une image bootable conforme à vos besoins, sans avoir à compiler la distribution complète à partir des sources. Le générateur d'ISO FLTK de GeeXboX fonctionne à la fois sous Microsoft Windows, les distributions GNU/Linux et Apple MacOS X. Il peut être utilisé pour générer des versions x86 et PPC de GeeXboX.<br/>
       <br/>
-      La personnalisation de la GeeXboX est intéressante à plus d'un point, comme par exemple :<br/>
+      La personnalisation de GeeXboX est intéressante pour plusieurs raisons :<br/>
       <br/>
-      <b>* Inclure une film</b> : Vous n'avez simplement qu'à déposer votre films ou vos musiques ou listes de lectures dans le répertoire <b>iso</b> du générateur et relancer la procédure de génération d'image. La GeeXboX démarrera alors immédiatement sur la lecture des fichiers entreposés.<br/>
-      <b>* Ajout de codecs supplémentaires non-libres.</b><br/>
-      <b>* Ajout de firmwares non-libres pour vos pilotes de périphériques.</b><br/>
-      <b>* Ajout de polices de caractères asiatiques.</b><br/>
-      <b>* Configuration des paramètres réseau.</b><br/>
-      <b>* Modifications du thème, des fontes et encodage des textes.</b><br/>
-      <b>* Configuration des paramètres sonores.</b><br/>
-      <b>* Configuration de la télécommande et du récepteur à utiliser.</b><br/>
-      <b>* Choix des services à lancer au démarrage de la GeeXboX.</b><br/>
-      <b>* Modification des paramètres d'éxécution de MPlayer</b> : pour ce faire, vous n'avez qu'à modifier le contenu du fichier <i>iso/GEEXBOX/etc/mplayer/mplayer.conf</i> et regénérer une ISO.<br/>
+      <b>* Inclure une vidéo :</b> Vous devez juste copier votre vidéo, ou fichiers son et la playlist, dans le répertoire iso du générateur et générer l'image. La GeeXboX lancera alors automatiquement le fichier ou la playlist au démarrage.<br/>
+      <b>* Ajouter des codecs.</b><br/>
+      <b>* Ajouter des firmwares pour vos drivers.</b><br/>
+      <b>* Ajouter des polices pour les utilisateurs asiatiques.</b><br/>
+      <b>* Ajouter des thèmes visuels.</b><br/>
+      <b>* Configurer les paramètres réseau.</b><br/>
+      <b>* Configurer les options audio.</b><br/>
+      <b>* Configurer les options vidéo.</b><br/>
+      <b>* Configurer la télécommande et le récepteur à utiliser.</b><br/>
+      <b>* Configurer un écran LCD.</b><br/>
+      <b>* Changer le thème, la police et l'encodage des caractères.</b><br/>
+      <b>* Choisir les services à démarrer (dont l'UPnP et SHOUTcast).</b><br/>
+      <b>* Modifier les options de démarrage de MPlayer :</b> Vous devez simplement modifier le contenu du fichier iso/GEEXBOX/etc/mplayer/mplayer.conf et générer une nouvelle ISO.<br/>
       <br/>
-      Pour ce faire, démarrez simplement le binaire FLTK du générateur :<br/>
+      Pour l'instant, démarrons le Générateur FLTK :<br/>
       <br/>
-      <b>* generator.exe</b> sous <i>Windows</i>.<br/>
-      <b>* linux-i386-generator</b> sous <i>GNU/Linux</i>.<br/>
-      <b>* macosx-generator.dmg</b> sous <i>Mac OS X</i> (il est nécessaire d'extraire le fichier dans le répertoire principal du générateur au préalable).<br/>
-      <br/>
-      <use name="generator-interface"/>
-      <br/>
-      Dans ce menu, vous pouvez choisir les options relatives à l'aspect graphique, comme par exemple le thème que vous souhaitez utiliser ou encore la langue du menu.<br/>
-      Faites simplement votre choix au travers des boîtes de sélection proposées<br/>
-      Vous pouvez également forcer l'utilisation d'un certain type d'encodage des textes selon votre localisation géographique et pouvez forcer l'utilisation d'une fonte pour le menu et les sous-titres des films autre que celles proposées apr défaut par la GeeXboX.<br/>
-      <br/>
-      <use name="generator-audio"/>
-      <br/>
-      Ce menu permet la configurations des paramètres sonores.<br/>
-      <br/>
-      En premier lieu vient l'identifiant ALSA de carte son. Votre ordinateur pouvant être équipé de plus d'une carte son (une carte PCI et une carte intégrée par exemple), ceci vous permettra de choisir laquelle utiliser. Indiquez donc simplement l'identifiant de la carte que vous souhaitez utiliser (en considérant que <b>"0"</b> correspond à la carte principale, ce qui est généralement le cas de la carte intégrée dans le cas de cartes multiples).<br/>
-      <br/>
-      Vous pouvez également choisir le mode de restitution audio, en précisant si vous souhaitez un son analogique ou numérique. Si vous optez pour une restitution numérique, il est possible d'activer la sortie direct AC3/DTS ce qui résulte en une transmission brute du flux AC3/DTS (donc sans décodage préalable) vers votre décodeur/amplificateur externe. Vous pouvez également spécifier le nombre de canaux de restitution (<i>Stereo</i>, <i>Surround</i> ou <i>5.1 Surround</i>).<br/>
-      <br/>
-      <use name="generator-remote"/>
-      <br/>
-      Ce menu vous permet de choisir lequel des modèles de télécommande et de récepteur vous souhaitez utiliser pour contrôler la GeeXboX. Veuillez noter qu'un seul type de télécommande/récepteur peut être utilisé à la fois.<br/>
-      <br/>
-      <use name="generator-network"/>
-      <br/>
-      Ce menu vous permet de configurer un certain nombre de paramètres réseau, comme c'est le cas via une édition manuelle du fichier <i>/etc/network</i>. Vous n'avez qu'à choisir si vous désirez que la GeeXboX utilise votre interface réseau <i>Ethernet</i> ou <i>Wireless</i> (sans-fil) (ou optez pour l'<i>Autodetection</i>). Dans le cas d'une utilisation d'une interface sans-fil (WiFi), vous avez en outre la possibilité de régler certains paramètres de connectivité, tels que le mode de connection (<i>managed</i> ou <i>ad-hoc</i>) ainsi que les paramètres optionnels comme le SSID ou la clé WEP (il n'y a pas de support WPA à l'heure actuelle).<br/>
-      <br/>
-      Ensuite, vous pouvez choisir d'attribuer une configuration réseau via DHCP ou par déclaration manuelle. Dans ce dernier cas, vous pouvez définir l'adresse IP qui sera ffectée à la GeeXboX, mais également les serveurs DNS et passerelles qu'elle devra utiliser. Veuillez noter que seule une interface réseau peut être utilisée à la fois.<br/>
-      <br/>
-      <use name="generator-services"/>
-      <br/>
-      Ce menu vous permet de séléctionner quels seront les services réseaux qui devront être lancés au démarrage de la GeeXboX.<br/>
-      Il est ainsi possible de spécifier le nom d'utilisateur et mot de passe associé aux comptes Samba (partages Windows), afin que la GeeXboX puisse s'y connecter.<br/>
-      Vous pouvez également choisir quels services réseaux activer au démarrage (<i>HTTP / FTP / Telnet</i>). Par défaut, pour des raisons de sécurité (accès administrateur anonyme), tous sont désactivés.<br/>
-      Enfin vous pouvez choisir d'activer ou non l'auto-découverte de périphériques UPnP, selon que vous êtes ou non attiré par cette fonctionnalité ou que vous ne voulez pas perdre de temps CPU pour ce service.<br/>
-      <br/>
-      <use name="generator-packages"/>
-      <br/>
-      Ce menu est particulièrement utile pour ajouter des composantes non-libres (propriétaires) ou des polices de caractères à la GeeXboX. Il vous est ainsi possible de choisir les firmwares non-libres pour vos pilotes de périphériques ou encore les codecs audio/vidéos non-libres ou les polices asiatiques qu'il n'était pas possible d'inclure à la GeeXboX pour des raisons de taille ou simplement de copyright. Vous n'avez alors qu'à sélectionner ce dont vous avez besoin et cliquer sur le bouton <b>Download</b>. Le générateur se chargera alors pour vous de récupérer ces fichiers sur Internet et de les inclure à l'ISO produite.<br/>
-      <br/>
-      Tout ce qu'il vous reste à faire maintenant, c'est de cliquer sur le bouton <b>Compile</b>.<br/>
-      C'est terminé, le générateur vient maintenant de générer une ISO personnalisée de la GeeXboX qu'il ne vous reste plus qu'à graver sur CD pour être utilisable.       
+      <b>* generator.exe</b> sous Microsoft Windows 9x/Me/2000/XP<br/>
+      <b>* linux-i386-generator</b> sous GNU/Linux<br/>
+      <b>* macosx-generator</b> sous MacOS X
     </content>
-
     <content lang="de" title="Verwenden des ISO Generators ...">
-    Dank dieses Generators ist es nun möglich, ein bootfähiges Image der GeeXboX aus den Binärdateien zu erstellen.  So können Sie z.B. nach kleinen Änderungen in den Konfigurationsdateien ein neues Image erstellen, ohne die gesamten Quellen neu zu übersetzen. Außerdem kann dieser Vorgang sowohl unter Linux als auch unter Windows durchgeführt werden. Starten Sie dazu das ./generator.sh Skript (unter Linux) oder generator.exe (unter Windows) und schauen Sie gespannt zu, was passiert ;-)<br/><br/>
-
-          GeeXboX Anpassungen sind unter verschiedenen Gesichtspunkten von Interesse, z.B. :<br/><br/>
-
-* <b>Einen Film hinzufügen</b> : Sie brauchen nur Ihre Video- oder Audiodateien und / oder die Playliste in das <b>iso</b> Verzeichnis des Generators zu kopieren und ein neues Image zu erstellen. Die GeeXboX kann dann von CD gestartet werden und beginnt automatisch mit dem Abspielen der hinzugefügten Liste oder der einzelnen Datei.<br/><br/>
-
-* <b>Extra Codecs hinzufügen</b> : Obwohl GeeXboX mittlerweile Unterstützung für RealMedia und Windows Media 9 Codecs bietet, sind diese nicht "frei" und wir haben keine Berechtigung, diese mit dem ISO-Image auszuliefern :-( Also müssen Sie diese leider selbst zum Image hinzufügen und das Image neu erstellen, falls Sie die Codecs benötigen. Nicht traurig sein, es geht sehr einfach !! Fügen Sie einfach die folgenden Dateien in das <b>iso/GEEXBOX/codecs</b> Generator Verzeichnis ein :<br/><br/>
-
-Laden Sie dazu bitte diese <use name="dl-codecs"/>, welches die benötigten Codecs für RealMedia 8/9/10 (genutzt um z.B. RV9/10-encodierte Videos zu lesen) und Windows Media 9 (WMV9/WMA9) enthält. Dabei sind nur die Dateien <use name="needed-real-codecs"/> für RealMedia und <use name="needed-wm-codecs"/> für Windows Media wirklich nützlich. Alle anderen werden nicht benötigt.<br/><br/>
-
-* <b>Modifizieren der MPlayer Startoptionen</b> :<br/>
- Sie brauchen nur den Inhalt der Datei <b>iso/GEEXBOX/etc/mplayer/mplayer.conf</b> zu modifizieren und ein neues ISO-Image zu generieren.<br/><br/>
-
-Natürlich gibt es noch jede Menge anderer verfügbarer Optionen für Dinge wie das Anpassen an die eigene Fernbedienung, das Ändern des Standard Hintergrundvideos ... aber dazu lassen wir Sie lieber die Datei README.txt sorgsam studieren, damit Sie alle Möglichkeiten entdecken ;-)
+      Dank dem GeeXboX ISO Generator ist es möglich sich ein bootfähiges GeeXboX Image nach den eigenen Bedürfnissen aus den Binärdateien zu erstellen, ohne die gesamte Distribution zu kompilieren. So kann man sich die GeeXboX nach kleinen Änderungen, zum Beispiel in den Konfigurationsdateien, erstellen. Der GeeXboX ISO FLTK Generator läuft sowohl unter Microsoft Windows, als auch unter GNU/Linux Distributionen und Apple MacOS X. Mit ihm kann man x86 und PPC Versionen der GeeXboX erzeugen.<br/>
+      <br/>
+      Die GeeXboX kann durch viele Dinge individuell angepasst werden :<br/>
+      <br/>
+      <b>* Einen Film hinzufügen :</b> Es reicht den Film oder die Musikdatei und die Playlist in das iso Verzeichnis des Generators zu kopieren und das ISO-Image neu zu erzeugen. Wenn die GeeXboX dann von der CD startet wird sie automatisch die Playlist/Datei abspielen.<br/>
+      <b>* Unfreie Codecs hinzufügen</b><br/>
+      <b>* Unfreie Frimware für deine Treiber hinzufügen</b><br/>
+      <b>* Schriftarten für asiatische Benutzer hinzufügen</b><br/>
+      <b>* Extra Themes hinzufügen</b><br/>
+      <b>* Die Netzwerk Einstellungen vornehmen</b><br/>
+      <b>* Audio Einstellungen vornehmen</b><br/>
+      <b>* Grafik Einstellungen vornehmen</b><br/>
+      <b>* Die Fernbedienung und den Empfänger einstellen</b><br/>
+      <b>* Das LCD-Display einstellen</b><br/>
+      <b>* Das Theme, die Schriftarten und das charset Encoding ändern</b><br/>
+      <b>* Die Dienste auswählen, die mit der GeeXboX gestartet werden (wie UPnP und SHOUTcast).</b><br/>
+      <b>* Die Starteinstellungen des MPlayers verändern :</b> Du musst nur den Inhalt der Datei iso/GEEXBOX/etc/mplayer/mplayer.conf anpassen und das neue ISO erstellen.<br/>
+      <br/>
+      Jetzt aber erst mal die FLTK Binärdatei starten :<br/>
+      <br/>
+      <b>* generator.exe</b> unter Windows 9x/Me/2000/XP<br/>
+      <b>* linux-i386-generator</b> unter GNU/Linux<br/>
+      <b>* macosx-generator</b> unter MacOS X
     </content>
-
+    <subsection label="interface">
+      <content lang="en" title="Interface Options">
+        <use name="generator-interface"/>
+        There you can select the main options like the theme (the default list contains only one theme, consult the "Packages" tab to download others) you want to use and the language of the GeeXboX menu and the action when you want for playing a DVD movie and when a new media is inserted in the computer.<br/>
+        <br/>
+        Just make your selection between the different combo boxes and check boxes.<br/>
+        <br/>
+        You can also force the subtitle charset according to your own localization and can force the use of another font that the ones included by default in GeeXboX (both for the menu and the subtitles on movies).<br/>
+      </content>
+      <content lang="fr" title="Paramétrage de l'interface">
+        <use name="generator-interface"/>
+        Ici, vous pouvez paramétrer les options principales comme le thème (par défaut, la liste contient un seul thème, consulter l'onglet "Packages" pour en télécharger de nouveaux) que vous souhaitez utiliser, la langue du menu et la façon dont GeeXboX devra réagir lorsque vous désirez visualiser un film DVD et lorsque qu'un nouveau média est inséré dans l'ordinateur.<br/>
+        <br/>
+        Faites votre choix dans les différentes listes déroulantes et cases à cocher.<br/>
+        <br/>
+        Vous pouvez aussi forcer le charset des sous-titres suivant votre localisation ainsi que l'utilisation d'une autre police que celle fourni par défaut (à la fois pour le menu et pour les sous-titres des films).<br/>
+      </content>
+      <content lang="de" title="Benutzerschnittstellen Einstellung">
+        <use name="generator-interface"/>
+        Hier können die Grundeinstellungen wie das Theme (die Default Liste enthält nur ein Theme, über den Tab "Packages" kann man weitere herunterladen), das man verwenden möchte, die Sprache des Geexbox-Menüs und die auszuführende Aktion beim Einlegen einer neuen DVD oder CD wählen.<br/>
+        <br/>
+        Treffen sie einfach ihre Auswahl über die verschiedenen Check Boxen und DropDown Menüs.<br/>
+        <br/>
+        Ebenfalls kann man hier einen Zeichensatz und auch eine Schriftart für die Menüs und die Untertitel eines Films angeben, wenn man nicht den Geexbox Standard verwenden möchte.<br/>
+      </content>
+    </subsection>
+    <subsection label="audio">
+      <content lang="en" title="Audio Options">
+        <use name="generator-audio"/>
+        There you can configure some of the audio related options.<br/>
+        <br/>
+        First is the ALSA souncard ID. Your computer may have more than one sound card (for example a PCI and an integrated one). This lets you choose which one you want to use. So just fill in the ID of the card you want to use (considering "0" is the master one, which is usually the onboard one in case of multiple cards).<br/>
+        <br/>
+        You can also select the output mode, to specify whether you want to use analog or digital output of your sound card. When choosing digital output, you can force the AC3/DTS passthrough which will result in a direct transmission of AC3/DTS streams to your external amplifier/decoder. You can also specify the number of output channels (Stereo, Surround or 5.1 Surround).<br/>
+        <br/>
+        <b>SPDIF</b><br/>
+        <br/>
+        If you choose for a digital output (SPDIF), the listbox IEC958 AC97-SPSA Mode give access to 4 modes.<br/>
+        <br/>
+        * PCM1<br/>
+        * PCM2, PCM1 (rear)<br/>
+        * Centre and LFE<br/>
+        * PCM3, Modem, Dedicated SPDIF<br/>
+        <br/>
+        PCM1 is selected at default and is the most appropriated for the majority of sound cards. But if your SPDIF output gives no sound, test the others modes (PCM3, Modem, Dedicated SPDIF).<br/>
+        <br/>
+        <b>SoundBlaster Live/Audigy</b><br/>
+        <br/>
+        The Legacy mode is for older SB Live/Audigy cards and is not selected by default. It is configured for the majority of users (Audigy and newer SB Live). If you don't have sound in analog but it works in digital, then selected this option (useful for the 'older' SB Live).<br/>
+      </content>
+      <content lang="fr" title="Paramétrage audio">
+        <use name="generator-audio"/>
+        Dans cette fenêtre, vous pouvez configurer quelques options relatives à l'audio.<br/>
+        <br/>
+        Tout d'abord, l'ID de la carte son. Il se peut que votre ordinateur possède plusieurs cartes son (par exemple une sur port PCI et une intégrée). Ainsi, choisissez l'ID de celle que vous souhaitez utiliser, en considérant que l'ID "0" est le maitre. Habituellement, il s'agit de la carte intégrée.<br/>
+        <br/>
+        Vous avez aussi le choix du type de sortie, afin de spécifier si vous souhaitez utiliser une sortie analogique ou digitale. En choisissant cette dernière, vous pouvez forcer l'AC3/DTS, ce qui permettra d'envoyer un flux AC3/DTC directement à un ampli/décodeur externe. Puis, faites votre choix entre les modes stéréo, surround ou 5.1 Surround.<br/>
+        <br/>
+        <b>SPDIF</b><br/>
+        <br/>
+        Si vous optez pour une sortie digitale SPDIF, la liste IEC958 AC97-SPSA Mode vous permet de choisir entre 4 modes :<br/>
+        <br/>
+        * PCM1<br/>
+        * PCM2, PCM1 (rear)<br/>
+        * Centre and LFE<br/>
+        * PCM3, Modem, Dedicated SPDIF<br/>
+        <br/>
+        PCM1 est sélectionné par défaut et est le mode le plus approprié pour la plupart de vos cartes son. Néanmoins, si votre sortie SPDIF ne donne aucun son, testez les autres modes et particulièrement (PCM3, Modem, Dedicated SPDIF).<br/>
+        <br/>
+        <b>SoundBlaster Live/Audigy</b><br/>
+        <br/>
+        Le mode "Legacy" pour les cartes son à base de SB Live/Audigy est décoché par défaut. Ce qui est généralement adapté pour la plupart des utilisateurs (Audigy et nouvelles SB Live). Si vous n'avez aucun son aussi bien en analogique qu'en digital, décochez cette option (valable généralement pour les 'anciennes' SB Live).<br/>
+      </content>
+      <content lang="de" title="Audio Einstellungen">
+        <use name="generator-audio"/>
+        Hier können einige der Audio Optionen konfiguriert werden.<br/>
+        <br/>
+        Das erste Feld ist für die ID ihrer ALSA Soundkarte, die sie verwenden möchten, falls Ihr Computer über mehr als eine Soundkarte verfügt (z.B. Onboard Soundchip sowie eine PCI Karte). Die ID '0' steht für 'master', welche üblicherweise dem Onboard Soundchip entspricht, falls mehrere Soundkarten vorhanden sind.<br/>
+        <br/>
+        Man kann auch den Output Modus wählen, um entweder den analogen oder den digitalen Ausgang der Soundkarte zu nutzen. Wird hier Digital ausgewählt, kann man als Ausgabeformat 'AC3/DTS passtrough' wählen, was eine direkte Übertragung des AC3/DTS Streams zum externen Verstärker/Decoder bewirkt. Es kann außerdem die Anzahl der Ausgabe-Kanäle angegeben werden (Stereo, Surround oder 5.1 Surround).<br/>
+        <br/>
+        <b>SPDIF</b><br/>
+        <br/>
+        Wenn man den Digitalen Ausgang gewählt hat (SPDIF), ermöglicht die Listbox 'IEC958 AC97-SPSA Mode' die Auswahl aus 4 Modi:<br/>
+        <br/>
+        * PCM1<br/>
+        * PCM2, PCM1 (rear)<br/>
+        * Centre and LFE<br/>
+        * PCM3, Modem, Dedicated SPDIF <br/>
+        <br/>
+        PCM1 ist standardmäßig aktiviert und ist für die meisten Soundkarten der richtige Modus. Falls aber über SPDIF kein Sound ausgegeben wird, versuchen sie eine der anderen Optionen ('PCM3, Modem, Dedicated SPDIF').<br/>
+        <br/>
+        <b>SoundBlaster Live/Audigy</b><br/>
+        <br/>
+        Der 'Legacy' Modus ist für ältere SB Live/Audigy Karten gedacht und ist standardmäßig deaktiviert. Er ist für die Mehrheit der User konfiguriert (Audigy und neuere SB Live). Wenn sie keinen Sound im Analogen Modus haben, aber der Digitale Modus funktioniert, aktivieren sie diese Option wenn sie eine SB Live verwenden.<br/>
+      </content>
+    </subsection>
+    <subsection label="video">
+      <content lang="en" title="Video Options">
+        <use name="generator-video"/>
+        In this tab, you can choose between some resolutions and color depths.<br/>
+        <br/>
+        * 640x480<br/>
+        * 800x600<br/>
+        * 1024x768<br/>
+        * 1280x1024<br/>
+        * 1600x1200<br/>
+        <br/>
+        in 15, 16 or 24 bits.<br/>
+        <br/>
+        The bootsplash option is useful for showing or hiding the boot messages with a progress bar, or for users whose machines lock up when trying to load the bootsplash image (due to faulty video BIOS). All the themes in the packages tab can work with all resolutions for bootsplash. The official theme, OMC, works only with the resolution 800x600. If you do not see the bootsplash image, but instead see text on the screen during booting, then your video BIOS does not support the requested mode. In that case, try a different resolution and/or color depth.<br/>
+        <br/>
+        <b>VESA</b><br/>
+        <br/>
+        For the advanced users, a choice Custom is defined in the list box of the resolutions. This option is useful for use manualy a VESA mode (in decimal only) that you would like use with GeeXboX. The modes are :<br/>
+        <br/>
+        <use name="table-vesa"/>
+        <br/>
+        <b>VMWare</b><br/>
+        <br/>
+        If you use an emulator like VMWare, it is necessary for choose 16 bits like color depth for have the bootsplash.<br/>
+      </content>
+      <content lang="fr" title="Paramétrage vidéo">
+        <use name="generator-video"/>
+        Dans cet onglet, vous pouvez choisir entre différentes résolutions et profondeurs de couleur.<br/>
+        <br/>
+        * 640x480<br/>
+        * 800x600<br/>
+        * 1024x768<br/>
+        * 1280x1024<br/>
+        * 1600x1200<br/>
+        <br/>
+        en 15, 16 ou 24 bits.<br/>
+        <br/>
+        L'option d'activation de l'écran bootsplash permet de montrer ou de cacher les messages système au démarrage de la GeeXboX avec une barre de progression illustrée. Tous les thèmes contenus dans l'onglet "packages" supportent toutes les résolutions pour bootsplash. Le thème officiel, OMC, ne supporte malheureusement que la résolution de 800x600.<br/>
+        <br/>
+        <b>VESA</b><br/>
+        <br/>
+        Pour les utilisateurs experimentés, un choix Custom est définis dans la liste des résolutions. Cette option vous permet d'insérer manuellement le mode VESA (en décimal uniquement) que vous désirez utiliser avec GeeXboX. Les modes connus sont :<br/>
+        <br/>
+        <use name="table-vesa"/>
+        <br/>
+        <b>VMWare</b><br/>
+        <br/>
+        Si vous utilisez un émulateur comme VMWare, il vous sera nécessaire de sélectionner 16 bits comme profondeur de couleur, afin de profiter du bootsplash.<br/>
+      </content>
+      <content lang="de" title="Grafik Einstellungen">
+        <use name="generator-video"/>
+        Unter diesem Tab ist es möglich zwischen einigen Auflösungen und Farbtiefen zu wählen.<br/>
+        <br/>
+        * 640x480<br/>
+        * 800x600<br/>
+        * 1024x768<br/>
+        * 1280x1024<br/>
+        * 1600x1200<br/>
+        <br/>
+        in 15, 16 oder 24 bit Farbtiefe.<br/>
+        <br/>
+        Die bootsplash Option ist nützlich um die Nachrichten während des Startvorganges anzeigen zu lassen oder durch einen Statusbalken zu verstecken, oder aber auch für Benutzer deren Computer sich aufhängt wenn versucht wird das Startlogo zu laden (aufgrund eines fehlerhaften video BIOS). Alle Themen im Packete Tab funktionieren mit allen Auflösungen für bootsplash. Das offizielle Thema, OMC, funktioniert nur mit der Auflösung 800x600. Sollte anstelle des Startlogos Text angezeigt werden, dann unterstützt das video BIOS nicht den verlangten Grafikmodus. In diesem Fall sollte es helfen, eine andere Auflösung und/oder Farbtiefe zu wählen.<br/>
+        <br/>
+        <b>VESA</b><br/>
+        <br/>
+        Erfahrene Anwender können in der Auswahl der Auflösungen die Option 'Custom' wählen. Diese erlaubt die manuelle Angabe von VESA Modi (in dezimaler Schreibweise), die später in der Geexbox zur Verfügung stehen sollen. Die Aufstellung aller möglichen Modi:<br/>
+        <br/>
+        <use name="table-vesa"/>
+        <br/>
+        <b>VMWare</b><br/>
+        <br/>
+        Soll Geexbox in einem Emulator wie VMWare laufen, ist es notwendig '16bit color depth' zu verwenden, damit das Bootsplash Bild richtig angezeigt wird.<br/>
+      </content>
+    </subsection>
+    <subsection label="remote">
+      <content lang="en" title="Remote Control Options">
+        <use name="generator-remote"/>
+        There you can simply choose which remote control and receiver you want to use to control GeeXboX. Please note that you can use more than one remote and receiver at a time.<br/>
+      </content>
+      <content lang="fr" title="Paramétrage de la télécommande">
+        <use name="generator-remote"/>
+        Choisissez simplement le télécommande et le récepteur que vous souhaitez utiliser pour controler GeeXboX. Notez qu'il est possible d'en utiliser plusieurs à la fois.<br/>
+      </content>
+      <content lang="de" title="Einstellungen für Fernbedienungen">
+        <use name="generator-remote"/>
+        Hier können Sie auswählen, welche Fernbedienung und welchen Empfänger Sie benutzen wollen, um GeeXboX zu steuern. Es ist möglich, mehrere Fernbedienungen / Empfänger gleichzeitig zu verwenden.<br/>
+      </content>
+    </subsection>
+    <subsection label="network">
+      <content lang="en" title="Network Options">
+        <use name="generator-network"/>
+        This menu provides you the same information as that found in the /etc/network file. You just have to select whether you want GeeXboX to use your Ethernet or Wireless (or Autodetection) network interface. In case of a wireless device use, you have the possibility to set some settings like the connection mode (managed or ad-hoc) and the optional SSID and WEP key (no WPA support for now).
+        <br/>
+        Then, you can also determine if you want to use a DHCP autoconfiguration or a static declaration. In case of static mode, you can define the IP address, DNS server and gateway addresses you want GeeXboX to use with your network adapter. Please note that only one network interface can be used at a time.<br/>
+      </content>
+      <content lang="fr" title="Paramétrage du réseau">
+        <use name="generator-network"/>
+        Cette fenêtre contient les mêmes informations que celles du fichier /etc/network. Sélectionnez l'interface réseau à utiliser, Ethernet ou Wireless (ou Autodetection). Dans le cas du Wireless, des options supplémentaires existent telles que le mode de connexion (managed ou ad-hoc) et éventuellement une clé SSID et WEP (pas de support du WPA).<br/>
+        <br/>
+        Ensuite, vous pouvez soit choisir une autoconfiguration par DHCP, soit saisir manuellement l'adresse IP, le serveur DNS et la passerelle que vous souhaitez attribuer à la GeeXboX sur votre réseau local. Notez qu'une seule interface réseau peut être utilisée.<br/>
+      </content>
+      <content lang="de" title="Netzwerk Einstellungen">
+        <use name="generator-network"/>
+        Dieses Menü zeigt die gleichen Informationen an, die auch in der Datei /etc/network zu finden sind. Sie müssen nur auswählen, ob GeeXboX ihren Ethernet oder kabellosen (oder automatische Erkennung) Netzwerkanschluss verwenden soll. Wählen Sie die kabellose Option, so gibt es noch die Möglichkeit, Dinge wie die Art der Verbindung (Infrastruktur oder Ad-hoc) und den optionalen SSID und WEP Schlüssel (keine WPA Unterstützung momentan).<br/>
+        <br/>
+        Dann können sie bestimmen, ob sie eine automatische DHCP - gestützte oder eine statische Einstellung bevorzugen. Entscheiden sie sich für die statische Festlegung, so ist noch die IP Adresse, der DNS Server sowie die Gateway Adresse, welche von GeeXboX verwendet werden sollen, auszufüllen. Anmerkung: Es kann nur eine Netzwerkverbindung auf einmal genutzt werden.<br/>
+      </content>
+    </subsection>
+    <subsection label="services">
+      <content lang="en" title="Services Options">
+        <use name="generator-services"/>
+        This tab lets you set some configurations regarding network services.<br/>
+        <br/>
+        There you can provide the username and password you want GeeXboX to use to access to your network Samba content (Windows shares). You can also select the network services (HTTP / FTP / Telnet) to be started on GeeXboX (default is none, as it may result in anonymous root access to unauthorized people). You can also activate or deactivate the use of the UPnP devices auto-discovery, if you're not interested in this features or simply do not want to waste CPU time for this.<br/>
+        <br/>
+        <b>SHOUTcast</b><br/>
+        <br/>
+        If you would like to use SHOUTcast (Radio and TV), you can enable that with the possibility for use key words for SHOUTcast TV. The default blacklist keywords are "adult porn xxx ESS SWCTV SWPTV Subscription", which filter out the adult-content streams and subscription-only streams. For the options "Timeout" and "Retries number", it is not necessary for these settings to be changed. They concern the timeout period and the number of retries for the network access to the SHOUTcast servers and to the others EXTM3U playlists defined in your configuration file iso/GEEXBOX/etc/netstream.<br/>
+      </content>
+      <content lang="fr" title="Paramétrage des services">
+        <use name="generator-services"/>
+        Ici, il vous est possible de configurer divers services réseau.<br/>
+        <br/>
+        Ainsi, vous pouvez déterminer un utilisateur et mot de passe pour l'accès aux données de votre réseau (partages Windows). De même, choisissez les services (HTTP, FTP et Telnet) que vous souhaitez démarrer avec GeeXboX. Par défaut, aucun n'est sélectionné par soucis de sécurité. Enfin, activez ou désactivez l'utilisation de l'auto-découverte UPnP.<br/>
+        <br/>
+        <b>SHOUTcast</b><br/>
+        <br/>
+        Si vous désirez pouvoir accéder aux contenus de SHOUTcast (radio comme TV), vous pouvez les activer avec la possibilité de donner des mots clefs pour SHOUTcast TV. Les mots clefs présents actuellement "adult porn xxx ESS SWCTV SWPTV Subscription" filtrent le contenu afin de vous éviter l'accès au streams à caractère pornographique ainsi qu'aux streams payants (subscription). Les options "Timeout" et "Retrise number" n'ont en principe aucunement besoin d'être modifiées. Elles concernent le temps d'attente et le nombre de tentatives pour accéder aux serveurs SHOUTcast et aux éventuelles listes de lecture EXTM3U que vous auriez défini dans le fichier de configuration iso/GEEXBOX/etc/netstream.<br/>
+      </content>
+      <content lang="de" title="Services Options">
+        <use name="generator-services"/>
+        Unter diesem tab können Sie einige netzwerkspezifische Einstellungen vornehmen.<br/>
+        <br/>
+        Sie können hier den Benutzernamen sowie das Passwort festlegen, welches GeeXboX benutzen soll, um auf Ihren Samba Netzwerkinhalt zuzugreifen (Windows Freigaben). Sie können außerdem die Netzwerkdienste (HTTP / FTP / Telnet) auswählen, die von GeeXboX gestartet werden sollen (standardmäßig ist keiner ausgewählt, da deshalb unautorisierte Personen anonymen Root - Zugriff erhalten könnten). Des weiteren können Sie das Nutzen der automatischen Entdeckung von UPnP - Geräten aktivieren oder deaktivieren, falls Sie nicht interessiert sind an diesem Feature or einfach keine CPU Zeit dafür verschwenden wollen.<br/>
+        <br/>
+        <b>SHOUTcast</b><br/>
+        <br/>
+        Wenn Sie SHOUTCAST verwenden möchten (Radio und TV), kann die Freigabe über Schlüsselwörter erfolgen. Die Blacklist-Schlüsselwörter die bereits enthalten sind, sind „adult porn xxx ESS SWCTV SWPTV Subscription“, dazu gedacht, Erotik- und Pay-Angebote auszufiltern. Die Optionen „Timeout“ und „Retries number“ sollten beibehalten werden. Sie betreffen die TIMEOUT-Zeit und die Anzahl der Wiederholungen beim Interzugriff zu den SHOUTCAST-Servern und zu anderen EXTM3U Playlisten aus der Konfiguration in iso/GEEXBOX/etc/netstream.<br/>
+      </content>
+    </subsection>
+    <subsection label="lcd">
+      <content lang="en" title="LCD Display Options">
+        <use name="generator-lcd"/>
+        If you have an LCD Display and if it is in the list box, then you can use that for showing the name of the actual play file with a progress bar. Actually it is useless for change the "height" value, that corresponding to the number of lines. This functionality is enabled only on two lines.<br/>
+      </content>
+      <content lang="fr" title="Paramétrage de l'écran LCD">
+        <use name="generator-lcd"/>
+        Si vous disposez d'un afficheur LCD et qu'il est disponible dans cette liste, vous pouvez l'utiliser afin de visualiser quel fichier est actuellement lu avec une barre temporelle. Actuellement il est inutile de modifier la valeur "height" qui correspond au nombre de lignes. La fonctionnalité actuelle est uniquement disponible sur deux lignes.<br/>
+      </content>
+      <content lang="de" title="LCD Display Einstellungen">
+        <use name="generator-lcd"/>
+        Wenn Sie ein LCD-Display haben, dessen Typ in der Listbox enthalten ist, können Sie es benutzen um den Namen des Files das gerade gespielt wird zusammen mit einem Fortschrittsbalken anzuzeigen. Der Parameter "height" für die Anzahl der Zeilen ist zur Zeit noch nicht in Benutzung, derzeit erfolgt die Anzeige immer in zwei Zeilen.<br/>
+      </content>
+    </subsection>
+    <subsection label="packages">
+      <content lang="en" title="Packages Options">
+        <use name="generator-packages"/>
+        This tab is particularly useful to add non-free components or fonts to GeeXboX. There you can select all of the extra non-free firmwares your drivers may require. You can also add non-free audio/video codecs, asian fonts or themes that were too big to be included in regular GeeXboX ISO. Just select the files you need and click on the "Download" button. Then, the generator will download the files you need and make them available to the ISO generator options.<br/>
+      </content>
+      <content lang="fr" title="Paramétrage des paquetages">
+        <use name="generator-packages"/>
+        Cette fenêtre est très utile pour ajouter des composants non-libre, des thèmes visuels ou des polices à GeeXboX. Cochez les éléments que vous souhaitez ajouter (firmwares non-libres, codecs audio/vidéo non-libres, fontes asiatiques ou thèmes visuels), puis cliquez sur le bouton "Download". Les fichiers seront téléchargés automatiquement sur Internet et ajoutés à l'ISO.<br/>
+      </content>
+      <content lang="de" title="Packages Options">
+        <use name="generator-packages"/>
+        Dieser Tab ist besonders nützlich um Komponenten oder Fonts in die GeeXboX zu integrieren, die nicht Open-Source sind. Ausserdem können damit Firmware oder Treiber für bestimmte Geräte installiert werden, zusätzliche Codecs, asiatische Fonts oder Themen, die wegen ihrer Grösse nicht im normalen ISO enthalten sind. Nach dem selektieren der Fonts auf Download klicken, danach werden die benötigten Dateien automatisch heruntergeladen und in den Optionen für den Iso-Generator zur Verfügung gestellt.<br/>
+      </content>
+    </subsection>
+    <subsection label="iso">
+      <content lang="en" title="Build up the ISO">
+        All you have to do now, is to hit the <b>Compile</b> button.<br/>
+        <br/>
+        That's it, the generator will produce a new GeeXboX bootable ISO that is ready to be burned on a CD. Don't forget to burn it in DAO mode.<br/>
+      </content>
+      <content lang="fr" title="Construire l'ISO">
+        Cliquez tout simplement sur le bouton <b>Compile</b>.<br/>
+        <br/>
+        Et voilà, le générateur va créer une nouvelle ISO Bootable de GeeXboX prête à être gravée. N'oubliez pas de sélectionner le mode DAO (Disc At Once) avant de lancer la gravure.<br/>
+      </content>
+      <content lang="de" title="Die ISO Erstellen">
+        Alles, was noch zu tun ist, ist den <b>Compile</b> Knopf anzuklicken.<br/>
+        <br/>
+        Der Generator erzeugt ein neues bootfähiges Geexbox ISO Image, dass anschließend im 'DAO' Modus (wichtig!!) auf CD gebrannt werden kann.<br/>
+      </content>
+    </subsection>
   </section>
 </article>
