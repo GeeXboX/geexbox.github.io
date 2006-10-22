@@ -248,7 +248,7 @@
         <use name="generator-audio"/>
         Dans cette fenêtre, vous pouvez configurer quelques options relatives à l'audio.<br/>
         <br/>
-        Tout d'abord, l'ID de la carte son. Il se peut que votre ordinateur possède plusieurs cartes son (par exemple une sur port PCI et une intégrée). Ainsi, choisissez l'ID de celle que vous souhaitez utiliser, en considérant que l'ID "0" est le maitre. Habituellement, il s'agit de la carte intégrée.<br/>
+        Tout d'abord, l'ID de la carte son. Il se peut que votre ordinateur possède plusieurs cartes son (par exemple une sur port PCI et une intégrée). Ainsi, choisissez l'ID de celle que vous souhaitez utiliser, en considérant que l'ID "0" est le maître. Habituellement, il s'agit de la carte intégrée.<br/>
         <br/>
         Vous avez aussi le choix du type de sortie, afin de spécifier si vous souhaitez utiliser une sortie analogique ou digitale. En choisissant cette dernière, vous pouvez forcer l'AC3/DTS, ce qui permettra d'envoyer un flux AC3/DTC directement à un ampli/décodeur externe. Puis, faites votre choix entre les modes stéréo, surround ou 5.1 Surround.<br/>
         <br/>
@@ -265,7 +265,7 @@
         <br/>
         <b>SoundBlaster Live/Audigy</b><br/>
         <br/>
-        Le mode "Legacy" pour les cartes son à base de SB Live/Audigy est décoché par défaut. Ce qui est généralement adapté pour la plupart des utilisateurs (Audigy et nouvelles SB Live). Si vous n'avez aucun son aussi bien en analogique qu'en digital, décochez cette option (valable généralement pour les 'anciennes' SB Live).<br/>
+        Le mode "Legacy" pour les cartes son à base de SB Live/Audigy est décoché par défaut. Ce qui est généralement adapté pour la plupart des utilisateurs (Audigy et nouvelles SB Live). Si vous n'avez aucun son aussi bien en analogique qu'en digital, cochez cette option (valable généralement pour les 'anciennes' SB Live).<br/>
       </content>
       <content lang="de" title="Audio Einstellungen">
         <use name="generator-audio"/>
@@ -372,7 +372,7 @@
       </content>
       <content lang="fr" title="Paramétrage de la télécommande">
         <use name="generator-remote"/>
-        Choisissez simplement le télécommande et le récepteur que vous souhaitez utiliser pour controler GeeXboX. Notez qu'il est possible d'en utiliser plusieurs à la fois.<br/>
+        Choisissez simplement le télécommande et le récepteur que vous souhaitez utiliser pour contrôler GeeXboX. Notez qu'il est possible d'en utiliser plusieurs à la fois.<br/>
       </content>
       <content lang="de" title="Einstellungen für Fernbedienungen">
         <use name="generator-remote"/>
