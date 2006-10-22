@@ -2,21 +2,24 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
-  <define name="ct-gnu-arch">
-    <a href="http://www.gnu.org/software/gnu-arch/">GNU Arch</a>
+  <define name="ct-hg-mercurial">
+    <a href="http://www.selenic.com/mercurial/">Mercurial</a>
   </define>
-  <define name="ct-geexbox-arch">
-    <a href="http://www.geexbox.org/archzoom/devel@geexbox.org--2004/geexbox--main--1">GeeXboX Web-Arch</a>
+  <define name="ct-geexbox-hg">
+    <a href="http://hg.geexbox.org/">GeeXboX Mercurial</a>
   </define>
 
-  <define name="ct-tla-register">
-    tla register-archive devel@geexbox.org--2004 http://www.geexbox.org/arch
+  <define name="ct-hg-clone">
+    hg clone http://hg.geexbox.org/geexbox
   </define>
-  <define name="ct-tla-get">
-    tla  get -A devel@geexbox.org--2004 geexbox--main--1
+  <define name="ct-hg-update">
+    hg pull; hg update
   </define>
-  <define name="ct-tla-update">
-    tla update
+  <define name="ct-hg-diff">
+    hg diff
+  </define>
+  <define name="ct-hg-export">
+    hg commit -m "Your comment"; hg export tip > patch
   </define>
 
   <define name="wiki-url">
@@ -29,58 +32,59 @@
     <content lang="de" title="Entwickler ..."/>
 
     <subsection label="cvs">
-      <content lang="en" title="GeeXboX Arch">
-        <use name="ct-gnu-arch"/> is a revision control system, similar in purpose to tools such as CVS, SCCS, and Subversion. It is used to keep track of the changes made to a source tree and to help programmers combine and otherwise manipulate changes made by multiple people or at different times.<br/><br/>
+      <content lang="en" title="GeeXboX Mercurial">
+        <use name="ct-hg-mercurial"/> is a revision control system, similar in purpose to tools such as CVS, SCCS, Subversion, or Arch. It is used to keep track of the changes made to a source tree and to help programmers combine and otherwise manipulate changes made by multiple people or at different times.<br/><br/>
 
-We've decided to provide you with Web-Arch access. It will help developers to easily add patches and fixes to the distribution. Moreover, you can also try pre-released versions of the GeeXboX and help us to find and correct bugs early! Be aware that the provided Arch can be modified frequently and MUST be considered as an UNSTABLE release. We won't provide any support for this release and can't be held responsible for any damage or data loss that may occur.<br/><br/>
+        We've decided to provide you mercurial with web access. It will help developers to easily add patches and fixes to the distribution. Moreover, you can also try pre-released versions of the GeeXboX and help us to find and correct bugs early! Be aware that the provided Mercurial can be modified frequently and MUST be considered as an UNSTABLE release. We won't provide any support for this release and can't be held responsible for any damage or data loss that may occur.<br/><br/>
 
-          There are currently 2 ways of accessing our Arch Tree : via command-line or Web-Arch (to just have a look to some changes on a specific file, for example). You can directly access to the Web-Arch with your browser from :<br/><br/>
+        There are currently 2 ways of accessing our Mercurial Tree : via command-line or web-access (to just have a look to some changes on a specific file, for example). You can directly access to the Mercurial Repositories with your browser from :<br/><br/>
 
-<b><use name="ct-geexbox-arch"/></b><br/><br/>
+        <b><use name="ct-geexbox-hg"/></b><br/><br/>
 
-          In order to access to our Arch via command line, create and enter a new directory and do the following (be sure that you have installed the TLA package) :<br/><br/> 
+        In order to access to our Mercurial via command line, create and enter a new directory and do the following (be sure that you have installed the mercurial package) :<br/><br/>
 
-<b>* <use name="ct-tla-register"/></b><i> - To register with the GeeXboX's Arch repository.</i><br/>
-<b>* <use name="ct-tla-get"/></b><i> - To fetch all the files from the directory geexbox.</i><br/>
-<b>* <use name="ct-tla-update"/></b><i> - To update your local copy of the Arch, synchronizing with our server.</i>
-      <br/><br/>
-      Please refer to the GeeXboX <use name="wiki-url"/> <i>Developers Section</i> for an easy understanding of GeeXboX toolchain internals. There you'll understand how to report bugs, add new packages to the distribution, support new remote controllers, submit a patch and so on ...
+        <b>* <use name="ct-hg-clone"/></b><i> - To get a local copy of the GeeXboX's Mercurial repository.</i><br/>
+        <b>* <use name="ct-hg-update"/></b><i> - To update your local copy of the Mercurial, synchronizing with our server.</i><br/>
+        <b>* <use name="ct-hg-diff"/></b><i> - To view difference you've made.</i><br/>
+        <b>* <use name="ct-hg-export"/></b><i> - To make a patch you can send to us.</i><br/>
+        <br/>
+        Please refer to the GeeXboX <use name="wiki-url"/> <i>Developers Section</i> for an easy understanding of GeeXboX toolchain internals. There you'll understand how to report bugs, add new packages to the distribution, support new remote controllers, submit a patch and so on ...
       </content>
 
-      <content lang="fr" title="GeeXboX Arch">
-      <use name="ct-gnu-arch"/> est un système de gestion de versions, similaire dans le principe à des outils tels que CVS, SCCS et Subversion. Il est utilisé pour conserver une trace des changements effectués à un arbre de sources et ainsi pour aider les programmeurs à combiner les modifications faites par différentes personnes à différents moments.<br/><br/>
+      <content lang="fr" title="GeeXboX Mercurial">
+        <use name="ct-hg-mercurial"/> est un système de gestion de versions, similaire dans le principe à des outils tels que CVS, SCCS, Subversion ou Arch. Il est utilisé pour conserver une trace des changements effectués à un arbre de sources et ainsi pour aider les programmeurs à combiner les modifications faites par différentes personnes à différents moments.<br/><br/>
 
-        Nous avons décidé de vous fournir un accès au Web-Arch. Cela permettra d'aider les contributeurs à réaliser des patchs et correctifs plus facilement pour le système. De plus, vous pourrez également essayer les pré-versions de la GeeXboX et nous aider à repérer et corriger des bugs. Soyez attentifs au fait que le contenu de l'Arch peut être modifié fréquemment et DOIT être considéré comme une version INSTABLE. Nous ne fournirons aucun support pour cette version et ne pouvons être tenus pour responsables pour toute pertes de données ou problèmes engendré.<br/><br/>
+        Nous avons décidé de vous fournir un accès au repository web. Cela permettra d'aider les contributeurs à réaliser des patchs et correctifs plus facilement pour le système. De plus, vous pourrez également essayer les pré-versions de la GeeXboX et nous aider à repérer et corriger des bugs. Soyez attentifs au fait que le contenu du repository peut être modifié fréquemment et DOIT être considéré comme une version INSTABLE. Nous ne fournirons aucun support pour cette version et ne pouvons être tenus pour responsables pour toute pertes de données ou problèmes engendré.<br/><br/>
 
-          Il existe actuellement 2 façons d'accéder à notre arbre Arch : par ligne de commande ou interface Web (pour simplement constater les changements apportés à un fichier en particulier par exemple). Vous pouvez accéder directement au Web-Arch depuis votre navigateur via :<br/><br/>
+        Il existe actuellement 2 façons d'accéder à notre branche Mercurial : par ligne de commande ou interface Web (pour simplement constater les changements apportés à un fichier en particulier par exemple). Vous pouvez accéder directement au repository web depuis votre navigateur via :<br/><br/>
 
-<b><use name="ct-geexbox-arch"/></b><br/><br/>
+        <b><use name="ct-geexbox-hg"/></b><br/><br/>
 
-          Pour accéder à notre Arch en ligne de commande, créez et déplacez vous dans un nouveau répertoire puis faites comme suit (prenez garde à avoir le paquetage TLA) :<br/><br/> 
+        Pour accéder à notre Mercurial en ligne de commande, créez et déplacez vous dans un nouveau répertoire puis faites comme suit (prenez garde à avoir le paquetage mercurial) :<br/><br/>
 
-<b>* <use name="ct-tla-register"/></b><i> - Pour enregistrer le dépositoire Arch utilisé par l'équipe GeeXboX.</i><br/>
-<b>* <use name="ct-tla-get"/></b><i> - Pour rappatrier tous les fichiers depuis le répertoire geexbox.</i><br/>
-<b>* <use name="ct-tla-update"/></b><i> - Pour mettre à jour votre copie locale du CVS, en la synchronisant avec le version sur notre serveur.</i>
-      <br/><br/>
-      Veuillez vous référer à la partie <i>Developers Section</i> du <use name="wiki-url"/> GeeXboX pour une entrée en matière sur le fonctionnement interne de la chaîne de compilation de la GeeXboX. Vous y trouverez également tosu les conseils nécessaires pour rapporter des problèmes à l'équipe de développement, mais également pour ajouter de nouveaux programmes, ajouter le support de nouvelles télécommandes, soumettre un patch, et bien d'autres choses ...
+        <b>* <use name="ct-hg-clone"/></b><i> - Pour récuppérer une copie locale depuis le répertoire geexbox.</i><br/>
+        <b>* <use name="ct-hg-update"/></b><i> - Pour mettre à jour votre copie locale Mercurial, en la synchronisant avec le version sur notre serveur.</i><br/>
+        <b>* <use name="ct-hg-diff"/></b><i> - Pour voir les différences en cours.</i><br/>
+        <b>* <use name="ct-hg-export"/></b><i> - Pour créer un patche que vous pourrez nous envoyer.</i><br/>
+        <br/>
+        Veuillez vous référer à la partie <i>Developers Section</i> du <use name="wiki-url"/> GeeXboX pour une entrée en matière sur le fonctionnement interne de la chaîne de compilation de la GeeXboX. Vous y trouverez également tous les conseils nécessaires pour rapporter des problèmes à l'équipe de développement, mais également pour ajouter de nouveaux programmes, ajouter le support de nouvelles télécommandes, soumettre un patch, et bien d'autres choses ...
       </content>
 
-      <content lang="de" title="GeeXboX Archiv">
-        <use name="ct-gnu-arch"/> ist ein Revisions-Kontroll-System, ähnlich CVS, SCCS und Subversion. Es wird genutzt, um Änderungen in den Quelltexten zu verfolgen und gleichzeitig den Entwicklern die Möglichkeit zu geben, alle gemachten Änderungen der einzelnen Entwickler am Projekt zusammenzuführen.<br/><br/>
+      <content lang="de" title="GeeXboX Mercurial">
+        <use name="ct-hg-mercurial"/> ist ein Revisions-Kontroll-System, ähnlich CVS, SCCS, Subversion und Arch. Es wird genutzt, um Änderungen in den Quelltexten zu verfolgen und gleichzeitig den Entwicklern die Möglichkeit zu geben, alle gemachten Änderungen der einzelnen Entwickler am Projekt zusammenzuführen.<br/><br/>
 
-Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Archiv zu geben. Damit haben Sie als Entwickler die Möglichkeit, auf einfache Weise "Patches" oder "Fixes" für die Distribution zu erstellen. Zusätzlich dazu können Sie die jeweils aktuellen Betaversionen von GeeXboX austesten und uns so helfen, Fehler frühzeitig zu erkennen und zu beseitigen! Bitte beachten Sie, dass diese Versionen oft geändert und daher als "nicht stabil" angesehen werden sollten. Wir bieten daher keine Hilfe zu diesen Versionen und sind damit nicht verantwortlich für eventuelle Beschädigungen oder Datenverlust.<br/><br/>
+        Wir haben uns dazu entschlossen, Ihnen Zugriff auf unser Mercurial zu geben. Damit haben Sie als Entwickler die Möglichkeit, auf einfache Weise "Patches" oder "Fixes" für die Distribution zu erstellen. Zusätzlich dazu können Sie die jeweils aktuellen Betaversionen von GeeXboX austesten und uns so helfen, Fehler frühzeitig zu erkennen und zu beseitigen! Bitte beachten Sie, dass diese Versionen oft geändert und daher als "nicht stabil" angesehen werden sollten. Wir bieten daher keine Hilfe zu diesen Versionen und sind damit nicht verantwortlich für eventuelle Beschädigungen oder Datenverlust.<br/><br/>
 
-          Zur Zeit gibt es zwei Möglichkeiten des Zugriffes auf unser Archiv: Über Kommandozeile oder Web-Arch (um z.B. schnell eine Änderung in einer Datei nachzusehen). Das Webarchiv können Sie direkt per Browser erreichen, über:<br/><br/>
+        Zur Zeit gibt es zwei Möglichkeiten des Zugriffes auf unser Mercurial: Über Kommandozeile oder web-access (um z.B. schnell eine Änderung in einer Datei nachzusehen). Das Webarchiv können Sie direkt per Browser erreichen, über:<br/><br/>
 
-<b><use name="ct-geexbox-arch"/></b><br/><br/>
+        <b><use name="ct-geexbox-hg"/></b><br/><br/>
 
-          Um unser Archiv über die Kommandozeile zu erreichen, erstellen Sie bitte zunächst ein neues Verzeichnis und wechseln dann in dieses. Dann führen Sie bitte die folgenden Befehle aus (Stellen Sie zunächst sicher, dass das TLA Paket installiert ist) :<br/><br/> 
+        Um unser Archiv über die Kommandozeile zu erreichen, erstellen Sie bitte zunächst ein neues Verzeichnis und wechseln dann in dieses. Dann führen Sie bitte die folgenden Befehle aus (Stellen Sie zunächst sicher, dass das mercurial Paket installiert ist) :<br/><br/> 
 
-<b>* <use name="ct-tla-register"/></b><i> - Um das GeeXboX Archiv zu registrieren.</i><br/>
-<b>* <use name="ct-tla-get"/></b><i> - Um alle Dateien des GeeXBox Archives herunter zu laden.</i><br/>
-<b>* <use name="ct-tla-update"/></b><i> - Um Ihre lokale Kopie mit unserem Server zu synchronisieren.</i><br/>
-<br/>
-          Bitte lesen Sie im GeeXboX <use name="wiki-url"/> Entwickler Bereich nach, um die Internas zu verstehen. Dort wird erklärt wie Sie Fehler melden, neue Paketei, eine neue Fernbedienung oder Patches hinzufügen können.<br/>
+        <b>* <use name="ct-hg-clone"/></b><i> - Um alle Dateien des GeeXBox mercurial herunter zu laden.</i><br/>
+        <b>* <use name="ct-hg-update"/></b><i> - Um Ihre lokale Kopie mit unserem Server zu synchronisieren.</i><br/>
+        <br/>
+        Bitte lesen Sie im GeeXboX <use name="wiki-url"/> Entwickler Bereich nach, um die Internas zu verstehen. Dort wird erklärt wie Sie Fehler melden, neue Paketei, eine neue Fernbedienung oder Patches hinzufügen können.<br/>
       </content>
 
     </subsection>
