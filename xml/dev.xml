@@ -13,7 +13,7 @@
     hg clone http://hg.geexbox.org/geexbox
   </define>
   <define name="ct-hg-update">
-    hg pull; hg update
+    hg pull --update
   </define>
   <define name="ct-hg-diff">
     hg diff
