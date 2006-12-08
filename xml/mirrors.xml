@@ -32,15 +32,4 @@
     <url>http://geexbox.mirrorgeek.com/</url>
   </mirror>
 
-  <mirror>
-    <country>de</country>
-    <description>MetalForen.org, Berlin (Germany, HTTP)</description>
-    <url>http://geexbox.metalforen.org/</url>
-  </mirror>
-
-  <mirror partial="yes">
-    <country>de</country>
-    <description>German Service Network, Oberhausen (Germany, HTTP)</description>
-    <url>http://geexbox.gsnw.org:56431/</url>
-  </mirror>
 </mirrors>
