@@ -3,8 +3,8 @@
 
 <article>
   <section label="starting">
-    <content lang="en" title="Get Started ..."/>
-    <content lang="fr" title="Par Où Commencer ..."/>
+    <content lang="en" title="About ..."/>
+    <content lang="fr" title="A propos de ..."/>
     <content lang="de" title="Starten Sie durch ..."/>
     <subsection label="what">
       <content lang="en" title="What is the GeeXboX ...">
