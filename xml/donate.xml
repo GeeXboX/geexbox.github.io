@@ -60,6 +60,7 @@
 * HP e-Vectra<br/>
 * DELL Latitude C510 / C610<br/>
 * SGI O2<br/>
+* <a href="http://www.genesippc.com/efika.php">Efika</a><br/>
   </define>
 
   <define name="response-computing-url">
@@ -70,12 +71,18 @@
     <a href="http://www.wg-plc.com/">IT Manager, Westminster Group PLC</a>
   </define>
 
+  <define name="genesi-usa-url">
+    <a href="http://www.genesippc.com/">Genesi USA</a>
+  </define>
+
   <define name="donators">
     <i>Romain Perea, Luigi Bortolani, Sam Huffman, Clint Brothers, Paul François, Lobo Martinez, Olivier Cochard, Laurent Peltier, Jonathan Davis, Michaël Berlioz-Arthaud, Fabien Messinger, Steven McGregor, Fabio Lovisa.</i>
   </define>
 
   <define name="donators-hard">
-    Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac, Andrew Florence (<use name="response-computing-url"/>), Guy C. McNeill (<use name="westminster-url"/>), Hervé Remigy
+    Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac,
+    Andrew Florence (<use name="response-computing-url"/>), Guy C.
+    McNeill (<use name="westminster-url"/>), Hervé Remigy, <use name="genesi-usa-url"/>
   </define>
 
   <section label="donate">
