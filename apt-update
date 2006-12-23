@@ -5,36 +5,15 @@ INCOMING="$ROOT/incoming"
 REPOSITORY="$ROOT/debian"
 ARCHS="i386 amd64"
 
-compress()
-{
-  FILE="$1"
-  gzip --stdout "$FILE" > "$FILE.gz"
-  bzip2 --stdout "$FILE" > "$FILE.bz2"
-}
-
 cd "$ROOT"
 
-#########
-# BINARY
-#########
+mkdir -p "$REPOSITORY/dists/unstable/main/source"
 for arch in $ARCHS; do
-  BINARY="$REPOSITORY/dists/unstable/main/binary-$arch"
-  mkdir -p "$BINARY"
-  apt-ftparchive --db db -c=apt-ftparchive.conf packages "$REPOSITORY/pool" > "$BINARY/Packages"
-  compress "$BINARY/Packages"
+  mkdir -p "$REPOSITORY/dists/unstable/main/binary-$arch"
+  apt-ftparchive clean apt-ftparchive-$arch.conf
+  apt-ftparchive generate apt-ftparchive-$arch.conf
 done
 
-#########
-# SOURCE
-#########
-SOURCE="$REPOSITORY/dists/unstable/main/source"
-mkdir -p "$SOURCE"
-apt-ftparchive --db db -c=apt-ftparchive.conf sources "$REPOSITORY/pool" > "$SOURCE/Sources"
-compress "$SOURCE/Sources"
-
-##########
-# RELEASE
-##########
-apt-ftparchive --db db -c=apt-release.conf release "$REPOSITORY/dists" > "$REPOSITORY/dists/unstable/Release"
+apt-ftparchive -c=apt-release.conf release "$REPOSITORY/dists" > "$REPOSITORY/dists/unstable/Release"
 #gpg --sign -ba -o "$REPOSITORY/dists/unstable/Release.gpg" "$REPOSITORY/dists/unstable/Release"
 
