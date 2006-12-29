@@ -24,6 +24,7 @@
   </define>
 
   <define name="vboard">
+* ATI Radeon 9600SE 128M AGP TV<br/>
 * ATI Rage 128 Ultra 32M AGP TV<br/>
 * ATI Rage 128 Pro AGP<br/>
 * ATI Rage 128 AGP<br/>
@@ -82,7 +83,8 @@
   <define name="donators-hard">
     Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac,
     Andrew Florence (<use name="response-computing-url"/>), Guy C.
-    McNeill (<use name="westminster-url"/>), Hervé Remigy, <use name="genesi-usa-url"/>
+    McNeill (<use name="westminster-url"/>), Hervé Remigy, François
+    Rais, <use name="genesi-usa-url"/>
   </define>
 
   <section label="donate">
