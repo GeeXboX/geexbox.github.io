@@ -10,6 +10,31 @@
 
 <article>
 
+  <define name="sherkhan_release_20061231">
+    <a href="http://www.geexbox.org/~ben/v2/geexbox-sherkhan-20061231-en.i386.iso"><b>GeeXboX 2.x 2006-12-31</b></a>
+  </define>
+
+  <define name="scr-freevo">
+    <center>
+      <a href="../img/freevo-scr-menu.png">
+        <img src="../img/freevo-scr-menu-thumb.png" alt="GeeXboX 2.x
+        Main Menu"/>
+      </a>
+      <a href="../img/freevo-scr-video.png">
+        <img src="../img/freevo-scr-video-thumb.png" alt="GeeXboX 2.x
+        Video Menu"/>
+      </a>
+      <a href="../img/freevo-scr-audio.png">
+        <img src="../img/freevo-scr-audio-thumb.png" alt="GeeXboX 2.x
+        Audio Menu"/>
+      </a>
+      <a href="../img/freevo-scr-image.png">
+        <img src="../img/freevo-scr-image-thumb.png" alt="GeeXboX 2.x
+        Image Menu"/>
+      </a>
+    </center>
+  </define>
+
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
@@ -68,6 +93,101 @@
         très facilement étendre ses fonctionnalités, d'y ajouter des
         paquetages, ou encore de le réutiliser pour donner naissance à
         de nouveaux systèmes Linux embarqués dédiés.
+      </content>
+    </subsection>
+
+    <subsection label="sherkhan_preview1" date="2006-12-31">
+      <content lang="en" title="GeeXboX 2.x technological preview:
+        what a surprise !">
+        Xmas passed away and no new GeeXboX release came out this
+        year. It's a bit sad but we were focusing on next generation
+        architecture which delayed a bit the 1.x serie development.
+        You may however expect some 1.1 release any time soon, with
+        it's usual set of improvements. Time has come now to let you
+        discover our very first technological preview of GeeXboX 2.x
+        series.<br/>
+        <br/>
+        Some of you may have heard about MPUI years ago, or
+        OMC/libplayer a bit earlier this year but both approaches went
+        down. The decision has been taken to make use of Freevo 2.0
+        (still work in progress, but so is GeeXboX 2.x) and Kaa, its
+        multimedia framework as our new UI reference. As a consequence,
+        many new packages had to be added (such as Python) to our
+        distribution. In a near future, GeeXboX and Freevo projects
+        will be more tighten than ever, and we should be the official
+        Freevo LiveCD, still keeping in mind our embedded and
+        easy-to-setup approach. Unfortunately, ISO grew up radically
+        (it is now 20 MB) and so does RAM usage (at least 128MB is now
+        mandatory). But, as a development version, don't take it too
+        seriously, it'll still change 'till the final release. If you
+        want to have a try at this technological preview, just grab the
+        <use name="sherkhan_release_20061231"/> ISO and burn it to a
+        CD or try it through VMware or so. Don't look for a generator
+        or try to install it on disk, it is not yet meant for. Don't
+        expect it either to be fully functional, it's still full of
+        bugs and isn't meant to replace the official 1.x serie anytime
+        soon. Right now, it can be controlled through keyboard only
+        (arrow keys and Enter/Escape) but should already be able to
+        let you watch some videos, play audio files or view various
+        pictures. Well, that's said, here are some screenshots, just
+        for you to know what to expect from 2007 ;-)<br/>
+        <br/>
+        <use name="scr-freevo"/>
+        <br/>
+        Happy new year from all the GeeXboX team members ...
+      </content>
+      <content lang="fr" title="GeeXboX 2.x, première démo technologique: ça
+        pour une surprise ...">
+        Noël est passé et n'aura, pour une fois, apporté aucune
+        nouvelle version de la GeeXboX. C'est un peut triste mais
+        c'est essentiellement du au fait que nous consacrons
+        aujourd'hui nos efforts sur la nouvelle architecture GeeXboX,
+        ce qui retarde quelques peu, la branche 1.x. Vous pouvez
+        néanmoins vous attendre à la sortie prochaine de la version
+        1.1 qui, comme d'habitude, apportera son lot de corrections et
+        améliorations. Mais pour l'heure, il est temps de vous faire
+        découvrir notre toute première démonstration technologique de
+        ce que sera la future série 2.x de la GeeXboX.<br/>
+        <br/>
+        Les plus fidèles ont pu, par le passé, entendre parler de MPUI
+        ou encore du couple OMC/libplayer, qui furent 2 approches pour
+        la nouvelle interface qui ont toutes 2 échouées pour des
+        raisons diverses et variées. La décision a récemment été prise
+        de choisir Freevo 2.0 (toujours à l'état de développement,
+        mais c'est également le cas de la GeeXboX 2.x) ainsi que Kaa,
+        sa base multimédia, comme les fondations de notre future interface.
+        Il en résulte que de nombreux paquetages ont ainsi dû être
+        ajoutés (tels que Python) à la distribution. Dans un futur
+        proche, les projets GeeXboX et Freevo seront très liés, et
+        nous devrions probablement faire office de LiveCD officiel à
+        ce projet, tout en gardant néanmoins l'approche embarquée et
+        automatisée que nous suivons depuis le commencement du projet.
+        Malheureusement, la taille de l'ISO a radicalement augmentée
+        (passant maintenant à plus de 20 Mo), tout comme l'utilisation
+        mémoire (128 Mo constituant désormais un minimum vital). Mais,
+        s'agissant d'une version de développement, ne prenez pas les
+        choses de manière trop sérieuse, beaucoup de choses évolueront
+        encore d'ici la version finale. Si vous désirez tester cette
+        version de démonstration, il ne vous reste qu'à télécharger
+        l'ISO <use name="sherkhan_release_20061231"/> et à la graver
+        sur un CD ou à l'essayer via VMware ou autre. N'y cherchez pas
+        de générateur d'ISO ou à l'installer sur disque, cette version
+        n'est pas encore prête pour cela. N'attendez pas non plus à
+        avoir un système 100% fonctionnel, il est encore plein de bugs
+        et ne fonctionne que depuis une petite semaine ;-) N'y voyez
+        donc pas un remplaçant à votre version 1.x courante. A l'heure
+        actuelle, l'interface ne peut être controllée que par le biais
+        du clavier (via les touches Entrée/Echap et les touches
+        directionnelles) mais devrait vous permettre de visualiser des
+        vidéos, écouter de la musique ou encore d'afficher différents
+        formats d'images. Ceci dit, voici quelques captures d'écrans
+        pour vous appater et vous laisser entrevoir la GeeXboX version
+        2007 ;-)<br/>
+        <br/>
+        <use name="scr-freevo"/>
+        <br/>
+        Sur ce, l'ensemble des membres de l'équipe GeeXboX vous
+        souhaite une excellente nouvelle année ...
       </content>
     </subsection>
 
