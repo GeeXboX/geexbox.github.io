@@ -136,7 +136,7 @@
   </define>
   <define name="bftpd">
     <tr>
-      <th align="center"><b><a href="http://www.bftpd.org/">bftpd</a></b></th>
+      <th align="center"><b><a href="http://bftpd.sourceforge.net/">bftpd</a></b></th>
       <td align="center">1.0.24</td>
       <td align="center">1.0.24</td>
       <td align="center">1.0.24</td>
