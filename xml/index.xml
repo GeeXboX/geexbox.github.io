@@ -14,6 +14,14 @@
     <a href="http://www.geexbox.org/~ben/v2/geexbox-sherkhan-20061231-en.i386.iso"><b>GeeXboX 2.x 2006-12-31</b></a>
   </define>
 
+  <define name="open_usability">
+    <a href="http://www.openusability.org/"><b>OpenUsability</b></a>
+  </define>
+
+  <define name="open_usability_season_07">
+    <a href="http://www.openusability.org/season/0607/season0607_openings.html#geexbox"><b>Season of Usability 2007</b></a>
+  </define>
+
   <define name="scr-freevo">
     <center>
       <a href="../img/freevo-scr-menu.png">
@@ -93,6 +101,40 @@
         très facilement étendre ses fonctionnalités, d'y ajouter des
         paquetages, ou encore de le réutiliser pour donner naissance à
         de nouveaux systèmes Linux embarqués dédiés.
+      </content>
+    </subsection>
+
+    <subsection label="open_usability_07" date="2007-01-05">
+      <content lang="en" title="Open Usability Season '07 acceptance:
+        sponsored student came in.">
+        The GeeXboX project has been accepted to the <use
+        name="open_usability"/>, <use name="open_usability_season_07"/>
+        program. As a result, we are proud to welcome a student,
+        <b>Francesco De Rose</b>, that will work with our team on usability
+        concerns, especially dealing on GeeXboX 2.x interface. He will
+        be mentored by <b>Celeste Lyn Paul</b>, an interaction architect,
+        active contributor to the KDE Usability Project and
+        OpenUsability. Francesco might start collecting user feedback
+        in order to help us extend GeeXboX and make always the most
+        easy and intuitive to use we can.
+      </content>
+      <content lang="fr" title="Acceptation au projet Open Usability,
+        Saison 2007 : bienvenue à notre nouvel étudiant.">
+        Le projet GeeXboX a été sélectionné par <use
+        name="open_usability"/>, pour son programme <use
+        name="open_usability_season_07"/>. Il en découle l'arrivée
+        d'un nouvel étudiant, <b>Francesco De Rose</b>, que nous
+        sommes heureux d'acceuillir au sein de l'équipe, et qui va
+        travailler sur les aspects d'utilisation et d'accessibilité,
+        le tout orienté bien entendu, sur l'interface de la version
+        2.x à venir. Il sera aidé et sous la responsabilité de
+        <b>Celeste Lyn Paul</b>, architecte responsable de
+        l'interaction entre projets et également contributeuse active
+        au projet d'accessibilité KDE et bien entendu à OpenUsability.
+        Francesco devrait commencer par recueillir les impressions de
+        nombreux utilisateurs, ce qui nous aidera à mieux cerner
+        besoins et problèmes et à améliorer la GeeXboX, de sorte à la
+        rendre toujours plus intuitive et simple d'emploi.
       </content>
     </subsection>
 
