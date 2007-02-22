@@ -22,6 +22,14 @@
     <a href="http://www.openusability.org/season/0607/season0607_openings.html#geexbox"><b>Season of Usability 2007</b></a>
   </define>
 
+  <define name="open_usability_survey_en">
+    <a href="http://85.10.193.9/UCCASS/survey.php?sid=39"><b>survey</b></a>
+  </define>
+
+  <define name="open_usability_survey_fr">
+    <a href="http://85.10.193.9/UCCASS/survey.php?sid=39"><b>questionnaire</b></a>
+  </define>
+
   <define name="scr-freevo">
     <center>
       <a href="../img/freevo-scr-menu.png">
@@ -129,6 +137,19 @@
         très facilement étendre ses fonctionnalités, d'y ajouter des
         paquetages, ou encore de le réutiliser pour donner naissance à
         de nouveaux systèmes Linux embarqués dédiés.
+      </content>
+    </subsection>
+
+    <subsection label="open_usability_survey" date="2007-02-22">
+      <content lang="en" title="GeeXboX user survey: make your voice heard (posted by Francesco)">
+        Within the OpenUsability project, we are deploying a user survey in order to get to know our users better so that we can improve the user interface. We currently are in the process to restructure GeeXboX in order to render it more usable: that is, we want you to be able to use GeeXboX more easily, quickly and with more satisfaction and enjoyment. So, please spend five minutes of your time and answer the questions that you can find on this <use name="open_usability_survey_en"/>.<br/>
+        <br/>
+        Thank you in advance for your involvement. 
+      </content>
+      <content lang="fr" title="Sondage utilisateur GeeXboX: faites vous entendre (par Francesco)">
+        Par le biais du projet OpenUsability, nous sommes en train de déployer une enquête, dans le but de connaitre davantage nos utilisateurs, de mieux les comprendre, et ainsi d'améliorer notre interface. Nous sommes actuellement en plein processus de restructuration de la GeeXboX avec le développement de la version 2.x et ce, dans le but de la rendre toujorus plus pratique d'emploi. De ce fait, nous souhaitons améliorer notre distribution pour la rendre plus facile et rapide d'utilisation, afin de vous donner plus de satisfaction. Nous vous remerçions donc de bien vouloir nous accorder 5 minutes de votre temps pour répondre à ce petit <use name="open_usability_survey_fr"/>.<br/>
+        <br/>
+        En vous remerçiant de votre participation. 
       </content>
     </subsection>
 
