@@ -79,6 +79,34 @@
     <a href="http://www.geexbox.org/forum/viewtopic.php?t=8321"><b>Forum</b></a>
   </define>
 
+  <define name="geexbox_1.1_rc2_x86_iso">
+    <a href="http://www.geexbox.org/releases/1.1-rc2/geexbox-1.1-rc2-en.i386.iso"><b>GeeXboX 1.1-rc2 ISO for i386</b></a>
+  </define>
+
+  <define name="geexbox_1.1_rc2_x86_generator">
+    <a href="http://www.geexbox.org/releases/1.1-rc2/geexbox-generator-1.1-rc2.i386.tar.gz"><b>GeeXboX 1.1-rc2 ISO Generator for i386</b></a>
+  </define>
+
+  <define name="geexbox_1.1_rc2_ppc_iso">
+    <a href="http://www.geexbox.org/releases/1.1-rc2/geexbox-1.1-rc2-en.ppc.iso"><b>GeeXboX 1.1-rc2 ISO for PowerPC</b></a>
+  </define>
+
+  <define name="geexbox_1.1_rc2_ppc_generator">
+    <a href="http://www.geexbox.org/releases/1.1-rc2/geexbox-generator-1.1-rc2.ppc.tar.gz"><b>GeeXboX 1.1-rc2 ISO Generator for PowerPC</b></a>
+  </define>
+
+  <define name="geexbox_1.1_rc2_src">
+    <a href="http://www.geexbox.org/releases/1.1-rc2/geexbox-1.1-rc2-lite.tar.bz2"><b>GeeXboX 1.1-rc2 Light Sources</b></a>
+  </define>
+
+  <define name="geexbox_1.1_rc2_forum_en">
+    <a href="http://www.geexbox.org/forum/viewtopic.php?p=45941"><b>Forum</b></a>
+  </define>
+
+  <define name="geexbox_1.1_rc2_forum_fr">
+    <a href="http://www.geexbox.org/forum/viewtopic.php?p=45942"><b>Forum</b></a>
+  </define>
+
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
@@ -137,6 +165,39 @@
         très facilement étendre ses fonctionnalités, d'y ajouter des
         paquetages, ou encore de le réutiliser pour donner naissance à
         de nouveaux systèmes Linux embarqués dédiés.
+      </content>
+    </subsection>
+
+    <subsection label="geexbox_1.1_rc2" date="2007-03-01">
+      <content lang="en" title="GeeXboX 1.1-rc2 released: (re)call for test.">
+        Thanks to your 1.1-rc1 testings, we've been able to fix out a lot of
+        bugs from GeeXboX. It is now up to you to test this new release again.
+        Once again, please test this version and report problems
+        to the <use name="geexbox_1.1_rc2_forum_en"/>. As usual, the
+        more you'll be to test it, the faster we'll release 1.1.<br/>
+        <br/>
+        Below are links to 1.1-rc2:<br/>
+        - <use name="geexbox_1.1_rc2_x86_iso"/><br/>
+        - <use name="geexbox_1.1_rc2_x86_generator"/><br/>
+        - <use name="geexbox_1.1_rc2_ppc_iso"/><br/>
+        - <use name="geexbox_1.1_rc2_ppc_generator"/><br/>
+        - <use name="geexbox_1.1_rc2_src"/><br/>
+      </content>
+      <content lang="fr" title="GeeXboX version 1.1-rc2: (r)appel à test.">
+        Grâce à vos nombreux tests de la version 1.1-rc1, nous avons pu
+        corriger un certain nombre de fonctionnalités qui n'avaient pas le
+        comportement attendu. L'heure est aujourd'hui à la version 1.1-rc2,
+        dont nous souhaitons votre avis. Encore une fois, veuillez tester
+        cette version et nous signaler les problèmes rencontrés sur le
+        <use name="geexbox_1.1_rc2_forum_fr"/>. Comme d'habitude, plus vous
+        la testerez, et plus vite la 1.1 sera disponible. 
+        <br/>
+        Voici donc les liens vers la version 1.1-rc2:<br/>
+        - <use name="geexbox_1.1_rc2_x86_iso"/><br/>
+        - <use name="geexbox_1.1_rc2_x86_generator"/><br/>
+        - <use name="geexbox_1.1_rc2_ppc_iso"/><br/>
+        - <use name="geexbox_1.1_rc2_ppc_generator"/><br/>
+        - <use name="geexbox_1.1_rc2_src"/><br/>
       </content>
     </subsection>
 
