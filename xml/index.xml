@@ -168,6 +168,25 @@
       </content>
     </subsection>
 
+    <subsection label="open_usability_survey_end" date="2007-03-04">
+      <content lang="en" title="GeeXboX user survey: thanks for your (posted by Francesco)">
+        The GeeXboX user survey is now closed. We have received many more
+        responses than we would have ever hoped for, and this means that we
+        have a great user base. We really wish to thank all of you for your
+        help; now we have to get working and make good use of your responses:
+        hopefully you'll be able to see the effects very soon!
+      </content>
+      <content lang="fr" title="Sondage utilisateur GeeXboX: un grand merci pour vos réponses (par Francesco)">
+        Le sondage d'utilisation GeeXboX est désormais terminé. Nous avons
+        reçu bien plus de réponses que nous n'en aurions espéré, et cela
+        prouve bien à quel point notre base d'utilisateurs est conséquente.
+        Nous souhaitons tous vous remercier pour l'aide que vous nous avez
+        apporté. Il est maintenant temps pour nous de se remettre au travail
+        et de faire bon usage de vous réponses. Attendez vous donc à avoir les
+        résultats de cette enquête au plus vite !
+      </content>
+    </subsection>
+
     <subsection label="geexbox_1.1_rc2" date="2007-03-01">
       <content lang="en" title="GeeXboX 1.1-rc2 released: (re)call for test.">
         Thanks to your 1.1-rc1 testings, we've been able to fix out a lot of
