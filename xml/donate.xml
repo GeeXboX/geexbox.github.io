@@ -52,6 +52,7 @@
 * US Robotics PCMCIA V.34 Modem<br/>
 * Hauppauge PVR 350<br/>
 * Hauppauge WinTV NOVA-S-Plus<br/>
+* Logitech UltraX Media Remote<br/>
   </define>
 
   <define name="computer">
@@ -87,7 +88,7 @@
     Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac,
     Andrew Florence (<use name="response-computing-url"/>), Guy C.
     McNeill (<use name="westminster-url"/>), Hervé Remigy, François
-    Rais, <use name="genesi-usa-url"/>
+    Rais, <use name="genesi-usa-url"/>, Saifdinn AGREBI
   </define>
 
   <section label="donate">
