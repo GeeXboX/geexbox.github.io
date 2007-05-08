@@ -34,6 +34,10 @@
     <a href="http://www.geexbox.org/~ben/User%20Survey%20Results%20-%20Francesco%20De%20Rose.pdf"><b>OpenUsability</b></a>
   </define>
 
+  <define name="gsoc_2007">
+    <a href="http://code.google.com/soc/freevo/about.html"><b>Google Summer Of Code 2007</b></a>
+  </define>
+
   <define name="scr-freevo">
     <center>
       <a href="../img/freevo-scr-menu.png">
@@ -169,6 +173,39 @@
         très facilement étendre ses fonctionnalités, d'y ajouter des
         paquetages, ou encore de le réutiliser pour donner naissance à
         de nouveaux systèmes Linux embarqués dédiés.
+      </content>
+    </subsection>
+
+    <subsection label="gsoc_07_acceptation" date="2007-04-11">
+      <content lang="en" title="GeeXboX/Freevo has been accepted to Google Summer Of Code 2007">
+        Great news, the GeeXboX/Freevo project has been accepted for the
+        <use name="gsoc_2007"/>. This means that we'll have 4 students working
+        on several aspects of both projects to extend their capabilities.
+        Let's introduce the projects:<br/><br/>
+        * <b>LiveCD boot and HDD installation process</b> by Adir
+        Abraham.<br/>
+        * <b>Controlling Freevo through a simple web interface</b> by
+        Ky Phan.<br/>
+        * <b>DVB CAM support</b> by Alessandro Decina.<br/>
+        * <b>Gstreamer Integration</b> by Killian Faughnan<br/>
+        <br/>
+        Welcome to these students and good luck to everyone for their
+        projects.
+      </content>
+      <content lang="fr" title="GeeXboX/Freevo a été accepté au Google Summer Of Code 2007">
+        Bonne nouvelle ! Le projet GeeXboX/Freevo a été accepté au
+        <use name="gsoc_2007"/>. Cela signifie que nous disposons de 4
+        étudiants qui vont chacun travailler sur différents aspects du projet
+        afin de toujours l'améliorer. Voici donc l'ensemble des projets
+        retenus:<br/><br/>
+        * <b>Ré-écriture de la procédure de démarrage et de l'installation sur
+        disque</b> par Adir Abraham.<br/>
+        * <b>Contrôle de Freevo via une interface Web</b> par Ky Phan.<br/>
+        * <b>Support des modules CAM pour le DVB</b> par Alessandro
+        Decina.<br/>
+        * <b>Intégration de Gstreamer</b> par Killian Faughnan<br/>
+        <br/>
+        Bienvenue à ces étudiants et bonne chance à chacun pour leur projet.
       </content>
     </subsection>
 
