@@ -115,6 +115,14 @@
     <a href="http://www.geexbox.org/forum/viewtopic.php?p=45942"><b>Forum</b></a>
   </define>
 
+  <define name="geexbox_xorg_beta1_en">
+    <a href="http://www.geexbox.org/forum/viewtopic.php?t=8700"><b>Forum</b></a>
+  </define>
+
+  <define name="geexbox_xorg_beta1_fr">
+    <a href="http://www.geexbox.org/forum/viewtopic.php?t=8701"><b>Forum</b></a>
+  </define>
+
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
@@ -173,6 +181,25 @@
         très facilement étendre ses fonctionnalités, d'y ajouter des
         paquetages, ou encore de le réutiliser pour donner naissance à
         de nouveaux systèmes Linux embarqués dédiés.
+      </content>
+    </subsection>
+
+    <subsection label="geexbox_xorg_beta1" date="2007-05-08">
+      <content lang="en" title="First beta of HDTV Ready GeeXboX">
+        According to recent user survey, you were more and more asking for a
+        proper HDTV support. So finally here it is. Let's introduce the first
+        beta of the HDTV Ready GeeXboX (based on 1.x version). Please have a
+        try at it but also remember it's only a beta (no release date). More
+        informations can be found on <use name="geexbox_xorg_beta1_en"/>.
+      </content>
+      <content lang="fr" title="Première version beta de la GeeXboX compatible HDTV">
+        D'après les résultats du récent sondage utilisateur, vous êtes de plus
+        en plus nombreux à attendre de la GeeXboX un support de la haute
+        définition. Et le voici donc ! Vous pouvez donc dès à présent tester
+        cette première version beta de la GeeXboX "HD" (basé sur la version
+        1.x). N'oubliez pas cependant que cela reste une béta, avec tout ce
+        que cela implique. Plus d'informations sont disponibles sur le
+        <use name="geexbox_xorg_beta1_fr"/>.
       </content>
     </subsection>
 
