@@ -30,6 +30,10 @@
     <a href="http://85.10.193.9/UCCASS/survey.php?sid=39"><b>questionnaire</b></a>
   </define>
 
+  <define name="open_usability_survey_results">
+    <a href="http://www.geexbox.org/~ben/User%20Survey%20Results%20-%20Francesco%20De%20Rose.pdf"><b>OpenUsability</b></a>
+  </define>
+
   <define name="scr-freevo">
     <center>
       <a href="../img/freevo-scr-menu.png">
@@ -165,6 +169,30 @@
         très facilement étendre ses fonctionnalités, d'y ajouter des
         paquetages, ou encore de le réutiliser pour donner naissance à
         de nouveaux systèmes Linux embarqués dédiés.
+      </content>
+    </subsection>
+
+    <subsection label="open_usability_survey_release" date="2007-03-27">
+      <content lang="en" title="GeeXboX user survey: here are the results (posted by Francesco)">
+        At last here it is... we have been analysing the data we gathered
+        during the user survey, and we found out many interesting thing about
+        you! First of all, you are many more than we imagined, and you are
+        very responsive and involved: thank you for your interest and
+        participation! And then where and how you user GeeXboX, what you like
+        the most, what your strongest needs are... Are you curious to have a
+        look at the survey report? Then download it! You can find it at
+        <use name="open_usability_survey_results"/>
+      </content>
+      <content lang="fr" title="Sondage utilisateur GeeXboX: et voici les résultats (par Francesco)">
+        Avec beaucoup de retard, les voici enfin ... Nous avons analysés les
+        données que nous avons pu récolter au cours de ce sondage utilisateur
+        et cela nous a permis de découvrir beaucoup de choses sur vous ! Tout
+        d'abord, vous êtes bien plus nombreux à avoir répondu et à utiliser la
+        GeeXboX que nous aurions pu l'imaginer, mais vous êtes également très
+        impliqués: un grand merci pour votre intérêt et votre participation au
+        projet. Pour les plus curieux d'entre vous, les résultats de cette
+        étude sont disponibles (en anglais néanmoins) via le projet
+        <use name="open_usability_survey_results"/>.
       </content>
     </subsection>
 
