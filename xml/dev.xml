@@ -102,5 +102,15 @@
         Wenn Sie Interesse an der Entwicklung von GeeXboX haben, sollten Sie unsere Mailingliste für Entwickler abonnieren. Dort können Sie "Patches" oder "Fixes" einsenden oder aber auch nur den täglichen Fortschritt bei der Entwicklung beobachten. Sie müssen die Liste erst abonnieren, bevor Sie Beiträge einsenden können. Bitte beachten Sie auch, dass nur englischsprachige Beiträge akzepiert werden können. Beiträge in anderen Sprachen werden nicht beantwortet, genauso wenig wie Fragen, Anregungen oder Fehlermeldungen.  Schauene Sie einfach unter den Punkt Mailing Liste nach.
       </content>
     </subsection>
+
+    <subsection label="devel">
+      <content lang="en" title="Development IRC Channel">
+        If you want to get in touch with GeeXboX developers for development issues or simply in order to have realtime feedback, you can also reach the official IRC channel. Just connect to <b>irc.freenode.net</b> on <b>#geexbox</b>.
+      </content>
+
+      <content lang="fr" title="Canal IRC de développment">
+        Si vous souhaitez entrer en contact avec l'équipe de développement GeeXboX pour des problèmes techniques ou simplement pour avoir de l'aide en direct, vous pouvez également utiliser le cana IRC officiel. Connectez vous simplement à <b>irc.freenode.net</b> sur <b>#geexbox</b>.
+      </content>
+    </subsection>
   </section>
 </article>
