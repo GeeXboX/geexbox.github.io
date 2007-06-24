@@ -43,7 +43,6 @@
         <a href="#mplayer">The system hangs on 'Launching MPlayer' and ejects the CD</a><br/>
         <a href="#ac3">Does GeeXboX supports 5.1 Audio Output ?</a><br/>
         <a href="#spdif">How to use my soundcard's digital SPDIF out ?</a><br/>
-        <a href="#dts">How can I play DTS encoded DVD tracks ?</a><br/>
         <a href="#customization">My generated customized ISO don't work.</a><br/>
         <a href="#subtitle">Can I watch subtitled movies ?</a><br/>
         <a href="#sync">The A/V (audio/video) seems to be down ...</a><br/>
@@ -71,7 +70,6 @@
         <a href="#mplayer">Le système se bloque sur le message 'Launching MPlayer' et éjècte le CD du lecteur.</a><br/>
         <a href="#ac3">La GeeXboX supporte elle la sortie audio 5.1 ?</a><br/>
         <a href="#spdif">Comment puis-je utiliser la sortie numérique SPDIF de ma carte son ?</a><br/>
-        <a href="#dts">Comment puis-je lire les pistes sonores au format DTS sur mes DVD ?</a><br/>
         <a href="#customization">Mon ISO personnalisée avec le generateur ne fonctionne pas.</a><br/>
         <a href="#subtitle">Puis - je regarder des films sous-titrés ?</a><br/>
         <a href="#sync">La Synchronisation Audio/Vidéo semble incorrecte ...</a><br/>
@@ -99,7 +97,6 @@
         <a href="#mplayer">Das System hängt bei der Meldung 'Launching MPlayer' und wirft die CD aus</a><br/>
         <a href="#ac3">Unterstützt GeeXboX die 5.1 Audio Ausgabe ?</a><br/>
         <a href="#spdif">Wie kann ich den digitalen SPDIF Ausgang meiner Karte nutzen ?</a><br/>
-        <a href="#dts">Wie kann ich DTS kodierte DVD Tonpuren abspielen ?</a><br/>
         <a href="#customization">Mein selbst erstelltes ISO funktioniert nicht</a><br/>
         <a href="#subtitle">Kann ich Filme mit Untertiteln ansehen ?</a><br/>
         <a href="#sync">Audio/Video (AV) scheint nicht zu funktionieren ...</a><br/>
@@ -396,21 +393,6 @@
     SPDIF=no<br/>
     </b><br/>
     Beachten Sie bitte, dass Sie den Ausgang auf SPDIF stellen müssen, sollten Sie vorhaben, Ihre Soundkarte an einen externen Verstärker zur AC3/DTS Streamdekodierung anzuschliessen (Nutzen des pass-through Modus).
-      </content>
-    </subsection>
-
-    <subsection label="dts">
-      <content lang="en" title="How can I play DTS encoded DVD tracks ?">
-      GeeXboX does support DTS encoded DVD tracks. When using SPDIF output with <b>ac=hwac3,</b> option enabled, the raw AC3/DTS stream is sent to an external hifi amplifier, which should decode the soundtrack. Otherwise, AC3 and DTS tracks are decoded by software, using your CPU.<br/><br/>
-      Unfortunately, it appears that due to a limitation in MPlayer (unresolved for now), you can't switch between audio codecs once the DVD is running. As AC3 is often the first audio track, you can then switch to DTS. So, DVD DTS track can only be played when it is the first audio track.
-      </content>
-      <content lang="fr" title="Comment puis-je lire les pistes sonores au format DTS sur mes DVD ?">
-      La GeeXboX supporte désormais les pistes DVD au format sonore DTS. Lorsque l'on utilise la sortie SPDIF, associée à l'option <b>ac=hwac3,</b> le flux AC3/DTS brut est transmis à l'ampli hifi externe, qui a pour role de décoder la piste son. Dans le cas contraire, les pistes AC3 et DTS sont décodées logicielement, par le CPU.<br/><br/>
-      Malheureusement, du à certaines limitations de MPlayer (non résolues à l'heure actuelle), il n'est pas possible de passer d'un codec audio à un autre en cours de lecture. Comme l'AC3 correspond le plus souvent à la piste audio par défaut, il n'est pas possible de basculer vers la piste au format DTS. Ainsi, la piste DTS d'un DVD ne peut etre lue que si elle correspond à la première piste sur le disque.
-      </content>
-      <content lang="de" title="Wie kann ich DTS kodierte DVD Tonspuren abspielen ?">
-      GeeXboX unterstützt DTS encodierte DVD Spuren. Wenn Sie den SPDIF Ausgang durch aktivierte <b>ac=hwac3,</b> Option nutzen, wird das "Rohsignal" des AC3/DTS Streams an einen externen Verstärker gesendet, der den Sound decodiert. Andernfalls werden AC3 und DTS Spuren über eine Software dekodiert (von Ihrer CPU).<br/><br/>
-      Unglücklicherweise können Sie durch eine bis jetzt ungelöste Beschränkung im MPlayer nicht mehr zwischen verschiedenen Audio Codecs umschalten, sollte die DVD erst einmal gestartet sein. Weil AC3 oft auf der ersten Tonspur liegt, können Sie nun nicht mehr auf DTS umschalten. D.h., DVD DTS Tonspuren können nur abgespielt werden, wenn diese auf der ersten Spur liegen.
       </content>
     </subsection>
 
