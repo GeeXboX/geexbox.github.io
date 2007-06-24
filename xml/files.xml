@@ -12,30 +12,12 @@
   </file>
 
   <file type="iso">
-    <arch>i386</arch>
-    <version>1.0</version>
-    <lang>fr</lang>
-    <size>7114752</size>
-    <md5>c103ee461f37a448c89ebc8aeb8d5839</md5>
-    <sha1>362e2ab0ccb3eee83b28a2531eabccdd055094be</sha1>
-  </file>
-
-  <file type="iso">
     <arch>ppc</arch>
     <version>1.0</version>
     <lang>en</lang>
     <size>12181504</size>
     <md5>ed9845e6893866e8eb778d86e099381e</md5>
     <sha1>666b259410e026edbde57fe1c8ccf7e7fb4e51ba</sha1>
-  </file>
-
-  <file type="iso">
-    <arch>ppc</arch>
-    <version>1.0</version>
-    <lang>fr</lang>
-    <size>12185600</size>
-    <md5>3b570cb18691880c558c54fe6fc4e881</md5>
-    <sha1>de118e7820e9135ca6e34655254544292bd450d6</sha1>
   </file>
 
   <file type="gen">
