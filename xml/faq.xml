@@ -514,13 +514,13 @@ Wenn Sie all dies erledigt haben, ersetzen Sie einfach die vorhandenen zwei Date
 
     <subsection label="modify_menu">
       <content lang="en" title="How can I modify the menu items ?">
-        The menu items are described in a file called <b>menu.conf</b> in <i>./packages/MPlayer/</i> If you're aware of MPlayer's menu's configuration file, you may modify the items' language or delete ones that you don't need, but please do not modify it ;-)
+        The menu items are described in a file called <b>menu.conf</b> in <i>./packages/MPlayer/config/</i> If you're aware of MPlayer's menu's configuration file, you may modify the items' language or delete ones that you don't need, but please do not modify it ;-)
       </content>
       <content lang="fr" title="Comment puis - je modifier les options du menu ?">
-        Les paramètres du menu sont décrits dans un fichier nommé <b>menu.conf</b> disponible dans <i>./packages/MPlayer/</i> A moins que vous ne soyez familier avec la configuration du menu de MPlayer, vous ne devriez procéder qu'à des modifications de niveau linguistique ou pour y effacer des options dont vous n'éprouvez pas le besoin.
+        Les paramètres du menu sont décrits dans un fichier nommé <b>menu.conf</b> disponible dans <i>./packages/MPlayer/config/</i> A moins que vous ne soyez familier avec la configuration du menu de MPlayer, vous ne devriez procéder qu'à des modifications de niveau linguistique ou pour y effacer des options dont vous n'éprouvez pas le besoin.
       </content>
       <content lang="de" title="Wie kann ich die Menüeinträge anpassen ?">
-        Die Menüeinträge sind in einer Datei namens <b>menu.conf</b> im <i>./packages/MPlayer/</i> Verzeichnis definiert. Wenn Sie sich mit der MPlayer Menü Konfigurationsdatei auskennen, können Sie z.B die Sprachen entfernen, die Sie nicht benötigen, aber das sollten Sie wirklich nur im Notfall tun ;-)
+        Die Menüeinträge sind in einer Datei namens <b>menu.conf</b> im <i>./packages/MPlayer/config/</i> Verzeichnis definiert. Wenn Sie sich mit der MPlayer Menü Konfigurationsdatei auskennen, können Sie z.B die Sprachen entfernen, die Sie nicht benötigen, aber das sollten Sie wirklich nur im Notfall tun ;-)
       </content>
     </subsection>
 
