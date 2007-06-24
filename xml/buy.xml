@@ -7,23 +7,23 @@
   </define>
 
   <define name="ikarios-en">
-    <a href="http://ikarios.com/index_en.html"><b>Ikarios</b></a>
+    <a href="http://www.ikarios.com/"><b>Ikarios</b></a>
   </define>
 
   <define name="ikarios-de">
-    <a href="http://ikarios.com/index_de.html"><b>Ikarios</b></a>
+    <a href="http://www.ikarios.com/"><b>Ikarios</b></a>
   </define>
 
   <define name="ikarios-cd-fr">
-    <center><a href="http://ikarios.com/form/#gxbx"><b>Obtenir un CD officiel de la GeeXboX</b></a></center>
+    <center><a href="http://www.ikarios.com/p25-GeeXboX.html"><b>Obtenir un CD officiel de la GeeXboX</b></a></center>
   </define>
 
   <define name="ikarios-cd-en">
-    <center><a href="http://ikarios.com/form/#gxbx"><b>Get an official GeeXboX CD</b></a></center>
+    <center><a href="http://www.ikarios.com/p25-GeeXboX.html"><b>Get an official GeeXboX CD</b></a></center>
   </define>
 
   <define name="ikarios-cd-de">
-    <center><a href="http://ikarios.com/form/#gxbx"><b>Offizielle GeeXboX CD kaufen</b></a></center>
+    <center><a href="http://www.ikarios.com/p25-GeeXboX.html"><b>Offizielle GeeXboX CD kaufen</b></a></center>
   </define>
 
   <section label="buy_cd">
