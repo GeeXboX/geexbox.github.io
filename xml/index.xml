@@ -219,42 +219,5 @@
       </content>
     </subsection>
 
-    <subsection label="geexbox_1.1_rc3" date="2007-06-02">
-      <content lang="en" title="GeeXboX 1.1-rc3 released: happy testing.">
-        Major changes and enhancements have been performed since 1.1-rc2
-        release and many bugs have been fixed. The most significant change
-        probably is the MPlayer upgrade which now comes with many new options
-        and have various decoding speedup improvements. It is now up to you to
-        test this new release again, which should be the latest release
-        candidate before final 1.1. Another important change is the new
-        internationalization files. If you intend to translate GeeXboX to your
-        mother tongue, it is time to do so. As usual, you can grab a detailed
-        ChangeLog of this release in forum. Once again, please test this
-        version and report problems to the
-        <use name="geexbox_1.1_rc3_forum_en"/> (where ISO image and generator
-        can be picked up). As usual, the more you'll be to test it, the
-        faster we'll release 1.1.<br/>
-      </content>
-      <content lang="fr" title="GeeXboX version 1.1-rc3.">
-        De très nombreux changements et améliorations ont vu le jour depuis la
-        précédente version 1.1-rc2 et un grand nombre de bugs ont pu être
-        corrigés. Le changement le plus important réside probablement dans la
-        mise à jour de MPlayer, qui propose désormais un plus grand panel
-        d'options de configuration ainsi qu'une amélioration générale de la
-        vitesse de décodage vidéo. Il est maintenant de votre ressort de
-        tester cette nouvelle version, qui devrait être la dernière avant la
-        version finale 1.1. Cette version apporte également une modification
-        très importante de la manière dont les différentes langues sont
-        gérées. Si vous souhaitez donc traduire la GeeXboX vers votre langue
-        maternelle, c'est le bon moment pour le faire. Encore une fois,
-        veuillez tester cette version et nous rapporter les problèmes
-        rencontrés via le <use name="geexbox_1.1_rc3_forum_fr"/> (c'est
-        également là que vous trouverez l'image ISO ainsi que le générateur
-        pour cette version). Et comme à l'accoutummée, plus vous serez
-        nombreux à tester cette version, et plus vite la version 1.1 sera
-        disponible.<br/>
-      </content>
-    </subsection>
-
   </section>
 </article>
