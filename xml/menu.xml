@@ -97,12 +97,6 @@
       <text lang="de">Wiki</text>
     </subitem>
 
-    <subitem name="bugs" url="bugs.html">
-      <text lang="en">Bugs / TODO</text>
-      <text lang="fr">Bugs / A venir</text>
-      <text lang="de">Bugs / TODO</text>
-    </subitem>
-
     <subitem name="hard" url="hard.html">
       <text lang="en">Hardware</text>
       <text lang="fr">Matériel</text>
