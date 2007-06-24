@@ -56,12 +56,12 @@
 
 
 <!ELEMENT files (file*)>
-<!ATTLIST files current_version CDATA #REQUIRED>
 
-<!ELEMENT file (arch|lang|size|md5|sha1|src-type|src-ext)*>
+<!ELEMENT file (arch|version|lang|size|md5|sha1|src-type|src-ext)*>
 <!ATTLIST file type NMTOKEN #REQUIRED>
 
 <!ELEMENT arch (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
 <!ELEMENT lang (#PCDATA)>
 <!ELEMENT size (#PCDATA)>
 <!ELEMENT md5  (#PCDATA)>

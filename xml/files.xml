@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
-<files current_version="1.0">
+<files>
   <file type="iso">
     <arch>i386</arch>
+    <version>1.0</version>
     <lang>en</lang>
     <size>7112704</size>
     <md5>b72c0bc20ec3dacf058e9f4e9e9b9eff</md5>
@@ -12,6 +13,7 @@
 
   <file type="iso">
     <arch>i386</arch>
+    <version>1.0</version>
     <lang>fr</lang>
     <size>7114752</size>
     <md5>c103ee461f37a448c89ebc8aeb8d5839</md5>
@@ -20,6 +22,7 @@
 
   <file type="iso">
     <arch>ppc</arch>
+    <version>1.0</version>
     <lang>en</lang>
     <size>12181504</size>
     <md5>ed9845e6893866e8eb778d86e099381e</md5>
@@ -28,6 +31,7 @@
 
   <file type="iso">
     <arch>ppc</arch>
+    <version>1.0</version>
     <lang>fr</lang>
     <size>12185600</size>
     <md5>3b570cb18691880c558c54fe6fc4e881</md5>
@@ -36,6 +40,7 @@
 
   <file type="gen">
     <arch>i386</arch>
+    <version>1.0</version>
     <size>8789636</size>
     <md5>452456d19e770776948a4590f6c9b839</md5>
     <sha1>af394e58305b7bc9ab265d6cf2a96b8309846cf7</sha1>
@@ -43,12 +48,14 @@
 
   <file type="gen">
     <arch>ppc</arch>
+    <version>1.0</version>
     <size>9003389</size>
     <md5>c049e0e91006d3d2828dd631f295e988</md5>
     <sha1>13aed03a2c0377b2c67fc4e418eb3b09e1384fc7</sha1>
   </file>
 
   <file type="src">
+    <version>1.0</version>
     <src-type>lite</src-type>
     <src-ext>tar.bz2</src-ext>
     <size>505621</size>
@@ -57,6 +64,7 @@
   </file>
 
   <file type="src">
+    <version>1.0</version>
     <src-type>full</src-type>
     <src-ext>tar</src-ext>
     <size>139683840</size>

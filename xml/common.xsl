@@ -115,7 +115,6 @@
   <xsl:variable name="plus" select="@plus"/>
   <xsl:variable name="minus" select="@minus"/>
   <xsl:variable name="files" select="document('files.xml')/files"/>
-  <xsl:variable name="version" select="$files/@current_version"/>
   <xsl:for-each select="$files/file[@type = $type]">
     <xsl:variable name="id">
       <xsl:if test="lang"><xsl:value-of select="lang"/>.</xsl:if>
@@ -144,7 +143,7 @@
       <div class="dlfile">
         <b>
           <xsl:apply-templates select="$title/node()">
-            <xsl:with-param name="version" select="$version"/>
+            <xsl:with-param name="version" select="./version"/>
             <xsl:with-param name="file" select="."/>
           </xsl:apply-templates>
         </b>
@@ -152,13 +151,13 @@
         <div style="display: none">
           <xsl:attribute name="id"><xsl:value-of select="$id"/></xsl:attribute>
           <xsl:apply-templates select="$description/node()">
-            <xsl:with-param name="version" select="$version"/>
+            <xsl:with-param name="version" select="./version"/>
             <xsl:with-param name="file" select="."/>
           </xsl:apply-templates>
           <xsl:call-template name="mirror">
             <xsl:with-param name="file">
               <xsl:apply-templates select="$file/node()" mode="raw">
-                <xsl:with-param name="version" select="$version"/>
+                <xsl:with-param name="version" select="./version"/>
                 <xsl:with-param name="file" select="."/>
               </xsl:apply-templates>
             </xsl:with-param>
