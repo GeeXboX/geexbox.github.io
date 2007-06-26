@@ -79,19 +79,19 @@
         with an improved hardware support, providing dozens of new drivers
         (new VIDIX stack for video playback, a lot of new WiFi controllers,
         DVB card chipsets and new remote controls). It also comes with a
-        massive upgrade and stabilization process of MPlayer, which features
+        massively upgraded and more stable MPlayer, which features
         native decoding of various audio/video formats/codecs that used to be
         available through non-free Win32 DLLs only (such as Windows Media
         Video, Flash ...). Also, GeeXboX now has some decoding speed
         improvements (use of SSSE3 instructions from Core2Duos has been added)
-        and the OSD menu has been completely rewrote to provide a lot of new
-        attractives features. Oh, and did we mention ? It can plays uncrypted
+        and the OSD menu has been completely rewritten to provide a lot of new
+        attractives features. Oh, and did we mention ? It can plays decrypted
         EVO files from HD-DVD ?<br/>
         <br/>
-        While still working on version 2.0, next version of GeeXboX (1.2) will
-        come with some features that were requested for quite a long time.
+        While still working on version 2.0, the next version of GeeXboX (1.2)
+        will come with some features that were requested for quite a long time.
         First, it'll come in both 32 and 64 bits editions (second one is 15%
-        faster). But more than everything, it'll be first version of GeeXboX
+        faster). But more importantly, it'll be first version of GeeXboX
         to come with a native HDTV screens support. So, just stay tuned, most
         of these features are already available, and 1.2 won't take a year
         to come this time ;-) By the way, speaking about the future, we're
