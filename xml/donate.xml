@@ -63,6 +63,7 @@
 * DELL Latitude C510 / C610<br/>
 * SGI O2<br/>
 * <a href="http://www.genesippc.com/efika.php">Efika</a><br/>
+* <a href="http://www.linutop.com/index_en.htm">Linutop</a><br/>
   </define>
 
   <define name="response-computing-url">
@@ -89,7 +90,7 @@
     Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac,
     Andrew Florence (<use name="response-computing-url"/>), Guy C.
     McNeill (<use name="westminster-url"/>), Hervé Remigy, François
-    Rais, <use name="genesi-usa-url"/>, Saifdinn AGREBI
+    Rais, <use name="genesi-usa-url"/>, Saifdinn AGREBI, Frederic Baille
   </define>
 
   <section label="donate">
