@@ -77,7 +77,7 @@
         without any new official GeeXboX release. This new one is a really
         good candidate for your HTPC multimedia distribution choice. It comes
         with an improved hardware support, providing dozens of new drivers
-        (new VIDIX stack for video playback, a lot of new WiFi controllers,
+        (a lot of new WiFi controllers,
         DVB card chipsets and new remote controls). It also comes with a
         massively upgraded and more stable MPlayer, which features
         native decoding of various audio/video formats/codecs that used to be
@@ -153,8 +153,6 @@
         for easier discovery.<br/>
         <br/>
         <b>Video:</b><br/>
-        - Added new VIDIX drivers stack, adding support for ATI Radeons R350
-        (Radeon 9600) to R520 (Radeon X1900).<br/>
         - Fix with VESA on i945 cards.<br/>
         <br/>
         <b>Drivers:</b><br/>
