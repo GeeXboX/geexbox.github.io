@@ -76,21 +76,21 @@
     <subsection label="iso">
       <content lang="en" title="GeeXboX ISO">
         <description img="../img/dl-trans.png">
-          GeeXboX ISOs are ready-to-burn disc images containing the bootable GeeXboX Operating System for multimedia entertainment. Pre-made ISO images are currently available in English or French for both i386 (PC) and PowerPC (Macinstosh) computers. Other languages are available with the ISO generator. The installer software is included in the ISO.
+          GeeXboX ISOs are ready-to-burn disc images containing the bootable GeeXboX Operating System for multimedia entertainment. Pre-made ISO images are currently available for both i386 (PC) and PowerPC (Macinstosh) computers. Other languages are available with the ISO generator. The installer software is included in the ISO.
         </description>
         <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
-          <title>GeeXboX <version/> <lang/> Edition for <arch/></title>
-          <description><lang/> ISO for <arch/> computers is available from the following locations :<br/><b>Size:</b> <size/> - <b>md5sum:</b> <md5/> - <b>sha1sum:</b> <sha1/></description>
+          <title>GeeXboX <version/> for <arch/></title>
+          <description>ISO for <arch/> computers is available from the following locations :<br/><b>Size:</b> <size/> - <b>md5sum:</b> <md5/> - <b>sha1sum:</b> <sha1/></description>
           <file><version/>/geexbox-<version/>-<lang/>.<arch/>.iso</file>
         </download>
       </content>
       <content lang="fr" title="GeeXboX ISO">
         <description img="../img/dl-trans.png">
-          Les images ISO GeeXboX sont prêtes à être gravées sur disque et contiennent une version auto-amorçable du système d'exploitation GeeXboX, apte à satisfaire vos attentes multimédias. Les images ISO pré-construites sont actuellement disponibles aussi bien en Anglais que Français, pour les ordinateurs à architecture i386 (PC) et PowerPC (Macinstosh). D'autres langues sont disponibles par le biais du générateur d'ISO. L'application d'installation sur disque est incluse dans l'image ISO.
+          Les images ISO GeeXboX sont prêtes à être gravées sur disque et contiennent une version auto-amorçable du système d'exploitation GeeXboX, apte à satisfaire vos attentes multimédias. Les images ISO pré-construites sont actuellement disponibles pour les ordinateurs à architecture i386 (PC) et PowerPC (Macinstosh). D'autres langues sont disponibles par le biais du générateur d'ISO. L'application d'installation sur disque est incluse dans l'image ISO.
         </description>
         <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
-          <title>GeeXboX <version/> édition <lang/> pour <arch/></title>
-          <description>L'image ISO <lang/> de la GeeXboX <version/> pour <arch/> est disponible depuis les emplacements suivants :<br/><b>Taille :</b> <size/> - <b>md5sum :</b> <md5/> - <b>sha1sum :</b> <sha1/></description>
+          <title>GeeXboX <version/> pour <arch/></title>
+          <description>L'image ISO de la GeeXboX <version/> pour <arch/> est disponible depuis les emplacements suivants :<br/><b>Taille :</b> <size/> - <b>md5sum :</b> <md5/> - <b>sha1sum :</b> <sha1/></description>
           <file><version/>/geexbox-<version/>-<lang/>.<arch/>.iso</file>
         </download>
       </content>
