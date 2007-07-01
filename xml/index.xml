@@ -215,6 +215,160 @@
         GeeXboX 1.1 (for x86 computers only) is available
         <a href="downloads.html">here</a> and right now!
       </content>
+      <content lang="fr" title="GeeXboX 1.1 : 'Not a substitue for Human interaction' edition">
+        Bien que le développement n'est jamais cessé, plus d'un an s'est
+        écoulé depuis la dernière version officielle de la GeeXboX. Ce nouveau
+        cru est un très bon candidat pour votre choix de distribution
+        multimédia. Le support matériel a été grandement étendu, fournissant
+        de très nombreux nouveaux pilotes de périphériques (pour cartes WiFi,
+        DVB et télécommandes, entre autres ...). Cette version 1.1 apporte
+        également une très attendue mise à jour de MPlayer, désormais bien
+        plus stable et rapide, qui permet en outre le décodage natif de
+        nombreux formats audio/vidéo qui n'étaient jusqu'à lors, disponibles
+        que via des DLLs Win32 propriétaires (tels que les formats Windows
+        Media Video ou encore Flash). De plus, la GeeXboX dispose désormais
+        d'améliorations en terme de vitesse de décodage (l'utilisation des
+        instructions SSSE3 des Core2Duo a été rajoutée), et le menu OSD a été
+        complètement réécrit, de manière à fournir davantage de nouvelles
+        fonctionnalités. J'allais oublier, il est également possible de lire
+        les fichiers EVO non-cryptés de vos HD-DVD.<br/>
+        <br/>
+        Bien que nous continuions de travailler sur la version 2.0, la
+        prochaine version à sortir (1.2), débarquera avec certaines
+        fonctionnalités qui ont été demandées depuis fort longtemps
+        maintenant. Tout d'abord, l'édition 64bits fera son apparition (le
+        décodage étant jusqu'à 15% plus rapide). Mais, plus important encore,
+        il s'agira de la toute première version à proposer un support natif
+        des écrans dits HDTV. Restez donc à l'écoute, la plupart de ces
+        fonctionnalités existent déjà et la version 1.2 sortira en moins d'un
+        an cette fois-ci ;-) A ce propos, quitte à parler du futur, notre
+        équipe de développement est à la recherche d'un PlayStation 3, pour y
+        porter la GeeXboX bien entendu, ce qui en ferait le meilleur HTPC
+        possible. Libre à vous de nous aider en ce sens ;-)<br/>
+        <br/>
+        Mais revenons pour l'heure à la version 1.1 et prenez plaisir à
+        utiliser cette dernière.<br/>
+        <br/>
+        <b>Liste détaillées des modifications (depuis la version 1.0) :</b><br/>
+        <br/>
+        <b>Composants systèmes:</b><br/>
+        - Mise à jour du noyau Linux en version 2.6.21.3<br/>
+        - Mise à jour de BusyBox en version 1.5.1<br/>
+        - Mise à jour de la uClibc vers la version 0.9.29.<br/>
+        - Passage de l'amorçeur SysLinux vers la v3.20.<br/>
+        - Améliorations des capacités de changements de fréquence
+          processeur.<br/>
+        <br/>
+        <b>Chaîne de compilation:</b><br/>
+        - Ajout du support optionnel de la GNU glibc 2.5 (à des fins de
+          test/debug seulement).<br/>
+        - Migration vers GCC 4.1.2<br/>
+        <br/>
+        <b>Lecteur multimédia:</b><br/>
+        - Mise à jour de MPlayer vers la version SVN v23418.<br/>
+        - Ajout des démultiplexeurs fournis par la libavformat en plus de ceux
+          de la libmpdemux.<br/>
+        - Nouveau décodeur vidéo natif VC-1/WMV3/WMV9 (Windows Media
+          Video).<br/>
+        - Nouveau décodeur vidéo natif On2 VP50 et VP62 decoder (Flash
+          video).<br/>
+        - Décodeur audio sans perte pour les formats WavPack, TTA, et
+          Shorten.<br/>
+        - Support du VC1 dans les formats MPEG-TS et MPEG-PS (comme les
+          fichiers des HD-DVD et BlueRay par exemple).<br/>
+        - Support du démultiplexage des fichiers EVO (format HD-DVD).<br/>
+        - Support du codec propriétaire VP7.<br/>
+        - Support du codec propriétaire WMA Pro.<br/>
+        - Support du codec propriétaire VC-1 pour les quelques fichiers que le
+          décodeur natif n'arriverait pas à lire.<br/>
+        - Changement audio à la volée pour les formats MPEG-TS/PS, Matroska et
+          tous ceux supportés par la libavformat.<br/>
+        - Changements audio à la volée même si les codecs sont différents
+          (AC3-DTS  par exemple).<br/>
+        - Nouvelle couche RTSP (support du MPEG-TS par RTP uniquement) pour
+          l'accès aux serveurs RTSP génériques (comme FreeboxTV), ce qui rend
+          inutile l'utilisation de la librairie Live555.<br/>
+        - Amélioration de la vitesse de décodage du H.264.<br/>
+        - Support des sous-titres SSA/ASS.<br/>
+        - Support des flux réseaux ICEcast.<br/>
+        - La radio est désormais gérée directement par V4L2.<br/>
+        - Support des fichiers 3GP, AAC, VDR et DVR-MS.<br/>
+        - Nouveau menu <i>Préférences</i>, avec des options permettant le
+          contrôle des flux audio, vidéo et des sous-titres, en plus des
+          paramètres génériques propres à la vidéo.<br/>
+        - Suppression des librairies libdts, libmpcdec, libogg, libvorbis et
+          libtheora, désormais remplacées par les décodeurs/démultiplexeurs
+          internes à MPlayer.<br/>
+        - Support du chargement de fichiers de sous-titres externes (nom
+          différent du fichier vidéo).<br/>
+        - Il est désormais possible d'accélérer/ralentir la vitesse de
+          lecture.<br/>
+        <br/>
+        <b>Vidéo:</b><br/>
+        - Correctifs pour le VESA sur cartes i945.<br/>
+        <br/>
+        <b>Pilotes:</b><br/>
+        - Support des cartes IVTV (telles que les Hauppauge PVR
+          150/250/350/500).<br/>
+        - Support du cryptage WPA pour cartes WiFi.<br/>
+        - Support des chipsets WiFi Broadcom BCM43xx (comme l'Apple
+          AirPort).<br/>
+        - Support des chipsets WiFi Ralink RT61 et RT73.<br/>
+        - Support des chipsets WiFi TI ACX111.<br/>
+        - Support du pilote MadWiFi-NG.<br/>
+        - Support des chipsets WiFi ZyDAS ZD12x1.<br/>
+        - Support des cartes TV PVR USB 2.<br/>
+        - Support des périphériques Rio Karma USB.<br/>
+        - Support des cartes sons USB.<br/>
+        - Support des télécommandes Medion (et Aldi) X-10.<br/>
+        - Support de la télécommande Logitech UltraX Media.<br/>
+        - Added support for some USB to serial interfaces.<br/>
+        - L'accès 32bits n'est plus forcé pour les disques (posait problèmes
+          avec certaines CompactFlash à travers IDE).<br/>
+        - Mielleure détection des péripéhriques DVB USB.<br/>
+        - Support de davantage de cartes radio.<br/>
+        - Amélioration du chargeur de micro-code DVB.<br/>
+        <br/>
+        <b>Réseau:</b><br/>
+        - Support du multicast IPv4 (utile pour les flux RTSP).<br/>
+        - Support de NdisWrapper, qui permet l'utilisation de pilotes WiFi
+          Win32 sous Linux.<br/>
+        - Mise à jour de bftpd en version 1.8.4 et ajout du fichier /etc/ftp
+          pour l'authentification FTP.<br/>
+        - Mise à jour de Samba en version 3.0.25, utilisation de l'encodage
+          UTF-8 pour le montage des partages et correction de certains
+          problèmes de montage.<br/>
+        - Il est désormais possible d'accéder aux partages Samba et NFS, même
+          si les serveurs ont été démarrés après le démarrage
+          de la GeeXboX.<br/>
+        - Implémentation d'une interface Web basique de contrôle distant.<br/>
+        <br/>
+        <b>Générateur:</b><br/>
+        - Support du chargement de pilotes pour NDISwrapper.<br/>
+        - Nouvel onglet permettant l'ajout de fichiers à l'image ISO
+          générée.<br/>
+        - Nouvelle option permettant de choisir le canal WiFi à utiliser.<br/>
+        - Support de Windows Vista.<br/>
+        <br/>
+        <b>Divers:</b><br/>
+        - Suppression du support (buggé) de l'enregisteur via mencoder.<br/>
+        - Ajout des options remote=/receiver= à la ligne de commande de
+          démarrage pour un changement facilité de la télécommande et de son
+          récepteur.<br/>
+        - Nouveau menus dans l'installeur pour le choix des télécommandes et récepteurs.<br/>
+        - Support de différents mappages clavier (azerty/qwerty/qwertz)<br/>
+        - Nouvelle règle dans le Makefile pour créer et lancer des machines
+          virtuelles VMware (make vmx; make vmx-play).<br/>
+        - Corrections de l'émulation via QEMU/VirtualBox.<br/>
+        - Support de la lecture automatique pour les disques USB.<br/>
+        - Réorganisation des fichiers de traduction.<br/>
+        - Support de langues multiples au sein de la même image ISO.<br/>
+        - Support du système de fichiers JFS.<br/>
+        <br/>
+        La GeeXboX 1.1 (pour ordinateurs x86 uniquement) est disponible dès
+        à présent sur notre <a href="downloads.html">page de
+        téléchargement</a>.
+      </content>
     </subsection>
 
   </section>
