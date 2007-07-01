@@ -136,7 +136,6 @@
         codecs.<br/>
         - New native RTSP input (handles MPEG-TS over RTP only) for generic
         RTSP servers (like FreeboxTV) which deprecates Live555 usage.<br/>
-        - Fixed A/V synchronization issues with FreeboxTV.<br/>
         - H.264 decoding speed improvements.<br/>
         - SSA/ASS subtitle renderer.<br/>
         - Added support for ICEcast netstreams.<br/>
