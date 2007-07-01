@@ -4,11 +4,11 @@
 <files>
   <file type="iso">
     <arch>i386</arch>
-    <version>1.0</version>
+    <version>1.1</version>
     <lang>en</lang>
-    <size>7112704</size>
-    <md5>b72c0bc20ec3dacf058e9f4e9e9b9eff</md5>
-    <sha1>cc6d8cd7e448e4dd482e78768f77bbe258474c73</sha1>
+    <size>9302016</size>
+    <md5>013c0c1d167b64d3d9c39b29e3a7584f</md5>
+    <sha1>74c873f896b63ad4b4e6d841da9fb3734d2ce4f6</sha1>
   </file>
 
   <file type="iso">
@@ -22,10 +22,10 @@
 
   <file type="gen">
     <arch>i386</arch>
-    <version>1.0</version>
-    <size>8789636</size>
-    <md5>452456d19e770776948a4590f6c9b839</md5>
-    <sha1>af394e58305b7bc9ab265d6cf2a96b8309846cf7</sha1>
+    <version>1.1</version>
+    <size>11437045</size>
+    <md5>39b1ab0e80e50d3fb9e89affb172168b</md5>
+    <sha1>db28377a6ecef2c172cac962548517f33511f145</sha1>
   </file>
 
   <file type="gen">
@@ -37,21 +37,21 @@
   </file>
 
   <file type="src">
-    <version>1.0</version>
+    <version>1.1</version>
     <src-type>lite</src-type>
     <src-ext>tar.bz2</src-ext>
-    <size>505621</size>
-    <md5>1a911c5492bad3fbbf8df842b3c2c704</md5>
-    <sha1>a35fc50fb40b1bb634c5f24dca61f87190efe84a</sha1>
+    <size>506138</size>
+    <md5>3d332ee7280678da115991e746020948</md5>
+    <sha1>6b3dfb63f53998f0226b26687650f32edd24765e</sha1>
   </file>
 
   <file type="src">
-    <version>1.0</version>
+    <version>1.1</version>
     <src-type>full</src-type>
     <src-ext>tar</src-ext>
-    <size>139683840</size>
-    <md5>c33af7c6651ad4ca9aa70438502e3485</md5>
-    <sha1>7393ba783d1c92c64c3ab6db3ec65c1707edf13e</sha1>
+    <size>241162240</size>
+    <md5>8b8036f859df8ebd8f65b15b16fb6a14</md5>
+    <sha1>8b6e41632e7bda06f1a6af87f2d0d6f45f68e591</sha1>
   </file>
 
   <file type="old"/>
