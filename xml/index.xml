@@ -321,10 +321,10 @@
         - Support des cartes sons USB.<br/>
         - Support des télécommandes Medion (et Aldi) X-10.<br/>
         - Support de la télécommande Logitech UltraX Media.<br/>
-        - Added support for some USB to serial interfaces.<br/>
+        - Support pour quelques interfaces "USB to serial".<br/>
         - L'accès 32bits n'est plus forcé pour les disques (posait problèmes
           avec certaines CompactFlash à travers IDE).<br/>
-        - Mielleure détection des péripéhriques DVB USB.<br/>
+        - Meilleure détection des périphériques DVB USB.<br/>
         - Support de davantage de cartes radio.<br/>
         - Amélioration du chargeur de micro-code DVB.<br/>
         <br/>
