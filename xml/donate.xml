@@ -64,6 +64,7 @@
 * SGI O2<br/>
 * <a href="http://www.genesippc.com/efika.php">Efika</a><br/>
 * <a href="http://www.linutop.com/index_en.htm">Linutop</a><br/>
+* <a href="http://en.wikipedia.org/wiki/PlayStation_3">Sony PlayStation 3 Premium</a><br/>
   </define>
 
   <define name="response-computing-url">
@@ -90,7 +91,8 @@
     Sylvain Doctrinal, Coyot, Lolo, Nicolas Jolly, Cédric Chaissac,
     Andrew Florence (<use name="response-computing-url"/>), Guy C.
     McNeill (<use name="westminster-url"/>), Hervé Remigy, François
-    Rais, <use name="genesi-usa-url"/>, Saifdinn AGREBI, Frederic Baille
+    Rais, <use name="genesi-usa-url"/>, Saifdinn AGREBI, Frederic Baille,
+    Antonio C. Valente
   </define>
 
   <section label="donate">
