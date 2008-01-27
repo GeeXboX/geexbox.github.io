@@ -50,6 +50,17 @@
         <![endif]-->]]>
       </xsl:text>
 
+      <!-- Google Analytics stats -->
+      <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-3497964-1");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+      </script>
+
       <script type="text/javascript" src="../style/styleswitcher.js">
         <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
       </script>
