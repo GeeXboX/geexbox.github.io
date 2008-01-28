@@ -41,12 +41,13 @@
       <xsl:call-template name="stylesheet"/>
       <link rel="icon" type="images/png" href="../img/geexbox-icon.png"/>
 
-      <!-- compliance patch for microsoft browsers - http://dean.edwards.name/IE7 -->
+      <!-- compliance patch for microsoft browsers
+              http://code.google.com/p/ie7-js/
+              http://ie7-js.googlecode.com/svn/version/2.0(beta)/IE8.js
+        -->
       <xsl:text disable-output-escaping="yes"><![CDATA[
-        <!--[if lt IE 7]>
-          <script src="../style/ie7/ie7-standard-p.js" type="text/javascript">
-            IE7_PNG_SUFFIX = "-trans.png";
-          </script>
+        <!--[if lt IE 8]>
+          <script src="../style/IE8.js" type="text/javascript"></script>
         <![endif]-->]]>
       </xsl:text>
 
