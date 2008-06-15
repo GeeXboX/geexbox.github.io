@@ -6,53 +6,62 @@
     <text lang="en">GeeXboX</text>
     <text lang="fr">GeeXboX</text>
     <text lang="de">GeeXboX</text>
+    <text lang="it">GeeXboX</text>
 
     <subitem name="news" url="index.html">
       <text lang="en">News</text>
       <text lang="fr">Nouvelles</text>
       <text lang="de">News</text>
+      <text lang="it">News</text>
     </subitem>
 
     <subitem name="old" url="old.html">
       <text lang="en">Archives</text>
       <text lang="fr">Archives</text>
       <text lang="de">Archives</text>
+      <text lang="it">Archivi</text>
     </subitem>
 
     <subitem name="get_started" url="start.html">
       <text lang="en">About</text>
       <text lang="fr">A propos ...</text>
       <text lang="de">Zu Anfang</text>
+      <text lang="it">Informazioni su ...</text>
     </subitem>
 
     <subitem name="require" url="requirements.html">
       <text lang="en">Requirements</text>
       <text lang="fr">Pré-requis</text>
       <text lang="de">Voraussetzungen</text>
+      <text lang="it">Requisiti</text>
     </subitem>
 
     <subitem name="license" url="license.html">
       <text lang="en">License</text>
       <text lang="fr">Licence</text>
       <text lang="de">Lizenz</text>
+      <text lang="it">Licenza</text>
     </subitem>
 
     <subitem name="screenshots" url="screenshot.html">
       <text lang="en">Screenshots</text>
       <text lang="fr">Captures d'écrans</text>
       <text lang="de">Screenshots</text>
+      <text lang="it">Screenshot</text>
     </subitem>
 
     <subitem name="download" url="downloads.html">
       <text lang="en">Downloads</text>
       <text lang="fr">Téléchargements</text>
       <text lang="de">Downloads</text>
+      <text lang="it">Download</text>
     </subitem>
 
     <subitem name="buy" url="buy.html">
       <text lang="en">Get a CD</text>
       <text lang="fr">Obtenir un CD</text>
       <text lang="de">CD kaufen</text>
+      <text lang="it">Ottieni un CD</text>
     </subitem>
   </item>
 
@@ -60,59 +69,69 @@
     <text lang="en">Resources</text>
     <text lang="fr">Ressources</text>
     <text lang="de">Ressourcen</text>
+    <text lang="it">Risorse</text>
 
     <subitem name="doc" url="doc.html">
       <text lang="en">Documentation</text>
       <text lang="fr">Documentation</text>
       <text lang="de">Dokumentation</text>
+      <text lang="it">Documentazione</text>
     </subitem>
 
     <subitem name="controls" url="controls.html">
       <text lang="en">Keys &amp; Controls</text>
       <text lang="fr">Contrôles</text>
       <text lang="de">Keys &amp; Controls</text>
+      <text lang="it">Controlli</text>
     </subitem>
 
     <subitem name="generator" url="generator.html">
       <text lang="en">ISO Generator</text>
       <text lang="fr">Générateur d'ISO</text>
       <text lang="de">ISO Generator</text>
+      <text lang="it">Generatore di ISO</text>
     </subitem>
 
     <subitem name="faq" url="faq.html">
       <text lang="en">FAQ</text>
       <text lang="fr">FAQ</text>
       <text lang="de">FAQ</text>
+      <text lang="it">FAQ</text>
     </subitem>
 
     <subitem name="forum" url="http://www.geexbox.org/forum/">
       <text lang="en">Forum</text>
       <text lang="fr">Forum</text>
       <text lang="de">Forum</text>
+      <text lang="it">Forum</text>
     </subitem>
 
     <subitem name="wiki" url="http://www.geexbox.org/wiki/index.php/Main_Page">
       <text lang="en">Wiki</text>
       <text lang="fr">Wiki</text>
       <text lang="de">Wiki</text>
+      <text lang="it">Wiki</text>
     </subitem>
 
     <subitem name="hard" url="hard.html">
       <text lang="en">Hardware</text>
       <text lang="fr">Matériel</text>
       <text lang="de">Hardware</text>
+      <text lang="it">Hardware</text>
     </subitem>
 
     <subitem name="packages" url="packages.html">
       <text lang="en">Built-in Packages</text>
       <text lang="fr">Paquetages inclus</text>
       <text lang="de">Softwarepakete</text>
+      <text lang="it">Pacchetti inclusi</text>
     </subitem>
 
     <subitem name="dev" url="dev.html">
       <text lang="en">Developers</text>
       <text lang="fr">Developpeurs</text>
       <text lang="de">Entwickler</text>
+      <text lang="it">Sviluppatori</text>
     </subitem>
   </item>
 
@@ -120,41 +139,48 @@
     <text lang="en">FeedBack</text>
     <text lang="fr">En Savoir Plus</text>
     <text lang="de">FeedBack</text>
+    <text lang="it">Per saperne di più</text>
 
     <subitem name="sponsors" url="sponsors.html">
       <text lang="en">Sponsors &amp; Mirrors</text>
       <text lang="fr">Sponsors &amp; Miroirs</text>
       <text lang="de">Sponsors</text>
+      <text lang="it">Sponsor e Mirror</text>
     </subitem>
 
     <subitem name="contact" url="contact.html">
       <text lang="en">Contact &amp; People</text>
       <text lang="fr">Contacts &amp; Auteurs</text>
       <text lang="de">Kontakt</text>
+      <text lang="it">Contatti &amp; Persone</text>
     </subitem>
 
     <subitem name="lists" url="mailing.html">
       <text lang="en">Mailing Lists</text>
       <text lang="fr">Listes de diffusion</text>
       <text lang="de">Mailing Listen</text>
+      <text lang="it">Liste di discussione</text>
     </subitem>
 
    <subitem name="donate" url="donate.html">
       <text lang="en">Donate</text>
       <text lang="fr">Donations</text>
       <text lang="de">Spenden</text>
+      <text lang="it">Donazioni</text>
     </subitem>
 
     <subitem name="press" url="press.html">
       <text lang="en">Press</text>
       <text lang="fr">Presse</text>
       <text lang="de">Presse</text>
+      <text lang="it">Dicono di noi</text>
     </subitem>
 
     <subitem name="links" url="links.html">
       <text lang="en">Links</text>
       <text lang="fr">Liens</text>
       <text lang="de">Links</text>
+      <text lang="it">Collegamenti</text>
     </subitem>
   </item>
 </menu>
