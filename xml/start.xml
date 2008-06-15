@@ -6,6 +6,7 @@
     <content lang="en" title="About ..."/>
     <content lang="fr" title="A propos de ..."/>
     <content lang="de" title="Starten Sie durch ..."/>
+    <content lang="it" title="Informazioni su ..."/>
     <subsection label="what">
       <content lang="en" title="What is the GeeXboX ...">
         The question you may wonder is probably : "Dude, what exactly is this GeeXboX project I've heard so much about ?" ;-)<br/> Well, you're at the right place !<br/><br/>
@@ -69,6 +70,27 @@ Z.Zt. der ersten Entwicklerversion (Dez. 2002) konnte die GeeXboX nur DivX Filme
    * Playing analog Radio streams.<br/>
    * Playing files from your local network (LAN) through remote NFS, Samba (i.e. Windows) or UPnP shares.<br/>
       </content>
+      <content lang="it" title="Cos'è GeeXboX ...">
+        La domanda che ti starai facendo adesso probabilmente è : "Allora, cos'è esattamente questo progetto GeeXboX di cui ho sentito tanto parlare ?" ;-)<br />Beh, sei arrivato nel posto giusto!<br/><br/>
+        
+Ok, cerchiamo di restare sul facile. GeeXboX non è niente di più che un fantastico lettore multimediale autonomo. Perché quel nome ? Dunque, lo scopo principale è vedere filmati in DivX e, siccome tutti chiamano generalmente questo genere di progetti DivX boxes, noi abbiamo premesso "GeeX", per sottolineare che è rivolto a tutti i 'geek' come voi ;-)<br/><br/>
+
+Allora, GeeXboX è un sistema operativo completo, eseguito sotto Linux e basato sull'eccellente MPlayer. Non c'è nessun bisogno di un disco fisso, basta inserire il CD avviabile di GeeXboX nel lettore CD di un qualsiasi PC dal Pentium in su o di un Apple Machintosh per farlo partire. Inoltre, GeeXboX è software libero, creato con l'aiuto di molti programmi opensource. Questo significa che chiunque può modificarlo e creare la sua versione personalizzata di GeeXboX.<br/><br/>
+
+Ti starai chiedendo perché mai dovresti avviare un altro sistema operativo per poter guardare i tuoi filmati, ma prova a pensare ai sistemi Mini-ITX come le schede VIA Epia/Eden o ai barebone della Shuttle. \`E ormai diventato possibile e nemmeno troppo costoso vedere i DivX sul tuo home cinema, semplicemente collegando questo genere di computer direttamente alla tua TV !!<br/><br/>
+
+Al momento della suo primo rilascio di sviluppo (Dicembre 2002), GeeXBox era capace solamente di riprodurre fimati DivX, ma ora, praticamente qualsiasi tipo di file multimediale può essere gestito; il sistema supporta :<br/><br/>
+   * filmati MPEG 1/2 (file MPG, Video CD, DVD ...)<br/>
+   * filmati MPEG 4 (DivX, XviD, H.264 ...)<br/>
+   * filmati RealMedia e Windows Media.<br/>
+   * flussi OggMedia<br/>
+   * flussi Matroska<br/>
+   * flussi audio quali : MP3, Ogg/Vorbis, WAV (CD audio), AC3, DTS, MusePack (MPC), FLAC ...<br/>
+   * flussi di rete : WebRadio e WebTV attraverso SHOUTcast.<br/>
+   * la TV analogica e digitale (DVB)<br/>
+   * l'ascolto della radio analogica.<br/>
+   * La riproduzione di file dalla rete locale (LAN) attraverso condivisione remote NFS, Samba (es. Windows) o UPnP.<br/>
+      </content>
     </subsection>
     <subsection label="more">
       <content lang="en" title="Want more ?">
@@ -88,6 +110,12 @@ Rendez vous tout simplement dans la section <page name="download"/> et rejouisse
 Auf was warten Sie also noch ?? Weihnachten ?<br/><br/>
 Wechseln Sie einfach zur <page name="download"/> Seite und genießen Sie die GeeXboX ;-)<br/><br/><br/>
 <b>Das GeeXboX Team</b>
+      </content>
+      <content lang="it" title="Non ne hai ancora abbastanza ?">
+        Potresti pensare che un cosa del genere richieda un computer di nuovissima generazione ;-) E' qui che ti sbagli !! Un vecchio PII-400 con 60 MB di RAM sarà abbastanza potente da far funzionare la magia. Inoltre, l'immagine ISO di GeeXboX occupa solo 7 MB su disco. E naturalmente, il tutto può essere comandato via tastiera, con un telecomando o con un joystick, grazie al completo menu OSD.<br/>
+Allora, cosa stai aspettando ?? Il Natale?<br/><br/>
+Vai subito nella sezione <page name="download"/> e divertiti ;-)<br/><br/><br/>
+<b>Il gruppo GeeXboX</b>
       </content>
     </subsection>
   </section>
