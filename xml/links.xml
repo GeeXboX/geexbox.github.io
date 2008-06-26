@@ -8,14 +8,8 @@
   <define name="lnk-freevo">
     <a href="http://freevo.sourceforge.net/"><b>Freevo</b></a>
   </define>
-  <define name="lnk-freevix">
-    <a href="http://www.freevix.org/"><b>Freevix</b></a>
-  </define>
   <define name="lnk-womp">
     <a href="http://womp.sourceforge.net/"><b>Womp!</b></a>
-  </define>
-  <define name="lnk-freepia">
-    <a href="http://freepia.mooo.com/"><b>Freepia</b></a>
   </define>
   <define name="lnk-vdrlive">
     <a href="http://vdrlive1.free.fr/PHPNUKE/"><b>VDR-Live</b></a>
@@ -82,25 +76,19 @@
       <content lang="en" title="Related Projects ...">
         * <use name="lnk-movix"/> : MoviX is a small Linux distro that transforms your PC in a powerful multimedia box. After booting your PC with MoviX, a user-friendly console menu will allow you to use MPlayer to play any DVD/VCD, video/audio files (most noticeably DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, and OGG/VORBIS), TV (provided you have a TV card), and radio stations on the Internet (if you are connected to a LAN). Since the entire operating system is loaded into RAM, you do not even need a hard disk to use MoviX.<br/><br/>
         * <use name="lnk-freevo"/> : Freevo is a Linux application that turns a PC with a TV capture card and/or TV-out into a standalone multimedia jukebox/VCR/PVR/HTPC/DVR/set-top box. It uses MPlayer and other apps to play and record audio and video. It is optimized for use with a TV and remote, but can be used with a monitor and keyboard. It is very easy to install since the binary release package has no external dependencies.<br/><br/>
-        * <use name="lnk-freevix"/> is a GNU/Linux distro providing a complete but small footprint environment for Freevo based media players.<br/><br/>
         * <use name="lnk-womp"/> is a micro linux distribution focused on multimedia, it takes only 13 to 18 MB on a bootable CD, and allows playing of multimedia files (video/audio/image) without installing any software on the computer's hard drive.<br/><br/>
-        * <use name="lnk-freepia"/> is small GNU/Linux distribution designed to run on  Via Epia-M Mainboards. At present it only runs on the M-9000 but with some modifications like kernel and X11 modules it should be able to run on others too. The main motivation behind this project is to build a full featured, low noise media box to play movies/mp3s/images etc.<br/><br/>
         * <use name="lnk-vdrlive"/> is a multimedia distro, which is a fork from the GeeXboX project itself. Its main advantage is support of DVB-s cards through <i>Video Disk Recorder</i> (VDR).
       </content>
       <content lang="fr" title="Projects Liés ...">
         * <use name="lnk-movix"/> : MoviX une une distribution Linux de petite taille qui transforme votre PC en plateforme multimédia. Après avoir allumé votre PC sous MoviX, un menu convivial vous permettra d'utiliser MPlayer pour lire tout type de DVD/VCD, fichiers audio/vidéo (comme par exemple les DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, and OGG/VORBIS), la TV (en supposant que vous ayez une carte TV), et les stations de radio sur Internet (en supposant que vous soyiez connectés). Comme l'intégralité du système est chargé en mémoire vive, vous n'avez pas besoin de disque dur pour utiliser MoviX.<br/><br/>
         * <use name="lnk-freevo"/> : Freevo est un système Linux transformant votre PC équipé d'une carte TV et/ou d'une sortie TV en un jukebox multimédia autonome, aux fonctions VCR/PVR/HTPC/DVR. Il se base sur MPlayer et autres applications pour lire et enregistrer à la fois sons et vidéos. Il est optimisé pour l'utilisation avec une TV ainsi qu'une télécommande, mais supporte bien entendu les moniteurs et claviers.<br/><br/>
-        * <use name="lnk-freevix"/> est une distribution GNU/Linux fournissant un environnement simple mais complet pour les lecteurs basés sur le projet Freevo.<br/><br/>
         * <use name="lnk-womp"/> est une micro-distribution Linux multimédia. Elle prend entre 13 et 18 Mo sur un CD auto-amorçable, et permet la lecture de fichiers multimédia (vidéo/audio/image) sans aucune installation nécessaire sur le disque dur.<br/><br/>
-        * <use name="lnk-freepia"/> est une distribution GNU/Linux légère conçue pour fonctionner sur les plateformes Via Epia-M. A l'heure actuelle, elle fonctionne uniquement sur la M-9000 mais quelques modifications du noyau et des modules X11 devraient permettre de la faire fonctionner sur d'autres plateformes. La motivation principale de ce projet est de permettre la construction d'un lecteur complet, silencieux permettant de lire films/mp3s/images etc ...<br/><br/>
         * <use name="lnk-vdrlive"/> est une distribution multimédia, issue du projet GeeXboX lui-même. Son avantage principal est de supporter les cartes DVB-s au travers de <i>Video Disk Recorder</i> (VDR).
       </content>
       <content lang="de" title="Ähnliche Projekte ...">
         * <use name="lnk-movix"/> : MoviX ist eine kleine Linux Distribution, die Ihren PC in eine Multimedia Maschine verwandelt. Nach dem Start von CD begrüßt Sie MoviX mit einem benutzerfreundlichen Menü, über das Sie mittels MPlayer jede DVD/VCD, Video/Audio Dateien (z.B. DivX, AVI, MPEG, QuickTime, WMV, ASF, MP3, und OGG/VORBIS), TV (Wenn Sie eine TV-Karte besitzen) und Radio über Internet (wenn Sie einen Zugang über LAN besitzen), abspielen können. Da das gesamte Betriebssystem in den Arbeitsspeicher geladen wird, brauchen Sie nicht einmal eine Festplatte.<br/><br/>
         * <use name="lnk-freevo"/> : Freevo ist eine Linux Applikation, die einen PC mit TV Capture Karte und/oder TV-out in eine Multimedia Jukebox/VCR/PVR/HTPC/DVR/set-top verwandelt. Freevo verwendet MPlayer und andere Applikationen, um Video und Audio aufzunehmen und abzuspielen. Freevo ist für die Bedienung mittels Fernbedienung und der Ausgabe auf Fernseher optimiert, kann aber auch mit PC-Monitor und Tastatur genutzt werden. Die Installation ist sehr einfach, da es sich um eine Binärdatei handelt, die keine weiteren Abhängigkeiten besitzt.<br/><br/>
-        * <use name="lnk-freevix"/> ist eine GNU/Linux basierte Distribution im Miniformat und ist optimal als Basis für Freevo.<br/><br/>
         * <use name="lnk-womp"/> ist eine winzige Linux Distribution mit Fokus auf Multimedia. Es werden nur etwa 13 bis 18 MB auf einer startfähigen CD belegt, aber man kann verschiedenste Multimediadateien (video/audio/image) ohne Installation auf der Festplatte damit wiedergeben.<br/><br/>
-        * <use name="lnk-freepia"/> ist eine kleine GNU/Linux Distribution. Entwickelt, um mit Via Epia-M Mainboards zu arbeiten. Z. Zt. funktioniert sie nur mit der M-9000 Serie, aber mit einigen Modifizierungen an Kernel und X11 Modulen sollte es auch mit anderen Boards funktionieren. Das eigentliche Anliegen dieses Projektes soll ein leiser Multimedia PC zur Wiedergaben von Filmen/mp3s/Bildern u.s.w. sein<br/><br/>
         * <use name="lnk-vdrlive"/> ist eine Multimedia Distribution, welche aus der GeeXboX hervorgegangen ist. Der große Vorteil ist die Unterstützung von DVB-S Karten durch den  <i>Video Disk Recorder</i> (VDR).
       </content>
     </subsection>
