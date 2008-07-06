@@ -916,6 +916,18 @@
            <use name="sed"/>
          </table>
       </content>
+      <content lang="it" title="Pacchetti per lo sviluppo di GeeXboX">
+         Ecco una lista di tutti i pacchetti che compongono la catena di compilazione usata per la creazione di GeeXboX<br/><br/>
+         <table border="2" cellpadding="2" cellspacing="1" width="100%">
+           <use name="headers"/>
+           <use name="binutils"/>
+           <use name="ccache"/>
+           <use name="gcc"/>
+           <use name="genext2fs"/>
+           <use name="make"/>
+           <use name="sed"/>
+         </table>
+      </content>
     </subsection>
 
     <subsection label="os">
@@ -1153,6 +1165,84 @@
            <use name="zlib"/>
          </table>
       </content>
+      <content lang="it" title="Pacchetti inclusi in GeeXboX">
+         Ecco una lista di tutti i pacchetti direttamente inclusi ed usati dal sistema operativo GeeXboX. Ognuno di essi è parte essenziale di GeeXboX.<br/><br/>
+         <table border="2" cellpadding="2" cellspacing="1" width="100%">
+           <use name="headers"/>
+           <use name="acx100"/>
+           <use name="alsa-driver"/>
+           <use name="alsa-lib"/>
+           <use name="alsa-utils"/>
+           <use name="at76c503"/>
+           <use name="atitvout"/>
+           <use name="bftpd"/>
+           <use name="bootsplash"/>
+           <use name="busybox"/>
+           <use name="cdparanoia"/>
+           <use name="cpufreqd"/>
+           <use name="cpufrequtils"/>
+           <use name="dialog"/>
+           <use name="DirectFB"/>
+           <use name="djmount"/>
+           <use name="dosfstools"/>
+           <use name="dvb-apps"/>
+           <use name="eject"/>
+           <use name="em8300"/>
+           <use name="fbi"/>
+           <use name="fmio"/>
+           <use name="freetype"/>
+           <use name="fribidi"/>
+           <use name="fuse"/>
+           <use name="grub"/>
+           <use name="i810tvout"/>
+           <use name="iconv"/>
+           <use name="ivtv"/>
+           <use name="jpeg"/>
+           <use name="lcd4linux"/>
+           <use name="libdvdnav"/>
+           <use name="libdts"/>
+           <use name="libexif"/>
+           <use name="libirman"/>
+           <use name="libmpcdec"/>
+           <use name="libogg"/>
+           <use name="libpcd"/>
+           <use name="libpng"/>
+           <use name="libtheora"/>
+           <use name="libungif"/>
+           <use name="libupnp"/>
+           <use name="libvorbis"/>
+           <use name="linux"/>
+           <use name="lirc"/>
+           <use name="live555"/>
+           <use name="lrmi"/>
+           <use name="lzma"/>
+           <use name="module-init-tools"/>
+           <use name="MPlayer"/>
+           <use name="ncurses"/>
+           <use name="ndiswrapper"/>
+           <use name="nvtv"/>
+           <use name="pciutils"/>
+           <use name="powernowd"/>
+           <use name="rt2400"/>
+           <use name="rt2500"/>
+           <use name="rt61"/>
+           <use name="rt73"/>
+           <use name="samba"/>
+           <use name="setcd"/>
+           <use name="strace"/>
+           <use name="sysfsutils"/>
+           <use name="syslinux"/>
+           <use name="talloc"/>
+           <use name="uClibc"/>
+           <use name="udev"/>
+           <use name="util-linux"/>
+           <use name="vesautils"/>
+           <use name="wireless_tools"/>
+           <use name="wpa_supplicant"/>
+           <use name="yaboot"/>
+           <use name="zlib"/>
+         </table>
+      </content>      
     </subsection>
   </section>
 </article>
