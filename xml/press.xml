@@ -109,6 +109,9 @@
     <content lang="de" title="Presse ...">
       Hier finden Sie eine Liste von Nachrichten und Artikeln, die über das GeeXboX Projekt berichten. Wenn Sie von anderen Artikeln wissen, würde es uns freuen, wenn Sie uns dies mitteilen würden. Wenden Sie sich dazu bitte an den <webmaster/>.
     </content>
+    <content lang="it" title="Stampa ...">
+      Ecco una lista di notizie ed articoli che sono stati pubblicati sul progetto GeeXboX. Se hai sentito parlare di noi in altri posti, ci farebbe piacere dare un'occhiata. Nel caso, contatta il <webmaster/>.
+    </content>
     <subsection label="internet">
       <content lang="en" title="Internet News and articles">
         The following list covers all of the Internet websites that have posted some news or articles about the GeeXboX. We want to thank them for what they've done as the GeeXboX's success wouldn't have reached this level without their help.<br/><br/>
@@ -120,6 +123,10 @@
       </content>
       <content lang="de" title="Internet Nachrichten und Artikel">
         Die folgende Liste enthält alle Webseiten, die entweder Nachrichten oder Artikel zu GeeXboX veröffentlicht haben. Wir möchten Ihnen dafür unseren Dank aussprechen, denn ohne Sie hätte die GeeXboX niemals diesen Bekanntheitsgrad erreichen können.<br/><br/>
+        <use name="prs-internet"/><br/><br/>
+      </content>  
+      <content lang="it" title="Notizie ed articoli su Internet">
+        La lista seguente comprende tutti i siti Internet che hanno pubblicato una qualche notizia o articolo su GeeXboX. Vogliamo ringraziarli per quello che hanno fatto, poiché il successo di GeeXboX non avrebbe raggiunto questo livello senza il loro aiuto.<br/><br/>
         <use name="prs-internet"/><br/><br/>
       </content>
     </subsection>
@@ -134,6 +141,10 @@
       </content>
       <content lang="de" title="Zeitungsartikel">
         Einige Computerzeitschriften haben uns gewürdigt, indem Sie über die GeeXboX in Artikeln oder News berichtet haben. Hier können Sie diese nachlesen. Folgen Sie dazu bitte einfach diesen "links" :<br/><br/>
+        <use name="prs-paper"/>
+      </content>
+      <content lang="it" title="Articoli di giornale">
+        Alcuni giornali e riviste specializzate ci hanno onorato pubblicanto notizie o articoli su GeeXboX. Puoi leggersi seguendo i prossimi link :<br/><br/>
         <use name="prs-paper"/>
       </content>
     </subsection>
