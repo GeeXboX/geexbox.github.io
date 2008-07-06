@@ -99,6 +99,7 @@
     <content lang="en" title="Donate ..."/>
     <content lang="fr" title="Donations ..."/>
     <content lang="de" title="Spenden ..."/>
+    <content lang="it" title="Donazioni ..."/>
 
     <subsection label="donate_why">
       <content lang="en" title="Why donate ?">
@@ -109,6 +110,9 @@
       </content>
       <content lang="de" title="Warum Spenden ?">
       GeeXboX ist ein "freies" Projekt und wird von verschiedenen Leuten in deren Freizeit entwickelt. Dies bedeutet, dass wir kein Einkommen oder eine andere Unterstützung für die Entwicklung erhalten. Viele Benutzer fragen nach Verbesserungen, speziell für ihre Hardware, die wir aber selbst nicht besitzen. Neben der Bereitstellung des Webservers, des Domänennamens und der benötigten Bandbreite, damit Sie das GeeXboX ISO herunterladen können, entstehen uns weitere Kosten. Seit kurzem haben wir das Glück, dass uns ein Webserver kostenlos zur Verfügung steht, aber dies kann sich jederzeit auch wieder ändern.
+      </content>
+      <content lang="it" title="Perché donare ?">
+      GeeXboX è un progetto libero, sviluppato da persone come te nel loro tempo libero. Ciò significa che non riceviamo alcun profitto o stipendio che ci aiuti nello sviluppo. Molti utenti ci chiedono di inserire nuove caratteristiche, specialmente il supporto per prodotti hardware che non possediamo. Inoltre, ospitare il server web, il dominio e provvedere alla banda necessaria per permetterti di scaricare la ISO di GeeXboX ha un costo. Di recente, qualcuno ci ha fortunatamente fornito gratuitamente un server web, ma la situazione potrebbe cambiare in ogni momento.
       </content>
     </subsection>
 
@@ -195,7 +199,32 @@ Unser Entwicklerteam hat bereits die folgenden Hardwarespenden erhalten. Besonde
 <use name="computer"/>
 
       </content>
+      <content lang="it" title="Come posso aiutare o fare una donazione ?">
+      Donare non significa necessariamente dare dei soldi. Naturalmente, se GeeXboX ti piace davvero e ritieni che il tempo impiegato per svilupparla debba essere ricompensato, le tue donazioni in denaro sono le benvenute (saranno usare per aiutare il raggiungimento degli obiettivi richiesti dagli utenti, per avere migliori condizioni di sviluppo ad esempio acquistando nuovo hardware non supportato...). Se vuoi contribure al progetto GeeXboX puoi fare una donazione usando <b>PayPal</b>: è gratuito, facile e naturalmente sei libero di donare la quantità che riteni il nostro lavoro si meriti. Tutto il gruppo degli sviluppatori ti ringrazia.<br/><br/>
 
+<use name="paypal"/>
+
+Ma ci sono molti altri modi con cui ci puoi aiutare. Se sei in grado di fornirci server dedicati, banda, promozioni, pubblicità, o anche uno specifico componente hardware o vecchio materiale informatico, per favore contattaci, il tuo aiuto sarà caldamente benvenuto. Per inciso, puoi anche aiutarci con le tue abilità, poiché stiamo cercando traduttori, scrittori di documentazioni e soprattutto grafici e disegnatori.<br/><br/>
+
+Al momento, stiamo cercando aiuto in particolare per :<br/><br/>
+* vari componenti hardware (anche obsoleti) per renderli supportati da GeeXboX (schede video, schede audio, ecc.).<br/>
+* una Sony PlayStation 3 per estendere il supporto di GeeXboX per quell'architettura<br/>
+* qualsiasi cosa ti ispiri.<br/><br/>
+
+Quindi, se vuoi aiutarci, mandaci semplicemente una mail a <a href="mailto:donate@geexbox.org"><b>donate@geexbox.org</b></a>. Da parte di tutti gli sviluppatori e gli utenti, grazie per il tuo supporto<br/> Ecco un elenco di tutti i nostri generosi donatori, ognuno di loro ci ha dato un piccolo obolo per ringraziarci del nostro lavoro, e che sarà usato per migliorare il supporto hardware di GeeXboX. Tante grazie a <use name="donators"/><br/><br/>
+
+Il nostro gruppo di sviluppatori ha già ricevuto i seguenti componenti hardware. Un rignraziamento speciale a <i><use name="donators-hard"/></i> per le loro donazioni.<br/><br/>
+
+<b>Schede video :</b><br/>
+<use name="vboard"/><br/>
+<b>Schede audio :</b><br/>
+<use name="soundcard"/><br/>
+<b>Varie :</b><br/>
+<use name="misc"/><br/>
+<b>Sistemi completi :</b><br/>
+<use name="computer"/>
+
+      </content>
     </subsection>
 
   </section>
