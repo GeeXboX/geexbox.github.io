@@ -12,6 +12,15 @@
   </file>
 
   <file type="iso">
+    <arch>x86_64</arch>
+    <version>1.1</version>
+    <lang>en</lang>
+    <size>9302016</size>
+    <md5>013c0c1d167b64d3d9c39b29e3a7584f</md5>
+    <sha1>74c873f896b63ad4b4e6d841da9fb3734d2ce4f6</sha1>
+  </file>
+
+  <file type="iso">
     <arch>ppc</arch>
     <version>1.0</version>
     <lang>en</lang>
@@ -22,6 +31,14 @@
 
   <file type="gen">
     <arch>i386</arch>
+    <version>1.1</version>
+    <size>11437045</size>
+    <md5>39b1ab0e80e50d3fb9e89affb172168b</md5>
+    <sha1>db28377a6ecef2c172cac962548517f33511f145</sha1>
+  </file>
+
+  <file type="gen">
+    <arch>x86_64</arch>
     <version>1.1</version>
     <size>11437045</size>
     <md5>39b1ab0e80e50d3fb9e89affb172168b</md5>
