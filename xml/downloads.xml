@@ -76,7 +76,7 @@
     <subsection label="iso">
       <content lang="en" title="GeeXboX ISO">
         <description img="../img/dl-trans.png">
-          GeeXboX ISOs are ready-to-burn disc images containing the bootable GeeXboX Operating System for multimedia entertainment. Pre-made ISO images are currently available for both i386 (PC) and PowerPC (Macinstosh) computers. Other languages are available with the ISO generator. The installer software is included in the ISO.
+          GeeXboX ISOs are ready-to-burn disc images containing the bootable GeeXboX Operating System for multimedia entertainment. Pre-made ISO images are currently available for both x86_32 (32-bits PC), x86_64 (64-bits PC) and PowerPC (Macinstosh) computers. Other languages are available with the ISO generator. The installer software is included in the ISO.
         </description>
         <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
           <title>GeeXboX <version/> for <arch/></title>
@@ -86,7 +86,7 @@
       </content>
       <content lang="fr" title="GeeXboX ISO">
         <description img="../img/dl-trans.png">
-          Les images ISO GeeXboX sont prêtes à être gravées sur disque et contiennent une version auto-amorçable du système d'exploitation GeeXboX, apte à satisfaire vos attentes multimédias. Les images ISO pré-construites sont actuellement disponibles pour les ordinateurs à architecture i386 (PC) et PowerPC (Macinstosh). D'autres langues sont disponibles par le biais du générateur d'ISO. L'application d'installation sur disque est incluse dans l'image ISO.
+          Les images ISO GeeXboX sont prêtes à être gravées sur disque et contiennent une version auto-amorçable du système d'exploitation GeeXboX, apte à satisfaire vos attentes multimédias. Les images ISO pré-construites sont actuellement disponibles pour les ordinateurs à architecture x86_32 (PC 32-bits), x86_64 (PC 64-bits) et PowerPC (Macinstosh). D'autres langues sont disponibles par le biais du générateur d'ISO. L'application d'installation sur disque est incluse dans l'image ISO.
         </description>
         <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
           <title>GeeXboX <version/> pour <arch/></title>
@@ -96,7 +96,7 @@
       </content>
       <content lang="de" title="GeeXboX ISO">
         <description img="../img/dl-trans.png">
-          GeeXboX ISOs sind fertig zum brennen. Sie enthalten das bootfähige GeeXboX Betriebssystem für multimediales Entertainment. Vorgefertiget ISOs sind derzeit auf Englisch und Französisch jeweils für i386 (PC) und PowerPC (Macintosh) erhältlich. Andere Sprachen sind im ISO Generator enthalten. Auch die Installationssoftware ist im ISO enthalten.
+          GeeXboX ISOs sind fertig zum brennen. Sie enthalten das bootfähige GeeXboX Betriebssystem für multimediales Entertainment. Vorgefertiget ISOs sind derzeit auf Englisch und Französisch jeweils für x86_32 (32-bits PC), x86_64 (64-bits PC) und PowerPC (Macintosh) erhältlich. Andere Sprachen sind im ISO Generator enthalten. Auch die Installationssoftware ist im ISO enthalten.
         </description>
         <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
           <title>GeeXboX <version/> <lang/> Edition for <arch/></title>
@@ -109,7 +109,7 @@
     <subsection label="generator">
       <content lang="en" title="GeeXboX ISO Generator">
         <description img="../img/gen-trans.png">
-        With this package, it is easy to modify GeeXboX in a few seconds without having to build the sources. The generator produces ISO image of the GeeXboX, ready to be burned on disc, that you may have customized to fit your needs. The software is multi-platforms, working currently under both GNU/Linux, Mac OS X and Microsoft Windows 9x/NT/2k/XP systems. It is able to produce ISO images for both i386 and PowerPC targets.
+        With this package, it is easy to modify GeeXboX in a few seconds without having to build the sources. The generator produces ISO image of the GeeXboX, ready to be burned on disc, that you may have customized to fit your needs. The software is multi-platforms, working currently under both GNU/Linux, Mac OS X and Microsoft Windows 9x/NT/2k/XP systems. It is able to produce ISO images for both x86_32, x86_64 and PowerPC targets.
         </description>
         <download type="gen" plus="../img/plus.png" minus="../img/minus.png">
           <title>GeeXboX <version/> ISO Generator (<arch/> Target)</title>
@@ -120,7 +120,7 @@
       </content>
       <content lang="fr" title="Générateur d'ISO GeeXboX">
         <description img="../img/gen-trans.png">
-          Avec ce paquetage, il vous est possible de modifier la GeeXboX en quelques secondes sans avoir recours aux sources et à une recompilation complète. Le générateur produit une image ISO de la GeeXboX, prête à être gravée sur un disque, et que vous aurez personnaliser pour convenir à vos besoins. L'application est multi-platformes, et fonctionne actuellement aussi bien sous les systèmes GNU/Linux, Mac OS X et Microsoft Windows 9x/NT/2k/XP. Elle est en mesure de générer des images ISO à la fois pour architectures i386 et PowerPC.
+          Avec ce paquetage, il vous est possible de modifier la GeeXboX en quelques secondes sans avoir recours aux sources et à une recompilation complète. Le générateur produit une image ISO de la GeeXboX, prête à être gravée sur un disque, et que vous aurez personnaliser pour convenir à vos besoins. L'application est multi-platformes, et fonctionne actuellement aussi bien sous les systèmes GNU/Linux, Mac OS X et Microsoft Windows 9x/NT/2k/XP. Elle est en mesure de générer des images ISO à la fois pour architectures x86_32, x86_64 et PowerPC.
         </description>
         <download type="gen" plus="../img/plus.png" minus="../img/minus.png">
           <title>Générateur d'ISO GeeXboX <version/> (Cible : <arch/>)</title>
@@ -130,7 +130,7 @@
       </content>
       <content lang="de" title="GeeXboX ISO Generator">
         <description img="../img/gen-trans.png">
-          Mit diesem Paket ist es sehr einfach innerhalb von Sekunden GeeXboX zu modifizieren ohne den Quellcode neu zu übersetzen. Der Generator erzeugt eine ISO-Datei, welche direkt gebrannt werden kann. Diese Software funktioniert unter dem GNU/Linux, Mac OS X und Microsoft Windows )x/NT/2k/XP Betriebssytemen. Es können ISO Dateien für i386 oder PowerPC Systeme erstellt werden.
+          Mit diesem Paket ist es sehr einfach innerhalb von Sekunden GeeXboX zu modifizieren ohne den Quellcode neu zu übersetzen. Der Generator erzeugt eine ISO-Datei, welche direkt gebrannt werden kann. Diese Software funktioniert unter dem GNU/Linux, Mac OS X und Microsoft Windows )x/NT/2k/XP Betriebssytemen. Es können ISO Dateien für x86_32, x86_64 oder PowerPC Systeme erstellt werden.
         </description>
         <download type="gen" plus="../img/plus.png" minus="../img/minus.png">
           <title>GeeXboX <version/> ISO Generator (<arch/> Target)</title>
