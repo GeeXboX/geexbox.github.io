@@ -65,4 +65,9 @@
     <!-- foxcore AT gmail DOT com -->
     <address><![CDATA[&#102;&#111;&#120;&#099;&#111;&#114;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;]]></address>
   </email>
+  <email id="davide">
+    <content>Davide Cavalca</content>
+    <!-- davide125 AT tiscali DOT it -->
+    <address><![CDATA[&#100;&#097;&#118;&#105;&#100;&#101;&#049;&#050;&#053;&#064;&#116;&#105;&#115;&#099;&#097;&#108;&#105;&#046;&#105;&#116;]]></address>
+  </email>
 </emails>
