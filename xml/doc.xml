@@ -860,7 +860,7 @@ Starten Sie nun den Geexbox Computer und alles sollte wie gewünscht funktionier
       <br/>
       If you have reluctant hardware that require additionnal firmware (in most of the cases, it only concerns WiFi and DVB cards), you'll need to check on the Internet for your Linux driver page to see how to check the firmware file. Most of the time, you'll get a direct download link. Sometimes, you'll need to extract it from your Windows drivers archive that was shipped with your hardware.<br/>
       <br/> 
-      Once you get the firmware file, simply put it into the <b>/firmwares</b> directory. You can put in as many firmwares as you want, and GeeXboX will automatically find them and use them with the right drivers if needed. The only thing you then have to take care is to have the good firmwares file and to generate a new ISO.<br/>
+      Once you get the firmware file, simply put it into the <b>/firmware</b> directory. You can put in as many firmwares as you want, and GeeXboX will automatically find them and use them with the right drivers if needed. The only thing you then have to take care is to have the good firmwares file and to generate a new ISO.<br/>
       <br/>
       Please note that you can also use the GeeXboX ISO generator to automatically grab firmwares for you. You can select all of the extra binary firmware files you want the generator to add for you. Simply note that this feature will require you to have an Internet access when using the GeeXboX generator.<br/>
       </content>
@@ -869,7 +869,7 @@ Starten Sie nun den Geexbox Computer und alles sollte wie gewünscht funktionier
       <br/>
       Si vous disposez de matériel à problème qui peut nécessiter la présence d'un firmware additionnel (dans la plupart des cas, il s'agit de cartes WiFi ou DVB), vous devrez chercher sur Internet une page concernant le support de périphérique sous Linux et l'utilisation du firmware. La plupart du temps, vous tomberez sur un lien de téléchargement direct. Des fois, il vous sera nécessaire d'extraire ce firmware depuis une archive de pilotes pour Windows qui ont été fourni par le fabricant du périphérique.<br/>
       <br/>
-      Une fois que vous disposerez du fichier de firmware pour votre carte, déposez le simplement dans le répertoire <b>/firmwares</b>. Vous pouvez y stocker autant de firmwares que vous voudrez, la GeeXboX essaiera d'elle même de les charger lorsqu'un pilote en aura besoin. La seule chose dont vous ayez à vous soucier et de disposer des bons fichiers de firmwares avec les bons noms avant de regénérer une nouvelle ISO.<br/>
+      Une fois que vous disposerez du fichier de firmware pour votre carte, déposez le simplement dans le répertoire <b>/firmware</b>. Vous pouvez y stocker autant de firmwares que vous voudrez, la GeeXboX essaiera d'elle même de les charger lorsqu'un pilote en aura besoin. La seule chose dont vous ayez à vous soucier et de disposer des bons fichiers de firmwares avec les bons noms avant de regénérer une nouvelle ISO.<br/>
       <br/>
       Veuillez noter que vous pouvez également utiliser le générateur d'ISO de la GeeXboX qui vous permettra de récupérer les firmwares pour vous. Vous pouvez l'utiliser pour sélectionner tous les fichiers de firmware que vous souhaiter et le générateur les téléchargera et ajoutera pour vous. Assurez vous juste de disposer d'une connexion à Internet lors de l'utilisation du générateur.<br/>
       </content>
@@ -878,7 +878,7 @@ Starten Sie nun den Geexbox Computer und alles sollte wie gewünscht funktionier
       <br/>
       Falls Sie Hardware besitzen die so eine zusaetzliche Firmware benoetigt (in den meisten Faellen sind dies WiFi oder DVB Karten) muessen Sie im Internet nach der Linux Treiber Seite suchen um die Firmware zu erhalten. Meist bekommen Sie es durch einen direkten Downloadverweis. Manchmal muessen Sie es aus Ihren Windowstreiber extrahieren.<br/>
       <br/>
-      Wenn Sie die Firmware Datei haben, kopieren Sie diese einfach in das <b>/firmwares</b> Verzeichnis. Sie koennen hier so viele Firmware Dateien ablegen wie Sie wollen. GeeXboX findet diese automatisch und nutzt sie mit den richtigen Treibern. Die einzige Sache auf die Sie acht geben muessen ist, das sie funktionierende Firmware Dateien haben und ein neues ISO erzeugen muessen.<br/>
+      Wenn Sie die Firmware Datei haben, kopieren Sie diese einfach in das <b>/firmware</b> Verzeichnis. Sie koennen hier so viele Firmware Dateien ablegen wie Sie wollen. GeeXboX findet diese automatisch und nutzt sie mit den richtigen Treibern. Die einzige Sache auf die Sie acht geben muessen ist, das sie funktionierende Firmware Dateien haben und ein neues ISO erzeugen muessen.<br/>
       <br/>
       Bitte beachten Sie, dass Sie auch den GeeXboX ISO Generator nutzen koennen um die Firmware Dateien herunterzuladen. Sie koennen einfach alle Firmware Dateien die Sie benoetigen auswaehlen, der Generator fuegt Sie automatisch fuer Sie hinzu. Hierfuer ist natuerlich eine Vebindung mit dem Internet Voraussetzung.<br/>
       </content>
