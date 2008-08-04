@@ -45,11 +45,6 @@
     <size-name code="M">MB</size-name>
     <size-name code="B">B</size-name>
   </size-names>
-  <size-names lang="de">
-    <size-name code="K">KB</size-name>
-    <size-name code="M">MB</size-name>
-    <size-name code="B">B</size-name>
-  </size-names>
 
   <src-type-names lang="en">
     <src-type-name code="lite">Lite</src-type-name>
