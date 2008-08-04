@@ -65,6 +65,8 @@
 * <a href="http://www.genesippc.com/efika.php">Efika</a><br/>
 * <a href="http://www.linutop.com/index_en.htm">Linutop</a><br/>
 * <a href="http://en.wikipedia.org/wiki/PlayStation_3">Sony PlayStation 3 Premium</a><br/>
+* ASUS EeePC 701<br/>
+* <a href="http://www.easyneuf.fr/site/easy9_gate.html">9Telecom EasyGate</a><br/>
   </define>
 
   <define name="response-computing-url">
@@ -78,13 +80,22 @@
   <define name="genesi-usa-url">
     <a href="http://www.genesippc.com/">Genesi USA</a>
   </define>
+  
+  <define name="asustek">
+    <a href="http://www.asus.com/">ASUSTeK Computer</a>
+  </define>
+
+  <define name="9telecom">
+    <a href="http://offres.neuf.fr/home/">9Telecom</a>
+  </define>
 
   <define name="donators">
     <i>Romain Perea, Luigi Bortolani, Sam Huffman, Clint Brothers,
     Paul François, Lobo Martinez, Olivier Cochard, Laurent Peltier,
     Jonathan Davis, Michaël Berlioz-Arthaud, Fabien Messinger, Steven
     McGregor, Xavier Legrand, Salvatore Tringale,
-    Fabio Lovisa, Joshua Jacobs.</i>
+    Fabio Lovisa, Joshua Jacobs, Chris Komatsu, José luis Fernandez Nuñez,
+    Andrea Dell'Orco, Dennis Flynn, Didier Vecten, Linux-cd.com.ar.</i>
   </define>
 
   <define name="donators-hard">
@@ -92,7 +103,7 @@
     Andrew Florence (<use name="response-computing-url"/>), Guy C.
     McNeill (<use name="westminster-url"/>), Hervé Remigy, François
     Rais, <use name="genesi-usa-url"/>, Saifdinn AGREBI, Frederic Baille,
-    Antonio C. Valente
+    Antonio C. Valente, <use name="asustek"/>, <use name="9telecom"/>
   </define>
 
   <section label="donate">
