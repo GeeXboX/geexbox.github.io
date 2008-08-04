@@ -42,7 +42,7 @@ So, here's what can be considered as a minimal config :<br/>
 * x86 Pentium-Class CPU or above (P2-400 should be quite enough) or Macintosh NewWorld G3 (G4 highly recommended) <br/>
 * a VESA 2.0 compliant graphics card (for x86 PC only).<br/>
 * an ALSA compatible sound card.<br/>
-* at least 64 MB of RAM<br/>
+* at least 64 MB of RAM (128 MB or more are recommended for HDTV)<br/>
 * CD-ROM or DVD-ROM drive<br/>
 * Motherboard which supports booting on CD-ROM (should be ok for everyone ;-)<br/>
 * Keyboard, Joystick or Remote Controller, using a Lirc-compatible IR (InfraRed) receiver
@@ -54,7 +54,7 @@ Voici donc ce qui peut être considéré comme une configuration minimale :<br/>
 * CPU x86 de type Pentium ou Supérieur (un P2-400 devrait parfaitement convenir) ou Macintosh NewWorld G3 (G4 recommandé).<br/>
 * une carte graphique compatible VESA 2.0 (pour PC x86 uniquement)<br/>
 * une carte son compatible ALSA.<br/>
-* environ 64 Mo de mémoire vive<br/>
+* environ 64 Mo de mémoire vive (128 Mo ou plus sont recommandés en HDTV)<br/>
 * un lecteur CD-ROM ou DVD-ROM<br/>
 * une carte-mère supportant le démarrage sur CD (cela devrait être bon dans 99% des cas ;-)<br/>
 * un clavier, un joystick ou une télécommande (utilisant un récepteur infra-rouge compatible avec Lirc - vérifiez le sur <use name="req-lirc"/> pour construire le votre), comme par exemple celui fourni avec la carte Miro PcTV ou encore l'ATI Remote Wonder.
