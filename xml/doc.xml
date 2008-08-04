@@ -1080,7 +1080,6 @@ For French users only:<br/>
 You can get <b>"FreeboxTV"</b> thanks to this file, using the following process:<br/>
 <br/>
 - uncomment EXTM3U ad hoc entry.<br/>
-- use a GeeXboX version that have to be compiled with <b>"LIVE555 library"</b> support (otherwise you won't be able to decode the stream).<br/>
       </content>
       <content lang="fr" title="Streaming réseau ...">
       La GeeXboX permet de rajouter les listes de streams SHOUTcast Radio et TV tout autant que vos propres listes de lecture. (locales et distantes.)<br/>
@@ -1093,7 +1092,6 @@ Note aux utilisateurs (Français uniquement) :<br/>
 Il est possible de receptionner un flux <b>"FreeboxTV"</b> grâce à ce fichier. Pour y parvenir, veuillez suivre la procédure suivante :<br/>
 <br/>
 - dé-commentez l'entrée EXTM3U ad-hoc.<br/>
-- utilisez une version de GeeXboX compilée avec le support de la librairie <b>"LIVE555"</b> (ces deux conditions étant nécessaires à la visualisation du flux) .<br/>
       </content>
     </subsection>
 
