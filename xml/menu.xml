@@ -133,6 +133,20 @@
       <text lang="de">Entwickler</text>
       <text lang="it">Sviluppatori</text>
     </subitem>
+
+    <subitem name="ben-blog" url="http://gxben.wordpress.com/">
+      <text lang="en">Ben Dev Blog</text>
+      <text lang="fr">Ben Dev Blog</text>
+      <text lang="de">Ben Dev Blog</text>
+      <text lang="it">Ben Dev Blog</text>
+    </subitem>
+
+    <subitem name="mat-blog" url="http://skywalker13.wordpress.com/">
+      <text lang="en">Mat Dev Blog</text>
+      <text lang="fr">Mat Dev Blog</text>
+      <text lang="de">Mat Dev Blog</text>
+      <text lang="it">Mat Dev Blog</text>
+    </subitem>
   </item>
 
   <item name="feedback" id="feedback">
