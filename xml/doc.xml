@@ -238,7 +238,7 @@ There's also more advanced commands if you want hack around the GeeXboX :<br/>
   <b>scripts/build package</b>      <i># build the package</i><br/>
   <b>scripts/install package</b>    <i># install the package with the $INSTALL prefix</i><br/>
   <b>scripts/clean package</b>      <i># clean the package source tree</i><br/>
-  <b>make exec</b>                  <i># launch directly the GeeXboX in a jail (i.e. chroot - EXPERIMENTAL FEATURE - Use it at your own risks !!)</i><br/><br/>
+  <br/>
 
 If you've made a hacked version of the GeeXboX, you can easily build a small tar.gz for it with :<br/>
   <b>make dist</b><br/>
@@ -268,7 +268,7 @@ Il existe également des commandes plus avancées; si vous désirez procéder à
   <b>scripts/build package</b>      <i># construit le paquetage</i><br/>
   <b>scripts/install package</b>    <i># installe le paquetage avec le préfixe $INSTALL</i><br/>
   <b>scripts/clean package</b>      <i># nettoie l'arbre de construction du paquetage</i><br/>
-  <b>make exec</b>                  <i># lance directement la GeeXboX dans une cellule (i.e. chroot - Version EXPERIMENTALE - Soumis à votre responsabilité)</i><br/><br/>
+  <br/>
 
 Si vous avez réalisé une modification interne à la GeeXboX, vous pouvez simplement construire un petit tar.gz au moyen de  :<br/>
   <b>make dist</b><br/>
@@ -300,7 +300,7 @@ Weiterführende Skripte zum "Hacken" von GeeXboX sind :<br/>
   <b>scripts/build package</b>      <i># Das Paket "erstellen" (build)</i><br/>
   <b>scripts/install package</b>    <i># Das Paket installieren mit $INSTALL prefix</i><br/>
   <b>scripts/clean package</b>      <i># Das Paketverzeichnis aufräumen (clean)</i><br/>
-  <b>make exec</b>                  <i># GeeXboX direkt in einem "jail" starten (d.h. chroot - EXPERIMENTELLE FUNKTION - Auf Ihre eigene Verantwortung !!)</i><br/><br/>
+  <br/>
 
 Wenn Sie Änderungen an der GeeXboX gemacht haben, können Sie daraus einfach ein tar.gz erstellen :<br/>
   <b>make dist</b><br/>
