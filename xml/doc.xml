@@ -53,6 +53,7 @@
         <a href="#building">Building the GeeXboX ...</a><br/>
         <a href="#mplayer">MPlayer Documentation ...</a><br/>
         <a href="#installator">Using the installer ...</a><br/>
+        <a href="#install_linux">GeeXboX installed on dual boot Linux ...</a><br/>
         <a href="#tv">Editing TV Configuration ...</a><br/>
         <a href="#network">Editing Network Configuration ...</a><br/>
         <a href="#wifi">Editing WiFi configuration ...</a><br/>
@@ -71,6 +72,7 @@
         <a href="#building">Construire la GeeXboX ...</a><br/>
         <a href="#mplayer">Documentation de MPlayer ...</a><br/>
         <a href="#installator">Utilisation de l'installator ...</a><br/>
+        <a href="#install_linux">GeeXboX installé en dual boot avec un autre Linux ...</a><br/>
         <a href="#tv">Modifier la configuration TV ...</a><br/>
         <a href="#network">Modifier la configuration du réseau ...</a><br/>
         <a href="#wifi">Modifier la configuration WiFi ...</a><br/>
@@ -89,6 +91,7 @@
         <a href="#building">Erstellen der GeeXboX ...</a><br/>
         <a href="#mplayer">MPlayer Dokumentation ...</a><br/>
         <a href="#installator">Verwenden des Installers ...</a><br/>
+        <a href="#install_linux">GeeXboX installed on dual boot Linux ...</a><br/>
         <a href="#tv">TV Konfiguration ...</a><br/>
         <a href="#network">Netzwerk Konfiguration ...</a><br/>
         <a href="#wifi">WiFi Konfiguration ...</a><br/>
@@ -466,6 +469,46 @@ oder aber eine installationsfähige Linux GeeXboX Version erstellen, durch : <br
           Wenn Sie bereits einen Bootloader installiert haben, brauchen Sie weder GRUB noch SysLinux zu verwenden, müssen aber diesen entsprechend anpassen, um GeeXboX zu starten. Haben Sie noch keinen Bootloader und kein anderes Betriebssystem auf Ihrer Festplatte oder nutzen ein Betriebssystem wie Microsoft Windows, (welches kein "Multiboot" erlaubt) wird dringend empfohlen, die Installation von GRUB / SysLinux durchzuführen. Der GeeXboX Installer durchsucht automatisch die Festplatte nach weiteren Betriebssystemen und bindet diese dann in ein "Bootmenü" ein. Somit haben Sie anschließend bei jedem Start Ihres Rechners die Möglichkeit, entweder Ihr vorhandene(s) Betriebssystem(e) oder aber die GeeXboX zu starten.<br/><br/>
 
           Wenn Sie GeeXboX mögen und recht häufig einsetzen, ist es eine gute Idee, GeeXboX auf Festplatte zu installieren. Wenn Sie GeeXboX auf einer FAT Partition installiert haben, können Sie somit sehr leicht die Konfigurationsdateien von z.B. MPlayer, der Fernbedienung, die Netzwerkkonfiguration u.s.w. anpassen, ohne jedesmal eine neue CD erstellen und brennen zu müssen. Gleiches gilt übrigens auch bei der Nutzung von Linux und EXT3 als Dateisystem.
+      </content>
+    </subsection>
+
+    <subsection label="install_linux">
+      <content lang="en" title="GeeXboX installed on dual boot Linux ...">
+        If you already have a Linux OS installed on your system, you might just
+        want to add a GeeXboX entry to your existing bootloader. This allow you
+        to install GeeXboX very easily.<br/>
+        From GeeXboX CD, simply copy the GEEXBOX folder into your Linux /
+        partition (we suppose it to be /dev/sda1 here).
+        Modify the /boot/grub/menu.lst file to add:<br/>
+        <br/>
+        <b>
+        title       GeeXboX<br/>
+        root        (hd0,1)<br/>
+        kernel      /GEEXBOX/boot/vmlinuz root=/dev/ram0 rw rdinit=linuxrc boot=sda1 lang=en keymap=qwerty splash ...<br/>
+        initrd      /GEEXBOX/boot/initrd.gz<br/>
+        quiet<br/>
+        </b>
+        <br/>
+      </content>
+      <content lang="fr" title="GeeXboX installé en dual boot avec un autre Linux ...">
+        Si vous disposze déjà d'un système Linux installé sur votre ordinateur,
+        il est possible de simplement rajouter une entrée pour la GeeXboX sur
+        votre menu de démarrage actuel. Cela vous permet ainsi d'installer la
+        GeeXboX très facilement.<br/>
+        A partir du CD GeeXboX CD, copiez simplement le répertoire GEEXBOX vers
+        la partition / de votre Linux courant (nous supposerons qu'il s'agit
+        ici de /dev/sda1).
+        Modifiez ensuite le fichier /boot/grub/menu.lst pour y ajouter les
+        lignes suivantes :<br/>
+        <br/>
+        <b>
+        title       GeeXboX<br/>
+        root        (hd0,1)<br/>
+        kernel      /GEEXBOX/boot/vmlinuz root=/dev/ram0 rw rdinit=linuxrc boot=sda1 lang=en keymap=qwerty splash ...<br/>
+        initrd      /GEEXBOX/boot/initrd.gz<br/>
+        quiet<br/>
+        </b>
+        <br/>
       </content>
     </subsection>
 
