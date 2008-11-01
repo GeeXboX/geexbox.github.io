@@ -67,6 +67,7 @@
 * <a href="http://en.wikipedia.org/wiki/PlayStation_3">Sony PlayStation 3 Premium</a><br/>
 * ASUS EeePC 701<br/>
 * <a href="http://www.easyneuf.fr/site/easy9_gate.html">9Telecom EasyGate</a><br/>
+* <a href="http://www.nokiausa.com/link?cid=PLAIN_TEXT_607318">Nokia N810</a><br/>
   </define>
 
   <define name="response-computing-url">
@@ -89,13 +90,18 @@
     <a href="http://offres.neuf.fr/home/">9Telecom</a>
   </define>
 
+  <define name ="celf">
+    <a href="http://www.celinuxforum.org/">CE Linux Forum</a>
+  </define>
+
   <define name="donators">
     <i>Romain Perea, Luigi Bortolani, Sam Huffman, Clint Brothers,
     Paul François, Lobo Martinez, Olivier Cochard, Laurent Peltier,
     Jonathan Davis, Michaël Berlioz-Arthaud, Fabien Messinger, Steven
     McGregor, Xavier Legrand, Salvatore Tringale,
     Fabio Lovisa, Joshua Jacobs, Chris Komatsu, José luis Fernandez Nuñez,
-    Andrea Dell'Orco, Dennis Flynn, Didier Vecten, Linux-cd.com.ar.</i>
+    Andrea Dell'Orco, Dennis Flynn, Didier Vecten, Linux-cd.com.ar,
+    Guillaume Schaeffer.</i>
   </define>
 
   <define name="donators-hard">
@@ -103,7 +109,8 @@
     Andrew Florence (<use name="response-computing-url"/>), Guy C.
     McNeill (<use name="westminster-url"/>), Hervé Remigy, François
     Rais, <use name="genesi-usa-url"/>, Saifdinn AGREBI, Frederic Baille,
-    Antonio C. Valente, <use name="asustek"/>, <use name="9telecom"/>
+    Antonio C. Valente, <use name="asustek"/>, <use name="9telecom"/>,
+    <use name="celf"/>
   </define>
 
   <section label="donate">
