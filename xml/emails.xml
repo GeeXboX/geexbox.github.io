@@ -70,4 +70,9 @@
     <!-- davide125 AT tiscali DOT it -->
     <address><![CDATA[&#100;&#097;&#118;&#105;&#100;&#101;&#049;&#050;&#053;&#064;&#116;&#105;&#115;&#099;&#097;&#108;&#105;&#046;&#105;&#116;]]></address>
   </email>
+  <email id="pouyoux">
+    <content>David Amiel</content>
+    <!-- david AT lesamiel DOT fr -->
+    <address><![CDATA[&#100;&#097;&#118;&#105;&#100;&#064;&#108;&#101;&#115;&#097;&#109;&#105;&#101;&#108;&#046;&#102;&#114;]]></address>
+  </email>
 </emails>
