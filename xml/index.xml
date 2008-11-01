@@ -201,6 +201,127 @@
       GeeXboX 1.2-beta1 (for x86_32 and x86_64 computers only) is available
       right <a href="downloads.html">here</a> and now!
       </content>
+      <content lang="fr" title="GeeXboX 1.2-beta1">
+      As usual, it took way longer than expected but there it is:
+      GeeXboX 1.2-beta1. Why Beta release ? Honnestly, this version should now
+      be pretty stable. However, too few tests have been done by users on forum
+      recently and we wanted to confirm the good feedback we have before
+      releasing the final 1.2.<br/>
+      <br/>
+      So what has changed to take so much time ? As told at 1.1 release's time,
+      the major change is X.org inclusion. This was a lot of work but this
+      allows GeeXboX to fully support wide screens and all of the new HDTVs
+      monitors. Everything is autodetected and configured and it should detect
+      the best resolution that suits your monitor. Along with X.org, come all
+      of its video drivers. Say bye bye to VIDIX (as good as it was) and
+      welcome XVideo. This brings video acceleration (but still no GPU offload)
+      to nearly all video cards in the wild (whether it is Intel, nVidia, ATI,
+      S3, SiS, VIA ...).<br/>
+      <br/>
+      Alos come many kernel and internal changes. The whole distributions is
+      now modularized to best detect your hardware and load ony what is needed.
+      Many drivers have been added and installation has been completely
+      reworked for better usability.<br/>
+      <br/>
+      This version also has been optimized for various platforms like EeePCs,
+      EasyGate and bring official support of MacIntels computers. It also
+      introduce a new port to x86_64 architecture which brings a small
+      performance boost regarding to the 32bit edition.<br/>
+      <br/>
+      Unless major bugs are encountered, you may expect the final 1.2 release
+      to come pretty soon. In the mean time, the more you test this beta
+      version and report bugs, the fastest it'll be issued.<br/>
+      <br/>
+      <b>Detailed Changelog (relative to 1.1 release):</b><br/>
+      <br/>
+      <b>System:</b><br/>
+      - X.Org 7.4 inclusion (default, change it with generator).<br/>
+      - Support for SMP and multi-cores.<br/>
+      - Update to Linux 2.6.27.4.<br/>
+      - Update BusyBox to 1.11.3.<br/>
+      - Update to SysLinux 3.72.<br/>
+      - Use of initramfs instead of initrd.<br/>
+      <br/>
+      <b>Toolchain:</b><br/>
+      - Update to GCC 4.3.2.<br/>
+      - Upgrade uClibc to 0.9.30-rc3.<br/>
+      - Upgrade glibc to 2.7.<br/>
+      - Use glibc as a default when building with X.Org.<br/>
+      <br/>
+      <b>Ports:</b><br/>
+      - Port to x86_64 architecture.<br/>
+      - Port to PowerPC 64bit architecture.<br/>
+      - MacIntel support.<br/>
+      - Optimizations for EasyGate platform.<br/>
+      - Optimizations for EeePC 700.<br/>
+      <br/>
+      <b>Player:</b><br/>
+      - Update MPlayer to r27662.<br/>
+      - Enable ASS support.<br/>
+      - Add MonkeyAudio decoder.<br/>
+      - Add GOOM audio visualization.<br/> 
+      - Fix for CDDA playback.<br/>
+      - Add TV selection menu.<br/>
+      - Add de-interlace filter for DVDs and TV streams.<br/>
+      - Use of keypad for DVDNAV controls.<br/>
+      - Add support for extended PLS netstream entries.<br/>
+      - Enhanced DVD Navigation Menu support.<br/>
+      - Fix somes issues with encrypted DVDs playback.<br/>
+      - Use per stream type configuration profiles.<br/>
+      <br/>
+      <b>Video:</b><br/>
+      - Add widescreens and HDTV screens support.<br/>
+      - Add X11 video acceleration for most graphic cards (Intel, nVidia, ATI,
+      S3, SiS, VIA ...).<br/>
+      - TV-Out is no longer available when booting with X.Org enabled.<br/>
+      - Some Intel VESA driver fixes.<br/>
+      - ATI VIDIX driver color fixes.<br/>
+      - Restore VIDIX support on PowerPC.<br/>
+      <br/>
+      <b>Drivers:</b><br/>
+      - X.Org hardware autodetection.<br/>
+      - Dozens of new WiFi, Ethernet, DVB ... drivers supported.<br/>
+      - All drivers are now modularized (no longer built-in): only useful ones
+      are actually loaded.<br/>
+      - Add kernel drivers auto probe and load mechanisms.<br/>
+      - Fix many PATA devices issues.<br/>
+      - Add support for 16bit PCMCIA cards.<br/>
+      - LIRC 0.8.4<br/>
+      <br/>
+      <b>Networking:</b><br/>
+      - Upgrade to Samba 3.0.32 (better support for MS Vista shares).<br/>
+      - Add support for Plan9 network shares .<br/>
+      - Add NFS v3/4 support.<br/>
+      - Add PXE boot from Samba.<br/>
+      - Allow for defining static samba mounts<br/>
+      <br/>
+      <b>Installator:</b><br/>
+      - Introduction of configurator: post-install reconfiguration
+      utility.<br/>
+      - Use of libparted instead of old fdisk for disk partionning.<br/>
+      - Enhanced install to USB process.<br/>
+      - Provide faster boot methods for install to HDD.<br/>
+      <br/>
+      <b>Generator:</b><br/>
+      - Add HDTV (X.org) related new options and configuration settings.<br/>
+      - Add GOOM audio visualization settings tab.<br/>
+      - Add NFS shares configuration tab.<br/>
+      - Add static Samba shares configuration tab.<br/>
+      - Automatic packages download at ISO image compilation.<br/>
+      <br/>
+      <b>Miscellaneous: </b><br/>
+      - Add AppleIR remote support.<br/>
+      - Add X10 RF MCE remote control support.<br/>
+      - Add ACPI multimedia buttons handling.<br/>
+      - Enhanced system information menu.<br/>
+      - Enhance VESA boot menu.<br/>
+      - Enhanced Web interface and better browser compliance.<br/>
+      - Add optional support for Video Disk Recorder (VDR).<br/>
+      - Use FeH image viewer instead of FBI.<br/>
+      <br/>
+      GeeXboX 1.2-beta1 (for x86_32 and x86_64 computers only) is available
+      right <a href="downloads.html">here</a> and now!
+      </content>
     </subsection>
 
     <subsection label="developer_blogs" date="2008-08-19">
