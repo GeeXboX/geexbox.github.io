@@ -56,6 +56,11 @@
   <xsl:value-of select="$file/arch"/>
 </xsl:template>
 
+<xsl:template match="libc" mode="raw">
+  <xsl:param name="file"/>
+  <xsl:if test="$file/libc">.<xsl:value-of select="$file/libc"/></xsl:if>
+</xsl:template>
+
 <xsl:template match="size-names"/>
 <xsl:template match="size">
   <xsl:param name="file"/>
@@ -119,6 +124,7 @@
     <xsl:variable name="id">
       <xsl:if test="lang"><xsl:value-of select="lang"/>.</xsl:if>
       <xsl:if test="arch"><xsl:value-of select="arch"/>.</xsl:if>
+      <xsl:if test="libc"><xsl:value-of select="libc"/>.</xsl:if>
       <xsl:if test="src-type"><xsl:value-of select="src-type"/>.</xsl:if>
       <xsl:value-of select="$type"/>
     </xsl:variable>

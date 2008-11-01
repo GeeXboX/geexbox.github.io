@@ -77,7 +77,7 @@
         <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
           <title>GeeXboX <version/> for <arch/></title>
           <description>ISO for <arch/> computers is available from the following locations :<br/><b>Size:</b> <size/> - <b>md5sum:</b> <md5/> - <b>sha1sum:</b> <sha1/></description>
-          <file><version/>/geexbox-<version/>-<lang/>.<arch/>.iso</file>
+          <file><version/>/geexbox-<version/>-<lang/>.<arch/><libc/>.iso</file>
         </download>
       </content>
       <content lang="fr" title="GeeXboX ISO">
@@ -87,7 +87,7 @@
         <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
           <title>GeeXboX <version/> pour <arch/></title>
           <description>L'image ISO de la GeeXboX <version/> pour <arch/> est disponible depuis les emplacements suivants :<br/><b>Taille :</b> <size/> - <b>md5sum :</b> <md5/> - <b>sha1sum :</b> <sha1/></description>
-          <file><version/>/geexbox-<version/>-<lang/>.<arch/>.iso</file>
+          <file><version/>/geexbox-<version/>-<lang/>.<arch/><libc/>.iso</file>
         </download>
       </content>
       <content lang="de" title="GeeXboX ISO">
@@ -97,7 +97,7 @@
         <download type="iso" plus="../img/plus.png" minus="../img/minus.png">
           <title>GeeXboX <version/> <lang/> Edition for <arch/></title>
           <description><lang/> ISOs für <arch/> Computer sind erhältlich unter folgenden Links :<br/><b>Size:</b> <size/> - <b>md5sum:</b> <md5/> - <b>sha1sum:</b> <sha1/></description>
-          <file><version/>/geexbox-<version/>-<lang/>.<arch/>.iso</file>
+          <file><version/>/geexbox-<version/>-<lang/>.<arch/><libc/>.iso</file>
         </download>
       </content>
     </subsection>
@@ -111,7 +111,7 @@
           <title>GeeXboX <version/> ISO Generator (<arch/> Target)</title>
           <description>GeeXboX <version/> ISO Generator for <arch/> targets is avaible from the following locations :<br/><b>Size:</b> <size/> - <b>md5sum:</b>
  <md5/> - <b>sha1sum:</b> <sha1/></description>
-          <file><version/>/geexbox-generator-<version/>.<arch/>.tar.gz</file>
+          <file><version/>/geexbox-generator-<version/>.<arch/><libc/>.tar.gz</file>
         </download>
       </content>
       <content lang="fr" title="Générateur d'ISO GeeXboX">
@@ -121,7 +121,7 @@
         <download type="gen" plus="../img/plus.png" minus="../img/minus.png">
           <title>Générateur d'ISO GeeXboX <version/> (Cible : <arch/>)</title>
           <description>Le générateur d'ISO GeeXboX <version/> pour cible <arch/> est disponible depuis les emplacements suivants :<br/><b>Taille :</b> <size/> - <b>md5sum :</b> <md5/> - <b>sha1sum :</b> <sha1/></description>
-          <file><version/>/geexbox-generator-<version/>.<arch/>.tar.gz</file>
+          <file><version/>/geexbox-generator-<version/>.<arch/><libc/>.tar.gz</file>
         </download>
       </content>
       <content lang="de" title="GeeXboX ISO Generator">
@@ -131,7 +131,7 @@
         <download type="gen" plus="../img/plus.png" minus="../img/minus.png">
           <title>GeeXboX <version/> ISO Generator (<arch/> Target)</title>
           <description>GeeXboX <version/> ISO Generator für <arch/> Systeme ist erhältlich unter folgenden Links :<br/><b>Size:</b> <size/> - <b>md5sum:</b> <md5/> - <b>sha1sum:</b> <sha1/></description>
-          <file><version/>/geexbox-generator-<version/>.<arch/>.tar.gz</file>
+          <file><version/>/geexbox-generator-<version/>.<arch/><libc/>.tar.gz</file>
         </download>
       </content>
     </subsection>

@@ -4,20 +4,22 @@
 <files>
   <file type="iso">
     <arch>i386</arch>
-    <version>1.1</version>
+    <libc>glibc</libc>
+    <version>1.2-beta1</version>
     <lang>en</lang>
-    <size>9302016</size>
-    <md5>013c0c1d167b64d3d9c39b29e3a7584f</md5>
-    <sha1>74c873f896b63ad4b4e6d841da9fb3734d2ce4f6</sha1>
+    <size>19042304</size>
+    <md5>16ec1eee4feee927e1e423f15bf965b0</md5>
+    <sha1>d0638b7be7a676a60621a4419e7845865ab09e00</sha1>
   </file>
 
   <file type="iso">
     <arch>x86_64</arch>
-    <version>1.1</version>
+    <libc>glibc</libc>
+    <version>1.2-beta1</version>
     <lang>en</lang>
-    <size>9302016</size>
-    <md5>013c0c1d167b64d3d9c39b29e3a7584f</md5>
-    <sha1>74c873f896b63ad4b4e6d841da9fb3734d2ce4f6</sha1>
+    <size>20520960</size>
+    <md5>3a5008359d27818fcb29124bbe8a1861</md5>
+    <sha1>5be505afe99fe42e373b62af3cb7174ffae944b3</sha1>
   </file>
 
   <file type="iso">
@@ -31,18 +33,20 @@
 
   <file type="gen">
     <arch>i386</arch>
-    <version>1.1</version>
-    <size>11437045</size>
-    <md5>39b1ab0e80e50d3fb9e89affb172168b</md5>
-    <sha1>db28377a6ecef2c172cac962548517f33511f145</sha1>
+    <libc>glibc</libc>
+    <version>1.2-beta1</version>
+    <size>21689340</size>
+    <md5>ec3b70ae1180fcc1e0b07505657c903a</md5>
+    <sha1>e059f4611659dfa24968a1f476ca3562e879bc0e</sha1>
   </file>
 
   <file type="gen">
     <arch>x86_64</arch>
-    <version>1.1</version>
-    <size>11437045</size>
-    <md5>39b1ab0e80e50d3fb9e89affb172168b</md5>
-    <sha1>db28377a6ecef2c172cac962548517f33511f145</sha1>
+    <libc>glibc</libc>
+    <version>1.2-beta1</version>
+    <size>23151587</size>
+    <md5>f3541b25cc9bebbd0c6ba4c03f6b7b3a</md5>
+    <sha1>40edfa27485800958468222e629daba9808ee1b6</sha1>
   </file>
 
   <file type="gen">
@@ -54,21 +58,21 @@
   </file>
 
   <file type="src">
-    <version>1.1</version>
+    <version>1.2-beta1</version>
     <src-type>lite</src-type>
     <src-ext>tar.bz2</src-ext>
-    <size>506138</size>
-    <md5>3d332ee7280678da115991e746020948</md5>
-    <sha1>6b3dfb63f53998f0226b26687650f32edd24765e</sha1>
+    <size>873935</size>
+    <md5>7b6afb466caf5731dbd605ef3c248183</md5>
+    <sha1>d974dec6d1350d595f493b15716a80fb</sha1>
   </file>
 
   <file type="src">
-    <version>1.1</version>
+    <version>1.2-beta1</version>
     <src-type>full</src-type>
     <src-ext>tar</src-ext>
-    <size>241162240</size>
-    <md5>8b8036f859df8ebd8f65b15b16fb6a14</md5>
-    <sha1>8b6e41632e7bda06f1a6af87f2d0d6f45f68e591</sha1>
+    <size>366305280</size>
+    <md5>151e42c544a5d6384f0b7b907f83de642b00dccf</md5>
+    <sha1>bc3676f953c0aaf18e398b5e53ac8a559bcf36a8</sha1>
   </file>
 
   <file type="old"/>

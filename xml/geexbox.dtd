@@ -57,10 +57,11 @@
 
 <!ELEMENT files (file*)>
 
-<!ELEMENT file (arch|version|lang|size|md5|sha1|src-type|src-ext)*>
+<!ELEMENT file (arch|libc|version|lang|size|md5|sha1|src-type|src-ext)*>
 <!ATTLIST file type NMTOKEN #REQUIRED>
 
 <!ELEMENT arch (#PCDATA)>
+<!ELEMENT libc (#PCDATA)>
 <!ELEMENT version (#PCDATA)>
 <!ELEMENT lang (#PCDATA)>
 <!ELEMENT size (#PCDATA)>
