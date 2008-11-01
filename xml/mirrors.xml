@@ -26,16 +26,4 @@
     <url>http://geexbox.reloumirrors.net/</url>
   </mirror>
 
-  <mirror>
-    <country>us</country>
-    <description>Mirrorgeek.com, Austin (Texas, USA, HTTP)</description>
-    <url>http://geexbox.mirrorgeek.com/</url>
-  </mirror>
-
-  <mirror partial="yes">
-    <country>de</country>
-    <description>German Service Network, Oberhausen (Germany, HTTP)</description>
-    <url>http://mirror.gsnw.org/geexbox.org/</url>
-  </mirror> 
-
 </mirrors>
