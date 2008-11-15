@@ -202,125 +202,111 @@
       right <a href="downloads.html">here</a> and now!
       </content>
       <content lang="fr" title="GeeXboX 1.2-beta1">
-      As usual, it took way longer than expected but there it is:
-      GeeXboX 1.2-beta1. Why Beta release ? Honnestly, this version should now
-      be pretty stable. However, too few tests have been done by users on forum
-      recently and we wanted to confirm the good feedback we have before
-      releasing the final 1.2.<br/>
+      Comme d'habitude, cela a demandé plus de temps que prévu, mais ça y est, la GeeXboX 1.2-beta1 est la.<br/>
+      Pourquoi une version bêta?<br/>
+      Honnêtement, cette version devrait maintenant être assez stable.<br/>
+      Cependant, trop peu de tests ont été faits par les utilisateurs sur le forum récemment et nous avons voulu confirmer les bons commentaires que nous avions avant la sortie de la version finale 1.2.<br/>
       <br/>
-      So what has changed to take so much time ? As told at 1.1 release's time,
-      the major change is X.org inclusion. This was a lot of work but this
-      allows GeeXboX to fully support wide screens and all of the new HDTVs
-      monitors. Everything is autodetected and configured and it should detect
-      the best resolution that suits your monitor. Along with X.org, come all
-      of its video drivers. Say bye bye to VIDIX (as good as it was) and
-      welcome XVideo. This brings video acceleration (but still no GPU offload)
-      to nearly all video cards in the wild (whether it is Intel, nVidia, ATI,
-      S3, SiS, VIA ...).<br/>
+      Donc, ce qui a changé pour demander autant de temps?<br/>
+      Comme précisé après la version 1.1,le changement majeur est l'incorporation d'X.org.<br/>
+      Ce fut un énorme travail, mais cela permet à la GeeXboX de supporter pleinement l'affichage de l'ensemble des écrans et des téléviseurs haute définition.<br/>
+      Tout est auto-détecté et configuré et la meilleure résolution devrait être appliquée à votre moniteur automatiquement.<br/>
+      Avec X.org viennent également tous ses pilotes vidéo. On dit donc bye bye à VIDIX (aussi bon qu'il a été) et bienvenue XVideo. Ce qui apporte l'accélération vidéo (mais toujours pas de décodage hardware via le GPU) à la quasi-totalité des cartes vidéo existantes (si elle est Intel, nVidia, ATI, S3,SiS, VIA ...).<br/>
       <br/>
-      Alos come many kernel and internal changes. The whole distributions is
-      now modularized to best detect your hardware and load ony what is needed.
-      Many drivers have been added and installation has been completely
-      reworked for better usability.<br/>
+      Viennent également de nombreux changements internes et du noyau. L'ensemble de la distribution est modulaire afin de mieux détecter votre matériel et prendre en charge uniquement ce qui est nécessaire. De nombreux pilotes ont été ajoutés et l'installation a été entièrement remaniée pour une meilleure convivialité.<br/>
       <br/>
-      This version also has been optimized for various platforms like EeePCs,
-      EasyGate and bring official support of MacIntels computers. It also
-      introduce a new port to x86_64 architecture which brings a small
-      performance boost regarding to the 32bit edition.<br/>
+      Cette version a également été optimisée pour les différentes plates-formes comme EeePCs, EasyGate et apporte le support officiel des MacIntels.<br/>
+      Elle apporte également un nouveau port de l'architecture x86_64 qui apporte un petit mieux en ce qui concerne les performances par rapport à l'édition 32 bits.<br/>
       <br/>
-      Unless major bugs are encountered, you may expect the final 1.2 release
-      to come pretty soon. In the mean time, the more you test this beta
-      version and report bugs, the fastest it'll be issued.<br/>
+      À moins que des bugs importants soient rencontrés, vous pouvez vous attendre à la sortie de la version finale 1.2 très rapidement.<br/>
+      Dans tous les cas, plus vous testerez cette version bêta et signalerez des bugs, plus elle sortira vite.<br/>
       <br/>
-      <b>Detailed Changelog (relative to 1.1 release):</b><br/>
+      Liste détaillée des changements (depuis la version 1.1):<br/>
       <br/>
-      <b>System:</b><br/>
-      - X.Org 7.4 inclusion (default, change it with generator).<br/>
-      - Support for SMP and multi-cores.<br/>
-      - Update to Linux 2.6.27.4.<br/>
-      - Update BusyBox to 1.11.3.<br/>
-      - Update to SysLinux 3.72.<br/>
-      - Use of initramfs instead of initrd.<br/>
+      <B>Système:</B> <br/>
+      - X. Org 7.4 (par défaut, modifiable via le générateur d'ISO). <br/>
+      - Support pour le SMP et les multi-coeurs. <br/>
+      - Mise à jour vers Linux 2.6.27.4. <br/>
+      - Mise à jour de BusyBox 1.11.3. <br/>
+      - Mise à jour de SysLinux 3.72.<br/>
+      - Utilisation des initramfs au lieu de initrd. <br/>
       <br/>
-      <b>Toolchain:</b><br/>
-      - Update to GCC 4.3.2.<br/>
-      - Upgrade uClibc to 0.9.30-rc3.<br/>
-      - Upgrade glibc to 2.7.<br/>
-      - Use glibc as a default when building with X.Org.<br/>
+      <B>Outils:</B><br/>
+      - Mise à jour de GCC 4.3.2. <br/>
+      - Mise à jour de uClibc0.9.30-rc3. <br/>
+      - Mise à jour de la glibc 2.7. <br/>
+      - Utilisation de glibc par défaut lors de la création avec X.Org. <br/>
       <br/>
-      <b>Ports:</b><br/>
-      - Port to x86_64 architecture.<br/>
-      - Port to PowerPC 64bit architecture.<br/>
-      - MacIntel support.<br/>
-      - Optimizations for EasyGate platform.<br/>
-      - Optimizations for EeePC 700.<br/>
+      <B>Ports:</B><br/>
+      - Port de l'architecture x86_64. <br/>
+      - Port de l'architecture PowerPC 64 bits. <br/>
+      - Support des MacIntel. <br/>
+      - Optimisations pour la plate-forme EasyGate. <br/>
+      - Optimisations pour les EeePC 700.<br/>
       <br/>
-      <b>Player:</b><br/>
-      - Update MPlayer to r27662.<br/>
-      - Enable ASS support.<br/>
-      - Add MonkeyAudio decoder.<br/>
-      - Add GOOM audio visualization.<br/> 
-      - Fix for CDDA playback.<br/>
-      - Add TV selection menu.<br/>
-      - Add de-interlace filter for DVDs and TV streams.<br/>
-      - Use of keypad for DVDNAV controls.<br/>
-      - Add support for extended PLS netstream entries.<br/>
-      - Enhanced DVD Navigation Menu support.<br/>
-      - Fix somes issues with encrypted DVDs playback.<br/>
-      - Use per stream type configuration profiles.<br/>
+      <B>Lecteur:</B> <br/>
+      - Mise à jour de MPlayer r27662. <br/>
+      - Activation du support ASS. <br/>
+      - Ajout du décodeur MonkeyAudio. <br/>
+      - Ajout de l'outil de visualisation audio GOOM. <br/>
+      - Correction de la lecture CDDA. <br/>
+      - Ajout du menu de sélection TV. <br/>
+      - Ajout du filtre de désentrelacement pour les DVD et les flux TV. <br/>
+      - Utilisation du clavier pour des contrôles dvdnav. <br/>
+      - Ajout du support des entrées «extended PLS netstream». <br/>
+      - Amélioration du support du menu de navigation des DVD. <br/>
+      - Correction de quelques problèmes avec la lecture de DVD cryptés. <br/>
+      - Utilisation par flux de profils de configuration. <br/>
       <br/>
-      <b>Video:</b><br/>
-      - Add widescreens and HDTV screens support.<br/>
-      - Add X11 video acceleration for most graphic cards (Intel, nVidia, ATI,
-      S3, SiS, VIA ...).<br/>
-      - TV-Out is no longer available when booting with X.Org enabled.<br/>
-      - Some Intel VESA driver fixes.<br/>
-      - ATI VIDIX driver color fixes.<br/>
-      - Restore VIDIX support on PowerPC.<br/>
+      <B>Vidéo:</B><br/>
+      - Ajout du support des écrans larges et HDTV. <br/>
+      - Ajout de l'accélération vidéo X11 pour la plupart des cartes graphiques (Intel, nVidia, ATI, S3, SiS, VIA ...). <br/>
+      - La sortie TV (TV-Out) n'est plus disponible lors du démarrage avec X.Org. <br/>
+      - Correction de certains soucis avec les pilotes Intel VESA. <br/>
+      - Correction des couleurs avec le pilotes ATI VIDIX. <br/>
+      - Restauration du support des pilotes VIDIX sur PowerPC. <br/>
       <br/>
-      <b>Drivers:</b><br/>
-      - X.Org hardware autodetection.<br/>
-      - Dozens of new WiFi, Ethernet, DVB ... drivers supported.<br/>
-      - All drivers are now modularized (no longer built-in): only useful ones
-      are actually loaded.<br/>
-      - Add kernel drivers auto probe and load mechanisms.<br/>
-      - Fix many PATA devices issues.<br/>
-      - Add support for 16bit PCMCIA cards.<br/>
-      - LIRC 0.8.4<br/>
+      <B>Pilotes:</B> <br/>
+      - Autodétection du matériel X.Org. <br/>
+      - Des dizaines de nouveaux pilotes WiFi, Ethernet, DVB ... pris en charge. <br/>
+      - Tous les pilotes sont désormais modulaires (ne sont plus intégrés): seulement ceux utiles sont chargées. <br/>
+      - Ajout des pilotes du noyau «autoprobe» et «load mechanisms». <br/>
+      - Correction de nombreux problèmes avec les périphériques PATA. <br/>
+      - Ajout du support pour les cartes PCMCIA 16 bits. <br/>
+      - LIRC 0.8.4 <br/>
       <br/>
-      <b>Networking:</b><br/>
-      - Upgrade to Samba 3.0.32 (better support for MS Vista shares).<br/>
-      - Add support for Plan9 network shares .<br/>
-      - Add NFS v3/4 support.<br/>
-      - Add PXE boot from Samba.<br/>
-      - Allow for defining static samba mounts<br/>
+      <B>Réseau:</B><br/>
+      - Mise à jour de Samba 3.0.32 (meilleur support pour les partages réseau avec Vista). <br/>
+      - Ajout du support pour les partages réseau Plan9. <br/>
+      - Ajout du support de  NFS v3 / 4. <br/>
+      - Ajout du démarrage PXE depuis Samba. <br/>
+      - Permettre de définir les partages samba montés en statique. <br/>
       <br/>
-      <b>Installator:</b><br/>
-      - Introduction of configurator: post-install reconfiguration
-      utility.<br/>
-      - Use of libparted instead of old fdisk for disk partionning.<br/>
-      - Enhanced install to USB process.<br/>
-      - Provide faster boot methods for install to HDD.<br/>
+      <B>Installateur:</B> <br/>
+      - Présentation du configurateur: utilitaire de configuration après installation. <br/>
+      - Utilisation des «libparted» au lieu de «fdisk» pour le partitionnement des disques anciens.<br/>
+      - Amélioration de l'installation des processus USB. <br/>
+      - Fournit des méthodes de démarrage rapide pour l'installation sur disque dur. <br/>
       <br/>
-      <b>Generator:</b><br/>
-      - Add HDTV (X.org) related new options and configuration settings.<br/>
-      - Add GOOM audio visualization settings tab.<br/>
-      - Add NFS shares configuration tab.<br/>
-      - Add static Samba shares configuration tab.<br/>
-      - Automatic packages download at ISO image compilation.<br/>
+      <B>Générateur:</B> <br/>
+      - Ajout de la TVHD(X.org) permettant de nouvelles options et paramètres de configuration. <br/>
+      - Ajout de l'onglet de paramétrage de la visualisation audio GOOM. <br/>
+      - Ajout de l'onglet de configuration des partages NFS. <br/>
+      - Ajout de l'onglet de configuration des partages statiques Samba. <br/>
+      - Automatisation du téléchargement des paquets lors de la compilation d'une image ISO. <br/>
       <br/>
-      <b>Miscellaneous: </b><br/>
-      - Add AppleIR remote support.<br/>
-      - Add X10 RF MCE remote control support.<br/>
-      - Add ACPI multimedia buttons handling.<br/>
-      - Enhanced system information menu.<br/>
-      - Enhance VESA boot menu.<br/>
-      - Enhanced Web interface and better browser compliance.<br/>
-      - Add optional support for Video Disk Recorder (VDR).<br/>
-      - Use FeH image viewer instead of FBI.<br/>
+      <B>Divers:</B><br/>
+      - Ajout du support des télécommandes AppleIR. <br/>
+      - Ajout du support des télécommandes X10 RF MCE. <br/>
+      - Ajout du support des boutons multimédia ACPI. <br/>
+      - Amélioration du menu information. <br/>
+      - Amélioration du menu de démarrage VESA. <br/>
+      - Amélioration de l'interface Web et une meilleure compatibilité avec les navigateurs.<br/>
+      - Ajout du support optionnel pour Video Disk Recorder (VDR). <br/>
+      - Utilisation de la visualisation d'images Feh au lieu de FBI.<br/>
       <br/>
-      GeeXboX 1.2-beta1 (for x86_32 and x86_64 computers only) is available
-      right <a href="downloads.html">here</a> and now!
+      GeeXboX 1.2-beta1 (pour processeurs x86_32 et x86_64 uniquement ) est disponible <a href="downloads.html">ici</a><br/> dès maintenant!<br/>
+      <br/>
       </content>
     </subsection>
 
