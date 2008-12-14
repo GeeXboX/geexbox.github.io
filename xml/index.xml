@@ -79,6 +79,136 @@
       </content>
     </subsection>
 
+    <subsection label="geexbox_1.2_beta2" date="2008-12-14">
+      <content lang="en" title="GeeXboX 1.2-beta2">
+      Here comes GeeXboX 1.2 second beta release. Thanks to your feedback on
+      forums, we've been able to iron out a lot of nasty bugs from beta1.
+      There's no major changes in terms of features but the distribution is
+      now much more stable, which is always a good thing. Most of the
+      corrections took place at the driver level, as many people encountered
+      some issues with hardware support. The few PowerPC users that still exist
+      will also be pleased to know that we've manage to resurrect the port to
+      this architecture (latest release was 1.0, more than 2 years ago).<br/>
+      <br/>
+      We truely hope it'll be the very latest beta release before 1.2 comes
+      out. In the mean time, just test this one out.<br/>
+      <br/>
+      <b>Detailed Changelog (relative to 1.2-beta1 release):</b><br/>
+      <br/>
+      <b>System:</b><br/>
+      - Upgrade Linux kernel to 2.6.27.9<br/>
+      - Massive firmwares support upgrades: fixes many driver loading
+      issues.<br/>
+      <br/>
+      <b>Toolchain:</b><br/>
+      - Update uClibc to 0.9.30.<br/>
+      <br/>
+      <b>Ports:</b><br/>
+      - Restore PowerPC architecture support.<br/>
+      <br/>
+      <b>X.Org:</b><br/>
+      - Update X.Org server to 1.5.3.<br/>
+      - Add HAL support, X.Org now uses evdev/XInput to handle input devices:
+      this provides a complete X.Org settings autodetection.<br/>
+      - Fasten X.Org startup.<br/>
+      <br/>
+      <b>Player:</b><br/>
+      - Upgrade MPlayer to r28089.<br/>
+      - Native RealVideo 10 decoder.<br/>
+      <br/>
+      <b>Video:</b><br/>
+      - Remove RadeonHD driver, use legacy ATI instead (should fix some
+      X.Org ATI drivers issues).<br/>
+      - Upgrade Intel X.Org driver to 2.5.1<br/>
+      <br/>
+      <b>Drivers:</b><br/>
+      - Many UDEV related rules changes (should fix some legacy PATA devices
+      driver loading issues).<br/>
+      - Fix LIRC Serial driver issues.<br/>
+      - Fixes some CD/DVD loading issues (bad fs was used on Video DVDs).<br/>
+      <br/>
+      <b>Networking:</b><br/>
+      - Restore UPnP feature.<br/>
+      <br/>
+      <b>Miscellaneous:</b><br/>
+      - Fix FBI Image Viewer loader.<br/>
+      - Various enhancements on info display menu.<br/>
+      - Many fixes to WebGUI.<br/>
+      <br/>
+      GeeXboX 1.2-beta2 (for x86_32, x86_64 and powerpc computers) is available
+      right <a href="downloads.html">here</a> and now!
+      </content>
+      <content lang="fr" title="GeeXboX 1.2-beta2">
+      Voici venir la seconde version beta de la GeeXboX 1.2. Grâce à vos
+      nombreux retours de bugs sur notre forum, il nous a été possible d'isoler
+      et corriger un certain nombres de problèmes qui subsistaient au sein de
+      la beta1. Il n'y a aujourd'hui plus de changements fondamentaux en terme
+      de fonctionnalités, mais la distribution est désormais beaucoup plus
+      stable, ce qui est evidemment toujours une bonne chose. Les principales
+      modifications ont eu lieu aux niveau des pilotes de périphériques, de
+      nombreux utilisateurs ayant connus des problèmes de support matériel.
+      Les quelques utilisateurs de la version PowerPC seront également heureux
+      de voir qu'il nous a (enfin) été possible de ressuciter le support de
+      cette architecture (la dernière version étant la 1.0, il y a plus de
+      2 ans).<br/>
+      <br/>
+      Nous espérons sincèrement qu'il s'agit ici de la dernière version beta
+      avant que la 1.2 voit le jour. En attendant, empressez vous de tester
+      cette dernière.<br/>
+      <br/>
+      <b>Liste détaillée des changements (depuis la version
+      1.2-beta1) :</b><br/>
+      <br/>
+      <b>Système :</b><br/>
+      - Mise à jour du noyau Linux en version 2.6.27.9<br/>
+      - Mise à jour massives des microcodes logiciels, corrigeant un très grand
+      nombre de problèmes de chargement de pilotes de périphériques.<br/>
+      <br/>
+      <b>Chaîne de compilation :</b><br/>
+      - Mise à jour de la uClibc vers la version 0.9.30.<br/>
+      <br/>
+      <b>Portages :</b><br/>
+      - Retour de l'architecture PowerPC.<br/>
+      <br/>
+      <b>X.Org :</b><br/>
+      - Mise à jour du serveur X en version 1.5.3.<br/>
+      - Ajout du support d'HAL, X.Org utilise désormais la couche evdev/XInput
+      pour gérer les différents périphériques : ceci permet une autodétection
+      complète des paramètres du serveur X.<br/>
+      - Le démarrage de X.Org a été raccourci.<br/>
+      <br/>
+      <b>Lecteur Multimédia :</b><br/>
+      - Mise  à jour de MPlayer en version r28089.<br/>
+      - Décodeur natif pour RealVideo 10.<br/>
+      <br/>
+      <b>Vidéo :</b><br/>
+      - Suppression du pilote RadeonHD, remplacé par le pilote ATI originel
+      (ceci devrait corriger un grand nombre de problèmes pour les
+      cartes ATI).<br/>
+      - Mise à jour du pilote X.Org pour cartes Intel en version 2.5.1<br/>
+      <br/>
+      <b>Pilotes de périphériques :</b><br/>
+      - Modification de nombreuses règles pour UDEV (ceci devrait corriger les
+      problèmes de chargement des pilotes pour périphériques PATA).<br/>
+      - Correction des problèmes de pilote série pour LIRC.<br/>
+      - Correction des problèmes de chargement de CD/DVD (le mauvais système
+      de fichier était utilisé pour les DVD Vidéos).<br/>
+      <br/>
+      <b>Réseau :</b><br/>
+      - Restoration du support UPnP.<br/>
+      <br/>
+      <b>Divers :</b><br/>
+      - Correction du problème de chargement du visionneur d'images FBI.<br/>
+      - Corrections diverses autour du menu d'affichage d'informations
+      système.<br/>
+      - De nombreuses corrections autour de l'interface Web.<br/>
+      <br/>
+      La GeeXboX 1.2-beta2 (pour ordinateurs x86_32, x86_64 et powerpc) est
+      disponible dès à présent sur notre <a href="downloads.html">page de
+      téléchargements</a>.
+      </content>
+    </subsection>
+
     <subsection label="geexbox_1.2_beta1" date="2008-11-01">
       <content lang="en" title="GeeXboX 1.2-beta1">
       As usual, it took way longer than expected but there it is:
