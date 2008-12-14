@@ -28,7 +28,7 @@
   <arch-names>
     <arch-name code="i386">x86_32 (PC)</arch-name>
     <arch-name code="x86_64">x86_64 (PC)</arch-name>
-    <arch-name code="ppc">PowerPC (Macintosh)</arch-name>
+    <arch-name code="powerpc">PowerPC (Macintosh)</arch-name>
   </arch-names>
 
   <size-names lang="en">
