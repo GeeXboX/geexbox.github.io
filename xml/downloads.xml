@@ -170,33 +170,6 @@
       </content>
     </subsection>
 
-    <subsection label="debian">
-      <content lang="en" title="GeeXboX Debian Repository">
-        <description img="../img/deb-trans.png">
-          The GeeXboX ISO generator is also available through <b>apt-get</b> for GNU/Linux Debian users. Simply add the following lines to your <i>/etc/apt/sources.list</i> file :<br/>
-          <br/>
-          <use name="deb-gen"/><br/>
-          <use name="deb-gen-src"/><br/>
-        </description>
-      </content>
-      <content lang="fr" title="Dépositoire GeeXboX pour Debian">
-        <description img="../img/deb-trans.png">
-          Le générateur d'ISO de la GeeXboX est également disponible via l'outil <b>apt-get</b> pour les utilisateurs de distribution Debian GNU/Linux. Ajoutez simplement les lignes suivantes à la fin de votre fichier <i>/etc/apt/sources.list</i> :<br/>
-          <br/>
-          <use name="deb-gen"/><br/>
-          <use name="deb-gen-src"/><br/>
-        </description>
-      </content>
-      <content lang="de" title="GeeXboX Debian Repository">
-        <description img="../img/deb-trans.png">
-          Der GeeXboX ISO Generator ist auch mit <b>apt-get</b> erhältlich für alle GNU/Linux Debian Nutzer. Einfach die folgenden Zeilen der Datei <i>/etc/apt/sources.list</i> hinzufügen:<br/>
-          <br/>
-          <use name="deb-gen"/><br/>
-          <use name="deb-gen-src"/><br/>
-        </description>
-      </content>
-    </subsection>
-
     <subsection label="releases">
       <content lang="en" title="GeeXboX Old Releases">
         <description img="../img/old-trans.png">
