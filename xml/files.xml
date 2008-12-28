@@ -5,76 +5,76 @@
   <file type="iso">
     <arch>i386</arch>
     <libc>glibc</libc>
-    <version>1.2-beta2</version>
+    <version>1.2-beta3</version>
     <lang>en</lang>
-    <size>19771392</size>
-    <md5>6b72690638e61d0293217f564366e125</md5>
-    <sha1>978659f990f17ada2e51ec328dcf0716521602b4</sha1>
+    <size>19918848</size>
+    <md5>1402cf6568e6a9c74b82cee46efe7395</md5>
+    <sha1>715e3f0f113f2b69d51e6d078d6599c7cc0b64fd</sha1>
   </file>
 
   <file type="iso">
     <arch>x86_64</arch>
     <libc>glibc</libc>
-    <version>1.2-beta2</version>
+    <version>1.2-beta3</version>
     <lang>en</lang>
-    <size>21270528</size>
-    <md5>2faf8a299c8dabfdbc641d20c498190a</md5>
-    <sha1>8ac92e2c9ab3f9c2ef11097c0835d8a80056b9e9</sha1>
+    <size>21442560</size>
+    <md5>9abee872b74f7ca7714a6c5e7589277b</md5>
+    <sha1>d598a2a4ce1b23af2585a8e8193823e492ec923f</sha1>
   </file>
 
   <file type="iso">
     <arch>powerpc</arch>
     <libc>uClibc</libc>
-    <version>1.2-beta2</version>
+    <version>1.2-beta3</version>
     <lang>en</lang>
-    <size>17299456</size>
-    <md5>1e02bb3f991cc691642f30d42729f04b</md5>
-    <sha1>9d6127fbddf04138c215651d160dc80f2a91217e</sha1>
+    <size>18298880</size>
+    <md5>52d60475169adee9f4823f41641c49cf</md5>
+    <sha1>cd089bee0210dd5a20547915829123cf87143318</sha1>
   </file>
 
   <file type="gen">
     <arch>i386</arch>
     <libc>glibc</libc>
-    <version>1.2-beta2</version>
-    <size>22233219</size>
-    <md5>d1713b2b812274293f45555299c0bce5</md5>
-    <sha1>a0ddc0840d0ca93875eb2d3bab30beae7a3367b4</sha1>
+    <version>1.2-beta3</version>
+    <size>22354876</size>
+    <md5>1ce5e317b52e4923354ac73446780499</md5>
+    <sha1>cca41c017a10462c58e5900ea49831747f58ed45</sha1>
   </file>
 
   <file type="gen">
     <arch>x86_64</arch>
     <libc>glibc</libc>
-    <version>1.2-beta2</version>
-    <size>23726712</size>
-    <md5>2614bb29e27a823ff88c6adaa772314f</md5>
-    <sha1>95eb324e2b9ea64814a28b52b84949456be78d5b</sha1>
+    <version>1.2-beta3</version>
+    <size>23876772</size>
+    <md5>4fabde7b5dccd9f0f352b43b105af2ab</md5>
+    <sha1>43f8f4ca1d12b62dc88a4016a2a4f9a231064abe</sha1>
   </file>
 
   <file type="gen">
     <arch>powerpc</arch>
     <libc>uClibc</libc>
-    <version>1.2-beta2</version>
-    <size>16705191</size>
-    <md5>5a3d3f78cb2c5492220de218056cfee6</md5>
-    <sha1>f29617dc642de0519bf16b63eadf1bf726cf64f2</sha1>
+    <version>1.2-beta3</version>
+    <size>17432715</size>
+    <md5>835605a9642f31b4910803aaa14dd210</md5>
+    <sha1>cbdfd34135a67691e4c4c161fceae069711ae466</sha1>
   </file>
 
   <file type="src">
-    <version>1.2-beta2</version>
+    <version>1.2-beta3</version>
     <src-type>lite</src-type>
     <src-ext>tar.bz2</src-ext>
-    <size>886803</size>
-    <md5>2fde77a8596c1d9d6e97f3e633f52fdd</md5>
-    <sha1>d3d2c2c336c78d5e5a40ec25a8dda4ce03ca1cb5</sha1>
+    <size>1121173</size>
+    <md5>f661cf0d06c3792aaff4c6697262d409</md5>
+    <sha1>2d9fe3f6f768b4ddc0dadcc4c26e38ea46de54c3</sha1>
   </file>
 
   <file type="src">
-    <version>1.2-beta2</version>
+    <version>1.2-beta3</version>
     <src-type>full</src-type>
     <src-ext>tar</src-ext>
-    <size>379125760</size>
-    <md5>a76ae37cc4c320a885d36c551b5fc325</md5>
-    <sha1>6ee09c217ef8cec8069123e9ff5acd15a53045ba</sha1>
+    <size>550051840</size>
+    <md5>05b67efbbe135d19bee911474722d6d0</md5>
+    <sha1>c7440b0e625184a6f5c18c912dbbf7f6d3ac12d3</sha1>
   </file>
 
   <file type="old"/>
