@@ -79,6 +79,51 @@
       </content>
     </subsection>
 
+    <subsection label="geexbox_1.2_beta3" date="2008-12-28">
+      <content lang="en" title="GeeXboX 1.2-beta3">
+      Ok, beta2 was not the last one and here comes beta3 which is definitely
+      candidate for 1.2 release. We've performed a huge amount of bug fixes in
+      various area and were able to correct some long standing issues we had.
+      Two major changes come with this release: a completely new automounter
+      that now relies on D-BUS and HAL and the restoration of installer
+      feature. So yeah, finally (it's been time ...), you should be able to
+      install GeeXboX again, on both your HDDs and USB keys. Other parts of
+      GeeXboX also welcomed a few changes, mostly regarding the player, that
+      received a few fixes for AudioCDs, DVDs, AAC and RealVideo 9
+      playback.<br/>
+      <br/>
+      <b>Detailed Changelog (relative to 1.2-beta2 release):</b><br/>
+      <br/>
+      <b>System:</b><br/>
+      - Upgrade Linux kernel to 2.6.27.10<br/>
+      - Rework of installator, now works fine with both HDD and USB
+      installs.<br/>
+      <br/>
+      <b>X.Org:</b><br/>
+      - ATI Radeon driver upgrade.<br/>
+      - ATI Rage128 driver addition.<br/>
+      <br/>
+      <b>Player:</b><br/>
+      - Updated MPlayer to r28184 (provides native RealVideo 9 / RV30
+      decoder).<br/>
+      - Use FAAD2 for AAC decoding (fixes many audio playback issues).<br/>
+      - Fix CDDA/DVD playback issues.<br/>
+      <br/>
+      <b>Networking:</b><br/>
+      - Add optional Samba server support.<br/>
+      <br/>
+      <b>Miscellaneous:</b><br/>
+      - Complete rework of automounter, now based on D-BUS/HAL.<br/>
+      - Mounted disks names are now much more eloquent.<br/>
+      - Fix some disc eject issues.<br/>
+      - Add optionnal disc images (.bin, .iso, .img, .mdf, .nrg) mounter.<br/>
+      - Restore the old menu font.<br/>
+      <br/>
+      GeeXboX 1.2-beta3 (for x86_32, x86_64 and powerpc computers) is
+      available right <a href="downloads.html">here</a> and now!
+      </content>
+    </subsection>
+
     <subsection label="geexbox_1.2_beta2" date="2008-12-14">
       <content lang="en" title="GeeXboX 1.2-beta2">
       Here comes GeeXboX 1.2 second beta release. Thanks to your feedback on
