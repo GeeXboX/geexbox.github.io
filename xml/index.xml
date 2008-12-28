@@ -122,6 +122,56 @@
       GeeXboX 1.2-beta3 (for x86_32, x86_64 and powerpc computers) is
       available right <a href="downloads.html">here</a> and now!
       </content>
+      <content lang="fr" title="GeeXboX 1.2-beta3">
+      La version beta2 n'était finalement pas la dernière et voici donc
+      débarquer la beta3 qui est désormais prête à constituer la version 1.2
+      finale. Nous avons procédé à un nombre incroyable de corrections de bugs
+      dans divers domaines afin de mettre fin de manière définitive à des
+      problèmes de long terme. Deux changements majeurs interviennent avec
+      cette nouvelle version, à savoir l'appartition d'un nouvel auto-mounter
+      basé sur D-BUS and HAL, ainsi qu'à la restoration de la fonctionnalité
+      d'installation sur disque (il était temps ...). Vous devriez donc être à
+      nouveau en mesure d'installer GeeXboX sur vos disques durs et autres
+      clés USB. D'autres parties de la distribution ont également reçues un
+      certain nombre d'améliorations, les principales concernant le lecteur
+      multimédia, qui se voit corrigé les problèmes de lecture de CDs audio,
+      DVDs, flux audio AAC, et flux vidéo RealVideo 9.<br/>
+      <br/>
+      <b>Liste détaillée des changements (depuis la version 1.2-beta2):</b><br/>
+      <br/>
+      <b>Système:</b><br/>
+      - Mise à jour du noyau Linux en version 2.6.27.10<br/>
+      - Mise à jour de l'installator, il fonctionne désormais à nouveau avec
+      les disques durs et autres clés USB.<br/>
+      <br/>
+      <b>X.Org:</b><br/>
+      - Mise à jour des pilotes pour cartes ATI Radeon.<br/>
+      - Ajout des pilotes pour cartes ATI Rage128.<br/>
+      <br/>
+      <b>Lecteur Multimédia:</b><br/>
+      - Mise de MPlayer en version r28184 (fournit un decodeur natif pour le
+      format  RealVideo 9 / RV30).<br/>
+      - Utilisation de FAAD2 pour le décodage AAC (corrige de nombreux
+      problèmes de lecture audio).<br/>
+      - Correction des problèmes de lecture des CDs audio et DVDs.<br/>
+      <br/>
+      <b>Réseau:</b><br/>
+      - Prise en charge optionnelle de Samba en mode serveur.<br/>
+      <br/>
+      <b>Divers:</b><br/>
+      - Réécriture complète de l'automonter, désormais basé sur
+      D-BUS/HAL.<br/>
+      - Les noms des disques mountés sont désormais beaucoup plus
+      explicites.<br/>
+      - Correction de certains problèmes d'ejection de CD.<br/>
+      - Prise en charge optionnelle d'un monter d'images CD (.bin, .iso,
+       .img, .mdf, .nrg).<br/>
+      - Restauration de la police de caractère originelle du menu.<br/>
+      <br/>
+      La GeeXboX 1.2-beta3 (pour ordinateurs x86_32, x86_64 et powerpc) est
+      disponible dès à présent sur notre <a href="downloads.html">page de
+      téléchargements</a>.
+      </content>
     </subsection>
 
     <subsection label="geexbox_1.2_beta2" date="2008-12-14">
