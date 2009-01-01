@@ -101,6 +101,7 @@ body {
 }
 
 .dldesc {
+	display: table;
 	width: 100%;
 }
 
