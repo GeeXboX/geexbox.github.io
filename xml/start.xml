@@ -18,16 +18,16 @@ So, GeeXboX is a full operating system, running under Linux and based on the exc
 You may wonder why you should have to boot another operating system to play your media files, but just think about the Mini-ITX platforms like VIA Epia/Eden or Shuttle barebones. It's now affordable to bring DivX to your home cinema, plugging this kind of computer directly to your TV !!<br/><br/>
 
 At the time of the first development releases (Dec. 2002), it was only capable of playing DivX movies, but now, nearly every kind of media file can be played with GeeXboX, with the OS supporting :<br/><br/>
-   * MPEG 1/2 movies (MPG files, VCDs, DVDs ...)<br/>
-   * MPEG 4 movies (DivX, XviD, H.264 ...)<br/>
-   * RealMedia and Windows Media movies.<br/>
-   * OggMedia streams<br/>
-   * Matroska streams<br/>
-   * Audio streams like : MP3, Ogg/Vorbis, WAV (AudioCD), AC3, DTS, MusePack (MPC), FLAC ...<br/>
-   * Network streams : WebRadio and WebTV through SHOUTcast.<br/>
-   * Watching analog TV and digital DVB<br/>
-   * Playing analog Radio streams.<br/>
-   * Playing files from your local network (LAN) through remote NFS, Samba (i.e. Windows) or UPnP shares.<br/>
+   - MPEG 1/2 movies (MPG files, VCDs, DVDs ...)<br/>
+   - MPEG 4 movies (DivX, XviD, H.264 ...)<br/>
+   - RealMedia and Windows Media movies.<br/>
+   - OggMedia streams<br/>
+   - Matroska streams<br/>
+   - Audio streams like : MP3, Ogg/Vorbis, WAV (AudioCD), AC3, DTS, MusePack (MPC), FLAC ...<br/>
+   - Network streams : WebRadio and WebTV through SHOUTcast.<br/>
+   - Watching analog TV and digital DVB<br/>
+   - Playing analog Radio streams.<br/>
+   - Playing files from your local network (LAN) through remote NFS, Samba (i.e. Windows) or UPnP shares.<br/>
       </content>
       <content lang="fr" title="Qu'est ce que la GeeXboX ...">
         La question que vous êtes surement à même de vous poser est probablement : "Mais qu'est donc exactement le projet GeeXboX dont on arrête pas de me parler ?" ;-) Si tel est le cas, vous êtes au bon endroit !<br/><br/>
@@ -39,16 +39,16 @@ La GeeXboX est donc un système d'exploitation complet, basé sur un noyau Linux
 Vous êtes en mesure de vous interroger quant à l'intérêt de redémarrer votre ordinateur pour utiliser la GeeXboX pour faire ce qu'il vous était déjà possible de faire, mais pensez quelques instants à l'emploi possible sur des mini-PC tels que les plateformes Mini-ITX Epia/Eden de VIA ou de Shuttle. Il est désormais possible et abordable de ramener les DivX dans votre salon, en branchant simplement ce type de PC directement sur votre TV et ensemble hifi !!<br/><br/>
 
 A l'époque des premières phases de développement (Dec. 2002), il était uniquement possible de lire des vidéos encodées en DivX, mais désormais, presque tous les formats audio/vidéo sont compatibles avec la GeeXboX. Notre système supporte par exemple :<br/><br/>
-   * Les vidéos de type MPEG 1/2 (fichiers .MPG, VCDs, DVDs ...)<br/>
-   * Les vidéos de type MPEG 4 (DivX, XviD, H.264 ...)<br/>
-   * Les vidéos de type RealMedia et Windows Media.<br/>
-   * Les flux OggMedia<br/>
-   * Les flux Matroska<br/>
-   * Les flux exclusivement Audio tels que le MP3, Ogg/Vorbis, WAV (AudioCD), AC3, DTS, MusePack (MPC), FLAC ...<br/>
-   * Les flux réseaux comme les WebRadios ou WebTVs via SHOUTcast.<br/>
-   * La télévision analogique et numérique (DVB).<br/>
-   * L'écoute de flux analogiques de la radio.<br/>
-   * La lecture de fichiers depuis votre réseau local via les partages NFS, Samba (i.e. Windows) ou UPnP.<br/>
+   - Les vidéos de type MPEG 1/2 (fichiers .MPG, VCDs, DVDs ...)<br/>
+   - Les vidéos de type MPEG 4 (DivX, XviD, H.264 ...)<br/>
+   - Les vidéos de type RealMedia et Windows Media.<br/>
+   - Les flux OggMedia<br/>
+   - Les flux Matroska<br/>
+   - Les flux exclusivement Audio tels que le MP3, Ogg/Vorbis, WAV (AudioCD), AC3, DTS, MusePack (MPC), FLAC ...<br/>
+   - Les flux réseaux comme les WebRadios ou WebTVs via SHOUTcast.<br/>
+   - La télévision analogique et numérique (DVB).<br/>
+   - L'écoute de flux analogiques de la radio.<br/>
+   - La lecture de fichiers depuis votre réseau local via les partages NFS, Samba (i.e. Windows) ou UPnP.<br/>
       </content>
       <content lang="de" title="Was genau ist die GeeXboX ...">
         Die Frage, die Sie sich wahrscheinlich stellen, ist : "Junge, was genau ist eingentlich dieses GeeXboX Projekt, über das ich schon so viel gehört habe ?" ;-)<br/> Hier finden Sie die Antwort !<br/><br/>
@@ -60,15 +60,15 @@ GeeXboX ist also ein vollständiges Betriebssystem, das auf Linux und dem excell
 Sie mögen sich fragen, wozu Sie ein eigenes Betriebssystem starten sollten, nur um Ihre Multimediadateien abzuspielen. Aber denken Sie doch auch einmal an die Mini-ITX Plattformen wie VIA Epia/Eden oder Shuttle Barebones. Damit haben Sie nämlich zu erschwinglichen Preisen die Möglichkeit, DivX in Ihr Wohnzimmerkino mit direkter Ausgabe auf Ihrem TV zu bekommen !!<br/><br/>
 
 Z.Zt. der ersten Entwicklerversion (Dez. 2002) konnte die GeeXboX nur DivX Filme abspielen, aber jetzt kann nahezu jede Art von Mediadateien damit wiedergegeben werden, z.B. :<br/><br/>
-   * MPEG 1/2 Filme (MPG Dateien, VCDs, DVDs ...)<br/>
-   * MPEG 4 Filme (DivX, XviD, H.264 ...)<br/>
-   * RealMedia und Windows Media Filme.<br/>
-   * OggMedia Streams<br/>
-   * Matroska Streams<br/>
-   * Audio Streams wie : MP3, Ogg/Vorbis, WAV (AudioCD), AC3, DTS, MusePack (MPC), FLAC ...<br/>
-   * Network streams : Webradio and WebTV through SHOUTcast.<br/>
-   * Playing analog Radio streams.<br/>
-   * Playing files from your local network (LAN) through remote NFS, Samba (i.e. Windows) or UPnP shares.<br/>
+   - MPEG 1/2 Filme (MPG Dateien, VCDs, DVDs ...)<br/>
+   - MPEG 4 Filme (DivX, XviD, H.264 ...)<br/>
+   - RealMedia und Windows Media Filme.<br/>
+   - OggMedia Streams<br/>
+   - Matroska Streams<br/>
+   - Audio Streams wie : MP3, Ogg/Vorbis, WAV (AudioCD), AC3, DTS, MusePack (MPC), FLAC ...<br/>
+   - Network streams : Webradio and WebTV through SHOUTcast.<br/>
+   - Playing analog Radio streams.<br/>
+   - Playing files from your local network (LAN) through remote NFS, Samba (i.e. Windows) or UPnP shares.<br/>
       </content>
       <content lang="it" title="Cos'è GeeXboX ...">
         La domanda che ti starai facendo adesso probabilmente è : "Allora, cos'è esattamente questo progetto GeeXboX di cui ho sentito tanto parlare ?" ;-)<br />Beh, sei arrivato nel posto giusto!<br/><br/>
@@ -80,16 +80,16 @@ Allora, GeeXboX è un sistema operativo completo, eseguito sotto Linux e basato 
 Ti starai chiedendo perché mai dovresti avviare un altro sistema operativo per poter guardare i tuoi filmati, ma prova a pensare ai sistemi Mini-ITX come le schede VIA Epia/Eden o ai barebone della Shuttle. \`E ormai diventato possibile e nemmeno troppo costoso vedere i DivX sul tuo home cinema, semplicemente collegando questo genere di computer direttamente alla tua TV !!<br/><br/>
 
 Al momento della suo primo rilascio di sviluppo (Dicembre 2002), GeeXBox era capace solamente di riprodurre fimati DivX, ma ora, praticamente qualsiasi tipo di file multimediale può essere gestito; il sistema supporta :<br/><br/>
-   * filmati MPEG 1/2 (file MPG, Video CD, DVD ...)<br/>
-   * filmati MPEG 4 (DivX, XviD, H.264 ...)<br/>
-   * filmati RealMedia e Windows Media.<br/>
-   * flussi OggMedia<br/>
-   * flussi Matroska<br/>
-   * flussi audio quali : MP3, Ogg/Vorbis, WAV (CD audio), AC3, DTS, MusePack (MPC), FLAC ...<br/>
-   * flussi di rete : WebRadio e WebTV attraverso SHOUTcast.<br/>
-   * la TV analogica e digitale (DVB)<br/>
-   * l'ascolto della radio analogica.<br/>
-   * La riproduzione di file dalla rete locale (LAN) attraverso condivisione remote NFS, Samba (es. Windows) o UPnP.<br/>
+   - filmati MPEG 1/2 (file MPG, Video CD, DVD ...)<br/>
+   - filmati MPEG 4 (DivX, XviD, H.264 ...)<br/>
+   - filmati RealMedia e Windows Media.<br/>
+   - flussi OggMedia<br/>
+   - flussi Matroska<br/>
+   - flussi audio quali : MP3, Ogg/Vorbis, WAV (CD audio), AC3, DTS, MusePack (MPC), FLAC ...<br/>
+   - flussi di rete : WebRadio e WebTV attraverso SHOUTcast.<br/>
+   - la TV analogica e digitale (DVB)<br/>
+   - l'ascolto della radio analogica.<br/>
+   - La riproduzione di file dalla rete locale (LAN) attraverso condivisione remote NFS, Samba (es. Windows) o UPnP.<br/>
       </content>
     </subsection>
     <subsection label="more">
