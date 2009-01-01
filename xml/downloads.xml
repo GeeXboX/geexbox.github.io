@@ -136,6 +136,20 @@
       </content>
     </subsection>
 
+    <subsection label="generator">
+      <content lang="en" title="GeeXboX Win32 Installer">
+        <description img="../img/windows-trans.png">
+        This package is for Windows (32-bits) only. It is a regular Win32 application that allows you to easily install/uninstall a GeeXboX ISO on your current hard-disk (or any USB key) without need to partition (or format) it again. It makes use of internal Windows bootloader to allow you choosing between different OSes to boot from.
+        </description>
+        <download type="win32-installer" plus="../img/plus.png" minus="../img/minus.png">
+          <title>GeeXboX Win32 Installer (v<version/>)</title>
+          <description>GeeXboX Win32 Installer (v<version/>) for x86_32 targets is avaible from the following locations :<br/><b>Size:</b> <size/> - <b>md5sum:</b>
+ <md5/> - <b>sha1sum:</b> <sha1/></description>
+          <file>win32-installer/<version/>/geexbox-win32-installer-<version/>.exe</file>
+        </download>
+      </content>
+    </subsection>
+
     <subsection label="sources">
       <content lang="en" title="GeeXboX Sources">
         <description img="../img/src-trans.png">
