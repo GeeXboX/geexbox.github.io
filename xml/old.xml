@@ -177,6 +177,44 @@
     <content lang="fr" title="Archives (anciennes nouvelles) ..."/>
     <content lang="de" title="Archives (old news) ..."/>
 
+    <subsection label="developer_blogs" date="2008-08-19">
+      <content lang="en" title="GeeXboX weekly news: developers blogs ...">
+        Surrending to the blog's trend and due to both the lack of releases
+        and massive user/fanboys spam regarding project's enhancements, a few
+        GeeXboX developers have decided writting their own blogs to relate
+        about project's evolution. Lack of manpower resulted in homepage not
+        being updated, but development never has stopped and development
+        releases are regularly provided on user forum. While the 1.2 release of
+        GeeXboX still suffers of some nasty bugs to be released, interested
+        people can subscribe to RSS feeds (or simply visit) the following
+        blogs. They'll try to keep you updated on GeeXboX related projects
+        enhancements, including of course GeeXboX Media Center OS, but also
+        uShare, libdlna, libplayer and Enna. Stay tuned folks ...<br/><br/>
+        <use name="blog-ben"/><br/>
+        <use name="blog-mat"/><br/>
+      </content>
+      <content lang="fr" title="Quoi de neuf dans la GeeXboX ? Le blog des développeurs ...">
+        Succombant à la fois à la tendance du blog, à l'absence remarquée de
+        nouvelle version et aux nombreux couriers d'utilisateurs/fans relatif à
+        l'avancement du projet, un petit groupe de développeurs a décidé
+        d'ouvrir son propre blog dont le contenu est bien entendu en rapport
+        avec l'évolution du projet. Le manque chronique de contributeurs s'est
+        traduit par une page principale non mise à jour depuis plus d'un an,
+        mais le développement du projet ne s'est jamais arreté, au contraire,
+        et des versions de développement sont régulièrement mises à disposition
+        sur le forum des utilisateurs. Tandis que la version 1.2 de la GeeXboX
+        tarde à venir et souffre encore et toujours de nombreux bugs, les
+        personnes intéressées sont invitées à s'inscrire au flux RSS (ou
+        simplement à visiter) les blogs ci-dessous. Leurs buts est bien
+        evidemment d'essayer de vous tenir informé de l'évolution et des
+        progrès des différents projets GeeXboX, incluant bien entendu, la
+        distribution elle-même, mais également uShare, libdlna, libplayer et
+        Enna. On se retrouve donc là bas ...<br/><br/>
+        <use name="blog-ben"/><br/>
+        <use name="blog-mat"/><br/>
+      </content>
+    </subsection>
+
     <subsection label="geexbox_1.1" date="2007-07-01">
       <content lang="en" title="GeeXboX 1.1 : 'Not a substitue for Human interaction' edition">
         Although development never stopped, more than a year has passed
