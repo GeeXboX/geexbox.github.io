@@ -148,6 +148,17 @@
           <file>win32-installer/<version/>/geexbox-win32-installer-<version/>.exe</file>
         </download>
       </content>
+      <content lang="fr" title="Installeur GeeXboX pour Win32">
+        <description img="../img/windows-trans.png">
+        Ce packetage est disponible pour Windows (32-bits) uniquement. Il s'agit là d'une classique application Win32 vous permettant de très facilement installer/désinstaller une image ISO GeeXboX sur votre disque dur (ou n'importe quelle clé USB) sans avoir besoin de le partitionner/formatter. L'amorçeur Windows est alors utilisé pour vous permettre de choisir sur quel système d'exploitation vous désirez démarrer.
+        </description>
+        <download type="win32-installer" plus="../img/plus.png" minus="../img/minus.png">
+          <title>Installateur GeeXboX pour Win32 (v<version/>)</title>
+          <description>L'installateur GeeXboX (v<version/>) pour machines x86_32 est disponible depuis les emplacements suivants :<br/><b>Taille:</b> <size/> - <b>md5sum:</b>
+ <md5/> - <b>sha1sum:</b> <sha1/></description>
+          <file>win32-installer/<version/>/geexbox-win32-installer-<version/>.exe</file>
+        </download>
+      </content>
     </subsection>
 
     <subsection label="sources">
