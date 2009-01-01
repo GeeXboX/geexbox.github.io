@@ -480,11 +480,14 @@ oder aber eine installationsfähige Linux GeeXboX Version erstellen, durch : <br
         <b>
         title       GeeXboX<br/>
         root        (hd0,1)<br/>
-        kernel      /GEEXBOX/boot/vmlinuz root=/dev/ram0 rw rdinit=linuxrc boot=sda1 lang=en keymap=qwerty splash ...<br/>
+        kernel      /GEEXBOX/boot/vmlinuz root=/dev/ram0 rw rdinit=linuxrc boot=UUID=$my_uuid lang=en keymap=qwerty splash ...<br/>
         initrd      /GEEXBOX/boot/initrd.gz<br/>
         quiet<br/>
         </b>
         <br/>
+        Just take are about two things:<br/>
+        - the field <b>root (hd0,1)</b> is to be adapted according to the rest of your GRUB's configuration.<br/>
+        - the <b>$my_uuid</b> value is the unique ID of your partition. Check within your GRUB config file, which value is set for other OS on the same partition or use <b>ls -l /dev/disk/by-uuid/</b> to see which uuid matches your partition.
       </content>
       <content lang="fr" title="GeeXboX installé en dual boot avec un autre Linux ...">
         Si vous disposze déjà d'un système Linux installé sur votre ordinateur,
@@ -500,11 +503,14 @@ oder aber eine installationsfähige Linux GeeXboX Version erstellen, durch : <br
         <b>
         title       GeeXboX<br/>
         root        (hd0,1)<br/>
-        kernel      /GEEXBOX/boot/vmlinuz root=/dev/ram0 rw rdinit=linuxrc boot=sda1 lang=en keymap=qwerty splash ...<br/>
+        kernel      /GEEXBOX/boot/vmlinuz root=/dev/ram0 rw rdinit=linuxrc boot=UUID=$mon_uuid lang=en keymap=qwerty splash ...<br/>
         initrd      /GEEXBOX/boot/initrd.gz<br/>
         quiet<br/>
         </b>
         <br/>
+        Prenez garde à 2 paramètres:<br/>
+        - le champ <b>root (hd0,1)</b> devra être adapté en fonction de sa valeur actuelle dans votre fichier de configuration GRUB.<br/>
+        - le valeur <b>$mon_uuid</b> correspond à l'identifiant unique de votre partition. Vérifiez au sein de votre fichier de configuration GRUB, quelle est la valeur utilisée pour les autres systèmes d'exploitation utilisant la même partition, ou utilisze la commande <b>ls -l /dev/disk/by-uuid/</b> afin de voir quelle valeur à été attribuée à la partition désirée.
       </content>
     </subsection>
 
