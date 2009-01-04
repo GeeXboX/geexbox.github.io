@@ -248,9 +248,7 @@ If you've made a hacked version of the GeeXboX, you can easily build a small tar
 or a full tar (containing all sources) with :<br/>
   <b>make fulldist</b><br/>
 or even, create the ISO generator package thanks to :<br/>
-  <b>make generator</b><br/>
-or, create the Linux GeeXboX's installator version with : <br/>
-  <b>make installator</b><br/><br/>
+  <b>make generator</b><br/><br/>
   The only thing you will have to worry about is the GeeXboX configuration file.
       </content>
       <content lang="fr" title="Construire la GeeXboX ...">
@@ -278,9 +276,7 @@ Si vous avez réalisé une modification interne à la GeeXboX, vous pouvez simpl
 ou un tar complet (incluant toutes les sources) via :<br/>
   <b>make fulldist</b><br/>
 ou encore, créer l'archive du générateur d'ISO grâce à :<br/>
-  <b>make generator</b><br/>
-et enfin, pour générer l'installator ; <br/>
-  <b>make installator</b><br/><br/>
+  <b>make generator</b><br/><br/>
 
   La seule chose dont vous ayez à vous soucier reste alors le fichier de configuration de la GeeXboX.
       </content>
@@ -310,9 +306,7 @@ Wenn Sie Änderungen an der GeeXboX gemacht haben, können Sie daraus einfach ei
 oder ein komplettes Tar-Archiv (inkl. aller Sourcen), durch :<br/>
   <b>make fulldist</b><br/>
 oder auch ein "ISO-Generator-Paket" erstellen durch :<br/>
-  <b>make generator</b><br/>
-oder aber eine installationsfähige Linux GeeXboX Version erstellen, durch : <br/>
-  <b>make installator</b><br/><br/>
+  <b>make generator</b><br/><br/>
   Das Einzige, um das Sie sich dabei kümmern müssen, ist die GeeXboX Konfigurationsdatei.
       </content>
 
