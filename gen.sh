@@ -15,7 +15,7 @@ else
 fi
 
 
-PAGES="index old start license screenshot requirements downloads buy doc controls generator hard faq links sponsors press mailing contact dev donate packages 404"
+PAGES="index old start license screenshot downloads buy doc controls generator hard faq links sponsors press mailing contact dev donate packages 404"
 LANGS="en fr"
 
 for l in $LANGS; do

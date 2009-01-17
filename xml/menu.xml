@@ -29,13 +29,6 @@
       <text lang="it">Informazioni su ...</text>
     </subitem>
 
-    <subitem name="require" url="requirements.html">
-      <text lang="en">Requirements</text>
-      <text lang="fr">Pré-requis</text>
-      <text lang="de">Voraussetzungen</text>
-      <text lang="it">Requisiti</text>
-    </subitem>
-
     <subitem name="license" url="license.html">
       <text lang="en">License</text>
       <text lang="fr">Licence</text>
