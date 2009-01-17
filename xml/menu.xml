@@ -135,6 +135,13 @@
       <text lang="it">Pacchetti inclusi</text>
     </subitem>
 
+    <subitem name="packages" url="http://bugs.geexbox.org/trac-geexbox.fcgi/query">
+      <text lang="en">Bugs Report</text>
+      <text lang="fr">Rapports de bogues</text>
+      <text lang="de">Bugs Report</text>
+      <text lang="it">Bugs Report</text>
+    </subitem>
+
     <subitem name="lists" url="mailing.html">
       <text lang="en">Mailing Lists</text>
       <text lang="fr">Listes de diffusion</text>
