@@ -311,6 +311,22 @@
           </ul>
         </div>
       </xsl:for-each>
+
+      <div id="ads">
+<!-- Google AdSense -->
+<xsl:text disable-output-escaping="yes"><![CDATA[
+<script type="text/javascript"><!--
+google_ad_client = "pub-8177632591767420";
+google_ad_slot = "1442020070";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+]]></xsl:text>
+      </div>
     </div>
   </div>
 </xsl:template>
