@@ -58,7 +58,7 @@
     </subitem>
   </item>
 
-  <item name="ressources" id="ressources">
+  <item name="resources" id="resources">
     <text lang="en">Resources</text>
     <text lang="fr">Ressources</text>
     <text lang="de">Ressourcen</text>
