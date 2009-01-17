@@ -34,7 +34,7 @@
       <meta name="dc.title" content="GeeXboX Homepage"/>
       <meta name="author" content="Aurelien Jacobs, Benjamin Zores"/>
       <meta name="robots" content="index, follow"/>
-      <meta name="keywords" content="computer, OS, Linux, distribution, embedded, multimedia, HTPC, home, theater, LiveCD, movie, audio, video, media, center, MPlayer, standalone, player, free, software, open, source, mpeg, mp3, divx, xvid, matroska, ogg, vorbis, AC3, DTS, VCD, DVD, CD, TV, tuner, TVOut, ATI, nVidia, DXR3, WiFi, PC, buysbox, uClibc, geexbox, geexbox.org"/>
+      <meta name="keywords" content="computer, OS, Linux, distribution, embedded, multimedia, HTPC, home, theater, LiveCD, movie, audio, video, media, center, MPlayer, standalone, player, free, software, open, source, mpeg, mp3, divx, xvid, matroska, ogg, vorbis, AC3, DTS, VCD, DVD, CD, TV, tuner, TVOut, ATI, nVidia, DXR3, WiFi, PC, UPnP, DLNA, h264, avc, vc1, hdtv, enna, busybox, uClibc, geexbox, geexbox.org"/>
       <link rel="alternate" type="application/atom+xml" title="GeeXboX news feed">
         <xsl:attribute name="href">http://geexbox.org/<xsl:value-of select="$lang"/>/news.xml</xsl:attribute>
       </link>
