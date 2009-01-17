@@ -51,8 +51,8 @@
     </subitem>
 
     <subitem name="buy" url="buy.html">
-      <text lang="en">Get a CD</text>
-      <text lang="fr">Obtenir un CD</text>
+      <text lang="en">Order a CD</text>
+      <text lang="fr">Acheter un CD</text>
       <text lang="de">CD kaufen</text>
       <text lang="it">Ottieni un CD</text>
     </subitem>
