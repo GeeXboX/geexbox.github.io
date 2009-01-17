@@ -8,6 +8,13 @@
     <text lang="de">GeeXboX</text>
     <text lang="it">GeeXboX</text>
 
+    <subitem name="get_started" url="start.html">
+      <text lang="en">About</text>
+      <text lang="fr">A propos ...</text>
+      <text lang="de">Zu Anfang</text>
+      <text lang="it">Informazioni su ...</text>
+    </subitem>
+
     <subitem name="news" url="index.html">
       <text lang="en">News</text>
       <text lang="fr">Nouvelles</text>
@@ -20,13 +27,6 @@
       <text lang="fr">Archives</text>
       <text lang="de">Archives</text>
       <text lang="it">Archivi</text>
-    </subitem>
-
-    <subitem name="get_started" url="start.html">
-      <text lang="en">About</text>
-      <text lang="fr">A propos ...</text>
-      <text lang="de">Zu Anfang</text>
-      <text lang="it">Informazioni su ...</text>
     </subitem>
 
     <subitem name="license" url="license.html">
@@ -64,6 +64,13 @@
     <text lang="de">Ressourcen</text>
     <text lang="it">Risorse</text>
 
+    <subitem name="controls" url="controls.html">
+      <text lang="en">Keys &amp; Controls</text>
+      <text lang="fr">Contrôles</text>
+      <text lang="de">Keys &amp; Controls</text>
+      <text lang="it">Controlli</text>
+    </subitem>
+
     <subitem name="doc" url="doc.html">
       <text lang="en">Documentation</text>
       <text lang="fr">Documentation</text>
@@ -71,11 +78,11 @@
       <text lang="it">Documentazione</text>
     </subitem>
 
-    <subitem name="controls" url="controls.html">
-      <text lang="en">Keys &amp; Controls</text>
-      <text lang="fr">Contrôles</text>
-      <text lang="de">Keys &amp; Controls</text>
-      <text lang="it">Controlli</text>
+    <subitem name="hard" url="hard.html">
+      <text lang="en">Hardware</text>
+      <text lang="fr">Matériel</text>
+      <text lang="de">Hardware</text>
+      <text lang="it">Hardware</text>
     </subitem>
 
     <subitem name="generator" url="generator.html">
@@ -92,13 +99,6 @@
       <text lang="it">FAQ</text>
     </subitem>
 
-    <subitem name="forum" url="http://www.geexbox.org/forum/">
-      <text lang="en">Forum</text>
-      <text lang="fr">Forum</text>
-      <text lang="de">Forum</text>
-      <text lang="it">Forum</text>
-    </subitem>
-
     <subitem name="wiki" url="http://www.geexbox.org/wiki/index.php/Main_Page">
       <text lang="en">Wiki</text>
       <text lang="fr">Wiki</text>
@@ -106,11 +106,26 @@
       <text lang="it">Wiki</text>
     </subitem>
 
-    <subitem name="hard" url="hard.html">
-      <text lang="en">Hardware</text>
-      <text lang="fr">Matériel</text>
-      <text lang="de">Hardware</text>
-      <text lang="it">Hardware</text>
+    <subitem name="forum" url="http://www.geexbox.org/forum/">
+      <text lang="en">Forum</text>
+      <text lang="fr">Forum</text>
+      <text lang="de">Forum</text>
+      <text lang="it">Forum</text>
+    </subitem>
+
+  </item>
+
+  <item name="development" id="development">
+    <text lang="en">Development</text>
+    <text lang="fr">Développement</text>
+    <text lang="de">Development</text>
+    <text lang="it">Development</text>
+
+    <subitem name="dev" url="dev.html">
+      <text lang="en">Developers</text>
+      <text lang="fr">Developpeurs</text>
+      <text lang="de">Entwickler</text>
+      <text lang="it">Sviluppatori</text>
     </subitem>
 
     <subitem name="packages" url="packages.html">
@@ -120,11 +135,11 @@
       <text lang="it">Pacchetti inclusi</text>
     </subitem>
 
-    <subitem name="dev" url="dev.html">
-      <text lang="en">Developers</text>
-      <text lang="fr">Developpeurs</text>
-      <text lang="de">Entwickler</text>
-      <text lang="it">Sviluppatori</text>
+    <subitem name="lists" url="mailing.html">
+      <text lang="en">Mailing Lists</text>
+      <text lang="fr">Listes de diffusion</text>
+      <text lang="de">Mailing Listen</text>
+      <text lang="it">Liste di discussione</text>
     </subitem>
 
     <subitem name="ben-blog" url="http://gxben.wordpress.com/">
@@ -140,6 +155,7 @@
       <text lang="de">Mat Dev Blog</text>
       <text lang="it">Mat Dev Blog</text>
     </subitem>
+
   </item>
 
   <item name="feedback" id="feedback">
@@ -160,13 +176,6 @@
       <text lang="fr">Contacts &amp; Auteurs</text>
       <text lang="de">Kontakt</text>
       <text lang="it">Contatti &amp; Persone</text>
-    </subitem>
-
-    <subitem name="lists" url="mailing.html">
-      <text lang="en">Mailing Lists</text>
-      <text lang="fr">Listes de diffusion</text>
-      <text lang="de">Mailing Listen</text>
-      <text lang="it">Liste di discussione</text>
     </subitem>
 
    <subitem name="donate" url="donate.html">

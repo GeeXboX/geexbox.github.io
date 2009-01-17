@@ -136,32 +136,32 @@ a:visited {
 	display: table;
 }
 
-#geexbox, #ressources, #feedback {
+#geexbox, #ressources, #development, #feedback {
 	display: table-row;
 }
 
-#geexbox h2, #ressources h2, #feedback h2 {
+#geexbox h2, #ressources h2, #development h2, #feedback h2 {
 	font-size:110%;
 	display: table-cell;
 	display: inline;
 	padding-bottom: 5px;
 }
 
-#geexbox ul, #ressources ul, #feedback ul {
+#geexbox ul, #ressources ul, #development ul, #feedback ul {
 	display: inline;
 }
 
-#geexbox ul, #ressources ul, #feedback ul {
+#geexbox ul, #ressources ul, #development ul, #feedback ul {
 	display: table-cell;
 }
 
-#geexbox li, #ressources li, #feedback li {
+#geexbox li, #ressources li, #development li, #feedback li {
 	display: inline;
 	list-style: none;
 	margin-right: 1em;
 }
 
-#geexbox a, #ressources a, #feedback a {
+#geexbox a, #ressources a, #development a, #feedback a {
 	text-decoration: none;
 	font-weight: bold;
 }
