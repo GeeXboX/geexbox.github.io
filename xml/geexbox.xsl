@@ -14,7 +14,7 @@
     <xsl:attribute name="xml:lang"><xsl:value-of select="$lang"/></xsl:attribute>
 
     <xsl:comment>
-      This web site is (c) 2003-2006 Zores Benjamin
+      This web site is (c) 2003-2009 Zores Benjamin
       HomePage for the GeeXboX Project (http://www.geexbox.org/)
       Feel free to get inspiration from this site, as long as you leave
       this comment here.
