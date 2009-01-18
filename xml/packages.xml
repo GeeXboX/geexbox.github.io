@@ -60,13 +60,6 @@
       <td align="center">2007-01-01</td>
     </tr>
   </define>
-  <define name="alsa-driver">
-    <tr>
-      <th align="center"><b><a href="http://www.alsa-project.org/">alsa-drivers</a></b></th>
-      <td align="center">included in linux kernel</td>
-      <td align="center">included in linux kernel</td>
-    </tr>
-  </define>
   <define name="alsa-lib">
     <tr>
       <th align="center"><b><a href="http://www.alsa-project.org/">alsa-lib</a></b></th>
@@ -79,13 +72,6 @@
       <th align="center"><b><a href="http://www.alsa-project.org/">alsa-utils</a></b></th>
       <td align="center">1.0.11</td>
       <td align="center">1.0.14</td>
-    </tr>
-  </define>
-  <define name="at76c503">
-    <tr>
-      <th align="center"><b><a href="http://at76c503a.berlios.de/">at76c503</a></b></th>
-      <td align="center">included in linux kernel</td>
-      <td align="center">included in linux kernel</td>
     </tr>
   </define>
   <define name="atitvout">
@@ -464,13 +450,6 @@
       <th align="center"><b><a href="http://us4.samba.org/samba/">Samba</a></b></th>
       <td align="center">3.0.22</td>
       <td align="center">3.0.25a</td>
-    </tr>
-  </define>
-  <define name="setcd">
-    <tr>
-      <th align="center"><b><a href="http://packages.debian.org/stable/utils/setcd">setcd</a></b></th>
-      <td align="center">*</td>
-      <td align="center">*</td>
     </tr>
   </define>
   <define name="strace">
