@@ -7,6 +7,7 @@
       <th align="center"><b>Packages</b></th>
       <td align="center"><b>1.0</b></td>
       <td align="center"><b>1.1</b></td>
+      <td align="center"><b>1.2</b></td>
     </tr>
   </define>
 
@@ -15,29 +16,61 @@
       <th align="center"><a href="http://www.gnu.org/software/binutils/">Binutils</a></th>
       <td align="center">2.16.1</td>
       <td align="center">2.17</td>
+      <td align="center">2.18.50.0.3</td>
     </tr>
+
     <tr>
       <th align="center"><a href="http://ccache.samba.org/">Ccache</a></th>
       <td align="center">2.4</td>
       <td align="center">2.4</td>
+      <td align="center">2.4</td>
     </tr>
+
     <tr>
       <th align="center"><a href="http://gcc.gnu.org/">gcc</a></th>
       <td align="center">4.1.1</td>
       <td align="center">4.1.2</td>
+      <td align="center">4.3.2</td>
     </tr>
+
     <tr>
       <th align="center"><a href="http://packages.debian.org/unstable/admin/genext2fs">genext2fs</a></th>
       <td align="center">1.3</td>
       <td align="center">1.3</td>
+      <td align="center">*</td>
     </tr>
+
+    <tr>
+      <th align="center">gmp</th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">4.2.3</td>
+    </tr>
+
     <tr>
       <th align="center"><a href="http://www.gnu.org/software/make/">make</a></th>
       <td align="center">3.81</td>
       <td align="center">3.81</td>
+      <td align="center">3.81</td>
     </tr>
+
+    <tr>
+      <th align="center">mpfr</th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.3.2</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>pkg-config</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.23</td>
+    </tr>
+
     <tr>
       <th align="center"><a href="http://sed.sourceforge.net/">sed</a></th>
+      <td align="center">4.1.4</td>
       <td align="center">4.1.4</td>
       <td align="center">4.1.4</td>
     </tr>
@@ -45,25 +78,43 @@
 
   <define name="packages">
     <tr>
+      <th align="center"><b>acpid</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.6</td>
+    </tr>
+
+    <tr>
       <th align="center"><b><a href="http://acx100.sourceforge.net/">acx100</a></b></th>
       <td align="center">*</td>
       <td align="center">2007-01-01</td>
+      <td align="center">2008-08-31</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.alsa-project.org/">alsa-lib</a></b></th>
       <td align="center">1.0.11</td>
       <td align="center">1.0.14</td>
+      <td align="center">1.0.18</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.alsa-project.org/">alsa-utils</a></b></th>
       <td align="center">1.0.11</td>
       <td align="center">1.0.14</td>
+      <td align="center">1.0.18</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>appleir</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.1</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.stud.uni-hamburg.de/users/lennart/projects/atitvout/">atitvout</a></b></th>
+      <td align="center">0.4 + fixes</td>
       <td align="center">0.4 + fixes</td>
       <td align="center">0.4 + fixes</td>
     </tr>
@@ -72,10 +123,12 @@
       <th align="center"><b><a href="http://bftpd.sourceforge.net/">bftpd</a></b></th>
       <td align="center">1.4</td>
       <td align="center">1.8.4</td>
+      <td align="center">2.2</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.bootsplash.org/">bootsplash</a></b></th>
+      <td align="center">3.1</td>
       <td align="center">3.1</td>
       <td align="center">3.1</td>
     </tr>
@@ -84,17 +137,34 @@
       <th align="center"><b><a href="http://www.busybox.net/">BusyBox</a></b></th>
       <td align="center">1.1.3</td>
       <td align="center">1.5.1</td>
+      <td align="center">1.11.3</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>D-BUS</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.2.3</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>D-BUS GLib</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.76</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.xiph.org/paranoia/">CDparanoia III</a></b></th>
       <td align="center">alpha 9.8</td>
       <td align="center">alpha 9.8</td>
+      <td align="center">*</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://cpufreqd.sourceforge.net/">CPU Freqd</a></b></th>
       <td align="center">2.0.0</td>
+      <td align="center">*</td>
       <td align="center">*</td>
     </tr>
 
@@ -102,11 +172,13 @@
       <th align="center"><b><a href="http://kernel.org/pub/linux/utils/kernel/cpufreq/cpufrequtils.html">CPU Freq Utils</a></b></th>
       <td align="center">0.4</td>
       <td align="center">*</td>
+      <td align="center">*</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://invisible-island.net/dialog/">dialog</a></b></th>
       <td align="center">1.0-20060126</td>
+      <td align="center">1.1-20070227</td>
       <td align="center">1.1-20070227</td>
     </tr>
 
@@ -114,59 +186,146 @@
       <th align="center"><b><a href="http://djmount.sourceforge.net/">djmount</a></b></th>
       <td align="center">0.53</td>
       <td align="center">0.71</td>
+      <td align="center">0.71</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.directfb.org/">DirectFB</a></b></th>
       <td align="center">*</td>
       <td align="center">1.0</td>
+      <td align="center">*</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>dmidecode</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.9</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://packages.debian.org/stable/otherosfs/dosfstools">dosfstools</a></b></th>
       <td align="center">2.11</td>
       <td align="center">2.11</td>
+      <td align="center">3.0.1</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.linuxtv.org/">dvb-apps</a></b></th>
       <td align="center">cvs 06.04.2006</td>
       <td align="center">cvs 01.23.2007</td>
+      <td align="center">cvs 08.04.2008</td>
     </tr>
 
     <tr>
-      <th align="center"><b><a href="http://ca.geocities.com/jefftranter@rogers.com/eject.html">eject</a></b></th>
+      <th align="center"><b>e2fsprogs</b></th>
       <td align="center">*</td>
       <td align="center">*</td>
+      <td align="center">1.41.0</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>e2fsprogs-libs</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.41.0</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>eee</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.3</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://dxr3.sourceforge.net/">em8300</a></b></th>
       <td align="center">0.15.3</td>
       <td align="center">0.16.2</td>
+      <td align="center">0.16.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>expat</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.0.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>faad2</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.6.1</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://linux.bytesex.org/fbida/">fbi</a></b></th>
       <td align="center">1.31</td>
       <td align="center">1.31</td>
+      <td align="center">1.31</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>FeH</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.3.4</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.jumbo.narod.ru/src/fmio/">fmio</a></b></th>
       <td align="center">2.0.8</td>
       <td align="center">*</td>
+      <td align="center">*</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>font-bistream-type1</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.0</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>font-cursor-misc</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.0</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>font-misc-misc</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.0</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>font-util</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>font-xfree86-type1</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.1</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.freetype.org/">freetype</a></b></th>
       <td align="center">2.1.10</td>
       <td align="center">2.1.10</td>
+      <td align="center">2.3.7</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://fribidi.sourceforge.net/">fribidi</a></b></th>
       <td align="center">0.10.7</td>
+      <td align="center">cvs 20061020</td>
       <td align="center">cvs 20061020</td>
     </tr>
 
@@ -174,34 +333,96 @@
       <th align="center"><b><a href="http://fuse.sourceforge.net/">fuse</a></b></th>
       <td align="center">2.5.3</td>
       <td align="center">2.6.5</td>
+      <td align="center">2.7.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>gettext</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.16.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>giblib</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.2.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>GLib</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.18.2</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>glibc</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.7</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>gnu-fdisk</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.gnu.org/software/grub/">grub</a></b></th>
       <td align="center">0.97</td>
       <td align="center">0.97</td>
+      <td align="center">0.97</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>HAL</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.5.11</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://i810tvout.geexbox.org/">i810 TV-Out</a></b></th>
       <td align="center">0.9.1</td>
       <td align="center">0.9.1</td>
+      <td align="center">0.9.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>imlib2</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.4.0</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.gnu.org/software/libiconv/">iconv</a></b></th>
       <td align="center">2.0.0</td>
       <td align="center">2.0.0</td>
+      <td align="center">*</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://ivtvdriver.org/index.php/Main_Page">ivtv</a></b></th>
       <td align="center">*</td>
       <td align="center">0.10.3</td>
+      <td align="center">built-in kernel</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>ivman</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.6.14</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://freshmeat.net/projects/libjpeg/">jpeg</a></b></th>
+      <td align="center">6b</td>
       <td align="center">6b</td>
       <td align="center">6b</td>
     </tr>
@@ -210,17 +431,48 @@
       <th align="center"><b><a href="http://ssl.bulix.org/projects/lcd4linux/">LCD 4 Linux</a></b></th>
       <td align="center">0.10.0</td>
       <td align="center">0.10.1-rc2</td>
+      <td align="center">0.10.1-rc2</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libcdio</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.80</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libdrm</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.4.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libdvdcss</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.2.10</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://dvd.sourceforge.net/">libdvdnav</a></b></th>
       <td align="center">*</td>
       <td align="center">svn r938</td>
+      <td align="center">4.1.3</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libdvdread</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">4.1.3</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.videolan.org/libdca.html">libdts</a></b></th>
       <td align="center">0.0.2</td>
+      <td align="center">*</td>
       <td align="center">*</td>
     </tr>
 
@@ -228,10 +480,33 @@
       <th align="center"><b><a href="http://sourceforge.net/projects/libexif">libexif</a></b></th>
       <td align="center">0.5.12</td>
       <td align="center">0.5.12</td>
+      <td align="center">0.5.12</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libfontenc</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libICE</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libiconv</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.12</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.evation.com/libirman/libirman.html">libirman</a></b></th>
+      <td align="center">0.4.4</td>
       <td align="center">0.4.4</td>
       <td align="center">0.4.4</td>
     </tr>
@@ -240,11 +515,13 @@
       <th align="center"><b><a href="http://musepack.origean.net/">libmpcdec</a></b></th>
       <td align="center">1.2.2</td>
       <td align="center">*</td>
+      <td align="center">*</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.xiph.org/ogg/">libogg</a></b></th>
       <td align="center">1.1.3</td>
+      <td align="center">*</td>
       <td align="center">*</td>
     </tr>
 
@@ -252,22 +529,47 @@
       <th align="center"><b><a href="http://linux.bytesex.org/fbida/libpcd.html">libpcd</a></b></th>
       <td align="center">1.0.1</td>
       <td align="center">1.0.1</td>
+      <td align="center">1.0.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libpciaccess</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.10.5</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.libpng.org/pub/png/libpng.html">libpng</a></b></th>
       <td align="center">1.2.8</td>
       <td align="center">1.2.14</td>
+      <td align="center">1.2.31</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libpthread-stubs</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libSM</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.1.0</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.xiph.org/ogg/">libtheora</a></b></th>
       <td align="center">1.0alpha5</td>
       <td align="center">*</td>
+      <td align="center">*</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://sourceforge.net/projects/libungif/">libungif</a></b></th>
+      <td align="center">4.1.4</td>
       <td align="center">4.1.4</td>
       <td align="center">4.1.4</td>
     </tr>
@@ -276,28 +578,145 @@
       <th align="center"><b><a href="http://upnp.sourceforge.net/">libupnp</a></b></th>
       <td align="center">1.3.1</td>
       <td align="center">1.4.6</td>
+      <td align="center">1.6.6</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.xiph.org/ogg/">libvorbis</a></b></th>
       <td align="center">1.1.2</td>
       <td align="center">*</td>
+      <td align="center">*</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libX11</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.1.99.2</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXau</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libxcb</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.1.92</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXdamage</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.1.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXdmcp</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.2</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXext</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXfixes</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">4.0.3</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXfont</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.3.3</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libxkbfile</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.5</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libxml2</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.6.30</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXrandr</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.2.3</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXrender</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.9.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXt</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.5</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXv</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXvMC</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>libXxf86vm</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.2</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.kernel.org/">linux</a></b></th>
       <td align="center">2.6.16.17</td>
       <td align="center">2.6.21.3</td>
+      <td align="center">2.6.27.11</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.lirc.org/">lirc</a></b></th>
       <td align="center">0.8.0</td>
       <td align="center">0.8.2pre3</td>
+      <td align="center">0.8.4a</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.live555.com/">LIVE 555</a></b></th>
+      <td align="center">CVS 01.27.2006</td>
       <td align="center">CVS 01.27.2006</td>
       <td align="center">CVS 01.27.2006</td>
     </tr>
@@ -306,125 +725,223 @@
       <th align="center"><b><a href="http://sourceforge.net/projects/lrmi/">lrmi</a></b></th>
       <td align="center">0.10</td>
       <td align="center">0.10</td>
+      <td align="center">0.10</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.7-zip.org/sdk.html">lzma</a></b></th>
       <td align="center">4.42</td>
       <td align="center">4.43</td>
+      <td align="center">4.57</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>madwifi</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">r3878</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>mesa</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">7.2</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://packages.debian.org/unstable/admin/module-init-tools">module-init-tools</a></b></th>
       <td align="center">3.2.2</td>
       <td align="center">3.2.2</td>
+      <td align="center">3.4</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.mplayerhq.hu/">MPlayer</a></b></th>
       <td align="center">1.0pre8</td>
       <td align="center">1.0 SVN r23418</td>
+      <td align="center">1.0rc2 SVN r28184</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.gnu.org/software/ncurses/ncurses.html">ncurses</a></b></th>
       <td align="center">5.5</td>
       <td align="center">5.5</td>
+      <td align="center">5.6</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://ndiswrapper.sourceforge.net/joomla/">ndiswrapper</a></b></th>
       <td align="center">*</td>
       <td align="center">1.46</td>
+      <td align="center">20080831</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://sourceforge.net/projects/nv-tv-out/">nvtv</a></b></th>
       <td align="center">0.4.7</td>
       <td align="center">0.4.7</td>
+      <td align="center">0.4.7</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>openssl</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.9.8h</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>parted</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.8.8</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://atrey.karlin.mff.cuni.cz/~mj/pciutils.shtml">pciutils</a></b></th>
       <td align="center">2.2.1</td>
       <td align="center">2.2.3</td>
+      <td align="center">2.2.3</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>pcmciautils</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">014</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>pixman</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.13.2</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.deater.net/john/powernowd.html">powernowd</a></b></th>
       <td align="center">*</td>
       <td align="center">0.97</td>
+      <td align="center">*</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>read-edid</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.4.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>readline</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">5.2</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://rt2400.sourceforge.net/">rt2400</a></b></th>
       <td align="center">CVS 2006041101</td>
       <td align="center">CVS 2007012319</td>
+      <td align="center">built-in kernel</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://rt2400.sourceforge.net/">rt2500</a></b></th>
       <td align="center">CVS 20060509</td>
       <td align="center">CVS 2007012318</td>
+      <td align="center">built-in kernel</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://web.ralinktech.com/ralink/Home/Support/Linux.html">rt61</a></b></th>
       <td align="center">*</td>
       <td align="center">CVS 2007031420</td>
+      <td align="center">built-in kernel</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://web.ralinktech.com/ralink/Home/Support/Linux.html">rt73</a></b></th>
       <td align="center">*</td>
       <td align="center">CVS 2007041806</td>
+      <td align="center">built-in kernel</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>s3switch</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.0.20030423</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://us4.samba.org/samba/">Samba</a></b></th>
       <td align="center">3.0.22</td>
       <td align="center">3.0.25a</td>
+      <td align="center">3.0.33</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.liacs.nl/~wichert/strace/">strace</a></b></th>
       <td align="center">4.5.12</td>
       <td align="center">4.5.14</td>
+      <td align="center">4.5.18</td>
     </tr>
 
     <tr>
       <th align="center"><b>sysfsutils</b></th>
       <td align="center">2.0.0</td>
       <td align="center">*</td>
+      <td align="center">2.1.0</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://syslinux.zytor.com/">syslinux</a></b></th>
       <td align="center">3.11</td>
       <td align="center">3.20</td>
+      <td align="center">3.72</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://talloc.samba.org/">talloc</a></b></th>
       <td align="center">svn r14717</td>
       <td align="center">svn r14717</td>
+      <td align="center">svn r14717</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>termcap</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.3.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>tiff</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">4.0.0alpha</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.uclibc.org/">uClibc</a></b></th>
       <td align="center">cvs 20060505</td>
       <td align="center">0.9.29</td>
+      <td align="center">0.9.30</td>
     </tr>
 
     <tr>
-      <th align="center"><b><a href="http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html">uDev</a></b></th>
+      <th align="center"><b><a href="http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html">udev</a></b></th>
       <td align="center">092</td>
       <td align="center">106</td>
+      <td align="center">124</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://freshmeat.net/projects/util-linux/">util-linux</a></b></th>
       <td align="center">2.12r</td>
+      <td align="center">2.13-pre7</td>
       <td align="center">2.13-pre7</td>
     </tr>
 
@@ -432,11 +949,20 @@
       <th align="center"><b>VESA Utils</b></th>
       <td align="center">CVS 20050918</td>
       <td align="center">CVS 20060701</td>
+      <td align="center">CVS 20060701</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>wget</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.11.4</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/">wireless tools</a></b></th>
       <td align="center">28</td>
+      <td align="center">29</td>
       <td align="center">29</td>
     </tr>
 
@@ -444,16 +970,208 @@
       <th align="center"><b><a href="http://hostap.epitest.fi/wpa_supplicant/">wpa_supplicant</a></b></th>
       <td align="center">*</td>
       <td align="center">0.5.7</td>
+      <td align="center">0.6.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-input-evdev</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.1.0</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-input-keyboard</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.3.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-input-mouse</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.3.0</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-ati</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">6.10.0</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-geode</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.11.0</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-glint</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.2.2</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-i740</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.2.0</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-intel</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.5.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-mach64</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">git-20081223</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-mga</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.4.9</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-nv</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.1.12</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-openchrome</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.2.903</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-r128</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">git-20081223</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-s3</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.6.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-s3virge</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.10.2</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-savage</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.2.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-sis</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.10.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-tdfx</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.4.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-trident</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.3.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-vesa</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">2.1.0</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xf86-video-vmware</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">10.16.5</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xkbdata</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.0.1</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xkeyboard-config</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.4</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xorg-server</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.5.3</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xrandr</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.2.3</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xresprobe</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">0.4.24</td>
+    </tr>
+
+    <tr>
+      <th align="center"><b>xtrans</b></th>
+      <td align="center">*</td>
+      <td align="center">*</td>
+      <td align="center">1.2.2</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://penguinppc.org/bootloaders/yaboot/">Yaboot</a></b></th>
       <td align="center">1.3.13</td>
       <td align="center">1.3.13</td>
+      <td align="center">1.3.13</td>
     </tr>
 
     <tr>
       <th align="center"><b><a href="http://www.gzip.org/zlib/">zlib</a></b></th>
+      <td align="center">1.2.3</td>
       <td align="center">1.2.3</td>
       <td align="center">1.2.3</td>
     </tr>
