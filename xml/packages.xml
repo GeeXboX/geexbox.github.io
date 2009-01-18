@@ -10,42 +10,32 @@
     </tr>
   </define>
 
-  <define name="binutils">
+  <define name="toolchain">
     <tr>
       <th align="center"><a href="http://www.gnu.org/software/binutils/">Binutils</a></th>
       <td align="center">2.16.1</td>
       <td align="center">2.17</td>
     </tr>
-  </define>
-  <define name="ccache">
     <tr>
       <th align="center"><a href="http://ccache.samba.org/">Ccache</a></th>
       <td align="center">2.4</td>
       <td align="center">2.4</td>
     </tr>
-  </define>
-  <define name="gcc">
     <tr>
       <th align="center"><a href="http://gcc.gnu.org/">gcc</a></th>
       <td align="center">4.1.1</td>
       <td align="center">4.1.2</td>
     </tr>
-  </define>
-  <define name="genext2fs">
     <tr>
       <th align="center"><a href="http://packages.debian.org/unstable/admin/genext2fs">genext2fs</a></th>
       <td align="center">1.3</td>
       <td align="center">1.3</td>
     </tr>
-  </define>
-  <define name="make">
     <tr>
       <th align="center"><a href="http://www.gnu.org/software/make/">make</a></th>
       <td align="center">3.81</td>
       <td align="center">3.81</td>
     </tr>
-  </define>
-  <define name="sed">
     <tr>
       <th align="center"><a href="http://sed.sourceforge.net/">sed</a></th>
       <td align="center">4.1.4</td>
@@ -53,483 +43,415 @@
     </tr>
   </define>
 
-  <define name="acx100">
+  <define name="packages">
     <tr>
       <th align="center"><b><a href="http://acx100.sourceforge.net/">acx100</a></b></th>
       <td align="center">*</td>
       <td align="center">2007-01-01</td>
     </tr>
-  </define>
-  <define name="alsa-lib">
+
     <tr>
       <th align="center"><b><a href="http://www.alsa-project.org/">alsa-lib</a></b></th>
       <td align="center">1.0.11</td>
       <td align="center">1.0.14</td>
     </tr>
-  </define>
-  <define name="alsa-utils">
+
     <tr>
       <th align="center"><b><a href="http://www.alsa-project.org/">alsa-utils</a></b></th>
       <td align="center">1.0.11</td>
       <td align="center">1.0.14</td>
     </tr>
-  </define>
-  <define name="atitvout">
+
     <tr>
       <th align="center"><b><a href="http://www.stud.uni-hamburg.de/users/lennart/projects/atitvout/">atitvout</a></b></th>
       <td align="center">0.4 + fixes</td>
       <td align="center">0.4 + fixes</td>
     </tr>
-  </define>
-  <define name="bftpd">
+
     <tr>
       <th align="center"><b><a href="http://bftpd.sourceforge.net/">bftpd</a></b></th>
       <td align="center">1.4</td>
       <td align="center">1.8.4</td>
     </tr>
-  </define>
-  <define name="bootsplash">
+
     <tr>
       <th align="center"><b><a href="http://www.bootsplash.org/">bootsplash</a></b></th>
       <td align="center">3.1</td>
       <td align="center">3.1</td>
     </tr>
-  </define>
-  <define name="busybox">
+
     <tr>
       <th align="center"><b><a href="http://www.busybox.net/">BusyBox</a></b></th>
       <td align="center">1.1.3</td>
       <td align="center">1.5.1</td>
     </tr>
-  </define>
-  <define name="cdparanoia">
+
     <tr>
       <th align="center"><b><a href="http://www.xiph.org/paranoia/">CDparanoia III</a></b></th>
       <td align="center">alpha 9.8</td>
       <td align="center">alpha 9.8</td>
     </tr>
-  </define>
-  <define name="cpufreqd">
+
     <tr>
       <th align="center"><b><a href="http://cpufreqd.sourceforge.net/">CPU Freqd</a></b></th>
       <td align="center">2.0.0</td>
       <td align="center">*</td>
     </tr>
-  </define>
-  <define name="cpufrequtils">
+
     <tr>
       <th align="center"><b><a href="http://kernel.org/pub/linux/utils/kernel/cpufreq/cpufrequtils.html">CPU Freq Utils</a></b></th>
       <td align="center">0.4</td>
       <td align="center">*</td>
     </tr>
-  </define>
-  <define name="dialog">
+
     <tr>
       <th align="center"><b><a href="http://invisible-island.net/dialog/">dialog</a></b></th>
       <td align="center">1.0-20060126</td>
       <td align="center">1.1-20070227</td>
     </tr>
-  </define>
-  <define name="djmount">
+
     <tr>
       <th align="center"><b><a href="http://djmount.sourceforge.net/">djmount</a></b></th>
       <td align="center">0.53</td>
       <td align="center">0.71</td>
     </tr>
-  </define>
-  <define name="DirectFB">
+
     <tr>
       <th align="center"><b><a href="http://www.directfb.org/">DirectFB</a></b></th>
       <td align="center">*</td>
       <td align="center">1.0</td>
     </tr>
-  </define>
-  <define name="dosfstools">
+
     <tr>
       <th align="center"><b><a href="http://packages.debian.org/stable/otherosfs/dosfstools">dosfstools</a></b></th>
       <td align="center">2.11</td>
       <td align="center">2.11</td>
     </tr>
-  </define>
-  <define name="dvb-apps">
+
     <tr>
       <th align="center"><b><a href="http://www.linuxtv.org/">dvb-apps</a></b></th>
       <td align="center">cvs 06.04.2006</td>
       <td align="center">cvs 01.23.2007</td>
     </tr>
-  </define>
-  <define name="eject">
+
     <tr>
       <th align="center"><b><a href="http://ca.geocities.com/jefftranter@rogers.com/eject.html">eject</a></b></th>
       <td align="center">*</td>
       <td align="center">*</td>
     </tr>
-  </define>
-  <define name="em8300">
+
     <tr>
       <th align="center"><b><a href="http://dxr3.sourceforge.net/">em8300</a></b></th>
       <td align="center">0.15.3</td>
       <td align="center">0.16.2</td>
     </tr>
-  </define>
-  <define name="fbi">
+
     <tr>
       <th align="center"><b><a href="http://linux.bytesex.org/fbida/">fbi</a></b></th>
       <td align="center">1.31</td>
       <td align="center">1.31</td>
     </tr>
-  </define>
-  <define name="fmio">
+
     <tr>
       <th align="center"><b><a href="http://www.jumbo.narod.ru/src/fmio/">fmio</a></b></th>
       <td align="center">2.0.8</td>
       <td align="center">*</td>
     </tr>
-  </define>
-  <define name="freetype">
+
     <tr>
       <th align="center"><b><a href="http://www.freetype.org/">freetype</a></b></th>
       <td align="center">2.1.10</td>
       <td align="center">2.1.10</td>
     </tr>
-  </define>
-  <define name="fribidi">
+
     <tr>
       <th align="center"><b><a href="http://fribidi.sourceforge.net/">fribidi</a></b></th>
       <td align="center">0.10.7</td>
       <td align="center">cvs 20061020</td>
     </tr>
-  </define>
-  <define name="fuse">
+
     <tr>
       <th align="center"><b><a href="http://fuse.sourceforge.net/">fuse</a></b></th>
       <td align="center">2.5.3</td>
       <td align="center">2.6.5</td>
     </tr>
-  </define>
-  <define name="grub">
+
     <tr>
       <th align="center"><b><a href="http://www.gnu.org/software/grub/">grub</a></b></th>
       <td align="center">0.97</td>
       <td align="center">0.97</td>
     </tr>
-  </define>
-  <define name="i810tvout">
+
     <tr>
       <th align="center"><b><a href="http://i810tvout.geexbox.org/">i810 TV-Out</a></b></th>
       <td align="center">0.9.1</td>
       <td align="center">0.9.1</td>
     </tr>
-  </define>
-  <define name="iconv">
+
     <tr>
       <th align="center"><b><a href="http://www.gnu.org/software/libiconv/">iconv</a></b></th>
       <td align="center">2.0.0</td>
       <td align="center">2.0.0</td>
     </tr>
-  </define>
-  <define name="ivtv">
+
     <tr>
       <th align="center"><b><a href="http://ivtvdriver.org/index.php/Main_Page">ivtv</a></b></th>
       <td align="center">*</td>
       <td align="center">0.10.3</td>
     </tr>
-  </define>
-  <define name="jpeg">
+
     <tr>
       <th align="center"><b><a href="http://freshmeat.net/projects/libjpeg/">jpeg</a></b></th>
       <td align="center">6b</td>
       <td align="center">6b</td>
     </tr>
-  </define>
-  <define name="lcd4linux">
+
     <tr>
       <th align="center"><b><a href="http://ssl.bulix.org/projects/lcd4linux/">LCD 4 Linux</a></b></th>
       <td align="center">0.10.0</td>
       <td align="center">0.10.1-rc2</td>
     </tr>
-  </define>
-  <define name="libdvdnav">
+
     <tr>
       <th align="center"><b><a href="http://dvd.sourceforge.net/">libdvdnav</a></b></th>
       <td align="center">*</td>
       <td align="center">svn r938</td>
     </tr>
-  </define>
-  <define name="libdts">
+
     <tr>
       <th align="center"><b><a href="http://www.videolan.org/libdca.html">libdts</a></b></th>
       <td align="center">0.0.2</td>
       <td align="center">*</td>
     </tr>
-  </define>
-  <define name="libexif">
+
     <tr>
       <th align="center"><b><a href="http://sourceforge.net/projects/libexif">libexif</a></b></th>
       <td align="center">0.5.12</td>
       <td align="center">0.5.12</td>
     </tr>
-  </define>
-  <define name="libirman">
+
     <tr>
       <th align="center"><b><a href="http://www.evation.com/libirman/libirman.html">libirman</a></b></th>
       <td align="center">0.4.4</td>
       <td align="center">0.4.4</td>
     </tr>
-  </define>
-  <define name="libmpcdec">
+
     <tr>
       <th align="center"><b><a href="http://musepack.origean.net/">libmpcdec</a></b></th>
       <td align="center">1.2.2</td>
       <td align="center">*</td>
     </tr>
-  </define>
-  <define name="libogg">
+
     <tr>
       <th align="center"><b><a href="http://www.xiph.org/ogg/">libogg</a></b></th>
       <td align="center">1.1.3</td>
       <td align="center">*</td>
     </tr>
-  </define>
-  <define name="libpcd">
+
     <tr>
       <th align="center"><b><a href="http://linux.bytesex.org/fbida/libpcd.html">libpcd</a></b></th>
       <td align="center">1.0.1</td>
       <td align="center">1.0.1</td>
     </tr>
-  </define>
-  <define name="libpng">
+
     <tr>
       <th align="center"><b><a href="http://www.libpng.org/pub/png/libpng.html">libpng</a></b></th>
       <td align="center">1.2.8</td>
       <td align="center">1.2.14</td>
     </tr>
-  </define>
-  <define name="libtheora">
+
     <tr>
       <th align="center"><b><a href="http://www.xiph.org/ogg/">libtheora</a></b></th>
       <td align="center">1.0alpha5</td>
       <td align="center">*</td>
     </tr>
-  </define>
-  <define name="libungif">
+
     <tr>
       <th align="center"><b><a href="http://sourceforge.net/projects/libungif/">libungif</a></b></th>
       <td align="center">4.1.4</td>
       <td align="center">4.1.4</td>
     </tr>
-  </define>
-  <define name="libupnp">
+
     <tr>
       <th align="center"><b><a href="http://upnp.sourceforge.net/">libupnp</a></b></th>
       <td align="center">1.3.1</td>
       <td align="center">1.4.6</td>
     </tr>
-  </define>
-  <define name="libvorbis">
+
     <tr>
       <th align="center"><b><a href="http://www.xiph.org/ogg/">libvorbis</a></b></th>
       <td align="center">1.1.2</td>
       <td align="center">*</td>
     </tr>
-  </define>
-  <define name="linux">
+
     <tr>
       <th align="center"><b><a href="http://www.kernel.org/">linux</a></b></th>
       <td align="center">2.6.16.17</td>
       <td align="center">2.6.21.3</td>
     </tr>
-  </define>
-  <define name="lirc">
+
     <tr>
       <th align="center"><b><a href="http://www.lirc.org/">lirc</a></b></th>
       <td align="center">0.8.0</td>
       <td align="center">0.8.2pre3</td>
     </tr>
-  </define>
-  <define name="live555">
+
     <tr>
       <th align="center"><b><a href="http://www.live555.com/">LIVE 555</a></b></th>
       <td align="center">CVS 01.27.2006</td>
       <td align="center">CVS 01.27.2006</td>
     </tr>
-  </define>
-  <define name="lrmi">
+
     <tr>
       <th align="center"><b><a href="http://sourceforge.net/projects/lrmi/">lrmi</a></b></th>
       <td align="center">0.10</td>
       <td align="center">0.10</td>
     </tr>
-  </define>
-  <define name="lzma">
+
     <tr>
       <th align="center"><b><a href="http://www.7-zip.org/sdk.html">lzma</a></b></th>
       <td align="center">4.42</td>
       <td align="center">4.43</td>
     </tr>
-  </define>
-  <define name="module-init-tools">
+
     <tr>
       <th align="center"><b><a href="http://packages.debian.org/unstable/admin/module-init-tools">module-init-tools</a></b></th>
       <td align="center">3.2.2</td>
       <td align="center">3.2.2</td>
     </tr>
-  </define>
-  <define name="MPlayer">
+
     <tr>
       <th align="center"><b><a href="http://www.mplayerhq.hu/">MPlayer</a></b></th>
       <td align="center">1.0pre8</td>
       <td align="center">1.0 SVN r23418</td>
     </tr>
-  </define>
-  <define name="ncurses">
+
     <tr>
       <th align="center"><b><a href="http://www.gnu.org/software/ncurses/ncurses.html">ncurses</a></b></th>
       <td align="center">5.5</td>
       <td align="center">5.5</td>
     </tr>
-  </define>
-  <define name="ndiswrapper">
+
     <tr>
       <th align="center"><b><a href="http://ndiswrapper.sourceforge.net/joomla/">ndiswrapper</a></b></th>
       <td align="center">*</td>
       <td align="center">1.46</td>
     </tr>
-  </define>
-  <define name="nvtv">
+
     <tr>
       <th align="center"><b><a href="http://sourceforge.net/projects/nv-tv-out/">nvtv</a></b></th>
       <td align="center">0.4.7</td>
       <td align="center">0.4.7</td>
     </tr>
-  </define>
-  <define name="pciutils">
+
     <tr>
       <th align="center"><b><a href="http://atrey.karlin.mff.cuni.cz/~mj/pciutils.shtml">pciutils</a></b></th>
       <td align="center">2.2.1</td>
       <td align="center">2.2.3</td>
     </tr>
-  </define>
-  <define name="powernowd">
+
     <tr>
       <th align="center"><b><a href="http://www.deater.net/john/powernowd.html">powernowd</a></b></th>
       <td align="center">*</td>
       <td align="center">0.97</td>
     </tr>
-  </define>
-  <define name="rt2400">
+
     <tr>
       <th align="center"><b><a href="http://rt2400.sourceforge.net/">rt2400</a></b></th>
       <td align="center">CVS 2006041101</td>
       <td align="center">CVS 2007012319</td>
     </tr>
-  </define>
-  <define name="rt2500">
+
     <tr>
       <th align="center"><b><a href="http://rt2400.sourceforge.net/">rt2500</a></b></th>
       <td align="center">CVS 20060509</td>
       <td align="center">CVS 2007012318</td>
     </tr>
-  </define>
-  <define name="rt61">
+
     <tr>
       <th align="center"><b><a href="http://web.ralinktech.com/ralink/Home/Support/Linux.html">rt61</a></b></th>
       <td align="center">*</td>
       <td align="center">CVS 2007031420</td>
     </tr>
-  </define>
-  <define name="rt73">
+
     <tr>
       <th align="center"><b><a href="http://web.ralinktech.com/ralink/Home/Support/Linux.html">rt73</a></b></th>
       <td align="center">*</td>
       <td align="center">CVS 2007041806</td>
     </tr>
-  </define>
-  <define name="samba">
+
     <tr>
       <th align="center"><b><a href="http://us4.samba.org/samba/">Samba</a></b></th>
       <td align="center">3.0.22</td>
       <td align="center">3.0.25a</td>
     </tr>
-  </define>
-  <define name="strace">
+
     <tr>
       <th align="center"><b><a href="http://www.liacs.nl/~wichert/strace/">strace</a></b></th>
       <td align="center">4.5.12</td>
       <td align="center">4.5.14</td>
     </tr>
-  </define>
-  <define name="sysfsutils">
+
     <tr>
       <th align="center"><b>sysfsutils</b></th>
       <td align="center">2.0.0</td>
       <td align="center">*</td>
     </tr>
-  </define>
-  <define name="syslinux">
+
     <tr>
       <th align="center"><b><a href="http://syslinux.zytor.com/">syslinux</a></b></th>
       <td align="center">3.11</td>
       <td align="center">3.20</td>
     </tr>
-  </define>
-  <define name="talloc">
+
     <tr>
       <th align="center"><b><a href="http://talloc.samba.org/">talloc</a></b></th>
       <td align="center">svn r14717</td>
       <td align="center">svn r14717</td>
     </tr>
-  </define>
-  <define name="uClibc">
+
     <tr>
       <th align="center"><b><a href="http://www.uclibc.org/">uClibc</a></b></th>
       <td align="center">cvs 20060505</td>
       <td align="center">0.9.29</td>
     </tr>
-  </define>
-  <define name="udev">
+
     <tr>
       <th align="center"><b><a href="http://www.kernel.org/pub/linux/utils/kernel/hotplug/udev.html">uDev</a></b></th>
       <td align="center">092</td>
       <td align="center">106</td>
     </tr>
-  </define>
-  <define name="util-linux">
+
     <tr>
       <th align="center"><b><a href="http://freshmeat.net/projects/util-linux/">util-linux</a></b></th>
       <td align="center">2.12r</td>
       <td align="center">2.13-pre7</td>
     </tr>
-  </define>
-  <define name="vesautils">
+
     <tr>
       <th align="center"><b>VESA Utils</b></th>
       <td align="center">CVS 20050918</td>
       <td align="center">CVS 20060701</td>
     </tr>
-  </define>
-  <define name="wireless_tools">
+
     <tr>
       <th align="center"><b><a href="http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/">wireless tools</a></b></th>
       <td align="center">28</td>
       <td align="center">29</td>
     </tr>
-  </define>
-  <define name="wpa_supplicant">
+
     <tr>
       <th align="center"><b><a href="http://hostap.epitest.fi/wpa_supplicant/">wpa_supplicant</a></b></th>
       <td align="center">*</td>
       <td align="center">0.5.7</td>
     </tr>
-  </define>
-  <define name="yaboot">
+
     <tr>
       <th align="center"><b><a href="http://penguinppc.org/bootloaders/yaboot/">Yaboot</a></b></th>
       <td align="center">1.3.13</td>
       <td align="center">1.3.13</td>
     </tr>
-  </define>
-  <define name="zlib">
+
     <tr>
       <th align="center"><b><a href="http://www.gzip.org/zlib/">zlib</a></b></th>
       <td align="center">1.2.3</td>
@@ -547,48 +469,28 @@
          Here is a list of all packages that are used by our toolchain to build GeeXboX itself.<br/><br/>
          <table border="2" cellpadding="2" cellspacing="1" width="100%">
            <use name="headers"/>
-           <use name="binutils"/>
-           <use name="ccache"/>
-           <use name="gcc"/>
-           <use name="genext2fs"/>
-           <use name="make"/>
-           <use name="sed"/>
+           <use name="toolchain"/>
          </table>
       </content>
       <content lang="fr" title="Paquetages constituant l'outil de compilation de la GeeXboX">
          Vous trouverez ci-dessous la liste de tous les paquetages utilisés et compilés par notre outil de création de système GeeXboX.<br/><br/>
          <table border="2" cellpadding="2" cellspacing="1" width="100%">
            <use name="headers"/>
-           <use name="binutils"/>
-           <use name="ccache"/>
-           <use name="gcc"/>
-           <use name="genext2fs"/>
-           <use name="make"/>
-           <use name="sed"/>
+           <use name="toolchain"/>
          </table>
       </content>
       <content lang="de" title="Toolkit Softwarepakete">
          Hier nun eine Liste aller Softwarepakete, die von unserer "toolchain" genutzt werden, um die GeeXbox zu erstellen.<br/><br/>
          <table border="2" cellpadding="2" cellspacing="1" width="100%">
            <use name="headers"/>
-           <use name="binutils"/>
-           <use name="ccache"/>
-           <use name="gcc"/>
-           <use name="genext2fs"/>
-           <use name="make"/>
-           <use name="sed"/>
+           <use name="toolchain"/>
          </table>
       </content>
       <content lang="it" title="Pacchetti per lo sviluppo di GeeXboX">
          Ecco una lista di tutti i pacchetti che compongono la catena di compilazione usata per la creazione di GeeXboX<br/><br/>
          <table border="2" cellpadding="2" cellspacing="1" width="100%">
            <use name="headers"/>
-           <use name="binutils"/>
-           <use name="ccache"/>
-           <use name="gcc"/>
-           <use name="genext2fs"/>
-           <use name="make"/>
-           <use name="sed"/>
+           <use name="toolchain"/>
          </table>
       </content>
     </subsection>
@@ -598,312 +500,28 @@
          Here is a list of all packages that are directly included and used by the GeeXboX operating system. Each one is an essential part of GeeXboX.<br/><br/>
          <table border="2" cellpadding="2" cellspacing="1" width="100%">
            <use name="headers"/>
-           <use name="acx100"/>
-           <use name="alsa-driver"/>
-           <use name="alsa-lib"/>
-           <use name="alsa-utils"/>
-           <use name="at76c503"/>
-           <use name="atitvout"/>
-           <use name="bftpd"/>
-           <use name="bootsplash"/>
-           <use name="busybox"/>
-           <use name="cdparanoia"/>
-           <use name="cpufreqd"/>
-           <use name="cpufrequtils"/>
-           <use name="dialog"/>
-           <use name="DirectFB"/>
-           <use name="djmount"/>
-           <use name="dosfstools"/>
-           <use name="dvb-apps"/>
-           <use name="eject"/>
-           <use name="em8300"/>
-           <use name="fbi"/>
-           <use name="fmio"/>
-           <use name="freetype"/>
-           <use name="fribidi"/>
-           <use name="fuse"/>
-           <use name="grub"/>
-           <use name="i810tvout"/>
-           <use name="iconv"/>
-           <use name="ivtv"/>
-           <use name="jpeg"/>
-           <use name="lcd4linux"/>
-           <use name="libdvdnav"/>
-           <use name="libdts"/>
-           <use name="libexif"/>
-           <use name="libirman"/>
-           <use name="libmpcdec"/>
-           <use name="libogg"/>
-           <use name="libpcd"/>
-           <use name="libpng"/>
-           <use name="libtheora"/>
-           <use name="libungif"/>
-           <use name="libupnp"/>
-           <use name="libvorbis"/>
-           <use name="linux"/>
-           <use name="lirc"/>
-           <use name="live555"/>
-           <use name="lrmi"/>
-           <use name="lzma"/>
-           <use name="module-init-tools"/>
-           <use name="MPlayer"/>
-           <use name="ncurses"/>
-           <use name="ndiswrapper"/>
-           <use name="nvtv"/>
-           <use name="pciutils"/>
-           <use name="powernowd"/>
-           <use name="rt2400"/>
-           <use name="rt2500"/>
-           <use name="rt61"/>
-           <use name="rt73"/>
-           <use name="samba"/>
-           <use name="setcd"/>
-           <use name="strace"/>
-           <use name="sysfsutils"/>
-           <use name="syslinux"/>
-           <use name="talloc"/>
-           <use name="uClibc"/>
-           <use name="udev"/>
-           <use name="util-linux"/>
-           <use name="vesautils"/>
-           <use name="wireless_tools"/>
-           <use name="wpa_supplicant"/>
-           <use name="yaboot"/>
-           <use name="zlib"/>
+           <use name="packages"/>
          </table>
       </content>
       <content lang="fr" title="Paquetages contenus dans la GeeXboX">
          Et voici la liste des différents paquetages systèmes contenus dans la GeeXboX. Chacun d'entre eux est essentiel au bon fonctionnement de l'ensemble.<br/><br/>
          <table border="2" cellpadding="2" cellspacing="1" width="100%">
            <use name="headers"/>
-           <use name="acx100"/>
-           <use name="alsa-driver"/>
-           <use name="alsa-lib"/>
-           <use name="alsa-utils"/>
-           <use name="at76c503"/>
-           <use name="atitvout"/>
-           <use name="bftpd"/>
-           <use name="bootsplash"/>
-           <use name="busybox"/>
-           <use name="cdparanoia"/>
-           <use name="cpufreqd"/>
-           <use name="cpufrequtils"/>
-           <use name="dialog"/>
-           <use name="DirectFB"/>
-           <use name="djmount"/>
-           <use name="dosfstools"/>
-           <use name="dvb-apps"/>
-           <use name="eject"/>
-           <use name="em8300"/>
-           <use name="fbi"/>
-           <use name="fmio"/>
-           <use name="freetype"/>
-           <use name="fribidi"/>
-           <use name="fuse"/>
-           <use name="grub"/>
-           <use name="i810tvout"/>
-           <use name="iconv"/>
-           <use name="ivtv"/>
-           <use name="jpeg"/>
-           <use name="lcd4linux"/>
-           <use name="libdvdnav"/>
-           <use name="libdts"/>
-           <use name="libexif"/>
-           <use name="libirman"/>
-           <use name="libmpcdec"/>
-           <use name="libogg"/>
-           <use name="libpcd"/>
-           <use name="libpng"/>
-           <use name="libtheora"/>
-           <use name="libungif"/>
-           <use name="libupnp"/>
-           <use name="libvorbis"/>
-           <use name="linux"/>
-           <use name="lirc"/>
-           <use name="live555"/>
-           <use name="lrmi"/>
-           <use name="lzma"/>
-           <use name="module-init-tools"/>
-           <use name="MPlayer"/>
-           <use name="ncurses"/>
-           <use name="ndiswrapper"/>
-           <use name="nvtv"/>
-           <use name="pciutils"/>
-           <use name="powernowd"/>
-           <use name="rt2400"/>
-           <use name="rt2500"/>
-           <use name="rt61"/>
-           <use name="rt73"/>
-           <use name="samba"/>
-           <use name="setcd"/>
-           <use name="strace"/>
-           <use name="sysfsutils"/>
-           <use name="syslinux"/>
-           <use name="talloc"/>
-           <use name="uClibc"/>
-           <use name="udev"/>
-           <use name="util-linux"/>
-           <use name="vesautils"/>
-           <use name="wireless_tools"/>
-           <use name="wpa_supplicant"/>
-           <use name="yaboot"/>
-           <use name="zlib"/>
+           <use name="packages"/>
          </table>
       </content>
       <content lang="de" title="GeeXboX Softwarepakete">
          Hier nun eine Liste aller Programme, die in der GeeXboX enthalten sind und vom GeexboX Betriebssystem genutzt werden. Jedes von ihnen ist ein wichtiger Bestandteil der GeeXboX.<br/><br/>
          <table border="2" cellpadding="2" cellspacing="1" width="100%">
            <use name="headers"/>
-           <use name="acx100"/>
-           <use name="alsa-driver"/>
-           <use name="alsa-lib"/>
-           <use name="alsa-utils"/>
-           <use name="at76c503"/>
-           <use name="atitvout"/>
-           <use name="bftpd"/>
-           <use name="bootsplash"/>
-           <use name="busybox"/>
-           <use name="cdparanoia"/>
-           <use name="cpufreqd"/>
-           <use name="cpufrequtils"/>
-           <use name="dialog"/>
-           <use name="DirectFB"/>
-           <use name="djmount"/>
-           <use name="dosfstools"/>
-           <use name="dvb-apps"/>
-           <use name="eject"/>
-           <use name="em8300"/>
-           <use name="fbi"/>
-           <use name="fmio"/>
-           <use name="freetype"/>
-           <use name="fribidi"/>
-           <use name="fuse"/>
-           <use name="grub"/>
-           <use name="i810tvout"/>
-           <use name="iconv"/>
-           <use name="ivtv"/>
-           <use name="jpeg"/>
-           <use name="lcd4linux"/>
-           <use name="libdvdnav"/>
-           <use name="libdts"/>
-           <use name="libexif"/>
-           <use name="libirman"/>
-           <use name="libmpcdec"/>
-           <use name="libogg"/>
-           <use name="libpcd"/>
-           <use name="libpng"/>
-           <use name="libtheora"/>
-           <use name="libungif"/>
-           <use name="libupnp"/>
-           <use name="libvorbis"/>
-           <use name="linux"/>
-           <use name="lirc"/>
-           <use name="live555"/>
-           <use name="lrmi"/>
-           <use name="lzma"/>
-           <use name="module-init-tools"/>
-           <use name="MPlayer"/>
-           <use name="ncurses"/>
-           <use name="ndiswrapper"/>
-           <use name="nvtv"/>
-           <use name="pciutils"/>
-           <use name="powernowd"/>
-           <use name="rt2400"/>
-           <use name="rt2500"/>
-           <use name="rt61"/>
-           <use name="rt73"/>
-           <use name="samba"/>
-           <use name="setcd"/>
-           <use name="strace"/>
-           <use name="sysfsutils"/>
-           <use name="syslinux"/>
-           <use name="talloc"/>
-           <use name="uClibc"/>
-           <use name="udev"/>
-           <use name="util-linux"/>
-           <use name="vesautils"/>
-           <use name="wireless_tools"/>
-           <use name="wpa_supplicant"/>
-           <use name="yaboot"/>
-           <use name="zlib"/>
+           <use name="packages"/>
          </table>
       </content>
       <content lang="it" title="Pacchetti inclusi in GeeXboX">
          Ecco una lista di tutti i pacchetti direttamente inclusi ed usati dal sistema operativo GeeXboX. Ognuno di essi è parte essenziale di GeeXboX.<br/><br/>
          <table border="2" cellpadding="2" cellspacing="1" width="100%">
            <use name="headers"/>
-           <use name="acx100"/>
-           <use name="alsa-driver"/>
-           <use name="alsa-lib"/>
-           <use name="alsa-utils"/>
-           <use name="at76c503"/>
-           <use name="atitvout"/>
-           <use name="bftpd"/>
-           <use name="bootsplash"/>
-           <use name="busybox"/>
-           <use name="cdparanoia"/>
-           <use name="cpufreqd"/>
-           <use name="cpufrequtils"/>
-           <use name="dialog"/>
-           <use name="DirectFB"/>
-           <use name="djmount"/>
-           <use name="dosfstools"/>
-           <use name="dvb-apps"/>
-           <use name="eject"/>
-           <use name="em8300"/>
-           <use name="fbi"/>
-           <use name="fmio"/>
-           <use name="freetype"/>
-           <use name="fribidi"/>
-           <use name="fuse"/>
-           <use name="grub"/>
-           <use name="i810tvout"/>
-           <use name="iconv"/>
-           <use name="ivtv"/>
-           <use name="jpeg"/>
-           <use name="lcd4linux"/>
-           <use name="libdvdnav"/>
-           <use name="libdts"/>
-           <use name="libexif"/>
-           <use name="libirman"/>
-           <use name="libmpcdec"/>
-           <use name="libogg"/>
-           <use name="libpcd"/>
-           <use name="libpng"/>
-           <use name="libtheora"/>
-           <use name="libungif"/>
-           <use name="libupnp"/>
-           <use name="libvorbis"/>
-           <use name="linux"/>
-           <use name="lirc"/>
-           <use name="live555"/>
-           <use name="lrmi"/>
-           <use name="lzma"/>
-           <use name="module-init-tools"/>
-           <use name="MPlayer"/>
-           <use name="ncurses"/>
-           <use name="ndiswrapper"/>
-           <use name="nvtv"/>
-           <use name="pciutils"/>
-           <use name="powernowd"/>
-           <use name="rt2400"/>
-           <use name="rt2500"/>
-           <use name="rt61"/>
-           <use name="rt73"/>
-           <use name="samba"/>
-           <use name="setcd"/>
-           <use name="strace"/>
-           <use name="sysfsutils"/>
-           <use name="syslinux"/>
-           <use name="talloc"/>
-           <use name="uClibc"/>
-           <use name="udev"/>
-           <use name="util-linux"/>
-           <use name="vesautils"/>
-           <use name="wireless_tools"/>
-           <use name="wpa_supplicant"/>
-           <use name="yaboot"/>
-           <use name="zlib"/>
+           <use name="packages"/>
          </table>
       </content>      
     </subsection>
