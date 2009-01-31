@@ -18,6 +18,32 @@
     <a href="http://skywalker13.wordpress.com/"><b>Mat's Blog</b></a>
   </define>
 
+  <define name="screenshots-v2">
+    <br/>
+    <center>
+      <a href="../img/gx-v2-menu-full.jpeg">
+        <img src="../img/gx-v2-menu-thumb.jpeg" alt="GeeXboX v2 Menu"/>
+      </a>
+      <a href="../img/gx-v2-music-full.jpeg">
+        <img src="../img/gx-v2-music-thumb.jpeg" alt="GeeXboX v2 Music Menu"/>
+      </a>
+      <a href="../img/gx-v2-browse-full.jpeg">
+        <img src="../img/gx-v2-browse-thumb.jpeg" alt="GeeXboX v2 Browser"/>
+      </a>
+      <br/>
+      <a href="../img/gx-v2-music-play-full.jpeg">
+        <img src="../img/gx-v2-music-play-thumb.jpeg" alt="GeeXboX v2 Music"/>
+      </a>
+      <a href="../img/gx-v2-photo-full.jpeg">
+        <img src="../img/gx-v2-photo-thumb.jpeg" alt="GeeXboX v2 Photo"/>
+      </a>
+      <a href="../img/gx-v2-video-full.jpeg">
+        <img src="../img/gx-v2-video-thumb.jpeg" alt="GeeXboX v2 Video"/>
+      </a>
+    </center>
+    <br/>
+  </define>
+
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
@@ -76,6 +102,147 @@
         très facilement étendre ses fonctionnalités, d'y ajouter des
         paquetages, ou encore de le réutiliser pour donner naissance à
         de nouveaux systèmes Linux embarqués dédiés.
+      </content>
+    </subsection>
+
+    <subsection label="geexbox_1.2" date="2009-01-31">
+      <content lang="en" title="GeeXboX 1.2: 'Broadcast simultaneously one
+      year in the future' edition">
+      Here we finally are. Today marks GeeXboX 1.2 release that was awaited for
+      such a long time. This is a really important step for the project, being
+      the very latest release from the 1.x series. The 1.2 took quite a long
+      time to emerge but brought a lot of features, the most important ones
+      being the x86_64 architecture support and the HDTV and widescreens
+      optimizations through X.Org inclusion. We've also added a brand new tool,
+      called <b>Win32 installer</b> that allows you installing GeeXboX to your
+      current hard-disk without need of partitionning/formatting it again.
+      Please feel free to browse Changelogs from all 1.2 beta releases for a
+      complete list of changes.<br/>
+      <br/>
+      So again, GeeXboX 1.2 is the last version you'll see that relies on our
+      original MPlayer OSD based blue screen user interface. Over the years
+      (and especially last months), a lot of efforts have been made to work on
+      the upcoming 2.x series, that will feature a complete rework of the UI,
+      based on the ultra fast and shiny Enlightenment toolkit. We already have
+      made very good progress on this nextgen architecture and the first
+      2.0-alpha1 release will probably be out in a few weeks for tests
+      purpose.<br/>
+      <br/>
+      Eager and impatient folks can have a look at exclusive screenshots of
+      what 2.x interface will looks like. So just wait for a couple more
+      weeks for this.<br/>
+      <use name="screenshots-v2"/>
+      <br/>
+      But let's get back to 1.2. This is our very latest stable release and
+      will stay so for quite a while, until 2.0 is fully ready for use. With
+      this release, we've done our best to please everyone in order to provide
+      you with best video playback experience and we hope it'll keep
+      on going.<br/>
+      <br/>
+      <b>Detailed Changelog (relative to 1.2-beta3 release):</b><br/>
+      <br/>
+      <b>System:</b><br/>
+      - Upgrade to Linux 2.6.27.13.<br/>
+      - Use On-Demand CPU frequency scaling policy.<br/>
+      <br/>
+      <b>X.Org:</b><br/>
+      - Upgrade X.Org ATI driver to 6.10.0.<br/>
+      <br/>
+      <b>Player:</b><br/>
+      - Fix VCD playback issues.<br/>
+      - Disable GOOM audio visualization, was sucking down CPU too much.<br/>
+      - Fix some TV card bad color effects.<br/>
+      <br/>
+      <b>Installator:</b><br/>
+      - Simplify installator partitionning step.<br/>
+      - Unify disk install, using GRUB on USB devices too.<br/>
+      <br/>
+      <b>Miscellaneous:</b><br/>
+      - Fix a mounting issue when 2 hardware devices have the same name.<br/>
+      - Add support for disks with no partition table (Ex: Win32 formatted USB
+      keys).<br/>
+      - Add a Win32 utility that allows installing GeeXboX to your current
+      hard-disk without need of partitionning/formatting it again.<br/>
+      - Add USB network drivers to emulate a NIC.<br/>
+      <br/>
+      GeeXboX 1.2 (for x86_32, x86_64 and powerpc computers) is
+      available right <a href="downloads.html">here</a> and now!
+      </content>
+      <content lang="fr" title="GeeXboX 1.2: 'Broadcast simultaneously one
+      year in the future' edition">
+      Aujourd'hui marque la sortie de la version 1.2 de la GeeXboX, attendue
+      depuis fort longtemps. Ceci constitue une étape réellement importante au
+      sein du projet, s'agissant de la toute dernière version de la série 1.x.
+      Cette édition 1.2 aura pris un très long moment a sortir mais aura ramené
+      son lot de nouvelles fonctionnalités, les plus importantes étant le
+      support de l'architecture x86_64 ainsi que l'entrée dans l'ère HDTV,
+      permettant le support des écrans larges, via l'inclusion de X.Org. Nous
+      avons également développé un nouvel utilitaire, appelé <b>Win32
+      installer</b>, qui vous permet d'installer la GeeXboX sur votre
+      disque-dur actuel sans avoir besoin de repartitionner ou formater votre
+      système. Afin de découvrir l'ensemble des changements apportés par cette
+      nouvelle version, n'oubliez pas d'inclure la liste des changements
+      apportés au sein des différentes version beta.<br/>
+      <br/>
+      Encore une fois, GeeXboX 1.2 constitue la dernière version que vous
+      pourrez voir se basant sur l'interface graphique OSD MPlayer telle que
+      vous la connaissez désormais. Au fil des années (et plus particulièrement
+      des derniers mois), de très nombreux efforts ont été apportés sur la
+      serie 2.x à venir, qui proposera une interface graphique complètement
+      remaniée, utilisant les librairies du projet Enlightenment. Nous avons
+      dores et déjà réalisé une grosse partie du travail sur cette architecture
+      de nouvelle génération et la première version 2.0-alpha1 devrait être
+      disponible pour test dans les prochaines semaines.<br/>
+      <br/>
+      Les plus impatients d'entre vous peuvent dès à présent découvrir en
+      exclusivité les premières images de ce à quoi la série 2.x devrait
+      ressembler. Ils ne vous reste donc plus qu'à attendre encore quelques
+      semaines pour cela.<br/>
+      <use name="screenshots-v2"/>
+      <br/>
+      Mais revenons à présent sur cette version 1.2. Il s'agit bien de notre
+      toute dernière version stable et risque donc de l'être pour un petit
+      moment encore, jusqu'à ce que la 2.0 soit complètement opérationelle. Au
+      travers de cette version, nous avons réellement fait de notre mieux pour
+      satisfaire tout le monde et vous procurer la meilleure qualité de lecture
+      vidéo, en espérant que cela continue.<br/>
+      <br/>
+      <b>Liste détaillée des changements (depuis la version
+      1.2-beta3) :</b><br/>
+      <br/>
+      <b>Système:</b><br/>
+      - Mise à jour du noyau Linux en version 2.6.27.13.<br/>
+      - Utilisation de la politique de changement de fréquence processeur à
+      la demande.<br/>
+      <br/>
+      <b>X.Org:</b><br/>
+      - Mise à jour des pilotes X.Org pour cartes ATI en version 6.10.0.<br/>
+      <br/>
+      <b>Lecteur Multimédia :</b><br/>
+      - Correction des problèmes de lecture VCD.<br/>
+      - Désactivation de la visualisation audio GOOM (par defaut), son
+      utilisation consommant trop de temps processeur.<br/>
+      - Correction de problèmes de couleurs sur certaines cartes TV.<br/>
+      <br/>
+      <b>Installator :</b><br/>
+      - Simplification de l'étape de partionnement du disque
+      d'installation.<br/>
+      - Unification des processus d'installation sur disque via l'utilisation
+      de GRUB sur les périphériques USB.<br/>
+      <br/>
+      <b>Divers :</b><br/>
+      - Correction d'un problème de montage de disque, lorsque 2 périphériques
+      ont le même nom.<br/>
+      - Support des disques sans table de partitions (Ex: les clés USB
+      formattées sous Win32).<br/>
+      - Ajout d'un utilitaire pour Win32 permettant l'installation de la
+      GeeXboX sur votre disque-dur courant sans avoir besoin de le
+      repartitionner ou formater à nouveau.<br/>
+      - Ajout de pilotes USB pour émuler une carte réseau.<br/>
+      <br/>
+      La GeeXboX 1.2 (pour ordinateurs x86_32, x86_64 et powerpc) est
+      disponible dès à présent sur notre <a href="downloads.html">page de
+      téléchargements</a>.
       </content>
     </subsection>
 
