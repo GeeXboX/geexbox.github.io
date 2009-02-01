@@ -164,6 +164,7 @@
       - Add a Win32 utility that allows installing GeeXboX to your current
       hard-disk without need of partitionning/formatting it again.<br/>
       - Add USB network drivers to emulate a NIC.<br/>
+      - Fix boot issue with several CD/DVD drives.<br/>
       <br/>
       GeeXboX 1.2 (for x86_32, x86_64 and powerpc computers) is
       available right <a href="downloads.html">here</a> and now!
@@ -239,6 +240,7 @@
       GeeXboX sur votre disque-dur courant sans avoir besoin de le
       repartitionner ou formater à nouveau.<br/>
       - Ajout de pilotes USB pour émuler une carte réseau.<br/>
+      - Correction d'un problème de boot avec plusieurs lecteurs CD/DVD.<br/>
       <br/>
       La GeeXboX 1.2 (pour ordinateurs x86_32, x86_64 et powerpc) est
       disponible dès à présent sur notre <a href="downloads.html">page de
