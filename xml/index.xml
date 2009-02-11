@@ -105,6 +105,35 @@
       </content>
     </subsection>
 
+    <subsection label="geexbox_1.2.1" date="2009-02-11">
+      <content lang="en" title="GeeXboX 1.2.1: security-fix release">
+      While working on 2.0 development, we managed to find a few major bugs in
+      1.2 release codebase. There were a major flaw in installator which may
+      (in some cases) lead to destroy your HDD's MBR while trying to install
+      to a removable USB key plus a few minor bugs with EeePC 701 frequency
+      scaling and parallel port LCD driver support.<br/>
+      It is highly recommended that you use this new version instead.<br/>
+      <br/>
+      GeeXboX 1.2.1 (for x86_32, x86_64 and powerpc computers) is
+      available right <a href="downloads.html">here</a> and now!
+      </content>
+      <content lang="fr" title="GeeXboX 1.2.1">
+      Lors du développement de la version 2.0, nous sommes tombés sur quelques
+      bogues majeurs contenus dans le code de la version 1.2. Il y avait une
+      faille majeure au sein de l'installateur qui pouvait (dans certains
+      cas), détruire la table des partitions de votre disque dur, lors de
+      l'installation sur clés USB amovible, ainsi que des bogues plus mineurs
+      de gestion de fréquence prcesseur sur EeePC 701 et de gestion du port
+      parallèle pour les écrans LCD.<br/>
+      Il est donc grandement recommandé de désormais utiliser cette nouvelle
+      version.<br/>
+      <br/>
+      La GeeXboX 1.2.1 (pour ordinateurs x86_32, x86_64 et powerpc) est
+      disponible dès à présent sur notre <a href="downloads.html">page de
+      téléchargements</a>.
+      </content>
+    </subsection>
+
     <subsection label="geexbox_1.2" date="2009-01-31">
       <content lang="en" title="GeeXboX 1.2: 'Broadcast simultaneously one
       year in the future' edition">
