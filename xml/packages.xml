@@ -7,7 +7,7 @@
       <th align="center"><b>Packages</b></th>
       <td align="center"><b>1.0</b></td>
       <td align="center"><b>1.1</b></td>
-      <td align="center"><b>1.2</b></td>
+      <td align="center"><b>1.2.2</b></td>
     </tr>
   </define>
 
@@ -760,7 +760,7 @@
       <th align="center"><b><a href="http://www.mplayerhq.hu/">MPlayer</a></b></th>
       <td align="center">1.0pre8</td>
       <td align="center">1.0 SVN r23418</td>
-      <td align="center">1.0rc2 SVN r28184</td>
+      <td align="center">1.0rc2 SVN 20090613</td>
     </tr>
 
     <tr>
