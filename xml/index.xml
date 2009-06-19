@@ -105,6 +105,68 @@
       </content>
     </subsection>
 
+    <subsection label="geexbox_1.2.2" date="2009-06-19">
+      <content lang="en" title="GeeXboX 1.2.2: features enhancement release">
+      A few interesting patches recently having been commited to 2.0
+      development tree, people on forum asked for backport of these on stable
+      1.2 release. So did we, adding a new key feature, with multi-threaded
+      video decoding support. Non IT people can see this as a way to finally
+      make use of their brand new multi-core CPU systems providing
+      parallelized treatment. And the results are pretty good, with a 1.8x
+      video decoding speed boost on Core2Duo and 3.0x speedup with Core2Quad.
+      It is now truely possible to actually decode 1080p HDTV streams on
+      Linux.<br/>
+      <br/>
+      As exciting as it may be, please however note that this is still an
+      experimental feature (we're probably the one of the first Linux distro
+      to integrate it), that may cause undesired visual artefacts (in some
+      very rare cases). In order to make use of it, you'll have to explicitely
+      enable it through ISO generator.<br/>
+      <br/>
+      <b>Detailed Changelog (relative to 1.2.1 release):</b><br/>
+      <br/>
+      - Multi-threaded video decoding for MPEG-1/2/4 and H.264 codecs.<br/>
+      - Support for newly discovered DVD MovieProtect encryption method.<br/>
+      - Extended DVD CSS descrambiling capabilities.<br/>
+      - Removal of GOOM audio visualization (was causing too much
+        troubles).<br/>
+      - Automount daemon enhancements.<br/>
+      - Upgrade of MPlayer and its set of codecs.<br/>
+      <br/>
+      GeeXboX 1.2.2 (for x86_32, x86_64 and powerpc computers) is
+      available right <a href="downloads.html">here</a> and now!
+      </content>
+      <content lang="fr" title="GeeXboX 1.2.2">
+      Un certain nombre de patches particulièrement intéressants ayant
+      récemment été inclus dans la branche de développement de la version 2.0,
+      des utilisateurs du forum nous ont supplié de les inclure dans
+      l'actuelle branche stable. C'est désormais chose faite, principalement
+      par l'ajout d'une nouvelle fonctionnalité clé: le support du décodage
+      multi-tâches des vidéos. Les non-experts comprendront par ce terme
+      barbare qu'il leur est enfin possible de tirer parti de leur tout
+      nouveau processeur multi-coeurs via un traitement parallélisé. Et les
+      résultats sont plus que prometteurs, avec un gain de 1.8 pour la vitesse
+      de décodage sur Core2Duo et de 3.0 sur Core2Quad. Il est donc enfin
+      réellement possible de décoder des flux HDTV 1080p sous Linux.<br/>
+      <br/>
+      Aussi jubilatoire que cela puisse pourtant sembler, veuillez néanmoins garder à l'esprit qu'il s'agit d'une fonctionnalité qui reste expériementale (nous sommes probablement une des premières distributions Linux à la proposer), qui peut causer quelques artefacts visuels dans de très rares cas). Ainsi, afin d'en tirer réellement parti, il vous sera nécessaire de l'activiter explicitement via le générateur d'ISO.<br/>
+      <br/>
+      <b>Liste détaillée des changements (depuis la version 1.2.1) :</b><br/>
+      <br/>
+      - Décodage vidéo multi-tâches pour les codecs MPEG-1/2/4 et H.264.<br/>
+      - Support de la nouvelle encryption DVD MovieProtect.<br/>
+      - Capacités étendues de décryptage de la protection CSS des DVD.<br/>
+      - Suppression du greffon de visualisation audio GOOM (responsable de
+        bien trop de problèmes).<br/>
+      - Amélioration du démon d'automontage.<br/>
+      - Mise à jour de MPlayer et de son ensemble de codecs.<br/>
+      <br/>
+      La GeeXboX 1.2.2 (pour ordinateurs x86_32, x86_64 et powerpc) est
+      disponible dès à présent sur notre <a href="downloads.html">page de
+      téléchargements</a>.
+      </content>
+    </subsection>
+
     <subsection label="geexbox_1.2.1" date="2009-02-11">
       <content lang="en" title="GeeXboX 1.2.1: security-fix release">
       While working on 2.0 development, we managed to find a few major bugs in
