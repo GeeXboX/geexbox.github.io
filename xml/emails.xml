@@ -86,4 +86,9 @@
     <!-- n-billy AT geexbox DOT org -->
     <address><![CDATA[&#110;&#045;&#098;&#105;&#108;&#108;&#121;&#064;&#103;&#101;&#101;&#120;&#098;&#111;&#120;&#046;&#111;&#114;&#103;]]></address>
   </email>
+  <email id="fabien">
+    <content>Fabien Brisset</content>
+    <!-- fbrisset AT gmail DOT com -->
+    <address><![CDATA[&#102;&#098;&#114;&#105;&#115;&#115;&#101;&#116;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;]]></address>
+  </email>
 </emails>

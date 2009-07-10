@@ -10,7 +10,7 @@
 
   <define name="author-dev">
     <i>
-      <email id="amir"/>, <email id="asbin"/>, <email id="andrew"/>, <email id="mathieu"/>, <email id="fox"/>, <email id="davide"/>, <email id="pouyoux"/>, <email id="captainigloo"/>, <email id="nbilly"/><br/>
+      <email id="amir"/>, <email id="asbin"/>, <email id="andrew"/>, <email id="mathieu"/>, <email id="fox"/>, <email id="davide"/>, <email id="pouyoux"/>, <email id="captainigloo"/>, <email id="nbilly"/>, <email id="fabien"/><br/>
     </i>
   </define>
 
@@ -22,7 +22,7 @@
 
   <define name="author-contrib">
     <i>
-      Serge Gebhardt, Dennis Roos, Ville Skytta, Heiko Rutenbeck (bzrudi), Dennis Roos, Herve Urbain, Mathieu Velten, Kevin Foss, Arne Graesser, Cedric Chaissac, Jean Flinois, Laurent Peltier, Fabien Brisset<br/>
+      Serge Gebhardt, Dennis Roos, Ville Skytta, Heiko Rutenbeck (bzrudi), Dennis Roos, Herve Urbain, Mathieu Velten, Kevin Foss, Arne Graesser, Cedric Chaissac, Jean Flinois, Laurent Peltier<br/>
     </i>
   </define>
 
