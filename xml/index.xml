@@ -105,6 +105,27 @@
       </content>
     </subsection>
 
+    <subsection label="geexbox_1.2.3" date="2009-07-10">
+      <content lang="en" title="GeeXboX 1.2.3: fix release">
+      As it appeared that a nasty bug with some AC3 audio encoded files
+      slipped through previous 1.2.2 release, here's another minor release.
+      No big changes here except from AC3 playback recovery.<br/>
+      <br/>
+      GeeXboX 1.2.3 (for x86_32, x86_64 and powerpc computers) is
+      available right <a href="downloads.html">here</a> and now!
+      </content>
+      <content lang="fr" title="GeeXboX 1.2.3: version corrective">
+      Il semblerait qu'un bug subsistait dans la version 1.2.2, relatif à la
+      lecture de fichiers dont la piste audio était au format AC3. Voici donc
+      une nouvelle version mineure 1.2.3, sans grands changements, hormis ce
+      correctif.<br/>
+      <br/>
+      La GeeXboX 1.2.3 (pour ordinateurs x86_32, x86_64 et powerpc) est
+      disponible dès à présent sur notre <a href="downloads.html">page de
+      téléchargements</a>.
+      </content>
+    </subsection>
+
     <subsection label="geexbox_1.2.2" date="2009-06-19">
       <content lang="en" title="GeeXboX 1.2.2: features enhancement release">
       A few interesting patches recently having been commited to 2.0
