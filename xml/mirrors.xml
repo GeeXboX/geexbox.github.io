@@ -26,4 +26,10 @@
     <url>http://geexbox.reloumirrors.net/</url>
   </mirror>
 
+  <mirror partial="yes">
+    <country>be</country>
+    <description>TopServices.be, Auderghem (Belgium, HTTP)</description>
+    <url>http://s250327996.onlinehome.us/geexbox/</url>
+  </mirror>
+
 </mirrors>
