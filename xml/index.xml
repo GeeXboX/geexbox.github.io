@@ -105,6 +105,32 @@
       </content>
     </subsection>
 
+    <subsection label="geexbox_1.2.4" date="2009-10-11">
+      <content lang="en" title="GeeXboX 1.2.4: fix release">
+      Some commercial DVD decryption bug having been spotted out on GeeXboX
+      forums, we had to fix it through this minor 1.2.4 release. In the mean
+      time, you'll be pleased to hear that 2.x development branch has been
+      greatly stabilized recently and we should be able to provide the first
+      alpha release by end of year.<br/>
+      <br/>
+      GeeXboX 1.2.4 (for x86_32 and x86_64 computers) is
+      available right <a href="downloads.html">here</a> and now!
+      </content>
+      <content lang="fr" title="GeeXboX 1.2.4: version corrective">
+      Un problème de décrytage des protections de certains DVD commerciaux
+      ayant été rencontrés au sein des usagers du forum GeeXboX, nous nous
+      devions de le corriger, via cette version corrective mineure estampillée
+      1.2.4. Vous serez également heureux d'apprendre que la branche de
+      développement de la version 2.x vient très récemment d'être grandement
+      stabilisée, ce qui devrait nous permettre de vous proposer la première
+      version alpha d'ici la fin de l'année.<br/>
+      <br/>
+      La GeeXboX 1.2.4 (pour ordinateurs x86_32 et x86_64) est
+      disponible dès à présent sur notre <a href="downloads.html">page de
+      téléchargements</a>.
+      </content>
+    </subsection>
+
     <subsection label="geexbox_1.2.3" date="2009-07-10">
       <content lang="en" title="GeeXboX 1.2.3: fix release">
       As it appeared that a nasty bug with some AC3 audio encoded files
