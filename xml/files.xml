@@ -5,21 +5,21 @@
   <file type="iso">
     <arch>i386</arch>
     <libc>glibc</libc>
-    <version>1.2.3</version>
+    <version>1.2.4</version>
     <lang>en</lang>
-    <size>19828736</size>
-    <md5>5d4663dbb96c84cca77e93782ef4aebc</md5>
-    <sha1>20d28ef1c6f9c5dd7be4f0d259ccd084c7d6e71a</sha1>
+    <size>19847168</size>
+    <md5>a1577e91983ffe64e25cf7ae14269de9</md5>
+    <sha1>c6960aea31bdaa93c9de193c07ad4eb822e7d0c9</sha1>
   </file>
 
   <file type="iso">
     <arch>x86_64</arch>
     <libc>glibc</libc>
-    <version>1.2.3</version>
+    <version>1.2.4</version>
     <lang>en</lang>
-    <size>21123072</size>
-    <md5>62511d159060259f7f6bb36bcc1cebed</md5>
-    <sha1>04db87fefc63176dd893a917d2450027cea90137</sha1>
+    <size>21147648</size>
+    <md5>7b07573d67ef9dd9cc015236fd121787</md5>
+    <sha1>50fb7c71afbd63dab1129ec52c5500b779f316b5</sha1>
   </file>
 
   <file type="iso">
@@ -35,19 +35,19 @@
   <file type="gen">
     <arch>i386</arch>
     <libc>glibc</libc>
-    <version>1.2.3</version>
-    <size>22272549</size>
-    <md5>e1bcf61353a1a9a48c4e133ed5175268</md5>
-    <sha1>ad78bd9193c5ade362bd1c8edbf89283f3930588</sha1>
+    <version>1.2.4</version>
+    <size>22306537</size>
+    <md5>71acdbf20bb8745ee5734c5be3cb876e</md5>
+    <sha1>64dc3721dff594a2c65e0a2c1b173bac51b00024</sha1>
   </file>
 
   <file type="gen">
     <arch>x86_64</arch>
     <libc>glibc</libc>
-    <version>1.2.3</version>
-    <size>23574252</size>
-    <md5>7802cbaaa9eb30bcf47dae3a3129f9e6</md5>
-    <sha1>0daa78d85e480f41460780a0001bb83497b4f950</sha1>
+    <version>1.2.4</version>
+    <size>23612655</size>
+    <md5>6f043f448ef546cfa00879aa872981d0</md5>
+    <sha1>3d552293e00d8824869bdaafdd0793a6bfdc66a4</sha1>
   </file>
 
   <file type="gen">
@@ -60,21 +60,21 @@
   </file>
 
   <file type="src">
-    <version>1.2.3</version>
+    <version>1.2.4</version>
     <src-type>lite</src-type>
     <src-ext>tar.bz2</src-ext>
-    <size>1120952</size>
-    <md5>3836be069823aecb1115066286aca260</md5>
-    <sha1>4d7344396de1a0ae32377d39d20f86f1777ebbc1</sha1>
+    <size>1146015</size>
+    <md5>6b9d66a1be5ff428b0e3fd0ac8f28838</md5>
+    <sha1>c8ef134832caafd9fa4bc44e4038abc241877761</sha1>
   </file>
 
   <file type="src">
-    <version>1.2.3</version>
+    <version>1.2.4</version>
     <src-type>full</src-type>
     <src-ext>tar</src-ext>
-    <size>427376640</size>
-    <md5>92e64ebe96fa0ec30e89802e6385397e</md5>
-    <sha1>c7789f80710e45e2f500e71b30a1ef18cce0de7c</sha1>
+    <size>427366400</size>
+    <md5>9c0f52ca32d5e9b7c435cceccfeb148e</md5>
+    <sha1>b3bce62d7bac8847bd626fd653c1ae81cf0c2669</sha1>
   </file>
 
   <file type="win32-installer">
