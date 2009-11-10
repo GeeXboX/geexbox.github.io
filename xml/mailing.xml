@@ -3,37 +3,37 @@
 
 <article>
   <define name="news-subscribe">
-    <a href="http://www.geexbox.org/sympa/info/news">subscribe</a>
+    <a href="https://www.geexbox.org/sympa/info/news">subscribe</a>
   </define>
   <define name="news-archives">
-    <a href="http://www.geexbox.org/sympa/arc/news">archives</a>
+    <a href="https://www.geexbox.org/sympa/arc/news">archives</a>
   </define>
 
   <define name="users-subscribe">
-    <a href="http://www.geexbox.org/sympa/info/users">subscribe</a>
+    <a href="https://www.geexbox.org/sympa/info/users">subscribe</a>
   </define>
   <define name="users-archives">
-    <a href="http://www.geexbox.org/sympa/arc/users">archives</a>
+    <a href="https://www.geexbox.org/sympa/arc/users">archives</a>
   </define>
   <define name="users-mail">
     <email id="users">mail</email>
   </define>
 
   <define name="devel-subscribe">
-    <a href="http://www.geexbox.org/sympa/info/devel">subscribe</a>
+    <a href="https://www.geexbox.org/sympa/info/devel">subscribe</a>
   </define>
   <define name="devel-archives">
-    <a href="http://www.geexbox.org/sympa/arc/devel">archives</a>
+    <a href="https://www.geexbox.org/sympa/arc/devel">archives</a>
   </define>
   <define name="devel-mail">
     <email id="devel">mail</email>
   </define>
 
   <define name="commits-subscribe">
-    <a href="http://www.geexbox.org/sympa/info/commits">subscribe</a>
+    <a href="https://www.geexbox.org/sympa/info/commits">subscribe</a>
   </define>
   <define name="commits-archives">
-    <a href="http://www.geexbox.org/sympa/arc/commits">archives</a>
+    <a href="https://www.geexbox.org/sympa/arc/commits">archives</a>
   </define>
   <define name="commits-mail">
     <email id="commits">mail</email>
