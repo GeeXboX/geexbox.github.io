@@ -44,6 +44,38 @@
     <br/>
   </define>
 
+  <define name="libnfo">
+    <a href="http://libnfo.geexbox.org/">libnfo</a>
+  </define>
+
+  <define name="libplayer">
+    <a href="http://libplayer.geexbox.org/">libplayer</a>
+  </define>
+
+  <define name="libvalhalla">
+    <a href="http://libvalhalla.geexbox.org/">libvalhalla</a>
+  </define>
+
+  <define name="enna">
+    <a href="http://enna.geexbox.org/">Enna</a>
+  </define>
+
+  <define name="screenshots-enna">
+    <br/>
+    <center>
+      <a href="../img/gx-enna-music.jpeg">
+        <img src="../img/gx-enna-music-thumb.jpeg" alt="Enna Music Menu"/>
+      </a>
+      <a href="../img/gx-enna-credits.jpeg">
+        <img src="../img/gx-enna-credits-thumb.jpeg" alt="Enna Credits Menu"/>
+      </a>
+      <a href="../img/gx-enna-video-info.jpeg">
+        <img src="../img/gx-enna-video-info-thumb.jpeg" alt="Enna Video Info"/>
+      </a>
+    </center>
+    <br/>
+  </define>
+
   <section label="news">
     <content lang="en" title="Latest News ..."/>
     <content lang="fr" title="Dernières Nouvelles ..."/>
@@ -102,6 +134,59 @@
         très facilement étendre ses fonctionnalités, d'y ajouter des
         paquetages, ou encore de le réutiliser pour donner naissance à
         de nouveaux systèmes Linux embarqués dédiés.
+      </content>
+    </subsection>
+
+    <subsection label="geexbox_libs" date="2009-12-13">
+      <content lang="en" title="Availability of GeeXboX libraries">
+	Those of you who follow GeeXboX development carefully already heard
+	about the project <use name="enna"/>. It's a Media Center project,
+	based on Enlightenment Foundation Libraries (EFL), that has been
+	developed by the GeeXboX team members. <use name="enna"/> is a
+	standalone application, that can be run on any Linux distribution,
+	GeeXboX LiveCD being one of them and that will be the major feature of
+	upcoming v2.0.<br/>
+	<br/>
+	As a convenience (and because some users do not want to use the LiveCD
+	distribution), <use name="enna"/> will be made available for others
+	than GeeXboX (first release is expected pretty soon).
+	<use name="enna"/> being a graphical interface only, the team has
+	developed many other libraries that are used by <use name="enna"/> and
+	for which initial release just has been made:<br/>
+	<br/>
+	- <use name="libnfo"/>: a small library used to parse and write NFO
+	files. NFO files are XML files used to store metadata information on
+	many multimedia files. It is massively used by other Media Centers,
+	such as XBMC, which allow you unique metadata storage among your
+	various Media Center applications.<br/>
+	- <use name="libplayer"/>: a multimedia A/V abstraction layer API.
+	Its goal is to interact with <use name="enna"/>. libplayer provides a
+	generic A/V API that relies on various multimedia player for Linux
+	systems. It currently supports MPlayer, xine VLC and GStreamer only.
+	This will allow future GeeXboX users to easily switch from one media
+	player to another.<br/>
+	- <use name="libvalhalla"/>: a media scanner library, that stores
+	various information in an SQLite database. It features many Internet
+	grabbers that allows automatic download of covers, lyrics, informations
+	on media files, tags retrival in video and music files and so on.
+	Among them, we currently support <i>Allocine, Amazon, EXIF information,
+	FFmpeg, ImDB, Last.fm, local files, LyricsFly.com, LyricWiki.org,
+	NFO files, TheTVDB.com, TheMovieDB.org and TVRage.com</i>.
+	It can of course be extended to support so much more.<br/>
+	<br/>
+	All of these libraries just hit the 1.0.0 release and are available
+	either under source format in their respective projects' homepages but
+	also have been packaged for Ubuntu 9.10 (Karmic) users (but should work
+	as well on Debian Sid) to try them out.<br/>
+	<br/>
+	Also remind that these libraries are not meant to be GeeXboX specific.
+	They are fully portable and can be used with many other projects.<br/>
+	<br/>
+	As you may have understood, it is now possible for you to easily try
+	out <use name="enna"/> before it gets officially released. However,
+	and just for the most eager ones of you, you may appreciate the
+	following screenshots of <use name="enna"/>.
+	<use name="screenshots-enna"/>
       </content>
     </subsection>
 
