@@ -188,6 +188,72 @@
 	following screenshots of <use name="enna"/>.
 	<use name="screenshots-enna"/>
       </content>
+      <content lang="fr" title="Disponibilité des librairies GeeXboX">
+	Ceux parmi vous qui suivent attentivement le projet GeeXboX ont
+        probablement déjà) entendu parlé du projet <use name="enna"/>.
+        Il s'agit d'un Media Center, basé sur les Enlightenment Foundation
+        Libraries (EFL), qui a été développé par les membres de l'équipe
+        GeeXboX. <use name="enna"/> est une application indépendante, qui peut
+        être utilisée sur tout type de distribution Linux, le LiveCD GeeXboX en
+        étant le meilleur représentant, et qui consitue la fonctionnalité clée
+        de la très attendue version 2.0.<br/>
+	<br/>
+	Par soucis de simplicité (mais également parce qu'il n'y avait aucune
+        raison de se restreindre au LiveCd GeeXboX), <use name="enna"/> sera
+        disponible pour d'autres distributions (la première version ne saurait
+        d'ailleurs tarder).
+	<use name="enna"/> n'étant une interface graphique, les membres de
+        notre équipe ont également travaillé sur de nombreuses autres
+        librairies qui sont nécessaires au bon fonctionnement
+        d'<use name="enna"/> et pour lesquelles la premi-re version vient tout
+        juste de sortir :<br/>
+	<br/>
+	- <use name="libnfo"/>: une petite librairie destinée à la lecture et
+        écriture des fichiers NFO. Les fichiers NFO sont des fichiers XML
+        utilisées pour stocker les métadonnées associées à différents fichiers
+        multimédia. Ces derniers sont extrêmement utilisés par d'autres
+        applications de type Media Centers (dont XBMC), ce qui vous permet
+        d'avoir un format de stockage unique de ces informations, indépendant
+        de l'application utilisée.<br/>
+	- <use name="libplayer"/>: une couche d'abstraction audio/vidéo
+        multimédia. Son but est évidemment d'interragir avec
+        <use name="enna"/>. libplayer fournit une interface de programmation
+        générique qui permet de s'interfacer avec différents lecteurs
+        multimédia connus. La librairie supporte actuellement les projets
+        MPlayer, xine, VLC et GStreamer. Cela permettra, dans le futur, de
+        faciler migrer d'un lecteur multimédia à un autre, selon les
+        préférences de chaque utilisateur.<br/>
+	- <use name="libvalhalla"/>: une librairie faisant office de scanner de
+        fichiers multimédia, qui enregistre différentes informations au sein
+        d'une très petite base de données au format SQLite. Elle supporte en
+        outre de nombreuses extensions permettant de récupérer des informations
+        depuis différentes ressources Internet, permettant la récupération
+        automatique de jacquettes, paroles, infromations sur vos fichiers,
+        récupération des propriétés de vos fichiers audio/vidéo et bien
+        d'autres choses encore.
+	Parmi ces dernières, nous supportons au jour d'aujourd'hui les
+        ressources suivantes :<i>Allocine, Amazon, les informations EXIF,
+        FFmpeg, ImDB, Last.fm, local files, LyricsFly.com, LyricWiki.org,
+        les fichiers NFO, TheTVDB.com, TheMovieDB.org et TVRage.com</i>.
+	Le tout peut, bien entendu, être étendu pour en supporter
+        davantage encore.<br/>
+	<br/>
+	L'ensemble de ces librairies vient juste d'être mis à disposition, en
+        version 1.0.0, et ces dernières sont disponibles sous forme de source
+        au sein des pages d'accueil des différents sous-projets, mais également
+        sous forme pré-empaquetée pour les utlisateurs d'Ubuntu 9.10 (Karmic),
+        bien que la compatiblité avec Debian Sid doive être effective.<br/>
+	<br/>
+	Souvenez-vous donc que ces librairies ne sont pas spécifiques au projet
+        GeeXboX. Ces dernières sont tout à fait portables et peuvent donc être
+        réutilisées au sein d'autres projets.<br/>
+	<br/>
+	Vous l'aurez compris, il vous est désormais très facilement possible
+        d'essayer <use name="enna"/> et ce avant même sa première disponibilité
+        officielle. Les plus impatients d'entre vous seront cependant ravis de
+        voir quelques captures d'écran du projet <use name="enna"/>.
+	<use name="screenshots-enna"/>
+      </content>
     </subsection>
 
     <subsection label="geexbox_1.2.4" date="2009-10-11">
