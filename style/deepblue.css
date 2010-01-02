@@ -174,14 +174,14 @@ body {
 	color: inherit;
 }
 
-#geexbox, #resources, #development, #feedback {
+#geexbox, #resources, #development, #feedback, #side_projects {
 	color: black;
 	background-color: #e8e6f0;
 	border: 2px solid #006;
 	margin-bottom: 1em;
 }
 
-#geexbox h2, #resources h2, #development h2, #feedback h2 {
+#geexbox h2, #resources h2, #development h2, #feedback h2, #side_projects h2 {
 	border-color: #006;
 	border-bottom-style: dotted;
 	border-width: 0 0 2px 0;
@@ -194,16 +194,16 @@ body {
 	color: #006;
 }
 
-#geexbox ul, #resources ul, #development ul, #feedback ul {
+#geexbox ul, #resources ul, #development ul, #feedback ul, #side_projects ul {
 	margin-bottom: 1em;
 }
 
-#geexbox li, #resources li, #development li, #feedback li {
+#geexbox li, #resources li, #development li, #feedback li, #side_projects li {
 	display: inline;
 	list-style: none;
 }
 
-#geexbox a, #resources a, #development a, #feedback a {
+#geexbox a, #resources a, #development a, #feedback a, #side_projects a {
 	color: #369;
 	font-size:110%;
 	background-color: transparent;
@@ -214,7 +214,7 @@ body {
 	text-decoration: none;
 }
 
-#geexbox a:hover, #resources a:hover, #development a:hover, #feedback a:hover {
+#geexbox a:hover, #resources a:hover, #development a:hover, #feedback a:hover, #side_projects a:hover {
 	color: #006;
 	background-color: #cce2ee;
 }
