@@ -137,6 +137,41 @@
       </content>
     </subsection>
 
+    <subsection label="enna_0.4.0" date="2010-01-03">
+      <content lang="en" title="Initial release of Enna: v0.4.0">
+        It was kinda hard and efforts were countless, but GeeXboX team is proud
+        to announce the very stable release of <use name="enna"/> Media Center.
+        After months of development, this brand new user interface finally has
+        landed. Enna is available as a standalone application for all modern
+        GNU/Linux based distributions (and already packaged for Ubuntu 9.10)
+        and will, obviously, be part of GeeXboX v2.0 release. Speaking of
+        which, the hardest part now being behind us, the first Alpha1 release
+        of GeeXboX v2 is due to this month.<br/>
+        <br/>
+        In the mean time, feel free to test Enna on your regular PC and we
+        really hope you'll enjoy using it. More information are of course
+        available on <use name="enna"/> website.
+      </content>
+      <content lang="fr" title="Disponibilité d'Enna v0.4.0">
+        Cela aura pris du temps et un nombre incalculable d'efforts, mais
+        l'équipe GeeXboX est fière d'annoncer la disponibilité de la toute
+        première version stable d'<use name="enna"/> Media Center. Après des
+        mois de développement, cette toute nouvelle interface graphique a
+        finalement vue le jour. Enna est disponible sous la forme d'une
+        application autonome pour toute distribution GNU/Linux moderne (et
+        dores et déjà empaquetée pour Ubuntu 9.10) et fera, bien évidemment,
+        partie de la release 2.0 de la GeeXboX. En parlant de cela, le plus
+        gros du travail étant désormais derrière nous, la première version
+        Alpha1 de notre distribution devrait voir le jour dans le courant du
+        mois.<br/>
+        <br/>
+        En attendant, laissez vous aller à tester Enna sur votre PC quotidien
+        and nous espérons vraiment que vous apprécierez son utilisation.
+        De plus amples informations sont bien évidemment disponible sur la
+        page dédiée du projet <use name="enna"/>.
+      </content>
+    </subsection>
+
     <subsection label="geexbox_libs" date="2009-12-13">
       <content lang="en" title="Availability of GeeXboX libraries">
 	Those of you who follow GeeXboX development carefully already heard
