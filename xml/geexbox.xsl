@@ -61,6 +61,9 @@
         pageTracker._initData();
         pageTracker._trackPageview();
       </script>
+      <script type="text/javascript">
+	window.google_analytics_uacct = "UA-3497964-1";
+      </script>
 
       <script type="text/javascript" src="../style/styleswitcher.js">
         <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
