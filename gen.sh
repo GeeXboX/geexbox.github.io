@@ -16,7 +16,7 @@ fi
 
 
 PAGES="index old start license screenshot downloads buy doc controls generator hard faq links sponsors press mailing contact dev donate packages 404"
-LANGS="en fr"
+LANGS="en"
 
 for l in $LANGS; do
   mkdir -p $l
