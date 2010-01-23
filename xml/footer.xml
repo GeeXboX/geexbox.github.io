@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ours SYSTEM "geexbox.dtd">
+<!DOCTYPE footer SYSTEM "geexbox.dtd">
 
-<ours>
+<footer>
   <content lang="en">&#169; 2002 - 2010, GeeXboX Team - Valid <xhtml title="Check page validity"/> and <css title="Check CSS Style Validity"/> Page.</content>
   <content lang="fr">&#169; 2002 - 2010, GeeXboX Team : <email id="aurel"/> et <email id="ben"/> - Page conforme aux spécifications <xhtml title="Check page validity"/> et <css title="Check CSS Style Validity"/>.</content>
   <content lang="de">&#169; 2002 - 2010, GeeXboX Team : <email id="aurel"/> und <email id="ben"/> - Seite ist <xhtml title="Check page validity"/> und <css title="Check CSS Style Validity"/> konform.</content>
-</ours>
+</footer>

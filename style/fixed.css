@@ -363,7 +363,7 @@ body {
 }
 
 /* footer */
-#ours {
+#footer {
     color: black; //#dde;
     background-color: transparent;
     text-align: right;
@@ -372,12 +372,12 @@ body {
     clear:both;
 }
 
-#ours a {
+#footer a {
     background-color: transparent;
     color: black;
 }
 
-#ours img {
+#footer img {
     border: 0;
     margin: -3px;
 }

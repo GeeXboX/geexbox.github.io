@@ -79,7 +79,7 @@
 <!ELEMENT src-ext  (#PCDATA)>
 
 
-<!ELEMENT ours (content)*>
+<!ELEMENT footer (content)*>
 
 
 <!ELEMENT style (content | stylesheet)*>

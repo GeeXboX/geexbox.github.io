@@ -344,10 +344,10 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 </xsl:template>
 
-<xsl:template match="/ours"><xsl:call-template name="ours"/></xsl:template>
-<xsl:template name="ours">
-  <div id="ours">
-    <xsl:apply-templates select="document('ours.xml')/ours/content[@lang=$lang]/node()"/>
+<xsl:template match="/footer"><xsl:call-template name="footer"/></xsl:template>
+<xsl:template name="footer">
+  <div id="footer">
+    <xsl:apply-templates select="document('footer.xml')/footer/content[@lang=$lang]/node()"/>
     <xsl:call-template name="atom"/>
   </div>
 </xsl:template>

@@ -77,7 +77,7 @@
         <xsl:call-template name="menu"/>
         <xsl:call-template name="infobar"/>
         <xsl:apply-templates select="section"/>
-        <xsl:call-template name="ours"/>
+        <xsl:call-template name="footer"/>
 
       </div>
     </body>
