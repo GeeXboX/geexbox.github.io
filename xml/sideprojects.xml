@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE article SYSTEM "geexbox.dtd">
+
+<projects title="Side Projects">
+  <project name="Enna" url="http://enna.geexbox.org/"/>
+  <project name="libdlna" url="http://libdlna.geexbox.org/"/>
+  <project name="libnfo" url="http://libnfo.geexbox.org/"/>
+  <project name="libplayer" url="http://libplayer.geexbox.org/"/>
+  <project name="libvalhalla" url="http://libvalhalla.geexbox.org/"/>
+  <project name="uShare" url="http://ushare.geexbox.org/"/>
+</projects>

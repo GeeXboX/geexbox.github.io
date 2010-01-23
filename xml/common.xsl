@@ -218,25 +218,6 @@
   </a>
 </xsl:template>
 
-
-<xsl:template match="/style"><xsl:call-template name="style"/></xsl:template>
-<xsl:template name="style">
-  <xsl:variable name="style" select="document('style.xml')/style"/>
-  <div id="styles">
-    <h4><xsl:value-of select="$style/content[@lang=$lang]/@title"/></h4>
-    <ul>
-      <xsl:for-each select="$style/stylesheet">
-        <li>
-          <a href="#">
-            <xsl:attribute name="onclick">setActiveStyleSheet('<xsl:apply-templates/>'); return false;</xsl:attribute>
-            <xsl:apply-templates/>
-          </a>
-        </li>
-      </xsl:for-each>
-    </ul>
-  </div>
-</xsl:template>
-
 <xsl:template name="stylesheet">
   <xsl:variable name="style" select="document('style.xml')/style"/>
   <xsl:for-each select="$style/stylesheet">
@@ -269,34 +250,16 @@
 <xsl:template name="banner">
   <xsl:variable name="banner" select="document('banner.xml')/banner"/>
   <xsl:apply-templates select="$banner/logo"/>
-  <div id="language">
-    <ul>
-      <xsl:for-each select="$banner/langs/text">
-        <li>
-          <a>
-            <xsl:attribute name="href">../<xsl:value-of select="@lang"/>/<xsl:value-of select="$filename"/></xsl:attribute>
-            <xsl:apply-templates/>
-            <img>
-              <xsl:attribute name="src">
-                <xsl:value-of select="@flag"/>
-              </xsl:attribute>
-              <xsl:attribute name="alt">(<xsl:value-of select="@lang"/>)</xsl:attribute>
-            </img>&#160;</a>
-        </li>
-      </xsl:for-each>
-    </ul>
-  </div>
 </xsl:template>
 
 <xsl:template match="/menu"><xsl:call-template name="menu"/></xsl:template>
 <xsl:template name="menu">
   <div id="menubox">
-    <div id="menu">
+    <ul class="menu">
       <xsl:variable name="menu" select="document('menu.xml')/menu"/>
       <xsl:for-each select="$menu/item">
-        <div>
-          <xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute>
-          <h2><xsl:value-of select="text[@lang=$lang]"/></h2>
+        <li>
+          <xsl:value-of select="text[@lang=$lang]"/>
           <ul>
           <xsl:for-each select="subitem">
             <li>
@@ -309,10 +272,59 @@
             </li>
           </xsl:for-each>
           </ul>
-        </div>
+        </li>
       </xsl:for-each>
+    </ul>
+    <div id="endmenu">
+      <img align="top" width="100%" height="10" src="../img/bottom_shadow.png" alt="bottom_shadow"/>
+    </div>
+  </div>
+</xsl:template>
 
-      <div id="ads">
+<xsl:template match="/infobar"><xsl:call-template name="infobar"/></xsl:template>
+<xsl:template name="infobar">
+  <div id="infobar">
+    <xsl:variable name="releases" select="document('releases.xml')/releases"/>
+    <xsl:for-each select="$releases/release">
+      <a>
+        <xsl:attribute name="href">
+          <xsl:value-of select="url"/>
+        </xsl:attribute>
+        <xsl:attribute name="class">
+          <xsl:value-of select="@type"/>
+        </xsl:attribute>
+
+        <strong><xsl:value-of select="title"/></strong>
+        <em><xsl:value-of select="type"/></em>
+        <em><xsl:value-of select="version"/></em>
+      </a>
+    </xsl:for-each>
+
+    <div id="side_projects">
+      <xsl:variable name="projects" select="document('sideprojects.xml')/projects"/>
+      <h1><xsl:value-of select="$projects/@title"/></h1>
+      <xsl:for-each select="$projects/project">
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="@url"/>
+          </xsl:attribute>
+          <xsl:value-of select="@name"/>
+        </a>
+        <br/>
+      </xsl:for-each>
+    </div>
+
+    <div id="ohloh_stats">
+      <script type="text/javascript" src="http://www.ohloh.net/p/480683/widgets/project_partner_badge.js"></script>
+    </div>
+
+    <div id="donate">
+      <a href="donate.html">
+        <img src="http://www.paypal.com/en_US/i/btn/x-click-butcc-donate.gif" alt="Donate" title="Make payments with PayPal - it's fast, free and secure!"/>
+      </a>
+    </div>
+
+    <div id="adsense_v">
 <!-- Google AdSense -->
 <xsl:text disable-output-escaping="yes"><![CDATA[
 <script type="text/javascript"><!--
@@ -326,9 +338,10 @@ google_ad_height = 600;
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 ]]></xsl:text>
-      </div>
     </div>
+
   </div>
+
 </xsl:template>
 
 <xsl:template match="/ours"><xsl:call-template name="ours"/></xsl:template>

@@ -1,0 +1,389 @@
+/* fixed.css */
+/* This stylesheet is (c) 2010 Zores Benjamin */
+/* Designed for the GeeXboX Project (http://www.geexbox.org/) */
+/* Feel free to get inspiration from this stylesheet, as soon as you leave */
+/* this comment here. */
+
+body {
+    margin: auto;
+    font-family : Verdana,Arial,Helvetica,sans-serif;
+    //margin-top: 10px;
+    font-size: 11pt;
+    color: black;
+    background: #656567;
+    background-color: #6d6d6d;
+    background-image: url("../img/bg.png");
+    background-position: top center;
+    background-repeat: repeat-y;
+    text-decoration: none;
+}
+
+#page {
+    min-width: 1000px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    //margin-top: 15px;
+    //margin-bottom: 15px;
+    border: 2px solid black;
+    border-top: 2px solid black;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* header */
+#logo {
+    text-align: left;
+    color: black;
+    background-color: #4060A0;
+    line-height: 100%;
+    //margin-bottom: 1em;
+    background-image: url("../img/back.jpeg");
+    background-repeat: repeat;
+}
+
+#logo img {
+    border: 0;
+    //margin: 2px 0 2px 10px;
+}
+
+/* Menu */
+@media all {
+    .menu, .menu ul, .menu li {
+        padding: 0px;
+        margin: 0px;
+    }
+    .menu > li {
+        float: left;
+    }
+    .menu li {
+        list-style-type: none;
+        border: 1px solid #c4c0b4;
+        color: black;
+        background-color: #f8f8fb;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .menu ul {
+        display: none;
+        position: absolute;
+        margin-left: 3px;
+        margin-top: 5px;
+    }
+    .menu li:hover > ul {
+        display: block;
+    }
+    .menu ul.parent_hover {
+        display: block;
+    }
+    .menu a {
+        color: black;
+        background: none;
+        display: block;
+        width: 100%;
+        text-decoration: none;
+    }
+    .menu li:hover {
+        color: white;
+        background-color: #2956b0;
+    }
+    .menu li.hover, .menu a:hover {
+        color: white;
+        background-color: #2956b0;
+    }
+    .menu ul ul {
+        margin-top: -1.2em;
+        left: 99%;
+    }
+    .menu span {
+        display: block;
+    }
+    .menu {
+        float: left;
+        width: 100%;
+        color: black;
+        background-color: #f8f8fb;
+    }
+    .endmenu {
+        clear: left;
+    }
+}
+
+/* info bar */
+#infobar {
+    float: right;
+    width: 190px;
+    color: black;
+    background-color: white;
+    margin-top: -4px;
+    padding-right: 5pt;
+}
+
+/* Stable download button */
+.dl_stable {
+    display: block;
+    padding: 5px 5px 10px 5px;
+    background: url(../img/dl_stable.png) no-repeat 0 0;
+    color: #fff;
+    text-decoration: none;
+    font-family: Verdana, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.dl_stable strong {
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.dl_stable em {
+    color: white;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Unstable download button */
+.dl_unstable {
+    display: block;
+    padding: 5px 5px 10px 5px;
+    background: url(../img/dl_unstable.png) no-repeat 0 0;
+    color: #fff;
+    text-decoration: none;
+    font-family: Verdana, Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.dl_unstable strong {
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.dl_unstable em {
+    color: white;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Side Projects section */
+#side_projects {
+    color: black;
+    background-color:  #c4c0b4;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    text-align: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#side_projects h1 {
+    color: white;
+    background-color: #555555; //black;
+    font-size: 18px;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+#side_projects a {
+    color: black;
+    background: none;
+    display: center;
+    width: 100%;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#side_projects a:hover {
+    color: white;
+    background-color: #2956b0;
+}
+
+#ohloh_stats {
+    margin-bottom: 15px;
+}
+
+#donate {
+    text-align: center;
+    float: center;
+    margin-bottom: 15px;
+}
+
+/* Vertical Google AdSense */
+#adsense_v {
+    text-align: center;
+}
+
+/* main area */
+#textbox {
+    float: left;
+    background-color: white;
+    //border-right: 1px solid grey;
+    margin-top: -10px;
+    //margin-right: 200px;
+    width: 790px;
+    padding: 5pt;
+    color: inherit;
+}
+
+#text {
+    color: black;
+    background-color: white;
+    line-height: 150%;
+    text-align: justify;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+}
+
+#text h2 {
+    display: none;
+}
+
+/* section entry */
+#text h4 {
+    font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    border: 1px solid #006;
+    background-color: #a1c2e1;
+    margin: 0 0 0 0;
+    padding: 2px 0 2px 1em;
+    text-align: left;
+    color: #006;
+    font-size:130%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/* section text */
+.p {
+    background-color: #e8e6f0;
+    border: 1px solid #006;
+    border-top: 0px;
+    padding-top: 1em;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2em;
+    margin-bottom: 15px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#text h5 {
+    text-decoration: underline;
+    margin: 0;
+    font-size:100%;
+}
+
+#text a {
+    color:#369;
+    background-color: transparent;
+}
+
+#text a:hover {
+    color:#008;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#text a:visited {
+    color:#369;
+    background-color: transparent;
+}
+
+.dldesc {
+    display: table;
+    width: 100%;
+}
+
+.dldescicon {
+    float: left;
+    vertical-align: top;
+    padding: 3px;
+}
+
+.dldesctext {
+    width: 100%;
+    padding: 3px;
+}
+
+.download {
+    display: block;
+    float: left !important;
+    float: none;
+    width: 100%;
+    background-color: #efefef;
+    color: inherit;
+}
+
+.download img {
+    border: 0;
+}
+
+.dlplusminus {
+    float: left;
+    padding: 5px 1em 5px 5px;
+}
+
+.dlfile {
+    float: left;
+    margin-top: 4px;
+}
+
+.p div.download:last-child {
+    margin-bottom: 3em;
+}
+
+.dltable img {
+    margin: 5px 1em 5px 5px;
+    vertical-align: middle;
+}
+
+.row0 {
+    background-color: #e5e5e5;
+    color: inherit;
+}
+
+.row1 {
+    background-color: #efefef;
+    color: inherit;
+}
+
+.center {
+    text-align: center;
+    margin: 1em 0 2em 0;
+}
+
+.spacer {
+    clear: both;
+}
+
+/* footer */
+#ours {
+    color: black; //#dde;
+    background-color: transparent;
+    text-align: right;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    clear:both;
+}
+
+#ours a {
+    background-color: transparent;
+    color: black;
+}
+
+#ours a:hover {
+    background-color: #eff4fa;
+    color: #369;
+    text-decoration: none;
+}
+
+#ours img {
+    border: 0;
+    margin: -3px;
+}

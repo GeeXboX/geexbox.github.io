@@ -65,9 +65,6 @@
 	window.google_analytics_uacct = "UA-3497964-1";
       </script>
 
-      <script type="text/javascript" src="../style/styleswitcher.js">
-        <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
-      </script>
       <script type="text/javascript" src="../style/toggle.js">
         <xsl:comment>just to get the non-minimized form of the element</xsl:comment>
       </script>
@@ -78,8 +75,8 @@
 
         <xsl:call-template name="banner"/>
         <xsl:call-template name="menu"/>
+        <xsl:call-template name="infobar"/>
         <xsl:apply-templates select="section"/>
-        <xsl:call-template name="style"/>
         <xsl:call-template name="ours"/>
 
       </div>

@@ -60,6 +60,14 @@
 <!ELEMENT file (arch|libc|version|lang|size|md5|sha1|src-type|src-ext)*>
 <!ATTLIST file type NMTOKEN #REQUIRED>
 
+<!ELEMENT releases (release*)>
+
+<!ELEMENT release (title|type|version|url)*>
+<!ATTLIST release type NMTOKEN #REQUIRED>
+
+<!ELEMENT projects (project*)>
+<!ATTLIST project name NMTOKEN #REQUIRED url NMTOKEN #REQUIRED>
+
 <!ELEMENT arch (#PCDATA)>
 <!ELEMENT libc (#PCDATA)>
 <!ELEMENT version (#PCDATA)>

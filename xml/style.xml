@@ -6,6 +6,5 @@
   <content lang="fr" title="Styles"/>
   <content lang="de" title="Styles"/>
   <title>Styles</title>
-  <stylesheet file="../style/deepblue.css" media="screen" default="yes">DeepBlue</stylesheet>
-  <stylesheet file="../style/console.css" media="screen">Console</stylesheet>
+  <stylesheet file="../style/fixed.css" media="screen" default="yes">Fixed</stylesheet>
 </style>
