@@ -215,6 +215,10 @@ body {
     margin-bottom: 15px;
 }
 
+#donate img {
+    border: 0;
+}
+
 /* Vertical Google AdSense */
 #adsense_v {
     text-align: center;
