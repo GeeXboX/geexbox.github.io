@@ -346,6 +346,21 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
 <xsl:template match="/footer"><xsl:call-template name="footer"/></xsl:template>
 <xsl:template name="footer">
+
+  <!-- Horizontal Google AdSense -->
+  <div id="adsense_h">
+    <script type="text/javascript"><!--
+google_ad_client = "pub-8177632591767420";
+google_ad_slot = "5303226737";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+  </div>
+
   <div id="footer">
     <xsl:apply-templates select="document('footer.xml')/footer/content[@lang=$lang]/node()"/>
     <xsl:call-template name="atom"/>

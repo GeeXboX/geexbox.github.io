@@ -363,6 +363,16 @@ body {
 }
 
 /* footer */
+
+#adsense_h {
+  clear: both;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+  margin-bottom: 10px;
+}
+
 #footer {
     color: black; //#dde;
     background-color: transparent;
