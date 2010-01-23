@@ -104,10 +104,12 @@ body {
         float: left;
         width: 100%;
         color: black;
+        padding-bottom: 5px;
         background-color: #f8f8fb;
-    }
-    .endmenu {
-        clear: left;
+        background-image: url("../img/bottom_shadow.png");
+        background-repeat: repeat-x;
+        background-position: 0% 31px;
+
     }
 }
 
@@ -117,7 +119,7 @@ body {
     width: 190px;
     color: black;
     background-color: white;
-    margin-top: -4px;
+    margin-top: 10px;
     padding-right: 5pt;
 }
 
@@ -229,7 +231,7 @@ body {
     float: left;
     background-color: white;
     //border-right: 1px solid grey;
-    margin-top: -10px;
+    margin-top: 5px;
     //margin-right: 200px;
     width: 790px;
     padding: 5pt;

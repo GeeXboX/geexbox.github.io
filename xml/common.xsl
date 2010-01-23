@@ -275,9 +275,6 @@
         </li>
       </xsl:for-each>
     </ul>
-    <div id="endmenu">
-      <img align="top" width="100%" height="10" src="../img/bottom_shadow.png" alt="bottom_shadow"/>
-    </div>
   </div>
 </xsl:template>
 
