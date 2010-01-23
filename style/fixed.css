@@ -377,12 +377,6 @@ body {
     color: black;
 }
 
-#ours a:hover {
-    background-color: #eff4fa;
-    color: #369;
-    text-decoration: none;
-}
-
 #ours img {
     border: 0;
     margin: -3px;
