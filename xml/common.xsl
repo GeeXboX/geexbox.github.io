@@ -315,7 +315,11 @@
     </div>
 
     <div id="ohloh_stats">
-      <script type="text/javascript" src="http://www.ohloh.net/p/480683/widgets/project_partner_badge.js"></script>
+<xsl:text disable-output-escaping="yes"><![CDATA[
+<script type="text/javascript"
+src="http://www.ohloh.net/p/480683/widgets/project_partner_badge.js">
+</script>
+]]></xsl:text>
     </div>
 
     <div id="donate">
@@ -349,7 +353,8 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 
   <!-- Horizontal Google AdSense -->
   <div id="adsense_h">
-    <script type="text/javascript"><!--
+<xsl:text disable-output-escaping="yes"><![CDATA[
+<script type="text/javascript"><!--
 google_ad_client = "pub-8177632591767420";
 google_ad_slot = "5303226737";
 google_ad_width = 728;
@@ -359,6 +364,7 @@ google_ad_height = 90;
 <script type="text/javascript"
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
+]]></xsl:text>
   </div>
 
   <div id="footer">
