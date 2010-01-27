@@ -254,22 +254,21 @@ body {
 /* section entry */
 #text h4 {
     font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
-    border: 1px solid #006;
-    background-color: #a1c2e1;
+    border:2px solid #ff9540;
+    background: #ff9540;
     margin: 0 0 0 0;
     padding: 2px 0 2px 1em;
     text-align: left;
-    color: #006;
+    color: white;
     font-size:130%;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
 }
 
 /* section text */
 .p {
-    background-color: #e8e6f0;
-    border: 1px solid #006;
-    border-top: 0px;
+    background-color: white;
+    border: 1px solid #ff9540;
     padding-top: 1em;
     padding-left: 2%;
     padding-right: 2%;
