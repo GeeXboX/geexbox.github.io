@@ -172,10 +172,333 @@
     <a href="http://www.geexbox.org/forum/viewtopic.php?t=8701"><b>Forum</b></a>
   </define>
 
+  <define name="blog-ben">
+    <a href="http://gxben.wordpress.com/"><b>Ben's Blog</b></a>
+  </define>
+
+  <define name="blog-mat">
+    <a href="http://skywalker13.wordpress.com/"><b>Mat's Blog</b></a>
+  </define>
+
+  <define name="screenshots-v2">
+    <br/>
+    <center>
+      <a href="../img/gx-v2-menu-full.jpeg">
+        <img src="../img/gx-v2-menu-thumb.jpeg" alt="GeeXboX v2 Menu"/>
+      </a>
+      <a href="../img/gx-v2-music-full.jpeg">
+        <img src="../img/gx-v2-music-thumb.jpeg" alt="GeeXboX v2 Music Menu"/>
+      </a>
+      <a href="../img/gx-v2-browse-full.jpeg">
+        <img src="../img/gx-v2-browse-thumb.jpeg" alt="GeeXboX v2 Browser"/>
+      </a>
+      <br/>
+      <a href="../img/gx-v2-music-play-full.jpeg">
+        <img src="../img/gx-v2-music-play-thumb.jpeg" alt="GeeXboX v2 Music"/>
+      </a>
+      <a href="../img/gx-v2-photo-full.jpeg">
+        <img src="../img/gx-v2-photo-thumb.jpeg" alt="GeeXboX v2 Photo"/>
+      </a>
+      <a href="../img/gx-v2-video-full.jpeg">
+        <img src="../img/gx-v2-video-thumb.jpeg" alt="GeeXboX v2 Video"/>
+      </a>
+    </center>
+    <br/>
+  </define>
+
+  <define name="libnfo">
+    <a href="http://libnfo.geexbox.org/">libnfo</a>
+  </define>
+
+  <define name="libplayer">
+    <a href="http://libplayer.geexbox.org/">libplayer</a>
+  </define>
+
+  <define name="libvalhalla">
+    <a href="http://libvalhalla.geexbox.org/">libvalhalla</a>
+  </define>
+
+  <define name="enna">
+    <a href="http://enna.geexbox.org/">Enna</a>
+  </define>
+
+  <define name="screenshots-enna">
+    <br/>
+    <center>
+      <a href="../img/gx-enna-music.jpeg">
+        <img src="../img/gx-enna-music-thumb.jpeg" alt="Enna Music Menu"/>
+      </a>
+      <a href="../img/gx-enna-credits.jpeg">
+        <img src="../img/gx-enna-credits-thumb.jpeg" alt="Enna Credits Menu"/>
+      </a>
+      <a href="../img/gx-enna-video-info.jpeg">
+        <img src="../img/gx-enna-video-info-thumb.jpeg" alt="Enna Video Info"/>
+      </a>
+    </center>
+    <br/>
+  </define>
+
   <section label="news">
     <content lang="en" title="Archives (old news) ..."/>
     <content lang="fr" title="Archives (anciennes nouvelles) ..."/>
     <content lang="de" title="Archives (old news) ..."/>
+
+    <subsection label="geexbox_libs" date="2009-12-13">
+      <content lang="en" title="Availability of GeeXboX libraries">
+	Those of you who follow GeeXboX development carefully already heard
+	about the project <use name="enna"/>. It's a Media Center project,
+	based on Enlightenment Foundation Libraries (EFL), that has been
+	developed by the GeeXboX team members. <use name="enna"/> is a
+	standalone application, that can be run on any Linux distribution,
+	GeeXboX LiveCD being one of them and that will be the major feature of
+	upcoming v2.0.<br/>
+	<br/>
+	As a convenience (and because some users do not want to use the LiveCD
+	distribution), <use name="enna"/> will be made available for others
+	than GeeXboX (first release is expected pretty soon).
+	<use name="enna"/> being a graphical interface only, the team has
+	developed many other libraries that are used by <use name="enna"/> and
+	for which initial release just has been made:<br/>
+	<br/>
+	- <use name="libnfo"/>: a small library used to parse and write NFO
+	files. NFO files are XML files used to store metadata information on
+	many multimedia files. It is massively used by other Media Centers,
+	such as XBMC, which allow you unique metadata storage among your
+	various Media Center applications.<br/>
+	- <use name="libplayer"/>: a multimedia A/V abstraction layer API.
+	Its goal is to interact with <use name="enna"/>. libplayer provides a
+	generic A/V API that relies on various multimedia player for Linux
+	systems. It currently supports MPlayer, xine VLC and GStreamer only.
+	This will allow future GeeXboX users to easily switch from one media
+	player to another.<br/>
+	- <use name="libvalhalla"/>: a media scanner library, that stores
+	various information in an SQLite database. It features many Internet
+	grabbers that allows automatic download of covers, lyrics, informations
+	on media files, tags retrival in video and music files and so on.
+	Among them, we currently support <i>Allocine, Amazon, EXIF information,
+	FFmpeg, ImDB, Last.fm, local files, LyricsFly.com, LyricWiki.org,
+	NFO files, TheTVDB.com, TheMovieDB.org and TVRage.com</i>.
+	It can of course be extended to support so much more.<br/>
+	<br/>
+	All of these libraries just hit the 1.0.0 release and are available
+	either under source format in their respective projects' homepages but
+	also have been packaged for Ubuntu 9.10 (Karmic) users (but should work
+	as well on Debian Sid) to try them out.<br/>
+	<br/>
+	Also remind that these libraries are not meant to be GeeXboX specific.
+	They are fully portable and can be used with many other projects.<br/>
+	<br/>
+	As you may have understood, it is now possible for you to easily try
+	out <use name="enna"/> before it gets officially released. However,
+	and just for the most eager ones of you, you may appreciate the
+	following screenshots of <use name="enna"/>.
+	<use name="screenshots-enna"/>
+      </content>
+      <content lang="fr" title="Disponibilité des librairies GeeXboX">
+	Ceux parmi vous qui suivent attentivement le projet GeeXboX ont
+        probablement déjà) entendu parlé du projet <use name="enna"/>.
+        Il s'agit d'un Media Center, basé sur les Enlightenment Foundation
+        Libraries (EFL), qui a été développé par les membres de l'équipe
+        GeeXboX. <use name="enna"/> est une application indépendante, qui peut
+        être utilisée sur tout type de distribution Linux, le LiveCD GeeXboX en
+        étant le meilleur représentant, et qui consitue la fonctionnalité clée
+        de la très attendue version 2.0.<br/>
+	<br/>
+	Par soucis de simplicité (mais également parce qu'il n'y avait aucune
+        raison de se restreindre au LiveCd GeeXboX), <use name="enna"/> sera
+        disponible pour d'autres distributions (la première version ne saurait
+        d'ailleurs tarder).
+	<use name="enna"/> n'étant une interface graphique, les membres de
+        notre équipe ont également travaillé sur de nombreuses autres
+        librairies qui sont nécessaires au bon fonctionnement
+        d'<use name="enna"/> et pour lesquelles la premi-re version vient tout
+        juste de sortir :<br/>
+	<br/>
+	- <use name="libnfo"/>: une petite librairie destinée à la lecture et
+        écriture des fichiers NFO. Les fichiers NFO sont des fichiers XML
+        utilisées pour stocker les métadonnées associées à différents fichiers
+        multimédia. Ces derniers sont extrêmement utilisés par d'autres
+        applications de type Media Centers (dont XBMC), ce qui vous permet
+        d'avoir un format de stockage unique de ces informations, indépendant
+        de l'application utilisée.<br/>
+	- <use name="libplayer"/>: une couche d'abstraction audio/vidéo
+        multimédia. Son but est évidemment d'interragir avec
+        <use name="enna"/>. libplayer fournit une interface de programmation
+        générique qui permet de s'interfacer avec différents lecteurs
+        multimédia connus. La librairie supporte actuellement les projets
+        MPlayer, xine, VLC et GStreamer. Cela permettra, dans le futur, de
+        faciler migrer d'un lecteur multimédia à un autre, selon les
+        préférences de chaque utilisateur.<br/>
+	- <use name="libvalhalla"/>: une librairie faisant office de scanner de
+        fichiers multimédia, qui enregistre différentes informations au sein
+        d'une très petite base de données au format SQLite. Elle supporte en
+        outre de nombreuses extensions permettant de récupérer des informations
+        depuis différentes ressources Internet, permettant la récupération
+        automatique de jacquettes, paroles, infromations sur vos fichiers,
+        récupération des propriétés de vos fichiers audio/vidéo et bien
+        d'autres choses encore.
+	Parmi ces dernières, nous supportons au jour d'aujourd'hui les
+        ressources suivantes :<i>Allocine, Amazon, les informations EXIF,
+        FFmpeg, ImDB, Last.fm, local files, LyricsFly.com, LyricWiki.org,
+        les fichiers NFO, TheTVDB.com, TheMovieDB.org et TVRage.com</i>.
+	Le tout peut, bien entendu, être étendu pour en supporter
+        davantage encore.<br/>
+	<br/>
+	L'ensemble de ces librairies vient juste d'être mis à disposition, en
+        version 1.0.0, et ces dernières sont disponibles sous forme de source
+        au sein des pages d'accueil des différents sous-projets, mais également
+        sous forme pré-empaquetée pour les utlisateurs d'Ubuntu 9.10 (Karmic),
+        bien que la compatiblité avec Debian Sid doive être effective.<br/>
+	<br/>
+	Souvenez-vous donc que ces librairies ne sont pas spécifiques au projet
+        GeeXboX. Ces dernières sont tout à fait portables et peuvent donc être
+        réutilisées au sein d'autres projets.<br/>
+	<br/>
+	Vous l'aurez compris, il vous est désormais très facilement possible
+        d'essayer <use name="enna"/> et ce avant même sa première disponibilité
+        officielle. Les plus impatients d'entre vous seront cependant ravis de
+        voir quelques captures d'écran du projet <use name="enna"/>.
+	<use name="screenshots-enna"/>
+      </content>
+    </subsection>
+
+    <subsection label="geexbox_1.2.4" date="2009-10-11">
+      <content lang="en" title="GeeXboX 1.2.4: fix release">
+      Some commercial DVD decryption bug having been spotted out on GeeXboX
+      forums, we had to fix it through this minor 1.2.4 release. In the mean
+      time, you'll be pleased to hear that 2.x development branch has been
+      greatly stabilized recently and we should be able to provide the first
+      alpha release by end of year.<br/>
+      <br/>
+      GeeXboX 1.2.4 (for x86_32 and x86_64 computers) is
+      available right <a href="downloads.html">here</a> and now!
+      </content>
+      <content lang="fr" title="GeeXboX 1.2.4: version corrective">
+      Un problème de décrytage des protections de certains DVD commerciaux
+      ayant été rencontrés au sein des usagers du forum GeeXboX, nous nous
+      devions de le corriger, via cette version corrective mineure estampillée
+      1.2.4. Vous serez également heureux d'apprendre que la branche de
+      développement de la version 2.x vient très récemment d'être grandement
+      stabilisée, ce qui devrait nous permettre de vous proposer la première
+      version alpha d'ici la fin de l'année.<br/>
+      <br/>
+      La GeeXboX 1.2.4 (pour ordinateurs x86_32 et x86_64) est
+      disponible dès à présent sur notre <a href="downloads.html">page de
+      téléchargements</a>.
+      </content>
+    </subsection>
+
+    <subsection label="geexbox_1.2.3" date="2009-07-10">
+      <content lang="en" title="GeeXboX 1.2.3: fix release">
+      As it appeared that a nasty bug with some AC3 audio encoded files
+      slipped through previous 1.2.2 release, here's another minor release.
+      No big changes here except from AC3 playback recovery.<br/>
+      <br/>
+      GeeXboX 1.2.3 (for x86_32, x86_64 and powerpc computers) is
+      available right <a href="downloads.html">here</a> and now!
+      </content>
+      <content lang="fr" title="GeeXboX 1.2.3: version corrective">
+      Il semblerait qu'un bug subsistait dans la version 1.2.2, relatif à la
+      lecture de fichiers dont la piste audio était au format AC3. Voici donc
+      une nouvelle version mineure 1.2.3, sans grands changements, hormis ce
+      correctif.<br/>
+      <br/>
+      La GeeXboX 1.2.3 (pour ordinateurs x86_32, x86_64 et powerpc) est
+      disponible dès à présent sur notre <a href="downloads.html">page de
+      téléchargements</a>.
+      </content>
+    </subsection>
+
+    <subsection label="geexbox_1.2.2" date="2009-06-19">
+      <content lang="en" title="GeeXboX 1.2.2: features enhancement release">
+      A few interesting patches recently having been commited to 2.0
+      development tree, people on forum asked for backport of these on stable
+      1.2 release. So did we, adding a new key feature, with multi-threaded
+      video decoding support. Non IT people can see this as a way to finally
+      make use of their brand new multi-core CPU systems providing
+      parallelized treatment. And the results are pretty good, with a 1.8x
+      video decoding speed boost on Core2Duo and 3.0x speedup with Core2Quad.
+      It is now truely possible to actually decode 1080p HDTV streams on
+      Linux.<br/>
+      <br/>
+      As exciting as it may be, please however note that this is still an
+      experimental feature (we're probably the one of the first Linux distro
+      to integrate it), that may cause undesired visual artefacts (in some
+      very rare cases). In order to make use of it, you'll have to explicitely
+      enable it through ISO generator.<br/>
+      <br/>
+      <b>Detailed Changelog (relative to 1.2.1 release):</b><br/>
+      <br/>
+      - Multi-threaded video decoding for MPEG-1/2/4 and H.264 codecs.<br/>
+      - Support for newly discovered DVD MovieProtect encryption method.<br/>
+      - Extended DVD CSS descrambiling capabilities.<br/>
+      - Removal of GOOM audio visualization (was causing too much
+        troubles).<br/>
+      - Automount daemon enhancements.<br/>
+      - Upgrade of MPlayer and its set of codecs.<br/>
+      <br/>
+      GeeXboX 1.2.2 (for x86_32, x86_64 and powerpc computers) is
+      available right <a href="downloads.html">here</a> and now!
+      </content>
+      <content lang="fr" title="GeeXboX 1.2.2">
+      Un certain nombre de patches particulièrement intéressants ayant
+      récemment été inclus dans la branche de développement de la version 2.0,
+      des utilisateurs du forum nous ont supplié de les inclure dans
+      l'actuelle branche stable. C'est désormais chose faite, principalement
+      par l'ajout d'une nouvelle fonctionnalité clé: le support du décodage
+      multi-tâches des vidéos. Les non-experts comprendront par ce terme
+      barbare qu'il leur est enfin possible de tirer parti de leur tout
+      nouveau processeur multi-coeurs via un traitement parallélisé. Et les
+      résultats sont plus que prometteurs, avec un gain de 1.8 pour la vitesse
+      de décodage sur Core2Duo et de 3.0 sur Core2Quad. Il est donc enfin
+      réellement possible de décoder des flux HDTV 1080p sous Linux.<br/>
+      <br/>
+      Aussi jubilatoire que cela puisse pourtant sembler, veuillez néanmoins garder à l'esprit qu'il s'agit d'une fonctionnalité qui reste expériementale (nous sommes probablement une des premières distributions Linux à la proposer), qui peut causer quelques artefacts visuels dans de très rares cas). Ainsi, afin d'en tirer réellement parti, il vous sera nécessaire de l'activiter explicitement via le générateur d'ISO.<br/>
+      <br/>
+      <b>Liste détaillée des changements (depuis la version 1.2.1) :</b><br/>
+      <br/>
+      - Décodage vidéo multi-tâches pour les codecs MPEG-1/2/4 et H.264.<br/>
+      - Support de la nouvelle encryption DVD MovieProtect.<br/>
+      - Capacités étendues de décryptage de la protection CSS des DVD.<br/>
+      - Suppression du greffon de visualisation audio GOOM (responsable de
+        bien trop de problèmes).<br/>
+      - Amélioration du démon d'automontage.<br/>
+      - Mise à jour de MPlayer et de son ensemble de codecs.<br/>
+      <br/>
+      La GeeXboX 1.2.2 (pour ordinateurs x86_32, x86_64 et powerpc) est
+      disponible dès à présent sur notre <a href="downloads.html">page de
+      téléchargements</a>.
+      </content>
+    </subsection>
+
+    <subsection label="geexbox_1.2.1" date="2009-02-11">
+      <content lang="en" title="GeeXboX 1.2.1: security-fix release">
+      While working on 2.0 development, we managed to find a few major bugs in
+      1.2 release codebase. There were a major flaw in installator which may
+      (in some cases) lead to destroy your HDD's MBR while trying to install
+      to a removable USB key plus a few minor bugs with EeePC 701 frequency
+      scaling and parallel port LCD driver support.<br/>
+      It is highly recommended that you use this new version instead.<br/>
+      <br/>
+      GeeXboX 1.2.1 (for x86_32, x86_64 and powerpc computers) is
+      available right <a href="downloads.html">here</a> and now!
+      </content>
+      <content lang="fr" title="GeeXboX 1.2.1">
+      Lors du développement de la version 2.0, nous sommes tombés sur quelques
+      bogues majeurs contenus dans le code de la version 1.2. Il y avait une
+      faille majeure au sein de l'installateur qui pouvait (dans certains
+      cas), détruire la table des partitions de votre disque dur, lors de
+      l'installation sur clés USB amovible, ainsi que des bogues plus mineurs
+      de gestion de fréquence processeur sur EeePC 701 et de gestion du port
+      parallèle pour les écrans LCD.<br/>
+      Il est donc grandement recommandé de désormais utiliser cette nouvelle
+      version.<br/>
+      <br/>
+      La GeeXboX 1.2.1 (pour ordinateurs x86_32, x86_64 et powerpc) est
+      disponible dès à présent sur notre <a href="downloads.html">page de
+      téléchargements</a>.
+      </content>
+    </subsection>
 
     <subsection label="geexbox_1.2" date="2009-01-31">
       <content lang="en" title="GeeXboX 1.2: 'Broadcast simultaneously one
