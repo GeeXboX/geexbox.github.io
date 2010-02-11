@@ -101,17 +101,6 @@
     <content lang="en" title="Supported Hardware ..."/>
     <content lang="fr" title="Matériel compatible ..."/>
     <content lang="de" title="Kompatible Hardware ..."/>
-    <subsection label="hard_rc">
-      <content lang="en" title="Get an officially supported computer ...">
-        Of course GeeXboX should work on any kind of computer but you may want to buy a new one that is officially supported by our development team. <use name="response-computing"/> is a UK computer shop that sells hardware that has been approved by GeeXboX team to be fully compliant. It looks like an embedded mini-itx platform, featuring an EPIA-MII motherboard, and shipped with a pre-installed version of GeeXboX. Then, if you look for an easy way to build a GeeXboX, you may be interested by <use name="response-computing"/>. Moreover, 5£ are given back to our development team for each computer sold.
-      </content>
-      <content lang="fr" title="Se procurer un ordinateur officiellement supporté ...">
-        Bien entendu, la GeeXboX a été conçue pour fonctionner sur tout type d'ordinateur, mais vous pouvez vouloir en acheter un, dédié à devenir platine de salon, et qui soit certifié par l'équipe de développement. <use name="response-computing"/> est une société anglaise qui commercialise un système embarqué qui a été officiellment testé et certifié par notre équipe de développement. Il s'agit d'une plateforme Mini-ITX, basée sur une carte mère EPIA-MII, et qui est vendue avec une version pré-installée de la GeeXboX. Ainsi, si vous cherchez un moyen facile de construire votre propre GeeXboX, vous pourrez être intéressés par l'offre de <use name="response-computing"/>. De plus, 5£ sont reversées à l'équipe de développement pour chaque vente.
-      </content>
-      <content lang="de" title="Erwerben Sie einen offiziell unterstützten Computer ...">
-        GeeXboX sollte eigentlich mit jedem Computer funktionieren. Wenn Sie aber vielleicht trotzdem einen neuen Computer erwerben möchten, dann vielleicht einen, der offiziell vom GeeXboX Team zertifiziert ist. <use name="response-computing"/> ist ein in England ansässiger Computerversand, der vom GeeXboX Team auf Kompatibilität geprüfte Hardware versendet. Die Plattformbasis bildet ein mini ITX Motherboard, (EPIA-MII) und das vollständige System wird mit vorinstallierter GeeXboX ausgeliefert. Wenn Sie also nach einer Möglichkeit suchen, möglichst einfach eine GeeXboX zu basteln, kann Ihnen <use name="response-computing"/> bestimmt weiterhelfen. Zusätzlich erhält das Entwicklerteam eine 5 Pfund Gutschrift für jeden verkauften Computer.
-      </content>
-    </subsection>
 
     <subsection label="list_hard">
       <content lang="en" title="List of supported hardware ...">
