@@ -43,13 +43,14 @@
       <text lang="it">Screenshot</text>
     </subitem>
 
+  </item>
+
+  <item name="download" id="download">
+    <text lang="en">Downloads</text>
+
     <subitem name="download" url="downloads.html">
       <text lang="en">Downloads</text>
-      <text lang="fr">Téléchargements</text>
-      <text lang="de">Downloads</text>
-      <text lang="it">Download</text>
     </subitem>
-
   </item>
 
   <item name="resources" id="resources">
