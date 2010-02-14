@@ -2,6 +2,24 @@
 <!DOCTYPE article SYSTEM "geexbox.dtd">
 
 <article>
+  <define name="enna">
+    <a href="http://enna.geexbox.org/">Enna</a>
+  </define>
+
+  <define name="scr-enna">
+    <center>
+      <a href="../img/mainmenu-music.jpg">
+        <img src="../img/mainmenu-music-thumb.jpg" border="0" alt="Enna Music Menu"/>
+      </a>
+      <a href="../img/activity-photo-wall.jpg">
+        <img src="../img/activity-photo-wall-thumb.jpg" border="0" alt="Enna Photo Wall"/>
+      </a>
+      <a href="../img/activity-video-infos.jpg">
+        <img src="../img/activity-video-infos-thumb.jpg" border="0" alt="Enna Video Info"/>
+      </a>
+    </center>
+  </define>
+
   <define name="bootsplash">
     <a href="http://www.bootsplash.org/">BootSplash</a>
   </define>
@@ -47,6 +65,13 @@
   </define>
 
   <section label="screenshot">
+    <subsection label="enna">
+      <content lang="en" title="GeeXboX Interface (v2.x)">
+        These are a few screenshot of GeeXboX user interface, starting from v2.x. They are based on <use name="enna"/>, our dedicated Media Center application.
+      </content>
+      <use name="scr-enna"/>
+    </subsection>
+
     <subsection label="boot">
       <content lang="en" title="Booting Sequence (v0.x - 1.x)">
         This is a screenshot of GeeXboX booting. The system is booting using <use name="bootsplash"/> in order to have an animated boot logo.
