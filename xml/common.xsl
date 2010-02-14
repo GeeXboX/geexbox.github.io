@@ -340,6 +340,21 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 ]]></xsl:text>
     </div>
+    <div id="adsense_v">
+<!-- Google AdSense -->
+<xsl:text disable-output-escaping="yes"><![CDATA[
+<script type="text/javascript"><!--
+google_ad_client = "pub-8177632591767420";
+google_ad_slot = "9007406271";
+google_ad_width = 180;
+google_ad_height = 150;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+]]></xsl:text>
+    </div>
 
   </div>
 
