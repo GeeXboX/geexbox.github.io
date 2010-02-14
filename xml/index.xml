@@ -170,7 +170,7 @@
         As a consequence, some stuff are already know to be broken or
         missing:<br/>
         <ul>
-          <li>Many features are missing, including TV and netstreams
+          <li>Some features are disabled, including TV and netstreams
             support.</li>
           <li>Generator needs a huge rewrite and will be part of alpha2
             release only, sorry folks.</li>
@@ -203,10 +203,10 @@
         In order to allow us to enhance GeeXboX to our users' configuration,
         we've also setup a statistics utility that provides us with some
         information regarding your hardware configuration. It has been enabled
-        by default but we know that it is intrusive and confidential. So if
+        by default but we know that it can be intrusive for some users. So if
         you're not willing to provide these info (CPU model, amount of memory
         RAM, video board type, and such ...), you can disable it by adding
-        <i>nostats</i> to the boot command-line.<br/>
+        <b>nostats</b> to the boot command-line.<br/>
         <br/>
         That said, feel free to download our new 2.0-alpha1 release.
         It had been made available for <use name="release_2.0_alpha1-i386"/>
