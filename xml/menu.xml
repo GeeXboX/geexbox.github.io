@@ -194,11 +194,5 @@
       <text lang="it">Dicono di noi</text>
     </subitem>
 
-    <subitem name="links" url="links.html">
-      <text lang="en">Links</text>
-      <text lang="fr">Liens</text>
-      <text lang="de">Links</text>
-      <text lang="it">Collegamenti</text>
-    </subitem>
   </item>
 </menu>
