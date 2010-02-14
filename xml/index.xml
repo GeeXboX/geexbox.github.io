@@ -212,7 +212,7 @@
         It had been made available for <use name="release_2.0_alpha1-i386"/>
         and <use name="release_2.0_alpha1-x86_64"/> computers.
         The <use name="release_2.0_alpha1-src-lite"/> and
-        <use name="release_2.0_alpha1-src-lite"/> sources of this release
+        <use name="release_2.0_alpha1-src-full"/> sources of this release
         obviously are available too.
       </content>
     </subsection>
