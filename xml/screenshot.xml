@@ -51,7 +51,7 @@
     <content lang="fr" title="Captures d'écrans et Thèmes ...">Vous trouverez ci-dessous des captures d'écrans de la GeeXboX en action. Cliquez simplement sur les miniatures pour afficher les images à leur taille originale.</content>
     <content lang="de" title="Screenshots und Themes ...">Hier sind einige Screenshots der GeeXboX in Aktion. Klicken Sie einfach auf die Vorschaubilder, um diese zu vergrößern.</content>
     <subsection label="boot">
-      <content lang="en" title="Booting Sequence">
+      <content lang="en" title="Booting Sequence (v0.x - 1.x)">
         This is a screenshot of GeeXboX booting. The system is booting using <use name="bootsplash"/> in order to have an animated boot logo.
       </content>
       <content lang="fr" title="Séquence de démarrage">
@@ -63,7 +63,7 @@
       <use name="scr-boot"/>
     </subsection>
     <subsection label="osd">
-      <content lang="en" title="GeeXboX OSD Menu">
+      <content lang="en" title="GeeXboX OSD Menu (v0.x - 1.x)">
         Here is the main OSD (On Screen Display) Menu. This is what the system looks like just after booting. You're now able to fully control the OS using a keyboard, joystick or a supported remote control. The pictures above represents the 4 main themes (classic theme on the left, then aqua theme, movies theme and open media center theme on the right).
       </content>
       <content lang="fr" title="Menu OSD de la GeeXboX">
@@ -75,7 +75,7 @@
       <use name="scr-osd"/>
     </subsection>
     <subsection label="video">
-      <content lang="en" title="Playing Video">
+      <content lang="en" title="Playing Video (v0.x - 1.x)">
          Here is GeeXboX while playing a DivX movie. The system has been paused to minimize motion, allowing a screenshot to be taken.
       </content>
       <content lang="fr" title="Lecture Vidéo">
