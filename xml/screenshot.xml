@@ -47,9 +47,6 @@
   </define>
 
   <section label="screenshot">
-    <content lang="en" title="Screenshots and Themes ...">Here are some screenshots of the GeeXboX in action. You just have to click on the thumbnails to enlarge these pictures.</content>
-    <content lang="fr" title="Captures d'écrans et Thèmes ...">Vous trouverez ci-dessous des captures d'écrans de la GeeXboX en action. Cliquez simplement sur les miniatures pour afficher les images à leur taille originale.</content>
-    <content lang="de" title="Screenshots und Themes ...">Hier sind einige Screenshots der GeeXboX in Aktion. Klicken Sie einfach auf die Vorschaubilder, um diese zu vergrößern.</content>
     <subsection label="boot">
       <content lang="en" title="Booting Sequence (v0.x - 1.x)">
         This is a screenshot of GeeXboX booting. The system is booting using <use name="bootsplash"/> in order to have an animated boot logo.
