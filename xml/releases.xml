@@ -11,7 +11,7 @@
   <release type="dl_unstable">
     <title>Download</title>
     <type>Unstable</type>
-    <version>2.0-alpha1</version>
-    <url>http://www1.geexbox.org/releases/2.0-alpha1/geexbox-2.0-alpha1-en.i386.eglibc.iso</url>
+    <version>2.0-alpha2</version>
+    <url>http://www1.geexbox.org/releases/2.0-alpha2/geexbox-2.0-alpha2-en.i386.eglibc.iso</url>
   </release>
 </releases>
