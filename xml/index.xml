@@ -142,6 +142,7 @@
           <li>Initial port to ARM architecture: stay tuned, it's gonna be
             awesome news soon :-)</li>
           <li>Restoration of UPnP/DLNA feature with a brand new stack.</li>
+          <li>Restoration of internationalization support.</li>
           <li>Upgrade of nVidia drivers: proprietary, legacy one and
             addition of Nouveau.</li>
           <li>Add Kernel Mode Settings (KMS) for ATI/Intel/nVidia drivers.</li>
