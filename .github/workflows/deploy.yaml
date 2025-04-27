@@ -39,6 +39,7 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - run: sudo apt-get install xsltproc
       - name: Build
         run: ./gen.sh
       - name: Upload artifact
