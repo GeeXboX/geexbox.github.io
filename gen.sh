@@ -15,7 +15,7 @@ for l in $LANGS; do
         xsltproc --stringparam filename $p.html --stringparam lang $l xml/geexbox.xsl xml/$p.xml > $l/$p.html
     done
     xsltproc --stringparam date "`date "+%Y-%m-%dT%H:%M:%SZ"`" --stringparam lang $l xml/geexbox.xsl xml/index.xml > $l/news.xml
-    cp -rf $l/* public
+    cp -rf $l $l/* public
 done
 
 cp -rf img style public
